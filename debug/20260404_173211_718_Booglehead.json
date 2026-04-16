@@ -1,0 +1,3338 @@
+{
+  "portfolioName" : "Booglehead",
+  "symbols" : [ "VTI", "VXUS", "BND" ],
+  "startWeights" : {
+    "VTI" : 0.33,
+    "VXUS" : 0.33,
+    "BND" : 0.34
+  },
+  "optimizeBy" : "utility",
+  "initialUtility" : 0.04889616384625314,
+  "epochs" : [ {
+    "epoch" : 0,
+    "startWeights" : {
+      "VTI" : 0.33,
+      "VXUS" : 0.33,
+      "BND" : 0.34
+    },
+    "startUtility" : 0.04889616384625314,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.34,
+        "VXUS" : 0.325,
+        "BND" : 0.335
+      },
+      "utility" : 0.05006286244325374,
+      "sharpe" : 0.320069956148175,
+      "score" : 0.05006286244325374,
+      "delta" : 0.0011666985970005955
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.325,
+        "VXUS" : 0.34,
+        "BND" : 0.335
+      },
+      "utility" : 0.048763074231858,
+      "sharpe" : 0.31230831359357186,
+      "score" : 0.048763074231858,
+      "delta" : -1.3308961439514183E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.325,
+        "VXUS" : 0.325,
+        "BND" : 0.35
+      },
+      "utility" : 0.047823275095536695,
+      "sharpe" : 0.3059429254192639,
+      "score" : 0.047823275095536695,
+      "delta" : -0.0010728887507164483
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.34,
+      "VXUS" : 0.325,
+      "BND" : 0.335
+    },
+    "endUtility" : 0.05006286244325374,
+    "improvement" : 0.0011666985970005955
+  }, {
+    "epoch" : 1,
+    "startWeights" : {
+      "VTI" : 0.34,
+      "VXUS" : 0.325,
+      "BND" : 0.335
+    },
+    "startUtility" : 0.05006286244325374,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.35,
+        "VXUS" : 0.32,
+        "BND" : 0.33
+      },
+      "utility" : 0.05120824333175098,
+      "sharpe" : 0.32720281476575086,
+      "score" : 0.05120824333175098,
+      "delta" : 0.0011453808884972425
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.335,
+        "VXUS" : 0.335,
+        "BND" : 0.33
+      },
+      "utility" : 0.04996048814352503,
+      "sharpe" : 0.3195656664397965,
+      "score" : 0.04996048814352503,
+      "delta" : -1.0237429972870943E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.335,
+        "VXUS" : 0.32,
+        "BND" : 0.345
+      },
+      "utility" : 0.04899760264059158,
+      "sharpe" : 0.313300297799013,
+      "score" : 0.04899760264059158,
+      "delta" : -0.001065259802662158
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.35,
+      "VXUS" : 0.32,
+      "BND" : 0.33
+    },
+    "endUtility" : 0.05120824333175098,
+    "improvement" : 0.0011453808884972425
+  }, {
+    "epoch" : 2,
+    "startWeights" : {
+      "VTI" : 0.35,
+      "VXUS" : 0.32,
+      "BND" : 0.33
+    },
+    "startUtility" : 0.05120824333175098,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.36,
+        "VXUS" : 0.315,
+        "BND" : 0.325
+      },
+      "utility" : 0.05234689745007378,
+      "sharpe" : 0.33421952397225013,
+      "score" : 0.05234689745007378,
+      "delta" : 0.0011386541183227988
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.345,
+        "VXUS" : 0.33,
+        "BND" : 0.325
+      },
+      "utility" : 0.05111437612234832,
+      "sharpe" : 0.3267079714709653,
+      "score" : 0.05111437612234832,
+      "delta" : -9.386720940265936E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.345,
+        "VXUS" : 0.315,
+        "BND" : 0.34
+      },
+      "utility" : 0.05014817352185368,
+      "sharpe" : 0.3205404818484158,
+      "score" : 0.05014817352185368,
+      "delta" : -0.0010600698098972988
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.36,
+      "VXUS" : 0.315,
+      "BND" : 0.325
+    },
+    "endUtility" : 0.05234689745007378,
+    "improvement" : 0.0011386541183227988
+  }, {
+    "epoch" : 3,
+    "startWeights" : {
+      "VTI" : 0.36,
+      "VXUS" : 0.315,
+      "BND" : 0.325
+    },
+    "startUtility" : 0.05234689745007378,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.37,
+        "VXUS" : 0.31,
+        "BND" : 0.32
+      },
+      "utility" : 0.05346538737077333,
+      "sharpe" : 0.3411201584839825,
+      "score" : 0.05346538737077333,
+      "delta" : 0.0011184899206995516
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.355,
+        "VXUS" : 0.325,
+        "BND" : 0.32
+      },
+      "utility" : 0.052260169523747166,
+      "sharpe" : 0.33373518480920045,
+      "score" : 0.052260169523747166,
+      "delta" : -8.672792632661436E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.355,
+        "VXUS" : 0.31,
+        "BND" : 0.335
+      },
+      "utility" : 0.05129238714803829,
+      "sharpe" : 0.32766343047836716,
+      "score" : 0.05129238714803829,
+      "delta" : -0.0010545103020354885
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.37,
+      "VXUS" : 0.31,
+      "BND" : 0.32
+    },
+    "endUtility" : 0.05346538737077333,
+    "improvement" : 0.0011184899206995516
+  }, {
+    "epoch" : 4,
+    "startWeights" : {
+      "VTI" : 0.37,
+      "VXUS" : 0.31,
+      "BND" : 0.32
+    },
+    "startUtility" : 0.05346538737077333,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.38,
+        "VXUS" : 0.305,
+        "BND" : 0.315
+      },
+      "utility" : 0.05457336391536728,
+      "sharpe" : 0.34790486926036124,
+      "score" : 0.05457336391536728,
+      "delta" : 0.00110797654459395
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.365,
+        "VXUS" : 0.32,
+        "BND" : 0.315
+      },
+      "utility" : 0.05339274811727522,
+      "sharpe" : 0.3406473417095391,
+      "score" : 0.05339274811727522,
+      "delta" : -7.263925349811073E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.365,
+        "VXUS" : 0.305,
+        "BND" : 0.33
+      },
+      "utility" : 0.05240903955784602,
+      "sharpe" : 0.33466917922012596,
+      "score" : 0.05240903955784602,
+      "delta" : -0.0010563478129273149
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.38,
+      "VXUS" : 0.305,
+      "BND" : 0.315
+    },
+    "endUtility" : 0.05457336391536728,
+    "improvement" : 0.00110797654459395
+  }, {
+    "epoch" : 5,
+    "startWeights" : {
+      "VTI" : 0.38,
+      "VXUS" : 0.305,
+      "BND" : 0.315
+    },
+    "startUtility" : 0.05457336391536728,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.39,
+        "VXUS" : 0.3,
+        "BND" : 0.31
+      },
+      "utility" : 0.05568327132770734,
+      "sharpe" : 0.3545738803942507,
+      "score" : 0.05568327132770734,
+      "delta" : 0.0011099074123400582
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.375,
+        "VXUS" : 0.315,
+        "BND" : 0.31
+      },
+      "utility" : 0.05450875898724033,
+      "sharpe" : 0.34744455358074494,
+      "score" : 0.05450875898724033,
+      "delta" : -6.460492812695312E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.375,
+        "VXUS" : 0.3,
+        "BND" : 0.325
+      },
+      "utility" : 0.053522236677237066,
+      "sharpe" : 0.34155784306970893,
+      "score" : 0.053522236677237066,
+      "delta" : -0.0010511272381302159
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.39,
+      "VXUS" : 0.3,
+      "BND" : 0.31
+    },
+    "endUtility" : 0.05568327132770734,
+    "improvement" : 0.0011099074123400582
+  }, {
+    "epoch" : 6,
+    "startWeights" : {
+      "VTI" : 0.39,
+      "VXUS" : 0.3,
+      "BND" : 0.31
+    },
+    "startUtility" : 0.05568327132770734,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.4,
+        "VXUS" : 0.295,
+        "BND" : 0.305
+      },
+      "utility" : 0.056794248059558176,
+      "sharpe" : 0.3611274859873357,
+      "score" : 0.056794248059558176,
+      "delta" : 0.0011109767318508365
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.385,
+        "VXUS" : 0.31,
+        "BND" : 0.305
+      },
+      "utility" : 0.05561867846387665,
+      "sharpe" : 0.3541270049746118,
+      "score" : 0.05561867846387665,
+      "delta" : -6.459286383068974E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.385,
+        "VXUS" : 0.295,
+        "BND" : 0.32
+      },
+      "utility" : 0.05463031582620371,
+      "sharpe" : 0.34832961329987033,
+      "score" : 0.05463031582620371,
+      "delta" : -0.0010529555015036315
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.4,
+      "VXUS" : 0.295,
+      "BND" : 0.305
+    },
+    "endUtility" : 0.056794248059558176,
+    "improvement" : 0.0011109767318508365
+  }, {
+    "epoch" : 7,
+    "startWeights" : {
+      "VTI" : 0.4,
+      "VXUS" : 0.295,
+      "BND" : 0.305
+    },
+    "startUtility" : 0.056794248059558176,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.41,
+        "VXUS" : 0.29,
+        "BND" : 0.3
+      },
+      "utility" : 0.05790650143782098,
+      "sharpe" : 0.3675660470209346,
+      "score" : 0.05790650143782098,
+      "delta" : 0.0011122533782628036
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.395,
+        "VXUS" : 0.305,
+        "BND" : 0.3
+      },
+      "utility" : 0.056726841732866407,
+      "sharpe" : 0.3606949505547679,
+      "score" : 0.056726841732866407,
+      "delta" : -6.740632669176988E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.395,
+        "VXUS" : 0.29,
+        "BND" : 0.315
+      },
+      "utility" : 0.055740106541111216,
+      "sharpe" : 0.3549847542515899,
+      "score" : 0.055740106541111216,
+      "delta" : -0.0010541415184469605
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.41,
+      "VXUS" : 0.29,
+      "BND" : 0.3
+    },
+    "endUtility" : 0.05790650143782098,
+    "improvement" : 0.0011122533782628036
+  }, {
+    "epoch" : 8,
+    "startWeights" : {
+      "VTI" : 0.41,
+      "VXUS" : 0.29,
+      "BND" : 0.3
+    },
+    "startUtility" : 0.05790650143782098,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.42,
+        "VXUS" : 0.285,
+        "BND" : 0.295
+      },
+      "utility" : 0.05901758759990812,
+      "sharpe" : 0.37388998823222386,
+      "score" : 0.05901758759990812,
+      "delta" : 0.0011110861620871396
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.405,
+        "VXUS" : 0.3,
+        "BND" : 0.295
+      },
+      "utility" : 0.057839113989140295,
+      "sharpe" : 0.3671487120554533,
+      "score" : 0.057839113989140295,
+      "delta" : -6.738744868068497E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.405,
+        "VXUS" : 0.285,
+        "BND" : 0.31
+      },
+      "utility" : 0.05685318810295014,
+      "sharpe" : 0.36152360011624207,
+      "score" : 0.05685318810295014,
+      "delta" : -0.0010533133348708396
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.42,
+      "VXUS" : 0.285,
+      "BND" : 0.295
+    },
+    "endUtility" : 0.05901758759990812,
+    "improvement" : 0.0011110861620871396
+  }, {
+    "epoch" : 9,
+    "startWeights" : {
+      "VTI" : 0.42,
+      "VXUS" : 0.285,
+      "BND" : 0.295
+    },
+    "startUtility" : 0.05901758759990812,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.43,
+        "VXUS" : 0.28,
+        "BND" : 0.29
+      },
+      "utility" : 0.060097950394376966,
+      "sharpe" : 0.38009979500498,
+      "score" : 0.060097950394376966,
+      "delta" : 0.0010803627944688463
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.415,
+        "VXUS" : 0.295,
+        "BND" : 0.29
+      },
+      "utility" : 0.058950121881673305,
+      "sharpe" : 0.3734886752400639,
+      "score" : 0.058950121881673305,
+      "delta" : -6.746571823481456E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.415,
+        "VXUS" : 0.28,
+        "BND" : 0.305
+      },
+      "utility" : 0.057962182090935066,
+      "sharpe" : 0.3679465517190854,
+      "score" : 0.057962182090935066,
+      "delta" : -0.0010554055089730535
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.43,
+      "VXUS" : 0.28,
+      "BND" : 0.29
+    },
+    "endUtility" : 0.060097950394376966,
+    "improvement" : 0.0010803627944688463
+  }, {
+    "epoch" : 10,
+    "startWeights" : {
+      "VTI" : 0.43,
+      "VXUS" : 0.28,
+      "BND" : 0.29
+    },
+    "startUtility" : 0.060097950394376966,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.44,
+        "VXUS" : 0.275,
+        "BND" : 0.285
+      },
+      "utility" : 0.061128706329242555,
+      "sharpe" : 0.38619601028342154,
+      "score" : 0.061128706329242555,
+      "delta" : 0.001030755934865589
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.425,
+        "VXUS" : 0.29,
+        "BND" : 0.285
+      },
+      "utility" : 0.06006384890116515,
+      "sharpe" : 0.3797152868686835,
+      "score" : 0.06006384890116515,
+      "delta" : -3.410149321181333E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.425,
+        "VXUS" : 0.275,
+        "BND" : 0.3
+      },
+      "utility" : 0.05905178624420502,
+      "sharpe" : 0.37425407331385424,
+      "score" : 0.05905178624420502,
+      "delta" : -0.0010461641501719465
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.44,
+      "VXUS" : 0.275,
+      "BND" : 0.285
+    },
+    "endUtility" : 0.061128706329242555,
+    "improvement" : 0.001030755934865589
+  }, {
+    "epoch" : 11,
+    "startWeights" : {
+      "VTI" : 0.44,
+      "VXUS" : 0.275,
+      "BND" : 0.285
+    },
+    "startUtility" : 0.061128706329242555,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.45,
+        "VXUS" : 0.27,
+        "BND" : 0.28
+      },
+      "utility" : 0.06214257835115135,
+      "sharpe" : 0.3921792315170683,
+      "score" : 0.06214257835115135,
+      "delta" : 0.0010138720219087932
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.435,
+        "VXUS" : 0.285,
+        "BND" : 0.28
+      },
+      "utility" : 0.06113296767448467,
+      "sharpe" : 0.3858290516831979,
+      "score" : 0.06113296767448467,
+      "delta" : 4.261345242118075E-6
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.435,
+        "VXUS" : 0.27,
+        "BND" : 0.295
+      },
+      "utility" : 0.060081347946524186,
+      "sharpe" : 0.38044668939771736,
+      "score" : 0.060081347946524186,
+      "delta" : -0.0010473583827183691
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.45,
+      "VXUS" : 0.27,
+      "BND" : 0.28
+    },
+    "endUtility" : 0.06214257835115135,
+    "improvement" : 0.0010138720219087932
+  }, {
+    "epoch" : 12,
+    "startWeights" : {
+      "VTI" : 0.45,
+      "VXUS" : 0.27,
+      "BND" : 0.28
+    },
+    "startUtility" : 0.06214257835115135,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.46,
+        "VXUS" : 0.265,
+        "BND" : 0.275
+      },
+      "utility" : 0.06314720244607801,
+      "sharpe" : 0.3980501076438042,
+      "score" : 0.06314720244607801,
+      "delta" : 0.0010046240949266594
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.445,
+        "VXUS" : 0.28,
+        "BND" : 0.275
+      },
+      "utility" : 0.06216160647191052,
+      "sharpe" : 0.39183052941791263,
+      "score" : 0.06216160647191052,
+      "delta" : 1.902812075917082E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.445,
+        "VXUS" : 0.265,
+        "BND" : 0.29
+      },
+      "utility" : 0.061101903691247225,
+      "sharpe" : 0.38652498155502457,
+      "score" : 0.061101903691247225,
+      "delta" : -0.0010406746599041228
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.46,
+      "VXUS" : 0.265,
+      "BND" : 0.275
+    },
+    "endUtility" : 0.06314720244607801,
+    "improvement" : 0.0010046240949266594
+  }, {
+    "epoch" : 13,
+    "startWeights" : {
+      "VTI" : 0.46,
+      "VXUS" : 0.265,
+      "BND" : 0.275
+    },
+    "startUtility" : 0.06314720244607801,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.47,
+        "VXUS" : 0.26,
+        "BND" : 0.27
+      },
+      "utility" : 0.06415167119237805,
+      "sharpe" : 0.4038093361177876,
+      "score" : 0.06415167119237805,
+      "delta" : 0.001004468746300044
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.455,
+        "VXUS" : 0.275,
+        "BND" : 0.27
+      },
+      "utility" : 0.06317206660527419,
+      "sharpe" : 0.3977203318430253,
+      "score" : 0.06317206660527419,
+      "delta" : 2.4864159196183455E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.455,
+        "VXUS" : 0.26,
+        "BND" : 0.285
+      },
+      "utility" : 0.06211094742939545,
+      "sharpe" : 0.3924895853376837,
+      "score" : 0.06211094742939545,
+      "delta" : -0.001036255016682558
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.47,
+      "VXUS" : 0.26,
+      "BND" : 0.27
+    },
+    "endUtility" : 0.06415167119237805,
+    "improvement" : 0.001004468746300044
+  }, {
+    "epoch" : 14,
+    "startWeights" : {
+      "VTI" : 0.47,
+      "VXUS" : 0.26,
+      "BND" : 0.27
+    },
+    "startUtility" : 0.06415167119237805,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.48,
+        "VXUS" : 0.255,
+        "BND" : 0.265
+      },
+      "utility" : 0.06510513255609579,
+      "sharpe" : 0.40945765998814393,
+      "score" : 0.06510513255609579,
+      "delta" : 9.534613637177392E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.465,
+        "VXUS" : 0.27,
+        "BND" : 0.265
+      },
+      "utility" : 0.06417483457237173,
+      "sharpe" : 0.4034991198476423,
+      "score" : 0.06417483457237173,
+      "delta" : 2.316337999368201E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.465,
+        "VXUS" : 0.255,
+        "BND" : 0.28
+      },
+      "utility" : 0.0631143450418902,
+      "sharpe" : 0.39834118718931044,
+      "score" : 0.0631143450418902,
+      "delta" : -0.0010373261504878495
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.48,
+      "VXUS" : 0.255,
+      "BND" : 0.265
+    },
+    "endUtility" : 0.06510513255609579,
+    "improvement" : 9.534613637177392E-4
+  }, {
+    "epoch" : 15,
+    "startWeights" : {
+      "VTI" : 0.48,
+      "VXUS" : 0.255,
+      "BND" : 0.265
+    },
+    "startUtility" : 0.06510513255609579,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.49,
+        "VXUS" : 0.25,
+        "BND" : 0.26
+      },
+      "utility" : 0.06604782475621157,
+      "sharpe" : 0.4149958650338269,
+      "score" : 0.06604782475621157,
+      "delta" : 9.4269220011578E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.475,
+        "VXUS" : 0.265,
+        "BND" : 0.26
+      },
+      "utility" : 0.06517106205445705,
+      "sharpe" : 0.4091676005684463,
+      "score" : 0.06517106205445705,
+      "delta" : 6.592949836126127E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.475,
+        "VXUS" : 0.25,
+        "BND" : 0.275
+      },
+      "utility" : 0.0640830881097449,
+      "sharpe" : 0.40408052141958445,
+      "score" : 0.0640830881097449,
+      "delta" : -0.0010220444463508865
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.49,
+      "VXUS" : 0.25,
+      "BND" : 0.26
+    },
+    "endUtility" : 0.06604782475621157,
+    "improvement" : 9.4269220011578E-4
+  }, {
+    "epoch" : 16,
+    "startWeights" : {
+      "VTI" : 0.49,
+      "VXUS" : 0.25,
+      "BND" : 0.26
+    },
+    "startUtility" : 0.06604782475621157,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.5,
+        "VXUS" : 0.245,
+        "BND" : 0.255
+      },
+      "utility" : 0.06699180261514981,
+      "sharpe" : 0.42042477695939406,
+      "score" : 0.06699180261514981,
+      "delta" : 9.439778589382386E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.485,
+        "VXUS" : 0.26,
+        "BND" : 0.255
+      },
+      "utility" : 0.06611594812414434,
+      "sharpe" : 0.4147265245695405,
+      "score" : 0.06611594812414434,
+      "delta" : 6.812336793277085E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.485,
+        "VXUS" : 0.245,
+        "BND" : 0.27
+      },
+      "utility" : 0.06502867007130983,
+      "sharpe" : 0.4097083672346517,
+      "score" : 0.06502867007130983,
+      "delta" : -0.0010191546849017408
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.5,
+      "VXUS" : 0.245,
+      "BND" : 0.255
+    },
+    "endUtility" : 0.06699180261514981,
+    "improvement" : 9.439778589382386E-4
+  }, {
+    "epoch" : 17,
+    "startWeights" : {
+      "VTI" : 0.5,
+      "VXUS" : 0.245,
+      "BND" : 0.255
+    },
+    "startUtility" : 0.06699180261514981,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.51,
+        "VXUS" : 0.24,
+        "BND" : 0.25
+      },
+      "utility" : 0.06792225275850619,
+      "sharpe" : 0.4257452586559542,
+      "score" : 0.06792225275850619,
+      "delta" : 9.304501433563817E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.495,
+        "VXUS" : 0.255,
+        "BND" : 0.25
+      },
+      "utility" : 0.06705814031736143,
+      "sharpe" : 0.42017668307838346,
+      "score" : 0.06705814031736143,
+      "delta" : 6.633770221162183E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.495,
+        "VXUS" : 0.24,
+        "BND" : 0.265
+      },
+      "utility" : 0.06597129272109292,
+      "sharpe" : 0.415225545828779,
+      "score" : 0.06597129272109292,
+      "delta" : -0.0010205098940568869
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.51,
+      "VXUS" : 0.24,
+      "BND" : 0.25
+    },
+    "endUtility" : 0.06792225275850619,
+    "improvement" : 9.304501433563817E-4
+  }, {
+    "epoch" : 18,
+    "startWeights" : {
+      "VTI" : 0.51,
+      "VXUS" : 0.24,
+      "BND" : 0.25
+    },
+    "startUtility" : 0.06792225275850619,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.52,
+        "VXUS" : 0.235,
+        "BND" : 0.245
+      },
+      "utility" : 0.06881274888332664,
+      "sharpe" : 0.43095820753086966,
+      "score" : 0.06881274888332664,
+      "delta" : 8.904961248204502E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.505,
+        "VXUS" : 0.25,
+        "BND" : 0.245
+      },
+      "utility" : 0.06800443172323328,
+      "sharpe" : 0.42551890528220315,
+      "score" : 0.06800443172323328,
+      "delta" : 8.217896472709207E-5
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.505,
+        "VXUS" : 0.235,
+        "BND" : 0.26
+      },
+      "utility" : 0.066901559355429,
+      "sharpe" : 0.42063291754184456,
+      "score" : 0.066901559355429,
+      "delta" : -0.0010206934030771858
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.52,
+      "VXUS" : 0.235,
+      "BND" : 0.245
+    },
+    "endUtility" : 0.06881274888332664,
+    "improvement" : 8.904961248204502E-4
+  }, {
+    "epoch" : 19,
+    "startWeights" : {
+      "VTI" : 0.52,
+      "VXUS" : 0.235,
+      "BND" : 0.245
+    },
+    "startUtility" : 0.06881274888332664,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.53,
+        "VXUS" : 0.23,
+        "BND" : 0.24
+      },
+      "utility" : 0.06968957247213092,
+      "sharpe" : 0.4360645529094007,
+      "score" : 0.06968957247213092,
+      "delta" : 8.768235888042819E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.515,
+        "VXUS" : 0.245,
+        "BND" : 0.24
+      },
+      "utility" : 0.06893679936838376,
+      "sharpe" : 0.43075405568872205,
+      "score" : 0.06893679936838376,
+      "delta" : 1.2405048505712002E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.515,
+        "VXUS" : 0.23,
+        "BND" : 0.255
+      },
+      "utility" : 0.0677899783498413,
+      "sharpe" : 0.4259313790866669,
+      "score" : 0.0677899783498413,
+      "delta" : -0.0010227705334853454
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.53,
+      "VXUS" : 0.23,
+      "BND" : 0.24
+    },
+    "endUtility" : 0.06968957247213092,
+    "improvement" : 8.768235888042819E-4
+  }, {
+    "epoch" : 20,
+    "startWeights" : {
+      "VTI" : 0.53,
+      "VXUS" : 0.23,
+      "BND" : 0.24
+    },
+    "startUtility" : 0.06968957247213092,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.54,
+        "VXUS" : 0.225,
+        "BND" : 0.235
+      },
+      "utility" : 0.07055277269724713,
+      "sharpe" : 0.44106525351091713,
+      "score" : 0.07055277269724713,
+      "delta" : 8.632002251162119E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.525,
+        "VXUS" : 0.24,
+        "BND" : 0.235
+      },
+      "utility" : 0.06982665030108946,
+      "sharpe" : 0.435883031554557,
+      "score" : 0.06982665030108946,
+      "delta" : 1.3707782895854004E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.525,
+        "VXUS" : 0.225,
+        "BND" : 0.25
+      },
+      "utility" : 0.06867006981342541,
+      "sharpe" : 0.43112186084964005,
+      "score" : 0.06867006981342541,
+      "delta" : -0.0010195026587055123
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.54,
+      "VXUS" : 0.225,
+      "BND" : 0.235
+    },
+    "endUtility" : 0.07055277269724713,
+    "improvement" : 8.632002251162119E-4
+  }, {
+    "epoch" : 21,
+    "startWeights" : {
+      "VTI" : 0.54,
+      "VXUS" : 0.225,
+      "BND" : 0.235
+    },
+    "startUtility" : 0.07055277269724713,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.55,
+        "VXUS" : 0.22,
+        "BND" : 0.23
+      },
+      "utility" : 0.07137665776194664,
+      "sharpe" : 0.4459612950018484,
+      "score" : 0.07137665776194664,
+      "delta" : 8.238850646995061E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.535,
+        "VXUS" : 0.235,
+        "BND" : 0.23
+      },
+      "utility" : 0.07069985579384414,
+      "sharpe" : 0.440906760384074,
+      "score" : 0.07069985579384414,
+      "delta" : 1.4708309659700047E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.535,
+        "VXUS" : 0.22,
+        "BND" : 0.245
+      },
+      "utility" : 0.06953703795394216,
+      "sharpe" : 0.4362053242676057,
+      "score" : 0.06953703795394216,
+      "delta" : -0.0010157347433049774
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.55,
+      "VXUS" : 0.22,
+      "BND" : 0.23
+    },
+    "endUtility" : 0.07137665776194664,
+    "improvement" : 8.238850646995061E-4
+  }, {
+    "epoch" : 22,
+    "startWeights" : {
+      "VTI" : 0.55,
+      "VXUS" : 0.22,
+      "BND" : 0.23
+    },
+    "startUtility" : 0.07137665776194664,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.56,
+        "VXUS" : 0.215,
+        "BND" : 0.225
+      },
+      "utility" : 0.07218003711335728,
+      "sharpe" : 0.4507536876271064,
+      "score" : 0.07218003711335728,
+      "delta" : 8.033793514106435E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.545,
+        "VXUS" : 0.23,
+        "BND" : 0.225
+      },
+      "utility" : 0.07155802497398848,
+      "sharpe" : 0.4458261975011568,
+      "score" : 0.07155802497398848,
+      "delta" : 1.8136721204184414E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.545,
+        "VXUS" : 0.215,
+        "BND" : 0.24
+      },
+      "utility" : 0.07035996391981275,
+      "sharpe" : 0.44118275928336464,
+      "score" : 0.07035996391981275,
+      "delta" : -0.0010166938421338895
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.56,
+      "VXUS" : 0.215,
+      "BND" : 0.225
+    },
+    "endUtility" : 0.07218003711335728,
+    "improvement" : 8.033793514106435E-4
+  }, {
+    "epoch" : 23,
+    "startWeights" : {
+      "VTI" : 0.56,
+      "VXUS" : 0.215,
+      "BND" : 0.225
+    },
+    "startUtility" : 0.07218003711335728,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.57,
+        "VXUS" : 0.21,
+        "BND" : 0.22
+      },
+      "utility" : 0.07296555538704216,
+      "sharpe" : 0.4554434639212859,
+      "score" : 0.07296555538704216,
+      "delta" : 7.855182736848793E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.555,
+        "VXUS" : 0.225,
+        "BND" : 0.22
+      },
+      "utility" : 0.07237872842134074,
+      "sharpe" : 0.4506423236957455,
+      "score" : 0.07237872842134074,
+      "delta" : 1.9869130798345902E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.555,
+        "VXUS" : 0.21,
+        "BND" : 0.235
+      },
+      "utility" : 0.07116579082486534,
+      "sharpe" : 0.4460551818818384,
+      "score" : 0.07116579082486534,
+      "delta" : -0.001014246288491949
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.57,
+      "VXUS" : 0.21,
+      "BND" : 0.22
+    },
+    "endUtility" : 0.07296555538704216,
+    "improvement" : 7.855182736848793E-4
+  }, {
+    "epoch" : 24,
+    "startWeights" : {
+      "VTI" : 0.57,
+      "VXUS" : 0.21,
+      "BND" : 0.22
+    },
+    "startUtility" : 0.07296555538704216,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.58,
+        "VXUS" : 0.205,
+        "BND" : 0.215
+      },
+      "utility" : 0.07374758238137609,
+      "sharpe" : 0.4600316765005943,
+      "score" : 0.07374758238137609,
+      "delta" : 7.820269943339259E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.565,
+        "VXUS" : 0.22,
+        "BND" : 0.215
+      },
+      "utility" : 0.07318318028918452,
+      "sharpe" : 0.45535614294671983,
+      "score" : 0.07318318028918452,
+      "delta" : 2.176249021423604E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.565,
+        "VXUS" : 0.205,
+        "BND" : 0.23
+      },
+      "utility" : 0.07195260244436263,
+      "sharpe" : 0.4508236317082957,
+      "score" : 0.07195260244436263,
+      "delta" : -0.0010129529426795292
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.58,
+      "VXUS" : 0.205,
+      "BND" : 0.215
+    },
+    "endUtility" : 0.07374758238137609,
+    "improvement" : 7.820269943339259E-4
+  }, {
+    "epoch" : 25,
+    "startWeights" : {
+      "VTI" : 0.58,
+      "VXUS" : 0.205,
+      "BND" : 0.215
+    },
+    "startUtility" : 0.07374758238137609,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.59,
+        "VXUS" : 0.2,
+        "BND" : 0.21
+      },
+      "utility" : 0.07451787108282838,
+      "sharpe" : 0.4645193959360368,
+      "score" : 0.07451787108282838,
+      "delta" : 7.70288701452293E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.575,
+        "VXUS" : 0.215,
+        "BND" : 0.21
+      },
+      "utility" : 0.07397267065492495,
+      "sharpe" : 0.45996868022226767,
+      "score" : 0.07397267065492495,
+      "delta" : 2.250882735488624E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.575,
+        "VXUS" : 0.2,
+        "BND" : 0.225
+      },
+      "utility" : 0.07272788530558982,
+      "sharpe" : 0.45548916976986187,
+      "score" : 0.07272788530558982,
+      "delta" : -0.0010196970757862661
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.59,
+      "VXUS" : 0.2,
+      "BND" : 0.21
+    },
+    "endUtility" : 0.07451787108282838,
+    "improvement" : 7.70288701452293E-4
+  }, {
+    "epoch" : 26,
+    "startWeights" : {
+      "VTI" : 0.59,
+      "VXUS" : 0.2,
+      "BND" : 0.21
+    },
+    "startUtility" : 0.07451787108282838,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.6,
+        "VXUS" : 0.195,
+        "BND" : 0.205
+      },
+      "utility" : 0.07527828366867334,
+      "sharpe" : 0.46890770870816445,
+      "score" : 0.07527828366867334,
+      "delta" : 7.604125858449579E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.585,
+        "VXUS" : 0.21,
+        "BND" : 0.205
+      },
+      "utility" : 0.07475397401668636,
+      "sharpe" : 0.4644809793584749,
+      "score" : 0.07475397401668636,
+      "delta" : 2.3610293385797898E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.585,
+        "VXUS" : 0.195,
+        "BND" : 0.22
+      },
+      "utility" : 0.07349378669730297,
+      "sharpe" : 0.46005287622092583,
+      "score" : 0.07349378669730297,
+      "delta" : -0.0010240843855254117
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.6,
+      "VXUS" : 0.195,
+      "BND" : 0.205
+    },
+    "endUtility" : 0.07527828366867334,
+    "improvement" : 7.604125858449579E-4
+  }, {
+    "epoch" : 27,
+    "startWeights" : {
+      "VTI" : 0.6,
+      "VXUS" : 0.195,
+      "BND" : 0.205
+    },
+    "startUtility" : 0.07527828366867334,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.61,
+        "VXUS" : 0.19,
+        "BND" : 0.2
+      },
+      "utility" : 0.07602935944109411,
+      "sharpe" : 0.47319771524322773,
+      "score" : 0.07602935944109411,
+      "delta" : 7.510757724207701E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.595,
+        "VXUS" : 0.205,
+        "BND" : 0.2
+      },
+      "utility" : 0.07553151171694467,
+      "sharpe" : 0.4688941010166238,
+      "score" : 0.07553151171694467,
+      "delta" : 2.532280482713256E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.595,
+        "VXUS" : 0.19,
+        "BND" : 0.215
+      },
+      "utility" : 0.07425694531277686,
+      "sharpe" : 0.464515848232844,
+      "score" : 0.07425694531277686,
+      "delta" : -0.0010213383558964756
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.61,
+      "VXUS" : 0.19,
+      "BND" : 0.2
+    },
+    "endUtility" : 0.07602935944109411,
+    "improvement" : 7.510757724207701E-4
+  }, {
+    "epoch" : 28,
+    "startWeights" : {
+      "VTI" : 0.61,
+      "VXUS" : 0.19,
+      "BND" : 0.2
+    },
+    "startUtility" : 0.07602935944109411,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.62,
+        "VXUS" : 0.185,
+        "BND" : 0.195
+      },
+      "utility" : 0.07678372797813808,
+      "sharpe" : 0.477390528030456,
+      "score" : 0.07678372797813808,
+      "delta" : 7.543685370439701E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.605,
+        "VXUS" : 0.2,
+        "BND" : 0.195
+      },
+      "utility" : 0.07628732034717162,
+      "sharpe" : 0.4732091207193053,
+      "score" : 0.07628732034717162,
+      "delta" : 2.579609060775062E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.605,
+        "VXUS" : 0.185,
+        "BND" : 0.21
+      },
+      "utility" : 0.0750106247019393,
+      "sharpe" : 0.46887919794794425,
+      "score" : 0.0750106247019393,
+      "delta" : -0.001018734739154814
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.62,
+      "VXUS" : 0.185,
+      "BND" : 0.195
+    },
+    "endUtility" : 0.07678372797813808,
+    "improvement" : 7.543685370439701E-4
+  }, {
+    "epoch" : 29,
+    "startWeights" : {
+      "VTI" : 0.62,
+      "VXUS" : 0.185,
+      "BND" : 0.195
+    },
+    "startUtility" : 0.07678372797813808,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.63,
+        "VXUS" : 0.18,
+        "BND" : 0.19
+      },
+      "utility" : 0.077556649441401,
+      "sharpe" : 0.4814872698198197,
+      "score" : 0.077556649441401,
+      "delta" : 7.729214632629239E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.615,
+        "VXUS" : 0.195,
+        "BND" : 0.19
+      },
+      "utility" : 0.0770381776218793,
+      "sharpe" : 0.47742712696518297,
+      "score" : 0.0770381776218793,
+      "delta" : 2.544496437412169E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.615,
+        "VXUS" : 0.18,
+        "BND" : 0.205
+      },
+      "utility" : 0.07576465658972523,
+      "sharpe" : 0.4731440505175815,
+      "score" : 0.07576465658972523,
+      "delta" : -0.0010190713884128538
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.63,
+      "VXUS" : 0.18,
+      "BND" : 0.19
+    },
+    "endUtility" : 0.077556649441401,
+    "improvement" : 7.729214632629239E-4
+  }, {
+    "epoch" : 30,
+    "startWeights" : {
+      "VTI" : 0.63,
+      "VXUS" : 0.18,
+      "BND" : 0.19
+    },
+    "startUtility" : 0.077556649441401,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.64,
+        "VXUS" : 0.175,
+        "BND" : 0.185
+      },
+      "utility" : 0.07833002043748276,
+      "sharpe" : 0.48548907189944124,
+      "score" : 0.07833002043748276,
+      "delta" : 7.733709960817542E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.625,
+        "VXUS" : 0.19,
+        "BND" : 0.185
+      },
+      "utility" : 0.07780994982454799,
+      "sharpe" : 0.48154921942203627,
+      "score" : 0.07780994982454799,
+      "delta" : 2.5330038314698433E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.625,
+        "VXUS" : 0.175,
+        "BND" : 0.2
+      },
+      "utility" : 0.07652203363978098,
+      "sharpe" : 0.4773115422236638,
+      "score" : 0.07652203363978098,
+      "delta" : -0.001034615801620023
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.64,
+      "VXUS" : 0.175,
+      "BND" : 0.185
+    },
+    "endUtility" : 0.07833002043748276,
+    "improvement" : 7.733709960817542E-4
+  }, {
+    "epoch" : 31,
+    "startWeights" : {
+      "VTI" : 0.64,
+      "VXUS" : 0.175,
+      "BND" : 0.185
+    },
+    "startUtility" : 0.07833002043748276,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.65,
+        "VXUS" : 0.17,
+        "BND" : 0.18
+      },
+      "utility" : 0.07910160469961064,
+      "sharpe" : 0.48939707245160674,
+      "score" : 0.07910160469961064,
+      "delta" : 7.715842621278807E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.635,
+        "VXUS" : 0.185,
+        "BND" : 0.18
+      },
+      "utility" : 0.0785844609090021,
+      "sharpe" : 0.48557650719736767,
+      "score" : 0.0785844609090021,
+      "delta" : 2.54440471519346E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.635,
+        "VXUS" : 0.17,
+        "BND" : 0.195
+      },
+      "utility" : 0.07729235015290552,
+      "sharpe" : 0.4813828186828525,
+      "score" : 0.07729235015290552,
+      "delta" : -0.0010376702845772412
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.65,
+      "VXUS" : 0.17,
+      "BND" : 0.18
+    },
+    "endUtility" : 0.07910160469961064,
+    "improvement" : 7.715842621278807E-4
+  }, {
+    "epoch" : 32,
+    "startWeights" : {
+      "VTI" : 0.65,
+      "VXUS" : 0.17,
+      "BND" : 0.18
+    },
+    "startUtility" : 0.07910160469961064,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.66,
+        "VXUS" : 0.165,
+        "BND" : 0.175
+      },
+      "utility" : 0.07986371849705316,
+      "sharpe" : 0.4932124149861592,
+      "score" : 0.07986371849705316,
+      "delta" : 7.621137974425235E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.645,
+        "VXUS" : 0.18,
+        "BND" : 0.175
+      },
+      "utility" : 0.07935763519915906,
+      "sharpe" : 0.48951010718575366,
+      "score" : 0.07935763519915906,
+      "delta" : 2.5603049954842083E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.645,
+        "VXUS" : 0.165,
+        "BND" : 0.19
+      },
+      "utility" : 0.0780620490300871,
+      "sharpe" : 0.48535903313240264,
+      "score" : 0.0780620490300871,
+      "delta" : -0.0010395556695235453
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.66,
+      "VXUS" : 0.165,
+      "BND" : 0.175
+    },
+    "endUtility" : 0.07986371849705316,
+    "improvement" : 7.621137974425235E-4
+  }, {
+    "epoch" : 33,
+    "startWeights" : {
+      "VTI" : 0.66,
+      "VXUS" : 0.165,
+      "BND" : 0.175
+    },
+    "startUtility" : 0.07986371849705316,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.67,
+        "VXUS" : 0.16,
+        "BND" : 0.17
+      },
+      "utility" : 0.08062378750653579,
+      "sharpe" : 0.4969362468498335,
+      "score" : 0.08062378750653579,
+      "delta" : 7.600690094826251E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.655,
+        "VXUS" : 0.175,
+        "BND" : 0.17
+      },
+      "utility" : 0.08013283834885193,
+      "sharpe" : 0.49335114249187295,
+      "score" : 0.08013283834885193,
+      "delta" : 2.6911985179876863E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.655,
+        "VXUS" : 0.16,
+        "BND" : 0.185
+      },
+      "utility" : 0.0788272912389668,
+      "sharpe" : 0.4892413447964419,
+      "score" : 0.0788272912389668,
+      "delta" : -0.0010364272580863643
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.67,
+      "VXUS" : 0.16,
+      "BND" : 0.17
+    },
+    "endUtility" : 0.08062378750653579,
+    "improvement" : 7.600690094826251E-4
+  }, {
+    "epoch" : 34,
+    "startWeights" : {
+      "VTI" : 0.67,
+      "VXUS" : 0.16,
+      "BND" : 0.17
+    },
+    "startUtility" : 0.08062378750653579,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.68,
+        "VXUS" : 0.155,
+        "BND" : 0.165
+      },
+      "utility" : 0.08138148954705077,
+      "sharpe" : 0.5005697178100258,
+      "score" : 0.08138148954705077,
+      "delta" : 7.577020405149792E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.665,
+        "VXUS" : 0.17,
+        "BND" : 0.165
+      },
+      "utility" : 0.08089381869523217,
+      "sharpe" : 0.4971007409279244,
+      "score" : 0.08089381869523217,
+      "delta" : 2.700311886963819E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.665,
+        "VXUS" : 0.155,
+        "BND" : 0.18
+      },
+      "utility" : 0.07958828000280324,
+      "sharpe" : 0.4930309173312377,
+      "score" : 0.07958828000280324,
+      "delta" : -0.0010355075037325467
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.68,
+      "VXUS" : 0.155,
+      "BND" : 0.165
+    },
+    "endUtility" : 0.08138148954705077,
+    "improvement" : 7.577020405149792E-4
+  }, {
+    "epoch" : 35,
+    "startWeights" : {
+      "VTI" : 0.68,
+      "VXUS" : 0.155,
+      "BND" : 0.165
+    },
+    "startUtility" : 0.08138148954705077,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.69,
+        "VXUS" : 0.15,
+        "BND" : 0.16
+      },
+      "utility" : 0.08212641475680656,
+      "sharpe" : 0.5041139787113139,
+      "score" : 0.08212641475680656,
+      "delta" : 7.449252097557896E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.675,
+        "VXUS" : 0.165,
+        "BND" : 0.16
+      },
+      "utility" : 0.08165285056475079,
+      "sharpe" : 0.5007600335841468,
+      "score" : 0.08165285056475079,
+      "delta" : 2.7136101770001975E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.675,
+        "VXUS" : 0.15,
+        "BND" : 0.175
+      },
+      "utility" : 0.08034658568750737,
+      "sharpe" : 0.4967289173478936,
+      "score" : 0.08034658568750737,
+      "delta" : -0.0010349038595433985
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.69,
+      "VXUS" : 0.15,
+      "BND" : 0.16
+    },
+    "endUtility" : 0.08212641475680656,
+    "improvement" : 7.449252097557896E-4
+  }, {
+    "epoch" : 36,
+    "startWeights" : {
+      "VTI" : 0.69,
+      "VXUS" : 0.15,
+      "BND" : 0.16
+    },
+    "startUtility" : 0.08212641475680656,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.7,
+        "VXUS" : 0.145,
+        "BND" : 0.155
+      },
+      "utility" : 0.08286654492730337,
+      "sharpe" : 0.5075701802029132,
+      "score" : 0.08286654492730337,
+      "delta" : 7.401301704968166E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.685,
+        "VXUS" : 0.16,
+        "BND" : 0.155
+      },
+      "utility" : 0.08240949747295763,
+      "sharpe" : 0.5043301534707794,
+      "score" : 0.08240949747295763,
+      "delta" : 2.8308271615107294E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.685,
+        "VXUS" : 0.145,
+        "BND" : 0.17
+      },
+      "utility" : 0.0810914289517741,
+      "sharpe" : 0.5003365130107834,
+      "score" : 0.0810914289517741,
+      "delta" : -0.0010349858050324595
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.7,
+      "VXUS" : 0.145,
+      "BND" : 0.155
+    },
+    "endUtility" : 0.08286654492730337,
+    "improvement" : 7.401301704968166E-4
+  }, {
+    "epoch" : 37,
+    "startWeights" : {
+      "VTI" : 0.7,
+      "VXUS" : 0.145,
+      "BND" : 0.155
+    },
+    "startUtility" : 0.08286654492730337,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.71,
+        "VXUS" : 0.14,
+        "BND" : 0.15
+      },
+      "utility" : 0.08360729111456795,
+      "sharpe" : 0.5109394715352248,
+      "score" : 0.08360729111456795,
+      "delta" : 7.407461872645793E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.695,
+        "VXUS" : 0.155,
+        "BND" : 0.15
+      },
+      "utility" : 0.08315324359506891,
+      "sharpe" : 0.5078122342299793,
+      "score" : 0.08315324359506891,
+      "delta" : 2.866986677655392E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.695,
+        "VXUS" : 0.14,
+        "BND" : 0.165
+      },
+      "utility" : 0.08183435522894038,
+      "sharpe" : 0.5038548727099053,
+      "score" : 0.08183435522894038,
+      "delta" : -0.0010321896983629952
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.71,
+      "VXUS" : 0.14,
+      "BND" : 0.15
+    },
+    "endUtility" : 0.08360729111456795,
+    "improvement" : 7.407461872645793E-4
+  }, {
+    "epoch" : 38,
+    "startWeights" : {
+      "VTI" : 0.71,
+      "VXUS" : 0.14,
+      "BND" : 0.15
+    },
+    "startUtility" : 0.08360729111456795,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.72,
+        "VXUS" : 0.135,
+        "BND" : 0.145
+      },
+      "utility" : 0.0843329530512312,
+      "sharpe" : 0.5142229994235259,
+      "score" : 0.0843329530512312,
+      "delta" : 7.256619366632494E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.705,
+        "VXUS" : 0.15,
+        "BND" : 0.145
+      },
+      "utility" : 0.08389251148865642,
+      "sharpe" : 0.5112074089158055,
+      "score" : 0.08389251148865642,
+      "delta" : 2.8522037408847123E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.705,
+        "VXUS" : 0.135,
+        "BND" : 0.16
+      },
+      "utility" : 0.0825757218305198,
+      "sharpe" : 0.5072851638051763,
+      "score" : 0.0825757218305198,
+      "delta" : -0.001031569284048156
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.72,
+      "VXUS" : 0.135,
+      "BND" : 0.145
+    },
+    "endUtility" : 0.0843329530512312,
+    "improvement" : 7.256619366632494E-4
+  }, {
+    "epoch" : 39,
+    "startWeights" : {
+      "VTI" : 0.72,
+      "VXUS" : 0.135,
+      "BND" : 0.145
+    },
+    "startUtility" : 0.0843329530512312,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.13,
+        "BND" : 0.14
+      },
+      "utility" : 0.08504130268696666,
+      "sharpe" : 0.5174219069767434,
+      "score" : 0.08504130268696666,
+      "delta" : 7.083496357354613E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.715,
+        "VXUS" : 0.145,
+        "BND" : 0.14
+      },
+      "utility" : 0.0846309235888318,
+      "sharpe" : 0.5145168088405568,
+      "score" : 0.0846309235888318,
+      "delta" : 2.9797053760059755E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.715,
+        "VXUS" : 0.13,
+        "BND" : 0.155
+      },
+      "utility" : 0.08329900395679563,
+      "sharpe" : 0.5106285514407007,
+      "score" : 0.08329900395679563,
+      "delta" : -0.0010339490944355767
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.73,
+      "VXUS" : 0.13,
+      "BND" : 0.14
+    },
+    "endUtility" : 0.08504130268696666,
+    "improvement" : 7.083496357354613E-4
+  }, {
+    "epoch" : 40,
+    "startWeights" : {
+      "VTI" : 0.73,
+      "VXUS" : 0.13,
+      "BND" : 0.14
+    },
+    "startUtility" : 0.08504130268696666,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.125,
+        "BND" : 0.135
+      },
+      "utility" : 0.08576181703533206,
+      "sharpe" : 0.5205373326892806,
+      "score" : 0.08576181703533206,
+      "delta" : 7.205143483653975E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.725,
+        "VXUS" : 0.14,
+        "BND" : 0.135
+      },
+      "utility" : 0.08536005231757982,
+      "sharpe" : 0.5177415624854983,
+      "score" : 0.08536005231757982,
+      "delta" : 3.187496306131521E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.725,
+        "VXUS" : 0.125,
+        "BND" : 0.15
+      },
+      "utility" : 0.08400776402524228,
+      "sharpe" : 0.5138861974269229,
+      "score" : 0.08400776402524228,
+      "delta" : -0.0010335386617243841
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.125,
+      "BND" : 0.135
+    },
+    "endUtility" : 0.08576181703533206,
+    "improvement" : 7.205143483653975E-4
+  }, {
+    "epoch" : 41,
+    "startWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.125,
+      "BND" : 0.135
+    },
+    "startUtility" : 0.08576181703533206,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.135,
+        "BND" : 0.13
+      },
+      "utility" : 0.0860682443002505,
+      "sharpe" : 0.5208827944740455,
+      "score" : 0.0860682443002505,
+      "delta" : 3.064272649184324E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.12,
+        "BND" : 0.145
+      },
+      "utility" : 0.08471860298038089,
+      "sharpe" : 0.5170592591885209,
+      "score" : 0.08471860298038089,
+      "delta" : -0.0010432140549511693
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.135,
+      "BND" : 0.13
+    },
+    "endUtility" : 0.0860682443002505,
+    "improvement" : 3.064272649184324E-4
+  }, {
+    "epoch" : 42,
+    "startWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.135,
+      "BND" : 0.13
+    },
+    "startUtility" : 0.0860682443002505,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.745,
+        "VXUS" : 0.13,
+        "BND" : 0.125
+      },
+      "utility" : 0.08679752195478974,
+      "sharpe" : 0.5239416246054212,
+      "score" : 0.08679752195478974,
+      "delta" : 7.292776545392426E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.145,
+        "BND" : 0.125
+      },
+      "utility" : 0.08638258196192665,
+      "sharpe" : 0.521185604323975,
+      "score" : 0.08638258196192665,
+      "delta" : 3.143376616761562E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.13,
+        "BND" : 0.14
+      },
+      "utility" : 0.08504130268696666,
+      "sharpe" : 0.5174219069767434,
+      "score" : 0.08504130268696666,
+      "delta" : -0.00102694161328383
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.13,
+      "BND" : 0.125
+    },
+    "endUtility" : 0.08679752195478974,
+    "improvement" : 7.292776545392426E-4
+  }, {
+    "epoch" : 43,
+    "startWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.13,
+      "BND" : 0.125
+    },
+    "startUtility" : 0.08679752195478974,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.14,
+        "BND" : 0.12
+      },
+      "utility" : 0.08710299102301547,
+      "sharpe" : 0.5242701968864923,
+      "score" : 0.08710299102301547,
+      "delta" : 3.054690682257333E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.125,
+        "BND" : 0.135
+      },
+      "utility" : 0.08576181703533206,
+      "sharpe" : 0.5205373326892806,
+      "score" : 0.08576181703533206,
+      "delta" : -0.001035704919457675
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.14,
+      "BND" : 0.12
+    },
+    "endUtility" : 0.08710299102301547,
+    "improvement" : 3.054690682257333E-4
+  }, {
+    "epoch" : 44,
+    "startWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.14,
+      "BND" : 0.12
+    },
+    "startUtility" : 0.08710299102301547,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.15,
+        "BND" : 0.115
+      },
+      "utility" : 0.08740150413127781,
+      "sharpe" : 0.5245564564701886,
+      "score" : 0.08740150413127781,
+      "delta" : 2.985131082623438E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.135,
+        "BND" : 0.13
+      },
+      "utility" : 0.0860682443002505,
+      "sharpe" : 0.5208827944740455,
+      "score" : 0.0860682443002505,
+      "delta" : -0.001034746722764976
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.15,
+      "BND" : 0.115
+    },
+    "endUtility" : 0.08740150413127781,
+    "improvement" : 2.985131082623438E-4
+  }, {
+    "epoch" : 45,
+    "startWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.15,
+      "BND" : 0.115
+    },
+    "startUtility" : 0.08740150413127781,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.745,
+        "VXUS" : 0.145,
+        "BND" : 0.11
+      },
+      "utility" : 0.08813277381549357,
+      "sharpe" : 0.5275854196519544,
+      "score" : 0.08813277381549357,
+      "delta" : 7.312696842157601E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.16,
+        "BND" : 0.11
+      },
+      "utility" : 0.08768551556327109,
+      "sharpe" : 0.5248007436277998,
+      "score" : 0.08768551556327109,
+      "delta" : 2.8401143199327517E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.145,
+        "BND" : 0.125
+      },
+      "utility" : 0.08638258196192665,
+      "sharpe" : 0.521185604323975,
+      "score" : 0.08638258196192665,
+      "delta" : -0.0010189221693511635
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.145,
+      "BND" : 0.11
+    },
+    "endUtility" : 0.08813277381549357,
+    "improvement" : 7.312696842157601E-4
+  }, {
+    "epoch" : 46,
+    "startWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.145,
+      "BND" : 0.11
+    },
+    "startUtility" : 0.08813277381549357,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.155,
+        "BND" : 0.105
+      },
+      "utility" : 0.08842174391647802,
+      "sharpe" : 0.5278554189397192,
+      "score" : 0.08842174391647802,
+      "delta" : 2.8897010098444254E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.14,
+        "BND" : 0.12
+      },
+      "utility" : 0.08710299102301547,
+      "sharpe" : 0.5242701968864923,
+      "score" : 0.08710299102301547,
+      "delta" : -0.001029782792478104
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.155,
+      "BND" : 0.105
+    },
+    "endUtility" : 0.08842174391647802,
+    "improvement" : 2.8897010098444254E-4
+  }, {
+    "epoch" : 47,
+    "startWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.155,
+      "BND" : 0.105
+    },
+    "startUtility" : 0.08842174391647802,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.165,
+        "BND" : 0.1
+      },
+      "utility" : 0.08870055552398858,
+      "sharpe" : 0.5280837832530947,
+      "score" : 0.08870055552398858,
+      "delta" : 2.7881160751055956E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.15,
+        "BND" : 0.115
+      },
+      "utility" : 0.08740150413127781,
+      "sharpe" : 0.5245564564701886,
+      "score" : 0.08740150413127781,
+      "delta" : -0.0010202397852002026
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.165,
+      "BND" : 0.1
+    },
+    "endUtility" : 0.08870055552398858,
+    "improvement" : 2.7881160751055956E-4
+  }, {
+    "epoch" : 48,
+    "startWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.165,
+      "BND" : 0.1
+    },
+    "startUtility" : 0.08870055552398858,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.745,
+        "VXUS" : 0.16,
+        "BND" : 0.095
+      },
+      "utility" : 0.08944735833523097,
+      "sharpe" : 0.5310837608763005,
+      "score" : 0.08944735833523097,
+      "delta" : 7.468028112423974E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.175,
+        "BND" : 0.095
+      },
+      "utility" : 0.08898179389434227,
+      "sharpe" : 0.5282708618033713,
+      "score" : 0.08898179389434227,
+      "delta" : 2.8123837035369526E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.16,
+        "BND" : 0.11
+      },
+      "utility" : 0.08768551556327109,
+      "sharpe" : 0.5248007436277998,
+      "score" : 0.08768551556327109,
+      "delta" : -0.001015039960717487
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.16,
+      "BND" : 0.095
+    },
+    "endUtility" : 0.08944735833523097,
+    "improvement" : 7.468028112423974E-4
+  }, {
+    "epoch" : 49,
+    "startWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.16,
+      "BND" : 0.095
+    },
+    "startUtility" : 0.08944735833523097,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.17,
+        "BND" : 0.09
+      },
+      "utility" : 0.08971704049277189,
+      "sharpe" : 0.5312964853602773,
+      "score" : 0.08971704049277189,
+      "delta" : 2.6968215754091807E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.155,
+        "BND" : 0.105
+      },
+      "utility" : 0.08842174391647802,
+      "sharpe" : 0.5278554189397192,
+      "score" : 0.08842174391647802,
+      "delta" : -0.001025614418752957
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.17,
+      "BND" : 0.09
+    },
+    "endUtility" : 0.08971704049277189,
+    "improvement" : 2.6968215754091807E-4
+  }, {
+    "epoch" : 50,
+    "startWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.17,
+      "BND" : 0.09
+    },
+    "startUtility" : 0.08971704049277189,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.18,
+        "BND" : 0.085
+      },
+      "utility" : 0.08999595153725633,
+      "sharpe" : 0.5314682590496267,
+      "score" : 0.08999595153725633,
+      "delta" : 2.789110444844367E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.165,
+        "BND" : 0.1
+      },
+      "utility" : 0.08870055552398858,
+      "sharpe" : 0.5280837832530947,
+      "score" : 0.08870055552398858,
+      "delta" : -0.0010164849687833155
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.18,
+      "BND" : 0.085
+    },
+    "endUtility" : 0.08999595153725633,
+    "improvement" : 2.789110444844367E-4
+  }, {
+    "epoch" : 51,
+    "startWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.18,
+      "BND" : 0.085
+    },
+    "startUtility" : 0.08999595153725633,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.745,
+        "VXUS" : 0.175,
+        "BND" : 0.08
+      },
+      "utility" : 0.09074104219947933,
+      "sharpe" : 0.5344400833462075,
+      "score" : 0.09074104219947933,
+      "delta" : 7.450906622230025E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.19,
+        "BND" : 0.08
+      },
+      "utility" : 0.09027875306263251,
+      "sharpe" : 0.531599439015154,
+      "score" : 0.09027875306263251,
+      "delta" : 2.828015253761862E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.175,
+        "BND" : 0.095
+      },
+      "utility" : 0.08898179389434227,
+      "sharpe" : 0.5282708618033713,
+      "score" : 0.08898179389434227,
+      "delta" : -0.001014157642914057
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.175,
+      "BND" : 0.08
+    },
+    "endUtility" : 0.09074104219947933,
+    "improvement" : 7.450906622230025E-4
+  }, {
+    "epoch" : 52,
+    "startWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.175,
+      "BND" : 0.08
+    },
+    "startUtility" : 0.09074104219947933,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.185,
+        "BND" : 0.075
+      },
+      "utility" : 0.09100973766054868,
+      "sharpe" : 0.5345968278791403,
+      "score" : 0.09100973766054868,
+      "delta" : 2.686954610693487E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.17,
+        "BND" : 0.09
+      },
+      "utility" : 0.08971704049277186,
+      "sharpe" : 0.5312964853602773,
+      "score" : 0.08971704049277186,
+      "delta" : -0.001024001706707467
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.185,
+      "BND" : 0.075
+    },
+    "endUtility" : 0.09100973766054868,
+    "improvement" : 2.686954610693487E-4
+  }, {
+    "epoch" : 53,
+    "startWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.185,
+      "BND" : 0.075
+    },
+    "startUtility" : 0.09100973766054868,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.195,
+        "BND" : 0.07
+      },
+      "utility" : 0.09129079744346918,
+      "sharpe" : 0.5347133105442119,
+      "score" : 0.09129079744346918,
+      "delta" : 2.810597829205064E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.18,
+        "BND" : 0.085
+      },
+      "utility" : 0.08999595153725633,
+      "sharpe" : 0.5314682590496267,
+      "score" : 0.08999595153725633,
+      "delta" : -0.0010137861232923512
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.195,
+      "BND" : 0.07
+    },
+    "endUtility" : 0.09129079744346918,
+    "improvement" : 2.810597829205064E-4
+  }, {
+    "epoch" : 54,
+    "startWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.195,
+      "BND" : 0.07
+    },
+    "startUtility" : 0.09129079744346918,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.745,
+        "VXUS" : 0.19,
+        "BND" : 0.065
+      },
+      "utility" : 0.0920309005028932,
+      "sharpe" : 0.5376577665345192,
+      "score" : 0.0920309005028932,
+      "delta" : 7.401030594240132E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.205,
+        "BND" : 0.065
+      },
+      "utility" : 0.09156360827677958,
+      "sharpe" : 0.5347898952479191,
+      "score" : 0.09156360827677958,
+      "delta" : 2.7281083331039124E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.19,
+        "BND" : 0.08
+      },
+      "utility" : 0.09027875306263251,
+      "sharpe" : 0.531599439015154,
+      "score" : 0.09027875306263251,
+      "delta" : -0.0010120443808366714
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.19,
+      "BND" : 0.065
+    },
+    "endUtility" : 0.0920309005028932,
+    "improvement" : 7.401030594240132E-4
+  }, {
+    "epoch" : 55,
+    "startWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.19,
+      "BND" : 0.065
+    },
+    "startUtility" : 0.0920309005028932,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.2,
+        "BND" : 0.06
+      },
+      "utility" : 0.09230202443718588,
+      "sharpe" : 0.5377598200032608,
+      "score" : 0.09230202443718588,
+      "delta" : 2.71123934292683E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.185,
+        "BND" : 0.075
+      },
+      "utility" : 0.09100973766054868,
+      "sharpe" : 0.5345968278791403,
+      "score" : 0.09100973766054868,
+      "delta" : -0.0010211628423445196
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.2,
+      "BND" : 0.06
+    },
+    "endUtility" : 0.09230202443718588,
+    "improvement" : 2.71123934292683E-4
+  }, {
+    "epoch" : 56,
+    "startWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.2,
+      "BND" : 0.06
+    },
+    "startUtility" : 0.09230202443718588,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.21,
+        "BND" : 0.055
+      },
+      "utility" : 0.09257233999170207,
+      "sharpe" : 0.5378223036891759,
+      "score" : 0.09257233999170207,
+      "delta" : 2.7031555451619005E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.195,
+        "BND" : 0.07
+      },
+      "utility" : 0.09129079744346918,
+      "sharpe" : 0.5347133105442119,
+      "score" : 0.09129079744346918,
+      "delta" : -0.0010112269937166962
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.21,
+      "BND" : 0.055
+    },
+    "endUtility" : 0.09257233999170207,
+    "improvement" : 2.7031555451619005E-4
+  }, {
+    "epoch" : 57,
+    "startWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.21,
+      "BND" : 0.055
+    },
+    "startUtility" : 0.09257233999170207,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.745,
+        "VXUS" : 0.205,
+        "BND" : 0.05
+      },
+      "utility" : 0.09331612638510545,
+      "sharpe" : 0.5407401311108141,
+      "score" : 0.09331612638510545,
+      "delta" : 7.437863934033756E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.22,
+        "BND" : 0.05
+      },
+      "utility" : 0.09283675551822793,
+      "sharpe" : 0.5378455873666016,
+      "score" : 0.09283675551822793,
+      "delta" : 2.6441552652585465E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.205,
+        "BND" : 0.065
+      },
+      "utility" : 0.09156360827677958,
+      "sharpe" : 0.5347898952479191,
+      "score" : 0.09156360827677958,
+      "delta" : -0.001008731714922495
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.205,
+      "BND" : 0.05
+    },
+    "endUtility" : 0.09331612638510545,
+    "improvement" : 7.437863934033756E-4
+  }, {
+    "epoch" : 58,
+    "startWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.205,
+      "BND" : 0.05
+    },
+    "startUtility" : 0.09331612638510545,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.215,
+        "BND" : 0.045
+      },
+      "utility" : 0.09358089665718755,
+      "sharpe" : 0.5407887740514364,
+      "score" : 0.09358089665718755,
+      "delta" : 2.6477027208210435E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.2,
+        "BND" : 0.06
+      },
+      "utility" : 0.09230202443718588,
+      "sharpe" : 0.5377598200032608,
+      "score" : 0.09230202443718588,
+      "delta" : -0.0010141019479195656
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.215,
+      "BND" : 0.045
+    },
+    "endUtility" : 0.09358089665718755,
+    "improvement" : 2.6477027208210435E-4
+  }, {
+    "epoch" : 59,
+    "startWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.215,
+      "BND" : 0.045
+    },
+    "startUtility" : 0.09358089665718755,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.225,
+        "BND" : 0.04
+      },
+      "utility" : 0.09384301769400158,
+      "sharpe" : 0.5407985409803592,
+      "score" : 0.09384301769400158,
+      "delta" : 2.621210368140281E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.21,
+        "BND" : 0.055
+      },
+      "utility" : 0.09257233999170207,
+      "sharpe" : 0.5378223036891759,
+      "score" : 0.09257233999170207,
+      "delta" : -0.00100855666548548
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.225,
+      "BND" : 0.04
+    },
+    "endUtility" : 0.09384301769400158,
+    "improvement" : 2.621210368140281E-4
+  }, {
+    "epoch" : 60,
+    "startWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.225,
+      "BND" : 0.04
+    },
+    "startUtility" : 0.09384301769400158,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.745,
+        "VXUS" : 0.22,
+        "BND" : 0.035
+      },
+      "utility" : 0.09458869041277919,
+      "sharpe" : 0.5436904361896593,
+      "score" : 0.09458869041277919,
+      "delta" : 7.456727187776097E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.235,
+        "BND" : 0.035
+      },
+      "utility" : 0.09410074527521907,
+      "sharpe" : 0.5407698066269935,
+      "score" : 0.09410074527521907,
+      "delta" : 2.5772758121749006E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.22,
+        "BND" : 0.05
+      },
+      "utility" : 0.09283675551822793,
+      "sharpe" : 0.5378455873666016,
+      "score" : 0.09283675551822793,
+      "delta" : -0.0010062621757736534
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.22,
+      "BND" : 0.035
+    },
+    "endUtility" : 0.09458869041277919,
+    "improvement" : 7.456727187776097E-4
+  }, {
+    "epoch" : 61,
+    "startWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.22,
+      "BND" : 0.035
+    },
+    "startUtility" : 0.09458869041277919,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.23,
+        "BND" : 0.03
+      },
+      "utility" : 0.09484833500679564,
+      "sharpe" : 0.5436869386329234,
+      "score" : 0.09484833500679564,
+      "delta" : 2.5964459401645046E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.215,
+        "BND" : 0.045
+      },
+      "utility" : 0.09358089665718755,
+      "sharpe" : 0.5407887740514364,
+      "score" : 0.09358089665718755,
+      "delta" : -0.0010077937555916378
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.23,
+      "BND" : 0.03
+    },
+    "endUtility" : 0.09484833500679564,
+    "improvement" : 2.5964459401645046E-4
+  }, {
+    "epoch" : 62,
+    "startWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.23,
+      "BND" : 0.03
+    },
+    "startUtility" : 0.09484833500679564,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.24,
+        "BND" : 0.025
+      },
+      "utility" : 0.09510431943298678,
+      "sharpe" : 0.5436452591614241,
+      "score" : 0.09510431943298678,
+      "delta" : 2.559844261911387E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.225,
+        "BND" : 0.04
+      },
+      "utility" : 0.09384301769400158,
+      "sharpe" : 0.5407985409803592,
+      "score" : 0.09384301769400158,
+      "delta" : -0.0010053173127940601
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.24,
+      "BND" : 0.025
+    },
+    "endUtility" : 0.09510431943298678,
+    "improvement" : 2.559844261911387E-4
+  }, {
+    "epoch" : 63,
+    "startWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.24,
+      "BND" : 0.025
+    },
+    "startUtility" : 0.09510431943298678,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.745,
+        "VXUS" : 0.235,
+        "BND" : 0.02
+      },
+      "utility" : 0.09585312553308391,
+      "sharpe" : 0.5465118770001842,
+      "score" : 0.09585312553308391,
+      "delta" : 7.488061000971297E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.25,
+        "BND" : 0.02
+      },
+      "utility" : 0.09534913484431227,
+      "sharpe" : 0.5435657766007608,
+      "score" : 0.09534913484431227,
+      "delta" : 2.448154113254969E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.235,
+        "BND" : 0.035
+      },
+      "utility" : 0.09410074527521907,
+      "sharpe" : 0.5407698066269935,
+      "score" : 0.09410074527521907,
+      "delta" : -0.0010035741577677088
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.235,
+      "BND" : 0.02
+    },
+    "endUtility" : 0.09585312553308391,
+    "improvement" : 7.488061000971297E-4
+  }, {
+    "epoch" : 64,
+    "startWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.235,
+      "BND" : 0.02
+    },
+    "startUtility" : 0.09585312553308391,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.245,
+        "BND" : 0.015
+      },
+      "utility" : 0.09610628353727692,
+      "sharpe" : 0.5464574965336289,
+      "score" : 0.09610628353727692,
+      "delta" : 2.531580041930104E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.23,
+        "BND" : 0.03
+      },
+      "utility" : 0.09484833500679564,
+      "sharpe" : 0.5436869386329234,
+      "score" : 0.09484833500679564,
+      "delta" : -0.0010047905262882684
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.245,
+      "BND" : 0.015
+    },
+    "endUtility" : 0.09610628353727692,
+    "improvement" : 2.531580041930104E-4
+  }, {
+    "epoch" : 65,
+    "startWeights" : {
+      "VTI" : 0.74,
+      "VXUS" : 0.245,
+      "BND" : 0.015
+    },
+    "startUtility" : 0.09610628353727692,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.255,
+        "BND" : 0.01
+      },
+      "utility" : 0.09634932723123969,
+      "sharpe" : 0.5463656273218139,
+      "score" : 0.09634932723123969,
+      "delta" : 2.4304369396277448E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.735,
+        "VXUS" : 0.24,
+        "BND" : 0.025
+      },
+      "utility" : 0.09510431943298678,
+      "sharpe" : 0.5436452591614241,
+      "score" : 0.09510431943298678,
+      "delta" : -0.00100196410429014
+    } ],
+    "winner" : "VXUS",
+    "endWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.255,
+      "BND" : 0.01
+    },
+    "endUtility" : 0.09634932723123969,
+    "improvement" : 2.4304369396277448E-4
+  }, {
+    "epoch" : 66,
+    "startWeights" : {
+      "VTI" : 0.735,
+      "VXUS" : 0.255,
+      "BND" : 0.01
+    },
+    "startUtility" : 0.09634932723123969,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 3,
+    "variants" : [ {
+      "symbol" : "VTI",
+      "weights" : {
+        "VTI" : 0.745,
+        "VXUS" : 0.25,
+        "BND" : 0.005
+      },
+      "utility" : 0.09710632521085981,
+      "sharpe" : 0.5492075829430637,
+      "score" : 0.09710632521085981,
+      "delta" : 7.569979796201165E-4
+    }, {
+      "symbol" : "VXUS",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.265,
+        "BND" : 0.005
+      },
+      "utility" : 0.09657365776058832,
+      "sharpe" : 0.546236651480153,
+      "score" : 0.09657365776058832,
+      "delta" : 2.2433052934862918E-4
+    }, {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.73,
+        "VXUS" : 0.25,
+        "BND" : 0.02
+      },
+      "utility" : 0.09534913484431227,
+      "sharpe" : 0.5435657766007608,
+      "score" : 0.09534913484431227,
+      "delta" : -0.0010001923869274176
+    } ],
+    "winner" : "VTI",
+    "endWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.25,
+      "BND" : 0.005
+    },
+    "endUtility" : 0.09710632521085981,
+    "improvement" : 7.569979796201165E-4
+  }, {
+    "epoch" : 67,
+    "startWeights" : {
+      "VTI" : 0.745,
+      "VXUS" : 0.25,
+      "BND" : 0.005
+    },
+    "startUtility" : 0.09710632521085981,
+    "optimizeBy" : "utility",
+    "feasibleCount" : 1,
+    "variants" : [ {
+      "symbol" : "BND",
+      "weights" : {
+        "VTI" : 0.74,
+        "VXUS" : 0.245,
+        "BND" : 0.015
+      },
+      "utility" : 0.09610628353727692,
+      "sharpe" : 0.5464574965336289,
+      "score" : 0.09610628353727692,
+      "delta" : -0.001000041673582891
+    } ],
+    "stopped" : "no_improvement",
+    "bestSymbol" : "BND",
+    "bestUtility" : 0.09610628353727692,
+    "improvement" : -0.001000041673582891
+  } ],
+  "finalUtility" : 0.09710632521085981,
+  "totalGain" : 0.048210161364606666,
+  "epochCount" : 68
+}

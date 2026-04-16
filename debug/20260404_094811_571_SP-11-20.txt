@@ -1,0 +1,895 @@
+=== OPTIMIZATION DEBUG: SP-11-20 ===
+Time:   Sat Apr 04 09:49:55 EDT 2026
+Start:  LLY= 14.3%  JPM= 13.4%  V= 11.5%  UNH= 10.5%  XOM=  9.5%  MA=  9.1%  COST=  8.6%  HD=  8.1%  PG=  7.6%  NFLX=  7.4%
+        utility = 0.352834
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.352834  feasible=10]
+  LLY+1%  LLY= 15.3%  JPM= 13.2%  V= 11.3%  UNH= 10.4%  XOM=  9.4%  MA=  9.0%  COST=  8.5%  HD=  8.0%  PG=  7.5%  NFLX=  7.3%  util=0.354505  Δ=+0.001671
+  JPM+1%  LLY= 14.2%  JPM= 14.4%  V= 11.3%  UNH= 10.4%  XOM=  9.4%  MA=  9.0%  COST=  8.5%  HD=  8.0%  PG=  7.5%  NFLX=  7.3%  util=0.352895  Δ=+0.000061
+  V+1%  LLY= 14.2%  JPM= 13.2%  V= 12.5%  UNH= 10.4%  XOM=  9.4%  MA=  9.0%  COST=  8.5%  HD=  8.0%  PG=  7.5%  NFLX=  7.3%  util=0.351896  Δ=-0.000938
+  UNH+1%  LLY= 14.2%  JPM= 13.2%  V= 11.3%  UNH= 11.5%  XOM=  9.4%  MA=  9.0%  COST=  8.5%  HD=  8.0%  PG=  7.5%  NFLX=  7.3%  util=0.352159  Δ=-0.000675
+  XOM+1%  LLY= 14.2%  JPM= 13.2%  V= 11.3%  UNH= 10.4%  XOM= 10.5%  MA=  9.0%  COST=  8.5%  HD=  8.0%  PG=  7.5%  NFLX=  7.3%  util=0.351491  Δ=-0.001343
+  MA+1%  LLY= 14.2%  JPM= 13.2%  V= 11.3%  UNH= 10.4%  XOM=  9.4%  MA= 10.1%  COST=  8.5%  HD=  8.0%  PG=  7.5%  NFLX=  7.3%  util=0.352437  Δ=-0.000397
+  COST+1%  LLY= 14.2%  JPM= 13.2%  V= 11.3%  UNH= 10.4%  XOM=  9.4%  MA=  9.0%  COST=  9.6%  HD=  8.0%  PG=  7.5%  NFLX=  7.3%  util=0.352998  Δ=+0.000164
+  HD+1%  LLY= 14.2%  JPM= 13.2%  V= 11.3%  UNH= 10.4%  XOM=  9.4%  MA=  9.0%  COST=  8.5%  HD=  9.1%  PG=  7.5%  NFLX=  7.3%  util=0.351798  Δ=-0.001036
+  PG+1%  LLY= 14.2%  JPM= 13.2%  V= 11.3%  UNH= 10.4%  XOM=  9.4%  MA=  9.0%  COST=  8.5%  HD=  8.0%  PG=  8.6%  NFLX=  7.3%  util=0.351080  Δ=-0.001754
+  NFLX+1%  LLY= 14.2%  JPM= 13.2%  V= 11.3%  UNH= 10.4%  XOM=  9.4%  MA=  9.0%  COST=  8.5%  HD=  8.0%  PG=  7.5%  NFLX=  8.4%  util=0.356852  Δ=+0.004018
+  ★ WINNER: NFLX  improvement=+0.004018
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.356852  feasible=10]
+  LLY+1%  LLY= 15.2%  JPM= 13.1%  V= 11.2%  UNH= 10.3%  XOM=  9.3%  MA=  8.8%  COST=  8.4%  HD=  7.9%  PG=  7.4%  NFLX=  8.3%  util=0.358569  Δ=+0.001717
+  JPM+1%  LLY= 14.1%  JPM= 14.2%  V= 11.2%  UNH= 10.3%  XOM=  9.3%  MA=  8.8%  COST=  8.4%  HD=  7.9%  PG=  7.4%  NFLX=  8.3%  util=0.356933  Δ=+0.000082
+  V+1%  LLY= 14.1%  JPM= 13.1%  V= 12.3%  UNH= 10.3%  XOM=  9.3%  MA=  8.8%  COST=  8.4%  HD=  7.9%  PG=  7.4%  NFLX=  8.3%  util=0.355923  Δ=-0.000929
+  UNH+1%  LLY= 14.1%  JPM= 13.1%  V= 11.2%  UNH= 11.4%  XOM=  9.3%  MA=  8.8%  COST=  8.4%  HD=  7.9%  PG=  7.4%  NFLX=  8.3%  util=0.356201  Δ=-0.000651
+  XOM+1%  LLY= 14.1%  JPM= 13.1%  V= 11.2%  UNH= 10.3%  XOM= 10.4%  MA=  8.8%  COST=  8.4%  HD=  7.9%  PG=  7.4%  NFLX=  8.3%  util=0.355571  Δ=-0.001280
+  MA+1%  LLY= 14.1%  JPM= 13.1%  V= 11.2%  UNH= 10.3%  XOM=  9.3%  MA= 10.0%  COST=  8.4%  HD=  7.9%  PG=  7.4%  NFLX=  8.3%  util=0.356462  Δ=-0.000389
+  COST+1%  LLY= 14.1%  JPM= 13.1%  V= 11.2%  UNH= 10.3%  XOM=  9.3%  MA=  8.8%  COST=  9.5%  HD=  7.9%  PG=  7.4%  NFLX=  8.3%  util=0.357017  Δ=+0.000165
+  HD+1%  LLY= 14.1%  JPM= 13.1%  V= 11.2%  UNH= 10.3%  XOM=  9.3%  MA=  8.8%  COST=  8.4%  HD=  9.0%  PG=  7.4%  NFLX=  8.3%  util=0.355827  Δ=-0.001024
+  PG+1%  LLY= 14.1%  JPM= 13.1%  V= 11.2%  UNH= 10.3%  XOM=  9.3%  MA=  8.8%  COST=  8.4%  HD=  7.9%  PG=  8.5%  NFLX=  8.3%  util=0.355114  Δ=-0.001737
+  NFLX+1%  LLY= 14.1%  JPM= 13.1%  V= 11.2%  UNH= 10.3%  XOM=  9.3%  MA=  8.8%  COST=  8.4%  HD=  7.9%  PG=  7.4%  NFLX=  9.4%  util=0.360841  Δ=+0.003989
+  ★ WINNER: NFLX  improvement=+0.003989
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.360841  feasible=10]
+  LLY+1%  LLY= 15.1%  JPM= 13.0%  V= 11.1%  UNH= 10.2%  XOM=  9.2%  MA=  8.7%  COST=  8.3%  HD=  7.8%  PG=  7.3%  NFLX=  9.3%  util=0.362606  Δ=+0.001765
+  JPM+1%  LLY= 14.0%  JPM= 14.1%  V= 11.1%  UNH= 10.2%  XOM=  9.2%  MA=  8.7%  COST=  8.3%  HD=  7.8%  PG=  7.3%  NFLX=  9.3%  util=0.360916  Δ=+0.000075
+  V+1%  LLY= 14.0%  JPM= 13.0%  V= 12.2%  UNH= 10.2%  XOM=  9.2%  MA=  8.7%  COST=  8.3%  HD=  7.8%  PG=  7.3%  NFLX=  9.3%  util=0.359905  Δ=-0.000936
+  UNH+1%  LLY= 14.0%  JPM= 13.0%  V= 11.1%  UNH= 11.3%  XOM=  9.2%  MA=  8.7%  COST=  8.3%  HD=  7.8%  PG=  7.3%  NFLX=  9.3%  util=0.360163  Δ=-0.000677
+  XOM+1%  LLY= 14.0%  JPM= 13.0%  V= 11.1%  UNH= 10.2%  XOM= 10.3%  MA=  8.7%  COST=  8.3%  HD=  7.8%  PG=  7.3%  NFLX=  9.3%  util=0.359561  Δ=-0.001279
+  MA+1%  LLY= 14.0%  JPM= 13.0%  V= 11.1%  UNH= 10.2%  XOM=  9.2%  MA=  9.8%  COST=  8.3%  HD=  7.8%  PG=  7.3%  NFLX=  9.3%  util=0.360444  Δ=-0.000396
+  COST+1%  LLY= 14.0%  JPM= 13.0%  V= 11.1%  UNH= 10.2%  XOM=  9.2%  MA=  8.7%  COST=  9.4%  HD=  7.8%  PG=  7.3%  NFLX=  9.3%  util=0.361018  Δ=+0.000177
+  HD+1%  LLY= 14.0%  JPM= 13.0%  V= 11.1%  UNH= 10.2%  XOM=  9.2%  MA=  8.7%  COST=  8.3%  HD=  8.9%  PG=  7.3%  NFLX=  9.3%  util=0.359824  Δ=-0.001017
+  PG+1%  LLY= 14.0%  JPM= 13.0%  V= 11.1%  UNH= 10.2%  XOM=  9.2%  MA=  8.7%  COST=  8.3%  HD=  7.8%  PG=  8.4%  NFLX=  9.3%  util=0.359096  Δ=-0.001745
+  NFLX+1%  LLY= 14.0%  JPM= 13.0%  V= 11.1%  UNH= 10.2%  XOM=  9.2%  MA=  8.7%  COST=  8.3%  HD=  7.8%  PG=  7.3%  NFLX= 10.4%  util=0.364795  Δ=+0.003954
+  ★ WINNER: NFLX  improvement=+0.003954
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.364795  feasible=10]
+  LLY+1%  LLY= 15.0%  JPM= 12.9%  V= 11.0%  UNH= 10.1%  XOM=  9.1%  MA=  8.6%  COST=  8.1%  HD=  7.7%  PG=  7.2%  NFLX= 10.3%  util=0.366577  Δ=+0.001783
+  JPM+1%  LLY= 13.9%  JPM= 14.0%  V= 11.0%  UNH= 10.1%  XOM=  9.1%  MA=  8.6%  COST=  8.1%  HD=  7.7%  PG=  7.2%  NFLX= 10.3%  util=0.364850  Δ=+0.000056
+  V+1%  LLY= 13.9%  JPM= 12.9%  V= 12.1%  UNH= 10.1%  XOM=  9.1%  MA=  8.6%  COST=  8.1%  HD=  7.7%  PG=  7.2%  NFLX= 10.3%  util=0.363856  Δ=-0.000938
+  UNH+1%  LLY= 13.9%  JPM= 12.9%  V= 11.0%  UNH= 11.2%  XOM=  9.1%  MA=  8.6%  COST=  8.1%  HD=  7.7%  PG=  7.2%  NFLX= 10.3%  util=0.364105  Δ=-0.000690
+  XOM+1%  LLY= 13.9%  JPM= 12.9%  V= 11.0%  UNH= 10.1%  XOM= 10.2%  MA=  8.6%  COST=  8.1%  HD=  7.7%  PG=  7.2%  NFLX= 10.3%  util=0.363529  Δ=-0.001265
+  MA+1%  LLY= 13.9%  JPM= 12.9%  V= 11.0%  UNH= 10.1%  XOM=  9.1%  MA=  9.7%  COST=  8.1%  HD=  7.7%  PG=  7.2%  NFLX= 10.3%  util=0.364389  Δ=-0.000405
+  COST+1%  LLY= 13.9%  JPM= 12.9%  V= 11.0%  UNH= 10.1%  XOM=  9.1%  MA=  8.6%  COST=  9.3%  HD=  7.7%  PG=  7.2%  NFLX= 10.3%  util=0.364964  Δ=+0.000170
+  HD+1%  LLY= 13.9%  JPM= 12.9%  V= 11.0%  UNH= 10.1%  XOM=  9.1%  MA=  8.6%  COST=  8.1%  HD=  8.8%  PG=  7.2%  NFLX= 10.3%  util=0.363774  Δ=-0.001020
+  PG+1%  LLY= 13.9%  JPM= 12.9%  V= 11.0%  UNH= 10.1%  XOM=  9.1%  MA=  8.6%  COST=  8.1%  HD=  7.7%  PG=  8.3%  NFLX= 10.3%  util=0.363033  Δ=-0.001761
+  NFLX+1%  LLY= 13.9%  JPM= 12.9%  V= 11.0%  UNH= 10.1%  XOM=  9.1%  MA=  8.6%  COST=  8.1%  HD=  7.7%  PG=  7.2%  NFLX= 11.4%  util=0.368631  Δ=+0.003837
+  ★ WINNER: NFLX  improvement=+0.003837
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.368631  feasible=10]
+  LLY+1%  LLY= 14.9%  JPM= 12.8%  V= 10.9%  UNH=  9.9%  XOM=  9.0%  MA=  8.5%  COST=  8.0%  HD=  7.6%  PG=  7.1%  NFLX= 11.3%  util=0.370455  Δ=+0.001824
+  JPM+1%  LLY= 13.8%  JPM= 13.9%  V= 10.9%  UNH=  9.9%  XOM=  9.0%  MA=  8.5%  COST=  8.0%  HD=  7.6%  PG=  7.1%  NFLX= 11.3%  util=0.368675  Δ=+0.000043
+  V+1%  LLY= 13.8%  JPM= 12.8%  V= 12.0%  UNH=  9.9%  XOM=  9.0%  MA=  8.5%  COST=  8.0%  HD=  7.6%  PG=  7.1%  NFLX= 11.3%  util=0.367671  Δ=-0.000960
+  UNH+1%  LLY= 13.8%  JPM= 12.8%  V= 10.9%  UNH= 11.1%  XOM=  9.0%  MA=  8.5%  COST=  8.0%  HD=  7.6%  PG=  7.1%  NFLX= 11.3%  util=0.367949  Δ=-0.000682
+  XOM+1%  LLY= 13.8%  JPM= 12.8%  V= 10.9%  UNH=  9.9%  XOM= 10.1%  MA=  8.5%  COST=  8.0%  HD=  7.6%  PG=  7.1%  NFLX= 11.3%  util=0.367445  Δ=-0.001186
+  MA+1%  LLY= 13.8%  JPM= 12.8%  V= 10.9%  UNH=  9.9%  XOM=  9.0%  MA=  9.6%  COST=  8.0%  HD=  7.6%  PG=  7.1%  NFLX= 11.3%  util=0.368197  Δ=-0.000434
+  COST+1%  LLY= 13.8%  JPM= 12.8%  V= 10.9%  UNH=  9.9%  XOM=  9.0%  MA=  8.5%  COST=  9.1%  HD=  7.6%  PG=  7.1%  NFLX= 11.3%  util=0.368787  Δ=+0.000156
+  HD+1%  LLY= 13.8%  JPM= 12.8%  V= 10.9%  UNH=  9.9%  XOM=  9.0%  MA=  8.5%  COST=  8.0%  HD=  8.7%  PG=  7.1%  NFLX= 11.3%  util=0.367603  Δ=-0.001028
+  PG+1%  LLY= 13.8%  JPM= 12.8%  V= 10.9%  UNH=  9.9%  XOM=  9.0%  MA=  8.5%  COST=  8.0%  HD=  7.6%  PG=  8.2%  NFLX= 11.3%  util=0.366884  Δ=-0.001747
+  NFLX+1%  LLY= 13.8%  JPM= 12.8%  V= 10.9%  UNH=  9.9%  XOM=  9.0%  MA=  8.5%  COST=  8.0%  HD=  7.6%  PG=  7.1%  NFLX= 12.4%  util=0.372225  Δ=+0.003594
+  ★ WINNER: NFLX  improvement=+0.003594
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.372225  feasible=10]
+  LLY+1%  LLY= 14.8%  JPM= 12.7%  V= 10.8%  UNH=  9.8%  XOM=  8.9%  MA=  8.4%  COST=  7.9%  HD=  7.4%  PG=  7.0%  NFLX= 12.3%  util=0.374168  Δ=+0.001943
+  JPM+1%  LLY= 13.6%  JPM= 13.8%  V= 10.8%  UNH=  9.8%  XOM=  8.9%  MA=  8.4%  COST=  7.9%  HD=  7.4%  PG=  7.0%  NFLX= 12.3%  util=0.372272  Δ=+0.000048
+  V+1%  LLY= 13.6%  JPM= 12.7%  V= 11.9%  UNH=  9.8%  XOM=  8.9%  MA=  8.4%  COST=  7.9%  HD=  7.4%  PG=  7.0%  NFLX= 12.3%  util=0.371267  Δ=-0.000958
+  UNH+1%  LLY= 13.6%  JPM= 12.7%  V= 10.8%  UNH= 10.9%  XOM=  8.9%  MA=  8.4%  COST=  7.9%  HD=  7.4%  PG=  7.0%  NFLX= 12.3%  util=0.371542  Δ=-0.000683
+  XOM+1%  LLY= 13.6%  JPM= 12.7%  V= 10.8%  UNH=  9.8%  XOM= 10.0%  MA=  8.4%  COST=  7.9%  HD=  7.4%  PG=  7.0%  NFLX= 12.3%  util=0.371121  Δ=-0.001103
+  MA+1%  LLY= 13.6%  JPM= 12.7%  V= 10.8%  UNH=  9.8%  XOM=  8.9%  MA=  9.5%  COST=  7.9%  HD=  7.4%  PG=  7.0%  NFLX= 12.3%  util=0.371780  Δ=-0.000445
+  COST+1%  LLY= 13.6%  JPM= 12.7%  V= 10.8%  UNH=  9.8%  XOM=  8.9%  MA=  8.4%  COST=  9.0%  HD=  7.4%  PG=  7.0%  NFLX= 12.3%  util=0.372408  Δ=+0.000183
+  HD+1%  LLY= 13.6%  JPM= 12.7%  V= 10.8%  UNH=  9.8%  XOM=  8.9%  MA=  8.4%  COST=  7.9%  HD=  8.6%  PG=  7.0%  NFLX= 12.3%  util=0.371211  Δ=-0.001014
+  PG+1%  LLY= 13.6%  JPM= 12.7%  V= 10.8%  UNH=  9.8%  XOM=  8.9%  MA=  8.4%  COST=  7.9%  HD=  7.4%  PG=  8.1%  NFLX= 12.3%  util=0.370481  Δ=-0.001744
+  NFLX+1%  LLY= 13.6%  JPM= 12.7%  V= 10.8%  UNH=  9.8%  XOM=  8.9%  MA=  8.4%  COST=  7.9%  HD=  7.4%  PG=  7.0%  NFLX= 13.4%  util=0.375695  Δ=+0.003470
+  ★ WINNER: NFLX  improvement=+0.003470
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.375695  feasible=10]
+  LLY+1%  LLY= 14.6%  JPM= 12.6%  V= 10.7%  UNH=  9.7%  XOM=  8.8%  MA=  8.3%  COST=  7.8%  HD=  7.3%  PG=  6.9%  NFLX= 13.3%  util=0.377701  Δ=+0.002006
+  JPM+1%  LLY= 13.5%  JPM= 13.7%  V= 10.7%  UNH=  9.7%  XOM=  8.8%  MA=  8.3%  COST=  7.8%  HD=  7.3%  PG=  6.9%  NFLX= 13.3%  util=0.375740  Δ=+0.000045
+  V+1%  LLY= 13.5%  JPM= 12.6%  V= 11.8%  UNH=  9.7%  XOM=  8.8%  MA=  8.3%  COST=  7.8%  HD=  7.3%  PG=  6.9%  NFLX= 13.3%  util=0.374737  Δ=-0.000958
+  UNH+1%  LLY= 13.5%  JPM= 12.6%  V= 10.7%  UNH= 10.8%  XOM=  8.8%  MA=  8.3%  COST=  7.8%  HD=  7.3%  PG=  6.9%  NFLX= 13.3%  util=0.375066  Δ=-0.000629
+  XOM+1%  LLY= 13.5%  JPM= 12.6%  V= 10.7%  UNH=  9.7%  XOM=  9.9%  MA=  8.3%  COST=  7.8%  HD=  7.3%  PG=  6.9%  NFLX= 13.3%  util=0.374659  Δ=-0.001036
+  MA+1%  LLY= 13.5%  JPM= 12.6%  V= 10.7%  UNH=  9.7%  XOM=  8.8%  MA=  9.4%  COST=  7.8%  HD=  7.3%  PG=  6.9%  NFLX= 13.3%  util=0.375226  Δ=-0.000469
+  COST+1%  LLY= 13.5%  JPM= 12.6%  V= 10.7%  UNH=  9.7%  XOM=  8.8%  MA=  8.3%  COST=  8.9%  HD=  7.3%  PG=  6.9%  NFLX= 13.3%  util=0.375907  Δ=+0.000212
+  HD+1%  LLY= 13.5%  JPM= 12.6%  V= 10.7%  UNH=  9.7%  XOM=  8.8%  MA=  8.3%  COST=  7.8%  HD=  8.4%  PG=  6.9%  NFLX= 13.3%  util=0.374689  Δ=-0.001006
+  PG+1%  LLY= 13.5%  JPM= 12.6%  V= 10.7%  UNH=  9.7%  XOM=  8.8%  MA=  8.3%  COST=  7.8%  HD=  7.3%  PG=  8.0%  NFLX= 13.3%  util=0.373954  Δ=-0.001741
+  NFLX+1%  LLY= 13.5%  JPM= 12.6%  V= 10.7%  UNH=  9.7%  XOM=  8.8%  MA=  8.3%  COST=  7.8%  HD=  7.3%  PG=  6.9%  NFLX= 14.4%  util=0.379106  Δ=+0.003411
+  ★ WINNER: NFLX  improvement=+0.003411
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=0.379106  feasible=10]
+  LLY+1%  LLY= 14.5%  JPM= 12.5%  V= 10.6%  UNH=  9.6%  XOM=  8.7%  MA=  8.2%  COST=  7.7%  HD=  7.2%  PG=  6.7%  NFLX= 14.3%  util=0.381148  Δ=+0.002043
+  JPM+1%  LLY= 13.4%  JPM= 13.6%  V= 10.6%  UNH=  9.6%  XOM=  8.7%  MA=  8.2%  COST=  7.7%  HD=  7.2%  PG=  6.7%  NFLX= 14.3%  util=0.379126  Δ=+0.000020
+  V+1%  LLY= 13.4%  JPM= 12.5%  V= 11.7%  UNH=  9.6%  XOM=  8.7%  MA=  8.2%  COST=  7.7%  HD=  7.2%  PG=  6.7%  NFLX= 14.3%  util=0.378151  Δ=-0.000954
+  UNH+1%  LLY= 13.4%  JPM= 12.5%  V= 10.6%  UNH= 10.7%  XOM=  8.7%  MA=  8.2%  COST=  7.7%  HD=  7.2%  PG=  6.7%  NFLX= 14.3%  util=0.378523  Δ=-0.000583
+  XOM+1%  LLY= 13.4%  JPM= 12.5%  V= 10.6%  UNH=  9.6%  XOM=  9.8%  MA=  8.2%  COST=  7.7%  HD=  7.2%  PG=  6.7%  NFLX= 14.3%  util=0.378090  Δ=-0.001016
+  MA+1%  LLY= 13.4%  JPM= 12.5%  V= 10.6%  UNH=  9.6%  XOM=  8.7%  MA=  9.3%  COST=  7.7%  HD=  7.2%  PG=  6.7%  NFLX= 14.3%  util=0.378619  Δ=-0.000486
+  COST+1%  LLY= 13.4%  JPM= 12.5%  V= 10.6%  UNH=  9.6%  XOM=  8.7%  MA=  8.2%  COST=  8.8%  HD=  7.2%  PG=  6.7%  NFLX= 14.3%  util=0.379288  Δ=+0.000183
+  HD+1%  LLY= 13.4%  JPM= 12.5%  V= 10.6%  UNH=  9.6%  XOM=  8.7%  MA=  8.2%  COST=  7.7%  HD=  8.3%  PG=  6.7%  NFLX= 14.3%  util=0.378070  Δ=-0.001035
+  PG+1%  LLY= 13.4%  JPM= 12.5%  V= 10.6%  UNH=  9.6%  XOM=  8.7%  MA=  8.2%  COST=  7.7%  HD=  7.2%  PG=  7.9%  NFLX= 14.3%  util=0.377354  Δ=-0.001752
+  NFLX+1%  LLY= 13.4%  JPM= 12.5%  V= 10.6%  UNH=  9.6%  XOM=  8.7%  MA=  8.2%  COST=  7.7%  HD=  7.2%  PG=  6.7%  NFLX= 15.4%  util=0.382447  Δ=+0.003341
+  ★ WINNER: NFLX  improvement=+0.003341
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=0.382447  feasible=10]
+  LLY+1%  LLY= 14.4%  JPM= 12.4%  V= 10.5%  UNH=  9.5%  XOM=  8.5%  MA=  8.1%  COST=  7.6%  HD=  7.1%  PG=  6.6%  NFLX= 15.3%  util=0.384507  Δ=+0.002060
+  JPM+1%  LLY= 13.3%  JPM= 13.5%  V= 10.5%  UNH=  9.5%  XOM=  8.5%  MA=  8.1%  COST=  7.6%  HD=  7.1%  PG=  6.6%  NFLX= 15.3%  util=0.382467  Δ=+0.000020
+  V+1%  LLY= 13.3%  JPM= 12.4%  V= 11.6%  UNH=  9.5%  XOM=  8.5%  MA=  8.1%  COST=  7.6%  HD=  7.1%  PG=  6.6%  NFLX= 15.3%  util=0.381489  Δ=-0.000958
+  UNH+1%  LLY= 13.3%  JPM= 12.4%  V= 10.5%  UNH= 10.6%  XOM=  8.5%  MA=  8.1%  COST=  7.6%  HD=  7.1%  PG=  6.6%  NFLX= 15.3%  util=0.381866  Δ=-0.000580
+  XOM+1%  LLY= 13.3%  JPM= 12.4%  V= 10.5%  UNH=  9.5%  XOM=  9.7%  MA=  8.1%  COST=  7.6%  HD=  7.1%  PG=  6.6%  NFLX= 15.3%  util=0.381473  Δ=-0.000974
+  MA+1%  LLY= 13.3%  JPM= 12.4%  V= 10.5%  UNH=  9.5%  XOM=  8.5%  MA=  9.2%  COST=  7.6%  HD=  7.1%  PG=  6.6%  NFLX= 15.3%  util=0.381947  Δ=-0.000500
+  COST+1%  LLY= 13.3%  JPM= 12.4%  V= 10.5%  UNH=  9.5%  XOM=  8.5%  MA=  8.1%  COST=  8.7%  HD=  7.1%  PG=  6.6%  NFLX= 15.3%  util=0.382621  Δ=+0.000174
+  HD+1%  LLY= 13.3%  JPM= 12.4%  V= 10.5%  UNH=  9.5%  XOM=  8.5%  MA=  8.1%  COST=  7.6%  HD=  8.2%  PG=  6.6%  NFLX= 15.3%  util=0.381406  Δ=-0.001041
+  PG+1%  LLY= 13.3%  JPM= 12.4%  V= 10.5%  UNH=  9.5%  XOM=  8.5%  MA=  8.1%  COST=  7.6%  HD=  7.1%  PG=  7.7%  NFLX= 15.3%  util=0.380688  Δ=-0.001759
+  NFLX+1%  LLY= 13.3%  JPM= 12.4%  V= 10.5%  UNH=  9.5%  XOM=  8.5%  MA=  8.1%  COST=  7.6%  HD=  7.1%  PG=  6.6%  NFLX= 16.4%  util=0.385664  Δ=+0.003217
+  ★ WINNER: NFLX  improvement=+0.003217
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=0.385664  feasible=10]
+  LLY+1%  LLY= 14.3%  JPM= 12.2%  V= 10.3%  UNH=  9.4%  XOM=  8.4%  MA=  8.0%  COST=  7.5%  HD=  7.0%  PG=  6.5%  NFLX= 16.3%  util=0.387747  Δ=+0.002083
+  JPM+1%  LLY= 13.2%  JPM= 13.4%  V= 10.3%  UNH=  9.4%  XOM=  8.4%  MA=  8.0%  COST=  7.5%  HD=  7.0%  PG=  6.5%  NFLX= 16.3%  util=0.385719  Δ=+0.000055
+  V+1%  LLY= 13.2%  JPM= 12.2%  V= 11.5%  UNH=  9.4%  XOM=  8.4%  MA=  8.0%  COST=  7.5%  HD=  7.0%  PG=  6.5%  NFLX= 16.3%  util=0.384708  Δ=-0.000956
+  UNH+1%  LLY= 13.2%  JPM= 12.2%  V= 10.3%  UNH= 10.5%  XOM=  8.4%  MA=  8.0%  COST=  7.5%  HD=  7.0%  PG=  6.5%  NFLX= 16.3%  util=0.385087  Δ=-0.000577
+  XOM+1%  LLY= 13.2%  JPM= 12.2%  V= 10.3%  UNH=  9.4%  XOM=  9.5%  MA=  8.0%  COST=  7.5%  HD=  7.0%  PG=  6.5%  NFLX= 16.3%  util=0.384781  Δ=-0.000883
+  MA+1%  LLY= 13.2%  JPM= 12.2%  V= 10.3%  UNH=  9.4%  XOM=  8.4%  MA=  9.1%  COST=  7.5%  HD=  7.0%  PG=  6.5%  NFLX= 16.3%  util=0.385157  Δ=-0.000507
+  COST+1%  LLY= 13.2%  JPM= 12.2%  V= 10.3%  UNH=  9.4%  XOM=  8.4%  MA=  8.0%  COST=  8.6%  HD=  7.0%  PG=  6.5%  NFLX= 16.3%  util=0.385849  Δ=+0.000185
+  HD+1%  LLY= 13.2%  JPM= 12.2%  V= 10.3%  UNH=  9.4%  XOM=  8.4%  MA=  8.0%  COST=  7.5%  HD=  8.1%  PG=  6.5%  NFLX= 16.3%  util=0.384627  Δ=-0.001037
+  PG+1%  LLY= 13.2%  JPM= 12.2%  V= 10.3%  UNH=  9.4%  XOM=  8.4%  MA=  8.0%  COST=  7.5%  HD=  7.0%  PG=  7.6%  NFLX= 16.3%  util=0.383915  Δ=-0.001749
+  NFLX+1%  LLY= 13.2%  JPM= 12.2%  V= 10.3%  UNH=  9.4%  XOM=  8.4%  MA=  8.0%  COST=  7.5%  HD=  7.0%  PG=  6.5%  NFLX= 17.4%  util=0.388818  Δ=+0.003154
+  ★ WINNER: NFLX  improvement=+0.003154
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=0.388818  feasible=10]
+  LLY+1%  LLY= 14.2%  JPM= 12.1%  V= 10.2%  UNH=  9.3%  XOM=  8.3%  MA=  7.8%  COST=  7.4%  HD=  6.9%  PG=  6.4%  NFLX= 17.3%  util=0.390931  Δ=+0.002113
+  JPM+1%  LLY= 13.1%  JPM= 13.2%  V= 10.2%  UNH=  9.3%  XOM=  8.3%  MA=  7.8%  COST=  7.4%  HD=  6.9%  PG=  6.4%  NFLX= 17.3%  util=0.388872  Δ=+0.000054
+  V+1%  LLY= 13.1%  JPM= 12.1%  V= 11.3%  UNH=  9.3%  XOM=  8.3%  MA=  7.8%  COST=  7.4%  HD=  6.9%  PG=  6.4%  NFLX= 17.3%  util=0.387870  Δ=-0.000948
+  UNH+1%  LLY= 13.1%  JPM= 12.1%  V= 10.2%  UNH= 10.4%  XOM=  8.3%  MA=  7.8%  COST=  7.4%  HD=  6.9%  PG=  6.4%  NFLX= 17.3%  util=0.388229  Δ=-0.000589
+  XOM+1%  LLY= 13.1%  JPM= 12.1%  V= 10.2%  UNH=  9.3%  XOM=  9.4%  MA=  7.8%  COST=  7.4%  HD=  6.9%  PG=  6.4%  NFLX= 17.3%  util=0.388033  Δ=-0.000785
+  MA+1%  LLY= 13.1%  JPM= 12.1%  V= 10.2%  UNH=  9.3%  XOM=  8.3%  MA=  9.0%  COST=  7.4%  HD=  6.9%  PG=  6.4%  NFLX= 17.3%  util=0.388313  Δ=-0.000505
+  COST+1%  LLY= 13.1%  JPM= 12.1%  V= 10.2%  UNH=  9.3%  XOM=  8.3%  MA=  7.8%  COST=  8.5%  HD=  6.9%  PG=  6.4%  NFLX= 17.3%  util=0.388992  Δ=+0.000174
+  HD+1%  LLY= 13.1%  JPM= 12.1%  V= 10.2%  UNH=  9.3%  XOM=  8.3%  MA=  7.8%  COST=  7.4%  HD=  8.0%  PG=  6.4%  NFLX= 17.3%  util=0.387782  Δ=-0.001036
+  PG+1%  LLY= 13.1%  JPM= 12.1%  V= 10.2%  UNH=  9.3%  XOM=  8.3%  MA=  7.8%  COST=  7.4%  HD=  6.9%  PG=  7.5%  NFLX= 17.3%  util=0.387084  Δ=-0.001734
+  NFLX+1%  LLY= 13.1%  JPM= 12.1%  V= 10.2%  UNH=  9.3%  XOM=  8.3%  MA=  7.8%  COST=  7.4%  HD=  6.9%  PG=  6.4%  NFLX= 18.4%  util=0.391851  Δ=+0.003033
+  ★ WINNER: NFLX  improvement=+0.003033
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=0.391851  feasible=10]
+  LLY+1%  LLY= 14.1%  JPM= 12.0%  V= 10.1%  UNH=  9.2%  XOM=  8.2%  MA=  7.7%  COST=  7.3%  HD=  6.8%  PG=  6.3%  NFLX= 18.3%  util=0.393997  Δ=+0.002146
+  JPM+1%  LLY= 13.0%  JPM= 13.1%  V= 10.1%  UNH=  9.2%  XOM=  8.2%  MA=  7.7%  COST=  7.3%  HD=  6.8%  PG=  6.3%  NFLX= 18.3%  util=0.391930  Δ=+0.000079
+  V+1%  LLY= 13.0%  JPM= 12.0%  V= 11.2%  UNH=  9.2%  XOM=  8.2%  MA=  7.7%  COST=  7.3%  HD=  6.8%  PG=  6.3%  NFLX= 18.3%  util=0.390898  Δ=-0.000953
+  UNH+1%  LLY= 13.0%  JPM= 12.0%  V= 10.1%  UNH= 10.3%  XOM=  8.2%  MA=  7.7%  COST=  7.3%  HD=  6.8%  PG=  6.3%  NFLX= 18.3%  util=0.391265  Δ=-0.000586
+  XOM+1%  LLY= 13.0%  JPM= 12.0%  V= 10.1%  UNH=  9.2%  XOM=  9.3%  MA=  7.7%  COST=  7.3%  HD=  6.8%  PG=  6.3%  NFLX= 18.3%  util=0.391153  Δ=-0.000698
+  MA+1%  LLY= 13.0%  JPM= 12.0%  V= 10.1%  UNH=  9.2%  XOM=  8.2%  MA=  8.8%  COST=  7.3%  HD=  6.8%  PG=  6.3%  NFLX= 18.3%  util=0.391349  Δ=-0.000502
+  COST+1%  LLY= 13.0%  JPM= 12.0%  V= 10.1%  UNH=  9.2%  XOM=  8.2%  MA=  7.7%  COST=  8.4%  HD=  6.8%  PG=  6.3%  NFLX= 18.3%  util=0.392028  Δ=+0.000177
+  HD+1%  LLY= 13.0%  JPM= 12.0%  V= 10.1%  UNH=  9.2%  XOM=  8.2%  MA=  7.7%  COST=  7.3%  HD=  7.9%  PG=  6.3%  NFLX= 18.3%  util=0.390833  Δ=-0.001018
+  PG+1%  LLY= 13.0%  JPM= 12.0%  V= 10.1%  UNH=  9.2%  XOM=  8.2%  MA=  7.7%  COST=  7.3%  HD=  6.8%  PG=  7.4%  NFLX= 18.3%  util=0.390136  Δ=-0.001715
+  NFLX+1%  LLY= 13.0%  JPM= 12.0%  V= 10.1%  UNH=  9.2%  XOM=  8.2%  MA=  7.7%  COST=  7.3%  HD=  6.8%  PG=  6.3%  NFLX= 19.4%  util=0.394724  Δ=+0.002873
+  ★ WINNER: NFLX  improvement=+0.002873
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=0.394724  feasible=10]
+  LLY+1%  LLY= 14.0%  JPM= 11.9%  V= 10.0%  UNH=  9.1%  XOM=  8.1%  MA=  7.6%  COST=  7.1%  HD=  6.7%  PG=  6.2%  NFLX= 19.3%  util=0.396882  Δ=+0.002158
+  JPM+1%  LLY= 12.9%  JPM= 13.0%  V= 10.0%  UNH=  9.1%  XOM=  8.1%  MA=  7.6%  COST=  7.1%  HD=  6.7%  PG=  6.2%  NFLX= 19.3%  util=0.394809  Δ=+0.000085
+  V+1%  LLY= 12.9%  JPM= 11.9%  V= 11.1%  UNH=  9.1%  XOM=  8.1%  MA=  7.6%  COST=  7.1%  HD=  6.7%  PG=  6.2%  NFLX= 19.3%  util=0.393768  Δ=-0.000957
+  UNH+1%  LLY= 12.9%  JPM= 11.9%  V= 10.0%  UNH= 10.2%  XOM=  8.1%  MA=  7.6%  COST=  7.1%  HD=  6.7%  PG=  6.2%  NFLX= 19.3%  util=0.394129  Δ=-0.000596
+  XOM+1%  LLY= 12.9%  JPM= 11.9%  V= 10.0%  UNH=  9.1%  XOM=  9.2%  MA=  7.6%  COST=  7.1%  HD=  6.7%  PG=  6.2%  NFLX= 19.3%  util=0.394108  Δ=-0.000616
+  MA+1%  LLY= 12.9%  JPM= 11.9%  V= 10.0%  UNH=  9.1%  XOM=  8.1%  MA=  8.7%  COST=  7.1%  HD=  6.7%  PG=  6.2%  NFLX= 19.3%  util=0.394220  Δ=-0.000504
+  COST+1%  LLY= 12.9%  JPM= 11.9%  V= 10.0%  UNH=  9.1%  XOM=  8.1%  MA=  7.6%  COST=  8.3%  HD=  6.7%  PG=  6.2%  NFLX= 19.3%  util=0.394895  Δ=+0.000171
+  HD+1%  LLY= 12.9%  JPM= 11.9%  V= 10.0%  UNH=  9.1%  XOM=  8.1%  MA=  7.6%  COST=  7.1%  HD=  7.8%  PG=  6.2%  NFLX= 19.3%  util=0.393704  Δ=-0.001021
+  PG+1%  LLY= 12.9%  JPM= 11.9%  V= 10.0%  UNH=  9.1%  XOM=  8.1%  MA=  7.6%  COST=  7.1%  HD=  6.7%  PG=  7.3%  NFLX= 19.3%  util=0.393008  Δ=-0.001716
+  NFLX+1%  LLY= 12.9%  JPM= 11.9%  V= 10.0%  UNH=  9.1%  XOM=  8.1%  MA=  7.6%  COST=  7.1%  HD=  6.7%  PG=  6.2%  NFLX= 20.4%  util=0.397492  Δ=+0.002768
+  ★ WINNER: NFLX  improvement=+0.002768
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=0.397492  feasible=10]
+  LLY+1%  LLY= 13.9%  JPM= 11.8%  V=  9.9%  UNH=  8.9%  XOM=  8.0%  MA=  7.5%  COST=  7.0%  HD=  6.6%  PG=  6.1%  NFLX= 20.3%  util=0.399683  Δ=+0.002191
+  JPM+1%  LLY= 12.8%  JPM= 12.9%  V=  9.9%  UNH=  8.9%  XOM=  8.0%  MA=  7.5%  COST=  7.0%  HD=  6.6%  PG=  6.1%  NFLX= 20.3%  util=0.397585  Δ=+0.000093
+  V+1%  LLY= 12.8%  JPM= 11.8%  V= 11.0%  UNH=  8.9%  XOM=  8.0%  MA=  7.5%  COST=  7.0%  HD=  6.6%  PG=  6.1%  NFLX= 20.3%  util=0.396526  Δ=-0.000966
+  UNH+1%  LLY= 12.8%  JPM= 11.8%  V=  9.9%  UNH= 10.1%  XOM=  8.0%  MA=  7.5%  COST=  7.0%  HD=  6.6%  PG=  6.1%  NFLX= 20.3%  util=0.396906  Δ=-0.000586
+  XOM+1%  LLY= 12.8%  JPM= 11.8%  V=  9.9%  UNH=  8.9%  XOM=  9.1%  MA=  7.5%  COST=  7.0%  HD=  6.6%  PG=  6.1%  NFLX= 20.3%  util=0.396945  Δ=-0.000547
+  MA+1%  LLY= 12.8%  JPM= 11.8%  V=  9.9%  UNH=  8.9%  XOM=  8.0%  MA=  8.6%  COST=  7.0%  HD=  6.6%  PG=  6.1%  NFLX= 20.3%  util=0.396986  Δ=-0.000506
+  COST+1%  LLY= 12.8%  JPM= 11.8%  V=  9.9%  UNH=  8.9%  XOM=  8.0%  MA=  7.5%  COST=  8.1%  HD=  6.6%  PG=  6.1%  NFLX= 20.3%  util=0.397664  Δ=+0.000172
+  HD+1%  LLY= 12.8%  JPM= 11.8%  V=  9.9%  UNH=  8.9%  XOM=  8.0%  MA=  7.5%  COST=  7.0%  HD=  7.7%  PG=  6.1%  NFLX= 20.3%  util=0.396482  Δ=-0.001010
+  PG+1%  LLY= 12.8%  JPM= 11.8%  V=  9.9%  UNH=  8.9%  XOM=  8.0%  MA=  7.5%  COST=  7.0%  HD=  6.6%  PG=  7.2%  NFLX= 20.3%  util=0.395794  Δ=-0.001698
+  NFLX+1%  LLY= 12.8%  JPM= 11.8%  V=  9.9%  UNH=  8.9%  XOM=  8.0%  MA=  7.5%  COST=  7.0%  HD=  6.6%  PG=  6.1%  NFLX= 21.4%  util=0.400242  Δ=+0.002750
+  ★ WINNER: NFLX  improvement=+0.002750
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=0.400242  feasible=10]
+  LLY+1%  LLY= 13.8%  JPM= 11.7%  V=  9.8%  UNH=  8.8%  XOM=  7.9%  MA=  7.4%  COST=  6.9%  HD=  6.4%  PG=  6.0%  NFLX= 21.3%  util=0.402426  Δ=+0.002184
+  JPM+1%  LLY= 12.6%  JPM= 12.8%  V=  9.8%  UNH=  8.8%  XOM=  7.9%  MA=  7.4%  COST=  6.9%  HD=  6.4%  PG=  6.0%  NFLX= 21.3%  util=0.400306  Δ=+0.000063
+  V+1%  LLY= 12.6%  JPM= 11.7%  V= 10.9%  UNH=  8.8%  XOM=  7.9%  MA=  7.4%  COST=  6.9%  HD=  6.4%  PG=  6.0%  NFLX= 21.3%  util=0.399288  Δ=-0.000955
+  UNH+1%  LLY= 12.6%  JPM= 11.7%  V=  9.8%  UNH=  9.9%  XOM=  7.9%  MA=  7.4%  COST=  6.9%  HD=  6.4%  PG=  6.0%  NFLX= 21.3%  util=0.399659  Δ=-0.000584
+  XOM+1%  LLY= 12.6%  JPM= 11.7%  V=  9.8%  UNH=  8.8%  XOM=  9.0%  MA=  7.4%  COST=  6.9%  HD=  6.4%  PG=  6.0%  NFLX= 21.3%  util=0.399711  Δ=-0.000531
+  MA+1%  LLY= 12.6%  JPM= 11.7%  V=  9.8%  UNH=  8.8%  XOM=  7.9%  MA=  8.5%  COST=  6.9%  HD=  6.4%  PG=  6.0%  NFLX= 21.3%  util=0.399743  Δ=-0.000499
+  COST+1%  LLY= 12.6%  JPM= 11.7%  V=  9.8%  UNH=  8.8%  XOM=  7.9%  MA=  7.4%  COST=  8.0%  HD=  6.4%  PG=  6.0%  NFLX= 21.3%  util=0.400408  Δ=+0.000166
+  HD+1%  LLY= 12.6%  JPM= 11.7%  V=  9.8%  UNH=  8.8%  XOM=  7.9%  MA=  7.4%  COST=  6.9%  HD=  7.6%  PG=  6.0%  NFLX= 21.3%  util=0.399203  Δ=-0.001039
+  PG+1%  LLY= 12.6%  JPM= 11.7%  V=  9.8%  UNH=  8.8%  XOM=  7.9%  MA=  7.4%  COST=  6.9%  HD=  6.4%  PG=  7.1%  NFLX= 21.3%  util=0.398552  Δ=-0.001690
+  NFLX+1%  LLY= 12.6%  JPM= 11.7%  V=  9.8%  UNH=  8.8%  XOM=  7.9%  MA=  7.4%  COST=  6.9%  HD=  6.4%  PG=  6.0%  NFLX= 22.4%  util=0.402904  Δ=+0.002662
+  ★ WINNER: NFLX  improvement=+0.002662
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=0.402904  feasible=10]
+  LLY+1%  LLY= 13.6%  JPM= 11.6%  V=  9.7%  UNH=  8.7%  XOM=  7.8%  MA=  7.3%  COST=  6.8%  HD=  6.3%  PG=  5.9%  NFLX= 22.3%  util=0.405065  Δ=+0.002161
+  JPM+1%  LLY= 12.5%  JPM= 12.7%  V=  9.7%  UNH=  8.7%  XOM=  7.8%  MA=  7.3%  COST=  6.8%  HD=  6.3%  PG=  5.9%  NFLX= 22.3%  util=0.402976  Δ=+0.000073
+  V+1%  LLY= 12.5%  JPM= 11.6%  V= 10.8%  UNH=  8.7%  XOM=  7.8%  MA=  7.3%  COST=  6.8%  HD=  6.3%  PG=  5.9%  NFLX= 22.3%  util=0.401969  Δ=-0.000935
+  UNH+1%  LLY= 12.5%  JPM= 11.6%  V=  9.7%  UNH=  9.8%  XOM=  7.8%  MA=  7.3%  COST=  6.8%  HD=  6.3%  PG=  5.9%  NFLX= 22.3%  util=0.402302  Δ=-0.000602
+  XOM+1%  LLY= 12.5%  JPM= 11.6%  V=  9.7%  UNH=  8.7%  XOM=  8.9%  MA=  7.3%  COST=  6.8%  HD=  6.3%  PG=  5.9%  NFLX= 22.3%  util=0.402427  Δ=-0.000477
+  MA+1%  LLY= 12.5%  JPM= 11.6%  V=  9.7%  UNH=  8.7%  XOM=  7.8%  MA=  8.4%  COST=  6.8%  HD=  6.3%  PG=  5.9%  NFLX= 22.3%  util=0.402429  Δ=-0.000475
+  COST+1%  LLY= 12.5%  JPM= 11.6%  V=  9.7%  UNH=  8.7%  XOM=  7.8%  MA=  7.3%  COST=  7.9%  HD=  6.3%  PG=  5.9%  NFLX= 22.3%  util=0.403081  Δ=+0.000177
+  HD+1%  LLY= 12.5%  JPM= 11.6%  V=  9.7%  UNH=  8.7%  XOM=  7.8%  MA=  7.3%  COST=  6.8%  HD=  7.4%  PG=  5.9%  NFLX= 22.3%  util=0.401868  Δ=-0.001036
+  PG+1%  LLY= 12.5%  JPM= 11.6%  V=  9.7%  UNH=  8.7%  XOM=  7.8%  MA=  7.3%  COST=  6.8%  HD=  6.3%  PG=  7.0%  NFLX= 22.3%  util=0.401229  Δ=-0.001675
+  NFLX+1%  LLY= 12.5%  JPM= 11.6%  V=  9.7%  UNH=  8.7%  XOM=  7.8%  MA=  7.3%  COST=  6.8%  HD=  6.3%  PG=  5.9%  NFLX= 23.4%  util=0.405458  Δ=+0.002554
+  ★ WINNER: NFLX  improvement=+0.002554
+────────────────────────────────────────────────────────────────────────
+Epoch 16  [startUtility=0.405458  feasible=10]
+  LLY+1%  LLY= 13.5%  JPM= 11.5%  V=  9.6%  UNH=  8.6%  XOM=  7.7%  MA=  7.2%  COST=  6.7%  HD=  6.2%  PG=  5.7%  NFLX= 23.3%  util=0.407615  Δ=+0.002157
+  JPM+1%  LLY= 12.4%  JPM= 12.6%  V=  9.6%  UNH=  8.6%  XOM=  7.7%  MA=  7.2%  COST=  6.7%  HD=  6.2%  PG=  5.7%  NFLX= 23.3%  util=0.405541  Δ=+0.000083
+  V+1%  LLY= 12.4%  JPM= 11.5%  V= 10.7%  UNH=  8.6%  XOM=  7.7%  MA=  7.2%  COST=  6.7%  HD=  6.2%  PG=  5.7%  NFLX= 23.3%  util=0.404564  Δ=-0.000894
+  UNH+1%  LLY= 12.4%  JPM= 11.5%  V=  9.6%  UNH=  9.7%  XOM=  7.7%  MA=  7.2%  COST=  6.7%  HD=  6.2%  PG=  5.7%  NFLX= 23.3%  util=0.404868  Δ=-0.000590
+  XOM+1%  LLY= 12.4%  JPM= 11.5%  V=  9.6%  UNH=  8.6%  XOM=  8.8%  MA=  7.2%  COST=  6.7%  HD=  6.2%  PG=  5.7%  NFLX= 23.3%  util=0.405037  Δ=-0.000422
+  MA+1%  LLY= 12.4%  JPM= 11.5%  V=  9.6%  UNH=  8.6%  XOM=  7.7%  MA=  8.3%  COST=  6.7%  HD=  6.2%  PG=  5.7%  NFLX= 23.3%  util=0.405011  Δ=-0.000448
+  COST+1%  LLY= 12.4%  JPM= 11.5%  V=  9.6%  UNH=  8.6%  XOM=  7.7%  MA=  7.2%  COST=  7.8%  HD=  6.2%  PG=  5.7%  NFLX= 23.3%  util=0.405649  Δ=+0.000191
+  HD+1%  LLY= 12.4%  JPM= 11.5%  V=  9.6%  UNH=  8.6%  XOM=  7.7%  MA=  7.2%  COST=  6.7%  HD=  7.3%  PG=  5.7%  NFLX= 23.3%  util=0.404414  Δ=-0.001045
+  PG+1%  LLY= 12.4%  JPM= 11.5%  V=  9.6%  UNH=  8.6%  XOM=  7.7%  MA=  7.2%  COST=  6.7%  HD=  6.2%  PG=  6.9%  NFLX= 23.3%  util=0.403819  Δ=-0.001639
+  NFLX+1%  LLY= 12.4%  JPM= 11.5%  V=  9.6%  UNH=  8.6%  XOM=  7.7%  MA=  7.2%  COST=  6.7%  HD=  6.2%  PG=  5.7%  NFLX= 24.4%  util=0.407930  Δ=+0.002472
+  ★ WINNER: NFLX  improvement=+0.002472
+────────────────────────────────────────────────────────────────────────
+Epoch 17  [startUtility=0.407930  feasible=10]
+  LLY+1%  LLY= 13.4%  JPM= 11.4%  V=  9.5%  UNH=  8.5%  XOM=  7.5%  MA=  7.1%  COST=  6.6%  HD=  6.1%  PG=  5.6%  NFLX= 24.3%  util=0.410135  Δ=+0.002204
+  JPM+1%  LLY= 12.3%  JPM= 12.5%  V=  9.5%  UNH=  8.5%  XOM=  7.5%  MA=  7.1%  COST=  6.6%  HD=  6.1%  PG=  5.6%  NFLX= 24.3%  util=0.408030  Δ=+0.000100
+  V+1%  LLY= 12.3%  JPM= 11.4%  V= 10.6%  UNH=  8.5%  XOM=  7.5%  MA=  7.1%  COST=  6.6%  HD=  6.1%  PG=  5.6%  NFLX= 24.3%  util=0.407043  Δ=-0.000887
+  UNH+1%  LLY= 12.3%  JPM= 11.4%  V=  9.5%  UNH=  9.6%  XOM=  7.5%  MA=  7.1%  COST=  6.6%  HD=  6.1%  PG=  5.6%  NFLX= 24.3%  util=0.407342  Δ=-0.000588
+  XOM+1%  LLY= 12.3%  JPM= 11.4%  V=  9.5%  UNH=  8.5%  XOM=  8.7%  MA=  7.1%  COST=  6.6%  HD=  6.1%  PG=  5.6%  NFLX= 24.3%  util=0.407531  Δ=-0.000399
+  MA+1%  LLY= 12.3%  JPM= 11.4%  V=  9.5%  UNH=  8.5%  XOM=  7.5%  MA=  8.2%  COST=  6.6%  HD=  6.1%  PG=  5.6%  NFLX= 24.3%  util=0.407485  Δ=-0.000445
+  COST+1%  LLY= 12.3%  JPM= 11.4%  V=  9.5%  UNH=  8.5%  XOM=  7.5%  MA=  7.1%  COST=  7.7%  HD=  6.1%  PG=  5.6%  NFLX= 24.3%  util=0.408137  Δ=+0.000207
+  HD+1%  LLY= 12.3%  JPM= 11.4%  V=  9.5%  UNH=  8.5%  XOM=  7.5%  MA=  7.1%  COST=  6.6%  HD=  7.2%  PG=  5.6%  NFLX= 24.3%  util=0.406881  Δ=-0.001050
+  PG+1%  LLY= 12.3%  JPM= 11.4%  V=  9.5%  UNH=  8.5%  XOM=  7.5%  MA=  7.1%  COST=  6.6%  HD=  6.1%  PG=  6.7%  NFLX= 24.3%  util=0.406303  Δ=-0.001627
+  NFLX+1%  LLY= 12.3%  JPM= 11.4%  V=  9.5%  UNH=  8.5%  XOM=  7.5%  MA=  7.1%  COST=  6.6%  HD=  6.1%  PG=  5.6%  NFLX= 25.4%  util=0.410332  Δ=+0.002402
+  ★ WINNER: NFLX  improvement=+0.002402
+────────────────────────────────────────────────────────────────────────
+Epoch 18  [startUtility=0.410332  feasible=10]
+  LLY+1%  LLY= 13.3%  JPM= 11.2%  V=  9.3%  UNH=  8.4%  XOM=  7.4%  MA=  7.0%  COST=  6.5%  HD=  6.0%  PG=  5.5%  NFLX= 25.3%  util=0.412610  Δ=+0.002278
+  JPM+1%  LLY= 12.2%  JPM= 12.4%  V=  9.3%  UNH=  8.4%  XOM=  7.4%  MA=  7.0%  COST=  6.5%  HD=  6.0%  PG=  5.5%  NFLX= 25.3%  util=0.410443  Δ=+0.000111
+  V+1%  LLY= 12.2%  JPM= 11.2%  V= 10.5%  UNH=  8.4%  XOM=  7.4%  MA=  7.0%  COST=  6.5%  HD=  6.0%  PG=  5.5%  NFLX= 25.3%  util=0.409445  Δ=-0.000886
+  UNH+1%  LLY= 12.2%  JPM= 11.2%  V=  9.3%  UNH=  9.5%  XOM=  7.4%  MA=  7.0%  COST=  6.5%  HD=  6.0%  PG=  5.5%  NFLX= 25.3%  util=0.409762  Δ=-0.000570
+  XOM+1%  LLY= 12.2%  JPM= 11.2%  V=  9.3%  UNH=  8.4%  XOM=  8.5%  MA=  7.0%  COST=  6.5%  HD=  6.0%  PG=  5.5%  NFLX= 25.3%  util=0.409938  Δ=-0.000393
+  MA+1%  LLY= 12.2%  JPM= 11.2%  V=  9.3%  UNH=  8.4%  XOM=  7.4%  MA=  8.1%  COST=  6.5%  HD=  6.0%  PG=  5.5%  NFLX= 25.3%  util=0.409885  Δ=-0.000447
+  COST+1%  LLY= 12.2%  JPM= 11.2%  V=  9.3%  UNH=  8.4%  XOM=  7.4%  MA=  7.0%  COST=  7.6%  HD=  6.0%  PG=  5.5%  NFLX= 25.3%  util=0.410546  Δ=+0.000214
+  HD+1%  LLY= 12.2%  JPM= 11.2%  V=  9.3%  UNH=  8.4%  XOM=  7.4%  MA=  7.0%  COST=  6.5%  HD=  7.1%  PG=  5.5%  NFLX= 25.3%  util=0.409261  Δ=-0.001071
+  PG+1%  LLY= 12.2%  JPM= 11.2%  V=  9.3%  UNH=  8.4%  XOM=  7.4%  MA=  7.0%  COST=  6.5%  HD=  6.0%  PG=  6.6%  NFLX= 25.3%  util=0.408701  Δ=-0.001631
+  NFLX+1%  LLY= 12.2%  JPM= 11.2%  V=  9.3%  UNH=  8.4%  XOM=  7.4%  MA=  7.0%  COST=  6.5%  HD=  6.0%  PG=  5.5%  NFLX= 26.4%  util=0.412695  Δ=+0.002363
+  ★ WINNER: NFLX  improvement=+0.002363
+────────────────────────────────────────────────────────────────────────
+Epoch 19  [startUtility=0.412695  feasible=10]
+  LLY+1%  LLY= 13.2%  JPM= 11.1%  V=  9.2%  UNH=  8.3%  XOM=  7.3%  MA=  6.8%  COST=  6.4%  HD=  5.9%  PG=  5.4%  NFLX= 26.3%  util=0.415005  Δ=+0.002311
+  JPM+1%  LLY= 12.1%  JPM= 12.2%  V=  9.2%  UNH=  8.3%  XOM=  7.3%  MA=  6.8%  COST=  6.4%  HD=  5.9%  PG=  5.4%  NFLX= 26.3%  util=0.412813  Δ=+0.000118
+  V+1%  LLY= 12.1%  JPM= 11.1%  V= 10.3%  UNH=  8.3%  XOM=  7.3%  MA=  6.8%  COST=  6.4%  HD=  5.9%  PG=  5.4%  NFLX= 26.3%  util=0.411806  Δ=-0.000889
+  UNH+1%  LLY= 12.1%  JPM= 11.1%  V=  9.2%  UNH=  9.4%  XOM=  7.3%  MA=  6.8%  COST=  6.4%  HD=  5.9%  PG=  5.4%  NFLX= 26.3%  util=0.412133  Δ=-0.000561
+  XOM+1%  LLY= 12.1%  JPM= 11.1%  V=  9.2%  UNH=  8.3%  XOM=  8.4%  MA=  6.8%  COST=  6.4%  HD=  5.9%  PG=  5.4%  NFLX= 26.3%  util=0.412276  Δ=-0.000418
+  MA+1%  LLY= 12.1%  JPM= 11.1%  V=  9.2%  UNH=  8.3%  XOM=  7.3%  MA=  8.0%  COST=  6.4%  HD=  5.9%  PG=  5.4%  NFLX= 26.3%  util=0.412248  Δ=-0.000447
+  COST+1%  LLY= 12.1%  JPM= 11.1%  V=  9.2%  UNH=  8.3%  XOM=  7.3%  MA=  6.8%  COST=  7.5%  HD=  5.9%  PG=  5.4%  NFLX= 26.3%  util=0.412937  Δ=+0.000242
+  HD+1%  LLY= 12.1%  JPM= 11.1%  V=  9.2%  UNH=  8.3%  XOM=  7.3%  MA=  6.8%  COST=  6.4%  HD=  7.0%  PG=  5.4%  NFLX= 26.3%  util=0.411636  Δ=-0.001059
+  PG+1%  LLY= 12.1%  JPM= 11.1%  V=  9.2%  UNH=  8.3%  XOM=  7.3%  MA=  6.8%  COST=  6.4%  HD=  5.9%  PG=  6.5%  NFLX= 26.3%  util=0.411058  Δ=-0.001637
+  NFLX+1%  LLY= 12.1%  JPM= 11.1%  V=  9.2%  UNH=  8.3%  XOM=  7.3%  MA=  6.8%  COST=  6.4%  HD=  5.9%  PG=  5.4%  NFLX= 27.4%  util=0.415042  Δ=+0.002347
+  ★ WINNER: NFLX  improvement=+0.002347
+────────────────────────────────────────────────────────────────────────
+Epoch 20  [startUtility=0.415042  feasible=10]
+  LLY+1%  LLY= 13.1%  JPM= 11.0%  V=  9.1%  UNH=  8.2%  XOM=  7.2%  MA=  6.7%  COST=  6.3%  HD=  5.8%  PG=  5.3%  NFLX= 27.3%  util=0.417323  Δ=+0.002281
+  JPM+1%  LLY= 12.0%  JPM= 12.1%  V=  9.1%  UNH=  8.2%  XOM=  7.2%  MA=  6.7%  COST=  6.3%  HD=  5.8%  PG=  5.3%  NFLX= 27.3%  util=0.415162  Δ=+0.000120
+  V+1%  LLY= 12.0%  JPM= 11.0%  V= 10.2%  UNH=  8.2%  XOM=  7.2%  MA=  6.7%  COST=  6.3%  HD=  5.8%  PG=  5.3%  NFLX= 27.3%  util=0.414150  Δ=-0.000892
+  UNH+1%  LLY= 12.0%  JPM= 11.0%  V=  9.1%  UNH=  9.3%  XOM=  7.2%  MA=  6.7%  COST=  6.3%  HD=  5.8%  PG=  5.3%  NFLX= 27.3%  util=0.414480  Δ=-0.000562
+  XOM+1%  LLY= 12.0%  JPM= 11.0%  V=  9.1%  UNH=  8.2%  XOM=  8.3%  MA=  6.7%  COST=  6.3%  HD=  5.8%  PG=  5.3%  NFLX= 27.3%  util=0.414568  Δ=-0.000474
+  MA+1%  LLY= 12.0%  JPM= 11.0%  V=  9.1%  UNH=  8.2%  XOM=  7.2%  MA=  7.8%  COST=  6.3%  HD=  5.8%  PG=  5.3%  NFLX= 27.3%  util=0.414601  Δ=-0.000441
+  COST+1%  LLY= 12.0%  JPM= 11.0%  V=  9.1%  UNH=  8.2%  XOM=  7.2%  MA=  6.7%  COST=  7.4%  HD=  5.8%  PG=  5.3%  NFLX= 27.3%  util=0.415272  Δ=+0.000230
+  HD+1%  LLY= 12.0%  JPM= 11.0%  V=  9.1%  UNH=  8.2%  XOM=  7.2%  MA=  6.7%  COST=  6.3%  HD=  6.9%  PG=  5.3%  NFLX= 27.3%  util=0.413990  Δ=-0.001052
+  PG+1%  LLY= 12.0%  JPM= 11.0%  V=  9.1%  UNH=  8.2%  XOM=  7.2%  MA=  6.7%  COST=  6.3%  HD=  5.8%  PG=  6.4%  NFLX= 27.3%  util=0.413413  Δ=-0.001629
+  NFLX+1%  LLY= 12.0%  JPM= 11.0%  V=  9.1%  UNH=  8.2%  XOM=  7.2%  MA=  6.7%  COST=  6.3%  HD=  5.8%  PG=  5.3%  NFLX= 28.4%  util=0.417311  Δ=+0.002269
+  ★ WINNER: LLY  improvement=+0.002281
+────────────────────────────────────────────────────────────────────────
+Epoch 21  [startUtility=0.417323  feasible=10]
+  LLY+1%  LLY= 14.1%  JPM= 10.9%  V=  9.0%  UNH=  8.1%  XOM=  7.1%  MA=  6.6%  COST=  6.1%  HD=  5.7%  PG=  5.2%  NFLX= 27.2%  util=0.419570  Δ=+0.002247
+  JPM+1%  LLY= 13.0%  JPM= 12.0%  V=  9.0%  UNH=  8.1%  XOM=  7.1%  MA=  6.6%  COST=  6.1%  HD=  5.7%  PG=  5.2%  NFLX= 27.2%  util=0.417457  Δ=+0.000134
+  V+1%  LLY= 13.0%  JPM= 10.9%  V= 10.1%  UNH=  8.1%  XOM=  7.1%  MA=  6.6%  COST=  6.1%  HD=  5.7%  PG=  5.2%  NFLX= 27.2%  util=0.416444  Δ=-0.000879
+  UNH+1%  LLY= 13.0%  JPM= 10.9%  V=  9.0%  UNH=  9.2%  XOM=  7.1%  MA=  6.6%  COST=  6.1%  HD=  5.7%  PG=  5.2%  NFLX= 27.2%  util=0.416757  Δ=-0.000566
+  XOM+1%  LLY= 13.0%  JPM= 10.9%  V=  9.0%  UNH=  8.1%  XOM=  8.2%  MA=  6.6%  COST=  6.1%  HD=  5.7%  PG=  5.2%  NFLX= 27.2%  util=0.416874  Δ=-0.000449
+  MA+1%  LLY= 13.0%  JPM= 10.9%  V=  9.0%  UNH=  8.1%  XOM=  7.1%  MA=  7.7%  COST=  6.1%  HD=  5.7%  PG=  5.2%  NFLX= 27.2%  util=0.416895  Δ=-0.000428
+  COST+1%  LLY= 13.0%  JPM= 10.9%  V=  9.0%  UNH=  8.1%  XOM=  7.1%  MA=  6.6%  COST=  7.3%  HD=  5.7%  PG=  5.2%  NFLX= 27.2%  util=0.417563  Δ=+0.000240
+  HD+1%  LLY= 13.0%  JPM= 10.9%  V=  9.0%  UNH=  8.1%  XOM=  7.1%  MA=  6.6%  COST=  6.1%  HD=  6.8%  PG=  5.2%  NFLX= 27.2%  util=0.416274  Δ=-0.001049
+  PG+1%  LLY= 13.0%  JPM= 10.9%  V=  9.0%  UNH=  8.1%  XOM=  7.1%  MA=  6.6%  COST=  6.1%  HD=  5.7%  PG=  6.3%  NFLX= 27.2%  util=0.415698  Δ=-0.001625
+  NFLX+1%  LLY= 13.0%  JPM= 10.9%  V=  9.0%  UNH=  8.1%  XOM=  7.1%  MA=  6.6%  COST=  6.1%  HD=  5.7%  PG=  5.2%  NFLX= 28.3%  util=0.419611  Δ=+0.002288
+  ★ WINNER: NFLX  improvement=+0.002288
+────────────────────────────────────────────────────────────────────────
+Epoch 22  [startUtility=0.419611  feasible=10]
+  LLY+1%  LLY= 14.0%  JPM= 10.8%  V=  8.9%  UNH=  7.9%  XOM=  7.0%  MA=  6.5%  COST=  6.0%  HD=  5.6%  PG=  5.1%  NFLX= 28.2%  util=0.421863  Δ=+0.002252
+  JPM+1%  LLY= 12.9%  JPM= 11.9%  V=  8.9%  UNH=  7.9%  XOM=  7.0%  MA=  6.5%  COST=  6.0%  HD=  5.6%  PG=  5.1%  NFLX= 28.2%  util=0.419749  Δ=+0.000138
+  V+1%  LLY= 12.9%  JPM= 10.8%  V= 10.0%  UNH=  7.9%  XOM=  7.0%  MA=  6.5%  COST=  6.0%  HD=  5.6%  PG=  5.1%  NFLX= 28.2%  util=0.418724  Δ=-0.000887
+  UNH+1%  LLY= 12.9%  JPM= 10.8%  V=  8.9%  UNH=  9.1%  XOM=  7.0%  MA=  6.5%  COST=  6.0%  HD=  5.6%  PG=  5.1%  NFLX= 28.2%  util=0.419061  Δ=-0.000550
+  XOM+1%  LLY= 12.9%  JPM= 10.8%  V=  8.9%  UNH=  7.9%  XOM=  8.1%  MA=  6.5%  COST=  6.0%  HD=  5.6%  PG=  5.1%  NFLX= 28.2%  util=0.419144  Δ=-0.000467
+  MA+1%  LLY= 12.9%  JPM= 10.8%  V=  8.9%  UNH=  7.9%  XOM=  7.0%  MA=  7.6%  COST=  6.0%  HD=  5.6%  PG=  5.1%  NFLX= 28.2%  util=0.419184  Δ=-0.000427
+  COST+1%  LLY= 12.9%  JPM= 10.8%  V=  8.9%  UNH=  7.9%  XOM=  7.0%  MA=  6.5%  COST=  7.1%  HD=  5.6%  PG=  5.1%  NFLX= 28.2%  util=0.419869  Δ=+0.000258
+  HD+1%  LLY= 12.9%  JPM= 10.8%  V=  8.9%  UNH=  7.9%  XOM=  7.0%  MA=  6.5%  COST=  6.0%  HD=  6.7%  PG=  5.1%  NFLX= 28.2%  util=0.418591  Δ=-0.001020
+  PG+1%  LLY= 12.9%  JPM= 10.8%  V=  8.9%  UNH=  7.9%  XOM=  7.0%  MA=  6.5%  COST=  6.0%  HD=  5.6%  PG=  6.2%  NFLX= 28.2%  util=0.417997  Δ=-0.001613
+  NFLX+1%  LLY= 12.9%  JPM= 10.8%  V=  8.9%  UNH=  7.9%  XOM=  7.0%  MA=  6.5%  COST=  6.0%  HD=  5.6%  PG=  5.1%  NFLX= 29.3%  util=0.421828  Δ=+0.002217
+  ★ WINNER: LLY  improvement=+0.002252
+────────────────────────────────────────────────────────────────────────
+Epoch 23  [startUtility=0.421863  feasible=10]
+  LLY+1%  LLY= 15.0%  JPM= 10.7%  V=  8.8%  UNH=  7.8%  XOM=  6.9%  MA=  6.4%  COST=  5.9%  HD=  5.4%  PG=  5.0%  NFLX= 28.1%  util=0.424094  Δ=+0.002231
+  JPM+1%  LLY= 13.9%  JPM= 11.8%  V=  8.8%  UNH=  7.8%  XOM=  6.9%  MA=  6.4%  COST=  5.9%  HD=  5.4%  PG=  5.0%  NFLX= 28.1%  util=0.422019  Δ=+0.000156
+  V+1%  LLY= 13.9%  JPM= 10.7%  V=  9.9%  UNH=  7.8%  XOM=  6.9%  MA=  6.4%  COST=  5.9%  HD=  5.4%  PG=  5.0%  NFLX= 28.1%  util=0.420975  Δ=-0.000888
+  UNH+1%  LLY= 13.9%  JPM= 10.7%  V=  8.8%  UNH=  8.9%  XOM=  6.9%  MA=  6.4%  COST=  5.9%  HD=  5.4%  PG=  5.0%  NFLX= 28.1%  util=0.421310  Δ=-0.000553
+  XOM+1%  LLY= 13.9%  JPM= 10.7%  V=  8.8%  UNH=  7.8%  XOM=  8.0%  MA=  6.4%  COST=  5.9%  HD=  5.4%  PG=  5.0%  NFLX= 28.1%  util=0.421411  Δ=-0.000452
+  MA+1%  LLY= 13.9%  JPM= 10.7%  V=  8.8%  UNH=  7.8%  XOM=  6.9%  MA=  7.5%  COST=  5.9%  HD=  5.4%  PG=  5.0%  NFLX= 28.1%  util=0.421449  Δ=-0.000413
+  COST+1%  LLY= 13.9%  JPM= 10.7%  V=  8.8%  UNH=  7.8%  XOM=  6.9%  MA=  6.4%  COST=  7.0%  HD=  5.4%  PG=  5.0%  NFLX= 28.1%  util=0.422137  Δ=+0.000274
+  HD+1%  LLY= 13.9%  JPM= 10.7%  V=  8.8%  UNH=  7.8%  XOM=  6.9%  MA=  6.4%  COST=  5.9%  HD=  6.6%  PG=  5.0%  NFLX= 28.1%  util=0.420860  Δ=-0.001003
+  PG+1%  LLY= 13.9%  JPM= 10.7%  V=  8.8%  UNH=  7.8%  XOM=  6.9%  MA=  6.4%  COST=  5.9%  HD=  5.4%  PG=  6.1%  NFLX= 28.1%  util=0.420250  Δ=-0.001613
+  NFLX+1%  LLY= 13.9%  JPM= 10.7%  V=  8.8%  UNH=  7.8%  XOM=  6.9%  MA=  6.4%  COST=  5.9%  HD=  5.4%  PG=  5.0%  NFLX= 29.2%  util=0.424085  Δ=+0.002222
+  ★ WINNER: LLY  improvement=+0.002231
+────────────────────────────────────────────────────────────────────────
+Epoch 24  [startUtility=0.424094  feasible=10]
+  LLY+1%  LLY= 16.0%  JPM= 10.6%  V=  8.7%  UNH=  7.7%  XOM=  6.8%  MA=  6.3%  COST=  5.8%  HD=  5.3%  PG=  4.9%  NFLX= 28.0%  util=0.426232  Δ=+0.002138
+  JPM+1%  LLY= 14.9%  JPM= 11.7%  V=  8.7%  UNH=  7.7%  XOM=  6.8%  MA=  6.3%  COST=  5.8%  HD=  5.3%  PG=  4.9%  NFLX= 28.0%  util=0.424221  Δ=+0.000127
+  V+1%  LLY= 14.9%  JPM= 10.6%  V=  9.8%  UNH=  7.7%  XOM=  6.8%  MA=  6.3%  COST=  5.8%  HD=  5.3%  PG=  4.9%  NFLX= 28.0%  util=0.423210  Δ=-0.000884
+  UNH+1%  LLY= 14.9%  JPM= 10.6%  V=  8.7%  UNH=  8.8%  XOM=  6.8%  MA=  6.3%  COST=  5.8%  HD=  5.3%  PG=  4.9%  NFLX= 28.0%  util=0.423537  Δ=-0.000557
+  XOM+1%  LLY= 14.9%  JPM= 10.6%  V=  8.7%  UNH=  7.7%  XOM=  7.9%  MA=  6.3%  COST=  5.8%  HD=  5.3%  PG=  4.9%  NFLX= 28.0%  util=0.423621  Δ=-0.000473
+  MA+1%  LLY= 14.9%  JPM= 10.6%  V=  8.7%  UNH=  7.7%  XOM=  6.8%  MA=  7.4%  COST=  5.8%  HD=  5.3%  PG=  4.9%  NFLX= 28.0%  util=0.423688  Δ=-0.000406
+  COST+1%  LLY= 14.9%  JPM= 10.6%  V=  8.7%  UNH=  7.7%  XOM=  6.8%  MA=  6.3%  COST=  6.9%  HD=  5.3%  PG=  4.9%  NFLX= 28.0%  util=0.424362  Δ=+0.000267
+  HD+1%  LLY= 14.9%  JPM= 10.6%  V=  8.7%  UNH=  7.7%  XOM=  6.8%  MA=  6.3%  COST=  5.8%  HD=  6.4%  PG=  4.9%  NFLX= 28.0%  util=0.423100  Δ=-0.000995
+  PG+1%  LLY= 14.9%  JPM= 10.6%  V=  8.7%  UNH=  7.7%  XOM=  6.8%  MA=  6.3%  COST=  5.8%  HD=  5.3%  PG=  6.0%  NFLX= 28.0%  util=0.422471  Δ=-0.001624
+  NFLX+1%  LLY= 14.9%  JPM= 10.6%  V=  8.7%  UNH=  7.7%  XOM=  6.8%  MA=  6.3%  COST=  5.8%  HD=  5.3%  PG=  4.9%  NFLX= 29.1%  util=0.426320  Δ=+0.002226
+  ★ WINNER: NFLX  improvement=+0.002226
+────────────────────────────────────────────────────────────────────────
+Epoch 25  [startUtility=0.426320  feasible=10]
+  LLY+1%  LLY= 15.9%  JPM= 10.5%  V=  8.6%  UNH=  7.6%  XOM=  6.7%  MA=  6.2%  COST=  5.7%  HD=  5.2%  PG=  4.7%  NFLX= 29.0%  util=0.428499  Δ=+0.002179
+  JPM+1%  LLY= 14.8%  JPM= 11.6%  V=  8.6%  UNH=  7.6%  XOM=  6.7%  MA=  6.2%  COST=  5.7%  HD=  5.2%  PG=  4.7%  NFLX= 29.0%  util=0.426486  Δ=+0.000166
+  V+1%  LLY= 14.8%  JPM= 10.5%  V=  9.7%  UNH=  7.6%  XOM=  6.7%  MA=  6.2%  COST=  5.7%  HD=  5.2%  PG=  4.7%  NFLX= 29.0%  util=0.425423  Δ=-0.000897
+  UNH+1%  LLY= 14.8%  JPM= 10.5%  V=  8.6%  UNH=  8.7%  XOM=  6.7%  MA=  6.2%  COST=  5.7%  HD=  5.2%  PG=  4.7%  NFLX= 29.0%  util=0.425788  Δ=-0.000532
+  XOM+1%  LLY= 14.8%  JPM= 10.5%  V=  8.6%  UNH=  7.6%  XOM=  7.8%  MA=  6.2%  COST=  5.7%  HD=  5.2%  PG=  4.7%  NFLX= 29.0%  util=0.425836  Δ=-0.000484
+  MA+1%  LLY= 14.8%  JPM= 10.5%  V=  8.6%  UNH=  7.6%  XOM=  6.7%  MA=  7.3%  COST=  5.7%  HD=  5.2%  PG=  4.7%  NFLX= 29.0%  util=0.425906  Δ=-0.000414
+  COST+1%  LLY= 14.8%  JPM= 10.5%  V=  8.6%  UNH=  7.6%  XOM=  6.7%  MA=  6.2%  COST=  6.8%  HD=  5.2%  PG=  4.7%  NFLX= 29.0%  util=0.426616  Δ=+0.000296
+  HD+1%  LLY= 14.8%  JPM= 10.5%  V=  8.6%  UNH=  7.6%  XOM=  6.7%  MA=  6.2%  COST=  5.7%  HD=  6.3%  PG=  4.7%  NFLX= 29.0%  util=0.425354  Δ=-0.000966
+  PG+1%  LLY= 14.8%  JPM= 10.5%  V=  8.6%  UNH=  7.6%  XOM=  6.7%  MA=  6.2%  COST=  5.7%  HD=  5.2%  PG=  5.9%  NFLX= 29.0%  util=0.424722  Δ=-0.001598
+  NFLX+1%  LLY= 14.8%  JPM= 10.5%  V=  8.6%  UNH=  7.6%  XOM=  6.7%  MA=  6.2%  COST=  5.7%  HD=  5.2%  PG=  4.7%  NFLX= 30.1%  util=0.428534  Δ=+0.002214
+  ★ WINNER: NFLX  improvement=+0.002214
+────────────────────────────────────────────────────────────────────────
+Epoch 26  [startUtility=0.428534  feasible=10]
+  LLY+1%  LLY= 15.8%  JPM= 10.4%  V=  8.5%  UNH=  7.5%  XOM=  6.5%  MA=  6.1%  COST=  5.6%  HD=  5.1%  PG=  4.6%  NFLX= 30.0%  util=0.430766  Δ=+0.002232
+  JPM+1%  LLY= 14.6%  JPM= 11.5%  V=  8.5%  UNH=  7.5%  XOM=  6.5%  MA=  6.1%  COST=  5.6%  HD=  5.1%  PG=  4.6%  NFLX= 30.0%  util=0.428699  Δ=+0.000165
+  V+1%  LLY= 14.6%  JPM= 10.4%  V=  9.6%  UNH=  7.5%  XOM=  6.5%  MA=  6.1%  COST=  5.6%  HD=  5.1%  PG=  4.6%  NFLX= 30.0%  util=0.427642  Δ=-0.000892
+  UNH+1%  LLY= 14.6%  JPM= 10.4%  V=  8.5%  UNH=  8.6%  XOM=  6.5%  MA=  6.1%  COST=  5.6%  HD=  5.1%  PG=  4.6%  NFLX= 30.0%  util=0.428003  Δ=-0.000531
+  XOM+1%  LLY= 14.6%  JPM= 10.4%  V=  8.5%  UNH=  7.5%  XOM=  7.7%  MA=  6.1%  COST=  5.6%  HD=  5.1%  PG=  4.6%  NFLX= 30.0%  util=0.427988  Δ=-0.000545
+  MA+1%  LLY= 14.6%  JPM= 10.4%  V=  8.5%  UNH=  7.5%  XOM=  6.5%  MA=  7.2%  COST=  5.6%  HD=  5.1%  PG=  4.6%  NFLX= 30.0%  util=0.428109  Δ=-0.000425
+  COST+1%  LLY= 14.6%  JPM= 10.4%  V=  8.5%  UNH=  7.5%  XOM=  6.5%  MA=  6.1%  COST=  6.7%  HD=  5.1%  PG=  4.6%  NFLX= 30.0%  util=0.428853  Δ=+0.000319
+  HD+1%  LLY= 14.6%  JPM= 10.4%  V=  8.5%  UNH=  7.5%  XOM=  6.5%  MA=  6.1%  COST=  5.6%  HD=  6.2%  PG=  4.6%  NFLX= 30.0%  util=0.427591  Δ=-0.000943
+  PG+1%  LLY= 14.6%  JPM= 10.4%  V=  8.5%  UNH=  7.5%  XOM=  6.5%  MA=  6.1%  COST=  5.6%  HD=  5.1%  PG=  5.7%  NFLX= 30.0%  util=0.426939  Δ=-0.001595
+  NFLX+1%  LLY= 14.6%  JPM= 10.4%  V=  8.5%  UNH=  7.5%  XOM=  6.5%  MA=  6.1%  COST=  5.6%  HD=  5.1%  PG=  4.6%  NFLX= 31.1%  util=0.430723  Δ=+0.002189
+  ★ WINNER: LLY  improvement=+0.002232
+────────────────────────────────────────────────────────────────────────
+Epoch 27  [startUtility=0.430766  feasible=10]
+  LLY+1%  LLY= 16.8%  JPM= 10.2%  V=  8.3%  UNH=  7.4%  XOM=  6.4%  MA=  6.0%  COST=  5.5%  HD=  5.0%  PG=  4.5%  NFLX= 29.9%  util=0.432909  Δ=+0.002143
+  JPM+1%  LLY= 15.6%  JPM= 11.4%  V=  8.3%  UNH=  7.4%  XOM=  6.4%  MA=  6.0%  COST=  5.5%  HD=  5.0%  PG=  4.5%  NFLX= 29.9%  util=0.430937  Δ=+0.000171
+  V+1%  LLY= 15.6%  JPM= 10.2%  V=  9.5%  UNH=  7.4%  XOM=  6.4%  MA=  6.0%  COST=  5.5%  HD=  5.0%  PG=  4.5%  NFLX= 29.9%  util=0.429874  Δ=-0.000893
+  UNH+1%  LLY= 15.6%  JPM= 10.2%  V=  8.3%  UNH=  8.5%  XOM=  6.4%  MA=  6.0%  COST=  5.5%  HD=  5.0%  PG=  4.5%  NFLX= 29.9%  util=0.430209  Δ=-0.000557
+  XOM+1%  LLY= 15.6%  JPM= 10.2%  V=  8.3%  UNH=  7.4%  XOM=  7.5%  MA=  6.0%  COST=  5.5%  HD=  5.0%  PG=  4.5%  NFLX= 29.9%  util=0.430167  Δ=-0.000599
+  MA+1%  LLY= 15.6%  JPM= 10.2%  V=  8.3%  UNH=  7.4%  XOM=  6.4%  MA=  7.1%  COST=  5.5%  HD=  5.0%  PG=  4.5%  NFLX= 29.9%  util=0.430356  Δ=-0.000410
+  COST+1%  LLY= 15.6%  JPM= 10.2%  V=  8.3%  UNH=  7.4%  XOM=  6.4%  MA=  6.0%  COST=  6.6%  HD=  5.0%  PG=  4.5%  NFLX= 29.9%  util=0.431077  Δ=+0.000311
+  HD+1%  LLY= 15.6%  JPM= 10.2%  V=  8.3%  UNH=  7.4%  XOM=  6.4%  MA=  6.0%  COST=  5.5%  HD=  6.1%  PG=  4.5%  NFLX= 29.9%  util=0.429844  Δ=-0.000922
+  PG+1%  LLY= 15.6%  JPM= 10.2%  V=  8.3%  UNH=  7.4%  XOM=  6.4%  MA=  6.0%  COST=  5.5%  HD=  5.0%  PG=  5.6%  NFLX= 29.9%  util=0.429165  Δ=-0.001602
+  NFLX+1%  LLY= 15.6%  JPM= 10.2%  V=  8.3%  UNH=  7.4%  XOM=  6.4%  MA=  6.0%  COST=  5.5%  HD=  5.0%  PG=  4.5%  NFLX= 31.0%  util=0.432964  Δ=+0.002197
+  ★ WINNER: NFLX  improvement=+0.002197
+────────────────────────────────────────────────────────────────────────
+Epoch 28  [startUtility=0.432964  feasible=10]
+  LLY+1%  LLY= 16.6%  JPM= 10.1%  V=  8.2%  UNH=  7.3%  XOM=  6.3%  MA=  5.8%  COST=  5.4%  HD=  4.9%  PG=  4.4%  NFLX= 30.9%  util=0.435143  Δ=+0.002179
+  JPM+1%  LLY= 15.5%  JPM= 11.2%  V=  8.2%  UNH=  7.3%  XOM=  6.3%  MA=  5.8%  COST=  5.4%  HD=  4.9%  PG=  4.4%  NFLX= 30.9%  util=0.433147  Δ=+0.000184
+  V+1%  LLY= 15.5%  JPM= 10.1%  V=  9.3%  UNH=  7.3%  XOM=  6.3%  MA=  5.8%  COST=  5.4%  HD=  4.9%  PG=  4.4%  NFLX= 30.9%  util=0.432074  Δ=-0.000889
+  UNH+1%  LLY= 15.5%  JPM= 10.1%  V=  8.2%  UNH=  8.4%  XOM=  6.3%  MA=  5.8%  COST=  5.4%  HD=  4.9%  PG=  4.4%  NFLX= 30.9%  util=0.432439  Δ=-0.000524
+  XOM+1%  LLY= 15.5%  JPM= 10.1%  V=  8.2%  UNH=  7.3%  XOM=  7.4%  MA=  5.8%  COST=  5.4%  HD=  4.9%  PG=  4.4%  NFLX= 30.9%  util=0.432360  Δ=-0.000603
+  MA+1%  LLY= 15.5%  JPM= 10.1%  V=  8.2%  UNH=  7.3%  XOM=  6.3%  MA=  7.0%  COST=  5.4%  HD=  4.9%  PG=  4.4%  NFLX= 30.9%  util=0.432558  Δ=-0.000406
+  COST+1%  LLY= 15.5%  JPM= 10.1%  V=  8.2%  UNH=  7.3%  XOM=  6.3%  MA=  5.8%  COST=  6.5%  HD=  4.9%  PG=  4.4%  NFLX= 30.9%  util=0.433308  Δ=+0.000345
+  HD+1%  LLY= 15.5%  JPM= 10.1%  V=  8.2%  UNH=  7.3%  XOM=  6.3%  MA=  5.8%  COST=  5.4%  HD=  6.0%  PG=  4.4%  NFLX= 30.9%  util=0.432055  Δ=-0.000909
+  PG+1%  LLY= 15.5%  JPM= 10.1%  V=  8.2%  UNH=  7.3%  XOM=  6.3%  MA=  5.8%  COST=  5.4%  HD=  4.9%  PG=  5.5%  NFLX= 30.9%  util=0.431379  Δ=-0.001584
+  NFLX+1%  LLY= 15.5%  JPM= 10.1%  V=  8.2%  UNH=  7.3%  XOM=  6.3%  MA=  5.8%  COST=  5.4%  HD=  4.9%  PG=  4.4%  NFLX= 32.0%  util=0.435152  Δ=+0.002189
+  ★ WINNER: NFLX  improvement=+0.002189
+────────────────────────────────────────────────────────────────────────
+Epoch 29  [startUtility=0.435152  feasible=10]
+  LLY+1%  LLY= 16.5%  JPM= 10.0%  V=  8.1%  UNH=  7.2%  XOM=  6.2%  MA=  5.7%  COST=  5.3%  HD=  4.8%  PG=  4.3%  NFLX= 31.9%  util=0.437364  Δ=+0.002212
+  JPM+1%  LLY= 15.4%  JPM= 11.1%  V=  8.1%  UNH=  7.2%  XOM=  6.2%  MA=  5.7%  COST=  5.3%  HD=  4.8%  PG=  4.3%  NFLX= 31.9%  util=0.435340  Δ=+0.000188
+  V+1%  LLY= 15.4%  JPM= 10.0%  V=  9.2%  UNH=  7.2%  XOM=  6.2%  MA=  5.7%  COST=  5.3%  HD=  4.8%  PG=  4.3%  NFLX= 31.9%  util=0.434250  Δ=-0.000903
+  UNH+1%  LLY= 15.4%  JPM= 10.0%  V=  8.1%  UNH=  8.3%  XOM=  6.2%  MA=  5.7%  COST=  5.3%  HD=  4.8%  PG=  4.3%  NFLX= 31.9%  util=0.434625  Δ=-0.000527
+  XOM+1%  LLY= 15.4%  JPM= 10.0%  V=  8.1%  UNH=  7.2%  XOM=  7.3%  MA=  5.7%  COST=  5.3%  HD=  4.8%  PG=  4.3%  NFLX= 31.9%  util=0.434500  Δ=-0.000652
+  MA+1%  LLY= 15.4%  JPM= 10.0%  V=  8.1%  UNH=  7.2%  XOM=  6.2%  MA=  6.8%  COST=  5.3%  HD=  4.8%  PG=  4.3%  NFLX= 31.9%  util=0.434725  Δ=-0.000428
+  COST+1%  LLY= 15.4%  JPM= 10.0%  V=  8.1%  UNH=  7.2%  XOM=  6.2%  MA=  5.7%  COST=  6.4%  HD=  4.8%  PG=  4.3%  NFLX= 31.9%  util=0.435523  Δ=+0.000370
+  HD+1%  LLY= 15.4%  JPM= 10.0%  V=  8.1%  UNH=  7.2%  XOM=  6.2%  MA=  5.7%  COST=  5.3%  HD=  5.9%  PG=  4.3%  NFLX= 31.9%  util=0.434253  Δ=-0.000900
+  PG+1%  LLY= 15.4%  JPM= 10.0%  V=  8.1%  UNH=  7.2%  XOM=  6.2%  MA=  5.7%  COST=  5.3%  HD=  4.8%  PG=  5.4%  NFLX= 31.9%  util=0.433573  Δ=-0.001579
+  NFLX+1%  LLY= 15.4%  JPM= 10.0%  V=  8.1%  UNH=  7.2%  XOM=  6.2%  MA=  5.7%  COST=  5.3%  HD=  4.8%  PG=  4.3%  NFLX= 33.0%  util=0.437342  Δ=+0.002190
+  ★ WINNER: LLY  improvement=+0.002212
+────────────────────────────────────────────────────────────────────────
+Epoch 30  [startUtility=0.437364  feasible=10]
+  LLY+1%  LLY= 17.5%  JPM=  9.9%  V=  8.0%  UNH=  7.1%  XOM=  6.1%  MA=  5.6%  COST=  5.1%  HD=  4.7%  PG=  4.2%  NFLX= 31.8%  util=0.439545  Δ=+0.002181
+  JPM+1%  LLY= 16.4%  JPM= 11.0%  V=  8.0%  UNH=  7.1%  XOM=  6.1%  MA=  5.6%  COST=  5.1%  HD=  4.7%  PG=  4.2%  NFLX= 31.8%  util=0.437556  Δ=+0.000192
+  V+1%  LLY= 16.4%  JPM=  9.9%  V=  9.1%  UNH=  7.1%  XOM=  6.1%  MA=  5.6%  COST=  5.1%  HD=  4.7%  PG=  4.2%  NFLX= 31.8%  util=0.436466  Δ=-0.000898
+  UNH+1%  LLY= 16.4%  JPM=  9.9%  V=  8.0%  UNH=  8.2%  XOM=  6.1%  MA=  5.6%  COST=  5.1%  HD=  4.7%  PG=  4.2%  NFLX= 31.8%  util=0.436823  Δ=-0.000541
+  XOM+1%  LLY= 16.4%  JPM=  9.9%  V=  8.0%  UNH=  7.1%  XOM=  7.2%  MA=  5.6%  COST=  5.1%  HD=  4.7%  PG=  4.2%  NFLX= 31.8%  util=0.436680  Δ=-0.000684
+  MA+1%  LLY= 16.4%  JPM=  9.9%  V=  8.0%  UNH=  7.1%  XOM=  6.1%  MA=  6.7%  COST=  5.1%  HD=  4.7%  PG=  4.2%  NFLX= 31.8%  util=0.436944  Δ=-0.000420
+  COST+1%  LLY= 16.4%  JPM=  9.9%  V=  8.0%  UNH=  7.1%  XOM=  6.1%  MA=  5.6%  COST=  6.3%  HD=  4.7%  PG=  4.2%  NFLX= 31.8%  util=0.437741  Δ=+0.000377
+  HD+1%  LLY= 16.4%  JPM=  9.9%  V=  8.0%  UNH=  7.1%  XOM=  6.1%  MA=  5.6%  COST=  5.1%  HD=  5.8%  PG=  4.2%  NFLX= 31.8%  util=0.436491  Δ=-0.000873
+  PG+1%  LLY= 16.4%  JPM=  9.9%  V=  8.0%  UNH=  7.1%  XOM=  6.1%  MA=  5.6%  COST=  5.1%  HD=  4.7%  PG=  5.3%  NFLX= 31.8%  util=0.435774  Δ=-0.001591
+  NFLX+1%  LLY= 16.4%  JPM=  9.9%  V=  8.0%  UNH=  7.1%  XOM=  6.1%  MA=  5.6%  COST=  5.1%  HD=  4.7%  PG=  4.2%  NFLX= 32.9%  util=0.439561  Δ=+0.002197
+  ★ WINNER: NFLX  improvement=+0.002197
+────────────────────────────────────────────────────────────────────────
+Epoch 31  [startUtility=0.439561  feasible=10]
+  LLY+1%  LLY= 17.4%  JPM=  9.8%  V=  7.9%  UNH=  6.9%  XOM=  6.0%  MA=  5.5%  COST=  5.0%  HD=  4.6%  PG=  4.1%  NFLX= 32.8%  util=0.441753  Δ=+0.002192
+  JPM+1%  LLY= 16.3%  JPM= 10.9%  V=  7.9%  UNH=  6.9%  XOM=  6.0%  MA=  5.5%  COST=  5.0%  HD=  4.6%  PG=  4.1%  NFLX= 32.8%  util=0.439756  Δ=+0.000194
+  V+1%  LLY= 16.3%  JPM=  9.8%  V=  9.0%  UNH=  6.9%  XOM=  6.0%  MA=  5.5%  COST=  5.0%  HD=  4.6%  PG=  4.1%  NFLX= 32.8%  util=0.438672  Δ=-0.000889
+  UNH+1%  LLY= 16.3%  JPM=  9.8%  V=  7.9%  UNH=  8.1%  XOM=  6.0%  MA=  5.5%  COST=  5.0%  HD=  4.6%  PG=  4.1%  NFLX= 32.8%  util=0.439035  Δ=-0.000527
+  XOM+1%  LLY= 16.3%  JPM=  9.8%  V=  7.9%  UNH=  6.9%  XOM=  7.1%  MA=  5.5%  COST=  5.0%  HD=  4.6%  PG=  4.1%  NFLX= 32.8%  util=0.438839  Δ=-0.000723
+  MA+1%  LLY= 16.3%  JPM=  9.8%  V=  7.9%  UNH=  6.9%  XOM=  6.0%  MA=  6.6%  COST=  5.0%  HD=  4.6%  PG=  4.1%  NFLX= 32.8%  util=0.439148  Δ=-0.000414
+  COST+1%  LLY= 16.3%  JPM=  9.8%  V=  7.9%  UNH=  6.9%  XOM=  6.0%  MA=  5.5%  COST=  6.1%  HD=  4.6%  PG=  4.1%  NFLX= 32.8%  util=0.439963  Δ=+0.000402
+  HD+1%  LLY= 16.3%  JPM=  9.8%  V=  7.9%  UNH=  6.9%  XOM=  6.0%  MA=  5.5%  COST=  5.0%  HD=  5.7%  PG=  4.1%  NFLX= 32.8%  util=0.438705  Δ=-0.000856
+  PG+1%  LLY= 16.3%  JPM=  9.8%  V=  7.9%  UNH=  6.9%  XOM=  6.0%  MA=  5.5%  COST=  5.0%  HD=  4.6%  PG=  5.2%  NFLX= 32.8%  util=0.437979  Δ=-0.001583
+  NFLX+1%  LLY= 16.3%  JPM=  9.8%  V=  7.9%  UNH=  6.9%  XOM=  6.0%  MA=  5.5%  COST=  5.0%  HD=  4.6%  PG=  4.1%  NFLX= 33.9%  util=0.441726  Δ=+0.002165
+  ★ WINNER: LLY  improvement=+0.002192
+────────────────────────────────────────────────────────────────────────
+Epoch 32  [startUtility=0.441753  feasible=10]
+  LLY+1%  LLY= 18.4%  JPM=  9.7%  V=  7.8%  UNH=  6.8%  XOM=  5.9%  MA=  5.4%  COST=  4.9%  HD=  4.4%  PG=  4.0%  NFLX= 32.7%  util=0.443911  Δ=+0.002158
+  JPM+1%  LLY= 17.3%  JPM= 10.8%  V=  7.8%  UNH=  6.8%  XOM=  5.9%  MA=  5.4%  COST=  4.9%  HD=  4.4%  PG=  4.0%  NFLX= 32.7%  util=0.441951  Δ=+0.000198
+  V+1%  LLY= 17.3%  JPM=  9.7%  V=  8.9%  UNH=  6.8%  XOM=  5.9%  MA=  5.4%  COST=  4.9%  HD=  4.4%  PG=  4.0%  NFLX= 32.7%  util=0.440855  Δ=-0.000898
+  UNH+1%  LLY= 17.3%  JPM=  9.7%  V=  7.8%  UNH=  7.9%  XOM=  5.9%  MA=  5.4%  COST=  4.9%  HD=  4.4%  PG=  4.0%  NFLX= 32.7%  util=0.441237  Δ=-0.000516
+  XOM+1%  LLY= 17.3%  JPM=  9.7%  V=  7.8%  UNH=  6.8%  XOM=  7.0%  MA=  5.4%  COST=  4.9%  HD=  4.4%  PG=  4.0%  NFLX= 32.7%  util=0.441018  Δ=-0.000735
+  MA+1%  LLY= 17.3%  JPM=  9.7%  V=  7.8%  UNH=  6.8%  XOM=  5.9%  MA=  6.5%  COST=  4.9%  HD=  4.4%  PG=  4.0%  NFLX= 32.7%  util=0.441343  Δ=-0.000410
+  COST+1%  LLY= 17.3%  JPM=  9.7%  V=  7.8%  UNH=  6.8%  XOM=  5.9%  MA=  5.4%  COST=  6.0%  HD=  4.4%  PG=  4.0%  NFLX= 32.7%  util=0.442161  Δ=+0.000408
+  HD+1%  LLY= 17.3%  JPM=  9.7%  V=  7.8%  UNH=  6.8%  XOM=  5.9%  MA=  5.4%  COST=  4.9%  HD=  5.6%  PG=  4.0%  NFLX= 32.7%  util=0.440934  Δ=-0.000820
+  PG+1%  LLY= 17.3%  JPM=  9.7%  V=  7.8%  UNH=  6.8%  XOM=  5.9%  MA=  5.4%  COST=  4.9%  HD=  4.4%  PG=  5.1%  NFLX= 32.7%  util=0.440171  Δ=-0.001582
+  NFLX+1%  LLY= 17.3%  JPM=  9.7%  V=  7.8%  UNH=  6.8%  XOM=  5.9%  MA=  5.4%  COST=  4.9%  HD=  4.4%  PG=  4.0%  NFLX= 33.8%  util=0.443937  Δ=+0.002183
+  ★ WINNER: NFLX  improvement=+0.002183
+────────────────────────────────────────────────────────────────────────
+Epoch 33  [startUtility=0.443937  feasible=10]
+  LLY+1%  LLY= 18.3%  JPM=  9.6%  V=  7.7%  UNH=  6.7%  XOM=  5.8%  MA=  5.3%  COST=  4.8%  HD=  4.3%  PG=  3.9%  NFLX= 33.7%  util=0.446126  Δ=+0.002189
+  JPM+1%  LLY= 17.2%  JPM= 10.7%  V=  7.7%  UNH=  6.7%  XOM=  5.8%  MA=  5.3%  COST=  4.8%  HD=  4.3%  PG=  3.9%  NFLX= 33.7%  util=0.444144  Δ=+0.000207
+  V+1%  LLY= 17.2%  JPM=  9.6%  V=  8.8%  UNH=  6.7%  XOM=  5.8%  MA=  5.3%  COST=  4.8%  HD=  4.3%  PG=  3.9%  NFLX= 33.7%  util=0.443031  Δ=-0.000906
+  UNH+1%  LLY= 17.2%  JPM=  9.6%  V=  7.7%  UNH=  7.8%  XOM=  5.8%  MA=  5.3%  COST=  4.8%  HD=  4.3%  PG=  3.9%  NFLX= 33.7%  util=0.443427  Δ=-0.000510
+  XOM+1%  LLY= 17.2%  JPM=  9.6%  V=  7.7%  UNH=  6.7%  XOM=  6.9%  MA=  5.3%  COST=  4.8%  HD=  4.3%  PG=  3.9%  NFLX= 33.7%  util=0.443170  Δ=-0.000767
+  MA+1%  LLY= 17.2%  JPM=  9.6%  V=  7.7%  UNH=  6.7%  XOM=  5.8%  MA=  6.4%  COST=  4.8%  HD=  4.3%  PG=  3.9%  NFLX= 33.7%  util=0.443519  Δ=-0.000418
+  COST+1%  LLY= 17.2%  JPM=  9.6%  V=  7.7%  UNH=  6.7%  XOM=  5.8%  MA=  5.3%  COST=  5.9%  HD=  4.3%  PG=  3.9%  NFLX= 33.7%  util=0.444358  Δ=+0.000421
+  HD+1%  LLY= 17.2%  JPM=  9.6%  V=  7.7%  UNH=  6.7%  XOM=  5.8%  MA=  5.3%  COST=  4.8%  HD=  5.4%  PG=  3.9%  NFLX= 33.7%  util=0.443123  Δ=-0.000814
+  PG+1%  LLY= 17.2%  JPM=  9.6%  V=  7.7%  UNH=  6.7%  XOM=  5.8%  MA=  5.3%  COST=  4.8%  HD=  4.3%  PG=  5.0%  NFLX= 33.7%  util=0.442356  Δ=-0.001580
+  NFLX+1%  LLY= 17.2%  JPM=  9.6%  V=  7.7%  UNH=  6.7%  XOM=  5.8%  MA=  5.3%  COST=  4.8%  HD=  4.3%  PG=  3.9%  NFLX= 34.8%  util=0.446080  Δ=+0.002144
+  ★ WINNER: LLY  improvement=+0.002189
+────────────────────────────────────────────────────────────────────────
+Epoch 34  [startUtility=0.446126  feasible=10]
+  LLY+1%  LLY= 19.3%  JPM=  9.5%  V=  7.6%  UNH=  6.6%  XOM=  5.7%  MA=  5.2%  COST=  4.7%  HD=  4.2%  PG=  3.7%  NFLX= 33.6%  util=0.448288  Δ=+0.002162
+  JPM+1%  LLY= 18.2%  JPM= 10.6%  V=  7.6%  UNH=  6.6%  XOM=  5.7%  MA=  5.2%  COST=  4.7%  HD=  4.2%  PG=  3.7%  NFLX= 33.6%  util=0.446337  Δ=+0.000211
+  V+1%  LLY= 18.2%  JPM=  9.5%  V=  8.7%  UNH=  6.6%  XOM=  5.7%  MA=  5.2%  COST=  4.7%  HD=  4.2%  PG=  3.7%  NFLX= 33.6%  util=0.445223  Δ=-0.000903
+  UNH+1%  LLY= 18.2%  JPM=  9.5%  V=  7.6%  UNH=  7.7%  XOM=  5.7%  MA=  5.2%  COST=  4.7%  HD=  4.2%  PG=  3.7%  NFLX= 33.6%  util=0.445631  Δ=-0.000495
+  XOM+1%  LLY= 18.2%  JPM=  9.5%  V=  7.6%  UNH=  6.6%  XOM=  6.8%  MA=  5.2%  COST=  4.7%  HD=  4.2%  PG=  3.7%  NFLX= 33.6%  util=0.445327  Δ=-0.000799
+  MA+1%  LLY= 18.2%  JPM=  9.5%  V=  7.6%  UNH=  6.6%  XOM=  5.7%  MA=  6.3%  COST=  4.7%  HD=  4.2%  PG=  3.7%  NFLX= 33.6%  util=0.445708  Δ=-0.000418
+  COST+1%  LLY= 18.2%  JPM=  9.5%  V=  7.6%  UNH=  6.6%  XOM=  5.7%  MA=  5.2%  COST=  5.8%  HD=  4.2%  PG=  3.7%  NFLX= 33.6%  util=0.446574  Δ=+0.000448
+  HD+1%  LLY= 18.2%  JPM=  9.5%  V=  7.6%  UNH=  6.6%  XOM=  5.7%  MA=  5.2%  COST=  4.7%  HD=  5.3%  PG=  3.7%  NFLX= 33.6%  util=0.445341  Δ=-0.000785
+  PG+1%  LLY= 18.2%  JPM=  9.5%  V=  7.6%  UNH=  6.6%  XOM=  5.7%  MA=  5.2%  COST=  4.7%  HD=  4.2%  PG=  4.9%  NFLX= 33.6%  util=0.444544  Δ=-0.001582
+  NFLX+1%  LLY= 18.2%  JPM=  9.5%  V=  7.6%  UNH=  6.6%  XOM=  5.7%  MA=  5.2%  COST=  4.7%  HD=  4.2%  PG=  3.7%  NFLX= 34.7%  util=0.448294  Δ=+0.002168
+  ★ WINNER: NFLX  improvement=+0.002168
+────────────────────────────────────────────────────────────────────────
+Epoch 35  [startUtility=0.448294  feasible=10]
+  LLY+1%  LLY= 19.2%  JPM=  9.4%  V=  7.5%  UNH=  6.5%  XOM=  5.5%  MA=  5.1%  COST=  4.6%  HD=  4.1%  PG=  3.6%  NFLX= 34.6%  util=0.450493  Δ=+0.002199
+  JPM+1%  LLY= 18.1%  JPM= 10.5%  V=  7.5%  UNH=  6.5%  XOM=  5.5%  MA=  5.1%  COST=  4.6%  HD=  4.1%  PG=  3.6%  NFLX= 34.6%  util=0.448505  Δ=+0.000210
+  V+1%  LLY= 18.1%  JPM=  9.4%  V=  8.6%  UNH=  6.5%  XOM=  5.5%  MA=  5.1%  COST=  4.6%  HD=  4.1%  PG=  3.6%  NFLX= 34.6%  util=0.447370  Δ=-0.000924
+  UNH+1%  LLY= 18.1%  JPM=  9.4%  V=  7.5%  UNH=  7.6%  XOM=  5.5%  MA=  5.1%  COST=  4.6%  HD=  4.1%  PG=  3.6%  NFLX= 34.6%  util=0.447817  Δ=-0.000477
+  XOM+1%  LLY= 18.1%  JPM=  9.4%  V=  7.5%  UNH=  6.5%  XOM=  6.7%  MA=  5.1%  COST=  4.6%  HD=  4.1%  PG=  3.6%  NFLX= 34.6%  util=0.447476  Δ=-0.000818
+  MA+1%  LLY= 18.1%  JPM=  9.4%  V=  7.5%  UNH=  6.5%  XOM=  5.5%  MA=  6.2%  COST=  4.6%  HD=  4.1%  PG=  3.6%  NFLX= 34.6%  util=0.447859  Δ=-0.000436
+  COST+1%  LLY= 18.1%  JPM=  9.4%  V=  7.5%  UNH=  6.5%  XOM=  5.5%  MA=  5.1%  COST=  5.7%  HD=  4.1%  PG=  3.6%  NFLX= 34.6%  util=0.448755  Δ=+0.000461
+  HD+1%  LLY= 18.1%  JPM=  9.4%  V=  7.5%  UNH=  6.5%  XOM=  5.5%  MA=  5.1%  COST=  4.6%  HD=  5.2%  PG=  3.6%  NFLX= 34.6%  util=0.447504  Δ=-0.000791
+  PG+1%  LLY= 18.1%  JPM=  9.4%  V=  7.5%  UNH=  6.5%  XOM=  5.5%  MA=  5.1%  COST=  4.6%  HD=  4.1%  PG=  4.7%  NFLX= 34.6%  util=0.446714  Δ=-0.001580
+  NFLX+1%  LLY= 18.1%  JPM=  9.4%  V=  7.5%  UNH=  6.5%  XOM=  5.5%  MA=  5.1%  COST=  4.6%  HD=  4.1%  PG=  3.6%  NFLX= 35.7%  util=0.450431  Δ=+0.002137
+  ★ WINNER: LLY  improvement=+0.002199
+────────────────────────────────────────────────────────────────────────
+Epoch 36  [startUtility=0.450493  feasible=10]
+  LLY+1%  LLY= 20.2%  JPM=  9.2%  V=  7.3%  UNH=  6.4%  XOM=  5.4%  MA=  5.0%  COST=  4.5%  HD=  4.0%  PG=  3.5%  NFLX= 34.4%  util=0.452665  Δ=+0.002172
+  JPM+1%  LLY= 19.1%  JPM= 10.4%  V=  7.3%  UNH=  6.4%  XOM=  5.4%  MA=  5.0%  COST=  4.5%  HD=  4.0%  PG=  3.5%  NFLX= 34.4%  util=0.450709  Δ=+0.000215
+  V+1%  LLY= 19.1%  JPM=  9.2%  V=  8.5%  UNH=  6.4%  XOM=  5.4%  MA=  5.0%  COST=  4.5%  HD=  4.0%  PG=  3.5%  NFLX= 34.4%  util=0.449564  Δ=-0.000929
+  UNH+1%  LLY= 19.1%  JPM=  9.2%  V=  7.3%  UNH=  7.5%  XOM=  5.4%  MA=  5.0%  COST=  4.5%  HD=  4.0%  PG=  3.5%  NFLX= 34.4%  util=0.450020  Δ=-0.000474
+  XOM+1%  LLY= 19.1%  JPM=  9.2%  V=  7.3%  UNH=  6.4%  XOM=  6.5%  MA=  5.0%  COST=  4.5%  HD=  4.0%  PG=  3.5%  NFLX= 34.4%  util=0.449659  Δ=-0.000834
+  MA+1%  LLY= 19.1%  JPM=  9.2%  V=  7.3%  UNH=  6.4%  XOM=  5.4%  MA=  6.1%  COST=  4.5%  HD=  4.0%  PG=  3.5%  NFLX= 34.4%  util=0.450054  Δ=-0.000439
+  COST+1%  LLY= 19.1%  JPM=  9.2%  V=  7.3%  UNH=  6.4%  XOM=  5.4%  MA=  5.0%  COST=  5.6%  HD=  4.0%  PG=  3.5%  NFLX= 34.4%  util=0.450972  Δ=+0.000479
+  HD+1%  LLY= 19.1%  JPM=  9.2%  V=  7.3%  UNH=  6.4%  XOM=  5.4%  MA=  5.0%  COST=  4.5%  HD=  5.1%  PG=  3.5%  NFLX= 34.4%  util=0.449724  Δ=-0.000769
+  PG+1%  LLY= 19.1%  JPM=  9.2%  V=  7.3%  UNH=  6.4%  XOM=  5.4%  MA=  5.0%  COST=  4.5%  HD=  4.0%  PG=  4.6%  NFLX= 34.4%  util=0.448907  Δ=-0.001586
+  NFLX+1%  LLY= 19.1%  JPM=  9.2%  V=  7.3%  UNH=  6.4%  XOM=  5.4%  MA=  5.0%  COST=  4.5%  HD=  4.0%  PG=  3.5%  NFLX= 35.6%  util=0.452669  Δ=+0.002176
+  ★ WINNER: NFLX  improvement=+0.002176
+────────────────────────────────────────────────────────────────────────
+Epoch 37  [startUtility=0.452669  feasible=10]
+  LLY+1%  LLY= 20.1%  JPM=  9.1%  V=  7.2%  UNH=  6.3%  XOM=  5.3%  MA=  4.8%  COST=  4.4%  HD=  3.9%  PG=  3.4%  NFLX= 35.4%  util=0.454845  Δ=+0.002176
+  JPM+1%  LLY= 19.0%  JPM= 10.2%  V=  7.2%  UNH=  6.3%  XOM=  5.3%  MA=  4.8%  COST=  4.4%  HD=  3.9%  PG=  3.4%  NFLX= 35.4%  util=0.452893  Δ=+0.000224
+  V+1%  LLY= 19.0%  JPM=  9.1%  V=  8.3%  UNH=  6.3%  XOM=  5.3%  MA=  4.8%  COST=  4.4%  HD=  3.9%  PG=  3.4%  NFLX= 35.4%  util=0.451726  Δ=-0.000943
+  UNH+1%  LLY= 19.0%  JPM=  9.1%  V=  7.2%  UNH=  7.4%  XOM=  5.3%  MA=  4.8%  COST=  4.4%  HD=  3.9%  PG=  3.4%  NFLX= 35.4%  util=0.452205  Δ=-0.000464
+  XOM+1%  LLY= 19.0%  JPM=  9.1%  V=  7.2%  UNH=  6.3%  XOM=  6.4%  MA=  4.8%  COST=  4.4%  HD=  3.9%  PG=  3.4%  NFLX= 35.4%  util=0.451819  Δ=-0.000850
+  MA+1%  LLY= 19.0%  JPM=  9.1%  V=  7.2%  UNH=  6.3%  XOM=  5.3%  MA=  6.0%  COST=  4.4%  HD=  3.9%  PG=  3.4%  NFLX= 35.4%  util=0.452218  Δ=-0.000451
+  COST+1%  LLY= 19.0%  JPM=  9.1%  V=  7.2%  UNH=  6.3%  XOM=  5.3%  MA=  4.8%  COST=  5.5%  HD=  3.9%  PG=  3.4%  NFLX= 35.4%  util=0.453137  Δ=+0.000468
+  HD+1%  LLY= 19.0%  JPM=  9.1%  V=  7.2%  UNH=  6.3%  XOM=  5.3%  MA=  4.8%  COST=  4.4%  HD=  5.0%  PG=  3.4%  NFLX= 35.4%  util=0.451896  Δ=-0.000773
+  PG+1%  LLY= 19.0%  JPM=  9.1%  V=  7.2%  UNH=  6.3%  XOM=  5.3%  MA=  4.8%  COST=  4.4%  HD=  3.9%  PG=  4.5%  NFLX= 35.4%  util=0.451081  Δ=-0.001588
+  NFLX+1%  LLY= 19.0%  JPM=  9.1%  V=  7.2%  UNH=  6.3%  XOM=  5.3%  MA=  4.8%  COST=  4.4%  HD=  3.9%  PG=  3.4%  NFLX= 36.6%  util=0.454789  Δ=+0.002120
+  ★ WINNER: LLY  improvement=+0.002176
+────────────────────────────────────────────────────────────────────────
+Epoch 38  [startUtility=0.454845  feasible=10]
+  LLY+1%  LLY= 21.1%  JPM=  9.0%  V=  7.1%  UNH=  6.2%  XOM=  5.2%  MA=  4.7%  COST=  4.3%  HD=  3.8%  PG=  3.3%  NFLX= 35.3%  util=0.457003  Δ=+0.002158
+  JPM+1%  LLY= 20.0%  JPM= 10.1%  V=  7.1%  UNH=  6.2%  XOM=  5.2%  MA=  4.7%  COST=  4.3%  HD=  3.8%  PG=  3.3%  NFLX= 35.3%  util=0.455072  Δ=+0.000227
+  V+1%  LLY= 20.0%  JPM=  9.0%  V=  8.2%  UNH=  6.2%  XOM=  5.2%  MA=  4.7%  COST=  4.3%  HD=  3.8%  PG=  3.3%  NFLX= 35.3%  util=0.453916  Δ=-0.000929
+  UNH+1%  LLY= 20.0%  JPM=  9.0%  V=  7.1%  UNH=  7.3%  XOM=  5.2%  MA=  4.7%  COST=  4.3%  HD=  3.8%  PG=  3.3%  NFLX= 35.3%  util=0.454384  Δ=-0.000461
+  XOM+1%  LLY= 20.0%  JPM=  9.0%  V=  7.1%  UNH=  6.2%  XOM=  6.3%  MA=  4.7%  COST=  4.3%  HD=  3.8%  PG=  3.3%  NFLX= 35.3%  util=0.454000  Δ=-0.000845
+  MA+1%  LLY= 20.0%  JPM=  9.0%  V=  7.1%  UNH=  6.2%  XOM=  5.2%  MA=  5.8%  COST=  4.3%  HD=  3.8%  PG=  3.3%  NFLX= 35.3%  util=0.454404  Δ=-0.000441
+  COST+1%  LLY= 20.0%  JPM=  9.0%  V=  7.1%  UNH=  6.2%  XOM=  5.2%  MA=  4.7%  COST=  5.4%  HD=  3.8%  PG=  3.3%  NFLX= 35.3%  util=0.455320  Δ=+0.000475
+  HD+1%  LLY= 20.0%  JPM=  9.0%  V=  7.1%  UNH=  6.2%  XOM=  5.2%  MA=  4.7%  COST=  4.3%  HD=  4.9%  PG=  3.3%  NFLX= 35.3%  util=0.454091  Δ=-0.000754
+  PG+1%  LLY= 20.0%  JPM=  9.0%  V=  7.1%  UNH=  6.2%  XOM=  5.2%  MA=  4.7%  COST=  4.3%  HD=  3.8%  PG=  4.4%  NFLX= 35.3%  util=0.453259  Δ=-0.001586
+  NFLX+1%  LLY= 20.0%  JPM=  9.0%  V=  7.1%  UNH=  6.2%  XOM=  5.2%  MA=  4.7%  COST=  4.3%  HD=  3.8%  PG=  3.3%  NFLX= 36.4%  util=0.456992  Δ=+0.002147
+  ★ WINNER: LLY  improvement=+0.002158
+────────────────────────────────────────────────────────────────────────
+Epoch 39  [startUtility=0.457003  feasible=10]
+  LLY+1%  LLY= 22.1%  JPM=  8.9%  V=  7.0%  UNH=  6.1%  XOM=  5.1%  MA=  4.6%  COST=  4.1%  HD=  3.7%  PG=  3.2%  NFLX= 35.2%  util=0.459109  Δ=+0.002106
+  JPM+1%  LLY= 21.0%  JPM= 10.0%  V=  7.0%  UNH=  6.1%  XOM=  5.1%  MA=  4.6%  COST=  4.1%  HD=  3.7%  PG=  3.2%  NFLX= 35.2%  util=0.457243  Δ=+0.000240
+  V+1%  LLY= 21.0%  JPM=  8.9%  V=  8.1%  UNH=  6.1%  XOM=  5.1%  MA=  4.6%  COST=  4.1%  HD=  3.7%  PG=  3.2%  NFLX= 35.2%  util=0.456084  Δ=-0.000919
+  UNH+1%  LLY= 21.0%  JPM=  8.9%  V=  7.0%  UNH=  7.2%  XOM=  5.1%  MA=  4.6%  COST=  4.1%  HD=  3.7%  PG=  3.2%  NFLX= 35.2%  util=0.456539  Δ=-0.000464
+  XOM+1%  LLY= 21.0%  JPM=  8.9%  V=  7.0%  UNH=  6.1%  XOM=  6.2%  MA=  4.6%  COST=  4.1%  HD=  3.7%  PG=  3.2%  NFLX= 35.2%  util=0.456160  Δ=-0.000844
+  MA+1%  LLY= 21.0%  JPM=  8.9%  V=  7.0%  UNH=  6.1%  XOM=  5.1%  MA=  5.7%  COST=  4.1%  HD=  3.7%  PG=  3.2%  NFLX= 35.2%  util=0.456580  Δ=-0.000423
+  COST+1%  LLY= 21.0%  JPM=  8.9%  V=  7.0%  UNH=  6.1%  XOM=  5.1%  MA=  4.6%  COST=  5.3%  HD=  3.7%  PG=  3.2%  NFLX= 35.2%  util=0.457478  Δ=+0.000475
+  HD+1%  LLY= 21.0%  JPM=  8.9%  V=  7.0%  UNH=  6.1%  XOM=  5.1%  MA=  4.6%  COST=  4.1%  HD=  4.8%  PG=  3.2%  NFLX= 35.2%  util=0.456260  Δ=-0.000744
+  PG+1%  LLY= 21.0%  JPM=  8.9%  V=  7.0%  UNH=  6.1%  XOM=  5.1%  MA=  4.6%  COST=  4.1%  HD=  3.7%  PG=  4.3%  NFLX= 35.2%  util=0.455423  Δ=-0.001580
+  NFLX+1%  LLY= 21.0%  JPM=  8.9%  V=  7.0%  UNH=  6.1%  XOM=  5.1%  MA=  4.6%  COST=  4.1%  HD=  3.7%  PG=  3.2%  NFLX= 36.3%  util=0.459155  Δ=+0.002151
+  ★ WINNER: NFLX  improvement=+0.002151
+────────────────────────────────────────────────────────────────────────
+Epoch 40  [startUtility=0.459155  feasible=10]
+  LLY+1%  LLY= 22.0%  JPM=  8.8%  V=  6.9%  UNH=  5.9%  XOM=  5.0%  MA=  4.5%  COST=  4.0%  HD=  3.6%  PG=  3.1%  NFLX= 36.2%  util=0.461294  Δ=+0.002140
+  JPM+1%  LLY= 20.9%  JPM=  9.9%  V=  6.9%  UNH=  5.9%  XOM=  5.0%  MA=  4.5%  COST=  4.0%  HD=  3.6%  PG=  3.1%  NFLX= 36.2%  util=0.459402  Δ=+0.000247
+  V+1%  LLY= 20.9%  JPM=  8.8%  V=  8.0%  UNH=  5.9%  XOM=  5.0%  MA=  4.5%  COST=  4.0%  HD=  3.6%  PG=  3.1%  NFLX= 36.2%  util=0.458228  Δ=-0.000927
+  UNH+1%  LLY= 20.9%  JPM=  8.8%  V=  6.9%  UNH=  7.1%  XOM=  5.0%  MA=  4.5%  COST=  4.0%  HD=  3.6%  PG=  3.1%  NFLX= 36.2%  util=0.458709  Δ=-0.000446
+  XOM+1%  LLY= 20.9%  JPM=  8.8%  V=  6.9%  UNH=  5.9%  XOM=  6.1%  MA=  4.5%  COST=  4.0%  HD=  3.6%  PG=  3.1%  NFLX= 36.2%  util=0.458309  Δ=-0.000845
+  MA+1%  LLY= 20.9%  JPM=  8.8%  V=  6.9%  UNH=  5.9%  XOM=  5.0%  MA=  5.6%  COST=  4.0%  HD=  3.6%  PG=  3.1%  NFLX= 36.2%  util=0.458721  Δ=-0.000433
+  COST+1%  LLY= 20.9%  JPM=  8.8%  V=  6.9%  UNH=  5.9%  XOM=  5.0%  MA=  4.5%  COST=  5.1%  HD=  3.6%  PG=  3.1%  NFLX= 36.2%  util=0.459638  Δ=+0.000483
+  HD+1%  LLY= 20.9%  JPM=  8.8%  V=  6.9%  UNH=  5.9%  XOM=  5.0%  MA=  4.5%  COST=  4.0%  HD=  4.7%  PG=  3.1%  NFLX= 36.2%  util=0.458417  Δ=-0.000738
+  PG+1%  LLY= 20.9%  JPM=  8.8%  V=  6.9%  UNH=  5.9%  XOM=  5.0%  MA=  4.5%  COST=  4.0%  HD=  3.6%  PG=  4.2%  NFLX= 36.2%  util=0.457576  Δ=-0.001578
+  NFLX+1%  LLY= 20.9%  JPM=  8.8%  V=  6.9%  UNH=  5.9%  XOM=  5.0%  MA=  4.5%  COST=  4.0%  HD=  3.6%  PG=  3.1%  NFLX= 37.3%  util=0.461299  Δ=+0.002145
+  ★ WINNER: NFLX  improvement=+0.002145
+────────────────────────────────────────────────────────────────────────
+Epoch 41  [startUtility=0.461299  feasible=10]
+  LLY+1%  LLY= 21.9%  JPM=  8.7%  V=  6.8%  UNH=  5.8%  XOM=  4.9%  MA=  4.4%  COST=  3.9%  HD=  3.4%  PG=  3.0%  NFLX= 37.2%  util=0.463438  Δ=+0.002139
+  JPM+1%  LLY= 20.8%  JPM=  9.8%  V=  6.8%  UNH=  5.8%  XOM=  4.9%  MA=  4.4%  COST=  3.9%  HD=  3.4%  PG=  3.0%  NFLX= 37.2%  util=0.461552  Δ=+0.000253
+  V+1%  LLY= 20.8%  JPM=  8.7%  V=  7.9%  UNH=  5.8%  XOM=  4.9%  MA=  4.4%  COST=  3.9%  HD=  3.4%  PG=  3.0%  NFLX= 37.2%  util=0.460369  Δ=-0.000930
+  UNH+1%  LLY= 20.8%  JPM=  8.7%  V=  6.8%  UNH=  6.9%  XOM=  4.9%  MA=  4.4%  COST=  3.9%  HD=  3.4%  PG=  3.0%  NFLX= 37.2%  util=0.460856  Δ=-0.000444
+  XOM+1%  LLY= 20.8%  JPM=  8.7%  V=  6.8%  UNH=  5.8%  XOM=  6.0%  MA=  4.4%  COST=  3.9%  HD=  3.4%  PG=  3.0%  NFLX= 37.2%  util=0.460432  Δ=-0.000867
+  MA+1%  LLY= 20.8%  JPM=  8.7%  V=  6.8%  UNH=  5.8%  XOM=  4.9%  MA=  5.5%  COST=  3.9%  HD=  3.4%  PG=  3.0%  NFLX= 37.2%  util=0.460862  Δ=-0.000437
+  COST+1%  LLY= 20.8%  JPM=  8.7%  V=  6.8%  UNH=  5.8%  XOM=  4.9%  MA=  4.4%  COST=  5.0%  HD=  3.4%  PG=  3.0%  NFLX= 37.2%  util=0.461786  Δ=+0.000486
+  HD+1%  LLY= 20.8%  JPM=  8.7%  V=  6.8%  UNH=  5.8%  XOM=  4.9%  MA=  4.4%  COST=  3.9%  HD=  4.6%  PG=  3.0%  NFLX= 37.2%  util=0.460575  Δ=-0.000725
+  PG+1%  LLY= 20.8%  JPM=  8.7%  V=  6.8%  UNH=  5.8%  XOM=  4.9%  MA=  4.4%  COST=  3.9%  HD=  3.4%  PG=  4.1%  NFLX= 37.2%  util=0.459723  Δ=-0.001576
+  NFLX+1%  LLY= 20.8%  JPM=  8.7%  V=  6.8%  UNH=  5.8%  XOM=  4.9%  MA=  4.4%  COST=  3.9%  HD=  3.4%  PG=  3.0%  NFLX= 38.3%  util=0.463397  Δ=+0.002098
+  ★ WINNER: LLY  improvement=+0.002139
+────────────────────────────────────────────────────────────────────────
+Epoch 42  [startUtility=0.463438  feasible=10]
+  LLY+1%  LLY= 22.9%  JPM=  8.6%  V=  6.7%  UNH=  5.7%  XOM=  4.8%  MA=  4.3%  COST=  3.8%  HD=  3.3%  PG=  2.9%  NFLX= 37.1%  util=0.465539  Δ=+0.002100
+  JPM+1%  LLY= 21.8%  JPM=  9.7%  V=  6.7%  UNH=  5.7%  XOM=  4.8%  MA=  4.3%  COST=  3.8%  HD=  3.3%  PG=  2.9%  NFLX= 37.1%  util=0.463693  Δ=+0.000255
+  V+1%  LLY= 21.8%  JPM=  8.6%  V=  7.8%  UNH=  5.7%  XOM=  4.8%  MA=  4.3%  COST=  3.8%  HD=  3.3%  PG=  2.9%  NFLX= 37.1%  util=0.462510  Δ=-0.000928
+  UNH+1%  LLY= 21.8%  JPM=  8.6%  V=  6.7%  UNH=  6.8%  XOM=  4.8%  MA=  4.3%  COST=  3.8%  HD=  3.3%  PG=  2.9%  NFLX= 37.1%  util=0.462998  Δ=-0.000440
+  XOM+1%  LLY= 21.8%  JPM=  8.6%  V=  6.7%  UNH=  5.7%  XOM=  5.9%  MA=  4.3%  COST=  3.8%  HD=  3.3%  PG=  2.9%  NFLX= 37.1%  util=0.462564  Δ=-0.000874
+  MA+1%  LLY= 21.8%  JPM=  8.6%  V=  6.7%  UNH=  5.7%  XOM=  4.8%  MA=  5.4%  COST=  3.8%  HD=  3.3%  PG=  2.9%  NFLX= 37.1%  util=0.463012  Δ=-0.000426
+  COST+1%  LLY= 21.8%  JPM=  8.6%  V=  6.7%  UNH=  5.7%  XOM=  4.8%  MA=  4.3%  COST=  4.9%  HD=  3.3%  PG=  2.9%  NFLX= 37.1%  util=0.463932  Δ=+0.000494
+  HD+1%  LLY= 21.8%  JPM=  8.6%  V=  6.7%  UNH=  5.7%  XOM=  4.8%  MA=  4.3%  COST=  3.8%  HD=  4.4%  PG=  2.9%  NFLX= 37.1%  util=0.462714  Δ=-0.000725
+  PG+1%  LLY= 21.8%  JPM=  8.6%  V=  6.7%  UNH=  5.7%  XOM=  4.8%  MA=  4.3%  COST=  3.8%  HD=  3.3%  PG=  4.0%  NFLX= 37.1%  util=0.461866  Δ=-0.001572
+  NFLX+1%  LLY= 21.8%  JPM=  8.6%  V=  6.7%  UNH=  5.7%  XOM=  4.8%  MA=  4.3%  COST=  3.8%  HD=  3.3%  PG=  2.9%  NFLX= 38.2%  util=0.465556  Δ=+0.002118
+  ★ WINNER: NFLX  improvement=+0.002118
+────────────────────────────────────────────────────────────────────────
+Epoch 43  [startUtility=0.465556  feasible=10]
+  LLY+1%  LLY= 22.8%  JPM=  8.5%  V=  6.6%  UNH=  5.6%  XOM=  4.7%  MA=  4.2%  COST=  3.7%  HD=  3.2%  PG=  2.7%  NFLX= 38.1%  util=0.467668  Δ=+0.002112
+  JPM+1%  LLY= 21.6%  JPM=  9.6%  V=  6.6%  UNH=  5.6%  XOM=  4.7%  MA=  4.2%  COST=  3.7%  HD=  3.2%  PG=  2.7%  NFLX= 38.1%  util=0.465822  Δ=+0.000266
+  V+1%  LLY= 21.6%  JPM=  8.5%  V=  7.7%  UNH=  5.6%  XOM=  4.7%  MA=  4.2%  COST=  3.7%  HD=  3.2%  PG=  2.7%  NFLX= 38.1%  util=0.464623  Δ=-0.000933
+  UNH+1%  LLY= 21.6%  JPM=  8.5%  V=  6.6%  UNH=  6.7%  XOM=  4.7%  MA=  4.2%  COST=  3.7%  HD=  3.2%  PG=  2.7%  NFLX= 38.1%  util=0.465117  Δ=-0.000439
+  XOM+1%  LLY= 21.6%  JPM=  8.5%  V=  6.6%  UNH=  5.6%  XOM=  5.8%  MA=  4.2%  COST=  3.7%  HD=  3.2%  PG=  2.7%  NFLX= 38.1%  util=0.464644  Δ=-0.000913
+  MA+1%  LLY= 21.6%  JPM=  8.5%  V=  6.6%  UNH=  5.6%  XOM=  4.7%  MA=  5.3%  COST=  3.7%  HD=  3.2%  PG=  2.7%  NFLX= 38.1%  util=0.465121  Δ=-0.000436
+  COST+1%  LLY= 21.6%  JPM=  8.5%  V=  6.6%  UNH=  5.6%  XOM=  4.7%  MA=  4.2%  COST=  4.8%  HD=  3.2%  PG=  2.7%  NFLX= 38.1%  util=0.466059  Δ=+0.000502
+  HD+1%  LLY= 21.6%  JPM=  8.5%  V=  6.6%  UNH=  5.6%  XOM=  4.7%  MA=  4.2%  COST=  3.7%  HD=  4.3%  PG=  2.7%  NFLX= 38.1%  util=0.464861  Δ=-0.000695
+  PG+1%  LLY= 21.6%  JPM=  8.5%  V=  6.6%  UNH=  5.6%  XOM=  4.7%  MA=  4.2%  COST=  3.7%  HD=  3.2%  PG=  3.9%  NFLX= 38.1%  util=0.463996  Δ=-0.001560
+  NFLX+1%  LLY= 21.6%  JPM=  8.5%  V=  6.6%  UNH=  5.6%  XOM=  4.7%  MA=  4.2%  COST=  3.7%  HD=  3.2%  PG=  2.7%  NFLX= 39.2%  util=0.467618  Δ=+0.002061
+  ★ WINNER: LLY  improvement=+0.002112
+────────────────────────────────────────────────────────────────────────
+Epoch 44  [startUtility=0.467668  feasible=10]
+  LLY+1%  LLY= 23.8%  JPM=  8.4%  V=  6.5%  UNH=  5.5%  XOM=  4.5%  MA=  4.1%  COST=  3.6%  HD=  3.1%  PG=  2.6%  NFLX= 38.0%  util=0.469707  Δ=+0.002039
+  JPM+1%  LLY= 22.6%  JPM=  9.5%  V=  6.5%  UNH=  5.5%  XOM=  4.5%  MA=  4.1%  COST=  3.6%  HD=  3.1%  PG=  2.6%  NFLX= 38.0%  util=0.467940  Δ=+0.000272
+  V+1%  LLY= 22.6%  JPM=  8.4%  V=  7.6%  UNH=  5.5%  XOM=  4.5%  MA=  4.1%  COST=  3.6%  HD=  3.1%  PG=  2.6%  NFLX= 38.0%  util=0.466741  Δ=-0.000927
+  UNH+1%  LLY= 22.6%  JPM=  8.4%  V=  6.5%  UNH=  6.6%  XOM=  4.5%  MA=  4.1%  COST=  3.6%  HD=  3.1%  PG=  2.6%  NFLX= 38.0%  util=0.467234  Δ=-0.000434
+  XOM+1%  LLY= 22.6%  JPM=  8.4%  V=  6.5%  UNH=  5.5%  XOM=  5.7%  MA=  4.1%  COST=  3.6%  HD=  3.1%  PG=  2.6%  NFLX= 38.0%  util=0.466736  Δ=-0.000932
+  MA+1%  LLY= 22.6%  JPM=  8.4%  V=  6.5%  UNH=  5.5%  XOM=  4.5%  MA=  5.2%  COST=  3.6%  HD=  3.1%  PG=  2.6%  NFLX= 38.0%  util=0.467243  Δ=-0.000425
+  COST+1%  LLY= 22.6%  JPM=  8.4%  V=  6.5%  UNH=  5.5%  XOM=  4.5%  MA=  4.1%  COST=  4.7%  HD=  3.1%  PG=  2.6%  NFLX= 38.0%  util=0.468194  Δ=+0.000526
+  HD+1%  LLY= 22.6%  JPM=  8.4%  V=  6.5%  UNH=  5.5%  XOM=  4.5%  MA=  4.1%  COST=  3.6%  HD=  4.2%  PG=  2.6%  NFLX= 38.0%  util=0.466959  Δ=-0.000708
+  PG+1%  LLY= 22.6%  JPM=  8.4%  V=  6.5%  UNH=  5.5%  XOM=  4.5%  MA=  4.1%  COST=  3.6%  HD=  3.1%  PG=  3.7%  NFLX= 38.0%  util=0.466116  Δ=-0.001552
+  NFLX+1%  LLY= 22.6%  JPM=  8.4%  V=  6.5%  UNH=  5.5%  XOM=  4.5%  MA=  4.1%  COST=  3.6%  HD=  3.1%  PG=  2.6%  NFLX= 39.1%  util=0.469739  Δ=+0.002071
+  ★ WINNER: NFLX  improvement=+0.002071
+────────────────────────────────────────────────────────────────────────
+Epoch 45  [startUtility=0.469739  feasible=10]
+  LLY+1%  LLY= 23.6%  JPM=  8.2%  V=  6.3%  UNH=  5.4%  XOM=  4.4%  MA=  4.0%  COST=  3.5%  HD=  3.0%  PG=  2.5%  NFLX= 39.0%  util=0.471783  Δ=+0.002044
+  JPM+1%  LLY= 22.5%  JPM=  9.4%  V=  6.3%  UNH=  5.4%  XOM=  4.4%  MA=  4.0%  COST=  3.5%  HD=  3.0%  PG=  2.5%  NFLX= 39.0%  util=0.470030  Δ=+0.000292
+  V+1%  LLY= 22.5%  JPM=  8.2%  V=  7.5%  UNH=  5.4%  XOM=  4.4%  MA=  4.0%  COST=  3.5%  HD=  3.0%  PG=  2.5%  NFLX= 39.0%  util=0.468803  Δ=-0.000936
+  UNH+1%  LLY= 22.5%  JPM=  8.2%  V=  6.3%  UNH=  6.5%  XOM=  4.4%  MA=  4.0%  COST=  3.5%  HD=  3.0%  PG=  2.5%  NFLX= 39.0%  util=0.469307  Δ=-0.000432
+  XOM+1%  LLY= 22.5%  JPM=  8.2%  V=  6.3%  UNH=  5.4%  XOM=  5.5%  MA=  4.0%  COST=  3.5%  HD=  3.0%  PG=  2.5%  NFLX= 39.0%  util=0.468803  Δ=-0.000936
+  MA+1%  LLY= 22.5%  JPM=  8.2%  V=  6.3%  UNH=  5.4%  XOM=  4.4%  MA=  5.1%  COST=  3.5%  HD=  3.0%  PG=  2.5%  NFLX= 39.0%  util=0.469295  Δ=-0.000444
+  COST+1%  LLY= 22.5%  JPM=  8.2%  V=  6.3%  UNH=  5.4%  XOM=  4.4%  MA=  4.0%  COST=  4.6%  HD=  3.0%  PG=  2.5%  NFLX= 39.0%  util=0.470271  Δ=+0.000533
+  HD+1%  LLY= 22.5%  JPM=  8.2%  V=  6.3%  UNH=  5.4%  XOM=  4.4%  MA=  4.0%  COST=  3.5%  HD=  4.1%  PG=  2.5%  NFLX= 39.0%  util=0.469050  Δ=-0.000689
+  PG+1%  LLY= 22.5%  JPM=  8.2%  V=  6.3%  UNH=  5.4%  XOM=  4.4%  MA=  4.0%  COST=  3.5%  HD=  3.0%  PG=  3.6%  NFLX= 39.0%  util=0.468189  Δ=-0.001550
+  NFLX+1%  LLY= 22.5%  JPM=  8.2%  V=  6.3%  UNH=  5.4%  XOM=  4.4%  MA=  4.0%  COST=  3.5%  HD=  3.0%  PG=  2.5%  NFLX= 40.1%  util=0.471755  Δ=+0.002016
+  ★ WINNER: LLY  improvement=+0.002044
+────────────────────────────────────────────────────────────────────────
+Epoch 46  [startUtility=0.471783  feasible=10]
+  LLY+1%  LLY= 24.6%  JPM=  8.1%  V=  6.2%  UNH=  5.3%  XOM=  4.3%  MA=  3.8%  COST=  3.4%  HD=  2.9%  PG=  2.4%  NFLX= 38.9%  util=0.473767  Δ=+0.001984
+  JPM+1%  LLY= 23.5%  JPM=  9.2%  V=  6.2%  UNH=  5.3%  XOM=  4.3%  MA=  3.8%  COST=  3.4%  HD=  2.9%  PG=  2.4%  NFLX= 38.9%  util=0.472086  Δ=+0.000303
+  V+1%  LLY= 23.5%  JPM=  8.1%  V=  7.3%  UNH=  5.3%  XOM=  4.3%  MA=  3.8%  COST=  3.4%  HD=  2.9%  PG=  2.4%  NFLX= 38.9%  util=0.470874  Δ=-0.000909
+  UNH+1%  LLY= 23.5%  JPM=  8.1%  V=  6.2%  UNH=  6.4%  XOM=  4.3%  MA=  3.8%  COST=  3.4%  HD=  2.9%  PG=  2.4%  NFLX= 38.9%  util=0.471356  Δ=-0.000427
+  XOM+1%  LLY= 23.5%  JPM=  8.1%  V=  6.2%  UNH=  5.3%  XOM=  5.4%  MA=  3.8%  COST=  3.4%  HD=  2.9%  PG=  2.4%  NFLX= 38.9%  util=0.470825  Δ=-0.000958
+  MA+1%  LLY= 23.5%  JPM=  8.1%  V=  6.2%  UNH=  5.3%  XOM=  4.3%  MA=  5.0%  COST=  3.4%  HD=  2.9%  PG=  2.4%  NFLX= 38.9%  util=0.471380  Δ=-0.000403
+  COST+1%  LLY= 23.5%  JPM=  8.1%  V=  6.2%  UNH=  5.3%  XOM=  4.3%  MA=  3.8%  COST=  4.5%  HD=  2.9%  PG=  2.4%  NFLX= 38.9%  util=0.472335  Δ=+0.000552
+  HD+1%  LLY= 23.5%  JPM=  8.1%  V=  6.2%  UNH=  5.3%  XOM=  4.3%  MA=  3.8%  COST=  3.4%  HD=  4.0%  PG=  2.4%  NFLX= 38.9%  util=0.471117  Δ=-0.000666
+  PG+1%  LLY= 23.5%  JPM=  8.1%  V=  6.2%  UNH=  5.3%  XOM=  4.3%  MA=  3.8%  COST=  3.4%  HD=  2.9%  PG=  3.5%  NFLX= 38.9%  util=0.470252  Δ=-0.001531
+  NFLX+1%  LLY= 23.5%  JPM=  8.1%  V=  6.2%  UNH=  5.3%  XOM=  4.3%  MA=  3.8%  COST=  3.4%  HD=  2.9%  PG=  2.4%  NFLX= 40.0%  util=0.473810  Δ=+0.002027
+  ★ WINNER: NFLX  improvement=+0.002027
+────────────────────────────────────────────────────────────────────────
+Epoch 47  [startUtility=0.473810  feasible=10]
+  LLY+1%  LLY= 24.5%  JPM=  8.0%  V=  6.1%  UNH=  5.2%  XOM=  4.2%  MA=  3.7%  COST=  3.3%  HD=  2.8%  PG=  2.3%  NFLX= 39.9%  util=0.475823  Δ=+0.002013
+  JPM+1%  LLY= 23.4%  JPM=  9.1%  V=  6.1%  UNH=  5.2%  XOM=  4.2%  MA=  3.7%  COST=  3.3%  HD=  2.8%  PG=  2.3%  NFLX= 39.9%  util=0.474142  Δ=+0.000333
+  V+1%  LLY= 23.4%  JPM=  8.0%  V=  7.2%  UNH=  5.2%  XOM=  4.2%  MA=  3.7%  COST=  3.3%  HD=  2.8%  PG=  2.3%  NFLX= 39.9%  util=0.472899  Δ=-0.000911
+  UNH+1%  LLY= 23.4%  JPM=  8.0%  V=  6.1%  UNH=  6.3%  XOM=  4.2%  MA=  3.7%  COST=  3.3%  HD=  2.8%  PG=  2.3%  NFLX= 39.9%  util=0.473392  Δ=-0.000418
+  XOM+1%  LLY= 23.4%  JPM=  8.0%  V=  6.1%  UNH=  5.2%  XOM=  5.3%  MA=  3.7%  COST=  3.3%  HD=  2.8%  PG=  2.3%  NFLX= 39.9%  util=0.472854  Δ=-0.000955
+  MA+1%  LLY= 23.4%  JPM=  8.0%  V=  6.1%  UNH=  5.2%  XOM=  4.2%  MA=  4.8%  COST=  3.3%  HD=  2.8%  PG=  2.3%  NFLX= 39.9%  util=0.473404  Δ=-0.000406
+  COST+1%  LLY= 23.4%  JPM=  8.0%  V=  6.1%  UNH=  5.2%  XOM=  4.2%  MA=  3.7%  COST=  4.4%  HD=  2.8%  PG=  2.3%  NFLX= 39.9%  util=0.474370  Δ=+0.000560
+  HD+1%  LLY= 23.4%  JPM=  8.0%  V=  6.1%  UNH=  5.2%  XOM=  4.2%  MA=  3.7%  COST=  3.3%  HD=  3.9%  PG=  2.3%  NFLX= 39.9%  util=0.473161  Δ=-0.000649
+  PG+1%  LLY= 23.4%  JPM=  8.0%  V=  6.1%  UNH=  5.2%  XOM=  4.2%  MA=  3.7%  COST=  3.3%  HD=  2.8%  PG=  3.4%  NFLX= 39.9%  util=0.472269  Δ=-0.001540
+  NFLX+1%  LLY= 23.4%  JPM=  8.0%  V=  6.1%  UNH=  5.2%  XOM=  4.2%  MA=  3.7%  COST=  3.3%  HD=  2.8%  PG=  2.3%  NFLX= 41.0%  util=0.475805  Δ=+0.001995
+  ★ WINNER: LLY  improvement=+0.002013
+────────────────────────────────────────────────────────────────────────
+Epoch 48  [startUtility=0.475823  feasible=10]
+  LLY+1%  LLY= 25.5%  JPM=  7.9%  V=  6.0%  UNH=  5.1%  XOM=  4.1%  MA=  3.6%  COST=  3.1%  HD=  2.7%  PG=  2.2%  NFLX= 39.8%  util=0.477777  Δ=+0.001954
+  JPM+1%  LLY= 24.4%  JPM=  9.0%  V=  6.0%  UNH=  5.1%  XOM=  4.1%  MA=  3.6%  COST=  3.1%  HD=  2.7%  PG=  2.2%  NFLX= 39.8%  util=0.476154  Δ=+0.000332
+  V+1%  LLY= 24.4%  JPM=  7.9%  V=  7.1%  UNH=  5.1%  XOM=  4.1%  MA=  3.6%  COST=  3.1%  HD=  2.7%  PG=  2.2%  NFLX= 39.8%  util=0.474911  Δ=-0.000912
+  UNH+1%  LLY= 24.4%  JPM=  7.9%  V=  6.0%  UNH=  6.2%  XOM=  4.1%  MA=  3.6%  COST=  3.1%  HD=  2.7%  PG=  2.2%  NFLX= 39.8%  util=0.475414  Δ=-0.000409
+  XOM+1%  LLY= 24.4%  JPM=  7.9%  V=  6.0%  UNH=  5.1%  XOM=  5.2%  MA=  3.6%  COST=  3.1%  HD=  2.7%  PG=  2.2%  NFLX= 39.8%  util=0.474839  Δ=-0.000984
+  MA+1%  LLY= 24.4%  JPM=  7.9%  V=  6.0%  UNH=  5.1%  XOM=  4.1%  MA=  4.7%  COST=  3.1%  HD=  2.7%  PG=  2.2%  NFLX= 39.8%  util=0.475427  Δ=-0.000396
+  COST+1%  LLY= 24.4%  JPM=  7.9%  V=  6.0%  UNH=  5.1%  XOM=  4.1%  MA=  3.6%  COST=  4.3%  HD=  2.7%  PG=  2.2%  NFLX= 39.8%  util=0.476388  Δ=+0.000565
+  HD+1%  LLY= 24.4%  JPM=  7.9%  V=  6.0%  UNH=  5.1%  XOM=  4.1%  MA=  3.6%  COST=  3.1%  HD=  3.8%  PG=  2.2%  NFLX= 39.8%  util=0.475172  Δ=-0.000650
+  PG+1%  LLY= 24.4%  JPM=  7.9%  V=  6.0%  UNH=  5.1%  XOM=  4.1%  MA=  3.6%  COST=  3.1%  HD=  2.7%  PG=  3.3%  NFLX= 39.8%  util=0.474293  Δ=-0.001529
+  NFLX+1%  LLY= 24.4%  JPM=  7.9%  V=  6.0%  UNH=  5.1%  XOM=  4.1%  MA=  3.6%  COST=  3.1%  HD=  2.7%  PG=  2.2%  NFLX= 40.9%  util=0.477840  Δ=+0.002018
+  ★ WINNER: NFLX  improvement=+0.002018
+────────────────────────────────────────────────────────────────────────
+Epoch 49  [startUtility=0.477840  feasible=10]
+  LLY+1%  LLY= 25.4%  JPM=  7.8%  V=  5.9%  UNH=  4.9%  XOM=  4.0%  MA=  3.5%  COST=  3.0%  HD=  2.6%  PG=  2.1%  NFLX= 40.8%  util=0.479822  Δ=+0.001982
+  JPM+1%  LLY= 24.3%  JPM=  8.9%  V=  5.9%  UNH=  4.9%  XOM=  4.0%  MA=  3.5%  COST=  3.0%  HD=  2.6%  PG=  2.1%  NFLX= 40.8%  util=0.478173  Δ=+0.000332
+  V+1%  LLY= 24.3%  JPM=  7.8%  V=  7.0%  UNH=  4.9%  XOM=  4.0%  MA=  3.5%  COST=  3.0%  HD=  2.6%  PG=  2.1%  NFLX= 40.8%  util=0.476925  Δ=-0.000916
+  UNH+1%  LLY= 24.3%  JPM=  7.8%  V=  5.9%  UNH=  6.1%  XOM=  4.0%  MA=  3.5%  COST=  3.0%  HD=  2.6%  PG=  2.1%  NFLX= 40.8%  util=0.477431  Δ=-0.000409
+  XOM+1%  LLY= 24.3%  JPM=  7.8%  V=  5.9%  UNH=  4.9%  XOM=  5.1%  MA=  3.5%  COST=  3.0%  HD=  2.6%  PG=  2.1%  NFLX= 40.8%  util=0.476865  Δ=-0.000975
+  MA+1%  LLY= 24.3%  JPM=  7.8%  V=  5.9%  UNH=  4.9%  XOM=  4.0%  MA=  4.6%  COST=  3.0%  HD=  2.6%  PG=  2.1%  NFLX= 40.8%  util=0.477441  Δ=-0.000399
+  COST+1%  LLY= 24.3%  JPM=  7.8%  V=  5.9%  UNH=  4.9%  XOM=  4.0%  MA=  3.5%  COST=  4.1%  HD=  2.6%  PG=  2.1%  NFLX= 40.8%  util=0.478415  Δ=+0.000575
+  HD+1%  LLY= 24.3%  JPM=  7.8%  V=  5.9%  UNH=  4.9%  XOM=  4.0%  MA=  3.5%  COST=  3.0%  HD=  3.7%  PG=  2.1%  NFLX= 40.8%  util=0.477198  Δ=-0.000642
+  PG+1%  LLY= 24.3%  JPM=  7.8%  V=  5.9%  UNH=  4.9%  XOM=  4.0%  MA=  3.5%  COST=  3.0%  HD=  2.6%  PG=  3.2%  NFLX= 40.8%  util=0.476306  Δ=-0.001535
+  NFLX+1%  LLY= 24.3%  JPM=  7.8%  V=  5.9%  UNH=  4.9%  XOM=  4.0%  MA=  3.5%  COST=  3.0%  HD=  2.6%  PG=  2.1%  NFLX= 41.9%  util=0.479802  Δ=+0.001962
+  ★ WINNER: LLY  improvement=+0.001982
+────────────────────────────────────────────────────────────────────────
+Epoch 50  [startUtility=0.479822  feasible=10]
+  LLY+1%  LLY= 26.4%  JPM=  7.7%  V=  5.8%  UNH=  4.8%  XOM=  3.9%  MA=  3.4%  COST=  2.9%  HD=  2.4%  PG=  2.0%  NFLX= 40.7%  util=0.481736  Δ=+0.001914
+  JPM+1%  LLY= 25.3%  JPM=  8.8%  V=  5.8%  UNH=  4.8%  XOM=  3.9%  MA=  3.4%  COST=  2.9%  HD=  2.4%  PG=  2.0%  NFLX= 40.7%  util=0.480145  Δ=+0.000323
+  V+1%  LLY= 25.3%  JPM=  7.7%  V=  6.9%  UNH=  4.8%  XOM=  3.9%  MA=  3.4%  COST=  2.9%  HD=  2.4%  PG=  2.0%  NFLX= 40.7%  util=0.478912  Δ=-0.000910
+  UNH+1%  LLY= 25.3%  JPM=  7.7%  V=  5.8%  UNH=  5.9%  XOM=  3.9%  MA=  3.4%  COST=  2.9%  HD=  2.4%  PG=  2.0%  NFLX= 40.7%  util=0.479436  Δ=-0.000385
+  XOM+1%  LLY= 25.3%  JPM=  7.7%  V=  5.8%  UNH=  4.8%  XOM=  5.0%  MA=  3.4%  COST=  2.9%  HD=  2.4%  PG=  2.0%  NFLX= 40.7%  util=0.478836  Δ=-0.000986
+  MA+1%  LLY= 25.3%  JPM=  7.7%  V=  5.8%  UNH=  4.8%  XOM=  3.9%  MA=  4.5%  COST=  2.9%  HD=  2.4%  PG=  2.0%  NFLX= 40.7%  util=0.479435  Δ=-0.000387
+  COST+1%  LLY= 25.3%  JPM=  7.7%  V=  5.8%  UNH=  4.8%  XOM=  3.9%  MA=  3.4%  COST=  4.0%  HD=  2.4%  PG=  2.0%  NFLX= 40.7%  util=0.480402  Δ=+0.000580
+  HD+1%  LLY= 25.3%  JPM=  7.7%  V=  5.8%  UNH=  4.8%  XOM=  3.9%  MA=  3.4%  COST=  2.9%  HD=  3.6%  PG=  2.0%  NFLX= 40.7%  util=0.479185  Δ=-0.000637
+  PG+1%  LLY= 25.3%  JPM=  7.7%  V=  5.8%  UNH=  4.8%  XOM=  3.9%  MA=  3.4%  COST=  2.9%  HD=  2.4%  PG=  3.1%  NFLX= 40.7%  util=0.478299  Δ=-0.001523
+  NFLX+1%  LLY= 25.3%  JPM=  7.7%  V=  5.8%  UNH=  4.8%  XOM=  3.9%  MA=  3.4%  COST=  2.9%  HD=  2.4%  PG=  2.0%  NFLX= 41.8%  util=0.481812  Δ=+0.001990
+  ★ WINNER: NFLX  improvement=+0.001990
+────────────────────────────────────────────────────────────────────────
+Epoch 51  [startUtility=0.481812  feasible=10]
+  LLY+1%  LLY= 26.3%  JPM=  7.6%  V=  5.7%  UNH=  4.7%  XOM=  3.8%  MA=  3.3%  COST=  2.8%  HD=  2.3%  PG=  1.9%  NFLX= 41.7%  util=0.483742  Δ=+0.001930
+  JPM+1%  LLY= 25.2%  JPM=  8.7%  V=  5.7%  UNH=  4.7%  XOM=  3.8%  MA=  3.3%  COST=  2.8%  HD=  2.3%  PG=  1.9%  NFLX= 41.7%  util=0.482137  Δ=+0.000325
+  V+1%  LLY= 25.2%  JPM=  7.6%  V=  6.8%  UNH=  4.7%  XOM=  3.8%  MA=  3.3%  COST=  2.8%  HD=  2.3%  PG=  1.9%  NFLX= 41.7%  util=0.480886  Δ=-0.000926
+  UNH+1%  LLY= 25.2%  JPM=  7.6%  V=  5.7%  UNH=  5.8%  XOM=  3.8%  MA=  3.3%  COST=  2.8%  HD=  2.3%  PG=  1.9%  NFLX= 41.7%  util=0.481436  Δ=-0.000376
+  XOM+1%  LLY= 25.2%  JPM=  7.6%  V=  5.7%  UNH=  4.7%  XOM=  4.9%  MA=  3.3%  COST=  2.8%  HD=  2.3%  PG=  1.9%  NFLX= 41.7%  util=0.480826  Δ=-0.000986
+  MA+1%  LLY= 25.2%  JPM=  7.6%  V=  5.7%  UNH=  4.7%  XOM=  3.8%  MA=  4.4%  COST=  2.8%  HD=  2.3%  PG=  1.9%  NFLX= 41.7%  util=0.481406  Δ=-0.000406
+  COST+1%  LLY= 25.2%  JPM=  7.6%  V=  5.7%  UNH=  4.7%  XOM=  3.8%  MA=  3.3%  COST=  3.9%  HD=  2.3%  PG=  1.9%  NFLX= 41.7%  util=0.482398  Δ=+0.000586
+  HD+1%  LLY= 25.2%  JPM=  7.6%  V=  5.7%  UNH=  4.7%  XOM=  3.8%  MA=  3.3%  COST=  2.8%  HD=  3.4%  PG=  1.9%  NFLX= 41.7%  util=0.481168  Δ=-0.000644
+  PG+1%  LLY= 25.2%  JPM=  7.6%  V=  5.7%  UNH=  4.7%  XOM=  3.8%  MA=  3.3%  COST=  2.8%  HD=  2.3%  PG=  3.0%  NFLX= 41.7%  util=0.480278  Δ=-0.001534
+  NFLX+1%  LLY= 25.2%  JPM=  7.6%  V=  5.7%  UNH=  4.7%  XOM=  3.8%  MA=  3.3%  COST=  2.8%  HD=  2.3%  PG=  1.9%  NFLX= 42.8%  util=0.483741  Δ=+0.001929
+  ★ WINNER: LLY  improvement=+0.001930
+────────────────────────────────────────────────────────────────────────
+Epoch 52  [startUtility=0.483742  feasible=10]
+  LLY+1%  LLY= 27.3%  JPM=  7.5%  V=  5.6%  UNH=  4.6%  XOM=  3.7%  MA=  3.2%  COST=  2.7%  HD=  2.2%  PG=  1.7%  NFLX= 41.6%  util=0.485586  Δ=+0.001844
+  JPM+1%  LLY= 26.2%  JPM=  8.6%  V=  5.6%  UNH=  4.6%  XOM=  3.7%  MA=  3.2%  COST=  2.7%  HD=  2.2%  PG=  1.7%  NFLX= 41.6%  util=0.484097  Δ=+0.000355
+  V+1%  LLY= 26.2%  JPM=  7.5%  V=  6.7%  UNH=  4.6%  XOM=  3.7%  MA=  3.2%  COST=  2.7%  HD=  2.2%  PG=  1.7%  NFLX= 41.6%  util=0.482827  Δ=-0.000915
+  UNH+1%  LLY= 26.2%  JPM=  7.5%  V=  5.6%  UNH=  5.7%  XOM=  3.7%  MA=  3.2%  COST=  2.7%  HD=  2.2%  PG=  1.7%  NFLX= 41.6%  util=0.483394  Δ=-0.000348
+  XOM+1%  LLY= 26.2%  JPM=  7.5%  V=  5.6%  UNH=  4.6%  XOM=  4.8%  MA=  3.2%  COST=  2.7%  HD=  2.2%  PG=  1.7%  NFLX= 41.6%  util=0.482760  Δ=-0.000982
+  MA+1%  LLY= 26.2%  JPM=  7.5%  V=  5.6%  UNH=  4.6%  XOM=  3.7%  MA=  4.3%  COST=  2.7%  HD=  2.2%  PG=  1.7%  NFLX= 41.6%  util=0.483349  Δ=-0.000393
+  COST+1%  LLY= 26.2%  JPM=  7.5%  V=  5.6%  UNH=  4.6%  XOM=  3.7%  MA=  3.2%  COST=  3.8%  HD=  2.2%  PG=  1.7%  NFLX= 41.6%  util=0.484319  Δ=+0.000577
+  HD+1%  LLY= 26.2%  JPM=  7.5%  V=  5.6%  UNH=  4.6%  XOM=  3.7%  MA=  3.2%  COST=  2.7%  HD=  3.3%  PG=  1.7%  NFLX= 41.6%  util=0.483132  Δ=-0.000610
+  PG+1%  LLY= 26.2%  JPM=  7.5%  V=  5.6%  UNH=  4.6%  XOM=  3.7%  MA=  3.2%  COST=  2.7%  HD=  2.2%  PG=  2.9%  NFLX= 41.6%  util=0.482196  Δ=-0.001546
+  NFLX+1%  LLY= 26.2%  JPM=  7.5%  V=  5.6%  UNH=  4.6%  XOM=  3.7%  MA=  3.2%  COST=  2.7%  HD=  2.2%  PG=  1.7%  NFLX= 42.7%  util=0.485675  Δ=+0.001934
+  ★ WINNER: NFLX  improvement=+0.001934
+────────────────────────────────────────────────────────────────────────
+Epoch 53  [startUtility=0.485675  feasible=10]
+  LLY+1%  LLY= 27.2%  JPM=  7.4%  V=  5.5%  UNH=  4.5%  XOM=  3.5%  MA=  3.1%  COST=  2.6%  HD=  2.1%  PG=  1.6%  NFLX= 42.6%  util=0.487556  Δ=+0.001880
+  JPM+1%  LLY= 26.1%  JPM=  8.5%  V=  5.5%  UNH=  4.5%  XOM=  3.5%  MA=  3.1%  COST=  2.6%  HD=  2.1%  PG=  1.6%  NFLX= 42.6%  util=0.486030  Δ=+0.000355
+  V+1%  LLY= 26.1%  JPM=  7.4%  V=  6.6%  UNH=  4.5%  XOM=  3.5%  MA=  3.1%  COST=  2.6%  HD=  2.1%  PG=  1.6%  NFLX= 42.6%  util=0.484746  Δ=-0.000930
+  UNH+1%  LLY= 26.1%  JPM=  7.4%  V=  5.5%  UNH=  5.6%  XOM=  3.5%  MA=  3.1%  COST=  2.6%  HD=  2.1%  PG=  1.6%  NFLX= 42.6%  util=0.485364  Δ=-0.000312
+  XOM+1%  LLY= 26.1%  JPM=  7.4%  V=  5.5%  UNH=  4.5%  XOM=  4.7%  MA=  3.1%  COST=  2.6%  HD=  2.1%  PG=  1.6%  NFLX= 42.6%  util=0.484707  Δ=-0.000968
+  MA+1%  LLY= 26.1%  JPM=  7.4%  V=  5.5%  UNH=  4.5%  XOM=  3.5%  MA=  4.2%  COST=  2.6%  HD=  2.1%  PG=  1.6%  NFLX= 42.6%  util=0.485269  Δ=-0.000406
+  COST+1%  LLY= 26.1%  JPM=  7.4%  V=  5.5%  UNH=  4.5%  XOM=  3.5%  MA=  3.1%  COST=  3.7%  HD=  2.1%  PG=  1.6%  NFLX= 42.6%  util=0.486265  Δ=+0.000590
+  HD+1%  LLY= 26.1%  JPM=  7.4%  V=  5.5%  UNH=  4.5%  XOM=  3.5%  MA=  3.1%  COST=  2.6%  HD=  3.2%  PG=  1.6%  NFLX= 42.6%  util=0.485076  Δ=-0.000599
+  PG+1%  LLY= 26.1%  JPM=  7.4%  V=  5.5%  UNH=  4.5%  XOM=  3.5%  MA=  3.1%  COST=  2.6%  HD=  2.1%  PG=  2.7%  NFLX= 42.6%  util=0.484121  Δ=-0.001555
+  NFLX+1%  LLY= 26.1%  JPM=  7.4%  V=  5.5%  UNH=  4.5%  XOM=  3.5%  MA=  3.1%  COST=  2.6%  HD=  2.1%  PG=  1.6%  NFLX= 43.7%  util=0.487585  Δ=+0.001910
+  ★ WINNER: NFLX  improvement=+0.001910
+────────────────────────────────────────────────────────────────────────
+Epoch 54  [startUtility=0.487585  feasible=10]
+  LLY+1%  LLY= 27.1%  JPM=  7.2%  V=  5.3%  UNH=  4.4%  XOM=  3.4%  MA=  3.0%  COST=  2.5%  HD=  2.0%  PG=  1.5%  NFLX= 43.6%  util=0.489478  Δ=+0.001893
+  JPM+1%  LLY= 26.0%  JPM=  8.4%  V=  5.3%  UNH=  4.4%  XOM=  3.4%  MA=  3.0%  COST=  2.5%  HD=  2.0%  PG=  1.5%  NFLX= 43.6%  util=0.487937  Δ=+0.000352
+  V+1%  LLY= 26.0%  JPM=  7.2%  V=  6.5%  UNH=  4.4%  XOM=  3.4%  MA=  3.0%  COST=  2.5%  HD=  2.0%  PG=  1.5%  NFLX= 43.6%  util=0.486644  Δ=-0.000941
+  UNH+1%  LLY= 26.0%  JPM=  7.2%  V=  5.3%  UNH=  5.5%  XOM=  3.4%  MA=  3.0%  COST=  2.5%  HD=  2.0%  PG=  1.5%  NFLX= 43.6%  util=0.487283  Δ=-0.000302
+  XOM+1%  LLY= 26.0%  JPM=  7.2%  V=  5.3%  UNH=  4.4%  XOM=  4.5%  MA=  3.0%  COST=  2.5%  HD=  2.0%  PG=  1.5%  NFLX= 43.6%  util=0.486607  Δ=-0.000978
+  MA+1%  LLY= 26.0%  JPM=  7.2%  V=  5.3%  UNH=  4.4%  XOM=  3.4%  MA=  4.1%  COST=  2.5%  HD=  2.0%  PG=  1.5%  NFLX= 43.6%  util=0.487163  Δ=-0.000422
+  COST+1%  LLY= 26.0%  JPM=  7.2%  V=  5.3%  UNH=  4.4%  XOM=  3.4%  MA=  3.0%  COST=  3.6%  HD=  2.0%  PG=  1.5%  NFLX= 43.6%  util=0.488178  Δ=+0.000593
+  HD+1%  LLY= 26.0%  JPM=  7.2%  V=  5.3%  UNH=  4.4%  XOM=  3.4%  MA=  3.0%  COST=  2.5%  HD=  3.1%  PG=  1.5%  NFLX= 43.6%  util=0.486992  Δ=-0.000593
+  PG+1%  LLY= 26.0%  JPM=  7.2%  V=  5.3%  UNH=  4.4%  XOM=  3.4%  MA=  3.0%  COST=  2.5%  HD=  2.0%  PG=  2.6%  NFLX= 43.6%  util=0.486040  Δ=-0.001545
+  NFLX+1%  LLY= 26.0%  JPM=  7.2%  V=  5.3%  UNH=  4.4%  XOM=  3.4%  MA=  3.0%  COST=  2.5%  HD=  2.0%  PG=  1.5%  NFLX= 44.7%  util=0.489431  Δ=+0.001846
+  ★ WINNER: LLY  improvement=+0.001893
+────────────────────────────────────────────────────────────────────────
+Epoch 55  [startUtility=0.489478  feasible=10]
+  LLY+1%  LLY= 28.1%  JPM=  7.1%  V=  5.2%  UNH=  4.3%  XOM=  3.3%  MA=  2.8%  COST=  2.4%  HD=  1.9%  PG=  1.4%  NFLX= 43.4%  util=0.491321  Δ=+0.001844
+  JPM+1%  LLY= 27.0%  JPM=  8.2%  V=  5.2%  UNH=  4.3%  XOM=  3.3%  MA=  2.8%  COST=  2.4%  HD=  1.9%  PG=  1.4%  NFLX= 43.4%  util=0.489836  Δ=+0.000358
+  V+1%  LLY= 27.0%  JPM=  7.1%  V=  6.3%  UNH=  4.3%  XOM=  3.3%  MA=  2.8%  COST=  2.4%  HD=  1.9%  PG=  1.4%  NFLX= 43.4%  util=0.488539  Δ=-0.000939
+  UNH+1%  LLY= 27.0%  JPM=  7.1%  V=  5.2%  UNH=  5.4%  XOM=  3.3%  MA=  2.8%  COST=  2.4%  HD=  1.9%  PG=  1.4%  NFLX= 43.4%  util=0.489183  Δ=-0.000295
+  XOM+1%  LLY= 27.0%  JPM=  7.1%  V=  5.2%  UNH=  4.3%  XOM=  4.4%  MA=  2.8%  COST=  2.4%  HD=  1.9%  PG=  1.4%  NFLX= 43.4%  util=0.488513  Δ=-0.000965
+  MA+1%  LLY= 27.0%  JPM=  7.1%  V=  5.2%  UNH=  4.3%  XOM=  3.3%  MA=  4.0%  COST=  2.4%  HD=  1.9%  PG=  1.4%  NFLX= 43.4%  util=0.489058  Δ=-0.000420
+  COST+1%  LLY= 27.0%  JPM=  7.1%  V=  5.2%  UNH=  4.3%  XOM=  3.3%  MA=  2.8%  COST=  3.5%  HD=  1.9%  PG=  1.4%  NFLX= 43.4%  util=0.490077  Δ=+0.000600
+  HD+1%  LLY= 27.0%  JPM=  7.1%  V=  5.2%  UNH=  4.3%  XOM=  3.3%  MA=  2.8%  COST=  2.4%  HD=  3.0%  PG=  1.4%  NFLX= 43.4%  util=0.488909  Δ=-0.000568
+  PG+1%  LLY= 27.0%  JPM=  7.1%  V=  5.2%  UNH=  4.3%  XOM=  3.3%  MA=  2.8%  COST=  2.4%  HD=  1.9%  PG=  2.5%  NFLX= 43.4%  util=0.487936  Δ=-0.001542
+  NFLX+1%  LLY= 27.0%  JPM=  7.1%  V=  5.2%  UNH=  4.3%  XOM=  3.3%  MA=  2.8%  COST=  2.4%  HD=  1.9%  PG=  1.4%  NFLX= 44.6%  util=0.491343  Δ=+0.001865
+  ★ WINNER: NFLX  improvement=+0.001865
+────────────────────────────────────────────────────────────────────────
+Epoch 56  [startUtility=0.491343  feasible=10]
+  LLY+1%  LLY= 28.0%  JPM=  7.0%  V=  5.1%  UNH=  4.2%  XOM=  3.2%  MA=  2.7%  COST=  2.3%  HD=  1.8%  PG=  1.3%  NFLX= 44.4%  util=0.493182  Δ=+0.001840
+  JPM+1%  LLY= 26.9%  JPM=  8.1%  V=  5.1%  UNH=  4.2%  XOM=  3.2%  MA=  2.7%  COST=  2.3%  HD=  1.8%  PG=  1.3%  NFLX= 44.4%  util=0.491705  Δ=+0.000363
+  V+1%  LLY= 26.9%  JPM=  7.0%  V=  6.2%  UNH=  4.2%  XOM=  3.2%  MA=  2.7%  COST=  2.3%  HD=  1.8%  PG=  1.3%  NFLX= 44.4%  util=0.490385  Δ=-0.000958
+  UNH+1%  LLY= 26.9%  JPM=  7.0%  V=  5.1%  UNH=  5.3%  XOM=  3.2%  MA=  2.7%  COST=  2.3%  HD=  1.8%  PG=  1.3%  NFLX= 44.4%  util=0.491100  Δ=-0.000242
+  XOM+1%  LLY= 26.9%  JPM=  7.0%  V=  5.1%  UNH=  4.2%  XOM=  4.3%  MA=  2.7%  COST=  2.3%  HD=  1.8%  PG=  1.3%  NFLX= 44.4%  util=0.490372  Δ=-0.000970
+  MA+1%  LLY= 26.9%  JPM=  7.0%  V=  5.1%  UNH=  4.2%  XOM=  3.2%  MA=  3.8%  COST=  2.3%  HD=  1.8%  PG=  1.3%  NFLX= 44.4%  util=0.490907  Δ=-0.000436
+  COST+1%  LLY= 26.9%  JPM=  7.0%  V=  5.1%  UNH=  4.2%  XOM=  3.2%  MA=  2.7%  COST=  3.4%  HD=  1.8%  PG=  1.3%  NFLX= 44.4%  util=0.491947  Δ=+0.000604
+  HD+1%  LLY= 26.9%  JPM=  7.0%  V=  5.1%  UNH=  4.2%  XOM=  3.2%  MA=  2.7%  COST=  2.3%  HD=  2.9%  PG=  1.3%  NFLX= 44.4%  util=0.490777  Δ=-0.000566
+  PG+1%  LLY= 26.9%  JPM=  7.0%  V=  5.1%  UNH=  4.2%  XOM=  3.2%  MA=  2.7%  COST=  2.3%  HD=  1.8%  PG=  2.4%  NFLX= 44.4%  util=0.489815  Δ=-0.001527
+  NFLX+1%  LLY= 26.9%  JPM=  7.0%  V=  5.1%  UNH=  4.2%  XOM=  3.2%  MA=  2.7%  COST=  2.3%  HD=  1.8%  PG=  1.3%  NFLX= 45.6%  util=0.493134  Δ=+0.001792
+  ★ WINNER: LLY  improvement=+0.001840
+────────────────────────────────────────────────────────────────────────
+Epoch 57  [startUtility=0.493182  feasible=10]
+  LLY+1%  LLY= 29.0%  JPM=  6.9%  V=  5.0%  UNH=  4.1%  XOM=  3.1%  MA=  2.6%  COST=  2.1%  HD=  1.7%  PG=  1.2%  NFLX= 44.3%  util=0.495002  Δ=+0.001820
+  JPM+1%  LLY= 27.9%  JPM=  8.0%  V=  5.0%  UNH=  4.1%  XOM=  3.1%  MA=  2.6%  COST=  2.1%  HD=  1.7%  PG=  1.2%  NFLX= 44.3%  util=0.493576  Δ=+0.000394
+  V+1%  LLY= 27.9%  JPM=  6.9%  V=  6.1%  UNH=  4.1%  XOM=  3.1%  MA=  2.6%  COST=  2.1%  HD=  1.7%  PG=  1.2%  NFLX= 44.3%  util=0.492226  Δ=-0.000956
+  UNH+1%  LLY= 27.9%  JPM=  6.9%  V=  5.0%  UNH=  5.2%  XOM=  3.1%  MA=  2.6%  COST=  2.1%  HD=  1.7%  PG=  1.2%  NFLX= 44.3%  util=0.492959  Δ=-0.000223
+  XOM+1%  LLY= 27.9%  JPM=  6.9%  V=  5.0%  UNH=  4.1%  XOM=  4.2%  MA=  2.6%  COST=  2.1%  HD=  1.7%  PG=  1.2%  NFLX= 44.3%  util=0.492228  Δ=-0.000954
+  MA+1%  LLY= 27.9%  JPM=  6.9%  V=  5.0%  UNH=  4.1%  XOM=  3.1%  MA=  3.7%  COST=  2.1%  HD=  1.7%  PG=  1.2%  NFLX= 44.3%  util=0.492758  Δ=-0.000424
+  COST+1%  LLY= 27.9%  JPM=  6.9%  V=  5.0%  UNH=  4.1%  XOM=  3.1%  MA=  2.6%  COST=  3.3%  HD=  1.7%  PG=  1.2%  NFLX= 44.3%  util=0.493787  Δ=+0.000605
+  HD+1%  LLY= 27.9%  JPM=  6.9%  V=  5.0%  UNH=  4.1%  XOM=  3.1%  MA=  2.6%  COST=  2.1%  HD=  2.8%  PG=  1.2%  NFLX= 44.3%  util=0.492632  Δ=-0.000550
+  PG+1%  LLY= 27.9%  JPM=  6.9%  V=  5.0%  UNH=  4.1%  XOM=  3.1%  MA=  2.6%  COST=  2.1%  HD=  1.7%  PG=  2.3%  NFLX= 44.3%  util=0.491650  Δ=-0.001532
+  NFLX+1%  LLY= 27.9%  JPM=  6.9%  V=  5.0%  UNH=  4.1%  XOM=  3.1%  MA=  2.6%  COST=  2.1%  HD=  1.7%  PG=  1.2%  NFLX= 45.4%  util=0.495019  Δ=+0.001837
+  ★ WINNER: NFLX  improvement=+0.001837
+────────────────────────────────────────────────────────────────────────
+Epoch 58  [startUtility=0.495019  feasible=10]
+  LLY+1%  LLY= 28.9%  JPM=  6.8%  V=  4.9%  UNH=  3.9%  XOM=  3.0%  MA=  2.5%  COST=  2.0%  HD=  1.6%  PG=  1.1%  NFLX= 45.3%  util=0.496845  Δ=+0.001826
+  JPM+1%  LLY= 27.8%  JPM=  7.9%  V=  4.9%  UNH=  3.9%  XOM=  3.0%  MA=  2.5%  COST=  2.0%  HD=  1.6%  PG=  1.1%  NFLX= 45.3%  util=0.495404  Δ=+0.000385
+  V+1%  LLY= 27.8%  JPM=  6.8%  V=  6.0%  UNH=  3.9%  XOM=  3.0%  MA=  2.5%  COST=  2.0%  HD=  1.6%  PG=  1.1%  NFLX= 45.3%  util=0.494046  Δ=-0.000973
+  UNH+1%  LLY= 27.8%  JPM=  6.8%  V=  4.9%  UNH=  5.1%  XOM=  3.0%  MA=  2.5%  COST=  2.0%  HD=  1.6%  PG=  1.1%  NFLX= 45.3%  util=0.494807  Δ=-0.000212
+  XOM+1%  LLY= 27.8%  JPM=  6.8%  V=  4.9%  UNH=  3.9%  XOM=  4.1%  MA=  2.5%  COST=  2.0%  HD=  1.6%  PG=  1.1%  NFLX= 45.3%  util=0.494038  Δ=-0.000981
+  MA+1%  LLY= 27.8%  JPM=  6.8%  V=  4.9%  UNH=  3.9%  XOM=  3.0%  MA=  3.6%  COST=  2.0%  HD=  1.6%  PG=  1.1%  NFLX= 45.3%  util=0.494568  Δ=-0.000451
+  COST+1%  LLY= 27.8%  JPM=  6.8%  V=  4.9%  UNH=  3.9%  XOM=  3.0%  MA=  2.5%  COST=  3.1%  HD=  1.6%  PG=  1.1%  NFLX= 45.3%  util=0.495637  Δ=+0.000618
+  HD+1%  LLY= 27.8%  JPM=  6.8%  V=  4.9%  UNH=  3.9%  XOM=  3.0%  MA=  2.5%  COST=  2.0%  HD=  2.7%  PG=  1.1%  NFLX= 45.3%  util=0.494454  Δ=-0.000565
+  PG+1%  LLY= 27.8%  JPM=  6.8%  V=  4.9%  UNH=  3.9%  XOM=  3.0%  MA=  2.5%  COST=  2.0%  HD=  1.6%  PG=  2.2%  NFLX= 45.3%  util=0.493493  Δ=-0.001526
+  NFLX+1%  LLY= 27.8%  JPM=  6.8%  V=  4.9%  UNH=  3.9%  XOM=  3.0%  MA=  2.5%  COST=  2.0%  HD=  1.6%  PG=  1.1%  NFLX= 46.4%  util=0.496840  Δ=+0.001821
+  ★ WINNER: LLY  improvement=+0.001826
+────────────────────────────────────────────────────────────────────────
+Epoch 59  [startUtility=0.496845  feasible=10]
+  LLY+1%  LLY= 29.9%  JPM=  6.7%  V=  4.8%  UNH=  3.8%  XOM=  2.9%  MA=  2.4%  COST=  1.9%  HD=  1.4%  PG=  1.0%  NFLX= 45.2%  util=0.498647  Δ=+0.001803
+  JPM+1%  LLY= 28.8%  JPM=  7.8%  V=  4.8%  UNH=  3.8%  XOM=  2.9%  MA=  2.4%  COST=  1.9%  HD=  1.4%  PG=  1.0%  NFLX= 45.2%  util=0.497269  Δ=+0.000425
+  V+1%  LLY= 28.8%  JPM=  6.7%  V=  5.9%  UNH=  3.8%  XOM=  2.9%  MA=  2.4%  COST=  1.9%  HD=  1.4%  PG=  1.0%  NFLX= 45.2%  util=0.495880  Δ=-0.000965
+  UNH+1%  LLY= 28.8%  JPM=  6.7%  V=  4.8%  UNH=  4.9%  XOM=  2.9%  MA=  2.4%  COST=  1.9%  HD=  1.4%  PG=  1.0%  NFLX= 45.2%  util=0.496633  Δ=-0.000211
+  XOM+1%  LLY= 28.8%  JPM=  6.7%  V=  4.8%  UNH=  3.8%  XOM=  4.0%  MA=  2.4%  COST=  1.9%  HD=  1.4%  PG=  1.0%  NFLX= 45.2%  util=0.495868  Δ=-0.000977
+  MA+1%  LLY= 28.8%  JPM=  6.7%  V=  4.8%  UNH=  3.8%  XOM=  2.9%  MA=  3.5%  COST=  1.9%  HD=  1.4%  PG=  1.0%  NFLX= 45.2%  util=0.496413  Δ=-0.000432
+  COST+1%  LLY= 28.8%  JPM=  6.7%  V=  4.8%  UNH=  3.8%  XOM=  2.9%  MA=  2.4%  COST=  3.0%  HD=  1.4%  PG=  1.0%  NFLX= 45.2%  util=0.497464  Δ=+0.000619
+  HD+1%  LLY= 28.8%  JPM=  6.7%  V=  4.8%  UNH=  3.8%  XOM=  2.9%  MA=  2.4%  COST=  1.9%  HD=  2.6%  PG=  1.0%  NFLX= 45.2%  util=0.496304  Δ=-0.000541
+  PG+1%  LLY= 28.8%  JPM=  6.7%  V=  4.8%  UNH=  3.8%  XOM=  2.9%  MA=  2.4%  COST=  1.9%  HD=  1.4%  PG=  2.1%  NFLX= 45.2%  util=0.495307  Δ=-0.001537
+  NFLX+1%  LLY= 28.8%  JPM=  6.7%  V=  4.8%  UNH=  3.8%  XOM=  2.9%  MA=  2.4%  COST=  1.9%  HD=  1.4%  PG=  1.0%  NFLX= 46.3%  util=0.498688  Δ=+0.001844
+  ★ WINNER: NFLX  improvement=+0.001844
+────────────────────────────────────────────────────────────────────────
+Epoch 60  [startUtility=0.498688  feasible=10]
+  LLY+1%  LLY= 29.8%  JPM=  6.6%  V=  4.7%  UNH=  3.7%  XOM=  2.8%  MA=  2.3%  COST=  1.8%  HD=  1.3%  PG=  0.9%  NFLX= 46.2%  util=0.500494  Δ=+0.001806
+  JPM+1%  LLY= 28.6%  JPM=  7.7%  V=  4.7%  UNH=  3.7%  XOM=  2.8%  MA=  2.3%  COST=  1.8%  HD=  1.3%  PG=  0.9%  NFLX= 46.2%  util=0.499099  Δ=+0.000411
+  V+1%  LLY= 28.6%  JPM=  6.6%  V=  5.8%  UNH=  3.7%  XOM=  2.8%  MA=  2.3%  COST=  1.8%  HD=  1.3%  PG=  0.9%  NFLX= 46.2%  util=0.497707  Δ=-0.000981
+  UNH+1%  LLY= 28.6%  JPM=  6.6%  V=  4.7%  UNH=  4.8%  XOM=  2.8%  MA=  2.3%  COST=  1.8%  HD=  1.3%  PG=  0.9%  NFLX= 46.2%  util=0.498500  Δ=-0.000188
+  XOM+1%  LLY= 28.6%  JPM=  6.6%  V=  4.7%  UNH=  3.7%  XOM=  3.9%  MA=  2.3%  COST=  1.8%  HD=  1.3%  PG=  0.9%  NFLX= 46.2%  util=0.497672  Δ=-0.001016
+  MA+1%  LLY= 28.6%  JPM=  6.6%  V=  4.7%  UNH=  3.7%  XOM=  2.8%  MA=  3.4%  COST=  1.8%  HD=  1.3%  PG=  0.9%  NFLX= 46.2%  util=0.498236  Δ=-0.000452
+  COST+1%  LLY= 28.6%  JPM=  6.6%  V=  4.7%  UNH=  3.7%  XOM=  2.8%  MA=  2.3%  COST=  2.9%  HD=  1.3%  PG=  0.9%  NFLX= 46.2%  util=0.499300  Δ=+0.000612
+  HD+1%  LLY= 28.6%  JPM=  6.6%  V=  4.7%  UNH=  3.7%  XOM=  2.8%  MA=  2.3%  COST=  1.8%  HD=  2.4%  PG=  0.9%  NFLX= 46.2%  util=0.498144  Δ=-0.000545
+  PG+1%  LLY= 28.6%  JPM=  6.6%  V=  4.7%  UNH=  3.7%  XOM=  2.8%  MA=  2.3%  COST=  1.8%  HD=  1.3%  PG=  2.0%  NFLX= 46.2%  util=0.497151  Δ=-0.001537
+  NFLX+1%  LLY= 28.6%  JPM=  6.6%  V=  4.7%  UNH=  3.7%  XOM=  2.8%  MA=  2.3%  COST=  1.8%  HD=  1.3%  PG=  0.9%  NFLX= 47.3%  util=0.500478  Δ=+0.001790
+  ★ WINNER: LLY  improvement=+0.001806
+────────────────────────────────────────────────────────────────────────
+Epoch 61  [startUtility=0.500494  feasible=10]
+  LLY+1%  LLY= 30.8%  JPM=  6.5%  V=  4.6%  UNH=  3.6%  XOM=  2.7%  MA=  2.2%  COST=  1.7%  HD=  1.2%  PG=  0.7%  NFLX= 46.1%  util=0.502271  Δ=+0.001777
+  JPM+1%  LLY= 29.6%  JPM=  7.6%  V=  4.6%  UNH=  3.6%  XOM=  2.7%  MA=  2.2%  COST=  1.7%  HD=  1.2%  PG=  0.7%  NFLX= 46.1%  util=0.500939  Δ=+0.000445
+  V+1%  LLY= 29.6%  JPM=  6.5%  V=  5.7%  UNH=  3.6%  XOM=  2.7%  MA=  2.2%  COST=  1.7%  HD=  1.2%  PG=  0.7%  NFLX= 46.1%  util=0.499521  Δ=-0.000973
+  UNH+1%  LLY= 29.6%  JPM=  6.5%  V=  4.6%  UNH=  4.7%  XOM=  2.7%  MA=  2.2%  COST=  1.7%  HD=  1.2%  PG=  0.7%  NFLX= 46.1%  util=0.500325  Δ=-0.000168
+  XOM+1%  LLY= 29.6%  JPM=  6.5%  V=  4.6%  UNH=  3.6%  XOM=  3.8%  MA=  2.2%  COST=  1.7%  HD=  1.2%  PG=  0.7%  NFLX= 46.1%  util=0.499469  Δ=-0.001025
+  MA+1%  LLY= 29.6%  JPM=  6.5%  V=  4.6%  UNH=  3.6%  XOM=  2.7%  MA=  3.3%  COST=  1.7%  HD=  1.2%  PG=  0.7%  NFLX= 46.1%  util=0.500059  Δ=-0.000434
+  COST+1%  LLY= 29.6%  JPM=  6.5%  V=  4.6%  UNH=  3.6%  XOM=  2.7%  MA=  2.2%  COST=  2.8%  HD=  1.2%  PG=  0.7%  NFLX= 46.1%  util=0.501103  Δ=+0.000609
+  HD+1%  LLY= 29.6%  JPM=  6.5%  V=  4.6%  UNH=  3.6%  XOM=  2.7%  MA=  2.2%  COST=  1.7%  HD=  2.3%  PG=  0.7%  NFLX= 46.1%  util=0.499977  Δ=-0.000517
+  PG+1%  LLY= 29.6%  JPM=  6.5%  V=  4.6%  UNH=  3.6%  XOM=  2.7%  MA=  2.2%  COST=  1.7%  HD=  1.2%  PG=  1.9%  NFLX= 46.1%  util=0.498952  Δ=-0.001542
+  NFLX+1%  LLY= 29.6%  JPM=  6.5%  V=  4.6%  UNH=  3.6%  XOM=  2.7%  MA=  2.2%  COST=  1.7%  HD=  1.2%  PG=  0.7%  NFLX= 47.2%  util=0.502309  Δ=+0.001815
+  ★ WINNER: NFLX  improvement=+0.001815
+────────────────────────────────────────────────────────────────────────
+Epoch 62  [startUtility=0.502309  feasible=10]
+  LLY+1%  LLY= 30.6%  JPM=  6.4%  V=  4.5%  UNH=  3.5%  XOM=  2.5%  MA=  2.1%  COST=  1.6%  HD=  1.1%  PG=  0.6%  NFLX= 47.1%  util=0.504113  Δ=+0.001804
+  JPM+1%  LLY= 29.5%  JPM=  7.5%  V=  4.5%  UNH=  3.5%  XOM=  2.5%  MA=  2.1%  COST=  1.6%  HD=  1.1%  PG=  0.6%  NFLX= 47.1%  util=0.502746  Δ=+0.000436
+  V+1%  LLY= 29.5%  JPM=  6.4%  V=  5.6%  UNH=  3.5%  XOM=  2.5%  MA=  2.1%  COST=  1.6%  HD=  1.1%  PG=  0.6%  NFLX= 47.1%  util=0.501329  Δ=-0.000980
+  UNH+1%  LLY= 29.5%  JPM=  6.4%  V=  4.5%  UNH=  4.6%  XOM=  2.5%  MA=  2.1%  COST=  1.6%  HD=  1.1%  PG=  0.6%  NFLX= 47.1%  util=0.502173  Δ=-0.000136
+  XOM+1%  LLY= 29.5%  JPM=  6.4%  V=  4.5%  UNH=  3.5%  XOM=  3.7%  MA=  2.1%  COST=  1.6%  HD=  1.1%  PG=  0.6%  NFLX= 47.1%  util=0.501281  Δ=-0.001028
+  MA+1%  LLY= 29.5%  JPM=  6.4%  V=  4.5%  UNH=  3.5%  XOM=  2.5%  MA=  3.2%  COST=  1.6%  HD=  1.1%  PG=  0.6%  NFLX= 47.1%  util=0.501860  Δ=-0.000449
+  COST+1%  LLY= 29.5%  JPM=  6.4%  V=  4.5%  UNH=  3.5%  XOM=  2.5%  MA=  2.1%  COST=  2.7%  HD=  1.1%  PG=  0.6%  NFLX= 47.1%  util=0.502925  Δ=+0.000616
+  HD+1%  LLY= 29.5%  JPM=  6.4%  V=  4.5%  UNH=  3.5%  XOM=  2.5%  MA=  2.1%  COST=  1.6%  HD=  2.2%  PG=  0.6%  NFLX= 47.1%  util=0.501786  Δ=-0.000523
+  PG+1%  LLY= 29.5%  JPM=  6.4%  V=  4.5%  UNH=  3.5%  XOM=  2.5%  MA=  2.1%  COST=  1.6%  HD=  1.1%  PG=  1.7%  NFLX= 47.1%  util=0.500770  Δ=-0.001539
+  NFLX+1%  LLY= 29.5%  JPM=  6.4%  V=  4.5%  UNH=  3.5%  XOM=  2.5%  MA=  2.1%  COST=  1.6%  HD=  1.1%  PG=  0.6%  NFLX= 48.2%  util=0.504097  Δ=+0.001787
+  ★ WINNER: LLY  improvement=+0.001804
+────────────────────────────────────────────────────────────────────────
+Epoch 63  [startUtility=0.504113  feasible=10]
+  LLY+1%  LLY= 31.6%  JPM=  6.2%  V=  4.3%  UNH=  3.4%  XOM=  2.4%  MA=  2.0%  COST=  1.5%  HD=  1.0%  PG=  0.5%  NFLX= 47.0%  util=0.505869  Δ=+0.001755
+  JPM+1%  LLY= 30.5%  JPM=  7.4%  V=  4.3%  UNH=  3.4%  XOM=  2.4%  MA=  2.0%  COST=  1.5%  HD=  1.0%  PG=  0.5%  NFLX= 47.0%  util=0.504547  Δ=+0.000434
+  V+1%  LLY= 30.5%  JPM=  6.2%  V=  5.5%  UNH=  3.4%  XOM=  2.4%  MA=  2.0%  COST=  1.5%  HD=  1.0%  PG=  0.5%  NFLX= 47.0%  util=0.503144  Δ=-0.000969
+  UNH+1%  LLY= 30.5%  JPM=  6.2%  V=  4.3%  UNH=  4.5%  XOM=  2.4%  MA=  2.0%  COST=  1.5%  HD=  1.0%  PG=  0.5%  NFLX= 47.0%  util=0.503965  Δ=-0.000149
+  XOM+1%  LLY= 30.5%  JPM=  6.2%  V=  4.3%  UNH=  3.4%  XOM=  3.5%  MA=  2.0%  COST=  1.5%  HD=  1.0%  PG=  0.5%  NFLX= 47.0%  util=0.503073  Δ=-0.001040
+  MA+1%  LLY= 30.5%  JPM=  6.2%  V=  4.3%  UNH=  3.4%  XOM=  2.4%  MA=  3.1%  COST=  1.5%  HD=  1.0%  PG=  0.5%  NFLX= 47.0%  util=0.503683  Δ=-0.000430
+  COST+1%  LLY= 30.5%  JPM=  6.2%  V=  4.3%  UNH=  3.4%  XOM=  2.4%  MA=  2.0%  COST=  2.6%  HD=  1.0%  PG=  0.5%  NFLX= 47.0%  util=0.504719  Δ=+0.000606
+  HD+1%  LLY= 30.5%  JPM=  6.2%  V=  4.3%  UNH=  3.4%  XOM=  2.4%  MA=  2.0%  COST=  1.5%  HD=  2.1%  PG=  0.5%  NFLX= 47.0%  util=0.503601  Δ=-0.000513
+  PG+1%  LLY= 30.5%  JPM=  6.2%  V=  4.3%  UNH=  3.4%  XOM=  2.4%  MA=  2.0%  COST=  1.5%  HD=  1.0%  PG=  1.6%  NFLX= 47.0%  util=0.502585  Δ=-0.001528
+  NFLX+1%  LLY= 30.5%  JPM=  6.2%  V=  4.3%  UNH=  3.4%  XOM=  2.4%  MA=  2.0%  COST=  1.5%  HD=  1.0%  PG=  0.5%  NFLX= 48.1%  util=0.505916  Δ=+0.001803
+  ★ WINNER: NFLX  improvement=+0.001803
+────────────────────────────────────────────────────────────────────────
+Epoch 64  [startUtility=0.505916  feasible=10]
+  LLY+1%  LLY= 31.5%  JPM=  6.1%  V=  4.2%  UNH=  3.3%  XOM=  2.3%  MA=  1.8%  COST=  1.4%  HD=  0.9%  PG=  0.4%  NFLX= 48.0%  util=0.507672  Δ=+0.001756
+  JPM+1%  LLY= 30.4%  JPM=  7.2%  V=  4.2%  UNH=  3.3%  XOM=  2.3%  MA=  1.8%  COST=  1.4%  HD=  0.9%  PG=  0.4%  NFLX= 48.0%  util=0.506351  Δ=+0.000435
+  V+1%  LLY= 30.4%  JPM=  6.1%  V=  5.3%  UNH=  3.3%  XOM=  2.3%  MA=  1.8%  COST=  1.4%  HD=  0.9%  PG=  0.4%  NFLX= 48.0%  util=0.504936  Δ=-0.000980
+  UNH+1%  LLY= 30.4%  JPM=  6.1%  V=  4.2%  UNH=  4.4%  XOM=  2.3%  MA=  1.8%  COST=  1.4%  HD=  0.9%  PG=  0.4%  NFLX= 48.0%  util=0.505792  Δ=-0.000125
+  XOM+1%  LLY= 30.4%  JPM=  6.1%  V=  4.2%  UNH=  3.3%  XOM=  3.4%  MA=  1.8%  COST=  1.4%  HD=  0.9%  PG=  0.4%  NFLX= 48.0%  util=0.504861  Δ=-0.001055
+  MA+1%  LLY= 30.4%  JPM=  6.1%  V=  4.2%  UNH=  3.3%  XOM=  2.3%  MA=  3.0%  COST=  1.4%  HD=  0.9%  PG=  0.4%  NFLX= 48.0%  util=0.505468  Δ=-0.000449
+  COST+1%  LLY= 30.4%  JPM=  6.1%  V=  4.2%  UNH=  3.3%  XOM=  2.3%  MA=  1.8%  COST=  2.5%  HD=  0.9%  PG=  0.4%  NFLX= 48.0%  util=0.506539  Δ=+0.000623
+  HD+1%  LLY= 30.4%  JPM=  6.1%  V=  4.2%  UNH=  3.3%  XOM=  2.3%  MA=  1.8%  COST=  1.4%  HD=  2.0%  PG=  0.4%  NFLX= 48.0%  util=0.505398  Δ=-0.000518
+  PG+1%  LLY= 30.4%  JPM=  6.1%  V=  4.2%  UNH=  3.3%  XOM=  2.3%  MA=  1.8%  COST=  1.4%  HD=  0.9%  PG=  1.5%  NFLX= 48.0%  util=0.504382  Δ=-0.001535
+  NFLX+1%  LLY= 30.4%  JPM=  6.1%  V=  4.2%  UNH=  3.3%  XOM=  2.3%  MA=  1.8%  COST=  1.4%  HD=  0.9%  PG=  0.4%  NFLX= 49.1%  util=0.507648  Δ=+0.001732
+  ★ WINNER: LLY  improvement=+0.001756
+────────────────────────────────────────────────────────────────────────
+Epoch 65  [startUtility=0.507672  feasible=10]
+  LLY+1%  LLY= 32.5%  JPM=  6.0%  V=  4.1%  UNH=  3.2%  XOM=  2.2%  MA=  1.7%  COST=  1.3%  HD=  0.8%  PG=  0.3%  NFLX= 47.9%  util=0.509354  Δ=+0.001682
+  JPM+1%  LLY= 31.4%  JPM=  7.1%  V=  4.1%  UNH=  3.2%  XOM=  2.2%  MA=  1.7%  COST=  1.3%  HD=  0.8%  PG=  0.3%  NFLX= 47.9%  util=0.508118  Δ=+0.000445
+  V+1%  LLY= 31.4%  JPM=  6.0%  V=  5.2%  UNH=  3.2%  XOM=  2.2%  MA=  1.7%  COST=  1.3%  HD=  0.8%  PG=  0.3%  NFLX= 47.9%  util=0.506704  Δ=-0.000968
+  UNH+1%  LLY= 31.4%  JPM=  6.0%  V=  4.1%  UNH=  4.3%  XOM=  2.2%  MA=  1.7%  COST=  1.3%  HD=  0.8%  PG=  0.3%  NFLX= 47.9%  util=0.507552  Δ=-0.000120
+  XOM+1%  LLY= 31.4%  JPM=  6.0%  V=  4.1%  UNH=  3.2%  XOM=  3.3%  MA=  1.7%  COST=  1.3%  HD=  0.8%  PG=  0.3%  NFLX= 47.9%  util=0.506639  Δ=-0.001033
+  MA+1%  LLY= 31.4%  JPM=  6.0%  V=  4.1%  UNH=  3.2%  XOM=  2.2%  MA=  2.8%  COST=  1.3%  HD=  0.8%  PG=  0.3%  NFLX= 47.9%  util=0.507244  Δ=-0.000428
+  COST+1%  LLY= 31.4%  JPM=  6.0%  V=  4.1%  UNH=  3.2%  XOM=  2.2%  MA=  1.7%  COST=  2.4%  HD=  0.8%  PG=  0.3%  NFLX= 47.9%  util=0.508281  Δ=+0.000609
+  HD+1%  LLY= 31.4%  JPM=  6.0%  V=  4.1%  UNH=  3.2%  XOM=  2.2%  MA=  1.7%  COST=  1.3%  HD=  1.9%  PG=  0.3%  NFLX= 47.9%  util=0.507185  Δ=-0.000488
+  PG+1%  LLY= 31.4%  JPM=  6.0%  V=  4.1%  UNH=  3.2%  XOM=  2.2%  MA=  1.7%  COST=  1.3%  HD=  0.8%  PG=  1.4%  NFLX= 47.9%  util=0.506136  Δ=-0.001537
+  NFLX+1%  LLY= 31.4%  JPM=  6.0%  V=  4.1%  UNH=  3.2%  XOM=  2.2%  MA=  1.7%  COST=  1.3%  HD=  0.8%  PG=  0.3%  NFLX= 49.0%  util=0.509404  Δ=+0.001732
+  ★ WINNER: NFLX  improvement=+0.001732
+────────────────────────────────────────────────────────────────────────
+Epoch 66  [startUtility=0.509404  feasible=10]
+  LLY+1%  LLY= 32.4%  JPM=  5.9%  V=  4.0%  UNH=  3.1%  XOM=  2.1%  MA=  1.6%  COST=  1.1%  HD=  0.7%  PG=  0.2%  NFLX= 48.9%  util=0.511106  Δ=+0.001702
+  JPM+1%  LLY= 31.3%  JPM=  7.0%  V=  4.0%  UNH=  3.1%  XOM=  2.1%  MA=  1.6%  COST=  1.1%  HD=  0.7%  PG=  0.2%  NFLX= 48.9%  util=0.509861  Δ=+0.000457
+  V+1%  LLY= 31.3%  JPM=  5.9%  V=  5.1%  UNH=  3.1%  XOM=  2.1%  MA=  1.6%  COST=  1.1%  HD=  0.7%  PG=  0.2%  NFLX= 48.9%  util=0.508413  Δ=-0.000991
+  UNH+1%  LLY= 31.3%  JPM=  5.9%  V=  4.0%  UNH=  4.2%  XOM=  2.1%  MA=  1.6%  COST=  1.1%  HD=  0.7%  PG=  0.2%  NFLX= 48.9%  util=0.509328  Δ=-0.000077
+  XOM+1%  LLY= 31.3%  JPM=  5.9%  V=  4.0%  UNH=  3.1%  XOM=  3.2%  MA=  1.6%  COST=  1.1%  HD=  0.7%  PG=  0.2%  NFLX= 48.9%  util=0.508372  Δ=-0.001032
+  MA+1%  LLY= 31.3%  JPM=  5.9%  V=  4.0%  UNH=  3.1%  XOM=  2.1%  MA=  2.7%  COST=  1.1%  HD=  0.7%  PG=  0.2%  NFLX= 48.9%  util=0.508958  Δ=-0.000446
+  COST+1%  LLY= 31.3%  JPM=  5.9%  V=  4.0%  UNH=  3.1%  XOM=  2.1%  MA=  1.6%  COST=  2.3%  HD=  0.7%  PG=  0.2%  NFLX= 48.9%  util=0.510027  Δ=+0.000623
+  HD+1%  LLY= 31.3%  JPM=  5.9%  V=  4.0%  UNH=  3.1%  XOM=  2.1%  MA=  1.6%  COST=  1.1%  HD=  1.8%  PG=  0.2%  NFLX= 48.9%  util=0.508927  Δ=-0.000477
+  PG+1%  LLY= 31.3%  JPM=  5.9%  V=  4.0%  UNH=  3.1%  XOM=  2.1%  MA=  1.6%  COST=  1.1%  HD=  0.7%  PG=  1.3%  NFLX= 48.9%  util=0.507865  Δ=-0.001539
+  NFLX+1%  LLY= 31.3%  JPM=  5.9%  V=  4.0%  UNH=  3.1%  XOM=  2.1%  MA=  1.6%  COST=  1.1%  HD=  0.7%  PG=  0.2%  NFLX= 50.0%  util=0.511072  Δ=+0.001668
+  ★ WINNER: LLY  improvement=+0.001702
+────────────────────────────────────────────────────────────────────────
+Epoch 67  [startUtility=0.511106  feasible=10]
+  LLY+1%  LLY= 33.4%  JPM=  5.8%  V=  3.9%  UNH=  2.9%  XOM=  2.0%  MA=  1.5%  COST=  1.0%  HD=  0.6%  PG=  0.1%  NFLX= 48.8%  util=0.512718  Δ=+0.001612
+  JPM+1%  LLY= 32.3%  JPM=  6.9%  V=  3.9%  UNH=  2.9%  XOM=  2.0%  MA=  1.5%  COST=  1.0%  HD=  0.6%  PG=  0.1%  NFLX= 48.8%  util=0.511578  Δ=+0.000472
+  V+1%  LLY= 32.3%  JPM=  5.8%  V=  5.0%  UNH=  2.9%  XOM=  2.0%  MA=  1.5%  COST=  1.0%  HD=  0.6%  PG=  0.1%  NFLX= 48.8%  util=0.510121  Δ=-0.000985
+  UNH+1%  LLY= 32.3%  JPM=  5.8%  V=  3.9%  UNH=  4.1%  XOM=  2.0%  MA=  1.5%  COST=  1.0%  HD=  0.6%  PG=  0.1%  NFLX= 48.8%  util=0.511019  Δ=-0.000087
+  XOM+1%  LLY= 32.3%  JPM=  5.8%  V=  3.9%  UNH=  2.9%  XOM=  3.1%  MA=  1.5%  COST=  1.0%  HD=  0.6%  PG=  0.1%  NFLX= 48.8%  util=0.510083  Δ=-0.001023
+  MA+1%  LLY= 32.3%  JPM=  5.8%  V=  3.9%  UNH=  2.9%  XOM=  2.0%  MA=  2.6%  COST=  1.0%  HD=  0.6%  PG=  0.1%  NFLX= 48.8%  util=0.510664  Δ=-0.000442
+  COST+1%  LLY= 32.3%  JPM=  5.8%  V=  3.9%  UNH=  2.9%  XOM=  2.0%  MA=  1.5%  COST=  2.1%  HD=  0.6%  PG=  0.1%  NFLX= 48.8%  util=0.511706  Δ=+0.000600
+  HD+1%  LLY= 32.3%  JPM=  5.8%  V=  3.9%  UNH=  2.9%  XOM=  2.0%  MA=  1.5%  COST=  1.0%  HD=  1.7%  PG=  0.1%  NFLX= 48.8%  util=0.510647  Δ=-0.000459
+  PG+1%  LLY= 32.3%  JPM=  5.8%  V=  3.9%  UNH=  2.9%  XOM=  2.0%  MA=  1.5%  COST=  1.0%  HD=  0.6%  PG=  1.2%  NFLX= 48.8%  util=0.509564  Δ=-0.001542
+  NFLX+1%  LLY= 32.3%  JPM=  5.8%  V=  3.9%  UNH=  2.9%  XOM=  2.0%  MA=  1.5%  COST=  1.0%  HD=  0.6%  PG=  0.1%  NFLX= 49.9%  util=0.512761  Δ=+0.001655
+  ★ WINNER: NFLX  improvement=+0.001655
+────────────────────────────────────────────────────────────────────────
+Epoch 68  [startUtility=0.512761  feasible=1]
+  PG+1%  LLY= 32.2%  JPM=  5.7%  V=  3.8%  UNH=  2.8%  XOM=  1.9%  MA=  1.4%  COST=  0.9%  HD=  0.4%  PG=  1.1%  NFLX= 49.8%  util=0.511233  Δ=-0.001528
+  ✗ STOPPED: no_improvement
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.512761  (gain=+0.159927  epochs=69)

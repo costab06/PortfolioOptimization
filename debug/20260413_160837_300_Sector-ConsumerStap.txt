@@ -1,0 +1,187 @@
+=== OPTIMIZATION DEBUG: Sector-ConsumerStap ===
+Time:   Mon Apr 13 16:17:52 EDT 2026
+Start:  WMT= 19.2%  COST= 15.5%  PG= 11.5%  KO= 10.3%  PM=  8.5%  MDLZ=  7.6%  MO=  7.3%  PEP=  7.3%  CL=  6.9%  TGT=  5.9%
+        utility = 0.264056
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.264056  feasible=10  step=0.0100  streak=0  T=0.0500]
+  WMT+1%  WMT= 20.2%  COST= 15.4%  PG= 11.4%  KO= 10.1%  PM=  8.4%  MDLZ=  7.5%  MO=  7.2%  PEP=  7.2%  CL=  6.8%  TGT=  5.8%  util=0.266024  Δ=+0.001968
+  COST+1%  WMT= 19.1%  COST= 16.5%  PG= 11.4%  KO= 10.1%  PM=  8.4%  MDLZ=  7.5%  MO=  7.2%  PEP=  7.2%  CL=  6.8%  TGT=  5.8%  util=0.266433  Δ=+0.002378
+  PG+1%  WMT= 19.1%  COST= 15.4%  PG= 12.5%  KO= 10.1%  PM=  8.4%  MDLZ=  7.5%  MO=  7.2%  PEP=  7.2%  CL=  6.8%  TGT=  5.8%  util=0.262242  Δ=-0.001814
+  KO+1%  WMT= 19.1%  COST= 15.4%  PG= 11.4%  KO= 11.3%  PM=  8.4%  MDLZ=  7.5%  MO=  7.2%  PEP=  7.2%  CL=  6.8%  TGT=  5.8%  util=0.263089  Δ=-0.000967
+  PM+1%  WMT= 19.1%  COST= 15.4%  PG= 11.4%  KO= 10.1%  PM=  9.5%  MDLZ=  7.5%  MO=  7.2%  PEP=  7.2%  CL=  6.8%  TGT=  5.8%  util=0.265947  Δ=+0.001891
+  MDLZ+1%  WMT= 19.1%  COST= 15.4%  PG= 11.4%  KO= 10.1%  PM=  8.4%  MDLZ=  8.6%  MO=  7.2%  PEP=  7.2%  CL=  6.8%  TGT=  5.8%  util=0.262552  Δ=-0.001504
+  MO+1%  WMT= 19.1%  COST= 15.4%  PG= 11.4%  KO= 10.1%  PM=  8.4%  MDLZ=  7.5%  MO=  8.3%  PEP=  7.2%  CL=  6.8%  TGT=  5.8%  util=0.264630  Δ=+0.000574
+  PEP+1%  WMT= 19.1%  COST= 15.4%  PG= 11.4%  KO= 10.1%  PM=  8.4%  MDLZ=  7.5%  MO=  7.2%  PEP=  8.3%  CL=  6.8%  TGT=  5.8%  util=0.262641  Δ=-0.001414
+  CL+1%  WMT= 19.1%  COST= 15.4%  PG= 11.4%  KO= 10.1%  PM=  8.4%  MDLZ=  7.5%  MO=  7.2%  PEP=  7.2%  CL=  7.9%  TGT=  5.8%  util=0.262110  Δ=-0.001945
+  TGT+1%  WMT= 19.1%  COST= 15.4%  PG= 11.4%  KO= 10.1%  PM=  8.4%  MDLZ=  7.5%  MO=  7.2%  PEP=  7.2%  CL=  6.8%  TGT=  6.9%  util=0.264577  Δ=+0.000522
+  ★ WINNER: Epoch 0  improvement=+0.002378
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.266433  feasible=10  step=0.0200  streak=1  T=0.0475]
+  WMT+2%  WMT= 21.1%  COST= 16.3%  PG= 11.2%  KO=  9.9%  PM=  8.2%  MDLZ=  7.3%  MO=  7.0%  PEP=  7.0%  CL=  6.5%  TGT=  5.6%  util=0.270312  Δ=+0.003878
+  COST+2%  WMT= 18.8%  COST= 18.5%  PG= 11.2%  KO=  9.9%  PM=  8.2%  MDLZ=  7.3%  MO=  7.0%  PEP=  7.0%  CL=  6.5%  TGT=  5.6%  util=0.271000  Δ=+0.004567
+  PG+2%  WMT= 18.8%  COST= 16.3%  PG= 13.4%  KO=  9.9%  PM=  8.2%  MDLZ=  7.3%  MO=  7.0%  PEP=  7.0%  CL=  6.5%  TGT=  5.6%  util=0.262825  Δ=-0.003608
+  KO+2%  WMT= 18.8%  COST= 16.3%  PG= 11.2%  KO= 12.1%  PM=  8.2%  MDLZ=  7.3%  MO=  7.0%  PEP=  7.0%  CL=  6.5%  TGT=  5.6%  util=0.264499  Δ=-0.001934
+  PM+2%  WMT= 18.8%  COST= 16.3%  PG= 11.2%  KO=  9.9%  PM= 10.4%  MDLZ=  7.3%  MO=  7.0%  PEP=  7.0%  CL=  6.5%  TGT=  5.6%  util=0.270149  Δ=+0.003716
+  MDLZ+2%  WMT= 18.8%  COST= 16.3%  PG= 11.2%  KO=  9.9%  PM=  8.2%  MDLZ=  9.5%  MO=  7.0%  PEP=  7.0%  CL=  6.5%  TGT=  5.6%  util=0.263441  Δ=-0.002992
+  MO+2%  WMT= 18.8%  COST= 16.3%  PG= 11.2%  KO=  9.9%  PM=  8.2%  MDLZ=  7.3%  MO=  9.2%  PEP=  7.0%  CL=  6.5%  TGT=  5.6%  util=0.267581  Δ=+0.001147
+  PEP+2%  WMT= 18.8%  COST= 16.3%  PG= 11.2%  KO=  9.9%  PM=  8.2%  MDLZ=  7.3%  MO=  7.0%  PEP=  9.2%  CL=  6.5%  TGT=  5.6%  util=0.263612  Δ=-0.002821
+  CL+2%  WMT= 18.8%  COST= 16.3%  PG= 11.2%  KO=  9.9%  PM=  8.2%  MDLZ=  7.3%  MO=  7.0%  PEP=  7.0%  CL=  8.8%  TGT=  5.6%  util=0.262550  Δ=-0.003883
+  TGT+2%  WMT= 18.8%  COST= 16.3%  PG= 11.2%  KO=  9.9%  PM=  8.2%  MDLZ=  7.3%  MO=  7.0%  PEP=  7.0%  CL=  6.5%  TGT=  7.8%  util=0.267373  Δ=+0.000939
+  ★ WINNER: Epoch 1  improvement=+0.004567
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.271000  feasible=10  step=0.0300  streak=2  T=0.0451]
+  WMT+3%  WMT= 21.8%  COST= 18.2%  PG= 10.9%  KO=  9.6%  PM=  7.8%  MDLZ=  7.0%  MO=  6.6%  PEP=  6.6%  CL=  6.2%  TGT=  5.2%  util=0.276591  Δ=+0.005590
+  COST+3%  WMT= 18.5%  COST= 21.5%  PG= 10.9%  KO=  9.6%  PM=  7.8%  MDLZ=  7.0%  MO=  6.6%  PEP=  6.6%  CL=  6.2%  TGT=  5.2%  util=0.277422  Δ=+0.006422
+  PG+3%  WMT= 18.5%  COST= 18.2%  PG= 14.2%  KO=  9.6%  PM=  7.8%  MDLZ=  7.0%  MO=  6.6%  PEP=  6.6%  CL=  6.2%  TGT=  5.2%  util=0.265601  Δ=-0.005399
+  KO+3%  WMT= 18.5%  COST= 18.2%  PG= 10.9%  KO= 12.9%  PM=  7.8%  MDLZ=  7.0%  MO=  6.6%  PEP=  6.6%  CL=  6.2%  TGT=  5.2%  util=0.268122  Δ=-0.002879
+  PM+3%  WMT= 18.5%  COST= 18.2%  PG= 10.9%  KO=  9.6%  PM= 11.2%  MDLZ=  7.0%  MO=  6.6%  PEP=  6.6%  CL=  6.2%  TGT=  5.2%  util=0.276648  Δ=+0.005647
+  MDLZ+3%  WMT= 18.5%  COST= 18.2%  PG= 10.9%  KO=  9.6%  PM=  7.8%  MDLZ= 10.3%  MO=  6.6%  PEP=  6.6%  CL=  6.2%  TGT=  5.2%  util=0.266592  Δ=-0.004409
+  MO+3%  WMT= 18.5%  COST= 18.2%  PG= 10.9%  KO=  9.6%  PM=  7.8%  MDLZ=  7.0%  MO= 10.0%  PEP=  6.6%  CL=  6.2%  TGT=  5.2%  util=0.272700  Δ=+0.001699
+  PEP+3%  WMT= 18.5%  COST= 18.2%  PG= 10.9%  KO=  9.6%  PM=  7.8%  MDLZ=  7.0%  MO=  6.6%  PEP= 10.0%  CL=  6.2%  TGT=  5.2%  util=0.266787  Δ=-0.004213
+  CL+3%  WMT= 18.5%  COST= 18.2%  PG= 10.9%  KO=  9.6%  PM=  7.8%  MDLZ=  7.0%  MO=  6.6%  PEP=  6.6%  CL=  9.5%  TGT=  5.2%  util=0.265205  Δ=-0.005796
+  TGT+3%  WMT= 18.5%  COST= 18.2%  PG= 10.9%  KO=  9.6%  PM=  7.8%  MDLZ=  7.0%  MO=  6.6%  PEP=  6.6%  CL=  6.2%  TGT=  8.6%  util=0.272251  Δ=+0.001250
+  ★ WINNER: Epoch 2  improvement=+0.006422
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.277422  feasible=10  step=0.0400  streak=3  T=0.0429]
+  WMT+4%  WMT= 22.5%  COST= 21.1%  PG= 10.4%  KO=  9.1%  PM=  7.4%  MDLZ=  6.5%  MO=  6.2%  PEP=  6.2%  CL=  5.8%  TGT=  4.8%  util=0.284574  Δ=+0.007152
+  COST+4%  WMT= 18.1%  COST= 25.5%  PG= 10.4%  KO=  9.1%  PM=  7.4%  MDLZ=  6.5%  MO=  6.2%  PEP=  6.2%  CL=  5.8%  TGT=  4.8%  util=0.285073  Δ=+0.007651
+  PG+4%  WMT= 18.1%  COST= 21.1%  PG= 14.9%  KO=  9.1%  PM=  7.4%  MDLZ=  6.5%  MO=  6.2%  PEP=  6.2%  CL=  5.8%  TGT=  4.8%  util=0.270049  Δ=-0.007373
+  KO+4%  WMT= 18.1%  COST= 21.1%  PG= 10.4%  KO= 13.6%  PM=  7.4%  MDLZ=  6.5%  MO=  6.2%  PEP=  6.2%  CL=  5.8%  TGT=  4.8%  util=0.273609  Δ=-0.003813
+  PM+4%  WMT= 18.1%  COST= 21.1%  PG= 10.4%  KO=  9.1%  PM= 11.8%  MDLZ=  6.5%  MO=  6.2%  PEP=  6.2%  CL=  5.8%  TGT=  4.8%  util=0.284893  Δ=+0.007471
+  MDLZ+4%  WMT= 18.1%  COST= 21.1%  PG= 10.4%  KO=  9.1%  PM=  7.4%  MDLZ= 11.0%  MO=  6.2%  PEP=  6.2%  CL=  5.8%  TGT=  4.8%  util=0.271542  Δ=-0.005880
+  MO+4%  WMT= 18.1%  COST= 21.1%  PG= 10.4%  KO=  9.1%  PM=  7.4%  MDLZ=  6.5%  MO= 10.6%  PEP=  6.2%  CL=  5.8%  TGT=  4.8%  util=0.279694  Δ=+0.002272
+  PEP+4%  WMT= 18.1%  COST= 21.1%  PG= 10.4%  KO=  9.1%  PM=  7.4%  MDLZ=  6.5%  MO=  6.2%  PEP= 10.6%  CL=  5.8%  TGT=  4.8%  util=0.271846  Δ=-0.005576
+  CL+4%  WMT= 18.1%  COST= 21.1%  PG= 10.4%  KO=  9.1%  PM=  7.4%  MDLZ=  6.5%  MO=  6.2%  PEP=  6.2%  CL= 10.2%  TGT=  4.8%  util=0.269680  Δ=-0.007742
+  TGT+4%  WMT= 18.1%  COST= 21.1%  PG= 10.4%  KO=  9.1%  PM=  7.4%  MDLZ=  6.5%  MO=  6.2%  PEP=  6.2%  CL=  5.8%  TGT=  9.2%  util=0.278829  Δ=+0.001407
+  ★ WINNER: Epoch 3  improvement=+0.007651
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.285073  feasible=10  step=0.0500  streak=4  T=0.0407]
+  WMT+5%  WMT= 23.1%  COST= 25.0%  PG=  9.9%  KO=  8.6%  PM=  6.8%  MDLZ=  6.0%  MO=  5.6%  PEP=  5.6%  CL=  5.2%  TGT=  4.2%  util=0.293455  Δ=+0.008382
+  COST+5%  WMT= 17.5%  COST= 30.5%  PG=  9.9%  KO=  8.6%  PM=  6.8%  MDLZ=  6.0%  MO=  5.6%  PEP=  5.6%  CL=  5.2%  TGT=  4.2%  util=0.293221  Δ=+0.008148
+  PG+5%  WMT= 17.5%  COST= 25.0%  PG= 15.4%  KO=  8.6%  PM=  6.8%  MDLZ=  6.0%  MO=  5.6%  PEP=  5.6%  CL=  5.2%  TGT=  4.2%  util=0.275777  Δ=-0.009296
+  KO+5%  WMT= 17.5%  COST= 25.0%  PG=  9.9%  KO= 14.1%  PM=  6.8%  MDLZ=  6.0%  MO=  5.6%  PEP=  5.6%  CL=  5.2%  TGT=  4.2%  util=0.280401  Δ=-0.004672
+  PM+5%  WMT= 17.5%  COST= 25.0%  PG=  9.9%  KO=  8.6%  PM= 12.4%  MDLZ=  6.0%  MO=  5.6%  PEP=  5.6%  CL=  5.2%  TGT=  4.2%  util=0.294516  Δ=+0.009443
+  MDLZ+5%  WMT= 17.5%  COST= 25.0%  PG=  9.9%  KO=  8.6%  PM=  6.8%  MDLZ= 11.5%  MO=  5.6%  PEP=  5.6%  CL=  5.2%  TGT=  4.2%  util=0.277853  Δ=-0.007220
+  MO+5%  WMT= 17.5%  COST= 25.0%  PG=  9.9%  KO=  8.6%  PM=  6.8%  MDLZ=  6.0%  MO= 11.2%  PEP=  5.6%  CL=  5.2%  TGT=  4.2%  util=0.288218  Δ=+0.003145
+  PEP+5%  WMT= 17.5%  COST= 25.0%  PG=  9.9%  KO=  8.6%  PM=  6.8%  MDLZ=  6.0%  MO=  5.6%  PEP= 11.2%  CL=  5.2%  TGT=  4.2%  util=0.278272  Δ=-0.006801
+  CL+5%  WMT= 17.5%  COST= 25.0%  PG=  9.9%  KO=  8.6%  PM=  6.8%  MDLZ=  6.0%  MO=  5.6%  PEP=  5.6%  CL= 10.8%  TGT=  4.2%  util=0.275439  Δ=-0.009634
+  TGT+5%  WMT= 17.5%  COST= 25.0%  PG=  9.9%  KO=  8.6%  PM=  6.8%  MDLZ=  6.0%  MO=  5.6%  PEP=  5.6%  CL=  5.2%  TGT=  9.8%  util=0.286593  Δ=+0.001520
+  ★ WINNER: Epoch 4  improvement=+0.009443
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.294516  feasible=10  step=0.0500  streak=5  T=0.0387]
+  WMT+5%  WMT= 22.5%  COST= 24.4%  PG=  9.3%  KO=  8.0%  PM= 11.8%  MDLZ=  5.4%  MO=  5.1%  PEP=  5.1%  CL=  4.7%  TGT=  3.7%  util=0.303314  Δ=+0.008797
+  COST+5%  WMT= 16.9%  COST= 30.0%  PG=  9.3%  KO=  8.0%  PM= 11.8%  MDLZ=  5.4%  MO=  5.1%  PEP=  5.1%  CL=  4.7%  TGT=  3.7%  util=0.303349  Δ=+0.008832
+  PG+5%  WMT= 16.9%  COST= 24.4%  PG= 14.9%  KO=  8.0%  PM= 11.8%  MDLZ=  5.4%  MO=  5.1%  PEP=  5.1%  CL=  4.7%  TGT=  3.7%  util=0.285457  Δ=-0.009059
+  KO+5%  WMT= 16.9%  COST= 24.4%  PG=  9.3%  KO= 13.6%  PM= 11.8%  MDLZ=  5.4%  MO=  5.1%  PEP=  5.1%  CL=  4.7%  TGT=  3.7%  util=0.289718  Δ=-0.004798
+  PM+5%  WMT= 16.9%  COST= 24.4%  PG=  9.3%  KO=  8.0%  PM= 17.4%  MDLZ=  5.4%  MO=  5.1%  PEP=  5.1%  CL=  4.7%  TGT=  3.7%  util=0.301457  Δ=+0.006941
+  MDLZ+5%  WMT= 16.9%  COST= 24.4%  PG=  9.3%  KO=  8.0%  PM= 11.8%  MDLZ= 11.0%  MO=  5.1%  PEP=  5.1%  CL=  4.7%  TGT=  3.7%  util=0.287286  Δ=-0.007230
+  MO+5%  WMT= 16.9%  COST= 24.4%  PG=  9.3%  KO=  8.0%  PM= 11.8%  MDLZ=  5.4%  MO= 10.6%  PEP=  5.1%  CL=  4.7%  TGT=  3.7%  util=0.297113  Δ=+0.002597
+  PEP+5%  WMT= 16.9%  COST= 24.4%  PG=  9.3%  KO=  8.0%  PM= 11.8%  MDLZ=  5.4%  MO=  5.1%  PEP= 10.6%  CL=  4.7%  TGT=  3.7%  util=0.288687  Δ=-0.005829
+  CL+5%  WMT= 16.9%  COST= 24.4%  PG=  9.3%  KO=  8.0%  PM= 11.8%  MDLZ=  5.4%  MO=  5.1%  PEP=  5.1%  CL= 10.2%  TGT=  3.7%  util=0.285199  Δ=-0.009317
+  TGT+5%  WMT= 16.9%  COST= 24.4%  PG=  9.3%  KO=  8.0%  PM= 11.8%  MDLZ=  5.4%  MO=  5.1%  PEP=  5.1%  CL=  4.7%  TGT=  9.2%  util=0.297164  Δ=+0.002648
+  ★ WINNER: Epoch 5  improvement=+0.008832
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.303349  feasible=10  step=0.0500  streak=6  T=0.0368]
+  WMT+5%  WMT= 21.9%  COST= 29.4%  PG=  8.8%  KO=  7.5%  PM= 11.3%  MDLZ=  4.9%  MO=  4.5%  PEP=  4.5%  CL=  4.1%  TGT=  3.1%  util=0.311731  Δ=+0.008382
+  COST+5%  WMT= 16.4%  COST= 35.0%  PG=  8.8%  KO=  7.5%  PM= 11.3%  MDLZ=  4.9%  MO=  4.5%  PEP=  4.5%  CL=  4.1%  TGT=  3.1%  util=0.310958  Δ=+0.007609
+  PG+5%  WMT= 16.4%  COST= 29.4%  PG= 14.3%  KO=  7.5%  PM= 11.3%  MDLZ=  4.9%  MO=  4.5%  PEP=  4.5%  CL=  4.1%  TGT=  3.1%  util=0.294251  Δ=-0.009098
+  KO+5%  WMT= 16.4%  COST= 29.4%  PG=  8.8%  KO= 13.0%  PM= 11.3%  MDLZ=  4.9%  MO=  4.5%  PEP=  4.5%  CL=  4.1%  TGT=  3.1%  util=0.298754  Δ=-0.004595
+  PM+5%  WMT= 16.4%  COST= 29.4%  PG=  8.8%  KO=  7.5%  PM= 16.8%  MDLZ=  4.9%  MO=  4.5%  PEP=  4.5%  CL=  4.1%  TGT=  3.1%  util=0.310764  Δ=+0.007416
+  MDLZ+5%  WMT= 16.4%  COST= 29.4%  PG=  8.8%  KO=  7.5%  PM= 11.3%  MDLZ= 10.4%  MO=  4.5%  PEP=  4.5%  CL=  4.1%  TGT=  3.1%  util=0.296229  Δ=-0.007119
+  MO+5%  WMT= 16.4%  COST= 29.4%  PG=  8.8%  KO=  7.5%  PM= 11.3%  MDLZ=  4.9%  MO= 10.1%  PEP=  4.5%  CL=  4.1%  TGT=  3.1%  util=0.306436  Δ=+0.003088
+  PEP+5%  WMT= 16.4%  COST= 29.4%  PG=  8.8%  KO=  7.5%  PM= 11.3%  MDLZ=  4.9%  MO=  4.5%  PEP= 10.1%  CL=  4.1%  TGT=  3.1%  util=0.297812  Δ=-0.005536
+  CL+5%  WMT= 16.4%  COST= 29.4%  PG=  8.8%  KO=  7.5%  PM= 11.3%  MDLZ=  4.9%  MO=  4.5%  PEP=  4.5%  CL=  9.7%  TGT=  3.1%  util=0.294182  Δ=-0.009166
+  TGT+5%  WMT= 16.4%  COST= 29.4%  PG=  8.8%  KO=  7.5%  PM= 11.3%  MDLZ=  4.9%  MO=  4.5%  PEP=  4.5%  CL=  4.1%  TGT=  8.7%  util=0.305913  Δ=+0.002564
+  ★ WINNER: Epoch 6  improvement=+0.008382
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=0.311731  feasible=10  step=0.0500  streak=7  T=0.0349]
+  WMT+5%  WMT= 26.9%  COST= 28.8%  PG=  8.2%  KO=  6.9%  PM= 10.7%  MDLZ=  4.3%  MO=  4.0%  PEP=  4.0%  CL=  3.5%  TGT=  2.6%  util=0.318930  Δ=+0.007199
+  COST+5%  WMT= 21.4%  COST= 34.4%  PG=  8.2%  KO=  6.9%  PM= 10.7%  MDLZ=  4.3%  MO=  4.0%  PEP=  4.0%  CL=  3.5%  TGT=  2.6%  util=0.318805  Δ=+0.007074
+  PG+5%  WMT= 21.4%  COST= 28.8%  PG= 13.8%  KO=  6.9%  PM= 10.7%  MDLZ=  4.3%  MO=  4.0%  PEP=  4.0%  CL=  3.5%  TGT=  2.6%  util=0.302618  Δ=-0.009113
+  KO+5%  WMT= 21.4%  COST= 28.8%  PG=  8.2%  KO= 12.5%  PM= 10.7%  MDLZ=  4.3%  MO=  4.0%  PEP=  4.0%  CL=  3.5%  TGT=  2.6%  util=0.307168  Δ=-0.004563
+  PM+5%  WMT= 21.4%  COST= 28.8%  PG=  8.2%  KO=  6.9%  PM= 16.3%  MDLZ=  4.3%  MO=  4.0%  PEP=  4.0%  CL=  3.5%  TGT=  2.6%  util=0.319622  Δ=+0.007891
+  MDLZ+5%  WMT= 21.4%  COST= 28.8%  PG=  8.2%  KO=  6.9%  PM= 10.7%  MDLZ=  9.9%  MO=  4.0%  PEP=  4.0%  CL=  3.5%  TGT=  2.6%  util=0.304879  Δ=-0.006852
+  MO+5%  WMT= 21.4%  COST= 28.8%  PG=  8.2%  KO=  6.9%  PM= 10.7%  MDLZ=  4.3%  MO=  9.5%  PEP=  4.0%  CL=  3.5%  TGT=  2.6%  util=0.315282  Δ=+0.003551
+  PEP+5%  WMT= 21.4%  COST= 28.8%  PG=  8.2%  KO=  6.9%  PM= 10.7%  MDLZ=  4.3%  MO=  4.0%  PEP=  9.5%  CL=  3.5%  TGT=  2.6%  util=0.306076  Δ=-0.005655
+  CL+5%  WMT= 21.4%  COST= 28.8%  PG=  8.2%  KO=  6.9%  PM= 10.7%  MDLZ=  4.3%  MO=  4.0%  PEP=  4.0%  CL=  9.1%  TGT=  2.6%  util=0.302827  Δ=-0.008904
+  TGT+5%  WMT= 21.4%  COST= 28.8%  PG=  8.2%  KO=  6.9%  PM= 10.7%  MDLZ=  4.3%  MO=  4.0%  PEP=  4.0%  CL=  3.5%  TGT=  8.1%  util=0.314150  Δ=+0.002419
+  ★ WINNER: Epoch 7  improvement=+0.007891
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=0.319622  feasible=10  step=0.0500  streak=8  T=0.0332]
+  WMT+5%  WMT= 26.4%  COST= 28.3%  PG=  7.7%  KO=  6.4%  PM= 15.7%  MDLZ=  3.8%  MO=  3.4%  PEP=  3.4%  CL=  3.0%  TGT=  2.0%  util=0.327376  Δ=+0.007754
+  COST+5%  WMT= 20.8%  COST= 33.8%  PG=  7.7%  KO=  6.4%  PM= 15.7%  MDLZ=  3.8%  MO=  3.4%  PEP=  3.4%  CL=  3.0%  TGT=  2.0%  util=0.327423  Δ=+0.007801
+  PG+5%  WMT= 20.8%  COST= 28.3%  PG= 13.2%  KO=  6.4%  PM= 15.7%  MDLZ=  3.8%  MO=  3.4%  PEP=  3.4%  CL=  3.0%  TGT=  2.0%  util=0.310823  Δ=-0.008798
+  KO+5%  WMT= 20.8%  COST= 28.3%  PG=  7.7%  KO= 11.9%  PM= 15.7%  MDLZ=  3.8%  MO=  3.4%  PEP=  3.4%  CL=  3.0%  TGT=  2.0%  util=0.314946  Δ=-0.004675
+  PM+5%  WMT= 20.8%  COST= 28.3%  PG=  7.7%  KO=  6.4%  PM= 21.3%  MDLZ=  3.8%  MO=  3.4%  PEP=  3.4%  CL=  3.0%  TGT=  2.0%  util=0.325555  Δ=+0.005934
+  MDLZ+5%  WMT= 20.8%  COST= 28.3%  PG=  7.7%  KO=  6.4%  PM= 15.7%  MDLZ=  9.3%  MO=  3.4%  PEP=  3.4%  CL=  3.0%  TGT=  2.0%  util=0.312597  Δ=-0.007025
+  MO+5%  WMT= 20.8%  COST= 28.3%  PG=  7.7%  KO=  6.4%  PM= 15.7%  MDLZ=  3.8%  MO=  9.0%  PEP=  3.4%  CL=  3.0%  TGT=  2.0%  util=0.323021  Δ=+0.003399
+  PEP+5%  WMT= 20.8%  COST= 28.3%  PG=  7.7%  KO=  6.4%  PM= 15.7%  MDLZ=  3.8%  MO=  3.4%  PEP=  9.0%  CL=  3.0%  TGT=  2.0%  util=0.314715  Δ=-0.004907
+  CL+5%  WMT= 20.8%  COST= 28.3%  PG=  7.7%  KO=  6.4%  PM= 15.7%  MDLZ=  3.8%  MO=  3.4%  PEP=  3.4%  CL=  8.5%  TGT=  2.0%  util=0.311213  Δ=-0.008409
+  TGT+5%  WMT= 20.8%  COST= 28.3%  PG=  7.7%  KO=  6.4%  PM= 15.7%  MDLZ=  3.8%  MO=  3.4%  PEP=  3.4%  CL=  3.0%  TGT=  7.6%  util=0.322772  Δ=+0.003150
+  ★ WINNER: Epoch 8  improvement=+0.007801
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=0.327423  feasible=10  step=0.0500  streak=9  T=0.0315]
+  WMT+5%  WMT= 25.8%  COST= 33.3%  PG=  7.1%  KO=  5.8%  PM= 15.2%  MDLZ=  3.2%  MO=  2.8%  PEP=  2.8%  CL=  2.4%  TGT=  1.5%  util=0.334650  Δ=+0.007227
+  COST+5%  WMT= 20.3%  COST= 38.8%  PG=  7.1%  KO=  5.8%  PM= 15.2%  MDLZ=  3.2%  MO=  2.8%  PEP=  2.8%  CL=  2.4%  TGT=  1.5%  util=0.333918  Δ=+0.006495
+  PG+5%  WMT= 20.3%  COST= 33.3%  PG= 12.7%  KO=  5.8%  PM= 15.2%  MDLZ=  3.2%  MO=  2.8%  PEP=  2.8%  CL=  2.4%  TGT=  1.5%  util=0.318620  Δ=-0.008803
+  KO+5%  WMT= 20.3%  COST= 33.3%  PG=  7.1%  KO= 11.4%  PM= 15.2%  MDLZ=  3.2%  MO=  2.8%  PEP=  2.8%  CL=  2.4%  TGT=  1.5%  util=0.322929  Δ=-0.004494
+  PM+5%  WMT= 20.3%  COST= 33.3%  PG=  7.1%  KO=  5.8%  PM= 20.7%  MDLZ=  3.2%  MO=  2.8%  PEP=  2.8%  CL=  2.4%  TGT=  1.5%  util=0.333451  Δ=+0.006028
+  MDLZ+5%  WMT= 20.3%  COST= 33.3%  PG=  7.1%  KO=  5.8%  PM= 15.2%  MDLZ=  8.8%  MO=  2.8%  PEP=  2.8%  CL=  2.4%  TGT=  1.5%  util=0.320531  Δ=-0.006892
+  MO+5%  WMT= 20.3%  COST= 33.3%  PG=  7.1%  KO=  5.8%  PM= 15.2%  MDLZ=  3.2%  MO=  8.4%  PEP=  2.8%  CL=  2.4%  TGT=  1.5%  util=0.331268  Δ=+0.003845
+  PEP+5%  WMT= 20.3%  COST= 33.3%  PG=  7.1%  KO=  5.8%  PM= 15.2%  MDLZ=  3.2%  MO=  2.8%  PEP=  8.4%  CL=  2.4%  TGT=  1.5%  util=0.322747  Δ=-0.004676
+  CL+5%  WMT= 20.3%  COST= 33.3%  PG=  7.1%  KO=  5.8%  PM= 15.2%  MDLZ=  3.2%  MO=  2.8%  PEP=  2.8%  CL=  8.0%  TGT=  1.5%  util=0.319168  Δ=-0.008255
+  TGT+5%  WMT= 20.3%  COST= 33.3%  PG=  7.1%  KO=  5.8%  PM= 15.2%  MDLZ=  3.2%  MO=  2.8%  PEP=  2.8%  CL=  2.4%  TGT=  7.0%  util=0.330484  Δ=+0.003061
+  ★ WINNER: Epoch 9  improvement=+0.007227
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=0.334650  feasible=10  step=0.0500  streak=10  T=0.0299]
+  WMT+5%  WMT= 30.8%  COST= 32.7%  PG=  6.5%  KO=  5.3%  PM= 14.6%  MDLZ=  2.7%  MO=  2.3%  PEP=  2.3%  CL=  1.9%  TGT=  0.9%  util=0.341032  Δ=+0.006382
+  COST+5%  WMT= 25.3%  COST= 38.3%  PG=  6.5%  KO=  5.3%  PM= 14.6%  MDLZ=  2.7%  MO=  2.3%  PEP=  2.3%  CL=  1.9%  TGT=  0.9%  util=0.340754  Δ=+0.006104
+  PG+5%  WMT= 25.3%  COST= 32.7%  PG= 12.1%  KO=  5.3%  PM= 14.6%  MDLZ=  2.7%  MO=  2.3%  PEP=  2.3%  CL=  1.9%  TGT=  0.9%  util=0.325929  Δ=-0.008722
+  KO+5%  WMT= 25.3%  COST= 32.7%  PG=  6.5%  KO= 10.8%  PM= 14.6%  MDLZ=  2.7%  MO=  2.3%  PEP=  2.3%  CL=  1.9%  TGT=  0.9%  util=0.330211  Δ=-0.004439
+  PM+5%  WMT= 25.3%  COST= 32.7%  PG=  6.5%  KO=  5.3%  PM= 20.2%  MDLZ=  2.7%  MO=  2.3%  PEP=  2.3%  CL=  1.9%  TGT=  0.9%  util=0.341088  Δ=+0.006438
+  MDLZ+5%  WMT= 25.3%  COST= 32.7%  PG=  6.5%  KO=  5.3%  PM= 14.6%  MDLZ=  8.2%  MO=  2.3%  PEP=  2.3%  CL=  1.9%  TGT=  0.9%  util=0.328070  Δ=-0.006580
+  MO+5%  WMT= 25.3%  COST= 32.7%  PG=  6.5%  KO=  5.3%  PM= 14.6%  MDLZ=  2.7%  MO=  7.8%  PEP=  2.3%  CL=  1.9%  TGT=  0.9%  util=0.338819  Δ=+0.004169
+  PEP+5%  WMT= 25.3%  COST= 32.7%  PG=  6.5%  KO=  5.3%  PM= 14.6%  MDLZ=  2.7%  MO=  2.3%  PEP=  7.8%  CL=  1.9%  TGT=  0.9%  util=0.329995  Δ=-0.004655
+  CL+5%  WMT= 25.3%  COST= 32.7%  PG=  6.5%  KO=  5.3%  PM= 14.6%  MDLZ=  2.7%  MO=  2.3%  PEP=  2.3%  CL=  7.4%  TGT=  0.9%  util=0.326550  Δ=-0.008100
+  TGT+5%  WMT= 25.3%  COST= 32.7%  PG=  6.5%  KO=  5.3%  PM= 14.6%  MDLZ=  2.7%  MO=  2.3%  PEP=  2.3%  CL=  1.9%  TGT=  6.5%  util=0.337818  Δ=+0.003168
+  ★ WINNER: Epoch 10  improvement=+0.006438
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=0.341088  feasible=10  step=0.0500  streak=11  T=0.0284]
+  WMT+5%  WMT= 30.3%  COST= 32.2%  PG=  6.0%  KO=  4.7%  PM= 19.6%  MDLZ=  2.1%  MO=  1.7%  PEP=  1.7%  CL=  1.3%  TGT=  0.4%  util=0.347940  Δ=+0.006852
+  COST+5%  WMT= 24.7%  COST= 37.7%  PG=  6.0%  KO=  4.7%  PM= 19.6%  MDLZ=  2.1%  MO=  1.7%  PEP=  1.7%  CL=  1.3%  TGT=  0.4%  util=0.347896  Δ=+0.006807
+  PG+5%  WMT= 24.7%  COST= 32.2%  PG= 11.5%  KO=  4.7%  PM= 19.6%  MDLZ=  2.1%  MO=  1.7%  PEP=  1.7%  CL=  1.3%  TGT=  0.4%  util=0.332624  Δ=-0.008464
+  KO+5%  WMT= 24.7%  COST= 32.2%  PG=  6.0%  KO= 10.3%  PM= 19.6%  MDLZ=  2.1%  MO=  1.7%  PEP=  1.7%  CL=  1.3%  TGT=  0.4%  util=0.336522  Δ=-0.004567
+  PM+5%  WMT= 24.7%  COST= 32.2%  PG=  6.0%  KO=  4.7%  PM= 25.2%  MDLZ=  2.1%  MO=  1.7%  PEP=  1.7%  CL=  1.3%  TGT=  0.4%  util=0.346084  Δ=+0.004996
+  MDLZ+5%  WMT= 24.7%  COST= 32.2%  PG=  6.0%  KO=  4.7%  PM= 19.6%  MDLZ=  7.6%  MO=  1.7%  PEP=  1.7%  CL=  1.3%  TGT=  0.4%  util=0.334587  Δ=-0.006502
+  MO+5%  WMT= 24.7%  COST= 32.2%  PG=  6.0%  KO=  4.7%  PM= 19.6%  MDLZ=  2.1%  MO=  7.3%  PEP=  1.7%  CL=  1.3%  TGT=  0.4%  util=0.345188  Δ=+0.004100
+  PEP+5%  WMT= 24.7%  COST= 32.2%  PG=  6.0%  KO=  4.7%  PM= 19.6%  MDLZ=  2.1%  MO=  1.7%  PEP=  7.3%  CL=  1.3%  TGT=  0.4%  util=0.337091  Δ=-0.003998
+  CL+5%  WMT= 24.7%  COST= 32.2%  PG=  6.0%  KO=  4.7%  PM= 19.6%  MDLZ=  2.1%  MO=  1.7%  PEP=  1.7%  CL=  6.9%  TGT=  0.4%  util=0.333351  Δ=-0.007737
+  TGT+5%  WMT= 24.7%  COST= 32.2%  PG=  6.0%  KO=  4.7%  PM= 19.6%  MDLZ=  2.1%  MO=  1.7%  PEP=  1.7%  CL=  1.3%  TGT=  5.9%  util=0.345042  Δ=+0.003954
+  ★ WINNER: Epoch 11  improvement=+0.006852
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=0.347940  feasible=1  step=0.0500  streak=12  T=0.0270]
+  TGT+5%  WMT= 29.7%  COST= 31.6%  PG=  5.4%  KO=  4.1%  PM= 19.1%  MDLZ=  1.5%  MO=  1.2%  PEP=  1.2%  CL=  0.8%  TGT=  5.4%  util=0.351945  Δ=+0.004004
+  ★ WINNER: Epoch 12  improvement=+0.004004
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=0.351945  feasible=10  step=0.0500  streak=13  T=0.0257]
+  WMT+5%  WMT= 34.7%  COST= 31.1%  PG=  4.9%  KO=  3.6%  PM= 18.5%  MDLZ=  1.0%  MO=  0.6%  PEP=  0.6%  CL=  0.2%  TGT=  4.8%  util=0.358163  Δ=+0.006218
+  COST+5%  WMT= 29.2%  COST= 36.6%  PG=  4.9%  KO=  3.6%  PM= 18.5%  MDLZ=  1.0%  MO=  0.6%  PEP=  0.6%  CL=  0.2%  TGT=  4.8%  util=0.358512  Δ=+0.006567
+  PG+5%  WMT= 29.2%  COST= 31.1%  PG= 10.4%  KO=  3.6%  PM= 18.5%  MDLZ=  1.0%  MO=  0.6%  PEP=  0.6%  CL=  0.2%  TGT=  4.8%  util=0.343919  Δ=-0.008026
+  KO+5%  WMT= 29.2%  COST= 31.1%  PG=  4.9%  KO=  9.1%  PM= 18.5%  MDLZ=  1.0%  MO=  0.6%  PEP=  0.6%  CL=  0.2%  TGT=  4.8%  util=0.347677  Δ=-0.004268
+  PM+5%  WMT= 29.2%  COST= 31.1%  PG=  4.9%  KO=  3.6%  PM= 24.1%  MDLZ=  1.0%  MO=  0.6%  PEP=  0.6%  CL=  0.2%  TGT=  4.8%  util=0.357591  Δ=+0.005646
+  MDLZ+5%  WMT= 29.2%  COST= 31.1%  PG=  4.9%  KO=  3.6%  PM= 18.5%  MDLZ=  6.5%  MO=  0.6%  PEP=  0.6%  CL=  0.2%  TGT=  4.8%  util=0.346068  Δ=-0.005877
+  MO+5%  WMT= 29.2%  COST= 31.1%  PG=  4.9%  KO=  3.6%  PM= 18.5%  MDLZ=  1.0%  MO=  6.2%  PEP=  0.6%  CL=  0.2%  TGT=  4.8%  util=0.356613  Δ=+0.004668
+  PEP+5%  WMT= 29.2%  COST= 31.1%  PG=  4.9%  KO=  3.6%  PM= 18.5%  MDLZ=  1.0%  MO=  0.6%  PEP=  6.2%  CL=  0.2%  TGT=  4.8%  util=0.348060  Δ=-0.003884
+  CL+5%  WMT= 29.2%  COST= 31.1%  PG=  4.9%  KO=  3.6%  PM= 18.5%  MDLZ=  1.0%  MO=  0.6%  PEP=  0.6%  CL=  5.8%  TGT=  4.8%  util=0.344400  Δ=-0.007544
+  TGT+5%  WMT= 29.2%  COST= 31.1%  PG=  4.9%  KO=  3.6%  PM= 18.5%  MDLZ=  1.0%  MO=  0.6%  PEP=  0.6%  CL=  0.2%  TGT= 10.4%  util=0.354250  Δ=+0.002305
+  ★ WINNER: Epoch 13  improvement=+0.006567
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=0.358512  feasible=1  step=0.0500  streak=14  T=0.0244]
+  CL+5%  WMT= 28.6%  COST= 36.1%  PG=  4.3%  KO=  3.0%  PM= 17.9%  MDLZ=  0.4%  MO=  0.1%  PEP=  0.1%  CL=  5.2%  TGT=  4.2%  util=0.350928  Δ=-0.007584
+  ~ ANNEALED: improvement=-0.007584  acceptProb=0.7327
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=0.350928  feasible=0  step=0.0100  streak=0  T=0.0232]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.350928  (gain=+0.086872  epochs=16)

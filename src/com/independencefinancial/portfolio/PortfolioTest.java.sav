@@ -1,0 +1,237 @@
+package com.bcfinancial.portfolio;
+
+import java.awt.Color;
+import java.text.SimpleDateFormat;
+
+import javax.swing.JPanel;
+
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+import org.jfree.data.xy.XYDataset;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
+import org.jfree.ui.ApplicationFrame;
+import org.jfree.ui.RectangleInsets;
+import org.jfree.ui.RefineryUtilities;
+import java.util.*;
+import com.bcfinancial.instruments.Equity;
+import com.bcfinancial.persistenceManager.PersistenceManagerImpl;
+
+public class PortfolioTest extends ApplicationFrame {
+    static boolean DEBUG = true;
+    static int analysis_year = 1998;
+    static int analysis_month = 2;
+    static int analysis_date = 3;
+    static int analysis_duration = 1;
+    static int analysis_interval = 90;
+    
+    public PortfolioTest(String title, double[] list) {
+        super(title);
+        ChartPanel chartPanel = (ChartPanel) createChartPanel(list);
+        chartPanel.setPreferredSize(new java.awt.Dimension(500, 270));
+        chartPanel.setMouseZoomable(true, false);
+        setContentPane(chartPanel);
+    }
+    private static JFreeChart createChart(XYDataset dataset) {
+
+        JFreeChart chart = 
+	    ChartFactory.createXYLineChart(
+		"Return distribution for portfolio analyzed "+analysis_year+"/"+analysis_month+"/"+analysis_date+" for "+analysis_duration+" years",
+		"Sorted returns for "+analysis_interval+" day periods",   // x-axis label
+		"Return",   // y-axis label
+		dataset,            // data
+		PlotOrientation.VERTICAL,               // orientation
+		true,               // include legand?
+		true,               // generate tooltips?
+		false               // generate URLs?
+		);
+
+        chart.setBackgroundPaint(Color.white);
+
+        XYPlot plot = (XYPlot) chart.getPlot();
+        plot.setBackgroundPaint(Color.lightGray);
+        plot.setDomainGridlinePaint(Color.white);
+        plot.setRangeGridlinePaint(Color.white);
+        plot.setAxisOffset(new RectangleInsets(5.0, 5.0, 5.0, 5.0));
+        plot.setDomainCrosshairVisible(true);
+        plot.setRangeCrosshairVisible(true);
+        
+        XYLineAndShapeRenderer r = (XYLineAndShapeRenderer)plot.getRenderer();
+        if (r instanceof XYLineAndShapeRenderer) {
+            XYLineAndShapeRenderer renderer = (XYLineAndShapeRenderer) r;
+            renderer.setBaseShapesVisible(false);
+
+        }
+        
+        NumberAxis axis = (NumberAxis) plot.getDomainAxis();
+        axis.setStandardTickUnits(NumberAxis.createIntegerTickUnits());
+        
+        return chart;
+
+    }
+
+    private static XYDataset createDataset(double[] list) {
+
+        XYSeries s1 = new XYSeries("Return");
+	
+	for (int i=0;i<list.length;i++) {
+	    s1.add(i,list[i]);
+	}
+
+        XYSeriesCollection dataset = new XYSeriesCollection();
+        dataset.addSeries(s1);
+
+        return dataset;
+
+    }
+    public static JPanel createChartPanel(double[] list) {
+        JFreeChart chart = createChart(createDataset(list));
+        return new ChartPanel(chart);
+    }
+    public static void main(String[] args) {
+
+	Hashtable env = new Hashtable();
+	ArrayList symbolsList = new ArrayList();
+	ArrayList weightsList = new ArrayList();
+	Portfolio portfolio = null;
+	GregorianCalendar startAnalysisDate = new GregorianCalendar(analysis_year,analysis_month,analysis_date);
+	GregorianCalendar endAnalysisDate = (GregorianCalendar)startAnalysisDate.clone();
+	endAnalysisDate.add(GregorianCalendar.YEAR, analysis_duration);
+
+
+	PersistenceManagerImpl epm = new PersistenceManagerImpl(Equity.class);
+
+
+	symbolsList.add("slasx");
+	symbolsList.add("mfocx");
+	symbolsList.add("ptrax");
+	//	symbolsList.add("ftbfx");
+	//	symbolsList.add("lmofx");
+	//	symbolsList.add("pavlx");
+	symbolsList.add("usglx");
+	symbolsList.add("jansx");
+	symbolsList.add("fdgfx");
+	symbolsList.add("oakmx");
+	symbolsList.add("ithax");
+	symbolsList.add("sblgx");
+	//	symbolsList.add("omsox");
+	symbolsList.add("phyax");
+	symbolsList.add("flpsx");
+	symbolsList.add("fagix");
+	//	symbolsList.add("pahix");
+	symbolsList.add("wbigx");
+	//	symbolsList.add("psfax");
+	symbolsList.add("fdivx");
+	//	symbolsList.add("fdvix");
+	symbolsList.add("fmilx");
+	symbolsList.add("fresx");
+	//	symbolsList.add("pcrrx");
+	//	symbolsList.add("miqbx");
+	//	symbolsList.add("civvx");
+
+
+	weightsList.add(new Double(.07));
+	weightsList.add(new Double(.065));
+	weightsList.add(new Double(.06));
+	//	weightsList.add(new Double(.055));
+	//	weightsList.add(new Double(.055));
+	//	weightsList.add(new Double(.05));
+	weightsList.add(new Double(.048));
+	weightsList.add(new Double(.045));
+	weightsList.add(new Double(.04));
+	weightsList.add(new Double(.04));
+	weightsList.add(new Double(.04));
+	weightsList.add(new Double(.04));
+	//	weightsList.add(new Double(.04));
+	weightsList.add(new Double(.035));
+	weightsList.add(new Double(.035));
+	weightsList.add(new Double(.035));
+	//	weightsList.add(new Double(.035));
+	weightsList.add(new Double(.03));
+	//	weightsList.add(new Double(.03));
+	weightsList.add(new Double(.03));
+	//	weightsList.add(new Double(.03));
+	weightsList.add(new Double(.022));
+	weightsList.add(new Double(.02));
+	//	weightsList.add(new Double(.02));
+	//	weightsList.add(new Double(.015));
+	//	weightsList.add(new Double(.015));
+
+
+	String[] symbols = new String[symbolsList.size()];
+	double weights[] = new double[weightsList.size()];
+
+	for (int i=0;i<symbols.length;i++) {
+	    symbols[i]=(String)symbolsList.get(i);
+	    weights[i]=((Double)weightsList.get(i)).doubleValue();
+	}
+
+	portfolio = new Portfolio(symbols,weights);
+
+	
+	double[] returnsList = portfolio.getSortedReturnDistribution(analysis_interval, startAnalysisDate.getTime(),endAnalysisDate.getTime());
+
+	double mean = 0.0;
+	double total = 0.0;
+	for (int k=0;k<returnsList.length;k++) {
+	    total+=returnsList[k];
+	}
+	mean = total / returnsList.length;
+	System.out.println("mean: "+mean);
+
+	int nn = (1 * returnsList.length)/100;
+	int nf = (5 * returnsList.length)/100;
+
+	System.out.println("VAR at 99%: "+returnsList[nn]);
+	System.out.println("VAR at 95%: "+returnsList[nf]);
+
+
+        PortfolioTest ptest = new PortfolioTest("Return Distribution",returnsList);
+        ptest.pack();
+        RefineryUtilities.centerFrameOnScreen(ptest);
+        ptest.setVisible(true);
+	
+    }
+
+
+
+    public static void debug(String s) {
+	if (DEBUG)
+	    System.out.println(s);
+    }
+
+}
+
+// This class sorts two numeric objects.
+class NumComparator implements Comparator {
+   public int compare( Object object1, Object object2 ) {
+      return ((Double) object1).compareTo( (Double) object2 );
+   }
+}
+
+/*
+class MeanMedianMode {
+    
+    public static Double mean(Collection c) {
+	c.sort();
+	return (Double) c.min();
+    }
+    
+    public static Double median(Collection c) {
+	c.sort();
+	return (Dopuble) c.min();
+    }
+
+    public static Double mode(Collection c) {
+	c.sort();
+	return (Double) c.min();
+    }
+}
+*/
+
+

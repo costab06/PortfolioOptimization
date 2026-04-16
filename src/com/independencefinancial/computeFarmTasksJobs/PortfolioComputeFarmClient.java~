@@ -1,0 +1,172 @@
+package com.bcfinancial.computeFarm;
+
+import java.util.*;
+import com.bcfinancial.instruments.*;
+import com.bcfinancial.portfolio.*;
+import com.bcfinancial.utility.*;
+
+import org.tiling.computefarm.JobRunner;
+import org.tiling.computefarm.JobRunnerFactory;
+import org.tiling.computefarm.impl.javaspaces.util.ClasspathServer;
+
+public class PortfolioComputeFarmClient {
+
+    static PortfolioCalculationRequest portfolioCalculationRequest; 
+    
+    final int analysis_end_year = 2006;
+    final int analysis_end_month = 9;
+    final int analysis_end_date = 15;
+    final int analysis_duration = 1;
+
+
+    volatile String name = "Portfolio";
+    volatile String symbols[] = null;
+    volatile double weights[] = null;
+    final int timePeriodDays = 90;
+    final double powerBase = -20;
+    final double logBase = 2;
+    volatile Date startDate;
+    volatile Date endDate;
+    Portfolio portfolio;
+    UtilityFunction utilityFunction;
+
+    
+    public static void main(String[] args) {
+	PortfolioComputeFarmClient portfolioComputeFarmClient = new PortfolioComputeFarmClient();
+	List portfolioCalculatedDataList = portfolioComputeFarmClient.getPortfolioInstances();
+	if (portfolioCalculatedDataList == null) {
+	    System.out.println("portfolioCalculatedDataList is null");
+	} else if (portfolioCalculatedDataList.size() == 0) {
+	    System.out.println("portfolioCalculatedDataList is empty");
+	} else {
+	    
+	    // walk the list and display the results
+
+	    for (int i=0;i< portfolioCalculatedDataList.size();i++) {
+		PortfolioCalculatedData pcd = (PortfolioCalculatedData) portfolioCalculatedDataList.get(i);
+		if (pcd != null) {
+		    System.out.println("title:" + pcd.getPortfolioCalculationRequest().getPortfolioName()+" weightedUtility: "+pcd.getWeightedUtility()+" CAGR: "+pcd.getAverageCAGR()+" 99VAR: "+pcd.get99VAR()+" 95VAR: "+pcd.get95VAR());
+		} else {
+		    System.out.println("portfolioCalculatedData from index "+i+" is null");
+		}
+	    }
+	}
+    }
+    
+    
+    public PortfolioComputeFarmClient() {
+	
+	ArrayList symbolsList = new ArrayList();
+	ArrayList weightsList = new ArrayList();
+
+	symbolsList.add("slasx");
+	symbolsList.add("mfocx");
+	symbolsList.add("ptrax");
+	symbolsList.add("ftbfx");
+	symbolsList.add("lmofx");
+	symbolsList.add("pavlx");
+	symbolsList.add("usglx");
+	symbolsList.add("jansx");
+	symbolsList.add("fdgfx");
+	symbolsList.add("oakmx");
+	symbolsList.add("ithax");
+	symbolsList.add("sblgx");
+	symbolsList.add("omsox");
+	symbolsList.add("phyax");
+	symbolsList.add("flpsx");
+	symbolsList.add("fagix");
+	symbolsList.add("pahix");
+	symbolsList.add("wbigx");
+	symbolsList.add("psfax");
+	symbolsList.add("fdivx");
+	symbolsList.add("fdvix");
+	symbolsList.add("fmilx");
+	symbolsList.add("fresx");
+	symbolsList.add("pcrrx");
+	symbolsList.add("miqbx");
+	symbolsList.add("civvx");
+	weightsList.add(new Double(.07));
+	weightsList.add(new Double(.065));
+	weightsList.add(new Double(.06));
+	weightsList.add(new Double(.055));
+	weightsList.add(new Double(.055));
+	weightsList.add(new Double(.05));
+	weightsList.add(new Double(.048));
+	weightsList.add(new Double(.045));
+	weightsList.add(new Double(.04));
+	weightsList.add(new Double(.04));
+	weightsList.add(new Double(.04));
+	weightsList.add(new Double(.04));
+	weightsList.add(new Double(.04));
+	weightsList.add(new Double(.035));
+	weightsList.add(new Double(.035));
+	weightsList.add(new Double(.035));
+	weightsList.add(new Double(.035));
+	weightsList.add(new Double(.03));
+	weightsList.add(new Double(.03));
+	weightsList.add(new Double(.03));
+	weightsList.add(new Double(.03));
+	weightsList.add(new Double(.022));
+	weightsList.add(new Double(.02));
+	weightsList.add(new Double(.02));
+	weightsList.add(new Double(.015));
+	weightsList.add(new Double(.015));
+
+
+	symbols = new String[symbolsList.size()];
+	weights = new double[weightsList.size()];
+
+	for (int i=0;i<symbols.length;i++) {
+	    symbols[i]=((String)symbolsList.get(i)).toUpperCase();
+	    weights[i]=((Double)weightsList.get(i)).doubleValue();
+	}
+	portfolio = new Portfolio(name,symbols,weights);
+
+
+	// set the end of the analysis period
+	GregorianCalendar analysisEndDate = new GregorianCalendar(analysis_end_year,analysis_end_month,analysis_end_date);
+	endDate = analysisEndDate.getTime(); // this converts it to a Date
+	
+	// set the beginning of the analysis period as the end minus the duration
+	GregorianCalendar analysisStartDate = (GregorianCalendar)analysisEndDate.clone();
+	analysisStartDate.add(GregorianCalendar.YEAR, -analysis_duration);
+	startDate = analysisStartDate.getTime(); // this converts to a Date
+	
+	
+	utilityFunction = new PowerLogUtilityFunction(powerBase,logBase);
+    }	
+    
+    
+    public  java.util.List getPortfolioInstances() {
+	java.util.List list;
+	
+	
+	
+	try {
+	    ClasspathServer server = new ClasspathServer();
+	    server.start();
+	} catch (Exception e) {
+	    System.err.println("Exception starting ClasspathServer: "+e);
+	    System.exit(1);
+	}
+	
+	    
+	    PortfolioOptimizeComputeFarmJob job = new PortfolioOptimizeComputeFarmJob(portfolio,startDate,endDate,timePeriodDays,utilityFunction);
+	    
+	JobRunnerFactory factory = JobRunnerFactory.newInstance();
+	JobRunner jobRunner = factory.newJobRunner(job);
+	jobRunner.run();
+	list =  job.getPortfolioCalculatedData();
+	return list;
+    }
+    
+
+
+    // This class sorts two numeric objects.
+    class NumComparator implements Comparator {
+	public int compare( Object object1, Object object2 ) {
+	    return ((Double) object1).compareTo( (Double) object2 );
+	}
+	
+    }
+}

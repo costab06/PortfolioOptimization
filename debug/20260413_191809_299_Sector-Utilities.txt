@@ -1,0 +1,166 @@
+=== OPTIMIZATION DEBUG: Sector-Utilities ===
+Time:   Mon Apr 13 19:26:24 EDT 2026
+Start:  NEE= 23.4%  SO= 12.8%  DUK= 12.3%  CEG= 10.4%  AEP=  8.8%  SRE=  7.7%  D=  6.5%  ETR=  6.3%  EXC=  6.0%  XEL=  5.8%
+        utility = 2.986745
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=2.986745  feasible=10  step=0.0100  streak=0  T=0.0500]
+  NEE+1%  NEE= 24.4%  SO= 12.7%  DUK= 12.2%  CEG= 10.3%  AEP=  8.7%  SRE=  7.6%  D=  6.4%  ETR=  6.2%  EXC=  5.9%  XEL=  5.7%  util=2.963606  Δ=-0.023139
+  SO+1%  NEE= 23.3%  SO= 13.8%  DUK= 12.2%  CEG= 10.3%  AEP=  8.7%  SRE=  7.6%  D=  6.4%  ETR=  6.2%  EXC=  5.9%  XEL=  5.7%  util=2.966958  Δ=-0.019788
+  DUK+1%  NEE= 23.3%  SO= 12.7%  DUK= 13.3%  CEG= 10.3%  AEP=  8.7%  SRE=  7.6%  D=  6.4%  ETR=  6.2%  EXC=  5.9%  XEL=  5.7%  util=2.963332  Δ=-0.023414
+  CEG+1%  NEE= 23.3%  SO= 12.7%  DUK= 12.2%  CEG= 11.4%  AEP=  8.7%  SRE=  7.6%  D=  6.4%  ETR=  6.2%  EXC=  5.9%  XEL=  5.7%  util=3.169690  Δ=+0.182945
+  AEP+1%  NEE= 23.3%  SO= 12.7%  DUK= 12.2%  CEG= 10.3%  AEP=  9.8%  SRE=  7.6%  D=  6.4%  ETR=  6.2%  EXC=  5.9%  XEL=  5.7%  util=2.965969  Δ=-0.020777
+  SRE+1%  NEE= 23.3%  SO= 12.7%  DUK= 12.2%  CEG= 10.3%  AEP=  8.7%  SRE=  8.7%  D=  6.4%  ETR=  6.2%  EXC=  5.9%  XEL=  5.7%  util=2.973692  Δ=-0.013054
+  D+1%  NEE= 23.3%  SO= 12.7%  DUK= 12.2%  CEG= 10.3%  AEP=  8.7%  SRE=  7.6%  D=  7.5%  ETR=  6.2%  EXC=  5.9%  XEL=  5.7%  util=2.950248  Δ=-0.036497
+  ETR+1%  NEE= 23.3%  SO= 12.7%  DUK= 12.2%  CEG= 10.3%  AEP=  8.7%  SRE=  7.6%  D=  6.4%  ETR=  7.3%  EXC=  5.9%  XEL=  5.7%  util=2.983014  Δ=-0.003731
+  EXC+1%  NEE= 23.3%  SO= 12.7%  DUK= 12.2%  CEG= 10.3%  AEP=  8.7%  SRE=  7.6%  D=  6.4%  ETR=  6.2%  EXC=  7.0%  XEL=  5.7%  util=2.962537  Δ=-0.024208
+  XEL+1%  NEE= 23.3%  SO= 12.7%  DUK= 12.2%  CEG= 10.3%  AEP=  8.7%  SRE=  7.6%  D=  6.4%  ETR=  6.2%  EXC=  5.9%  XEL=  6.8%  util=2.968051  Δ=-0.018694
+  ★ WINNER: Epoch 0  improvement=+0.182945
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=3.169690  feasible=10  step=0.0200  streak=1  T=0.0475]
+  NEE+2%  NEE= 25.3%  SO= 12.4%  DUK= 12.0%  CEG= 11.2%  AEP=  8.5%  SRE=  7.4%  D=  6.2%  ETR=  6.0%  EXC=  5.7%  XEL=  5.5%  util=3.121145  Δ=-0.048545
+  SO+2%  NEE= 23.0%  SO= 14.7%  DUK= 12.0%  CEG= 11.2%  AEP=  8.5%  SRE=  7.4%  D=  6.2%  ETR=  6.0%  EXC=  5.7%  XEL=  5.5%  util=3.129351  Δ=-0.040339
+  DUK+2%  NEE= 23.0%  SO= 12.4%  DUK= 14.2%  CEG= 11.2%  AEP=  8.5%  SRE=  7.4%  D=  6.2%  ETR=  6.0%  EXC=  5.7%  XEL=  5.5%  util=3.122164  Δ=-0.047526
+  CEG+2%  NEE= 23.0%  SO= 12.4%  DUK= 12.0%  CEG= 13.4%  AEP=  8.5%  SRE=  7.4%  D=  6.2%  ETR=  6.0%  EXC=  5.7%  XEL=  5.5%  util=3.539150  Δ=+0.369460
+  AEP+2%  NEE= 23.0%  SO= 12.4%  DUK= 12.0%  CEG= 11.2%  AEP= 10.7%  SRE=  7.4%  D=  6.2%  ETR=  6.0%  EXC=  5.7%  XEL=  5.5%  util=3.127488  Δ=-0.042202
+  SRE+2%  NEE= 23.0%  SO= 12.4%  DUK= 12.0%  CEG= 11.2%  AEP=  8.5%  SRE=  9.6%  D=  6.2%  ETR=  6.0%  EXC=  5.7%  XEL=  5.5%  util=3.143708  Δ=-0.025982
+  D+2%  NEE= 23.0%  SO= 12.4%  DUK= 12.0%  CEG= 11.2%  AEP=  8.5%  SRE=  7.4%  D=  8.4%  ETR=  6.0%  EXC=  5.7%  XEL=  5.5%  util=3.094914  Δ=-0.074776
+  ETR+2%  NEE= 23.0%  SO= 12.4%  DUK= 12.0%  CEG= 11.2%  AEP=  8.5%  SRE=  7.4%  D=  6.2%  ETR=  8.2%  EXC=  5.7%  XEL=  5.5%  util=3.163056  Δ=-0.006634
+  EXC+2%  NEE= 23.0%  SO= 12.4%  DUK= 12.0%  CEG= 11.2%  AEP=  8.5%  SRE=  7.4%  D=  6.2%  ETR=  6.0%  EXC=  7.9%  XEL=  5.5%  util=3.120303  Δ=-0.049387
+  XEL+2%  NEE= 23.0%  SO= 12.4%  DUK= 12.0%  CEG= 11.2%  AEP=  8.5%  SRE=  7.4%  D=  6.2%  ETR=  6.0%  EXC=  5.7%  XEL=  7.7%  util=3.132547  Δ=-0.037143
+  ★ WINNER: Epoch 1  improvement=+0.369460
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=3.539150  feasible=10  step=0.0300  streak=2  T=0.0451]
+  NEE+3%  NEE= 26.0%  SO= 12.1%  DUK= 11.6%  CEG= 13.0%  AEP=  8.1%  SRE=  7.1%  D=  5.8%  ETR=  5.6%  EXC=  5.3%  XEL=  5.2%  util=3.460079  Δ=-0.079072
+  SO+3%  NEE= 22.7%  SO= 15.4%  DUK= 11.6%  CEG= 13.0%  AEP=  8.1%  SRE=  7.1%  D=  5.8%  ETR=  5.6%  EXC=  5.3%  XEL=  5.2%  util=3.476750  Δ=-0.062400
+  DUK+3%  NEE= 22.7%  SO= 12.1%  DUK= 15.0%  CEG= 13.0%  AEP=  8.1%  SRE=  7.1%  D=  5.8%  ETR=  5.6%  EXC=  5.3%  XEL=  5.2%  util=3.466271  Δ=-0.072879
+  CEG+3%  NEE= 22.7%  SO= 12.1%  DUK= 11.6%  CEG= 16.4%  AEP=  8.1%  SRE=  7.1%  D=  5.8%  ETR=  5.6%  EXC=  5.3%  XEL=  5.2%  util=4.094136  Δ=+0.554986
+  AEP+3%  NEE= 22.7%  SO= 12.1%  DUK= 11.6%  CEG= 13.0%  AEP= 11.5%  SRE=  7.1%  D=  5.8%  ETR=  5.6%  EXC=  5.3%  XEL=  5.2%  util=3.474371  Δ=-0.064780
+  SRE+3%  NEE= 22.7%  SO= 12.1%  DUK= 11.6%  CEG= 13.0%  AEP=  8.1%  SRE= 10.4%  D=  5.8%  ETR=  5.6%  EXC=  5.3%  XEL=  5.2%  util=3.501559  Δ=-0.037591
+  D+3%  NEE= 22.7%  SO= 12.1%  DUK= 11.6%  CEG= 13.0%  AEP=  8.1%  SRE=  7.1%  D=  9.2%  ETR=  5.6%  EXC=  5.3%  XEL=  5.2%  util=3.422070  Δ=-0.117081
+  ETR+3%  NEE= 22.7%  SO= 12.1%  DUK= 11.6%  CEG= 13.0%  AEP=  8.1%  SRE=  7.1%  D=  5.8%  ETR=  9.0%  EXC=  5.3%  XEL=  5.2%  util=3.532949  Δ=-0.006201
+  EXC+3%  NEE= 22.7%  SO= 12.1%  DUK= 11.6%  CEG= 13.0%  AEP=  8.1%  SRE=  7.1%  D=  5.8%  ETR=  5.6%  EXC=  8.7%  XEL=  5.2%  util=3.462580  Δ=-0.076570
+  XEL+3%  NEE= 22.7%  SO= 12.1%  DUK= 11.6%  CEG= 13.0%  AEP=  8.1%  SRE=  7.1%  D=  5.8%  ETR=  5.6%  EXC=  5.3%  XEL=  8.5%  util=3.485396  Δ=-0.053754
+  ★ WINNER: Epoch 2  improvement=+0.554986
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=4.094136  feasible=10  step=0.0400  streak=3  T=0.0429]
+  NEE+4%  NEE= 26.7%  SO= 11.7%  DUK= 11.2%  CEG= 15.9%  AEP=  7.7%  SRE=  6.6%  D=  5.4%  ETR=  5.2%  EXC=  4.9%  XEL=  4.7%  util=3.977420  Δ=-0.116716
+  SO+4%  NEE= 22.3%  SO= 16.1%  DUK= 11.2%  CEG= 15.9%  AEP=  7.7%  SRE=  6.6%  D=  5.4%  ETR=  5.2%  EXC=  4.9%  XEL=  4.7%  util=4.008648  Δ=-0.085487
+  DUK+4%  NEE= 22.3%  SO= 11.7%  DUK= 15.6%  CEG= 15.9%  AEP=  7.7%  SRE=  6.6%  D=  5.4%  ETR=  5.2%  EXC=  4.9%  XEL=  4.7%  util=3.995538  Δ=-0.098598
+  CEG+4%  NEE= 22.3%  SO= 11.7%  DUK= 11.2%  CEG= 20.4%  AEP=  7.7%  SRE=  6.6%  D=  5.4%  ETR=  5.2%  EXC=  4.9%  XEL=  4.7%  util=4.820863  Δ=+0.726727
+  AEP+4%  NEE= 22.3%  SO= 11.7%  DUK= 11.2%  CEG= 15.9%  AEP= 12.1%  SRE=  6.6%  D=  5.4%  ETR=  5.2%  EXC=  4.9%  XEL=  4.7%  util=4.006160  Δ=-0.087976
+  SRE+4%  NEE= 22.3%  SO= 11.7%  DUK= 11.2%  CEG= 15.9%  AEP=  7.7%  SRE= 11.1%  D=  5.4%  ETR=  5.2%  EXC=  4.9%  XEL=  4.7%  util=4.048926  Δ=-0.045210
+  D+4%  NEE= 22.3%  SO= 11.7%  DUK= 11.2%  CEG= 15.9%  AEP=  7.7%  SRE=  6.6%  D=  9.8%  ETR=  5.2%  EXC=  4.9%  XEL=  4.7%  util=3.929740  Δ=-0.164396
+  ETR+4%  NEE= 22.3%  SO= 11.7%  DUK= 11.2%  CEG= 15.9%  AEP=  7.7%  SRE=  6.6%  D=  5.4%  ETR=  9.6%  EXC=  4.9%  XEL=  4.7%  util=4.094770  Δ=+0.000634
+  EXC+4%  NEE= 22.3%  SO= 11.7%  DUK= 11.2%  CEG= 15.9%  AEP=  7.7%  SRE=  6.6%  D=  5.4%  ETR=  5.2%  EXC=  9.3%  XEL=  4.7%  util=3.988183  Δ=-0.105953
+  XEL+4%  NEE= 22.3%  SO= 11.7%  DUK= 11.2%  CEG= 15.9%  AEP=  7.7%  SRE=  6.6%  D=  5.4%  ETR=  5.2%  EXC=  4.9%  XEL=  9.2%  util=4.028847  Δ=-0.065289
+  ★ WINNER: Epoch 3  improvement=+0.726727
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=4.820863  feasible=10  step=0.0500  streak=4  T=0.0407]
+  NEE+5%  NEE= 27.3%  SO= 11.1%  DUK= 10.6%  CEG= 19.8%  AEP=  7.1%  SRE=  6.1%  D=  4.8%  ETR=  4.6%  EXC=  4.3%  XEL=  4.2%  util=4.656371  Δ=-0.164492
+  SO+5%  NEE= 21.7%  SO= 16.7%  DUK= 10.6%  CEG= 19.8%  AEP=  7.1%  SRE=  6.1%  D=  4.8%  ETR=  4.6%  EXC=  4.3%  XEL=  4.2%  util=4.710981  Δ=-0.109882
+  DUK+5%  NEE= 21.7%  SO= 11.1%  DUK= 16.2%  CEG= 19.8%  AEP=  7.1%  SRE=  6.1%  D=  4.8%  ETR=  4.6%  EXC=  4.3%  XEL=  4.2%  util=4.697447  Δ=-0.123416
+  CEG+5%  NEE= 21.7%  SO= 11.1%  DUK= 10.6%  CEG= 25.4%  AEP=  7.1%  SRE=  6.1%  D=  4.8%  ETR=  4.6%  EXC=  4.3%  XEL=  4.2%  util=5.693228  Δ=+0.872365
+  AEP+5%  NEE= 21.7%  SO= 11.1%  DUK= 10.6%  CEG= 19.8%  AEP= 12.7%  SRE=  6.1%  D=  4.8%  ETR=  4.6%  EXC=  4.3%  XEL=  4.2%  util=4.710035  Δ=-0.110828
+  SRE+5%  NEE= 21.7%  SO= 11.1%  DUK= 10.6%  CEG= 19.8%  AEP=  7.1%  SRE= 11.6%  D=  4.8%  ETR=  4.6%  EXC=  4.3%  XEL=  4.2%  util=4.770378  Δ=-0.050485
+  D+5%  NEE= 21.7%  SO= 11.1%  DUK= 10.6%  CEG= 19.8%  AEP=  7.1%  SRE=  6.1%  D= 10.4%  ETR=  4.6%  EXC=  4.3%  XEL=  4.2%  util=4.604312  Δ=-0.216551
+  ETR+5%  NEE= 21.7%  SO= 11.1%  DUK= 10.6%  CEG= 19.8%  AEP=  7.1%  SRE=  6.1%  D=  4.8%  ETR= 10.2%  EXC=  4.3%  XEL=  4.2%  util=4.839772  Δ=+0.018909
+  EXC+5%  NEE= 21.7%  SO= 11.1%  DUK= 10.6%  CEG= 19.8%  AEP=  7.1%  SRE=  6.1%  D=  4.8%  ETR=  4.6%  EXC=  9.9%  XEL=  4.2%  util=4.685048  Δ=-0.135814
+  XEL+5%  NEE= 21.7%  SO= 11.1%  DUK= 10.6%  CEG= 19.8%  AEP=  7.1%  SRE=  6.1%  D=  4.8%  ETR=  4.6%  EXC=  4.3%  XEL=  9.7%  util=4.751931  Δ=-0.068932
+  ★ WINNER: Epoch 4  improvement=+0.872365
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=5.693228  feasible=10  step=0.0500  streak=5  T=0.0387]
+  NEE+5%  NEE= 26.7%  SO= 10.5%  DUK= 10.1%  CEG= 24.8%  AEP=  6.6%  SRE=  5.5%  D=  4.3%  ETR=  4.1%  EXC=  3.8%  XEL=  3.6%  util=5.509330  Δ=-0.183897
+  SO+5%  NEE= 21.2%  SO= 16.1%  DUK= 10.1%  CEG= 24.8%  AEP=  6.6%  SRE=  5.5%  D=  4.3%  ETR=  4.1%  EXC=  3.8%  XEL=  3.6%  util=5.584048  Δ=-0.109180
+  DUK+5%  NEE= 21.2%  SO= 10.5%  DUK= 15.6%  CEG= 24.8%  AEP=  6.6%  SRE=  5.5%  D=  4.3%  ETR=  4.1%  EXC=  3.8%  XEL=  3.6%  util=5.574729  Δ=-0.118499
+  CEG+5%  NEE= 21.2%  SO= 10.5%  DUK= 10.1%  CEG= 30.4%  AEP=  6.6%  SRE=  5.5%  D=  4.3%  ETR=  4.1%  EXC=  3.8%  XEL=  3.6%  util=6.498594  Δ=+0.805366
+  AEP+5%  NEE= 21.2%  SO= 10.5%  DUK= 10.1%  CEG= 24.8%  AEP= 12.1%  SRE=  5.5%  D=  4.3%  ETR=  4.1%  EXC=  3.8%  XEL=  3.6%  util=5.585759  Δ=-0.107468
+  SRE+5%  NEE= 21.2%  SO= 10.5%  DUK= 10.1%  CEG= 24.8%  AEP=  6.6%  SRE= 11.1%  D=  4.3%  ETR=  4.1%  EXC=  3.8%  XEL=  3.6%  util=5.653265  Δ=-0.039962
+  D+5%  NEE= 21.2%  SO= 10.5%  DUK= 10.1%  CEG= 24.8%  AEP=  6.6%  SRE=  5.5%  D=  9.8%  ETR=  4.1%  EXC=  3.8%  XEL=  3.6%  util=5.467486  Δ=-0.225742
+  ETR+5%  NEE= 21.2%  SO= 10.5%  DUK= 10.1%  CEG= 24.8%  AEP=  6.6%  SRE=  5.5%  D=  4.3%  ETR=  9.6%  EXC=  3.8%  XEL=  3.6%  util=5.738290  Δ=+0.045062
+  EXC+5%  NEE= 21.2%  SO= 10.5%  DUK= 10.1%  CEG= 24.8%  AEP=  6.6%  SRE=  5.5%  D=  4.3%  ETR=  4.1%  EXC=  9.3%  XEL=  3.6%  util=5.559065  Δ=-0.134163
+  XEL+5%  NEE= 21.2%  SO= 10.5%  DUK= 10.1%  CEG= 24.8%  AEP=  6.6%  SRE=  5.5%  D=  4.3%  ETR=  4.1%  EXC=  3.8%  XEL=  9.2%  util=5.644076  Δ=-0.049152
+  ★ WINNER: Epoch 5  improvement=+0.805366
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=6.498594  feasible=10  step=0.0500  streak=6  T=0.0368]
+  NEE+5%  NEE= 26.2%  SO= 10.0%  DUK=  9.5%  CEG= 29.8%  AEP=  6.0%  SRE=  5.0%  D=  3.7%  ETR=  3.5%  EXC=  3.2%  XEL=  3.0%  util=6.295886  Δ=-0.202707
+  SO+5%  NEE= 20.6%  SO= 15.5%  DUK=  9.5%  CEG= 29.8%  AEP=  6.0%  SRE=  5.0%  D=  3.7%  ETR=  3.5%  EXC=  3.2%  XEL=  3.0%  util=6.390916  Δ=-0.107678
+  DUK+5%  NEE= 20.6%  SO= 10.0%  DUK= 15.1%  CEG= 29.8%  AEP=  6.0%  SRE=  5.0%  D=  3.7%  ETR=  3.5%  EXC=  3.2%  XEL=  3.0%  util=6.385817  Δ=-0.112776
+  CEG+5%  NEE= 20.6%  SO= 10.0%  DUK=  9.5%  CEG= 35.4%  AEP=  6.0%  SRE=  5.0%  D=  3.7%  ETR=  3.5%  EXC=  3.2%  XEL=  3.0%  util=7.209955  Δ=+0.711362
+  AEP+5%  NEE= 20.6%  SO= 10.0%  DUK=  9.5%  CEG= 29.8%  AEP= 11.6%  SRE=  5.0%  D=  3.7%  ETR=  3.5%  EXC=  3.2%  XEL=  3.0%  util=6.397497  Δ=-0.101097
+  SRE+5%  NEE= 20.6%  SO= 10.0%  DUK=  9.5%  CEG= 29.8%  AEP=  6.0%  SRE= 10.5%  D=  3.7%  ETR=  3.5%  EXC=  3.2%  XEL=  3.0%  util=6.463237  Δ=-0.035357
+  D+5%  NEE= 20.6%  SO= 10.0%  DUK=  9.5%  CEG= 29.8%  AEP=  6.0%  SRE=  5.0%  D=  9.3%  ETR=  3.5%  EXC=  3.2%  XEL=  3.0%  util=6.268977  Δ=-0.229617
+  ETR+5%  NEE= 20.6%  SO= 10.0%  DUK=  9.5%  CEG= 29.8%  AEP=  6.0%  SRE=  5.0%  D=  3.7%  ETR=  9.1%  EXC=  3.2%  XEL=  3.0%  util=6.576484  Δ=+0.077890
+  EXC+5%  NEE= 20.6%  SO= 10.0%  DUK=  9.5%  CEG= 29.8%  AEP=  6.0%  SRE=  5.0%  D=  3.7%  ETR=  3.5%  EXC=  8.8%  XEL=  3.0%  util=6.369336  Δ=-0.129258
+  XEL+5%  NEE= 20.6%  SO= 10.0%  DUK=  9.5%  CEG= 29.8%  AEP=  6.0%  SRE=  5.0%  D=  3.7%  ETR=  3.5%  EXC=  3.2%  XEL=  8.6%  util=6.469110  Δ=-0.029484
+  ★ WINNER: Epoch 6  improvement=+0.711362
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=7.209955  feasible=10  step=0.0500  streak=7  T=0.0349]
+  NEE+5%  NEE= 25.6%  SO=  9.4%  DUK=  9.0%  CEG= 34.8%  AEP=  5.5%  SRE=  4.4%  D=  3.2%  ETR=  3.0%  EXC=  2.7%  XEL=  2.5%  util=6.992759  Δ=-0.217196
+  SO+5%  NEE= 20.0%  SO= 15.0%  DUK=  9.0%  CEG= 34.8%  AEP=  5.5%  SRE=  4.4%  D=  3.2%  ETR=  3.0%  EXC=  2.7%  XEL=  2.5%  util=7.115032  Δ=-0.094923
+  DUK+5%  NEE= 20.0%  SO=  9.4%  DUK= 14.5%  CEG= 34.8%  AEP=  5.5%  SRE=  4.4%  D=  3.2%  ETR=  3.0%  EXC=  2.7%  XEL=  2.5%  util=7.113271  Δ=-0.096684
+  CEG+5%  NEE= 20.0%  SO=  9.4%  DUK=  9.0%  CEG= 40.4%  AEP=  5.5%  SRE=  4.4%  D=  3.2%  ETR=  3.0%  EXC=  2.7%  XEL=  2.5%  util=7.810840  Δ=+0.600885
+  AEP+5%  NEE= 20.0%  SO=  9.4%  DUK=  9.0%  CEG= 34.8%  AEP= 11.0%  SRE=  4.4%  D=  3.2%  ETR=  3.0%  EXC=  2.7%  XEL=  2.5%  util=7.121999  Δ=-0.087956
+  SRE+5%  NEE= 20.0%  SO=  9.4%  DUK=  9.0%  CEG= 34.8%  AEP=  5.5%  SRE= 10.0%  D=  3.2%  ETR=  3.0%  EXC=  2.7%  XEL=  2.5%  util=7.172574  Δ=-0.037381
+  D+5%  NEE= 20.0%  SO=  9.4%  DUK=  9.0%  CEG= 34.8%  AEP=  5.5%  SRE=  4.4%  D=  8.7%  ETR=  3.0%  EXC=  2.7%  XEL=  2.5%  util=6.979761  Δ=-0.230194
+  ETR+5%  NEE= 20.0%  SO=  9.4%  DUK=  9.0%  CEG= 34.8%  AEP=  5.5%  SRE=  4.4%  D=  3.2%  ETR=  8.5%  EXC=  2.7%  XEL=  2.5%  util=7.320313  Δ=+0.110358
+  EXC+5%  NEE= 20.0%  SO=  9.4%  DUK=  9.0%  CEG= 34.8%  AEP=  5.5%  SRE=  4.4%  D=  3.2%  ETR=  3.0%  EXC=  8.2%  XEL=  2.5%  util=7.094359  Δ=-0.115597
+  XEL+5%  NEE= 20.0%  SO=  9.4%  DUK=  9.0%  CEG= 34.8%  AEP=  5.5%  SRE=  4.4%  D=  3.2%  ETR=  3.0%  EXC=  2.7%  XEL=  8.0%  util=7.205514  Δ=-0.004442
+  ★ WINNER: Epoch 7  improvement=+0.600885
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=7.810840  feasible=10  step=0.0500  streak=8  T=0.0332]
+  NEE+5%  NEE= 25.0%  SO=  8.9%  DUK=  8.4%  CEG= 39.8%  AEP=  4.9%  SRE=  3.9%  D=  2.6%  ETR=  2.4%  EXC=  2.1%  XEL=  1.9%  util=7.581780  Δ=-0.229060
+  SO+5%  NEE= 19.5%  SO= 14.4%  DUK=  8.4%  CEG= 39.8%  AEP=  4.9%  SRE=  3.9%  D=  2.6%  ETR=  2.4%  EXC=  2.1%  XEL=  1.9%  util=7.726747  Δ=-0.084093
+  DUK+5%  NEE= 19.5%  SO=  8.9%  DUK= 14.0%  CEG= 39.8%  AEP=  4.9%  SRE=  3.9%  D=  2.6%  ETR=  2.4%  EXC=  2.1%  XEL=  1.9%  util=7.730961  Δ=-0.079879
+  CEG+5%  NEE= 19.5%  SO=  8.9%  DUK=  8.4%  CEG= 45.4%  AEP=  4.9%  SRE=  3.9%  D=  2.6%  ETR=  2.4%  EXC=  2.1%  XEL=  1.9%  util=8.283591  Δ=+0.472752
+  AEP+5%  NEE= 19.5%  SO=  8.9%  DUK=  8.4%  CEG= 39.8%  AEP= 10.5%  SRE=  3.9%  D=  2.6%  ETR=  2.4%  EXC=  2.1%  XEL=  1.9%  util=7.736898  Δ=-0.073942
+  SRE+5%  NEE= 19.5%  SO=  8.9%  DUK=  8.4%  CEG= 39.8%  AEP=  4.9%  SRE=  9.4%  D=  2.6%  ETR=  2.4%  EXC=  2.1%  XEL=  1.9%  util=7.766696  Δ=-0.044144
+  D+5%  NEE= 19.5%  SO=  8.9%  DUK=  8.4%  CEG= 39.8%  AEP=  4.9%  SRE=  3.9%  D=  8.2%  ETR=  2.4%  EXC=  2.1%  XEL=  1.9%  util=7.580359  Δ=-0.230481
+  ETR+5%  NEE= 19.5%  SO=  8.9%  DUK=  8.4%  CEG= 39.8%  AEP=  4.9%  SRE=  3.9%  D=  2.6%  ETR=  8.0%  EXC=  2.1%  XEL=  1.9%  util=7.951244  Δ=+0.140404
+  EXC+5%  NEE= 19.5%  SO=  8.9%  DUK=  8.4%  CEG= 39.8%  AEP=  4.9%  SRE=  3.9%  D=  2.6%  ETR=  2.4%  EXC=  7.7%  XEL=  1.9%  util=7.714580  Δ=-0.096260
+  XEL+5%  NEE= 19.5%  SO=  8.9%  DUK=  8.4%  CEG= 39.8%  AEP=  4.9%  SRE=  3.9%  D=  2.6%  ETR=  2.4%  EXC=  2.1%  XEL=  7.5%  util=7.829101  Δ=+0.018261
+  ★ WINNER: Epoch 8  improvement=+0.472752
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=8.283591  feasible=10  step=0.0500  streak=9  T=0.0315]
+  NEE+5%  NEE= 24.5%  SO=  8.3%  DUK=  7.8%  CEG= 44.8%  AEP=  4.4%  SRE=  3.3%  D=  2.1%  ETR=  1.9%  EXC=  1.6%  XEL=  1.4%  util=8.051262  Δ=-0.232330
+  SO+5%  NEE= 18.9%  SO= 13.9%  DUK=  7.8%  CEG= 44.8%  AEP=  4.4%  SRE=  3.3%  D=  2.1%  ETR=  1.9%  EXC=  1.6%  XEL=  1.4%  util=8.217642  Δ=-0.065949
+  DUK+5%  NEE= 18.9%  SO=  8.3%  DUK= 13.4%  CEG= 44.8%  AEP=  4.4%  SRE=  3.3%  D=  2.1%  ETR=  1.9%  EXC=  1.6%  XEL=  1.4%  util=8.226483  Δ=-0.057108
+  CEG+5%  NEE= 18.9%  SO=  8.3%  DUK=  7.8%  CEG= 50.4%  AEP=  4.4%  SRE=  3.3%  D=  2.1%  ETR=  1.9%  EXC=  1.6%  XEL=  1.4%  util=8.618122  Δ=+0.334531
+  AEP+5%  NEE= 18.9%  SO=  8.3%  DUK=  7.8%  CEG= 44.8%  AEP=  9.9%  SRE=  3.3%  D=  2.1%  ETR=  1.9%  EXC=  1.6%  XEL=  1.4%  util=8.227511  Δ=-0.056080
+  SRE+5%  NEE= 18.9%  SO=  8.3%  DUK=  7.8%  CEG= 44.8%  AEP=  4.4%  SRE=  8.9%  D=  2.1%  ETR=  1.9%  EXC=  1.6%  XEL=  1.4%  util=8.232647  Δ=-0.050945
+  D+5%  NEE= 18.9%  SO=  8.3%  DUK=  7.8%  CEG= 44.8%  AEP=  4.4%  SRE=  3.3%  D=  7.6%  ETR=  1.9%  EXC=  1.6%  XEL=  1.4%  util=8.059985  Δ=-0.223606
+  ETR+5%  NEE= 18.9%  SO=  8.3%  DUK=  7.8%  CEG= 44.8%  AEP=  4.4%  SRE=  3.3%  D=  2.1%  ETR=  7.4%  EXC=  1.6%  XEL=  1.4%  util=8.453895  Δ=+0.170303
+  EXC+5%  NEE= 18.9%  SO=  8.3%  DUK=  7.8%  CEG= 44.8%  AEP=  4.4%  SRE=  3.3%  D=  2.1%  ETR=  1.9%  EXC=  7.1%  XEL=  1.4%  util=8.208167  Δ=-0.075424
+  XEL+5%  NEE= 18.9%  SO=  8.3%  DUK=  7.8%  CEG= 44.8%  AEP=  4.4%  SRE=  3.3%  D=  2.1%  ETR=  1.9%  EXC=  1.6%  XEL=  6.9%  util=8.324851  Δ=+0.041260
+  ★ WINNER: Epoch 9  improvement=+0.334531
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=8.618122  feasible=10  step=0.0500  streak=10  T=0.0299]
+  NEE+5%  NEE= 23.9%  SO=  7.8%  DUK=  7.3%  CEG= 49.8%  AEP=  3.8%  SRE=  2.7%  D=  1.5%  ETR=  1.3%  EXC=  1.0%  XEL=  0.8%  util=8.394089  Δ=-0.224034
+  SO+5%  NEE= 18.4%  SO= 13.3%  DUK=  7.3%  CEG= 49.8%  AEP=  3.8%  SRE=  2.7%  D=  1.5%  ETR=  1.3%  EXC=  1.0%  XEL=  0.8%  util=8.569158  Δ=-0.048964
+  DUK+5%  NEE= 18.4%  SO=  7.8%  DUK= 12.8%  CEG= 49.8%  AEP=  3.8%  SRE=  2.7%  D=  1.5%  ETR=  1.3%  EXC=  1.0%  XEL=  0.8%  util=8.579124  Δ=-0.038998
+  CEG+5%  NEE= 18.4%  SO=  7.8%  DUK=  7.3%  CEG= 55.4%  AEP=  3.8%  SRE=  2.7%  D=  1.5%  ETR=  1.3%  EXC=  1.0%  XEL=  0.8%  util=8.822105  Δ=+0.203982
+  AEP+5%  NEE= 18.4%  SO=  7.8%  DUK=  7.3%  CEG= 49.8%  AEP=  9.4%  SRE=  2.7%  D=  1.5%  ETR=  1.3%  EXC=  1.0%  XEL=  0.8%  util=8.581092  Δ=-0.037030
+  SRE+5%  NEE= 18.4%  SO=  7.8%  DUK=  7.3%  CEG= 49.8%  AEP=  3.8%  SRE=  8.3%  D=  1.5%  ETR=  1.3%  EXC=  1.0%  XEL=  0.8%  util=8.557816  Δ=-0.060306
+  D+5%  NEE= 18.4%  SO=  7.8%  DUK=  7.3%  CEG= 49.8%  AEP=  3.8%  SRE=  2.7%  D=  7.1%  ETR=  1.3%  EXC=  1.0%  XEL=  0.8%  util=8.409054  Δ=-0.209068
+  ETR+5%  NEE= 18.4%  SO=  7.8%  DUK=  7.3%  CEG= 49.8%  AEP=  3.8%  SRE=  2.7%  D=  1.5%  ETR=  6.9%  EXC=  1.0%  XEL=  0.8%  util=8.812722  Δ=+0.194599
+  EXC+5%  NEE= 18.4%  SO=  7.8%  DUK=  7.3%  CEG= 49.8%  AEP=  3.8%  SRE=  2.7%  D=  1.5%  ETR=  1.3%  EXC=  6.6%  XEL=  0.8%  util=8.562545  Δ=-0.055577
+  XEL+5%  NEE= 18.4%  SO=  7.8%  DUK=  7.3%  CEG= 49.8%  AEP=  3.8%  SRE=  2.7%  D=  1.5%  ETR=  1.3%  EXC=  1.0%  XEL=  6.4%  util=8.681073  Δ=+0.062951
+  ★ WINNER: Epoch 10  improvement=+0.203982
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=8.822105  feasible=10  step=0.0500  streak=11  T=0.0284]
+  NEE+5%  NEE= 23.4%  SO=  7.2%  DUK=  6.7%  CEG= 54.8%  AEP=  3.3%  SRE=  2.2%  D=  0.9%  ETR=  0.8%  EXC=  0.5%  XEL=  0.3%  util=8.613557  Δ=-0.208547
+  SO+5%  NEE= 17.8%  SO= 12.8%  DUK=  6.7%  CEG= 54.8%  AEP=  3.3%  SRE=  2.2%  D=  0.9%  ETR=  0.8%  EXC=  0.5%  XEL=  0.3%  util=8.791642  Δ=-0.030463
+  DUK+5%  NEE= 17.8%  SO=  7.2%  DUK= 12.3%  CEG= 54.8%  AEP=  3.3%  SRE=  2.2%  D=  0.9%  ETR=  0.8%  EXC=  0.5%  XEL=  0.3%  util=8.803985  Δ=-0.018120
+  CEG+5%  NEE= 17.8%  SO=  7.2%  DUK=  6.7%  CEG= 60.4%  AEP=  3.3%  SRE=  2.2%  D=  0.9%  ETR=  0.8%  EXC=  0.5%  XEL=  0.3%  util=8.918754  Δ=+0.096649
+  AEP+5%  NEE= 17.8%  SO=  7.2%  DUK=  6.7%  CEG= 54.8%  AEP=  8.8%  SRE=  2.2%  D=  0.9%  ETR=  0.8%  EXC=  0.5%  XEL=  0.3%  util=8.806237  Δ=-0.015867
+  SRE+5%  NEE= 17.8%  SO=  7.2%  DUK=  6.7%  CEG= 54.8%  AEP=  3.3%  SRE=  7.7%  D=  0.9%  ETR=  0.8%  EXC=  0.5%  XEL=  0.3%  util=8.755055  Δ=-0.067050
+  D+5%  NEE= 17.8%  SO=  7.2%  DUK=  6.7%  CEG= 54.8%  AEP=  3.3%  SRE=  2.2%  D=  6.5%  ETR=  0.8%  EXC=  0.5%  XEL=  0.3%  util=8.627493  Δ=-0.194612
+  ETR+5%  NEE= 17.8%  SO=  7.2%  DUK=  6.7%  CEG= 54.8%  AEP=  3.3%  SRE=  2.2%  D=  0.9%  ETR=  6.3%  EXC=  0.5%  XEL=  0.3%  util=9.036451  Δ=+0.214346
+  EXC+5%  NEE= 17.8%  SO=  7.2%  DUK=  6.7%  CEG= 54.8%  AEP=  3.3%  SRE=  2.2%  D=  0.9%  ETR=  0.8%  EXC=  6.0%  XEL=  0.3%  util=8.786175  Δ=-0.035930
+  XEL+5%  NEE= 17.8%  SO=  7.2%  DUK=  6.7%  CEG= 54.8%  AEP=  3.3%  SRE=  2.2%  D=  0.9%  ETR=  0.8%  EXC=  0.5%  XEL=  5.8%  util=8.900118  Δ=+0.078013
+  ★ WINNER: Epoch 11  improvement=+0.214346
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=9.036451  feasible=0  step=0.0500  streak=12  T=0.0270]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=9.036451  (gain=+6.049706  epochs=13)

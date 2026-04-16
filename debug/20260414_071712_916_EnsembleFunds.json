@@ -1,0 +1,4685 @@
+{
+  "portfolioName" : "EnsembleFunds",
+  "symbols" : [ "FUND-CommServices", "FUND-ConsumerDisc", "FUND-ConsumerStap", "FUND-Energy", "FUND-Financials", "FUND-HealthCare", "FUND-Industrials", "FUND-Materials", "FUND-RealEstate", "FUND-Technology", "FUND-Utilities" ],
+  "startWeights" : {
+    "FUND-CommServices" : 0.090909,
+    "FUND-ConsumerDisc" : 0.090909,
+    "FUND-ConsumerStap" : 0.090909,
+    "FUND-Energy" : 0.090909,
+    "FUND-Financials" : 0.090909,
+    "FUND-HealthCare" : 0.090909,
+    "FUND-Industrials" : 0.090909,
+    "FUND-Materials" : 0.090909,
+    "FUND-RealEstate" : 0.090909,
+    "FUND-Technology" : 0.090909,
+    "FUND-Utilities" : 0.090909
+  },
+  "optimizeBy" : "utility",
+  "initialUtility" : 1.0680240795597054,
+  "epochs" : [ {
+    "epoch" : 0,
+    "startWeights" : {
+      "FUND-CommServices" : 0.090909,
+      "FUND-ConsumerDisc" : 0.090909,
+      "FUND-ConsumerStap" : 0.090909,
+      "FUND-Energy" : 0.090909,
+      "FUND-Financials" : 0.090909,
+      "FUND-HealthCare" : 0.090909,
+      "FUND-Industrials" : 0.090909,
+      "FUND-Materials" : 0.090909,
+      "FUND-RealEstate" : 0.090909,
+      "FUND-Technology" : 0.090909,
+      "FUND-Utilities" : 0.090909
+    },
+    "startUtility" : 1.0680240795597054,
+    "optimizeBy" : "utility",
+    "step" : 0.01,
+    "epochStreak" : 0,
+    "temperature" : 0.05,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.100909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.102069083556945,
+      "sharpe" : 2.733883319492197,
+      "score" : 1.102069083556945,
+      "delta" : 0.03404500399723975
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.100909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.0652417896893422,
+      "sharpe" : 2.7873208697795118,
+      "score" : 1.0652417896893422,
+      "delta" : -0.0027822898703631083
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.100909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.0622785679305384,
+      "sharpe" : 2.7908263830985125,
+      "score" : 1.0622785679305384,
+      "delta" : -0.005745511629166922
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.100909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.060324702211055,
+      "sharpe" : 2.780973717840607,
+      "score" : 1.060324702211055,
+      "delta" : -0.007699377348650449
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.100909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.061631862002754,
+      "sharpe" : 2.78083187944529,
+      "score" : 1.061631862002754,
+      "delta" : -0.006392217556951296
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.100909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.0621117457138356,
+      "sharpe" : 2.7924754305133783,
+      "score" : 1.0621117457138356,
+      "delta" : -0.005912333845869755
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.100909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.0703006397395285,
+      "sharpe" : 2.799675375147854,
+      "score" : 1.0703006397395285,
+      "delta" : 0.0022765601798231394
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.100909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.0630637943469707,
+      "sharpe" : 2.787896683476364,
+      "score" : 1.0630637943469707,
+      "delta" : -0.004960285212734616
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.100909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.0628059377278665,
+      "sharpe" : 2.7910578452326735,
+      "score" : 1.0628059377278665,
+      "delta" : -0.005218141831838885
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.100909,
+        "FUND-Utilities" : 0.089909
+      },
+      "utility" : 1.071712073066136,
+      "sharpe" : 2.800390622094753,
+      "score" : 1.071712073066136,
+      "delta" : 0.0036879935064306757
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.089909,
+        "FUND-ConsumerDisc" : 0.089909,
+        "FUND-ConsumerStap" : 0.089909,
+        "FUND-Energy" : 0.089909,
+        "FUND-Financials" : 0.089909,
+        "FUND-HealthCare" : 0.089909,
+        "FUND-Industrials" : 0.089909,
+        "FUND-Materials" : 0.089909,
+        "FUND-RealEstate" : 0.089909,
+        "FUND-Technology" : 0.089909,
+        "FUND-Utilities" : 0.100909
+      },
+      "utility" : 1.0663668564941218,
+      "sharpe" : 2.7847110599595184,
+      "score" : 1.0663668564941218,
+      "delta" : -0.0016572230655835796
+    } ],
+    "winner" : "Epoch 0",
+    "endWeights" : {
+      "FUND-CommServices" : 0.100909,
+      "FUND-ConsumerDisc" : 0.089909,
+      "FUND-ConsumerStap" : 0.089909,
+      "FUND-Energy" : 0.089909,
+      "FUND-Financials" : 0.089909,
+      "FUND-HealthCare" : 0.089909,
+      "FUND-Industrials" : 0.089909,
+      "FUND-Materials" : 0.089909,
+      "FUND-RealEstate" : 0.089909,
+      "FUND-Technology" : 0.089909,
+      "FUND-Utilities" : 0.089909
+    },
+    "endUtility" : 1.102069083556945,
+    "improvement" : 0.03404500399723975
+  }, {
+    "epoch" : 1,
+    "startWeights" : {
+      "FUND-CommServices" : 0.100909,
+      "FUND-ConsumerDisc" : 0.089909,
+      "FUND-ConsumerStap" : 0.089909,
+      "FUND-Energy" : 0.089909,
+      "FUND-Financials" : 0.089909,
+      "FUND-HealthCare" : 0.089909,
+      "FUND-Industrials" : 0.089909,
+      "FUND-Materials" : 0.089909,
+      "FUND-RealEstate" : 0.089909,
+      "FUND-Technology" : 0.089909,
+      "FUND-Utilities" : 0.089909
+    },
+    "startUtility" : 1.102069083556945,
+    "optimizeBy" : "utility",
+    "step" : 0.02,
+    "epochStreak" : 1,
+    "temperature" : 0.0475,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.120909,
+        "FUND-ConsumerDisc" : 0.087909,
+        "FUND-ConsumerStap" : 0.087909,
+        "FUND-Energy" : 0.087909,
+        "FUND-Financials" : 0.087909,
+        "FUND-HealthCare" : 0.087909,
+        "FUND-Industrials" : 0.087909,
+        "FUND-Materials" : 0.087909,
+        "FUND-RealEstate" : 0.087909,
+        "FUND-Technology" : 0.087909,
+        "FUND-Utilities" : 0.087909
+      },
+      "utility" : 1.1691149821797429,
+      "sharpe" : 2.646634893143695,
+      "score" : 1.1691149821797429,
+      "delta" : 0.06704589862279775
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.109909,
+        "FUND-ConsumerStap" : 0.087933,
+        "FUND-Energy" : 0.087933,
+        "FUND-Financials" : 0.087933,
+        "FUND-HealthCare" : 0.087933,
+        "FUND-Industrials" : 0.087933,
+        "FUND-Materials" : 0.087933,
+        "FUND-RealEstate" : 0.087933,
+        "FUND-Technology" : 0.087933,
+        "FUND-Utilities" : 0.087933
+      },
+      "utility" : 1.0957990297514744,
+      "sharpe" : 2.739639564972475,
+      "score" : 1.0957990297514744,
+      "delta" : -0.006270053805470743
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.087933,
+        "FUND-ConsumerStap" : 0.109909,
+        "FUND-Energy" : 0.087933,
+        "FUND-Financials" : 0.087933,
+        "FUND-HealthCare" : 0.087933,
+        "FUND-Industrials" : 0.087933,
+        "FUND-Materials" : 0.087933,
+        "FUND-RealEstate" : 0.087933,
+        "FUND-Technology" : 0.087933,
+        "FUND-Utilities" : 0.087933
+      },
+      "utility" : 1.0899161597682039,
+      "sharpe" : 2.746000660278275,
+      "score" : 1.0899161597682039,
+      "delta" : -0.012152923788741221
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.087933,
+        "FUND-ConsumerStap" : 0.087933,
+        "FUND-Energy" : 0.109909,
+        "FUND-Financials" : 0.087933,
+        "FUND-HealthCare" : 0.087933,
+        "FUND-Industrials" : 0.087933,
+        "FUND-Materials" : 0.087933,
+        "FUND-RealEstate" : 0.087933,
+        "FUND-Technology" : 0.087933,
+        "FUND-Utilities" : 0.087933
+      },
+      "utility" : 1.0860016578303329,
+      "sharpe" : 2.726906118349272,
+      "score" : 1.0860016578303329,
+      "delta" : -0.01606742572661224
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.087933,
+        "FUND-ConsumerStap" : 0.087933,
+        "FUND-Energy" : 0.087933,
+        "FUND-Financials" : 0.109909,
+        "FUND-HealthCare" : 0.087933,
+        "FUND-Industrials" : 0.087933,
+        "FUND-Materials" : 0.087933,
+        "FUND-RealEstate" : 0.087933,
+        "FUND-Technology" : 0.087933,
+        "FUND-Utilities" : 0.087933
+      },
+      "utility" : 1.088616534479597,
+      "sharpe" : 2.726987149404079,
+      "score" : 1.088616534479597,
+      "delta" : -0.013452549077348053
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.087933,
+        "FUND-ConsumerStap" : 0.087933,
+        "FUND-Energy" : 0.087933,
+        "FUND-Financials" : 0.087933,
+        "FUND-HealthCare" : 0.109909,
+        "FUND-Industrials" : 0.087933,
+        "FUND-Materials" : 0.087933,
+        "FUND-RealEstate" : 0.087933,
+        "FUND-Technology" : 0.087933,
+        "FUND-Utilities" : 0.087933
+      },
+      "utility" : 1.0895686464032899,
+      "sharpe" : 2.74869738707683,
+      "score" : 1.0895686464032899,
+      "delta" : -0.01250043715365523
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.087933,
+        "FUND-ConsumerStap" : 0.087933,
+        "FUND-Energy" : 0.087933,
+        "FUND-Financials" : 0.087933,
+        "FUND-HealthCare" : 0.087933,
+        "FUND-Industrials" : 0.109909,
+        "FUND-Materials" : 0.087933,
+        "FUND-RealEstate" : 0.087933,
+        "FUND-Technology" : 0.087933,
+        "FUND-Utilities" : 0.087933
+      },
+      "utility" : 1.1059181365180373,
+      "sharpe" : 2.763852667436947,
+      "score" : 1.1059181365180373,
+      "delta" : 0.0038490529610921698
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.087933,
+        "FUND-ConsumerStap" : 0.087933,
+        "FUND-Energy" : 0.087933,
+        "FUND-Financials" : 0.087933,
+        "FUND-HealthCare" : 0.087933,
+        "FUND-Industrials" : 0.087933,
+        "FUND-Materials" : 0.109909,
+        "FUND-RealEstate" : 0.087933,
+        "FUND-Technology" : 0.087933,
+        "FUND-Utilities" : 0.087933
+      },
+      "utility" : 1.091452393464685,
+      "sharpe" : 2.740040241376779,
+      "score" : 1.091452393464685,
+      "delta" : -0.010616690092260184
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.087933,
+        "FUND-ConsumerStap" : 0.087933,
+        "FUND-Energy" : 0.087933,
+        "FUND-Financials" : 0.087933,
+        "FUND-HealthCare" : 0.087933,
+        "FUND-Industrials" : 0.087933,
+        "FUND-Materials" : 0.087933,
+        "FUND-RealEstate" : 0.109909,
+        "FUND-Technology" : 0.087933,
+        "FUND-Utilities" : 0.087933
+      },
+      "utility" : 1.0909641038560176,
+      "sharpe" : 2.7465174118482705,
+      "score" : 1.0909641038560176,
+      "delta" : -0.011104979700927498
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.087933,
+        "FUND-ConsumerStap" : 0.087933,
+        "FUND-Energy" : 0.087933,
+        "FUND-Financials" : 0.087933,
+        "FUND-HealthCare" : 0.087933,
+        "FUND-Industrials" : 0.087933,
+        "FUND-Materials" : 0.087933,
+        "FUND-RealEstate" : 0.087933,
+        "FUND-Technology" : 0.109909,
+        "FUND-Utilities" : 0.087933
+      },
+      "utility" : 1.1087410768590884,
+      "sharpe" : 2.7653969183033182,
+      "score" : 1.1087410768590884,
+      "delta" : 0.0066719933021432976
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.098692,
+        "FUND-ConsumerDisc" : 0.087933,
+        "FUND-ConsumerStap" : 0.087933,
+        "FUND-Energy" : 0.087933,
+        "FUND-Financials" : 0.087933,
+        "FUND-HealthCare" : 0.087933,
+        "FUND-Industrials" : 0.087933,
+        "FUND-Materials" : 0.087933,
+        "FUND-RealEstate" : 0.087933,
+        "FUND-Technology" : 0.087933,
+        "FUND-Utilities" : 0.109909
+      },
+      "utility" : 1.0980744527607758,
+      "sharpe" : 2.7348536172468765,
+      "score" : 1.0980744527607758,
+      "delta" : -0.003994630796169352
+    } ],
+    "winner" : "Epoch 1",
+    "endWeights" : {
+      "FUND-CommServices" : 0.120909,
+      "FUND-ConsumerDisc" : 0.087909,
+      "FUND-ConsumerStap" : 0.087909,
+      "FUND-Energy" : 0.087909,
+      "FUND-Financials" : 0.087909,
+      "FUND-HealthCare" : 0.087909,
+      "FUND-Industrials" : 0.087909,
+      "FUND-Materials" : 0.087909,
+      "FUND-RealEstate" : 0.087909,
+      "FUND-Technology" : 0.087909,
+      "FUND-Utilities" : 0.087909
+    },
+    "endUtility" : 1.1691149821797429,
+    "improvement" : 0.06704589862279775
+  }, {
+    "epoch" : 2,
+    "startWeights" : {
+      "FUND-CommServices" : 0.120909,
+      "FUND-ConsumerDisc" : 0.087909,
+      "FUND-ConsumerStap" : 0.087909,
+      "FUND-Energy" : 0.087909,
+      "FUND-Financials" : 0.087909,
+      "FUND-HealthCare" : 0.087909,
+      "FUND-Industrials" : 0.087909,
+      "FUND-Materials" : 0.087909,
+      "FUND-RealEstate" : 0.087909,
+      "FUND-Technology" : 0.087909,
+      "FUND-Utilities" : 0.087909
+    },
+    "startUtility" : 1.1691149821797429,
+    "optimizeBy" : "utility",
+    "step" : 0.03,
+    "epochStreak" : 2,
+    "temperature" : 0.045125,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.150909,
+        "FUND-ConsumerDisc" : 0.084909,
+        "FUND-ConsumerStap" : 0.084909,
+        "FUND-Energy" : 0.084909,
+        "FUND-Financials" : 0.084909,
+        "FUND-HealthCare" : 0.084909,
+        "FUND-Industrials" : 0.084909,
+        "FUND-Materials" : 0.084909,
+        "FUND-RealEstate" : 0.084909,
+        "FUND-Technology" : 0.084909,
+        "FUND-Utilities" : 0.084909
+      },
+      "utility" : 1.267470276352223,
+      "sharpe" : 2.541489521530674,
+      "score" : 1.267470276352223,
+      "delta" : 0.09835529417248012
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.117909,
+        "FUND-ConsumerStap" : 0.085018,
+        "FUND-Energy" : 0.085018,
+        "FUND-Financials" : 0.085018,
+        "FUND-HealthCare" : 0.085018,
+        "FUND-Industrials" : 0.085018,
+        "FUND-Materials" : 0.085018,
+        "FUND-RealEstate" : 0.085018,
+        "FUND-Technology" : 0.085018,
+        "FUND-Utilities" : 0.085018
+      },
+      "utility" : 1.1577017474746103,
+      "sharpe" : 2.656052263458508,
+      "score" : 1.1577017474746103,
+      "delta" : -0.011413234705132558
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.085018,
+        "FUND-ConsumerStap" : 0.117909,
+        "FUND-Energy" : 0.085018,
+        "FUND-Financials" : 0.085018,
+        "FUND-HealthCare" : 0.085018,
+        "FUND-Industrials" : 0.085018,
+        "FUND-Materials" : 0.085018,
+        "FUND-RealEstate" : 0.085018,
+        "FUND-Technology" : 0.085018,
+        "FUND-Utilities" : 0.085018
+      },
+      "utility" : 1.1489653533728956,
+      "sharpe" : 2.663319455590534,
+      "score" : 1.1489653533728956,
+      "delta" : -0.02014962880684723
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.085018,
+        "FUND-ConsumerStap" : 0.085018,
+        "FUND-Energy" : 0.117909,
+        "FUND-Financials" : 0.085018,
+        "FUND-HealthCare" : 0.085018,
+        "FUND-Industrials" : 0.085018,
+        "FUND-Materials" : 0.085018,
+        "FUND-RealEstate" : 0.085018,
+        "FUND-Technology" : 0.085018,
+        "FUND-Utilities" : 0.085018
+      },
+      "utility" : 1.1430800943829043,
+      "sharpe" : 2.636557408335821,
+      "score" : 1.1430800943829043,
+      "delta" : -0.0260348877968386
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.085018,
+        "FUND-ConsumerStap" : 0.085018,
+        "FUND-Energy" : 0.085018,
+        "FUND-Financials" : 0.117909,
+        "FUND-HealthCare" : 0.085018,
+        "FUND-Industrials" : 0.085018,
+        "FUND-Materials" : 0.085018,
+        "FUND-RealEstate" : 0.085018,
+        "FUND-Technology" : 0.085018,
+        "FUND-Utilities" : 0.085018
+      },
+      "utility" : 1.1469852931597686,
+      "sharpe" : 2.6372018330684357,
+      "score" : 1.1469852931597686,
+      "delta" : -0.022129689019974252
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.085018,
+        "FUND-ConsumerStap" : 0.085018,
+        "FUND-Energy" : 0.085018,
+        "FUND-Financials" : 0.085018,
+        "FUND-HealthCare" : 0.117909,
+        "FUND-Industrials" : 0.085018,
+        "FUND-Materials" : 0.085018,
+        "FUND-RealEstate" : 0.085018,
+        "FUND-Technology" : 0.085018,
+        "FUND-Utilities" : 0.085018
+      },
+      "utility" : 1.148402938005449,
+      "sharpe" : 2.666218921347714,
+      "score" : 1.148402938005449,
+      "delta" : -0.020712044174293842
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.085018,
+        "FUND-ConsumerStap" : 0.085018,
+        "FUND-Energy" : 0.085018,
+        "FUND-Financials" : 0.085018,
+        "FUND-HealthCare" : 0.085018,
+        "FUND-Industrials" : 0.117909,
+        "FUND-Materials" : 0.085018,
+        "FUND-RealEstate" : 0.085018,
+        "FUND-Technology" : 0.085018,
+        "FUND-Utilities" : 0.085018
+      },
+      "utility" : 1.172848471429292,
+      "sharpe" : 2.6904856875592453,
+      "score" : 1.172848471429292,
+      "delta" : 0.0037334892495490823
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.085018,
+        "FUND-ConsumerStap" : 0.085018,
+        "FUND-Energy" : 0.085018,
+        "FUND-Financials" : 0.085018,
+        "FUND-HealthCare" : 0.085018,
+        "FUND-Industrials" : 0.085018,
+        "FUND-Materials" : 0.117909,
+        "FUND-RealEstate" : 0.085018,
+        "FUND-Technology" : 0.085018,
+        "FUND-Utilities" : 0.085018
+      },
+      "utility" : 1.1511749402124993,
+      "sharpe" : 2.6543475509100256,
+      "score" : 1.1511749402124993,
+      "delta" : -0.017940041967243525
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.085018,
+        "FUND-ConsumerStap" : 0.085018,
+        "FUND-Energy" : 0.085018,
+        "FUND-Financials" : 0.085018,
+        "FUND-HealthCare" : 0.085018,
+        "FUND-Industrials" : 0.085018,
+        "FUND-Materials" : 0.085018,
+        "FUND-RealEstate" : 0.117909,
+        "FUND-Technology" : 0.085018,
+        "FUND-Utilities" : 0.085018
+      },
+      "utility" : 1.1505136322372318,
+      "sharpe" : 2.6642628785039233,
+      "score" : 1.1505136322372318,
+      "delta" : -0.01860134994251106
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.085018,
+        "FUND-ConsumerStap" : 0.085018,
+        "FUND-Energy" : 0.085018,
+        "FUND-Financials" : 0.085018,
+        "FUND-HealthCare" : 0.085018,
+        "FUND-Industrials" : 0.085018,
+        "FUND-Materials" : 0.085018,
+        "FUND-RealEstate" : 0.085018,
+        "FUND-Technology" : 0.117909,
+        "FUND-Utilities" : 0.085018
+      },
+      "utility" : 1.177066962837673,
+      "sharpe" : 2.6934579525826323,
+      "score" : 1.177066962837673,
+      "delta" : 0.007951980657930235
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.116932,
+        "FUND-ConsumerDisc" : 0.085018,
+        "FUND-ConsumerStap" : 0.085018,
+        "FUND-Energy" : 0.085018,
+        "FUND-Financials" : 0.085018,
+        "FUND-HealthCare" : 0.085018,
+        "FUND-Industrials" : 0.085018,
+        "FUND-Materials" : 0.085018,
+        "FUND-RealEstate" : 0.085018,
+        "FUND-Technology" : 0.085018,
+        "FUND-Utilities" : 0.117909
+      },
+      "utility" : 1.1611168542286425,
+      "sharpe" : 2.6496889700855695,
+      "score" : 1.1611168542286425,
+      "delta" : -0.007998127951100331
+    } ],
+    "winner" : "Epoch 2",
+    "endWeights" : {
+      "FUND-CommServices" : 0.150909,
+      "FUND-ConsumerDisc" : 0.084909,
+      "FUND-ConsumerStap" : 0.084909,
+      "FUND-Energy" : 0.084909,
+      "FUND-Financials" : 0.084909,
+      "FUND-HealthCare" : 0.084909,
+      "FUND-Industrials" : 0.084909,
+      "FUND-Materials" : 0.084909,
+      "FUND-RealEstate" : 0.084909,
+      "FUND-Technology" : 0.084909,
+      "FUND-Utilities" : 0.084909
+    },
+    "endUtility" : 1.267470276352223,
+    "improvement" : 0.09835529417248012
+  }, {
+    "epoch" : 3,
+    "startWeights" : {
+      "FUND-CommServices" : 0.150909,
+      "FUND-ConsumerDisc" : 0.084909,
+      "FUND-ConsumerStap" : 0.084909,
+      "FUND-Energy" : 0.084909,
+      "FUND-Financials" : 0.084909,
+      "FUND-HealthCare" : 0.084909,
+      "FUND-Industrials" : 0.084909,
+      "FUND-Materials" : 0.084909,
+      "FUND-RealEstate" : 0.084909,
+      "FUND-Technology" : 0.084909,
+      "FUND-Utilities" : 0.084909
+    },
+    "startUtility" : 1.267470276352223,
+    "optimizeBy" : "utility",
+    "step" : 0.04,
+    "epochStreak" : 3,
+    "temperature" : 0.04286875,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.190909,
+        "FUND-ConsumerDisc" : 0.080909,
+        "FUND-ConsumerStap" : 0.080909,
+        "FUND-Energy" : 0.080909,
+        "FUND-Financials" : 0.080909,
+        "FUND-HealthCare" : 0.080909,
+        "FUND-Industrials" : 0.080909,
+        "FUND-Materials" : 0.080909,
+        "FUND-RealEstate" : 0.080909,
+        "FUND-Technology" : 0.080909,
+        "FUND-Utilities" : 0.080909
+      },
+      "utility" : 1.3952432779758135,
+      "sharpe" : 2.433008905754856,
+      "score" : 1.3952432779758135,
+      "delta" : 0.1277730016235905
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.124909,
+        "FUND-ConsumerStap" : 0.081198,
+        "FUND-Energy" : 0.081198,
+        "FUND-Financials" : 0.081198,
+        "FUND-HealthCare" : 0.081198,
+        "FUND-Industrials" : 0.081198,
+        "FUND-Materials" : 0.081198,
+        "FUND-RealEstate" : 0.081198,
+        "FUND-Technology" : 0.081198,
+        "FUND-Utilities" : 0.081198
+      },
+      "utility" : 1.2484202542260494,
+      "sharpe" : 2.555250709039806,
+      "score" : 1.2484202542260494,
+      "delta" : -0.01905002212617357
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.081198,
+        "FUND-ConsumerStap" : 0.124909,
+        "FUND-Energy" : 0.081198,
+        "FUND-Financials" : 0.081198,
+        "FUND-HealthCare" : 0.081198,
+        "FUND-Industrials" : 0.081198,
+        "FUND-Materials" : 0.081198,
+        "FUND-RealEstate" : 0.081198,
+        "FUND-Technology" : 0.081198,
+        "FUND-Utilities" : 0.081198
+      },
+      "utility" : 1.2368815372315647,
+      "sharpe" : 2.5614978760422003,
+      "score" : 1.2368815372315647,
+      "delta" : -0.030588739120658293
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.081198,
+        "FUND-ConsumerStap" : 0.081198,
+        "FUND-Energy" : 0.124909,
+        "FUND-Financials" : 0.081198,
+        "FUND-HealthCare" : 0.081198,
+        "FUND-Industrials" : 0.081198,
+        "FUND-Materials" : 0.081198,
+        "FUND-RealEstate" : 0.081198,
+        "FUND-Technology" : 0.081198,
+        "FUND-Utilities" : 0.081198
+      },
+      "utility" : 1.2290229201181502,
+      "sharpe" : 2.5289254832716144,
+      "score" : 1.2290229201181502,
+      "delta" : -0.038447356234072805
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.081198,
+        "FUND-ConsumerStap" : 0.081198,
+        "FUND-Energy" : 0.081198,
+        "FUND-Financials" : 0.124909,
+        "FUND-HealthCare" : 0.081198,
+        "FUND-Industrials" : 0.081198,
+        "FUND-Materials" : 0.081198,
+        "FUND-RealEstate" : 0.081198,
+        "FUND-Technology" : 0.081198,
+        "FUND-Utilities" : 0.081198
+      },
+      "utility" : 1.234187706168459,
+      "sharpe" : 2.5302460577512016,
+      "score" : 1.234187706168459,
+      "delta" : -0.033282570183764015
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.081198,
+        "FUND-ConsumerStap" : 0.081198,
+        "FUND-Energy" : 0.081198,
+        "FUND-Financials" : 0.081198,
+        "FUND-HealthCare" : 0.124909,
+        "FUND-Industrials" : 0.081198,
+        "FUND-Materials" : 0.081198,
+        "FUND-RealEstate" : 0.081198,
+        "FUND-Technology" : 0.081198,
+        "FUND-Utilities" : 0.081198
+      },
+      "utility" : 1.2360852137515363,
+      "sharpe" : 2.5638825211501497,
+      "score" : 1.2360852137515363,
+      "delta" : -0.03138506260068663
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.081198,
+        "FUND-ConsumerStap" : 0.081198,
+        "FUND-Energy" : 0.081198,
+        "FUND-Financials" : 0.081198,
+        "FUND-HealthCare" : 0.081198,
+        "FUND-Industrials" : 0.124909,
+        "FUND-Materials" : 0.081198,
+        "FUND-RealEstate" : 0.081198,
+        "FUND-Technology" : 0.081198,
+        "FUND-Utilities" : 0.081198
+      },
+      "utility" : 1.268515053136935,
+      "sharpe" : 2.597844609298506,
+      "score" : 1.268515053136935,
+      "delta" : 0.0010447767847119316
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.081198,
+        "FUND-ConsumerStap" : 0.081198,
+        "FUND-Energy" : 0.081198,
+        "FUND-Financials" : 0.081198,
+        "FUND-HealthCare" : 0.081198,
+        "FUND-Industrials" : 0.081198,
+        "FUND-Materials" : 0.124909,
+        "FUND-RealEstate" : 0.081198,
+        "FUND-Technology" : 0.081198,
+        "FUND-Utilities" : 0.081198
+      },
+      "utility" : 1.2396669780985867,
+      "sharpe" : 2.549676203320668,
+      "score" : 1.2396669780985867,
+      "delta" : -0.027803298253636255
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.081198,
+        "FUND-ConsumerStap" : 0.081198,
+        "FUND-Energy" : 0.081198,
+        "FUND-Financials" : 0.081198,
+        "FUND-HealthCare" : 0.081198,
+        "FUND-Industrials" : 0.081198,
+        "FUND-Materials" : 0.081198,
+        "FUND-RealEstate" : 0.124909,
+        "FUND-Technology" : 0.081198,
+        "FUND-Utilities" : 0.081198
+      },
+      "utility" : 1.2389180002267615,
+      "sharpe" : 2.562992577888531,
+      "score" : 1.2389180002267615,
+      "delta" : -0.028552276125461518
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.081198,
+        "FUND-ConsumerStap" : 0.081198,
+        "FUND-Energy" : 0.081198,
+        "FUND-Financials" : 0.081198,
+        "FUND-HealthCare" : 0.081198,
+        "FUND-Industrials" : 0.081198,
+        "FUND-Materials" : 0.081198,
+        "FUND-RealEstate" : 0.081198,
+        "FUND-Technology" : 0.124909,
+        "FUND-Utilities" : 0.081198
+      },
+      "utility" : 1.2741240438399315,
+      "sharpe" : 2.6028096497608932,
+      "score" : 1.2741240438399315,
+      "delta" : 0.006653767487708517
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.144313,
+        "FUND-ConsumerDisc" : 0.081198,
+        "FUND-ConsumerStap" : 0.081198,
+        "FUND-Energy" : 0.081198,
+        "FUND-Financials" : 0.081198,
+        "FUND-HealthCare" : 0.081198,
+        "FUND-Industrials" : 0.081198,
+        "FUND-Materials" : 0.081198,
+        "FUND-RealEstate" : 0.081198,
+        "FUND-Technology" : 0.081198,
+        "FUND-Utilities" : 0.124909
+      },
+      "utility" : 1.2529268387301382,
+      "sharpe" : 2.5477098178105804,
+      "score" : 1.2529268387301382,
+      "delta" : -0.014543437622084765
+    } ],
+    "winner" : "Epoch 3",
+    "endWeights" : {
+      "FUND-CommServices" : 0.190909,
+      "FUND-ConsumerDisc" : 0.080909,
+      "FUND-ConsumerStap" : 0.080909,
+      "FUND-Energy" : 0.080909,
+      "FUND-Financials" : 0.080909,
+      "FUND-HealthCare" : 0.080909,
+      "FUND-Industrials" : 0.080909,
+      "FUND-Materials" : 0.080909,
+      "FUND-RealEstate" : 0.080909,
+      "FUND-Technology" : 0.080909,
+      "FUND-Utilities" : 0.080909
+    },
+    "endUtility" : 1.3952432779758135,
+    "improvement" : 0.1277730016235905
+  }, {
+    "epoch" : 4,
+    "startWeights" : {
+      "FUND-CommServices" : 0.190909,
+      "FUND-ConsumerDisc" : 0.080909,
+      "FUND-ConsumerStap" : 0.080909,
+      "FUND-Energy" : 0.080909,
+      "FUND-Financials" : 0.080909,
+      "FUND-HealthCare" : 0.080909,
+      "FUND-Industrials" : 0.080909,
+      "FUND-Materials" : 0.080909,
+      "FUND-RealEstate" : 0.080909,
+      "FUND-Technology" : 0.080909,
+      "FUND-Utilities" : 0.080909
+    },
+    "startUtility" : 1.3952432779758135,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 4,
+    "temperature" : 0.0407253125,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.240909,
+        "FUND-ConsumerDisc" : 0.075909,
+        "FUND-ConsumerStap" : 0.075909,
+        "FUND-Energy" : 0.075909,
+        "FUND-Financials" : 0.075909,
+        "FUND-HealthCare" : 0.075909,
+        "FUND-Industrials" : 0.075909,
+        "FUND-Materials" : 0.075909,
+        "FUND-RealEstate" : 0.075909,
+        "FUND-Technology" : 0.075909,
+        "FUND-Utilities" : 0.075909
+      },
+      "utility" : 1.5506312806277331,
+      "sharpe" : 2.3287251073400745,
+      "score" : 1.5506312806277331,
+      "delta" : 0.15538800265191965
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.130909,
+        "FUND-ConsumerStap" : 0.076508,
+        "FUND-Energy" : 0.076508,
+        "FUND-Financials" : 0.076508,
+        "FUND-HealthCare" : 0.076508,
+        "FUND-Industrials" : 0.076508,
+        "FUND-Materials" : 0.076508,
+        "FUND-RealEstate" : 0.076508,
+        "FUND-Technology" : 0.076508,
+        "FUND-Utilities" : 0.076508
+      },
+      "utility" : 1.3653012600142993,
+      "sharpe" : 2.4514610346222274,
+      "score" : 1.3653012600142993,
+      "delta" : -0.02994201796151419
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.076508,
+        "FUND-ConsumerStap" : 0.130909,
+        "FUND-Energy" : 0.076508,
+        "FUND-Financials" : 0.076508,
+        "FUND-HealthCare" : 0.076508,
+        "FUND-Industrials" : 0.076508,
+        "FUND-Materials" : 0.076508,
+        "FUND-RealEstate" : 0.076508,
+        "FUND-Technology" : 0.076508,
+        "FUND-Utilities" : 0.076508
+      },
+      "utility" : 1.3510342931088677,
+      "sharpe" : 2.4554710662379957,
+      "score" : 1.3510342931088677,
+      "delta" : -0.0442089848669458
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.076508,
+        "FUND-ConsumerStap" : 0.076508,
+        "FUND-Energy" : 0.130909,
+        "FUND-Financials" : 0.076508,
+        "FUND-HealthCare" : 0.076508,
+        "FUND-Industrials" : 0.076508,
+        "FUND-Materials" : 0.076508,
+        "FUND-RealEstate" : 0.076508,
+        "FUND-Technology" : 0.076508,
+        "FUND-Utilities" : 0.076508
+      },
+      "utility" : 1.3412070344861018,
+      "sharpe" : 2.418716993827908,
+      "score" : 1.3412070344861018,
+      "delta" : -0.0540362434897117
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.076508,
+        "FUND-ConsumerStap" : 0.076508,
+        "FUND-Energy" : 0.076508,
+        "FUND-Financials" : 0.130909,
+        "FUND-HealthCare" : 0.076508,
+        "FUND-Industrials" : 0.076508,
+        "FUND-Materials" : 0.076508,
+        "FUND-RealEstate" : 0.076508,
+        "FUND-Technology" : 0.076508,
+        "FUND-Utilities" : 0.076508
+      },
+      "utility" : 1.3475841903594,
+      "sharpe" : 2.4205934149513597,
+      "score" : 1.3475841903594,
+      "delta" : -0.047659087616413576
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.076508,
+        "FUND-ConsumerStap" : 0.076508,
+        "FUND-Energy" : 0.076508,
+        "FUND-Financials" : 0.076508,
+        "FUND-HealthCare" : 0.130909,
+        "FUND-Industrials" : 0.076508,
+        "FUND-Materials" : 0.076508,
+        "FUND-RealEstate" : 0.076508,
+        "FUND-Technology" : 0.076508,
+        "FUND-Utilities" : 0.076508
+      },
+      "utility" : 1.3499728511148992,
+      "sharpe" : 2.4568817130324723,
+      "score" : 1.3499728511148992,
+      "delta" : -0.045270426860914315
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.076508,
+        "FUND-ConsumerStap" : 0.076508,
+        "FUND-Energy" : 0.076508,
+        "FUND-Financials" : 0.076508,
+        "FUND-HealthCare" : 0.076508,
+        "FUND-Industrials" : 0.130909,
+        "FUND-Materials" : 0.076508,
+        "FUND-RealEstate" : 0.076508,
+        "FUND-Technology" : 0.076508,
+        "FUND-Utilities" : 0.076508
+      },
+      "utility" : 1.390259299777008,
+      "sharpe" : 2.500361059053498,
+      "score" : 1.390259299777008,
+      "delta" : -0.004983978198805472
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.076508,
+        "FUND-ConsumerStap" : 0.076508,
+        "FUND-Energy" : 0.076508,
+        "FUND-Financials" : 0.076508,
+        "FUND-HealthCare" : 0.076508,
+        "FUND-Industrials" : 0.076508,
+        "FUND-Materials" : 0.130909,
+        "FUND-RealEstate" : 0.076508,
+        "FUND-Technology" : 0.076508,
+        "FUND-Utilities" : 0.076508
+      },
+      "utility" : 1.3542846247155251,
+      "sharpe" : 2.4410341977151693,
+      "score" : 1.3542846247155251,
+      "delta" : -0.04095865326028836
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.076508,
+        "FUND-ConsumerStap" : 0.076508,
+        "FUND-Energy" : 0.076508,
+        "FUND-Financials" : 0.076508,
+        "FUND-HealthCare" : 0.076508,
+        "FUND-Industrials" : 0.076508,
+        "FUND-Materials" : 0.076508,
+        "FUND-RealEstate" : 0.130909,
+        "FUND-Technology" : 0.076508,
+        "FUND-Utilities" : 0.076508
+      },
+      "utility" : 1.3535375605701827,
+      "sharpe" : 2.457565165473404,
+      "score" : 1.3535375605701827,
+      "delta" : -0.04170571740563078
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.076508,
+        "FUND-ConsumerStap" : 0.076508,
+        "FUND-Energy" : 0.076508,
+        "FUND-Financials" : 0.076508,
+        "FUND-HealthCare" : 0.076508,
+        "FUND-Industrials" : 0.076508,
+        "FUND-Materials" : 0.076508,
+        "FUND-RealEstate" : 0.076508,
+        "FUND-Technology" : 0.130909,
+        "FUND-Utilities" : 0.076508
+      },
+      "utility" : 1.3972599240900285,
+      "sharpe" : 2.507580621750899,
+      "score" : 1.3972599240900285,
+      "delta" : 0.002016646114215037
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.180523,
+        "FUND-ConsumerDisc" : 0.076508,
+        "FUND-ConsumerStap" : 0.076508,
+        "FUND-Energy" : 0.076508,
+        "FUND-Financials" : 0.076508,
+        "FUND-HealthCare" : 0.076508,
+        "FUND-Industrials" : 0.076508,
+        "FUND-Materials" : 0.076508,
+        "FUND-RealEstate" : 0.076508,
+        "FUND-Technology" : 0.076508,
+        "FUND-Utilities" : 0.130909
+      },
+      "utility" : 1.3708585991872735,
+      "sharpe" : 2.442849167446389,
+      "score" : 1.3708585991872735,
+      "delta" : -0.024384678788540004
+    } ],
+    "winner" : "Epoch 4",
+    "endWeights" : {
+      "FUND-CommServices" : 0.240909,
+      "FUND-ConsumerDisc" : 0.075909,
+      "FUND-ConsumerStap" : 0.075909,
+      "FUND-Energy" : 0.075909,
+      "FUND-Financials" : 0.075909,
+      "FUND-HealthCare" : 0.075909,
+      "FUND-Industrials" : 0.075909,
+      "FUND-Materials" : 0.075909,
+      "FUND-RealEstate" : 0.075909,
+      "FUND-Technology" : 0.075909,
+      "FUND-Utilities" : 0.075909
+    },
+    "endUtility" : 1.5506312806277331,
+    "improvement" : 0.15538800265191965
+  }, {
+    "epoch" : 5,
+    "startWeights" : {
+      "FUND-CommServices" : 0.240909,
+      "FUND-ConsumerDisc" : 0.075909,
+      "FUND-ConsumerStap" : 0.075909,
+      "FUND-Energy" : 0.075909,
+      "FUND-Financials" : 0.075909,
+      "FUND-HealthCare" : 0.075909,
+      "FUND-Industrials" : 0.075909,
+      "FUND-Materials" : 0.075909,
+      "FUND-RealEstate" : 0.075909,
+      "FUND-Technology" : 0.075909,
+      "FUND-Utilities" : 0.075909
+    },
+    "startUtility" : 1.5506312806277331,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 5,
+    "temperature" : 0.038689046874999994,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.290909,
+        "FUND-ConsumerDisc" : 0.070909,
+        "FUND-ConsumerStap" : 0.070909,
+        "FUND-Energy" : 0.070909,
+        "FUND-Financials" : 0.070909,
+        "FUND-HealthCare" : 0.070909,
+        "FUND-Industrials" : 0.070909,
+        "FUND-Materials" : 0.070909,
+        "FUND-RealEstate" : 0.070909,
+        "FUND-Technology" : 0.070909,
+        "FUND-Utilities" : 0.070909
+      },
+      "utility" : 1.702083985347064,
+      "sharpe" : 2.2456611096600643,
+      "score" : 1.702083985347064,
+      "delta" : 0.1514527047193308
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.125909,
+        "FUND-ConsumerStap" : 0.071802,
+        "FUND-Energy" : 0.071802,
+        "FUND-Financials" : 0.071802,
+        "FUND-HealthCare" : 0.071802,
+        "FUND-Industrials" : 0.071802,
+        "FUND-Materials" : 0.071802,
+        "FUND-RealEstate" : 0.071802,
+        "FUND-Technology" : 0.071802,
+        "FUND-Utilities" : 0.071802
+      },
+      "utility" : 1.5134585311547428,
+      "sharpe" : 2.3491471142091616,
+      "score" : 1.5134585311547428,
+      "delta" : -0.03717274947299032
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.071802,
+        "FUND-ConsumerStap" : 0.125909,
+        "FUND-Energy" : 0.071802,
+        "FUND-Financials" : 0.071802,
+        "FUND-HealthCare" : 0.071802,
+        "FUND-Industrials" : 0.071802,
+        "FUND-Materials" : 0.071802,
+        "FUND-RealEstate" : 0.071802,
+        "FUND-Technology" : 0.071802,
+        "FUND-Utilities" : 0.071802
+      },
+      "utility" : 1.499300242493589,
+      "sharpe" : 2.3492905209737924,
+      "score" : 1.499300242493589,
+      "delta" : -0.05133103813414408
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.071802,
+        "FUND-ConsumerStap" : 0.071802,
+        "FUND-Energy" : 0.125909,
+        "FUND-Financials" : 0.071802,
+        "FUND-HealthCare" : 0.071802,
+        "FUND-Industrials" : 0.071802,
+        "FUND-Materials" : 0.071802,
+        "FUND-RealEstate" : 0.071802,
+        "FUND-Technology" : 0.071802,
+        "FUND-Utilities" : 0.071802
+      },
+      "utility" : 1.4894790110348017,
+      "sharpe" : 2.316598851236245,
+      "score" : 1.4894790110348017,
+      "delta" : -0.06115226959293141
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.071802,
+        "FUND-ConsumerStap" : 0.071802,
+        "FUND-Energy" : 0.071802,
+        "FUND-Financials" : 0.125909,
+        "FUND-HealthCare" : 0.071802,
+        "FUND-Industrials" : 0.071802,
+        "FUND-Materials" : 0.071802,
+        "FUND-RealEstate" : 0.071802,
+        "FUND-Technology" : 0.071802,
+        "FUND-Utilities" : 0.071802
+      },
+      "utility" : 1.4957458395651828,
+      "sharpe" : 2.318022357760416,
+      "score" : 1.4957458395651828,
+      "delta" : -0.05488544106255033
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.071802,
+        "FUND-ConsumerStap" : 0.071802,
+        "FUND-Energy" : 0.071802,
+        "FUND-Financials" : 0.071802,
+        "FUND-HealthCare" : 0.125909,
+        "FUND-Industrials" : 0.071802,
+        "FUND-Materials" : 0.071802,
+        "FUND-RealEstate" : 0.071802,
+        "FUND-Technology" : 0.071802,
+        "FUND-Utilities" : 0.071802
+      },
+      "utility" : 1.498204432378961,
+      "sharpe" : 2.349828194935318,
+      "score" : 1.498204432378961,
+      "delta" : -0.052426848248772195
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.071802,
+        "FUND-ConsumerStap" : 0.071802,
+        "FUND-Energy" : 0.071802,
+        "FUND-Financials" : 0.071802,
+        "FUND-HealthCare" : 0.071802,
+        "FUND-Industrials" : 0.125909,
+        "FUND-Materials" : 0.071802,
+        "FUND-RealEstate" : 0.071802,
+        "FUND-Technology" : 0.071802,
+        "FUND-Utilities" : 0.071802
+      },
+      "utility" : 1.5382096747272227,
+      "sharpe" : 2.393317847912858,
+      "score" : 1.5382096747272227,
+      "delta" : -0.012421605900510446
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.071802,
+        "FUND-ConsumerStap" : 0.071802,
+        "FUND-Energy" : 0.071802,
+        "FUND-Financials" : 0.071802,
+        "FUND-HealthCare" : 0.071802,
+        "FUND-Industrials" : 0.071802,
+        "FUND-Materials" : 0.125909,
+        "FUND-RealEstate" : 0.071802,
+        "FUND-Technology" : 0.071802,
+        "FUND-Utilities" : 0.071802
+      },
+      "utility" : 1.5023137884352362,
+      "sharpe" : 2.3354352106283525,
+      "score" : 1.5023137884352362,
+      "delta" : -0.048317492192496925
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.071802,
+        "FUND-ConsumerStap" : 0.071802,
+        "FUND-Energy" : 0.071802,
+        "FUND-Financials" : 0.071802,
+        "FUND-HealthCare" : 0.071802,
+        "FUND-Industrials" : 0.071802,
+        "FUND-Materials" : 0.071802,
+        "FUND-RealEstate" : 0.125909,
+        "FUND-Technology" : 0.071802,
+        "FUND-Utilities" : 0.071802
+      },
+      "utility" : 1.5017720445301226,
+      "sharpe" : 2.3515514534997006,
+      "score" : 1.5017720445301226,
+      "delta" : -0.04885923609761056
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.071802,
+        "FUND-ConsumerStap" : 0.071802,
+        "FUND-Energy" : 0.071802,
+        "FUND-Financials" : 0.071802,
+        "FUND-HealthCare" : 0.071802,
+        "FUND-Industrials" : 0.071802,
+        "FUND-Materials" : 0.071802,
+        "FUND-RealEstate" : 0.071802,
+        "FUND-Technology" : 0.125909,
+        "FUND-Utilities" : 0.071802
+      },
+      "utility" : 1.5452253240005458,
+      "sharpe" : 2.401724489428501,
+      "score" : 1.5452253240005458,
+      "delta" : -0.005405956627187347
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.227874,
+        "FUND-ConsumerDisc" : 0.071802,
+        "FUND-ConsumerStap" : 0.071802,
+        "FUND-Energy" : 0.071802,
+        "FUND-Financials" : 0.071802,
+        "FUND-HealthCare" : 0.071802,
+        "FUND-Industrials" : 0.071802,
+        "FUND-Materials" : 0.071802,
+        "FUND-RealEstate" : 0.071802,
+        "FUND-Technology" : 0.071802,
+        "FUND-Utilities" : 0.125909
+      },
+      "utility" : 1.5188970278435439,
+      "sharpe" : 2.3407791174146353,
+      "score" : 1.5188970278435439,
+      "delta" : -0.03173425278418929
+    } ],
+    "winner" : "Epoch 5",
+    "endWeights" : {
+      "FUND-CommServices" : 0.290909,
+      "FUND-ConsumerDisc" : 0.070909,
+      "FUND-ConsumerStap" : 0.070909,
+      "FUND-Energy" : 0.070909,
+      "FUND-Financials" : 0.070909,
+      "FUND-HealthCare" : 0.070909,
+      "FUND-Industrials" : 0.070909,
+      "FUND-Materials" : 0.070909,
+      "FUND-RealEstate" : 0.070909,
+      "FUND-Technology" : 0.070909,
+      "FUND-Utilities" : 0.070909
+    },
+    "endUtility" : 1.702083985347064,
+    "improvement" : 0.1514527047193308
+  }, {
+    "epoch" : 6,
+    "startWeights" : {
+      "FUND-CommServices" : 0.290909,
+      "FUND-ConsumerDisc" : 0.070909,
+      "FUND-ConsumerStap" : 0.070909,
+      "FUND-Energy" : 0.070909,
+      "FUND-Financials" : 0.070909,
+      "FUND-HealthCare" : 0.070909,
+      "FUND-Industrials" : 0.070909,
+      "FUND-Materials" : 0.070909,
+      "FUND-RealEstate" : 0.070909,
+      "FUND-Technology" : 0.070909,
+      "FUND-Utilities" : 0.070909
+    },
+    "startUtility" : 1.702083985347064,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 6,
+    "temperature" : 0.03675459453124999,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.340909,
+        "FUND-ConsumerDisc" : 0.065909,
+        "FUND-ConsumerStap" : 0.065909,
+        "FUND-Energy" : 0.065909,
+        "FUND-Financials" : 0.065909,
+        "FUND-HealthCare" : 0.065909,
+        "FUND-Industrials" : 0.065909,
+        "FUND-Materials" : 0.065909,
+        "FUND-RealEstate" : 0.065909,
+        "FUND-Technology" : 0.065909,
+        "FUND-Utilities" : 0.065909
+      },
+      "utility" : 1.850199561503064,
+      "sharpe" : 2.1759703092803675,
+      "score" : 1.850199561503064,
+      "delta" : 0.14811557615600002
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.120909,
+        "FUND-ConsumerStap" : 0.067093,
+        "FUND-Energy" : 0.067093,
+        "FUND-Financials" : 0.067093,
+        "FUND-HealthCare" : 0.067093,
+        "FUND-Industrials" : 0.067093,
+        "FUND-Materials" : 0.067093,
+        "FUND-RealEstate" : 0.067093,
+        "FUND-Technology" : 0.067093,
+        "FUND-Utilities" : 0.067093
+      },
+      "utility" : 1.6579681292690833,
+      "sharpe" : 2.2674974645318073,
+      "score" : 1.6579681292690833,
+      "delta" : -0.04411585607798063
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.067093,
+        "FUND-ConsumerStap" : 0.120909,
+        "FUND-Energy" : 0.067093,
+        "FUND-Financials" : 0.067093,
+        "FUND-HealthCare" : 0.067093,
+        "FUND-Industrials" : 0.067093,
+        "FUND-Materials" : 0.067093,
+        "FUND-RealEstate" : 0.067093,
+        "FUND-Technology" : 0.067093,
+        "FUND-Utilities" : 0.067093
+      },
+      "utility" : 1.6439156988516728,
+      "sharpe" : 2.26518243809232,
+      "score" : 1.6439156988516728,
+      "delta" : -0.058168286495391186
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.067093,
+        "FUND-ConsumerStap" : 0.067093,
+        "FUND-Energy" : 0.120909,
+        "FUND-Financials" : 0.067093,
+        "FUND-HealthCare" : 0.067093,
+        "FUND-Industrials" : 0.067093,
+        "FUND-Materials" : 0.067093,
+        "FUND-RealEstate" : 0.067093,
+        "FUND-Technology" : 0.067093,
+        "FUND-Utilities" : 0.067093
+      },
+      "utility" : 1.6340758051946382,
+      "sharpe" : 2.235522072833357,
+      "score" : 1.6340758051946382,
+      "delta" : -0.06800818015242571
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.067093,
+        "FUND-ConsumerStap" : 0.067093,
+        "FUND-Energy" : 0.067093,
+        "FUND-Financials" : 0.120909,
+        "FUND-HealthCare" : 0.067093,
+        "FUND-Industrials" : 0.067093,
+        "FUND-Materials" : 0.067093,
+        "FUND-RealEstate" : 0.067093,
+        "FUND-Technology" : 0.067093,
+        "FUND-Utilities" : 0.067093
+      },
+      "utility" : 1.6402519700538871,
+      "sharpe" : 2.236468230765358,
+      "score" : 1.6402519700538871,
+      "delta" : -0.061832015293176834
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.067093,
+        "FUND-ConsumerStap" : 0.067093,
+        "FUND-Energy" : 0.067093,
+        "FUND-Financials" : 0.067093,
+        "FUND-HealthCare" : 0.120909,
+        "FUND-Industrials" : 0.067093,
+        "FUND-Materials" : 0.067093,
+        "FUND-RealEstate" : 0.067093,
+        "FUND-Technology" : 0.067093,
+        "FUND-Utilities" : 0.067093
+      },
+      "utility" : 1.6428121753981713,
+      "sharpe" : 2.265124093530337,
+      "score" : 1.6428121753981713,
+      "delta" : -0.059271809948892695
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.067093,
+        "FUND-ConsumerStap" : 0.067093,
+        "FUND-Energy" : 0.067093,
+        "FUND-Financials" : 0.067093,
+        "FUND-HealthCare" : 0.067093,
+        "FUND-Industrials" : 0.120909,
+        "FUND-Materials" : 0.067093,
+        "FUND-RealEstate" : 0.067093,
+        "FUND-Technology" : 0.067093,
+        "FUND-Utilities" : 0.067093
+      },
+      "utility" : 1.6825390824656743,
+      "sharpe" : 2.308215143940157,
+      "score" : 1.6825390824656743,
+      "delta" : -0.01954490288138966
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.067093,
+        "FUND-ConsumerStap" : 0.067093,
+        "FUND-Energy" : 0.067093,
+        "FUND-Financials" : 0.067093,
+        "FUND-HealthCare" : 0.067093,
+        "FUND-Industrials" : 0.067093,
+        "FUND-Materials" : 0.120909,
+        "FUND-RealEstate" : 0.067093,
+        "FUND-Technology" : 0.067093,
+        "FUND-Utilities" : 0.067093
+      },
+      "utility" : 1.646711021878599,
+      "sharpe" : 2.2518069313711324,
+      "score" : 1.646711021878599,
+      "delta" : -0.055372963468464986
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.067093,
+        "FUND-ConsumerStap" : 0.067093,
+        "FUND-Energy" : 0.067093,
+        "FUND-Financials" : 0.067093,
+        "FUND-HealthCare" : 0.067093,
+        "FUND-Industrials" : 0.067093,
+        "FUND-Materials" : 0.067093,
+        "FUND-RealEstate" : 0.120909,
+        "FUND-Technology" : 0.067093,
+        "FUND-Utilities" : 0.067093
+      },
+      "utility" : 1.6463679485709282,
+      "sharpe" : 2.267496247337584,
+      "score" : 1.6463679485709282,
+      "delta" : -0.05571603677613579
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.067093,
+        "FUND-ConsumerStap" : 0.067093,
+        "FUND-Energy" : 0.067093,
+        "FUND-Financials" : 0.067093,
+        "FUND-HealthCare" : 0.067093,
+        "FUND-Industrials" : 0.067093,
+        "FUND-Materials" : 0.067093,
+        "FUND-RealEstate" : 0.067093,
+        "FUND-Technology" : 0.120909,
+        "FUND-Utilities" : 0.067093
+      },
+      "utility" : 1.6895691186961057,
+      "sharpe" : 2.317233050020935,
+      "score" : 1.6895691186961057,
+      "delta" : -0.012514866650958245
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.275254,
+        "FUND-ConsumerDisc" : 0.067093,
+        "FUND-ConsumerStap" : 0.067093,
+        "FUND-Energy" : 0.067093,
+        "FUND-Financials" : 0.067093,
+        "FUND-HealthCare" : 0.067093,
+        "FUND-Industrials" : 0.067093,
+        "FUND-Materials" : 0.067093,
+        "FUND-RealEstate" : 0.067093,
+        "FUND-Technology" : 0.067093,
+        "FUND-Utilities" : 0.120909
+      },
+      "utility" : 1.6632770625426674,
+      "sharpe" : 2.2591470613014044,
+      "score" : 1.6632770625426674,
+      "delta" : -0.03880692280439657
+    } ],
+    "winner" : "Epoch 6",
+    "endWeights" : {
+      "FUND-CommServices" : 0.340909,
+      "FUND-ConsumerDisc" : 0.065909,
+      "FUND-ConsumerStap" : 0.065909,
+      "FUND-Energy" : 0.065909,
+      "FUND-Financials" : 0.065909,
+      "FUND-HealthCare" : 0.065909,
+      "FUND-Industrials" : 0.065909,
+      "FUND-Materials" : 0.065909,
+      "FUND-RealEstate" : 0.065909,
+      "FUND-Technology" : 0.065909,
+      "FUND-Utilities" : 0.065909
+    },
+    "endUtility" : 1.850199561503064,
+    "improvement" : 0.14811557615600002
+  }, {
+    "epoch" : 7,
+    "startWeights" : {
+      "FUND-CommServices" : 0.340909,
+      "FUND-ConsumerDisc" : 0.065909,
+      "FUND-ConsumerStap" : 0.065909,
+      "FUND-Energy" : 0.065909,
+      "FUND-Financials" : 0.065909,
+      "FUND-HealthCare" : 0.065909,
+      "FUND-Industrials" : 0.065909,
+      "FUND-Materials" : 0.065909,
+      "FUND-RealEstate" : 0.065909,
+      "FUND-Technology" : 0.065909,
+      "FUND-Utilities" : 0.065909
+    },
+    "startUtility" : 1.850199561503064,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 7,
+    "temperature" : 0.03491686480468749,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.390909,
+        "FUND-ConsumerDisc" : 0.060909,
+        "FUND-ConsumerStap" : 0.060909,
+        "FUND-Energy" : 0.060909,
+        "FUND-Financials" : 0.060909,
+        "FUND-HealthCare" : 0.060909,
+        "FUND-Industrials" : 0.060909,
+        "FUND-Materials" : 0.060909,
+        "FUND-RealEstate" : 0.060909,
+        "FUND-Technology" : 0.060909,
+        "FUND-Utilities" : 0.060909
+      },
+      "utility" : 1.9954414086769636,
+      "sharpe" : 2.115185666284543,
+      "score" : 1.9954414086769636,
+      "delta" : 0.14524184717389965
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.115909,
+        "FUND-ConsumerStap" : 0.062381,
+        "FUND-Energy" : 0.062381,
+        "FUND-Financials" : 0.062381,
+        "FUND-HealthCare" : 0.062381,
+        "FUND-Industrials" : 0.062381,
+        "FUND-Materials" : 0.062381,
+        "FUND-RealEstate" : 0.062381,
+        "FUND-Technology" : 0.062381,
+        "FUND-Utilities" : 0.062381
+      },
+      "utility" : 1.799420117131964,
+      "sharpe" : 2.199009045965164,
+      "score" : 1.799420117131964,
+      "delta" : -0.050779444371100046
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.062381,
+        "FUND-ConsumerStap" : 0.115909,
+        "FUND-Energy" : 0.062381,
+        "FUND-Financials" : 0.062381,
+        "FUND-HealthCare" : 0.062381,
+        "FUND-Industrials" : 0.062381,
+        "FUND-Materials" : 0.062381,
+        "FUND-RealEstate" : 0.062381,
+        "FUND-Technology" : 0.062381,
+        "FUND-Utilities" : 0.062381
+      },
+      "utility" : 1.785468677523146,
+      "sharpe" : 2.195021902847836,
+      "score" : 1.785468677523146,
+      "delta" : -0.06473088397991789
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.062381,
+        "FUND-ConsumerStap" : 0.062381,
+        "FUND-Energy" : 0.115909,
+        "FUND-Financials" : 0.062381,
+        "FUND-HealthCare" : 0.062381,
+        "FUND-Industrials" : 0.062381,
+        "FUND-Materials" : 0.062381,
+        "FUND-RealEstate" : 0.062381,
+        "FUND-Technology" : 0.062381,
+        "FUND-Utilities" : 0.062381
+      },
+      "utility" : 1.7755943363759346,
+      "sharpe" : 2.1677332352352883,
+      "score" : 1.7755943363759346,
+      "delta" : -0.07460522512712942
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.062381,
+        "FUND-ConsumerStap" : 0.062381,
+        "FUND-Energy" : 0.062381,
+        "FUND-Financials" : 0.115909,
+        "FUND-HealthCare" : 0.062381,
+        "FUND-Industrials" : 0.062381,
+        "FUND-Materials" : 0.062381,
+        "FUND-RealEstate" : 0.062381,
+        "FUND-Technology" : 0.062381,
+        "FUND-Utilities" : 0.062381
+      },
+      "utility" : 1.7816869478142676,
+      "sharpe" : 2.1682146906101942,
+      "score" : 1.7816869478142676,
+      "delta" : -0.06851261368879635
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.062381,
+        "FUND-ConsumerStap" : 0.062381,
+        "FUND-Energy" : 0.062381,
+        "FUND-Financials" : 0.062381,
+        "FUND-HealthCare" : 0.115909,
+        "FUND-Industrials" : 0.062381,
+        "FUND-Materials" : 0.062381,
+        "FUND-RealEstate" : 0.062381,
+        "FUND-Technology" : 0.062381,
+        "FUND-Utilities" : 0.062381
+      },
+      "utility" : 1.7843859791909935,
+      "sharpe" : 2.1945175873912866,
+      "score" : 1.7843859791909935,
+      "delta" : -0.06581358231207046
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.062381,
+        "FUND-ConsumerStap" : 0.062381,
+        "FUND-Energy" : 0.062381,
+        "FUND-Financials" : 0.062381,
+        "FUND-HealthCare" : 0.062381,
+        "FUND-Industrials" : 0.115909,
+        "FUND-Materials" : 0.062381,
+        "FUND-RealEstate" : 0.062381,
+        "FUND-Technology" : 0.062381,
+        "FUND-Utilities" : 0.062381
+      },
+      "utility" : 1.82383597775916,
+      "sharpe" : 2.237123940482313,
+      "score" : 1.82383597775916,
+      "delta" : -0.026363583743904018
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.062381,
+        "FUND-ConsumerStap" : 0.062381,
+        "FUND-Energy" : 0.062381,
+        "FUND-Financials" : 0.062381,
+        "FUND-HealthCare" : 0.062381,
+        "FUND-Industrials" : 0.062381,
+        "FUND-Materials" : 0.115909,
+        "FUND-RealEstate" : 0.062381,
+        "FUND-Technology" : 0.062381,
+        "FUND-Utilities" : 0.062381
+      },
+      "utility" : 1.7880435749416619,
+      "sharpe" : 2.1820532928348872,
+      "score" : 1.7880435749416619,
+      "delta" : -0.06215598656140209
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.062381,
+        "FUND-ConsumerStap" : 0.062381,
+        "FUND-Energy" : 0.062381,
+        "FUND-Financials" : 0.062381,
+        "FUND-HealthCare" : 0.062381,
+        "FUND-Industrials" : 0.062381,
+        "FUND-Materials" : 0.062381,
+        "FUND-RealEstate" : 0.115909,
+        "FUND-Technology" : 0.062381,
+        "FUND-Utilities" : 0.062381
+      },
+      "utility" : 1.7879115189381896,
+      "sharpe" : 2.197325653560366,
+      "score" : 1.7879115189381896,
+      "delta" : -0.06228804256487441
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.062381,
+        "FUND-ConsumerStap" : 0.062381,
+        "FUND-Energy" : 0.062381,
+        "FUND-Financials" : 0.062381,
+        "FUND-HealthCare" : 0.062381,
+        "FUND-Industrials" : 0.062381,
+        "FUND-Materials" : 0.062381,
+        "FUND-RealEstate" : 0.062381,
+        "FUND-Technology" : 0.115909,
+        "FUND-Utilities" : 0.062381
+      },
+      "utility" : 1.8308895801813774,
+      "sharpe" : 2.2464334701456465,
+      "score" : 1.8308895801813774,
+      "delta" : -0.019309981321686598
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.322661,
+        "FUND-ConsumerDisc" : 0.062381,
+        "FUND-ConsumerStap" : 0.062381,
+        "FUND-Energy" : 0.062381,
+        "FUND-Financials" : 0.062381,
+        "FUND-HealthCare" : 0.062381,
+        "FUND-Industrials" : 0.062381,
+        "FUND-Materials" : 0.062381,
+        "FUND-RealEstate" : 0.062381,
+        "FUND-Technology" : 0.062381,
+        "FUND-Utilities" : 0.115909
+      },
+      "utility" : 1.8046135636485165,
+      "sharpe" : 2.1905874651091652,
+      "score" : 1.8046135636485165,
+      "delta" : -0.04558599785454742
+    } ],
+    "winner" : "Epoch 7",
+    "endWeights" : {
+      "FUND-CommServices" : 0.390909,
+      "FUND-ConsumerDisc" : 0.060909,
+      "FUND-ConsumerStap" : 0.060909,
+      "FUND-Energy" : 0.060909,
+      "FUND-Financials" : 0.060909,
+      "FUND-HealthCare" : 0.060909,
+      "FUND-Industrials" : 0.060909,
+      "FUND-Materials" : 0.060909,
+      "FUND-RealEstate" : 0.060909,
+      "FUND-Technology" : 0.060909,
+      "FUND-Utilities" : 0.060909
+    },
+    "endUtility" : 1.9954414086769636,
+    "improvement" : 0.14524184717389965
+  }, {
+    "epoch" : 8,
+    "startWeights" : {
+      "FUND-CommServices" : 0.390909,
+      "FUND-ConsumerDisc" : 0.060909,
+      "FUND-ConsumerStap" : 0.060909,
+      "FUND-Energy" : 0.060909,
+      "FUND-Financials" : 0.060909,
+      "FUND-HealthCare" : 0.060909,
+      "FUND-Industrials" : 0.060909,
+      "FUND-Materials" : 0.060909,
+      "FUND-RealEstate" : 0.060909,
+      "FUND-Technology" : 0.060909,
+      "FUND-Utilities" : 0.060909
+    },
+    "startUtility" : 1.9954414086769636,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 8,
+    "temperature" : 0.03317102156445311,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.440909,
+        "FUND-ConsumerDisc" : 0.055909,
+        "FUND-ConsumerStap" : 0.055909,
+        "FUND-Energy" : 0.055909,
+        "FUND-Financials" : 0.055909,
+        "FUND-HealthCare" : 0.055909,
+        "FUND-Industrials" : 0.055909,
+        "FUND-Materials" : 0.055909,
+        "FUND-RealEstate" : 0.055909,
+        "FUND-Technology" : 0.055909,
+        "FUND-Utilities" : 0.055909
+      },
+      "utility" : 2.1380719092569627,
+      "sharpe" : 2.060560269066046,
+      "score" : 2.1380719092569627,
+      "delta" : 0.14263050057999904
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.110909,
+        "FUND-ConsumerStap" : 0.057666,
+        "FUND-Energy" : 0.057666,
+        "FUND-Financials" : 0.057666,
+        "FUND-HealthCare" : 0.057666,
+        "FUND-Industrials" : 0.057666,
+        "FUND-Materials" : 0.057666,
+        "FUND-RealEstate" : 0.057666,
+        "FUND-Technology" : 0.057666,
+        "FUND-Utilities" : 0.057666
+      },
+      "utility" : 1.9382338008840927,
+      "sharpe" : 2.1393605197545047,
+      "score" : 1.9382338008840927,
+      "delta" : -0.05720760779287093
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.057666,
+        "FUND-ConsumerStap" : 0.110909,
+        "FUND-Energy" : 0.057666,
+        "FUND-Financials" : 0.057666,
+        "FUND-HealthCare" : 0.057666,
+        "FUND-Industrials" : 0.057666,
+        "FUND-Materials" : 0.057666,
+        "FUND-RealEstate" : 0.057666,
+        "FUND-Technology" : 0.057666,
+        "FUND-Utilities" : 0.057666
+      },
+      "utility" : 1.9243921602385854,
+      "sharpe" : 2.134181626324142,
+      "score" : 1.9243921602385854,
+      "delta" : -0.07104924843837823
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.057666,
+        "FUND-ConsumerStap" : 0.057666,
+        "FUND-Energy" : 0.110909,
+        "FUND-Financials" : 0.057666,
+        "FUND-HealthCare" : 0.057666,
+        "FUND-Industrials" : 0.057666,
+        "FUND-Materials" : 0.057666,
+        "FUND-RealEstate" : 0.057666,
+        "FUND-Technology" : 0.057666,
+        "FUND-Utilities" : 0.057666
+      },
+      "utility" : 1.9144519185424609,
+      "sharpe" : 2.1088128457590813,
+      "score" : 1.9144519185424609,
+      "delta" : -0.08098949013450274
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.057666,
+        "FUND-ConsumerStap" : 0.057666,
+        "FUND-Energy" : 0.057666,
+        "FUND-Financials" : 0.110909,
+        "FUND-HealthCare" : 0.057666,
+        "FUND-Industrials" : 0.057666,
+        "FUND-Materials" : 0.057666,
+        "FUND-RealEstate" : 0.057666,
+        "FUND-Technology" : 0.057666,
+        "FUND-Utilities" : 0.057666
+      },
+      "utility" : 1.9204963959158132,
+      "sharpe" : 2.108851197699468,
+      "score" : 1.9204963959158132,
+      "delta" : -0.0749450127611504
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.057666,
+        "FUND-ConsumerStap" : 0.057666,
+        "FUND-Energy" : 0.057666,
+        "FUND-Financials" : 0.057666,
+        "FUND-HealthCare" : 0.110909,
+        "FUND-Industrials" : 0.057666,
+        "FUND-Materials" : 0.057666,
+        "FUND-RealEstate" : 0.057666,
+        "FUND-Technology" : 0.057666,
+        "FUND-Utilities" : 0.057666
+      },
+      "utility" : 1.9233331100056388,
+      "sharpe" : 2.1333181037349047,
+      "score" : 1.9233331100056388,
+      "delta" : -0.07210829867132484
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.057666,
+        "FUND-ConsumerStap" : 0.057666,
+        "FUND-Energy" : 0.057666,
+        "FUND-Financials" : 0.057666,
+        "FUND-HealthCare" : 0.057666,
+        "FUND-Industrials" : 0.110909,
+        "FUND-Materials" : 0.057666,
+        "FUND-RealEstate" : 0.057666,
+        "FUND-Technology" : 0.057666,
+        "FUND-Utilities" : 0.057666
+      },
+      "utility" : 1.9625303682378725,
+      "sharpe" : 2.175477415743657,
+      "score" : 1.9625303682378725,
+      "delta" : -0.0329110404390911
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.057666,
+        "FUND-ConsumerStap" : 0.057666,
+        "FUND-Energy" : 0.057666,
+        "FUND-Financials" : 0.057666,
+        "FUND-HealthCare" : 0.057666,
+        "FUND-Industrials" : 0.057666,
+        "FUND-Materials" : 0.110909,
+        "FUND-RealEstate" : 0.057666,
+        "FUND-Technology" : 0.057666,
+        "FUND-Utilities" : 0.057666
+      },
+      "utility" : 1.9267372635165316,
+      "sharpe" : 2.1215651252273218,
+      "score" : 1.9267372635165316,
+      "delta" : -0.068704145160432
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.057666,
+        "FUND-ConsumerStap" : 0.057666,
+        "FUND-Energy" : 0.057666,
+        "FUND-Financials" : 0.057666,
+        "FUND-HealthCare" : 0.057666,
+        "FUND-Industrials" : 0.057666,
+        "FUND-Materials" : 0.057666,
+        "FUND-RealEstate" : 0.110909,
+        "FUND-Technology" : 0.057666,
+        "FUND-Utilities" : 0.057666
+      },
+      "utility" : 1.9267943344400273,
+      "sharpe" : 2.136436715345399,
+      "score" : 1.9267943344400273,
+      "delta" : -0.06864707423693628
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.057666,
+        "FUND-ConsumerStap" : 0.057666,
+        "FUND-Energy" : 0.057666,
+        "FUND-Financials" : 0.057666,
+        "FUND-HealthCare" : 0.057666,
+        "FUND-Industrials" : 0.057666,
+        "FUND-Materials" : 0.057666,
+        "FUND-RealEstate" : 0.057666,
+        "FUND-Technology" : 0.110909,
+        "FUND-Utilities" : 0.057666
+      },
+      "utility" : 1.9695769249192077,
+      "sharpe" : 2.1848832045928708,
+      "score" : 1.9695769249192077,
+      "delta" : -0.025864483757755963
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.370096,
+        "FUND-ConsumerDisc" : 0.057666,
+        "FUND-ConsumerStap" : 0.057666,
+        "FUND-Energy" : 0.057666,
+        "FUND-Financials" : 0.057666,
+        "FUND-HealthCare" : 0.057666,
+        "FUND-Industrials" : 0.057666,
+        "FUND-Materials" : 0.057666,
+        "FUND-RealEstate" : 0.057666,
+        "FUND-Technology" : 0.057666,
+        "FUND-Utilities" : 0.110909
+      },
+      "utility" : 1.9433270107243876,
+      "sharpe" : 2.130840808186532,
+      "score" : 1.9433270107243876,
+      "delta" : -0.052114397952576
+    } ],
+    "winner" : "Epoch 8",
+    "endWeights" : {
+      "FUND-CommServices" : 0.440909,
+      "FUND-ConsumerDisc" : 0.055909,
+      "FUND-ConsumerStap" : 0.055909,
+      "FUND-Energy" : 0.055909,
+      "FUND-Financials" : 0.055909,
+      "FUND-HealthCare" : 0.055909,
+      "FUND-Industrials" : 0.055909,
+      "FUND-Materials" : 0.055909,
+      "FUND-RealEstate" : 0.055909,
+      "FUND-Technology" : 0.055909,
+      "FUND-Utilities" : 0.055909
+    },
+    "endUtility" : 2.1380719092569627,
+    "improvement" : 0.14263050057999904
+  }, {
+    "epoch" : 9,
+    "startWeights" : {
+      "FUND-CommServices" : 0.440909,
+      "FUND-ConsumerDisc" : 0.055909,
+      "FUND-ConsumerStap" : 0.055909,
+      "FUND-Energy" : 0.055909,
+      "FUND-Financials" : 0.055909,
+      "FUND-HealthCare" : 0.055909,
+      "FUND-Industrials" : 0.055909,
+      "FUND-Materials" : 0.055909,
+      "FUND-RealEstate" : 0.055909,
+      "FUND-Technology" : 0.055909,
+      "FUND-Utilities" : 0.055909
+    },
+    "startUtility" : 2.1380719092569627,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 9,
+    "temperature" : 0.03151247048623045,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.490909,
+        "FUND-ConsumerDisc" : 0.050909,
+        "FUND-ConsumerStap" : 0.050909,
+        "FUND-Energy" : 0.050909,
+        "FUND-Financials" : 0.050909,
+        "FUND-HealthCare" : 0.050909,
+        "FUND-Industrials" : 0.050909,
+        "FUND-Materials" : 0.050909,
+        "FUND-RealEstate" : 0.050909,
+        "FUND-Technology" : 0.050909,
+        "FUND-Utilities" : 0.050909
+      },
+      "utility" : 2.2783339274072,
+      "sharpe" : 2.0102973051949733,
+      "score" : 2.2783339274072,
+      "delta" : 0.1402620181502372
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.105909,
+        "FUND-ConsumerStap" : 0.052948,
+        "FUND-Energy" : 0.052948,
+        "FUND-Financials" : 0.052948,
+        "FUND-HealthCare" : 0.052948,
+        "FUND-Industrials" : 0.052948,
+        "FUND-Materials" : 0.052948,
+        "FUND-RealEstate" : 0.052948,
+        "FUND-Technology" : 0.052948,
+        "FUND-Utilities" : 0.052948
+      },
+      "utility" : 2.0746713891454336,
+      "sharpe" : 2.085874752914474,
+      "score" : 2.0746713891454336,
+      "delta" : -0.06340052011152908
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.052948,
+        "FUND-ConsumerStap" : 0.105909,
+        "FUND-Energy" : 0.052948,
+        "FUND-Financials" : 0.052948,
+        "FUND-HealthCare" : 0.052948,
+        "FUND-Industrials" : 0.052948,
+        "FUND-Materials" : 0.052948,
+        "FUND-RealEstate" : 0.052948,
+        "FUND-Technology" : 0.052948,
+        "FUND-Utilities" : 0.052948
+      },
+      "utility" : 2.060934418290154,
+      "sharpe" : 2.079818116106628,
+      "score" : 2.060934418290154,
+      "delta" : -0.07713749096680855
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.052948,
+        "FUND-ConsumerStap" : 0.052948,
+        "FUND-Energy" : 0.105909,
+        "FUND-Financials" : 0.052948,
+        "FUND-HealthCare" : 0.052948,
+        "FUND-Industrials" : 0.052948,
+        "FUND-Materials" : 0.052948,
+        "FUND-RealEstate" : 0.052948,
+        "FUND-Technology" : 0.052948,
+        "FUND-Utilities" : 0.052948
+      },
+      "utility" : 2.0509099091710223,
+      "sharpe" : 2.0560434769801104,
+      "score" : 2.0509099091710223,
+      "delta" : -0.08716200008594033
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.052948,
+        "FUND-ConsumerStap" : 0.052948,
+        "FUND-Energy" : 0.052948,
+        "FUND-Financials" : 0.105909,
+        "FUND-HealthCare" : 0.052948,
+        "FUND-Industrials" : 0.052948,
+        "FUND-Materials" : 0.052948,
+        "FUND-RealEstate" : 0.052948,
+        "FUND-Technology" : 0.052948,
+        "FUND-Utilities" : 0.052948
+      },
+      "utility" : 2.056903997112719,
+      "sharpe" : 2.055660049558292,
+      "score" : 2.056903997112719,
+      "delta" : -0.08116791214424346
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.052948,
+        "FUND-ConsumerStap" : 0.052948,
+        "FUND-Energy" : 0.052948,
+        "FUND-Financials" : 0.052948,
+        "FUND-HealthCare" : 0.105909,
+        "FUND-Industrials" : 0.052948,
+        "FUND-Materials" : 0.052948,
+        "FUND-RealEstate" : 0.052948,
+        "FUND-Technology" : 0.052948,
+        "FUND-Utilities" : 0.052948
+      },
+      "utility" : 2.059936158146854,
+      "sharpe" : 2.0786467396304427,
+      "score" : 2.059936158146854,
+      "delta" : -0.07813575111010884
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.052948,
+        "FUND-ConsumerStap" : 0.052948,
+        "FUND-Energy" : 0.052948,
+        "FUND-Financials" : 0.052948,
+        "FUND-HealthCare" : 0.052948,
+        "FUND-Industrials" : 0.105909,
+        "FUND-Materials" : 0.052948,
+        "FUND-RealEstate" : 0.052948,
+        "FUND-Technology" : 0.052948,
+        "FUND-Utilities" : 0.052948
+      },
+      "utility" : 2.0988687232453005,
+      "sharpe" : 2.120447679355023,
+      "score" : 2.0988687232453005,
+      "delta" : -0.03920318601166217
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.052948,
+        "FUND-ConsumerStap" : 0.052948,
+        "FUND-Energy" : 0.052948,
+        "FUND-Financials" : 0.052948,
+        "FUND-HealthCare" : 0.052948,
+        "FUND-Industrials" : 0.052948,
+        "FUND-Materials" : 0.105909,
+        "FUND-RealEstate" : 0.052948,
+        "FUND-Technology" : 0.052948,
+        "FUND-Utilities" : 0.052948
+      },
+      "utility" : 2.063045979449258,
+      "sharpe" : 2.0675107231329832,
+      "score" : 2.063045979449258,
+      "delta" : -0.07502592980770473
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.052948,
+        "FUND-ConsumerStap" : 0.052948,
+        "FUND-Energy" : 0.052948,
+        "FUND-Financials" : 0.052948,
+        "FUND-HealthCare" : 0.052948,
+        "FUND-Industrials" : 0.052948,
+        "FUND-Materials" : 0.052948,
+        "FUND-RealEstate" : 0.105909,
+        "FUND-Technology" : 0.052948,
+        "FUND-Utilities" : 0.052948
+      },
+      "utility" : 2.063336402361439,
+      "sharpe" : 2.0819983737956798,
+      "score" : 2.063336402361439,
+      "delta" : -0.07473550689552377
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.052948,
+        "FUND-ConsumerStap" : 0.052948,
+        "FUND-Energy" : 0.052948,
+        "FUND-Financials" : 0.052948,
+        "FUND-HealthCare" : 0.052948,
+        "FUND-Industrials" : 0.052948,
+        "FUND-Materials" : 0.052948,
+        "FUND-RealEstate" : 0.052948,
+        "FUND-Technology" : 0.105909,
+        "FUND-Utilities" : 0.052948
+      },
+      "utility" : 2.1059301952739418,
+      "sharpe" : 2.129820336976319,
+      "score" : 2.1059301952739418,
+      "delta" : -0.0321417139830209
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.417558,
+        "FUND-ConsumerDisc" : 0.052948,
+        "FUND-ConsumerStap" : 0.052948,
+        "FUND-Energy" : 0.052948,
+        "FUND-Financials" : 0.052948,
+        "FUND-HealthCare" : 0.052948,
+        "FUND-Industrials" : 0.052948,
+        "FUND-Materials" : 0.052948,
+        "FUND-RealEstate" : 0.052948,
+        "FUND-Technology" : 0.052948,
+        "FUND-Utilities" : 0.105909
+      },
+      "utility" : 2.079659103050828,
+      "sharpe" : 2.0772606047583926,
+      "score" : 2.079659103050828,
+      "delta" : -0.05841280620613487
+    } ],
+    "winner" : "Epoch 9",
+    "endWeights" : {
+      "FUND-CommServices" : 0.490909,
+      "FUND-ConsumerDisc" : 0.050909,
+      "FUND-ConsumerStap" : 0.050909,
+      "FUND-Energy" : 0.050909,
+      "FUND-Financials" : 0.050909,
+      "FUND-HealthCare" : 0.050909,
+      "FUND-Industrials" : 0.050909,
+      "FUND-Materials" : 0.050909,
+      "FUND-RealEstate" : 0.050909,
+      "FUND-Technology" : 0.050909,
+      "FUND-Utilities" : 0.050909
+    },
+    "endUtility" : 2.2783339274072,
+    "improvement" : 0.1402620181502372
+  }, {
+    "epoch" : 10,
+    "startWeights" : {
+      "FUND-CommServices" : 0.490909,
+      "FUND-ConsumerDisc" : 0.050909,
+      "FUND-ConsumerStap" : 0.050909,
+      "FUND-Energy" : 0.050909,
+      "FUND-Financials" : 0.050909,
+      "FUND-HealthCare" : 0.050909,
+      "FUND-Industrials" : 0.050909,
+      "FUND-Materials" : 0.050909,
+      "FUND-RealEstate" : 0.050909,
+      "FUND-Technology" : 0.050909,
+      "FUND-Utilities" : 0.050909
+    },
+    "startUtility" : 2.2783339274072,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 10,
+    "temperature" : 0.029936846961918936,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.540909,
+        "FUND-ConsumerDisc" : 0.045909,
+        "FUND-ConsumerStap" : 0.045909,
+        "FUND-Energy" : 0.045909,
+        "FUND-Financials" : 0.045909,
+        "FUND-HealthCare" : 0.045909,
+        "FUND-Industrials" : 0.045909,
+        "FUND-Materials" : 0.045909,
+        "FUND-RealEstate" : 0.045909,
+        "FUND-Technology" : 0.045909,
+        "FUND-Utilities" : 0.045909
+      },
+      "utility" : 2.4164135332427694,
+      "sharpe" : 1.9631587507671169,
+      "score" : 2.4164135332427694,
+      "delta" : 0.13807960583556955
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.100909,
+        "FUND-ConsumerStap" : 0.048227,
+        "FUND-Energy" : 0.048227,
+        "FUND-Financials" : 0.048227,
+        "FUND-HealthCare" : 0.048227,
+        "FUND-Industrials" : 0.048227,
+        "FUND-Materials" : 0.048227,
+        "FUND-RealEstate" : 0.048227,
+        "FUND-Technology" : 0.048227,
+        "FUND-Utilities" : 0.048227
+      },
+      "utility" : 2.208960200921718,
+      "sharpe" : 2.036792635621203,
+      "score" : 2.208960200921718,
+      "delta" : -0.06937372648548168
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.048227,
+        "FUND-ConsumerStap" : 0.100909,
+        "FUND-Energy" : 0.048227,
+        "FUND-Financials" : 0.048227,
+        "FUND-HealthCare" : 0.048227,
+        "FUND-Industrials" : 0.048227,
+        "FUND-Materials" : 0.048227,
+        "FUND-RealEstate" : 0.048227,
+        "FUND-Technology" : 0.048227,
+        "FUND-Utilities" : 0.048227
+      },
+      "utility" : 2.195313575796166,
+      "sharpe" : 2.0300747237539865,
+      "score" : 2.195313575796166,
+      "delta" : -0.08302035161103394
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.048227,
+        "FUND-ConsumerStap" : 0.048227,
+        "FUND-Energy" : 0.100909,
+        "FUND-Financials" : 0.048227,
+        "FUND-HealthCare" : 0.048227,
+        "FUND-Industrials" : 0.048227,
+        "FUND-Materials" : 0.048227,
+        "FUND-RealEstate" : 0.048227,
+        "FUND-Technology" : 0.048227,
+        "FUND-Utilities" : 0.048227
+      },
+      "utility" : 2.185201709577601,
+      "sharpe" : 2.0076498800738025,
+      "score" : 2.185201709577601,
+      "delta" : -0.09313221782959902
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.048227,
+        "FUND-ConsumerStap" : 0.048227,
+        "FUND-Energy" : 0.048227,
+        "FUND-Financials" : 0.100909,
+        "FUND-HealthCare" : 0.048227,
+        "FUND-Industrials" : 0.048227,
+        "FUND-Materials" : 0.048227,
+        "FUND-RealEstate" : 0.048227,
+        "FUND-Technology" : 0.048227,
+        "FUND-Utilities" : 0.048227
+      },
+      "utility" : 2.1911525467500272,
+      "sharpe" : 2.006862624805581,
+      "score" : 2.1911525467500272,
+      "delta" : -0.08718138065717262
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.048227,
+        "FUND-ConsumerStap" : 0.048227,
+        "FUND-Energy" : 0.048227,
+        "FUND-Financials" : 0.048227,
+        "FUND-HealthCare" : 0.100909,
+        "FUND-Industrials" : 0.048227,
+        "FUND-Materials" : 0.048227,
+        "FUND-RealEstate" : 0.048227,
+        "FUND-Technology" : 0.048227,
+        "FUND-Utilities" : 0.048227
+      },
+      "utility" : 2.19438649844195,
+      "sharpe" : 2.028625027701327,
+      "score" : 2.19438649844195,
+      "delta" : -0.08394742896524976
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.048227,
+        "FUND-ConsumerStap" : 0.048227,
+        "FUND-Energy" : 0.048227,
+        "FUND-Financials" : 0.048227,
+        "FUND-HealthCare" : 0.048227,
+        "FUND-Industrials" : 0.100909,
+        "FUND-Materials" : 0.048227,
+        "FUND-RealEstate" : 0.048227,
+        "FUND-Technology" : 0.048227,
+        "FUND-Utilities" : 0.048227
+      },
+      "utility" : 2.2330845145850473,
+      "sharpe" : 2.0701787359464046,
+      "score" : 2.2330845145850473,
+      "delta" : -0.04524941282215256
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.048227,
+        "FUND-ConsumerStap" : 0.048227,
+        "FUND-Energy" : 0.048227,
+        "FUND-Financials" : 0.048227,
+        "FUND-HealthCare" : 0.048227,
+        "FUND-Industrials" : 0.048227,
+        "FUND-Materials" : 0.100909,
+        "FUND-RealEstate" : 0.048227,
+        "FUND-Technology" : 0.048227,
+        "FUND-Utilities" : 0.048227
+      },
+      "utility" : 2.197215382390338,
+      "sharpe" : 2.0180415225408583,
+      "score" : 2.197215382390338,
+      "delta" : -0.08111854501686189
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.048227,
+        "FUND-ConsumerStap" : 0.048227,
+        "FUND-Energy" : 0.048227,
+        "FUND-Financials" : 0.048227,
+        "FUND-HealthCare" : 0.048227,
+        "FUND-Industrials" : 0.048227,
+        "FUND-Materials" : 0.048227,
+        "FUND-RealEstate" : 0.100909,
+        "FUND-Technology" : 0.048227,
+        "FUND-Utilities" : 0.048227
+      },
+      "utility" : 2.197726185396222,
+      "sharpe" : 2.0321604905862514,
+      "score" : 2.197726185396222,
+      "delta" : -0.08060774201097765
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.048227,
+        "FUND-ConsumerStap" : 0.048227,
+        "FUND-Energy" : 0.048227,
+        "FUND-Financials" : 0.048227,
+        "FUND-HealthCare" : 0.048227,
+        "FUND-Industrials" : 0.048227,
+        "FUND-Materials" : 0.048227,
+        "FUND-RealEstate" : 0.048227,
+        "FUND-Technology" : 0.100909,
+        "FUND-Utilities" : 0.048227
+      },
+      "utility" : 2.2401415685434083,
+      "sharpe" : 2.07942605574053,
+      "score" : 2.2401415685434083,
+      "delta" : -0.038192358863791576
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.465047,
+        "FUND-ConsumerDisc" : 0.048227,
+        "FUND-ConsumerStap" : 0.048227,
+        "FUND-Energy" : 0.048227,
+        "FUND-Financials" : 0.048227,
+        "FUND-HealthCare" : 0.048227,
+        "FUND-Industrials" : 0.048227,
+        "FUND-Materials" : 0.048227,
+        "FUND-RealEstate" : 0.048227,
+        "FUND-Technology" : 0.048227,
+        "FUND-Utilities" : 0.100909
+      },
+      "utility" : 2.213838976817545,
+      "sharpe" : 2.028104312436173,
+      "score" : 2.213838976817545,
+      "delta" : -0.06449495058965482
+    } ],
+    "winner" : "Epoch 10",
+    "endWeights" : {
+      "FUND-CommServices" : 0.540909,
+      "FUND-ConsumerDisc" : 0.045909,
+      "FUND-ConsumerStap" : 0.045909,
+      "FUND-Energy" : 0.045909,
+      "FUND-Financials" : 0.045909,
+      "FUND-HealthCare" : 0.045909,
+      "FUND-Industrials" : 0.045909,
+      "FUND-Materials" : 0.045909,
+      "FUND-RealEstate" : 0.045909,
+      "FUND-Technology" : 0.045909,
+      "FUND-Utilities" : 0.045909
+    },
+    "endUtility" : 2.4164135332427694,
+    "improvement" : 0.13807960583556955
+  }, {
+    "epoch" : 11,
+    "startWeights" : {
+      "FUND-CommServices" : 0.540909,
+      "FUND-ConsumerDisc" : 0.045909,
+      "FUND-ConsumerStap" : 0.045909,
+      "FUND-Energy" : 0.045909,
+      "FUND-Financials" : 0.045909,
+      "FUND-HealthCare" : 0.045909,
+      "FUND-Industrials" : 0.045909,
+      "FUND-Materials" : 0.045909,
+      "FUND-RealEstate" : 0.045909,
+      "FUND-Technology" : 0.045909,
+      "FUND-Utilities" : 0.045909
+    },
+    "startUtility" : 2.4164135332427694,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 11,
+    "temperature" : 0.028440004613822983,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.590909,
+        "FUND-ConsumerDisc" : 0.040909,
+        "FUND-ConsumerStap" : 0.040909,
+        "FUND-Energy" : 0.040909,
+        "FUND-Financials" : 0.040909,
+        "FUND-HealthCare" : 0.040909,
+        "FUND-Industrials" : 0.040909,
+        "FUND-Materials" : 0.040909,
+        "FUND-RealEstate" : 0.040909,
+        "FUND-Technology" : 0.040909,
+        "FUND-Utilities" : 0.040909
+      },
+      "utility" : 2.5524249249744466,
+      "sharpe" : 1.9182512364599893,
+      "score" : 2.5524249249744466,
+      "delta" : 0.1360113917316772
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.095909,
+        "FUND-ConsumerStap" : 0.043503,
+        "FUND-Energy" : 0.043503,
+        "FUND-Financials" : 0.043503,
+        "FUND-HealthCare" : 0.043503,
+        "FUND-Industrials" : 0.043503,
+        "FUND-Materials" : 0.043503,
+        "FUND-RealEstate" : 0.043503,
+        "FUND-Technology" : 0.043503,
+        "FUND-Utilities" : 0.043503
+      },
+      "utility" : 2.3412729393196114,
+      "sharpe" : 1.9908996689602627,
+      "score" : 2.3412729393196114,
+      "delta" : -0.07514059392315797
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.043503,
+        "FUND-ConsumerStap" : 0.095909,
+        "FUND-Energy" : 0.043503,
+        "FUND-Financials" : 0.043503,
+        "FUND-HealthCare" : 0.043503,
+        "FUND-Industrials" : 0.043503,
+        "FUND-Materials" : 0.043503,
+        "FUND-RealEstate" : 0.043503,
+        "FUND-Technology" : 0.043503,
+        "FUND-Utilities" : 0.043503
+      },
+      "utility" : 2.3277338915464423,
+      "sharpe" : 1.9836763284059538,
+      "score" : 2.3277338915464423,
+      "delta" : -0.08867964169632714
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.043503,
+        "FUND-ConsumerStap" : 0.043503,
+        "FUND-Energy" : 0.095909,
+        "FUND-Financials" : 0.043503,
+        "FUND-HealthCare" : 0.043503,
+        "FUND-Industrials" : 0.043503,
+        "FUND-Materials" : 0.043503,
+        "FUND-RealEstate" : 0.043503,
+        "FUND-Technology" : 0.043503,
+        "FUND-Utilities" : 0.043503
+      },
+      "utility" : 2.3175035835246325,
+      "sharpe" : 1.9624121288824987,
+      "score" : 2.3175035835246325,
+      "delta" : -0.09890994971813694
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.043503,
+        "FUND-ConsumerStap" : 0.043503,
+        "FUND-Energy" : 0.043503,
+        "FUND-Financials" : 0.095909,
+        "FUND-HealthCare" : 0.043503,
+        "FUND-Industrials" : 0.043503,
+        "FUND-Materials" : 0.043503,
+        "FUND-RealEstate" : 0.043503,
+        "FUND-Technology" : 0.043503,
+        "FUND-Utilities" : 0.043503
+      },
+      "utility" : 2.323401057829157,
+      "sharpe" : 1.9612346535491716,
+      "score" : 2.323401057829157,
+      "delta" : -0.09301247541361235
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.043503,
+        "FUND-ConsumerStap" : 0.043503,
+        "FUND-Energy" : 0.043503,
+        "FUND-Financials" : 0.043503,
+        "FUND-HealthCare" : 0.095909,
+        "FUND-Industrials" : 0.043503,
+        "FUND-Materials" : 0.043503,
+        "FUND-RealEstate" : 0.043503,
+        "FUND-Technology" : 0.043503,
+        "FUND-Utilities" : 0.043503
+      },
+      "utility" : 2.3268463696436976,
+      "sharpe" : 1.9819631179566362,
+      "score" : 2.3268463696436976,
+      "delta" : -0.0895671635990718
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.043503,
+        "FUND-ConsumerStap" : 0.043503,
+        "FUND-Energy" : 0.043503,
+        "FUND-Financials" : 0.043503,
+        "FUND-HealthCare" : 0.043503,
+        "FUND-Industrials" : 0.095909,
+        "FUND-Materials" : 0.043503,
+        "FUND-RealEstate" : 0.043503,
+        "FUND-Technology" : 0.043503,
+        "FUND-Utilities" : 0.043503
+      },
+      "utility" : 2.3653741585147086,
+      "sharpe" : 2.0233920540626893,
+      "score" : 2.3653741585147086,
+      "delta" : -0.05103937472806086
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.043503,
+        "FUND-ConsumerStap" : 0.043503,
+        "FUND-Energy" : 0.043503,
+        "FUND-Financials" : 0.043503,
+        "FUND-HealthCare" : 0.043503,
+        "FUND-Industrials" : 0.043503,
+        "FUND-Materials" : 0.095909,
+        "FUND-RealEstate" : 0.043503,
+        "FUND-Technology" : 0.043503,
+        "FUND-Utilities" : 0.043503
+      },
+      "utility" : 2.329418153716164,
+      "sharpe" : 1.9718882389365273,
+      "score" : 2.329418153716164,
+      "delta" : -0.08699537952660563
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.043503,
+        "FUND-ConsumerStap" : 0.043503,
+        "FUND-Energy" : 0.043503,
+        "FUND-Financials" : 0.043503,
+        "FUND-HealthCare" : 0.043503,
+        "FUND-Industrials" : 0.043503,
+        "FUND-Materials" : 0.043503,
+        "FUND-RealEstate" : 0.095909,
+        "FUND-Technology" : 0.043503,
+        "FUND-Utilities" : 0.043503
+      },
+      "utility" : 2.3301041237475726,
+      "sharpe" : 1.9856511926327198,
+      "score" : 2.3301041237475726,
+      "delta" : -0.08630940949519683
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.043503,
+        "FUND-ConsumerStap" : 0.043503,
+        "FUND-Energy" : 0.043503,
+        "FUND-Financials" : 0.043503,
+        "FUND-HealthCare" : 0.043503,
+        "FUND-Industrials" : 0.043503,
+        "FUND-Materials" : 0.043503,
+        "FUND-RealEstate" : 0.043503,
+        "FUND-Technology" : 0.095909,
+        "FUND-Utilities" : 0.043503
+      },
+      "utility" : 2.3724084055746535,
+      "sharpe" : 2.0324434556082362,
+      "score" : 2.3724084055746535,
+      "delta" : -0.04400512766811593
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.512562,
+        "FUND-ConsumerDisc" : 0.043503,
+        "FUND-ConsumerStap" : 0.043503,
+        "FUND-Energy" : 0.043503,
+        "FUND-Financials" : 0.043503,
+        "FUND-HealthCare" : 0.043503,
+        "FUND-Industrials" : 0.043503,
+        "FUND-Materials" : 0.043503,
+        "FUND-RealEstate" : 0.043503,
+        "FUND-Technology" : 0.043503,
+        "FUND-Utilities" : 0.095909
+      },
+      "utility" : 2.3460655614769803,
+      "sharpe" : 1.982167340909362,
+      "score" : 2.3460655614769803,
+      "delta" : -0.07034797176578911
+    } ],
+    "winner" : "Epoch 11",
+    "endWeights" : {
+      "FUND-CommServices" : 0.590909,
+      "FUND-ConsumerDisc" : 0.040909,
+      "FUND-ConsumerStap" : 0.040909,
+      "FUND-Energy" : 0.040909,
+      "FUND-Financials" : 0.040909,
+      "FUND-HealthCare" : 0.040909,
+      "FUND-Industrials" : 0.040909,
+      "FUND-Materials" : 0.040909,
+      "FUND-RealEstate" : 0.040909,
+      "FUND-Technology" : 0.040909,
+      "FUND-Utilities" : 0.040909
+    },
+    "endUtility" : 2.5524249249744466,
+    "improvement" : 0.1360113917316772
+  }, {
+    "epoch" : 12,
+    "startWeights" : {
+      "FUND-CommServices" : 0.590909,
+      "FUND-ConsumerDisc" : 0.040909,
+      "FUND-ConsumerStap" : 0.040909,
+      "FUND-Energy" : 0.040909,
+      "FUND-Financials" : 0.040909,
+      "FUND-HealthCare" : 0.040909,
+      "FUND-Industrials" : 0.040909,
+      "FUND-Materials" : 0.040909,
+      "FUND-RealEstate" : 0.040909,
+      "FUND-Technology" : 0.040909,
+      "FUND-Utilities" : 0.040909
+    },
+    "startUtility" : 2.5524249249744466,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 12,
+    "temperature" : 0.027018004383131834,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.640909,
+        "FUND-ConsumerDisc" : 0.035909,
+        "FUND-ConsumerStap" : 0.035909,
+        "FUND-Energy" : 0.035909,
+        "FUND-Financials" : 0.035909,
+        "FUND-HealthCare" : 0.035909,
+        "FUND-Industrials" : 0.035909,
+        "FUND-Materials" : 0.035909,
+        "FUND-RealEstate" : 0.035909,
+        "FUND-Technology" : 0.035909,
+        "FUND-Utilities" : 0.035909
+      },
+      "utility" : 2.686414651905925,
+      "sharpe" : 1.8749012737525175,
+      "score" : 2.686414651905925,
+      "delta" : 0.13398972693147826
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.090909,
+        "FUND-ConsumerStap" : 0.038776,
+        "FUND-Energy" : 0.038776,
+        "FUND-Financials" : 0.038776,
+        "FUND-HealthCare" : 0.038776,
+        "FUND-Industrials" : 0.038776,
+        "FUND-Materials" : 0.038776,
+        "FUND-RealEstate" : 0.038776,
+        "FUND-Technology" : 0.038776,
+        "FUND-Utilities" : 0.038776
+      },
+      "utility" : 2.471696047496326,
+      "sharpe" : 1.9473199826806478,
+      "score" : 2.471696047496326,
+      "delta" : -0.08072887747812052
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.038776,
+        "FUND-ConsumerStap" : 0.090909,
+        "FUND-Energy" : 0.038776,
+        "FUND-Financials" : 0.038776,
+        "FUND-HealthCare" : 0.038776,
+        "FUND-Industrials" : 0.038776,
+        "FUND-Materials" : 0.038776,
+        "FUND-RealEstate" : 0.038776,
+        "FUND-Technology" : 0.038776,
+        "FUND-Utilities" : 0.038776
+      },
+      "utility" : 2.4582591320656566,
+      "sharpe" : 1.939707614155959,
+      "score" : 2.4582591320656566,
+      "delta" : -0.09416579290879001
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.038776,
+        "FUND-ConsumerStap" : 0.038776,
+        "FUND-Energy" : 0.090909,
+        "FUND-Financials" : 0.038776,
+        "FUND-HealthCare" : 0.038776,
+        "FUND-Industrials" : 0.038776,
+        "FUND-Materials" : 0.038776,
+        "FUND-RealEstate" : 0.038776,
+        "FUND-Technology" : 0.038776,
+        "FUND-Utilities" : 0.038776
+      },
+      "utility" : 2.4479497231060083,
+      "sharpe" : 1.9194538294501522,
+      "score" : 2.4479497231060083,
+      "delta" : -0.10447520186843828
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.038776,
+        "FUND-ConsumerStap" : 0.038776,
+        "FUND-Energy" : 0.038776,
+        "FUND-Financials" : 0.090909,
+        "FUND-HealthCare" : 0.038776,
+        "FUND-Industrials" : 0.038776,
+        "FUND-Materials" : 0.038776,
+        "FUND-RealEstate" : 0.038776,
+        "FUND-Technology" : 0.038776,
+        "FUND-Utilities" : 0.038776
+      },
+      "utility" : 2.453741704780988,
+      "sharpe" : 1.917895151410877,
+      "score" : 2.453741704780988,
+      "delta" : -0.09868322019345843
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.038776,
+        "FUND-ConsumerStap" : 0.038776,
+        "FUND-Energy" : 0.038776,
+        "FUND-Financials" : 0.038776,
+        "FUND-HealthCare" : 0.090909,
+        "FUND-Industrials" : 0.038776,
+        "FUND-Materials" : 0.038776,
+        "FUND-RealEstate" : 0.038776,
+        "FUND-Technology" : 0.038776,
+        "FUND-Utilities" : 0.038776
+      },
+      "utility" : 2.45744340342577,
+      "sharpe" : 1.9377347541263965,
+      "score" : 2.45744340342577,
+      "delta" : -0.09498152154867645
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.038776,
+        "FUND-ConsumerStap" : 0.038776,
+        "FUND-Energy" : 0.038776,
+        "FUND-Financials" : 0.038776,
+        "FUND-HealthCare" : 0.038776,
+        "FUND-Industrials" : 0.090909,
+        "FUND-Materials" : 0.038776,
+        "FUND-RealEstate" : 0.038776,
+        "FUND-Technology" : 0.038776,
+        "FUND-Utilities" : 0.038776
+      },
+      "utility" : 2.4958527644201136,
+      "sharpe" : 1.979169102118104,
+      "score" : 2.4958527644201136,
+      "delta" : -0.056572160554333006
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.038776,
+        "FUND-ConsumerStap" : 0.038776,
+        "FUND-Energy" : 0.038776,
+        "FUND-Financials" : 0.038776,
+        "FUND-HealthCare" : 0.038776,
+        "FUND-Industrials" : 0.038776,
+        "FUND-Materials" : 0.090909,
+        "FUND-RealEstate" : 0.038776,
+        "FUND-Technology" : 0.038776,
+        "FUND-Utilities" : 0.038776
+      },
+      "utility" : 2.4597542417836045,
+      "sharpe" : 1.9281399727625474,
+      "score" : 2.4597542417836045,
+      "delta" : -0.09267068319084215
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.038776,
+        "FUND-ConsumerStap" : 0.038776,
+        "FUND-Energy" : 0.038776,
+        "FUND-Financials" : 0.038776,
+        "FUND-HealthCare" : 0.038776,
+        "FUND-Industrials" : 0.038776,
+        "FUND-Materials" : 0.038776,
+        "FUND-RealEstate" : 0.090909,
+        "FUND-Technology" : 0.038776,
+        "FUND-Utilities" : 0.038776
+      },
+      "utility" : 2.4606432398909375,
+      "sharpe" : 1.9415564108598173,
+      "score" : 2.4606432398909375,
+      "delta" : -0.09178168508350915
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.038776,
+        "FUND-ConsumerStap" : 0.038776,
+        "FUND-Energy" : 0.038776,
+        "FUND-Financials" : 0.038776,
+        "FUND-HealthCare" : 0.038776,
+        "FUND-Industrials" : 0.038776,
+        "FUND-Materials" : 0.038776,
+        "FUND-RealEstate" : 0.038776,
+        "FUND-Technology" : 0.090909,
+        "FUND-Utilities" : 0.038776
+      },
+      "utility" : 2.5028230971304333,
+      "sharpe" : 1.9879665179105401,
+      "score" : 2.5028230971304333,
+      "delta" : -0.049601827844013346
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.560103,
+        "FUND-ConsumerDisc" : 0.038776,
+        "FUND-ConsumerStap" : 0.038776,
+        "FUND-Energy" : 0.038776,
+        "FUND-Financials" : 0.038776,
+        "FUND-HealthCare" : 0.038776,
+        "FUND-Industrials" : 0.038776,
+        "FUND-Materials" : 0.038776,
+        "FUND-RealEstate" : 0.038776,
+        "FUND-Technology" : 0.038776,
+        "FUND-Utilities" : 0.090909
+      },
+      "utility" : 2.4764311272918023,
+      "sharpe" : 1.938580637936108,
+      "score" : 2.4764311272918023,
+      "delta" : -0.07599379768264436
+    } ],
+    "winner" : "Epoch 12",
+    "endWeights" : {
+      "FUND-CommServices" : 0.640909,
+      "FUND-ConsumerDisc" : 0.035909,
+      "FUND-ConsumerStap" : 0.035909,
+      "FUND-Energy" : 0.035909,
+      "FUND-Financials" : 0.035909,
+      "FUND-HealthCare" : 0.035909,
+      "FUND-Industrials" : 0.035909,
+      "FUND-Materials" : 0.035909,
+      "FUND-RealEstate" : 0.035909,
+      "FUND-Technology" : 0.035909,
+      "FUND-Utilities" : 0.035909
+    },
+    "endUtility" : 2.686414651905925,
+    "improvement" : 0.13398972693147826
+  }, {
+    "epoch" : 13,
+    "startWeights" : {
+      "FUND-CommServices" : 0.640909,
+      "FUND-ConsumerDisc" : 0.035909,
+      "FUND-ConsumerStap" : 0.035909,
+      "FUND-Energy" : 0.035909,
+      "FUND-Financials" : 0.035909,
+      "FUND-HealthCare" : 0.035909,
+      "FUND-Industrials" : 0.035909,
+      "FUND-Materials" : 0.035909,
+      "FUND-RealEstate" : 0.035909,
+      "FUND-Technology" : 0.035909,
+      "FUND-Utilities" : 0.035909
+    },
+    "startUtility" : 2.686414651905925,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 13,
+    "temperature" : 0.025667104163975243,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.690909,
+        "FUND-ConsumerDisc" : 0.030909,
+        "FUND-ConsumerStap" : 0.030909,
+        "FUND-Energy" : 0.030909,
+        "FUND-Financials" : 0.030909,
+        "FUND-HealthCare" : 0.030909,
+        "FUND-Industrials" : 0.030909,
+        "FUND-Materials" : 0.030909,
+        "FUND-RealEstate" : 0.030909,
+        "FUND-Technology" : 0.030909,
+        "FUND-Utilities" : 0.030909
+      },
+      "utility" : 2.818442678933788,
+      "sharpe" : 1.8325782664292511,
+      "score" : 2.818442678933788,
+      "delta" : 0.1320280270278631
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.085909,
+        "FUND-ConsumerStap" : 0.034047,
+        "FUND-Energy" : 0.034047,
+        "FUND-Financials" : 0.034047,
+        "FUND-HealthCare" : 0.034047,
+        "FUND-Industrials" : 0.034047,
+        "FUND-Materials" : 0.034047,
+        "FUND-RealEstate" : 0.034047,
+        "FUND-Technology" : 0.034047,
+        "FUND-Utilities" : 0.034047
+      },
+      "utility" : 2.6002812247108134,
+      "sharpe" : 1.9053957416553138,
+      "score" : 2.6002812247108134,
+      "delta" : -0.08613342719511152
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.034047,
+        "FUND-ConsumerStap" : 0.085909,
+        "FUND-Energy" : 0.034047,
+        "FUND-Financials" : 0.034047,
+        "FUND-HealthCare" : 0.034047,
+        "FUND-Industrials" : 0.034047,
+        "FUND-Materials" : 0.034047,
+        "FUND-RealEstate" : 0.034047,
+        "FUND-Technology" : 0.034047,
+        "FUND-Utilities" : 0.034047
+      },
+      "utility" : 2.5869867930463157,
+      "sharpe" : 1.8974841316683286,
+      "score" : 2.5869867930463157,
+      "delta" : -0.09942785885960914
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.034047,
+        "FUND-ConsumerStap" : 0.034047,
+        "FUND-Energy" : 0.085909,
+        "FUND-Financials" : 0.034047,
+        "FUND-HealthCare" : 0.034047,
+        "FUND-Industrials" : 0.034047,
+        "FUND-Materials" : 0.034047,
+        "FUND-RealEstate" : 0.034047,
+        "FUND-Technology" : 0.034047,
+        "FUND-Utilities" : 0.034047
+      },
+      "utility" : 2.576609197446176,
+      "sharpe" : 1.8781188699629294,
+      "score" : 2.576609197446176,
+      "delta" : -0.1098054544597491
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.034047,
+        "FUND-ConsumerStap" : 0.034047,
+        "FUND-Energy" : 0.034047,
+        "FUND-Financials" : 0.085909,
+        "FUND-HealthCare" : 0.034047,
+        "FUND-Industrials" : 0.034047,
+        "FUND-Materials" : 0.034047,
+        "FUND-RealEstate" : 0.034047,
+        "FUND-Technology" : 0.034047,
+        "FUND-Utilities" : 0.034047
+      },
+      "utility" : 2.5822684414335972,
+      "sharpe" : 1.8761833594803814,
+      "score" : 2.5822684414335972,
+      "delta" : -0.10414621047232764
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.034047,
+        "FUND-ConsumerStap" : 0.034047,
+        "FUND-Energy" : 0.034047,
+        "FUND-Financials" : 0.034047,
+        "FUND-HealthCare" : 0.085909,
+        "FUND-Industrials" : 0.034047,
+        "FUND-Materials" : 0.034047,
+        "FUND-RealEstate" : 0.034047,
+        "FUND-Technology" : 0.034047,
+        "FUND-Utilities" : 0.034047
+      },
+      "utility" : 2.5861832836275984,
+      "sharpe" : 1.895246467676033,
+      "score" : 2.5861832836275984,
+      "delta" : -0.10023136827832646
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.034047,
+        "FUND-ConsumerStap" : 0.034047,
+        "FUND-Energy" : 0.034047,
+        "FUND-Financials" : 0.034047,
+        "FUND-HealthCare" : 0.034047,
+        "FUND-Industrials" : 0.085909,
+        "FUND-Materials" : 0.034047,
+        "FUND-RealEstate" : 0.034047,
+        "FUND-Technology" : 0.034047,
+        "FUND-Utilities" : 0.034047
+      },
+      "utility" : 2.6246177556430017,
+      "sharpe" : 1.9368242315033761,
+      "score" : 2.6246177556430017,
+      "delta" : -0.06179689626292317
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.034047,
+        "FUND-ConsumerStap" : 0.034047,
+        "FUND-Energy" : 0.034047,
+        "FUND-Financials" : 0.034047,
+        "FUND-HealthCare" : 0.034047,
+        "FUND-Industrials" : 0.034047,
+        "FUND-Materials" : 0.085909,
+        "FUND-RealEstate" : 0.034047,
+        "FUND-Technology" : 0.034047,
+        "FUND-Utilities" : 0.034047
+      },
+      "utility" : 2.5882989876469167,
+      "sharpe" : 1.8861157709014587,
+      "score" : 2.5882989876469167,
+      "delta" : -0.0981156642590082
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.034047,
+        "FUND-ConsumerStap" : 0.034047,
+        "FUND-Energy" : 0.034047,
+        "FUND-Financials" : 0.034047,
+        "FUND-HealthCare" : 0.034047,
+        "FUND-Industrials" : 0.034047,
+        "FUND-Materials" : 0.034047,
+        "FUND-RealEstate" : 0.085909,
+        "FUND-Technology" : 0.034047,
+        "FUND-Utilities" : 0.034047
+      },
+      "utility" : 2.5893991720292684,
+      "sharpe" : 1.8991915447636882,
+      "score" : 2.5893991720292684,
+      "delta" : -0.09701547987665649
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.034047,
+        "FUND-ConsumerStap" : 0.034047,
+        "FUND-Energy" : 0.034047,
+        "FUND-Financials" : 0.034047,
+        "FUND-HealthCare" : 0.034047,
+        "FUND-Industrials" : 0.034047,
+        "FUND-Materials" : 0.034047,
+        "FUND-RealEstate" : 0.034047,
+        "FUND-Technology" : 0.085909,
+        "FUND-Utilities" : 0.034047
+      },
+      "utility" : 2.6314561920556088,
+      "sharpe" : 1.945316311877527,
+      "score" : 2.6314561920556088,
+      "delta" : -0.05495845985031611
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.60767,
+        "FUND-ConsumerDisc" : 0.034047,
+        "FUND-ConsumerStap" : 0.034047,
+        "FUND-Energy" : 0.034047,
+        "FUND-Financials" : 0.034047,
+        "FUND-HealthCare" : 0.034047,
+        "FUND-Industrials" : 0.034047,
+        "FUND-Materials" : 0.034047,
+        "FUND-RealEstate" : 0.034047,
+        "FUND-Technology" : 0.034047,
+        "FUND-Utilities" : 0.085909
+      },
+      "utility" : 2.6050087248749403,
+      "sharpe" : 1.8966919982514692,
+      "score" : 2.6050087248749403,
+      "delta" : -0.08140592703098459
+    } ],
+    "winner" : "Epoch 13",
+    "endWeights" : {
+      "FUND-CommServices" : 0.690909,
+      "FUND-ConsumerDisc" : 0.030909,
+      "FUND-ConsumerStap" : 0.030909,
+      "FUND-Energy" : 0.030909,
+      "FUND-Financials" : 0.030909,
+      "FUND-HealthCare" : 0.030909,
+      "FUND-Industrials" : 0.030909,
+      "FUND-Materials" : 0.030909,
+      "FUND-RealEstate" : 0.030909,
+      "FUND-Technology" : 0.030909,
+      "FUND-Utilities" : 0.030909
+    },
+    "endUtility" : 2.818442678933788,
+    "improvement" : 0.1320280270278631
+  }, {
+    "epoch" : 14,
+    "startWeights" : {
+      "FUND-CommServices" : 0.690909,
+      "FUND-ConsumerDisc" : 0.030909,
+      "FUND-ConsumerStap" : 0.030909,
+      "FUND-Energy" : 0.030909,
+      "FUND-Financials" : 0.030909,
+      "FUND-HealthCare" : 0.030909,
+      "FUND-Industrials" : 0.030909,
+      "FUND-Materials" : 0.030909,
+      "FUND-RealEstate" : 0.030909,
+      "FUND-Technology" : 0.030909,
+      "FUND-Utilities" : 0.030909
+    },
+    "startUtility" : 2.818442678933788,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 14,
+    "temperature" : 0.02438374895577648,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.740909,
+        "FUND-ConsumerDisc" : 0.025909,
+        "FUND-ConsumerStap" : 0.025909,
+        "FUND-Energy" : 0.025909,
+        "FUND-Financials" : 0.025909,
+        "FUND-HealthCare" : 0.025909,
+        "FUND-Industrials" : 0.025909,
+        "FUND-Materials" : 0.025909,
+        "FUND-RealEstate" : 0.025909,
+        "FUND-Technology" : 0.025909,
+        "FUND-Utilities" : 0.025909
+      },
+      "utility" : 2.9484840399572736,
+      "sharpe" : 1.790844137454256,
+      "score" : 2.9484840399572736,
+      "delta" : 0.13004136102348562
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.080909,
+        "FUND-ConsumerStap" : 0.029314,
+        "FUND-Energy" : 0.029314,
+        "FUND-Financials" : 0.029314,
+        "FUND-HealthCare" : 0.029314,
+        "FUND-Industrials" : 0.029314,
+        "FUND-Materials" : 0.029314,
+        "FUND-RealEstate" : 0.029314,
+        "FUND-Technology" : 0.029314,
+        "FUND-Utilities" : 0.029314
+      },
+      "utility" : 2.7271094247911383,
+      "sharpe" : 1.864612684536308,
+      "score" : 2.7271094247911383,
+      "delta" : -0.0913332541426497
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.029314,
+        "FUND-ConsumerStap" : 0.080909,
+        "FUND-Energy" : 0.029314,
+        "FUND-Financials" : 0.029314,
+        "FUND-HealthCare" : 0.029314,
+        "FUND-Industrials" : 0.029314,
+        "FUND-Materials" : 0.029314,
+        "FUND-RealEstate" : 0.029314,
+        "FUND-Technology" : 0.029314,
+        "FUND-Utilities" : 0.029314
+      },
+      "utility" : 2.713969610415204,
+      "sharpe" : 1.8564731447023572,
+      "score" : 2.713969610415204,
+      "delta" : -0.10447306851858418
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.029314,
+        "FUND-ConsumerStap" : 0.029314,
+        "FUND-Energy" : 0.080909,
+        "FUND-Financials" : 0.029314,
+        "FUND-HealthCare" : 0.029314,
+        "FUND-Industrials" : 0.029314,
+        "FUND-Materials" : 0.029314,
+        "FUND-RealEstate" : 0.029314,
+        "FUND-Technology" : 0.029314,
+        "FUND-Utilities" : 0.029314
+      },
+      "utility" : 2.7035447147912834,
+      "sharpe" : 1.8378956964741642,
+      "score" : 2.7035447147912834,
+      "delta" : -0.11489796414250453
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.029314,
+        "FUND-ConsumerStap" : 0.029314,
+        "FUND-Energy" : 0.029314,
+        "FUND-Financials" : 0.080909,
+        "FUND-HealthCare" : 0.029314,
+        "FUND-Industrials" : 0.029314,
+        "FUND-Materials" : 0.029314,
+        "FUND-RealEstate" : 0.029314,
+        "FUND-Technology" : 0.029314,
+        "FUND-Utilities" : 0.029314
+      },
+      "utility" : 2.7090231320244884,
+      "sharpe" : 1.835582985829724,
+      "score" : 2.7090231320244884,
+      "delta" : -0.10941954690929956
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.029314,
+        "FUND-ConsumerStap" : 0.029314,
+        "FUND-Energy" : 0.029314,
+        "FUND-Financials" : 0.029314,
+        "FUND-HealthCare" : 0.080909,
+        "FUND-Industrials" : 0.029314,
+        "FUND-Materials" : 0.029314,
+        "FUND-RealEstate" : 0.029314,
+        "FUND-Technology" : 0.029314,
+        "FUND-Utilities" : 0.029314
+      },
+      "utility" : 2.713179523432359,
+      "sharpe" : 1.8539572189187494,
+      "score" : 2.713179523432359,
+      "delta" : -0.10526315550142895
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.029314,
+        "FUND-ConsumerStap" : 0.029314,
+        "FUND-Energy" : 0.029314,
+        "FUND-Financials" : 0.029314,
+        "FUND-HealthCare" : 0.029314,
+        "FUND-Industrials" : 0.080909,
+        "FUND-Materials" : 0.029314,
+        "FUND-RealEstate" : 0.029314,
+        "FUND-Technology" : 0.029314,
+        "FUND-Utilities" : 0.029314
+      },
+      "utility" : 2.7517615070621204,
+      "sharpe" : 1.8958264785649261,
+      "score" : 2.7517615070621204,
+      "delta" : -0.06668117187166755
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.029314,
+        "FUND-ConsumerStap" : 0.029314,
+        "FUND-Energy" : 0.029314,
+        "FUND-Financials" : 0.029314,
+        "FUND-HealthCare" : 0.029314,
+        "FUND-Industrials" : 0.029314,
+        "FUND-Materials" : 0.080909,
+        "FUND-RealEstate" : 0.029314,
+        "FUND-Technology" : 0.029314,
+        "FUND-Utilities" : 0.029314
+      },
+      "utility" : 2.7151028873479466,
+      "sharpe" : 1.8452857997382754,
+      "score" : 2.7151028873479466,
+      "delta" : -0.10333979158584139
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.029314,
+        "FUND-ConsumerStap" : 0.029314,
+        "FUND-Energy" : 0.029314,
+        "FUND-Financials" : 0.029314,
+        "FUND-HealthCare" : 0.029314,
+        "FUND-Industrials" : 0.029314,
+        "FUND-Materials" : 0.029314,
+        "FUND-RealEstate" : 0.080909,
+        "FUND-Technology" : 0.029314,
+        "FUND-Utilities" : 0.029314
+      },
+      "utility" : 2.7163972810717727,
+      "sharpe" : 1.858022561317679,
+      "score" : 2.7163972810717727,
+      "delta" : -0.10204539786201527
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.029314,
+        "FUND-ConsumerStap" : 0.029314,
+        "FUND-Energy" : 0.029314,
+        "FUND-Financials" : 0.029314,
+        "FUND-HealthCare" : 0.029314,
+        "FUND-Industrials" : 0.029314,
+        "FUND-Materials" : 0.029314,
+        "FUND-RealEstate" : 0.029314,
+        "FUND-Technology" : 0.080909,
+        "FUND-Utilities" : 0.029314
+      },
+      "utility" : 2.758350358757902,
+      "sharpe" : 1.9039645390711482,
+      "score" : 2.758350358757902,
+      "delta" : -0.06009232017588584
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.655262,
+        "FUND-ConsumerDisc" : 0.029314,
+        "FUND-ConsumerStap" : 0.029314,
+        "FUND-Energy" : 0.029314,
+        "FUND-Financials" : 0.029314,
+        "FUND-HealthCare" : 0.029314,
+        "FUND-Industrials" : 0.029314,
+        "FUND-Materials" : 0.029314,
+        "FUND-RealEstate" : 0.029314,
+        "FUND-Technology" : 0.029314,
+        "FUND-Utilities" : 0.080909
+      },
+      "utility" : 2.7318299571105356,
+      "sharpe" : 1.85599276124795,
+      "score" : 2.7318299571105356,
+      "delta" : -0.08661272182325241
+    } ],
+    "winner" : "Epoch 14",
+    "endWeights" : {
+      "FUND-CommServices" : 0.740909,
+      "FUND-ConsumerDisc" : 0.025909,
+      "FUND-ConsumerStap" : 0.025909,
+      "FUND-Energy" : 0.025909,
+      "FUND-Financials" : 0.025909,
+      "FUND-HealthCare" : 0.025909,
+      "FUND-Industrials" : 0.025909,
+      "FUND-Materials" : 0.025909,
+      "FUND-RealEstate" : 0.025909,
+      "FUND-Technology" : 0.025909,
+      "FUND-Utilities" : 0.025909
+    },
+    "endUtility" : 2.9484840399572736,
+    "improvement" : 0.13004136102348562
+  }, {
+    "epoch" : 15,
+    "startWeights" : {
+      "FUND-CommServices" : 0.740909,
+      "FUND-ConsumerDisc" : 0.025909,
+      "FUND-ConsumerStap" : 0.025909,
+      "FUND-Energy" : 0.025909,
+      "FUND-Financials" : 0.025909,
+      "FUND-HealthCare" : 0.025909,
+      "FUND-Industrials" : 0.025909,
+      "FUND-Materials" : 0.025909,
+      "FUND-RealEstate" : 0.025909,
+      "FUND-Technology" : 0.025909,
+      "FUND-Utilities" : 0.025909
+    },
+    "startUtility" : 2.9484840399572736,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 15,
+    "temperature" : 0.023164561507987652,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.790909,
+        "FUND-ConsumerDisc" : 0.020909,
+        "FUND-ConsumerStap" : 0.020909,
+        "FUND-Energy" : 0.020909,
+        "FUND-Financials" : 0.020909,
+        "FUND-HealthCare" : 0.020909,
+        "FUND-Industrials" : 0.020909,
+        "FUND-Materials" : 0.020909,
+        "FUND-RealEstate" : 0.020909,
+        "FUND-Technology" : 0.020909,
+        "FUND-Utilities" : 0.020909
+      },
+      "utility" : 3.076438383540703,
+      "sharpe" : 1.7493179785573068,
+      "score" : 3.076438383540703,
+      "delta" : 0.1279543435834296
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.075909,
+        "FUND-ConsumerStap" : 0.024579,
+        "FUND-Energy" : 0.024579,
+        "FUND-Financials" : 0.024579,
+        "FUND-HealthCare" : 0.024579,
+        "FUND-Industrials" : 0.024579,
+        "FUND-Materials" : 0.024579,
+        "FUND-RealEstate" : 0.024579,
+        "FUND-Technology" : 0.024579,
+        "FUND-Utilities" : 0.024579
+      },
+      "utility" : 2.8522123744475545,
+      "sharpe" : 1.824551690972919,
+      "score" : 2.8522123744475545,
+      "delta" : -0.0962716655097191
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.024579,
+        "FUND-ConsumerStap" : 0.075909,
+        "FUND-Energy" : 0.024579,
+        "FUND-Financials" : 0.024579,
+        "FUND-HealthCare" : 0.024579,
+        "FUND-Industrials" : 0.024579,
+        "FUND-Materials" : 0.024579,
+        "FUND-RealEstate" : 0.024579,
+        "FUND-Technology" : 0.024579,
+        "FUND-Utilities" : 0.024579
+      },
+      "utility" : 2.839148248969564,
+      "sharpe" : 1.8162424244933,
+      "score" : 2.839148248969564,
+      "delta" : -0.10933579098770974
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.024579,
+        "FUND-ConsumerStap" : 0.024579,
+        "FUND-Energy" : 0.075909,
+        "FUND-Financials" : 0.024579,
+        "FUND-HealthCare" : 0.024579,
+        "FUND-Industrials" : 0.024579,
+        "FUND-Materials" : 0.024579,
+        "FUND-RealEstate" : 0.024579,
+        "FUND-Technology" : 0.024579,
+        "FUND-Utilities" : 0.024579
+      },
+      "utility" : 2.828730938649906,
+      "sharpe" : 1.7983682641308394,
+      "score" : 2.828730938649906,
+      "delta" : -0.1197531013073676
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.024579,
+        "FUND-ConsumerStap" : 0.024579,
+        "FUND-Energy" : 0.024579,
+        "FUND-Financials" : 0.075909,
+        "FUND-HealthCare" : 0.024579,
+        "FUND-Industrials" : 0.024579,
+        "FUND-Materials" : 0.024579,
+        "FUND-RealEstate" : 0.024579,
+        "FUND-Technology" : 0.024579,
+        "FUND-Utilities" : 0.024579
+      },
+      "utility" : 2.8339942761791934,
+      "sharpe" : 1.7956730089692856,
+      "score" : 2.8339942761791934,
+      "delta" : -0.11448976377808018
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.024579,
+        "FUND-ConsumerStap" : 0.024579,
+        "FUND-Energy" : 0.024579,
+        "FUND-Financials" : 0.024579,
+        "FUND-HealthCare" : 0.075909,
+        "FUND-Industrials" : 0.024579,
+        "FUND-Materials" : 0.024579,
+        "FUND-RealEstate" : 0.024579,
+        "FUND-Technology" : 0.024579,
+        "FUND-Utilities" : 0.024579
+      },
+      "utility" : 2.8383914750676897,
+      "sharpe" : 1.8134262619525494,
+      "score" : 2.8383914750676897,
+      "delta" : -0.11009256488958385
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.024579,
+        "FUND-ConsumerStap" : 0.024579,
+        "FUND-Energy" : 0.024579,
+        "FUND-Financials" : 0.024579,
+        "FUND-HealthCare" : 0.024579,
+        "FUND-Industrials" : 0.075909,
+        "FUND-Materials" : 0.024579,
+        "FUND-RealEstate" : 0.024579,
+        "FUND-Technology" : 0.024579,
+        "FUND-Utilities" : 0.024579
+      },
+      "utility" : 2.877221545000225,
+      "sharpe" : 1.8557491134693769,
+      "score" : 2.877221545000225,
+      "delta" : -0.07126249495704862
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.024579,
+        "FUND-ConsumerStap" : 0.024579,
+        "FUND-Energy" : 0.024579,
+        "FUND-Financials" : 0.024579,
+        "FUND-HealthCare" : 0.024579,
+        "FUND-Industrials" : 0.024579,
+        "FUND-Materials" : 0.075909,
+        "FUND-RealEstate" : 0.024579,
+        "FUND-Technology" : 0.024579,
+        "FUND-Utilities" : 0.024579
+      },
+      "utility" : 2.8401188172348584,
+      "sharpe" : 1.8052203774355915,
+      "score" : 2.8401188172348584,
+      "delta" : -0.10836522272241522
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.024579,
+        "FUND-ConsumerStap" : 0.024579,
+        "FUND-Energy" : 0.024579,
+        "FUND-Financials" : 0.024579,
+        "FUND-HealthCare" : 0.024579,
+        "FUND-Industrials" : 0.024579,
+        "FUND-Materials" : 0.024579,
+        "FUND-RealEstate" : 0.075909,
+        "FUND-Technology" : 0.024579,
+        "FUND-Utilities" : 0.024579
+      },
+      "utility" : 2.8416822676418536,
+      "sharpe" : 1.8176148181546956,
+      "score" : 2.8416822676418536,
+      "delta" : -0.10680177231541998
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.024579,
+        "FUND-ConsumerStap" : 0.024579,
+        "FUND-Energy" : 0.024579,
+        "FUND-Financials" : 0.024579,
+        "FUND-HealthCare" : 0.024579,
+        "FUND-Industrials" : 0.024579,
+        "FUND-Materials" : 0.024579,
+        "FUND-RealEstate" : 0.024579,
+        "FUND-Technology" : 0.075909,
+        "FUND-Utilities" : 0.024579
+      },
+      "utility" : 2.883616358227939,
+      "sharpe" : 1.8634839470672417,
+      "score" : 2.883616358227939,
+      "delta" : -0.06486768172933477
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.702878,
+        "FUND-ConsumerDisc" : 0.024579,
+        "FUND-ConsumerStap" : 0.024579,
+        "FUND-Energy" : 0.024579,
+        "FUND-Financials" : 0.024579,
+        "FUND-HealthCare" : 0.024579,
+        "FUND-Industrials" : 0.024579,
+        "FUND-Materials" : 0.024579,
+        "FUND-RealEstate" : 0.024579,
+        "FUND-Technology" : 0.024579,
+        "FUND-Utilities" : 0.075909
+      },
+      "utility" : 2.8569669321207773,
+      "sharpe" : 1.8160702333621235,
+      "score" : 2.8569669321207773,
+      "delta" : -0.09151710783649625
+    } ],
+    "winner" : "Epoch 15",
+    "endWeights" : {
+      "FUND-CommServices" : 0.790909,
+      "FUND-ConsumerDisc" : 0.020909,
+      "FUND-ConsumerStap" : 0.020909,
+      "FUND-Energy" : 0.020909,
+      "FUND-Financials" : 0.020909,
+      "FUND-HealthCare" : 0.020909,
+      "FUND-Industrials" : 0.020909,
+      "FUND-Materials" : 0.020909,
+      "FUND-RealEstate" : 0.020909,
+      "FUND-Technology" : 0.020909,
+      "FUND-Utilities" : 0.020909
+    },
+    "endUtility" : 3.076438383540703,
+    "improvement" : 0.1279543435834296
+  }, {
+    "epoch" : 16,
+    "startWeights" : {
+      "FUND-CommServices" : 0.790909,
+      "FUND-ConsumerDisc" : 0.020909,
+      "FUND-ConsumerStap" : 0.020909,
+      "FUND-Energy" : 0.020909,
+      "FUND-Financials" : 0.020909,
+      "FUND-HealthCare" : 0.020909,
+      "FUND-Industrials" : 0.020909,
+      "FUND-Materials" : 0.020909,
+      "FUND-RealEstate" : 0.020909,
+      "FUND-Technology" : 0.020909,
+      "FUND-Utilities" : 0.020909
+    },
+    "startUtility" : 3.076438383540703,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 16,
+    "temperature" : 0.02200633343258827,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.840909,
+        "FUND-ConsumerDisc" : 0.015909,
+        "FUND-ConsumerStap" : 0.015909,
+        "FUND-Energy" : 0.015909,
+        "FUND-Financials" : 0.015909,
+        "FUND-HealthCare" : 0.015909,
+        "FUND-Industrials" : 0.015909,
+        "FUND-Materials" : 0.015909,
+        "FUND-RealEstate" : 0.015909,
+        "FUND-Technology" : 0.015909,
+        "FUND-Utilities" : 0.015909
+      },
+      "utility" : 3.2022823076918425,
+      "sharpe" : 1.7076487514100678,
+      "score" : 3.2022823076918425,
+      "delta" : 0.12584392415113932
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.070909,
+        "FUND-ConsumerStap" : 0.019841,
+        "FUND-Energy" : 0.019841,
+        "FUND-Financials" : 0.019841,
+        "FUND-HealthCare" : 0.019841,
+        "FUND-Industrials" : 0.019841,
+        "FUND-Materials" : 0.019841,
+        "FUND-RealEstate" : 0.019841,
+        "FUND-Technology" : 0.019841,
+        "FUND-Utilities" : 0.019841
+      },
+      "utility" : 2.9755349205535775,
+      "sharpe" : 1.7848553999812433,
+      "score" : 2.9755349205535775,
+      "delta" : -0.10090346298712571
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.019841,
+        "FUND-ConsumerStap" : 0.070909,
+        "FUND-Energy" : 0.019841,
+        "FUND-Financials" : 0.019841,
+        "FUND-HealthCare" : 0.019841,
+        "FUND-Industrials" : 0.019841,
+        "FUND-Materials" : 0.019841,
+        "FUND-RealEstate" : 0.019841,
+        "FUND-Technology" : 0.019841,
+        "FUND-Utilities" : 0.019841
+      },
+      "utility" : 2.9624664565072365,
+      "sharpe" : 1.7764251536635398,
+      "score" : 2.9624664565072365,
+      "delta" : -0.1139719270334667
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.019841,
+        "FUND-ConsumerStap" : 0.019841,
+        "FUND-Energy" : 0.070909,
+        "FUND-Financials" : 0.019841,
+        "FUND-HealthCare" : 0.019841,
+        "FUND-Industrials" : 0.019841,
+        "FUND-Materials" : 0.019841,
+        "FUND-RealEstate" : 0.019841,
+        "FUND-Technology" : 0.019841,
+        "FUND-Utilities" : 0.019841
+      },
+      "utility" : 2.952071284621419,
+      "sharpe" : 1.759182345498387,
+      "score" : 2.952071284621419,
+      "delta" : -0.12436709891928421
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.019841,
+        "FUND-ConsumerStap" : 0.019841,
+        "FUND-Energy" : 0.019841,
+        "FUND-Financials" : 0.070909,
+        "FUND-HealthCare" : 0.019841,
+        "FUND-Industrials" : 0.019841,
+        "FUND-Materials" : 0.019841,
+        "FUND-RealEstate" : 0.019841,
+        "FUND-Technology" : 0.019841,
+        "FUND-Utilities" : 0.019841
+      },
+      "utility" : 2.957178733110071,
+      "sharpe" : 1.7560937543294903,
+      "score" : 2.957178733110071,
+      "delta" : -0.11925965043063202
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.019841,
+        "FUND-ConsumerStap" : 0.019841,
+        "FUND-Energy" : 0.019841,
+        "FUND-Financials" : 0.019841,
+        "FUND-HealthCare" : 0.070909,
+        "FUND-Industrials" : 0.019841,
+        "FUND-Materials" : 0.019841,
+        "FUND-RealEstate" : 0.019841,
+        "FUND-Technology" : 0.019841,
+        "FUND-Utilities" : 0.019841
+      },
+      "utility" : 2.961781805118238,
+      "sharpe" : 1.7732771556180442,
+      "score" : 2.961781805118238,
+      "delta" : -0.11465657842246513
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.019841,
+        "FUND-ConsumerStap" : 0.019841,
+        "FUND-Energy" : 0.019841,
+        "FUND-Financials" : 0.019841,
+        "FUND-HealthCare" : 0.019841,
+        "FUND-Industrials" : 0.070909,
+        "FUND-Materials" : 0.019841,
+        "FUND-RealEstate" : 0.019841,
+        "FUND-Technology" : 0.019841,
+        "FUND-Utilities" : 0.019841
+      },
+      "utility" : 3.001014735921086,
+      "sharpe" : 1.8162354503009375,
+      "score" : 3.001014735921086,
+      "delta" : -0.07542364761961728
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.019841,
+        "FUND-ConsumerStap" : 0.019841,
+        "FUND-Energy" : 0.019841,
+        "FUND-Financials" : 0.019841,
+        "FUND-HealthCare" : 0.019841,
+        "FUND-Industrials" : 0.019841,
+        "FUND-Materials" : 0.070909,
+        "FUND-RealEstate" : 0.019841,
+        "FUND-Technology" : 0.019841,
+        "FUND-Utilities" : 0.019841
+      },
+      "utility" : 2.963325039726015,
+      "sharpe" : 1.7655550797706452,
+      "score" : 2.963325039726015,
+      "delta" : -0.11311334381468807
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.019841,
+        "FUND-ConsumerStap" : 0.019841,
+        "FUND-Energy" : 0.019841,
+        "FUND-Financials" : 0.019841,
+        "FUND-HealthCare" : 0.019841,
+        "FUND-Industrials" : 0.019841,
+        "FUND-Materials" : 0.019841,
+        "FUND-RealEstate" : 0.070909,
+        "FUND-Technology" : 0.019841,
+        "FUND-Utilities" : 0.019841
+      },
+      "utility" : 2.965128113059944,
+      "sharpe" : 1.7775978096435197,
+      "score" : 2.965128113059944,
+      "delta" : -0.11131027048075914
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.019841,
+        "FUND-ConsumerStap" : 0.019841,
+        "FUND-Energy" : 0.019841,
+        "FUND-Financials" : 0.019841,
+        "FUND-HealthCare" : 0.019841,
+        "FUND-Industrials" : 0.019841,
+        "FUND-Materials" : 0.019841,
+        "FUND-RealEstate" : 0.019841,
+        "FUND-Technology" : 0.070909,
+        "FUND-Utilities" : 0.019841
+      },
+      "utility" : 3.00724061044349,
+      "sharpe" : 1.8235144416978248,
+      "score" : 3.00724061044349,
+      "delta" : -0.06919777309721331
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.750519,
+        "FUND-ConsumerDisc" : 0.019841,
+        "FUND-ConsumerStap" : 0.019841,
+        "FUND-Energy" : 0.019841,
+        "FUND-Financials" : 0.019841,
+        "FUND-HealthCare" : 0.019841,
+        "FUND-Industrials" : 0.019841,
+        "FUND-Materials" : 0.019841,
+        "FUND-RealEstate" : 0.019841,
+        "FUND-Technology" : 0.019841,
+        "FUND-Utilities" : 0.070909
+      },
+      "utility" : 2.980403383551079,
+      "sharpe" : 1.7765751093863167,
+      "score" : 2.980403383551079,
+      "delta" : -0.09603499998962439
+    } ],
+    "winner" : "Epoch 16",
+    "endWeights" : {
+      "FUND-CommServices" : 0.840909,
+      "FUND-ConsumerDisc" : 0.015909,
+      "FUND-ConsumerStap" : 0.015909,
+      "FUND-Energy" : 0.015909,
+      "FUND-Financials" : 0.015909,
+      "FUND-HealthCare" : 0.015909,
+      "FUND-Industrials" : 0.015909,
+      "FUND-Materials" : 0.015909,
+      "FUND-RealEstate" : 0.015909,
+      "FUND-Technology" : 0.015909,
+      "FUND-Utilities" : 0.015909
+    },
+    "endUtility" : 3.2022823076918425,
+    "improvement" : 0.12584392415113932
+  }, {
+    "epoch" : 17,
+    "startWeights" : {
+      "FUND-CommServices" : 0.840909,
+      "FUND-ConsumerDisc" : 0.015909,
+      "FUND-ConsumerStap" : 0.015909,
+      "FUND-Energy" : 0.015909,
+      "FUND-Financials" : 0.015909,
+      "FUND-HealthCare" : 0.015909,
+      "FUND-Industrials" : 0.015909,
+      "FUND-Materials" : 0.015909,
+      "FUND-RealEstate" : 0.015909,
+      "FUND-Technology" : 0.015909,
+      "FUND-Utilities" : 0.015909
+    },
+    "startUtility" : 3.2022823076918425,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 17,
+    "temperature" : 0.020906016760958854,
+    "feasibleCount" : 11,
+    "variants" : [ {
+      "symbol" : "FUND-CommServices",
+      "weights" : {
+        "FUND-CommServices" : 0.890909,
+        "FUND-ConsumerDisc" : 0.010909,
+        "FUND-ConsumerStap" : 0.010909,
+        "FUND-Energy" : 0.010909,
+        "FUND-Financials" : 0.010909,
+        "FUND-HealthCare" : 0.010909,
+        "FUND-Industrials" : 0.010909,
+        "FUND-Materials" : 0.010909,
+        "FUND-RealEstate" : 0.010909,
+        "FUND-Technology" : 0.010909,
+        "FUND-Utilities" : 0.010909
+      },
+      "utility" : 3.3260222720545745,
+      "sharpe" : 1.6654911289734406,
+      "score" : 3.3260222720545745,
+      "delta" : 0.12373996436273194
+    }, {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.065909,
+        "FUND-ConsumerStap" : 0.015101,
+        "FUND-Energy" : 0.015101,
+        "FUND-Financials" : 0.015101,
+        "FUND-HealthCare" : 0.015101,
+        "FUND-Industrials" : 0.015101,
+        "FUND-Materials" : 0.015101,
+        "FUND-RealEstate" : 0.015101,
+        "FUND-Technology" : 0.015101,
+        "FUND-Utilities" : 0.015101
+      },
+      "utility" : 3.0970020311124418,
+      "sharpe" : 1.745203432671642,
+      "score" : 3.0970020311124418,
+      "delta" : -0.10528027657940076
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.015101,
+        "FUND-ConsumerStap" : 0.065909,
+        "FUND-Energy" : 0.015101,
+        "FUND-Financials" : 0.015101,
+        "FUND-HealthCare" : 0.015101,
+        "FUND-Industrials" : 0.015101,
+        "FUND-Materials" : 0.015101,
+        "FUND-RealEstate" : 0.015101,
+        "FUND-Technology" : 0.015101,
+        "FUND-Utilities" : 0.015101
+      },
+      "utility" : 3.0838777903270342,
+      "sharpe" : 1.736694034795336,
+      "score" : 3.0838777903270342,
+      "delta" : -0.11840451736480828
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.015101,
+        "FUND-ConsumerStap" : 0.015101,
+        "FUND-Energy" : 0.065909,
+        "FUND-Financials" : 0.015101,
+        "FUND-HealthCare" : 0.015101,
+        "FUND-Industrials" : 0.015101,
+        "FUND-Materials" : 0.015101,
+        "FUND-RealEstate" : 0.015101,
+        "FUND-Technology" : 0.015101,
+        "FUND-Utilities" : 0.015101
+      },
+      "utility" : 3.0734918347464175,
+      "sharpe" : 1.7200205776339126,
+      "score" : 3.0734918347464175,
+      "delta" : -0.128790472945425
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.015101,
+        "FUND-ConsumerStap" : 0.015101,
+        "FUND-Energy" : 0.015101,
+        "FUND-Financials" : 0.065909,
+        "FUND-HealthCare" : 0.015101,
+        "FUND-Industrials" : 0.015101,
+        "FUND-Materials" : 0.015101,
+        "FUND-RealEstate" : 0.015101,
+        "FUND-Technology" : 0.015101,
+        "FUND-Utilities" : 0.015101
+      },
+      "utility" : 3.078444199050682,
+      "sharpe" : 1.7165216128949765,
+      "score" : 3.078444199050682,
+      "delta" : -0.12383810864116063
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.015101,
+        "FUND-ConsumerStap" : 0.015101,
+        "FUND-Energy" : 0.015101,
+        "FUND-Financials" : 0.015101,
+        "FUND-HealthCare" : 0.065909,
+        "FUND-Industrials" : 0.015101,
+        "FUND-Materials" : 0.015101,
+        "FUND-RealEstate" : 0.015101,
+        "FUND-Technology" : 0.015101,
+        "FUND-Utilities" : 0.015101
+      },
+      "utility" : 3.0832976681957387,
+      "sharpe" : 1.7331708061951514,
+      "score" : 3.0832976681957387,
+      "delta" : -0.11898463949610383
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.015101,
+        "FUND-ConsumerStap" : 0.015101,
+        "FUND-Energy" : 0.015101,
+        "FUND-Financials" : 0.015101,
+        "FUND-HealthCare" : 0.015101,
+        "FUND-Industrials" : 0.065909,
+        "FUND-Materials" : 0.015101,
+        "FUND-RealEstate" : 0.015101,
+        "FUND-Technology" : 0.015101,
+        "FUND-Utilities" : 0.015101
+      },
+      "utility" : 3.123109007290089,
+      "sharpe" : 1.7769742992092523,
+      "score" : 3.123109007290089,
+      "delta" : -0.07917330040175363
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.015101,
+        "FUND-ConsumerStap" : 0.015101,
+        "FUND-Energy" : 0.015101,
+        "FUND-Financials" : 0.015101,
+        "FUND-HealthCare" : 0.015101,
+        "FUND-Industrials" : 0.015101,
+        "FUND-Materials" : 0.065909,
+        "FUND-RealEstate" : 0.015101,
+        "FUND-Technology" : 0.015101,
+        "FUND-Utilities" : 0.015101
+      },
+      "utility" : 3.0845794447681514,
+      "sharpe" : 1.7259650566099494,
+      "score" : 3.0845794447681514,
+      "delta" : -0.11770286292369114
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.015101,
+        "FUND-ConsumerStap" : 0.015101,
+        "FUND-Energy" : 0.015101,
+        "FUND-Financials" : 0.015101,
+        "FUND-HealthCare" : 0.015101,
+        "FUND-Industrials" : 0.015101,
+        "FUND-Materials" : 0.015101,
+        "FUND-RealEstate" : 0.065909,
+        "FUND-Technology" : 0.015101,
+        "FUND-Utilities" : 0.015101
+      },
+      "utility" : 3.0866988980820675,
+      "sharpe" : 1.7376389053729577,
+      "score" : 3.0866988980820675,
+      "delta" : -0.11558340960977498
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.015101,
+        "FUND-ConsumerStap" : 0.015101,
+        "FUND-Energy" : 0.015101,
+        "FUND-Financials" : 0.015101,
+        "FUND-HealthCare" : 0.015101,
+        "FUND-Industrials" : 0.015101,
+        "FUND-Materials" : 0.015101,
+        "FUND-RealEstate" : 0.015101,
+        "FUND-Technology" : 0.065909,
+        "FUND-Utilities" : 0.015101
+      },
+      "utility" : 3.1291875879548154,
+      "sharpe" : 1.7837383929638289,
+      "score" : 3.1291875879548154,
+      "delta" : -0.07309471973702708
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.798184,
+        "FUND-ConsumerDisc" : 0.015101,
+        "FUND-ConsumerStap" : 0.015101,
+        "FUND-Energy" : 0.015101,
+        "FUND-Financials" : 0.015101,
+        "FUND-HealthCare" : 0.015101,
+        "FUND-Industrials" : 0.015101,
+        "FUND-Materials" : 0.015101,
+        "FUND-RealEstate" : 0.015101,
+        "FUND-Technology" : 0.015101,
+        "FUND-Utilities" : 0.065909
+      },
+      "utility" : 3.102145493132513,
+      "sharpe" : 1.737197642348478,
+      "score" : 3.102145493132513,
+      "delta" : -0.10013681455932932
+    } ],
+    "winner" : "Epoch 17",
+    "endWeights" : {
+      "FUND-CommServices" : 0.890909,
+      "FUND-ConsumerDisc" : 0.010909,
+      "FUND-ConsumerStap" : 0.010909,
+      "FUND-Energy" : 0.010909,
+      "FUND-Financials" : 0.010909,
+      "FUND-HealthCare" : 0.010909,
+      "FUND-Industrials" : 0.010909,
+      "FUND-Materials" : 0.010909,
+      "FUND-RealEstate" : 0.010909,
+      "FUND-Technology" : 0.010909,
+      "FUND-Utilities" : 0.010909
+    },
+    "endUtility" : 3.3260222720545745,
+    "improvement" : 0.12373996436273194
+  }, {
+    "epoch" : 18,
+    "startWeights" : {
+      "FUND-CommServices" : 0.890909,
+      "FUND-ConsumerDisc" : 0.010909,
+      "FUND-ConsumerStap" : 0.010909,
+      "FUND-Energy" : 0.010909,
+      "FUND-Financials" : 0.010909,
+      "FUND-HealthCare" : 0.010909,
+      "FUND-Industrials" : 0.010909,
+      "FUND-Materials" : 0.010909,
+      "FUND-RealEstate" : 0.010909,
+      "FUND-Technology" : 0.010909,
+      "FUND-Utilities" : 0.010909
+    },
+    "startUtility" : 3.3260222720545745,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 18,
+    "temperature" : 0.019860715922910912,
+    "feasibleCount" : 10,
+    "variants" : [ {
+      "symbol" : "FUND-ConsumerDisc",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.060909,
+        "FUND-ConsumerStap" : 0.010358,
+        "FUND-Energy" : 0.010358,
+        "FUND-Financials" : 0.010358,
+        "FUND-HealthCare" : 0.010358,
+        "FUND-Industrials" : 0.010358,
+        "FUND-Materials" : 0.010358,
+        "FUND-RealEstate" : 0.010358,
+        "FUND-Technology" : 0.010358,
+        "FUND-Utilities" : 0.010358
+      },
+      "utility" : 3.216610851833794,
+      "sharpe" : 1.7052920017126552,
+      "score" : 3.216610851833794,
+      "delta" : -0.10941142022078054
+    }, {
+      "symbol" : "FUND-ConsumerStap",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.010358,
+        "FUND-ConsumerStap" : 0.060909,
+        "FUND-Energy" : 0.010358,
+        "FUND-Financials" : 0.010358,
+        "FUND-HealthCare" : 0.010358,
+        "FUND-Industrials" : 0.010358,
+        "FUND-Materials" : 0.010358,
+        "FUND-RealEstate" : 0.010358,
+        "FUND-Technology" : 0.010358,
+        "FUND-Utilities" : 0.010358
+      },
+      "utility" : 3.2034036807125674,
+      "sharpe" : 1.6967401172093621,
+      "score" : 3.2034036807125674,
+      "delta" : -0.12261859134200703
+    }, {
+      "symbol" : "FUND-Energy",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.010358,
+        "FUND-ConsumerStap" : 0.010358,
+        "FUND-Energy" : 0.060909,
+        "FUND-Financials" : 0.010358,
+        "FUND-HealthCare" : 0.010358,
+        "FUND-Industrials" : 0.010358,
+        "FUND-Materials" : 0.010358,
+        "FUND-RealEstate" : 0.010358,
+        "FUND-Technology" : 0.010358,
+        "FUND-Utilities" : 0.010358
+      },
+      "utility" : 3.193073138025159,
+      "sharpe" : 1.6805819228820404,
+      "score" : 3.193073138025159,
+      "delta" : -0.13294913402941555
+    }, {
+      "symbol" : "FUND-Financials",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.010358,
+        "FUND-ConsumerStap" : 0.010358,
+        "FUND-Energy" : 0.010358,
+        "FUND-Financials" : 0.060909,
+        "FUND-HealthCare" : 0.010358,
+        "FUND-Industrials" : 0.010358,
+        "FUND-Materials" : 0.010358,
+        "FUND-RealEstate" : 0.010358,
+        "FUND-Technology" : 0.010358,
+        "FUND-Utilities" : 0.010358
+      },
+      "utility" : 3.197798648500004,
+      "sharpe" : 1.6766480299834512,
+      "score" : 3.197798648500004,
+      "delta" : -0.1282236235545704
+    }, {
+      "symbol" : "FUND-HealthCare",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.010358,
+        "FUND-ConsumerStap" : 0.010358,
+        "FUND-Energy" : 0.010358,
+        "FUND-Financials" : 0.010358,
+        "FUND-HealthCare" : 0.060909,
+        "FUND-Industrials" : 0.010358,
+        "FUND-Materials" : 0.010358,
+        "FUND-RealEstate" : 0.010358,
+        "FUND-Technology" : 0.010358,
+        "FUND-Utilities" : 0.010358
+      },
+      "utility" : 3.202928315027654,
+      "sharpe" : 1.6927827848280983,
+      "score" : 3.202928315027654,
+      "delta" : -0.12309395702692028
+    }, {
+      "symbol" : "FUND-Industrials",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.010358,
+        "FUND-ConsumerStap" : 0.010358,
+        "FUND-Energy" : 0.010358,
+        "FUND-Financials" : 0.010358,
+        "FUND-HealthCare" : 0.010358,
+        "FUND-Industrials" : 0.060909,
+        "FUND-Materials" : 0.010358,
+        "FUND-RealEstate" : 0.010358,
+        "FUND-Technology" : 0.010358,
+        "FUND-Utilities" : 0.010358
+      },
+      "utility" : 3.2434616251630457,
+      "sharpe" : 1.7376809446083952,
+      "score" : 3.2434616251630457,
+      "delta" : -0.08256064689152876
+    }, {
+      "symbol" : "FUND-Materials",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.010358,
+        "FUND-ConsumerStap" : 0.010358,
+        "FUND-Energy" : 0.010358,
+        "FUND-Financials" : 0.010358,
+        "FUND-HealthCare" : 0.010358,
+        "FUND-Industrials" : 0.010358,
+        "FUND-Materials" : 0.060909,
+        "FUND-RealEstate" : 0.010358,
+        "FUND-Technology" : 0.010358,
+        "FUND-Utilities" : 0.010358
+      },
+      "utility" : 3.203941305008086,
+      "sharpe" : 1.6861441199201748,
+      "score" : 3.203941305008086,
+      "delta" : -0.12208096704648863
+    }, {
+      "symbol" : "FUND-RealEstate",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.010358,
+        "FUND-ConsumerStap" : 0.010358,
+        "FUND-Energy" : 0.010358,
+        "FUND-Financials" : 0.010358,
+        "FUND-HealthCare" : 0.010358,
+        "FUND-Industrials" : 0.010358,
+        "FUND-Materials" : 0.010358,
+        "FUND-RealEstate" : 0.060909,
+        "FUND-Technology" : 0.010358,
+        "FUND-Utilities" : 0.010358
+      },
+      "utility" : 3.206453088290301,
+      "sharpe" : 1.697421497736903,
+      "score" : 3.206453088290301,
+      "delta" : -0.11956918376427339
+    }, {
+      "symbol" : "FUND-Technology",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.010358,
+        "FUND-ConsumerStap" : 0.010358,
+        "FUND-Energy" : 0.010358,
+        "FUND-Financials" : 0.010358,
+        "FUND-HealthCare" : 0.010358,
+        "FUND-Industrials" : 0.010358,
+        "FUND-Materials" : 0.010358,
+        "FUND-RealEstate" : 0.010358,
+        "FUND-Technology" : 0.060909,
+        "FUND-Utilities" : 0.010358
+      },
+      "utility" : 3.2493764223281447,
+      "sharpe" : 1.743860991972855,
+      "score" : 3.2493764223281447,
+      "delta" : -0.07664584972642974
+    }, {
+      "symbol" : "FUND-Utilities",
+      "weights" : {
+        "FUND-CommServices" : 0.845872,
+        "FUND-ConsumerDisc" : 0.010358,
+        "FUND-ConsumerStap" : 0.010358,
+        "FUND-Energy" : 0.010358,
+        "FUND-Financials" : 0.010358,
+        "FUND-HealthCare" : 0.010358,
+        "FUND-Industrials" : 0.010358,
+        "FUND-Materials" : 0.010358,
+        "FUND-RealEstate" : 0.010358,
+        "FUND-Technology" : 0.010358,
+        "FUND-Utilities" : 0.060909
+      },
+      "utility" : 3.2220080827082365,
+      "sharpe" : 1.697648571377318,
+      "score" : 3.2220080827082365,
+      "delta" : -0.10401418934633799
+    } ],
+    "stopped" : "no_improvement",
+    "bestSymbol" : "FUND-Technology",
+    "bestUtility" : 3.2493764223281447,
+    "improvement" : -0.07664584972642974
+  } ],
+  "finalUtility" : 3.3260222720545745,
+  "totalGain" : 2.257998192494869,
+  "epochCount" : 19
+}

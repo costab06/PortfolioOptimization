@@ -1,0 +1,42 @@
+2026-04-12 11:34:23.673 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-12 11:34:23.688 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-12 11:34:23.800 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-12 11:34:23.800 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-12 11:34:23.811 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-12 11:34:24.240 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-12 11:50:50.809 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-12 11:50:50.820 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-12 11:50:50.934 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-12 11:50:50.935 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-12 11:50:50.947 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-12 11:50:51.383 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-12 12:03:54.988 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-12 12:03:55.001 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-12 12:03:55.110 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-12 12:03:55.111 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-12 12:03:55.122 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-12 12:03:55.549 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-12 12:12:02.045 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-12 12:12:02.056 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-12 12:12:02.170 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-12 12:12:02.170 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-12 12:12:02.182 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-12 12:12:02.613 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-12 12:22:15.359 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-12 12:22:15.370 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-12 12:22:15.487 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-12 12:22:15.487 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-12 12:22:15.499 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-12 12:22:15.936 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-12 12:29:02.776 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-12 12:29:02.787 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-12 12:29:02.903 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-12 12:29:02.903 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-12 12:29:02.914 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-12 12:29:03.340 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-12 12:32:33.901 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-12 12:32:33.912 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-12 12:32:34.027 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-12 12:32:34.028 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-12 12:32:34.038 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-12 12:32:34.463 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)

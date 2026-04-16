@@ -1,0 +1,213 @@
+=== OPTIMIZATION DEBUG: Sector-ConsumerDisc ===
+Time:   Mon Apr 13 19:27:36 EDT 2026
+Start:  AMZN= 36.2%  TSLA= 24.2%  HD=  8.4%  TJX=  6.3%  MCD=  6.1%  BKNG=  4.9%  LOW=  4.8%  SBUX=  3.8%  ORLY=  2.7%  MAR=  2.7%
+        utility = 1.297749
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=1.297749  feasible=10  step=0.0100  streak=0  T=0.0500]
+  AMZN+1%  AMZN= 37.2%  TSLA= 24.1%  HD=  8.3%  TJX=  6.1%  MCD=  6.0%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY=  2.6%  MAR=  2.5%  util=0.877244  Δ=-0.007116
+  TSLA+1%  AMZN= 36.1%  TSLA= 25.2%  HD=  8.3%  TJX=  6.1%  MCD=  6.0%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY=  2.6%  MAR=  2.5%  util=0.898604  Δ=-0.008344
+  HD+1%  AMZN= 36.1%  TSLA= 24.1%  HD=  9.4%  TJX=  6.1%  MCD=  6.0%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY=  2.6%  MAR=  2.5%  util=0.876468  Δ=-0.003363
+  TJX+1%  AMZN= 36.1%  TSLA= 24.1%  HD=  8.3%  TJX=  7.3%  MCD=  6.0%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY=  2.6%  MAR=  2.5%  util=0.878382  Δ=+0.003998
+  MCD+1%  AMZN= 36.1%  TSLA= 24.1%  HD=  8.3%  TJX=  6.1%  MCD=  7.1%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY=  2.6%  MAR=  2.5%  util=0.876803  Δ=+0.002280
+  BKNG+1%  AMZN= 36.1%  TSLA= 24.1%  HD=  8.3%  TJX=  6.1%  MCD=  6.0%  BKNG=  5.9%  LOW=  4.6%  SBUX=  3.7%  ORLY=  2.6%  MAR=  2.5%  util=0.879473  Δ=+0.002480
+  LOW+1%  AMZN= 36.1%  TSLA= 24.1%  HD=  8.3%  TJX=  6.1%  MCD=  6.0%  BKNG=  4.7%  LOW=  5.8%  SBUX=  3.7%  ORLY=  2.6%  MAR=  2.5%  util=0.877017  Δ=-0.002418
+  SBUX+1%  AMZN= 36.1%  TSLA= 24.1%  HD=  8.3%  TJX=  6.1%  MCD=  6.0%  BKNG=  4.7%  LOW=  4.6%  SBUX=  4.8%  ORLY=  2.6%  MAR=  2.5%  util=0.878473  Δ=+0.003769
+  ORLY+1%  AMZN= 36.1%  TSLA= 24.1%  HD=  8.3%  TJX=  6.1%  MCD=  6.0%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY=  3.7%  MAR=  2.5%  util=0.879199  Δ=+0.006729
+  MAR+1%  AMZN= 36.1%  TSLA= 24.1%  HD=  8.3%  TJX=  6.1%  MCD=  6.0%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY=  2.6%  MAR=  3.7%  util=0.878679  Δ=+0.001007
+  ★ WINNER: Epoch 0  improvement=+0.006729
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=1.304478  feasible=10  step=0.0200  streak=1  T=0.0475]
+  AMZN+2%  AMZN= 38.1%  TSLA= 23.9%  HD=  8.1%  TJX=  5.9%  MCD=  5.8%  BKNG=  4.5%  LOW=  4.4%  SBUX=  3.4%  ORLY=  3.5%  MAR=  2.3%  util=0.873522  Δ=-0.014392
+  TSLA+2%  AMZN= 35.9%  TSLA= 26.1%  HD=  8.1%  TJX=  5.9%  MCD=  5.8%  BKNG=  4.5%  LOW=  4.4%  SBUX=  3.4%  ORLY=  3.5%  MAR=  2.3%  util=0.916151  Δ=-0.016894
+  HD+2%  AMZN= 35.9%  TSLA= 23.9%  HD= 10.3%  TJX=  5.9%  MCD=  5.8%  BKNG=  4.5%  LOW=  4.4%  SBUX=  3.4%  ORLY=  3.5%  MAR=  2.3%  util=0.871986  Δ=-0.006772
+  TJX+2%  AMZN= 35.9%  TSLA= 23.9%  HD=  8.1%  TJX=  8.1%  MCD=  5.8%  BKNG=  4.5%  LOW=  4.4%  SBUX=  3.4%  ORLY=  3.5%  MAR=  2.3%  util=0.875814  Δ=+0.007842
+  MCD+2%  AMZN= 35.9%  TSLA= 23.9%  HD=  8.1%  TJX=  5.9%  MCD=  8.0%  BKNG=  4.5%  LOW=  4.4%  SBUX=  3.4%  ORLY=  3.5%  MAR=  2.3%  util=0.872646  Δ=+0.004347
+  BKNG+2%  AMZN= 35.9%  TSLA= 23.9%  HD=  8.1%  TJX=  5.9%  MCD=  5.8%  BKNG=  6.7%  LOW=  4.4%  SBUX=  3.4%  ORLY=  3.5%  MAR=  2.3%  util=0.877973  Δ=+0.004916
+  LOW+2%  AMZN= 35.9%  TSLA= 23.9%  HD=  8.1%  TJX=  5.9%  MCD=  5.8%  BKNG=  4.5%  LOW=  6.6%  SBUX=  3.4%  ORLY=  3.5%  MAR=  2.3%  util=0.873075  Δ=-0.004904
+  SBUX+2%  AMZN= 35.9%  TSLA= 23.9%  HD=  8.1%  TJX=  5.9%  MCD=  5.8%  BKNG=  4.5%  LOW=  4.4%  SBUX=  5.7%  ORLY=  3.5%  MAR=  2.3%  util=0.875844  Δ=+0.007137
+  ORLY+2%  AMZN= 35.9%  TSLA= 23.9%  HD=  8.1%  TJX=  5.9%  MCD=  5.8%  BKNG=  4.5%  LOW=  4.4%  SBUX=  3.4%  ORLY=  5.7%  MAR=  2.3%  util=0.877366  Δ=+0.012850
+  MAR+2%  AMZN= 35.9%  TSLA= 23.9%  HD=  8.1%  TJX=  5.9%  MCD=  5.8%  BKNG=  4.5%  LOW=  4.4%  SBUX=  3.4%  ORLY=  3.5%  MAR=  4.5%  util=0.876396  Δ=+0.002011
+  ★ WINNER: Epoch 1  improvement=+0.012850
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=1.317328  feasible=10  step=0.0300  streak=2  T=0.0451]
+  AMZN+3%  AMZN= 38.9%  TSLA= 23.5%  HD=  7.8%  TJX=  5.6%  MCD=  5.5%  BKNG=  4.2%  LOW=  4.1%  SBUX=  3.1%  ORLY=  5.4%  MAR=  2.0%  util=0.868826  Δ=-0.021798
+  TSLA+3%  AMZN= 35.6%  TSLA= 26.9%  HD=  7.8%  TJX=  5.6%  MCD=  5.5%  BKNG=  4.2%  LOW=  4.1%  SBUX=  3.1%  ORLY=  5.4%  MAR=  2.0%  util=0.932706  Δ=-0.025717
+  HD+3%  AMZN= 35.6%  TSLA= 23.5%  HD= 11.1%  TJX=  5.6%  MCD=  5.5%  BKNG=  4.2%  LOW=  4.1%  SBUX=  3.1%  ORLY=  5.4%  MAR=  2.0%  util=0.866526  Δ=-0.010164
+  TJX+3%  AMZN= 35.6%  TSLA= 23.5%  HD=  7.8%  TJX=  8.9%  MCD=  5.5%  BKNG=  4.2%  LOW=  4.1%  SBUX=  3.1%  ORLY=  5.4%  MAR=  2.0%  util=0.872224  Δ=+0.011514
+  MCD+3%  AMZN= 35.6%  TSLA= 23.5%  HD=  7.8%  TJX=  5.6%  MCD=  8.8%  BKNG=  4.2%  LOW=  4.1%  SBUX=  3.1%  ORLY=  5.4%  MAR=  2.0%  util=0.867467  Δ=+0.006103
+  BKNG+3%  AMZN= 35.6%  TSLA= 23.5%  HD=  7.8%  TJX=  5.6%  MCD=  5.5%  BKNG=  7.5%  LOW=  4.1%  SBUX=  3.1%  ORLY=  5.4%  MAR=  2.0%  util=0.875510  Δ=+0.007597
+  LOW+3%  AMZN= 35.6%  TSLA= 23.5%  HD=  7.8%  TJX=  5.6%  MCD=  5.5%  BKNG=  4.2%  LOW=  7.4%  SBUX=  3.1%  ORLY=  5.4%  MAR=  2.0%  util=0.868152  Δ=-0.007402
+  SBUX+3%  AMZN= 35.6%  TSLA= 23.5%  HD=  7.8%  TJX=  5.6%  MCD=  5.5%  BKNG=  4.2%  LOW=  4.1%  SBUX=  6.4%  ORLY=  5.4%  MAR=  2.0%  util=0.872120  Δ=+0.010219
+  ORLY+3%  AMZN= 35.6%  TSLA= 23.5%  HD=  7.8%  TJX=  5.6%  MCD=  5.5%  BKNG=  4.2%  LOW=  4.1%  SBUX=  3.1%  ORLY=  8.7%  MAR=  2.0%  util=0.874334  Δ=+0.017838
+  MAR+3%  AMZN= 35.6%  TSLA= 23.5%  HD=  7.8%  TJX=  5.6%  MCD=  5.5%  BKNG=  4.2%  LOW=  4.1%  SBUX=  3.1%  ORLY=  5.4%  MAR=  5.3%  util=0.873138  Δ=+0.003261
+  ★ WINNER: Epoch 2  improvement=+0.017838
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=1.335166  feasible=10  step=0.0400  streak=3  T=0.0429]
+  AMZN+4%  AMZN= 39.6%  TSLA= 23.1%  HD=  7.3%  TJX=  5.1%  MCD=  5.0%  BKNG=  3.7%  LOW=  3.6%  SBUX=  2.7%  ORLY=  8.3%  MAR=  1.5%  util=0.862982  Δ=-0.029373
+  TSLA+4%  AMZN= 35.1%  TSLA= 27.5%  HD=  7.3%  TJX=  5.1%  MCD=  5.0%  BKNG=  3.7%  LOW=  3.6%  SBUX=  2.7%  ORLY=  8.3%  MAR=  1.5%  util=0.948145  Δ=-0.034884
+  HD+4%  AMZN= 35.1%  TSLA= 23.1%  HD= 11.8%  TJX=  5.1%  MCD=  5.0%  BKNG=  3.7%  LOW=  3.6%  SBUX=  2.7%  ORLY=  8.3%  MAR=  1.5%  util=0.859846  Δ=-0.013486
+  TJX+4%  AMZN= 35.1%  TSLA= 23.1%  HD=  7.3%  TJX=  9.6%  MCD=  5.0%  BKNG=  3.7%  LOW=  3.6%  SBUX=  2.7%  ORLY=  8.3%  MAR=  1.5%  util=0.867350  Δ=+0.015033
+  MCD+4%  AMZN= 35.1%  TSLA= 23.1%  HD=  7.3%  TJX=  5.1%  MCD=  9.5%  BKNG=  3.7%  LOW=  3.6%  SBUX=  2.7%  ORLY=  8.3%  MAR=  1.5%  util=0.860973  Δ=+0.007486
+  BKNG+4%  AMZN= 35.1%  TSLA= 23.1%  HD=  7.3%  TJX=  5.1%  MCD=  5.0%  BKNG=  8.2%  LOW=  3.6%  SBUX=  2.7%  ORLY=  8.3%  MAR=  1.5%  util=0.871898  Δ=+0.010794
+  LOW+4%  AMZN= 35.1%  TSLA= 23.1%  HD=  7.3%  TJX=  5.1%  MCD=  5.0%  BKNG=  3.7%  LOW=  8.1%  SBUX=  2.7%  ORLY=  8.3%  MAR=  1.5%  util=0.862034  Δ=-0.009879
+  SBUX+4%  AMZN= 35.1%  TSLA= 23.1%  HD=  7.3%  TJX=  5.1%  MCD=  5.0%  BKNG=  3.7%  LOW=  3.6%  SBUX=  7.1%  ORLY=  8.3%  MAR=  1.5%  util=0.867137  Δ=+0.013076
+  ORLY+4%  AMZN= 35.1%  TSLA= 23.1%  HD=  7.3%  TJX=  5.1%  MCD=  5.0%  BKNG=  3.7%  LOW=  3.6%  SBUX=  2.7%  ORLY= 12.7%  MAR=  1.5%  util=0.869804  Δ=+0.021272
+  MAR+4%  AMZN= 35.1%  TSLA= 23.1%  HD=  7.3%  TJX=  5.1%  MCD=  5.0%  BKNG=  3.7%  LOW=  3.6%  SBUX=  2.7%  ORLY=  8.3%  MAR=  6.0%  util=0.868722  Δ=+0.004967
+  ★ WINNER: Epoch 3  improvement=+0.021272
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=1.356438  feasible=10  step=0.0500  streak=4  T=0.0407]
+  AMZN+5%  AMZN= 40.1%  TSLA= 22.5%  HD=  6.8%  TJX=  4.6%  MCD=  4.5%  BKNG=  3.2%  LOW=  3.1%  SBUX=  2.1%  ORLY= 12.2%  MAR=  1.0%  util=0.855656  Δ=-0.037242
+  TSLA+5%  AMZN= 34.6%  TSLA= 28.1%  HD=  6.8%  TJX=  4.6%  MCD=  4.5%  BKNG=  3.2%  LOW=  3.1%  SBUX=  2.1%  ORLY= 12.2%  MAR=  1.0%  util=0.962179  Δ=-0.044456
+  HD+5%  AMZN= 34.6%  TSLA= 22.5%  HD= 12.3%  TJX=  4.6%  MCD=  4.5%  BKNG=  3.2%  LOW=  3.1%  SBUX=  2.1%  ORLY= 12.2%  MAR=  1.0%  util=0.851648  Δ=-0.016700
+  TJX+5%  AMZN= 34.6%  TSLA= 22.5%  HD=  6.8%  TJX= 10.1%  MCD=  4.5%  BKNG=  3.2%  LOW=  3.1%  SBUX=  2.1%  ORLY= 12.2%  MAR=  1.0%  util=0.860884  Δ=+0.018450
+  MCD+5%  AMZN= 34.6%  TSLA= 22.5%  HD=  6.8%  TJX=  4.6%  MCD= 10.0%  BKNG=  3.2%  LOW=  3.1%  SBUX=  2.1%  ORLY= 12.2%  MAR=  1.0%  util=0.852854  Δ=+0.008464
+  BKNG+5%  AMZN= 34.6%  TSLA= 22.5%  HD=  6.8%  TJX=  4.6%  MCD=  4.5%  BKNG=  8.7%  LOW=  3.1%  SBUX=  2.1%  ORLY= 12.2%  MAR=  1.0%  util=0.866816  Δ=+0.014761
+  LOW+5%  AMZN= 34.6%  TSLA= 22.5%  HD=  6.8%  TJX=  4.6%  MCD=  4.5%  BKNG=  3.2%  LOW=  8.6%  SBUX=  2.1%  ORLY= 12.2%  MAR=  1.0%  util=0.854414  Δ=-0.012333
+  SBUX+5%  AMZN= 34.6%  TSLA= 22.5%  HD=  6.8%  TJX=  4.6%  MCD=  4.5%  BKNG=  3.2%  LOW=  3.1%  SBUX=  7.7%  ORLY= 12.2%  MAR=  1.0%  util=0.860577  Δ=+0.015710
+  ORLY+5%  AMZN= 34.6%  TSLA= 22.5%  HD=  6.8%  TJX=  4.6%  MCD=  4.5%  BKNG=  3.2%  LOW=  3.1%  SBUX=  2.1%  ORLY= 17.7%  MAR=  1.0%  util=0.863401  Δ=+0.022793
+  MAR+5%  AMZN= 34.6%  TSLA= 22.5%  HD=  6.8%  TJX=  4.6%  MCD=  4.5%  BKNG=  3.2%  LOW=  3.1%  SBUX=  2.1%  ORLY= 12.2%  MAR=  6.5%  util=0.862805  Δ=+0.007301
+  ★ WINNER: Epoch 4  improvement=+0.022793
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=1.379231  feasible=10  step=0.0500  streak=5  T=0.0387]
+  AMZN+5%  AMZN= 39.6%  TSLA= 22.0%  HD=  6.2%  TJX=  4.0%  MCD=  3.9%  BKNG=  2.6%  LOW=  2.5%  SBUX=  1.5%  ORLY= 17.2%  MAR=  0.4%  util=0.849393  Δ=-0.037491
+  TSLA+5%  AMZN= 34.0%  TSLA= 27.5%  HD=  6.2%  TJX=  4.0%  MCD=  3.9%  BKNG=  2.6%  LOW=  2.5%  SBUX=  1.5%  ORLY= 17.2%  MAR=  0.4%  util=0.956314  Δ=-0.045117
+  HD+5%  AMZN= 34.0%  TSLA= 22.0%  HD= 11.8%  TJX=  4.0%  MCD=  3.9%  BKNG=  2.6%  LOW=  2.5%  SBUX=  1.5%  ORLY= 17.2%  MAR=  0.4%  util=0.845250  Δ=-0.016229
+  TJX+5%  AMZN= 34.0%  TSLA= 22.0%  HD=  6.2%  TJX=  9.6%  MCD=  3.9%  BKNG=  2.6%  LOW=  2.5%  SBUX=  1.5%  ORLY= 17.2%  MAR=  0.4%  util=0.854383  Δ=+0.018494
+  MCD+5%  AMZN= 34.0%  TSLA= 22.0%  HD=  6.2%  TJX=  4.0%  MCD=  9.5%  BKNG=  2.6%  LOW=  2.5%  SBUX=  1.5%  ORLY= 17.2%  MAR=  0.4%  util=0.846178  Δ=+0.007800
+  BKNG+5%  AMZN= 34.0%  TSLA= 22.0%  HD=  6.2%  TJX=  4.0%  MCD=  3.9%  BKNG=  8.2%  LOW=  2.5%  SBUX=  1.5%  ORLY= 17.2%  MAR=  0.4%  util=0.860677  Δ=+0.017114
+  LOW+5%  AMZN= 34.0%  TSLA= 22.0%  HD=  6.2%  TJX=  4.0%  MCD=  3.9%  BKNG=  2.6%  LOW=  8.1%  SBUX=  1.5%  ORLY= 17.2%  MAR=  0.4%  util=0.848044  Δ=-0.012033
+  SBUX+5%  AMZN= 34.0%  TSLA= 22.0%  HD=  6.2%  TJX=  4.0%  MCD=  3.9%  BKNG=  2.6%  LOW=  2.5%  SBUX=  7.1%  ORLY= 17.2%  MAR=  0.4%  util=0.854161  Δ=+0.016166
+  ORLY+5%  AMZN= 34.0%  TSLA= 22.0%  HD=  6.2%  TJX=  4.0%  MCD=  3.9%  BKNG=  2.6%  LOW=  2.5%  SBUX=  1.5%  ORLY= 22.7%  MAR=  0.4%  util=0.856251  Δ=+0.018752
+  MAR+5%  AMZN= 34.0%  TSLA= 22.0%  HD=  6.2%  TJX=  4.0%  MCD=  3.9%  BKNG=  2.6%  LOW=  2.5%  SBUX=  1.5%  ORLY= 17.2%  MAR=  6.0%  util=0.856591  Δ=+0.009119
+  ★ WINNER: Epoch 5  improvement=+0.018752
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=1.397984  feasible=1  step=0.0500  streak=6  T=0.0368]
+  MAR+5%  AMZN= 33.5%  TSLA= 21.4%  HD=  5.6%  TJX=  3.5%  MCD=  3.4%  BKNG=  2.1%  LOW=  2.0%  SBUX=  1.0%  ORLY= 22.2%  MAR=  5.4%  util=0.849674  Δ=+0.010861
+  ★ WINNER: Epoch 6  improvement=+0.010861
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=1.408844  feasible=10  step=0.0500  streak=7  T=0.0349]
+  AMZN+5%  AMZN= 38.5%  TSLA= 20.9%  HD=  5.1%  TJX=  2.9%  MCD=  2.8%  BKNG=  1.5%  LOW=  1.4%  SBUX=  0.4%  ORLY= 21.6%  MAR=  4.9%  util=0.835598  Δ=-0.038548
+  TSLA+5%  AMZN= 32.9%  TSLA= 26.4%  HD=  5.1%  TJX=  2.9%  MCD=  2.8%  BKNG=  1.5%  LOW=  1.4%  SBUX=  0.4%  ORLY= 21.6%  MAR=  4.9%  util=0.943289  Δ=-0.046454
+  HD+5%  AMZN= 32.9%  TSLA= 20.9%  HD= 10.6%  TJX=  2.9%  MCD=  2.8%  BKNG=  1.5%  LOW=  1.4%  SBUX=  0.4%  ORLY= 21.6%  MAR=  4.9%  util=0.831588  Δ=-0.015297
+  TJX+5%  AMZN= 32.9%  TSLA= 20.9%  HD=  5.1%  TJX=  8.5%  MCD=  2.8%  BKNG=  1.5%  LOW=  1.4%  SBUX=  0.4%  ORLY= 21.6%  MAR=  4.9%  util=0.840615  Δ=+0.019652
+  MCD+5%  AMZN= 32.9%  TSLA= 20.9%  HD=  5.1%  TJX=  2.9%  MCD=  8.4%  BKNG=  1.5%  LOW=  1.4%  SBUX=  0.4%  ORLY= 21.6%  MAR=  4.9%  util=0.832368  Δ=+0.008044
+  BKNG+5%  AMZN= 32.9%  TSLA= 20.9%  HD=  5.1%  TJX=  2.9%  MCD=  2.8%  BKNG=  7.1%  LOW=  1.4%  SBUX=  0.4%  ORLY= 21.6%  MAR=  4.9%  util=0.846835  Δ=+0.017711
+  LOW+5%  AMZN= 32.9%  TSLA= 20.9%  HD=  5.1%  TJX=  2.9%  MCD=  2.8%  BKNG=  1.5%  LOW=  7.0%  SBUX=  0.4%  ORLY= 21.6%  MAR=  4.9%  util=0.834322  Δ=-0.011468
+  SBUX+5%  AMZN= 32.9%  TSLA= 20.9%  HD=  5.1%  TJX=  2.9%  MCD=  2.8%  BKNG=  1.5%  LOW=  1.4%  SBUX=  6.0%  ORLY= 21.6%  MAR=  4.9%  util=0.840707  Δ=+0.019465
+  ORLY+5%  AMZN= 32.9%  TSLA= 20.9%  HD=  5.1%  TJX=  2.9%  MCD=  2.8%  BKNG=  1.5%  LOW=  1.4%  SBUX=  0.4%  ORLY= 27.2%  MAR=  4.9%  util=0.842122  Δ=+0.016483
+  MAR+5%  AMZN= 32.9%  TSLA= 20.9%  HD=  5.1%  TJX=  2.9%  MCD=  2.8%  BKNG=  1.5%  LOW=  1.4%  SBUX=  0.4%  ORLY= 21.6%  MAR= 10.4%  util=0.842105  Δ=+0.006355
+  ★ WINNER: Epoch 7  improvement=+0.019652
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=1.428496  feasible=1  step=0.0500  streak=8  T=0.0332]
+  SBUX+5%  AMZN= 32.3%  TSLA= 20.3%  HD=  4.5%  TJX=  7.9%  MCD=  2.3%  BKNG=  1.0%  LOW=  0.9%  SBUX=  5.4%  ORLY= 21.0%  MAR=  4.3%  util=0.831881  Δ=+0.020919
+  ★ WINNER: Epoch 8  improvement=+0.020919
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=1.449415  feasible=10  step=0.0500  streak=9  T=0.0315]
+  AMZN+5%  AMZN= 37.3%  TSLA= 19.8%  HD=  4.0%  TJX=  7.4%  MCD=  1.7%  BKNG=  0.4%  LOW=  0.3%  SBUX=  4.9%  ORLY= 20.5%  MAR=  3.8%  util=0.818821  Δ=-0.035845
+  TSLA+5%  AMZN= 31.8%  TSLA= 25.3%  HD=  4.0%  TJX=  7.4%  MCD=  1.7%  BKNG=  0.4%  LOW=  0.3%  SBUX=  4.9%  ORLY= 20.5%  MAR=  3.8%  util=0.927472  Δ=-0.045255
+  HD+5%  AMZN= 31.8%  TSLA= 19.8%  HD=  9.5%  TJX=  7.4%  MCD=  1.7%  BKNG=  0.4%  LOW=  0.3%  SBUX=  4.9%  ORLY= 20.5%  MAR=  3.8%  util=0.813711  Δ=-0.015423
+  TJX+5%  AMZN= 31.8%  TSLA= 19.8%  HD=  4.0%  TJX= 12.9%  MCD=  1.7%  BKNG=  0.4%  LOW=  0.3%  SBUX=  4.9%  ORLY= 20.5%  MAR=  3.8%  util=0.822404  Δ=+0.018064
+  MCD+5%  AMZN= 31.8%  TSLA= 19.8%  HD=  4.0%  TJX=  7.4%  MCD=  7.3%  BKNG=  0.4%  LOW=  0.3%  SBUX=  4.9%  ORLY= 20.5%  MAR=  3.8%  util=0.814338  Δ=+0.008153
+  BKNG+5%  AMZN= 31.8%  TSLA= 19.8%  HD=  4.0%  TJX=  7.4%  MCD=  1.7%  BKNG=  6.0%  LOW=  0.3%  SBUX=  4.9%  ORLY= 20.5%  MAR=  3.8%  util=0.829705  Δ=+0.021693
+  LOW+5%  AMZN= 31.8%  TSLA= 19.8%  HD=  4.0%  TJX=  7.4%  MCD=  1.7%  BKNG=  0.4%  LOW=  5.9%  SBUX=  4.9%  ORLY= 20.5%  MAR=  3.8%  util=0.816474  Δ=-0.010864
+  SBUX+5%  AMZN= 31.8%  TSLA= 19.8%  HD=  4.0%  TJX=  7.4%  MCD=  1.7%  BKNG=  0.4%  LOW=  0.3%  SBUX= 10.4%  ORLY= 20.5%  MAR=  3.8%  util=0.820962  Δ=+0.009059
+  ORLY+5%  AMZN= 31.8%  TSLA= 19.8%  HD=  4.0%  TJX=  7.4%  MCD=  1.7%  BKNG=  0.4%  LOW=  0.3%  SBUX=  4.9%  ORLY= 26.0%  MAR=  3.8%  util=0.824203  Δ=+0.017109
+  MAR+5%  AMZN= 31.8%  TSLA= 19.8%  HD=  4.0%  TJX=  7.4%  MCD=  1.7%  BKNG=  0.4%  LOW=  0.3%  SBUX=  4.9%  ORLY= 20.5%  MAR=  9.3%  util=0.824900  Δ=+0.010511
+  ★ WINNER: Epoch 9  improvement=+0.021693
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=1.471108  feasible=1  step=0.0500  streak=10  T=0.0299]
+  LOW+5%  AMZN= 31.2%  TSLA= 19.2%  HD=  3.4%  TJX=  6.8%  MCD=  1.1%  BKNG=  5.4%  LOW=  5.3%  SBUX=  4.3%  ORLY= 19.9%  MAR=  3.2%  util=0.814737  Δ=-0.009007
+  ~ ANNEALED: improvement=-0.009007  acceptProb=0.7402
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=1.462101  feasible=10  step=0.0100  streak=0  T=0.0284]
+  AMZN+1%  AMZN= 32.2%  TSLA= 19.1%  HD=  3.3%  TJX=  6.7%  MCD=  1.0%  BKNG=  5.3%  LOW=  5.2%  SBUX=  4.2%  ORLY= 19.8%  MAR=  3.1%  util=0.812224  Δ=-0.006707
+  TSLA+1%  AMZN= 31.1%  TSLA= 20.2%  HD=  3.3%  TJX=  6.7%  MCD=  1.0%  BKNG=  5.3%  LOW=  5.2%  SBUX=  4.2%  ORLY= 19.8%  MAR=  3.1%  util=0.834335  Δ=-0.008967
+  HD+1%  AMZN= 31.1%  TSLA= 19.1%  HD=  4.4%  TJX=  6.7%  MCD=  1.0%  BKNG=  5.3%  LOW=  5.2%  SBUX=  4.2%  ORLY= 19.8%  MAR=  3.1%  util=0.811099  Δ=-0.003116
+  TJX+1%  AMZN= 31.1%  TSLA= 19.1%  HD=  3.3%  TJX=  7.8%  MCD=  1.0%  BKNG=  5.3%  LOW=  5.2%  SBUX=  4.2%  ORLY= 19.8%  MAR=  3.1%  util=0.812871  Δ=+0.004024
+  MCD+1%  AMZN= 31.1%  TSLA= 19.1%  HD=  3.3%  TJX=  6.7%  MCD=  2.1%  BKNG=  5.3%  LOW=  5.2%  SBUX=  4.2%  ORLY= 19.8%  MAR=  3.1%  util=0.811287  Δ=+0.002206
+  BKNG+1%  AMZN= 31.1%  TSLA= 19.1%  HD=  3.3%  TJX=  6.7%  MCD=  1.0%  BKNG=  6.4%  LOW=  5.2%  SBUX=  4.2%  ORLY= 19.8%  MAR=  3.1%  util=0.814232  Δ=+0.003896
+  LOW+1%  AMZN= 31.1%  TSLA= 19.1%  HD=  3.3%  TJX=  6.7%  MCD=  1.0%  BKNG=  5.3%  LOW=  6.3%  SBUX=  4.2%  ORLY= 19.8%  MAR=  3.1%  util=0.811658  Δ=-0.002186
+  SBUX+1%  AMZN= 31.1%  TSLA= 19.1%  HD=  3.3%  TJX=  6.7%  MCD=  1.0%  BKNG=  5.3%  LOW=  5.2%  SBUX=  5.3%  ORLY= 19.8%  MAR=  3.1%  util=0.812764  Δ=+0.003406
+  ORLY+1%  AMZN= 31.1%  TSLA= 19.1%  HD=  3.3%  TJX=  6.7%  MCD=  1.0%  BKNG=  5.3%  LOW=  5.2%  SBUX=  4.2%  ORLY= 20.9%  MAR=  3.1%  util=0.813299  Δ=+0.004329
+  MAR+1%  AMZN= 31.1%  TSLA= 19.1%  HD=  3.3%  TJX=  6.7%  MCD=  1.0%  BKNG=  5.3%  LOW=  5.2%  SBUX=  4.2%  ORLY= 19.8%  MAR=  4.2%  util=0.813346  Δ=+0.002171
+  ★ WINNER: Epoch 11  improvement=+0.004329
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=1.466430  feasible=10  step=0.0200  streak=1  T=0.0270]
+  AMZN+2%  AMZN= 33.1%  TSLA= 18.9%  HD=  3.1%  TJX=  6.5%  MCD=  0.8%  BKNG=  5.1%  LOW=  5.0%  SBUX=  4.0%  ORLY= 20.7%  MAR=  2.9%  util=0.808229  Δ=-0.013658
+  TSLA+2%  AMZN= 30.9%  TSLA= 21.1%  HD=  3.1%  TJX=  6.5%  MCD=  0.8%  BKNG=  5.1%  LOW=  5.0%  SBUX=  4.0%  ORLY= 20.7%  MAR=  2.9%  util=0.852355  Δ=-0.018100
+  HD+2%  AMZN= 30.9%  TSLA= 18.9%  HD=  5.3%  TJX=  6.5%  MCD=  0.8%  BKNG=  5.1%  LOW=  5.0%  SBUX=  4.0%  ORLY= 20.7%  MAR=  2.9%  util=0.806000  Δ=-0.006298
+  TJX+2%  AMZN= 30.9%  TSLA= 18.9%  HD=  3.1%  TJX=  8.7%  MCD=  0.8%  BKNG=  5.1%  LOW=  5.0%  SBUX=  4.0%  ORLY= 20.7%  MAR=  2.9%  util=0.809538  Δ=+0.007946
+  MCD+2%  AMZN= 30.9%  TSLA= 18.9%  HD=  3.1%  TJX=  6.5%  MCD=  3.0%  BKNG=  5.1%  LOW=  5.0%  SBUX=  4.0%  ORLY= 20.7%  MAR=  2.9%  util=0.806361  Δ=+0.004244
+  BKNG+2%  AMZN= 30.9%  TSLA= 18.9%  HD=  3.1%  TJX=  6.5%  MCD=  0.8%  BKNG=  7.3%  LOW=  5.0%  SBUX=  4.0%  ORLY= 20.7%  MAR=  2.9%  util=0.812255  Δ=+0.007732
+  LOW+2%  AMZN= 30.9%  TSLA= 18.9%  HD=  3.1%  TJX=  6.5%  MCD=  0.8%  BKNG=  5.1%  LOW=  7.2%  SBUX=  4.0%  ORLY= 20.7%  MAR=  2.9%  util=0.807114  Δ=-0.004479
+  SBUX+2%  AMZN= 30.9%  TSLA= 18.9%  HD=  3.1%  TJX=  6.5%  MCD=  0.8%  BKNG=  5.1%  LOW=  5.0%  SBUX=  6.2%  ORLY= 20.7%  MAR=  2.9%  util=0.809265  Δ=+0.006365
+  ORLY+2%  AMZN= 30.9%  TSLA= 18.9%  HD=  3.1%  TJX=  6.5%  MCD=  0.8%  BKNG=  5.1%  LOW=  5.0%  SBUX=  4.0%  ORLY= 22.9%  MAR=  2.9%  util=0.810338  Δ=+0.008173
+  MAR+2%  AMZN= 30.9%  TSLA= 18.9%  HD=  3.1%  TJX=  6.5%  MCD=  0.8%  BKNG=  5.1%  LOW=  5.0%  SBUX=  4.0%  ORLY= 20.7%  MAR=  5.1%  util=0.810491  Δ=+0.004311
+  ★ WINNER: Epoch 12  improvement=+0.008173
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=1.474603  feasible=10  step=0.0300  streak=2  T=0.0257]
+  AMZN+3%  AMZN= 33.9%  TSLA= 18.5%  HD=  2.8%  TJX=  6.1%  MCD=  0.5%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY= 22.6%  MAR=  2.5%  util=0.802678  Δ=-0.020916
+  TSLA+3%  AMZN= 30.6%  TSLA= 21.9%  HD=  2.8%  TJX=  6.1%  MCD=  0.5%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY= 22.6%  MAR=  2.5%  util=0.868781  Δ=-0.027489
+  HD+3%  AMZN= 30.6%  TSLA= 18.5%  HD=  6.1%  TJX=  6.1%  MCD=  0.5%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY= 22.6%  MAR=  2.5%  util=0.799364  Δ=-0.009493
+  TJX+3%  AMZN= 30.6%  TSLA= 18.5%  HD=  2.8%  TJX=  9.5%  MCD=  0.5%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY= 22.6%  MAR=  2.5%  util=0.804654  Δ=+0.011796
+  MCD+3%  AMZN= 30.6%  TSLA= 18.5%  HD=  2.8%  TJX=  6.1%  MCD=  3.8%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY= 22.6%  MAR=  2.5%  util=0.799851  Δ=+0.006052
+  BKNG+3%  AMZN= 30.6%  TSLA= 18.5%  HD=  2.8%  TJX=  6.1%  MCD=  0.5%  BKNG=  8.1%  LOW=  4.6%  SBUX=  3.7%  ORLY= 22.6%  MAR=  2.5%  util=0.808766  Δ=+0.011815
+  LOW+3%  AMZN= 30.6%  TSLA= 18.5%  HD=  2.8%  TJX=  6.1%  MCD=  0.5%  BKNG=  4.7%  LOW=  8.0%  SBUX=  3.7%  ORLY= 22.6%  MAR=  2.5%  util=0.801019  Δ=-0.006856
+  SBUX+3%  AMZN= 30.6%  TSLA= 18.5%  HD=  2.8%  TJX=  6.1%  MCD=  0.5%  BKNG=  4.7%  LOW=  4.6%  SBUX=  7.0%  ORLY= 22.6%  MAR=  2.5%  util=0.804174  Δ=+0.008925
+  ORLY+3%  AMZN= 30.6%  TSLA= 18.5%  HD=  2.8%  TJX=  6.1%  MCD=  0.5%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY= 25.9%  MAR=  2.5%  util=0.805701  Δ=+0.011050
+  MAR+3%  AMZN= 30.6%  TSLA= 18.5%  HD=  2.8%  TJX=  6.1%  MCD=  0.5%  BKNG=  4.7%  LOW=  4.6%  SBUX=  3.7%  ORLY= 22.6%  MAR=  5.9%  util=0.806120  Δ=+0.006645
+  ★ WINNER: Epoch 13  improvement=+0.011815
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=1.486418  feasible=10  step=0.0400  streak=3  T=0.0244]
+  AMZN+4%  AMZN= 34.6%  TSLA= 18.1%  HD=  2.3%  TJX=  5.7%  MCD=  0.0%  BKNG=  7.6%  LOW=  4.2%  SBUX=  3.2%  ORLY= 22.2%  MAR=  2.1%  util=0.798401  Δ=-0.028399
+  TSLA+4%  AMZN= 30.1%  TSLA= 22.5%  HD=  2.3%  TJX=  5.7%  MCD=  0.0%  BKNG=  7.6%  LOW=  4.2%  SBUX=  3.2%  ORLY= 22.2%  MAR=  2.1%  util=0.886448  Δ=-0.037477
+  HD+4%  AMZN= 30.1%  TSLA= 18.1%  HD=  6.8%  TJX=  5.7%  MCD=  0.0%  BKNG=  7.6%  LOW=  4.2%  SBUX=  3.2%  ORLY= 22.2%  MAR=  2.1%  util=0.794172  Δ=-0.012580
+  TJX+4%  AMZN= 30.1%  TSLA= 18.1%  HD=  2.3%  TJX= 10.1%  MCD=  0.0%  BKNG=  7.6%  LOW=  4.2%  SBUX=  3.2%  ORLY= 22.2%  MAR=  2.1%  util=0.801060  Δ=+0.015666
+  MCD+4%  AMZN= 30.1%  TSLA= 18.1%  HD=  2.3%  TJX=  5.7%  MCD=  4.5%  BKNG=  7.6%  LOW=  4.2%  SBUX=  3.2%  ORLY= 22.2%  MAR=  2.1%  util=0.794831  Δ=+0.008401
+  BKNG+4%  AMZN= 30.1%  TSLA= 18.1%  HD=  2.3%  TJX=  5.7%  MCD=  0.0%  BKNG= 12.1%  LOW=  4.2%  SBUX=  3.2%  ORLY= 22.2%  MAR=  2.1%  util=0.805991  Δ=+0.012021
+  LOW+4%  AMZN= 30.1%  TSLA= 18.1%  HD=  2.3%  TJX=  5.7%  MCD=  0.0%  BKNG=  7.6%  LOW=  8.6%  SBUX=  3.2%  ORLY= 22.2%  MAR=  2.1%  util=0.796499  Δ=-0.008554
+  SBUX+4%  AMZN= 30.1%  TSLA= 18.1%  HD=  2.3%  TJX=  5.7%  MCD=  0.0%  BKNG=  7.6%  LOW=  4.2%  SBUX=  7.7%  ORLY= 22.2%  MAR=  2.1%  util=0.800659  Δ=+0.012619
+  ORLY+4%  AMZN= 30.1%  TSLA= 18.1%  HD=  2.3%  TJX=  5.7%  MCD=  0.0%  BKNG=  7.6%  LOW=  4.2%  SBUX=  3.2%  ORLY= 26.6%  MAR=  2.1%  util=0.802667  Δ=+0.015653
+  MAR+4%  AMZN= 30.1%  TSLA= 18.1%  HD=  2.3%  TJX=  5.7%  MCD=  0.0%  BKNG=  7.6%  LOW=  4.2%  SBUX=  3.2%  ORLY= 22.2%  MAR=  6.5%  util=0.803017  Δ=+0.007636
+  ★ WINNER: Epoch 14  improvement=+0.015666
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=1.502085  feasible=1  step=0.0500  streak=4  T=0.0232]
+  MCD+5%  AMZN= 29.6%  TSLA= 17.5%  HD=  1.8%  TJX=  9.6%  MCD=  5.0%  BKNG=  7.1%  LOW=  3.6%  SBUX=  2.7%  ORLY= 21.6%  MAR=  1.5%  util=0.783575  Δ=+0.010433
+  ★ WINNER: Epoch 15  improvement=+0.010433
+────────────────────────────────────────────────────────────────────────
+Epoch 16  [startUtility=1.512518  feasible=10  step=0.0500  streak=5  T=0.0220]
+  AMZN+5%  AMZN= 34.6%  TSLA= 17.0%  HD=  1.2%  TJX=  9.0%  MCD=  4.5%  BKNG=  6.5%  LOW=  3.1%  SBUX=  2.1%  ORLY= 21.0%  MAR=  1.0%  util=0.770753  Δ=-0.034155
+  TSLA+5%  AMZN= 29.0%  TSLA= 22.5%  HD=  1.2%  TJX=  9.0%  MCD=  4.5%  BKNG=  6.5%  LOW=  3.1%  SBUX=  2.1%  ORLY= 21.0%  MAR=  1.0%  util=0.881046  Δ=-0.048791
+  HD+5%  AMZN= 29.0%  TSLA= 17.0%  HD=  6.8%  TJX=  9.0%  MCD=  4.5%  BKNG=  6.5%  LOW=  3.1%  SBUX=  2.1%  ORLY= 21.0%  MAR=  1.0%  util=0.765345  Δ=-0.016084
+  TJX+5%  AMZN= 29.0%  TSLA= 17.0%  HD=  1.2%  TJX= 14.6%  MCD=  4.5%  BKNG=  6.5%  LOW=  3.1%  SBUX=  2.1%  ORLY= 21.0%  MAR=  1.0%  util=0.773409  Δ=+0.017138
+  MCD+5%  AMZN= 29.0%  TSLA= 17.0%  HD=  1.2%  TJX=  9.0%  MCD= 10.0%  BKNG=  6.5%  LOW=  3.1%  SBUX=  2.1%  ORLY= 21.0%  MAR=  1.0%  util=0.765670  Δ=+0.007468
+  BKNG+5%  AMZN= 29.0%  TSLA= 17.0%  HD=  1.2%  TJX=  9.0%  MCD=  4.5%  BKNG= 12.1%  LOW=  3.1%  SBUX=  2.1%  ORLY= 21.0%  MAR=  1.0%  util=0.779998  Δ=+0.015635
+  LOW+5%  AMZN= 29.0%  TSLA= 17.0%  HD=  1.2%  TJX=  9.0%  MCD=  4.5%  BKNG=  6.5%  LOW=  8.6%  SBUX=  2.1%  ORLY= 21.0%  MAR=  1.0%  util=0.768230  Δ=-0.010268
+  SBUX+5%  AMZN= 29.0%  TSLA= 17.0%  HD=  1.2%  TJX=  9.0%  MCD=  4.5%  BKNG=  6.5%  LOW=  3.1%  SBUX=  7.7%  ORLY= 21.0%  MAR=  1.0%  util=0.773171  Δ=+0.015616
+  ORLY+5%  AMZN= 29.0%  TSLA= 17.0%  HD=  1.2%  TJX=  9.0%  MCD=  4.5%  BKNG=  6.5%  LOW=  3.1%  SBUX=  2.1%  ORLY= 26.6%  MAR=  1.0%  util=0.775619  Δ=+0.018925
+  MAR+5%  AMZN= 29.0%  TSLA= 17.0%  HD=  1.2%  TJX=  9.0%  MCD=  4.5%  BKNG=  6.5%  LOW=  3.1%  SBUX=  2.1%  ORLY= 21.0%  MAR=  6.5%  util=0.776471  Δ=+0.011031
+  ★ WINNER: Epoch 16  improvement=+0.018925
+────────────────────────────────────────────────────────────────────────
+Epoch 17  [startUtility=1.531443  feasible=10  step=0.0500  streak=6  T=0.0209]
+  AMZN+5%  AMZN= 34.0%  TSLA= 16.4%  HD=  0.6%  TJX=  8.5%  MCD=  3.9%  BKNG=  6.0%  LOW=  2.5%  SBUX=  1.5%  ORLY= 26.0%  MAR=  0.4%  util=0.762815  Δ=-0.034754
+  TSLA+5%  AMZN= 28.5%  TSLA= 22.0%  HD=  0.6%  TJX=  8.5%  MCD=  3.9%  BKNG=  6.0%  LOW=  2.5%  SBUX=  1.5%  ORLY= 26.0%  MAR=  0.4%  util=0.873556  Δ=-0.049848
+  HD+5%  AMZN= 28.5%  TSLA= 16.4%  HD=  6.2%  TJX=  8.5%  MCD=  3.9%  BKNG=  6.0%  LOW=  2.5%  SBUX=  1.5%  ORLY= 26.0%  MAR=  0.4%  util=0.757409  Δ=-0.015621
+  TJX+5%  AMZN= 28.5%  TSLA= 16.4%  HD=  0.6%  TJX= 14.0%  MCD=  3.9%  BKNG=  6.0%  LOW=  2.5%  SBUX=  1.5%  ORLY= 26.0%  MAR=  0.4%  util=0.765368  Δ=+0.017380
+  MCD+5%  AMZN= 28.5%  TSLA= 16.4%  HD=  0.6%  TJX=  8.5%  MCD=  9.5%  BKNG=  6.0%  LOW=  2.5%  SBUX=  1.5%  ORLY= 26.0%  MAR=  0.4%  util=0.757457  Δ=+0.006972
+  BKNG+5%  AMZN= 28.5%  TSLA= 16.4%  HD=  0.6%  TJX=  8.5%  MCD=  3.9%  BKNG= 11.5%  LOW=  2.5%  SBUX=  1.5%  ORLY= 26.0%  MAR=  0.4%  util=0.772253  Δ=+0.018199
+  LOW+5%  AMZN= 28.5%  TSLA= 16.4%  HD=  0.6%  TJX=  8.5%  MCD=  3.9%  BKNG=  6.0%  LOW=  8.1%  SBUX=  1.5%  ORLY= 26.0%  MAR=  0.4%  util=0.760290  Δ=-0.010060
+  SBUX+5%  AMZN= 28.5%  TSLA= 16.4%  HD=  0.6%  TJX=  8.5%  MCD=  3.9%  BKNG=  6.0%  LOW=  2.5%  SBUX=  7.1%  ORLY= 26.0%  MAR=  0.4%  util=0.765192  Δ=+0.015935
+  ORLY+5%  AMZN= 28.5%  TSLA= 16.4%  HD=  0.6%  TJX=  8.5%  MCD=  3.9%  BKNG=  6.0%  LOW=  2.5%  SBUX=  1.5%  ORLY= 31.6%  MAR=  0.4%  util=0.767044  Δ=+0.014894
+  MAR+5%  AMZN= 28.5%  TSLA= 16.4%  HD=  0.6%  TJX=  8.5%  MCD=  3.9%  BKNG=  6.0%  LOW=  2.5%  SBUX=  1.5%  ORLY= 26.0%  MAR=  6.0%  util=0.768663  Δ=+0.012915
+  ★ WINNER: Epoch 17  improvement=+0.018199
+────────────────────────────────────────────────────────────────────────
+Epoch 18  [startUtility=1.549642  feasible=1  step=0.0500  streak=7  T=0.0199]
+  MAR+5%  AMZN= 27.9%  TSLA= 15.9%  HD=  0.1%  TJX=  7.9%  MCD=  3.4%  BKNG= 11.0%  LOW=  2.0%  SBUX=  1.0%  ORLY= 25.5%  MAR=  5.4%  util=0.765158  Δ=+0.011133
+  ★ WINNER: Epoch 18  improvement=+0.011133
+────────────────────────────────────────────────────────────────────────
+Epoch 19  [startUtility=1.560775  feasible=1  step=0.0500  streak=8  T=0.0189]
+  HD+5%  AMZN= 27.3%  TSLA= 15.3%  HD=  5.1%  TJX=  7.4%  MCD=  2.8%  BKNG= 10.4%  LOW=  1.4%  SBUX=  0.4%  ORLY= 24.9%  MAR=  4.9%  util=0.747132  Δ=-0.014539
+  ✗ STOPPED: no_improvement
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=1.560775  (gain=+0.263027  epochs=20)

@@ -1,0 +1,97 @@
+=== OPTIMIZATION DEBUG: Booglehead ===
+Time:   Sat Apr 11 14:19:39 EDT 2026
+Start:  VTI= 33.0%  VXUS= 33.0%  BND= 34.0%
+        utility = 0.454043
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.454043  feasible=3  step=0.0100  streak=0  T=0.0500]
+  VTI+1%  VTI= 34.0%  VXUS= 32.5%  BND= 33.5%  util=0.465238  Δ=+0.011195
+  VXUS+1%  VTI= 32.5%  VXUS= 34.0%  BND= 33.5%  util=0.453365  Δ=-0.000679
+  BND+1%  VTI= 32.5%  VXUS= 32.5%  BND= 35.0%  util=0.443449  Δ=-0.010594
+  ★ WINNER: Epoch 0  improvement=+0.011195
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.465238  feasible=3  step=0.0200  streak=1  T=0.0475]
+  VTI+2%  VTI= 36.0%  VXUS= 31.5%  BND= 32.5%  util=0.487430  Δ=+0.022192
+  VXUS+2%  VTI= 33.0%  VXUS= 34.5%  BND= 32.5%  util=0.463878  Δ=-0.001360
+  BND+2%  VTI= 33.0%  VXUS= 31.5%  BND= 35.5%  util=0.444077  Δ=-0.021161
+  ★ WINNER: Epoch 1  improvement=+0.022192
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.487430  feasible=3  step=0.0300  streak=2  T=0.0451]
+  VTI+3%  VTI= 39.0%  VXUS= 30.0%  BND= 31.0%  util=0.520084  Δ=+0.032655
+  VXUS+3%  VTI= 34.5%  VXUS= 34.5%  BND= 31.0%  util=0.485447  Δ=-0.001983
+  BND+3%  VTI= 34.5%  VXUS= 30.0%  BND= 35.5%  util=0.455876  Δ=-0.031554
+  ★ WINNER: Epoch 2  improvement=+0.032655
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.520084  feasible=3  step=0.0400  streak=3  T=0.0429]
+  VTI+4%  VTI= 43.0%  VXUS= 28.0%  BND= 29.0%  util=0.562242  Δ=+0.042158
+  VXUS+4%  VTI= 37.0%  VXUS= 34.0%  BND= 29.0%  util=0.517799  Δ=-0.002285
+  BND+4%  VTI= 37.0%  VXUS= 28.0%  BND= 35.0%  util=0.478445  Δ=-0.041639
+  ★ WINNER: Epoch 3  improvement=+0.042158
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.562242  feasible=3  step=0.0500  streak=4  T=0.0407]
+  VTI+5%  VTI= 48.0%  VXUS= 25.5%  BND= 26.5%  util=0.611102  Δ=+0.048859
+  VXUS+5%  VTI= 40.5%  VXUS= 33.0%  BND= 26.5%  util=0.560274  Δ=-0.001968
+  BND+5%  VTI= 40.5%  VXUS= 25.5%  BND= 34.0%  util=0.510787  Δ=-0.051455
+  ★ WINNER: Epoch 4  improvement=+0.048859
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.611102  feasible=3  step=0.0500  streak=5  T=0.0387]
+  VTI+5%  VTI= 53.0%  VXUS= 23.0%  BND= 24.0%  util=0.656404  Δ=+0.045302
+  VXUS+5%  VTI= 45.5%  VXUS= 30.5%  BND= 24.0%  util=0.611808  Δ=+0.000707
+  BND+5%  VTI= 45.5%  VXUS= 23.0%  BND= 31.5%  util=0.561210  Δ=-0.049892
+  ★ WINNER: Epoch 5  improvement=+0.045302
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.656404  feasible=3  step=0.0500  streak=6  T=0.0368]
+  VTI+5%  VTI= 58.0%  VXUS= 20.5%  BND= 21.5%  util=0.698001  Δ=+0.041597
+  VXUS+5%  VTI= 50.5%  VXUS= 28.0%  BND= 21.5%  util=0.659397  Δ=+0.002993
+  BND+5%  VTI= 50.5%  VXUS= 20.5%  BND= 29.0%  util=0.607677  Δ=-0.048726
+  ★ WINNER: Epoch 6  improvement=+0.041597
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=0.698001  feasible=3  step=0.0500  streak=7  T=0.0349]
+  VTI+5%  VTI= 63.0%  VXUS= 18.0%  BND= 19.0%  util=0.736734  Δ=+0.038733
+  VXUS+5%  VTI= 55.5%  VXUS= 25.5%  BND= 19.0%  util=0.703556  Δ=+0.005555
+  BND+5%  VTI= 55.5%  VXUS= 18.0%  BND= 26.5%  util=0.650469  Δ=-0.047531
+  ★ WINNER: Epoch 7  improvement=+0.038733
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=0.736734  feasible=3  step=0.0500  streak=8  T=0.0332]
+  VTI+5%  VTI= 68.0%  VXUS= 15.5%  BND= 16.5%  util=0.773556  Δ=+0.036822
+  VXUS+5%  VTI= 60.5%  VXUS= 23.0%  BND= 16.5%  util=0.744292  Δ=+0.007558
+  BND+5%  VTI= 60.5%  VXUS= 15.5%  BND= 24.0%  util=0.689986  Δ=-0.046748
+  ★ WINNER: Epoch 8  improvement=+0.036822
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=0.773556  feasible=3  step=0.0500  streak=9  T=0.0315]
+  VTI+5%  VTI= 73.0%  VXUS= 13.0%  BND= 14.0%  util=0.806724  Δ=+0.033168
+  VXUS+5%  VTI= 65.5%  VXUS= 20.5%  BND= 14.0%  util=0.783006  Δ=+0.009450
+  BND+5%  VTI= 65.5%  VXUS= 13.0%  BND= 21.5%  util=0.726984  Δ=-0.046572
+  ★ WINNER: Epoch 9  improvement=+0.033168
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=0.806724  feasible=2  step=0.0500  streak=10  T=0.0299]
+  VXUS+5%  VTI= 70.5%  VXUS= 18.0%  BND= 11.5%  util=0.818642  Δ=+0.011918
+  BND+5%  VTI= 70.5%  VXUS= 10.5%  BND= 19.0%  util=0.761396  Δ=-0.045327
+  ★ WINNER: Epoch 10  improvement=+0.011918
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=0.818642  feasible=2  step=0.0500  streak=11  T=0.0284]
+  VXUS+5%  VTI= 68.0%  VXUS= 23.0%  BND=  9.0%  util=0.828010  Δ=+0.009368
+  BND+5%  VTI= 68.0%  VXUS= 15.5%  BND= 16.5%  util=0.773556  Δ=-0.045086
+  ★ WINNER: Epoch 11  improvement=+0.009368
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=0.828010  feasible=3  step=0.0500  streak=12  T=0.0270]
+  VTI+5%  VTI= 73.0%  VXUS= 20.5%  BND=  6.5%  util=0.862276  Δ=+0.034266
+  VXUS+5%  VTI= 65.5%  VXUS= 28.0%  BND=  6.5%  util=0.835120  Δ=+0.007109
+  BND+5%  VTI= 65.5%  VXUS= 20.5%  BND= 14.0%  util=0.783006  Δ=-0.045004
+  ★ WINNER: Epoch 12  improvement=+0.034266
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=0.862276  feasible=2  step=0.0500  streak=13  T=0.0257]
+  VXUS+5%  VTI= 70.5%  VXUS= 25.5%  BND=  4.0%  util=0.871501  Δ=+0.009225
+  BND+5%  VTI= 70.5%  VXUS= 18.0%  BND= 11.5%  util=0.818642  Δ=-0.043634
+  ★ WINNER: Epoch 13  improvement=+0.009225
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=0.871501  feasible=2  step=0.0500  streak=14  T=0.0244]
+  VXUS+5%  VTI= 68.0%  VXUS= 30.5%  BND=  1.5%  util=0.878501  Δ=+0.007000
+  BND+5%  VTI= 68.0%  VXUS= 23.0%  BND=  9.0%  util=0.828010  Δ=-0.043491
+  ★ WINNER: Epoch 14  improvement=+0.007000
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=0.878501  feasible=1  step=0.0500  streak=15  T=0.0232]
+  BND+5%  VTI= 65.5%  VXUS= 28.0%  BND=  6.5%  util=0.835120  Δ=-0.043382
+  ✗ STOPPED: no_improvement
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.878501  (gain=+0.424458  epochs=16)

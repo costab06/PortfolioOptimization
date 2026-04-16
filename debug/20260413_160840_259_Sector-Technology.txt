@@ -1,0 +1,127 @@
+=== OPTIMIZATION DEBUG: Sector-Technology ===
+Time:   Mon Apr 13 16:15:36 EDT 2026
+Start:  NVDA= 24.9%  AAPL= 21.3%  MSFT= 15.5%  AVGO=  9.4%  MU=  6.5%  AMD=  5.2%  CSCO=  4.5%  LRCX=  4.4%  AMAT=  4.3%  PLTR=  4.1%
+        utility = 1.905230
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=1.905230  feasible=10  step=0.0100  streak=0  T=0.0500]
+  NVDA+1%  NVDA= 25.9%  AAPL= 21.2%  MSFT= 15.3%  AVGO=  9.3%  MU=  6.3%  AMD=  5.1%  CSCO=  4.4%  LRCX=  4.3%  AMAT=  4.2%  PLTR=  3.9%  util=1.433066  Δ=-0.005854
+  AAPL+1%  NVDA= 24.8%  AAPL= 22.3%  MSFT= 15.3%  AVGO=  9.3%  MU=  6.3%  AMD=  5.1%  CSCO=  4.4%  LRCX=  4.3%  AMAT=  4.2%  PLTR=  3.9%  util=1.412191  Δ=-0.002580
+  MSFT+1%  NVDA= 24.8%  AAPL= 21.2%  MSFT= 16.5%  AVGO=  9.3%  MU=  6.3%  AMD=  5.1%  CSCO=  4.4%  LRCX=  4.3%  AMAT=  4.2%  PLTR=  3.9%  util=1.410899  Δ=-0.005864
+  AVGO+1%  NVDA= 24.8%  AAPL= 21.2%  MSFT= 15.3%  AVGO= 10.4%  MU=  6.3%  AMD=  5.1%  CSCO=  4.4%  LRCX=  4.3%  AMAT=  4.2%  PLTR=  3.9%  util=1.421219  Δ=+0.002347
+  MU+1%  NVDA= 24.8%  AAPL= 21.2%  MSFT= 15.3%  AVGO=  9.3%  MU=  7.4%  AMD=  5.1%  CSCO=  4.4%  LRCX=  4.3%  AMAT=  4.2%  PLTR=  3.9%  util=1.435292  Δ=+0.005542
+  AMD+1%  NVDA= 24.8%  AAPL= 21.2%  MSFT= 15.3%  AVGO=  9.3%  MU=  6.3%  AMD=  6.2%  CSCO=  4.4%  LRCX=  4.3%  AMAT=  4.2%  PLTR=  3.9%  util=1.426072  Δ=-0.005158
+  CSCO+1%  NVDA= 24.8%  AAPL= 21.2%  MSFT= 15.3%  AVGO=  9.3%  MU=  6.3%  AMD=  5.1%  CSCO=  5.5%  LRCX=  4.3%  AMAT=  4.2%  PLTR=  3.9%  util=1.411269  Δ=-0.000508
+  LRCX+1%  NVDA= 24.8%  AAPL= 21.2%  MSFT= 15.3%  AVGO=  9.3%  MU=  6.3%  AMD=  5.1%  CSCO=  4.4%  LRCX=  5.4%  AMAT=  4.2%  PLTR=  3.9%  util=1.420123  Δ=-0.004255
+  AMAT+1%  NVDA= 24.8%  AAPL= 21.2%  MSFT= 15.3%  AVGO=  9.3%  MU=  6.3%  AMD=  5.1%  CSCO=  4.4%  LRCX=  4.3%  AMAT=  5.3%  PLTR=  3.9%  util=1.416496  Δ=-0.006789
+  PLTR+1%  NVDA= 24.8%  AAPL= 21.2%  MSFT= 15.3%  AVGO=  9.3%  MU=  6.3%  AMD=  5.1%  CSCO=  4.4%  LRCX=  4.3%  AMAT=  4.2%  PLTR=  5.1%  util=1.452216  Δ=+0.018917
+  ★ WINNER: Epoch 0  improvement=+0.018917
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=1.924147  feasible=10  step=0.0200  streak=1  T=0.0475]
+  NVDA+2%  NVDA= 26.8%  AAPL= 21.0%  MSFT= 15.1%  AVGO=  9.1%  MU=  6.1%  AMD=  4.9%  CSCO=  4.1%  LRCX=  4.1%  AMAT=  4.0%  PLTR=  4.8%  util=1.470676  Δ=-0.011238
+  AAPL+2%  NVDA= 24.6%  AAPL= 23.2%  MSFT= 15.1%  AVGO=  9.1%  MU=  6.1%  AMD=  4.9%  CSCO=  4.1%  LRCX=  4.1%  AMAT=  4.0%  PLTR=  4.8%  util=1.428725  Δ=-0.004691
+  MSFT+2%  NVDA= 24.6%  AAPL= 21.0%  MSFT= 17.3%  AVGO=  9.1%  MU=  6.1%  AMD=  4.9%  CSCO=  4.1%  LRCX=  4.1%  AMAT=  4.0%  PLTR=  4.8%  util=1.426185  Δ=-0.011262
+  AVGO+2%  NVDA= 24.6%  AAPL= 21.0%  MSFT= 15.1%  AVGO= 11.3%  MU=  6.1%  AMD=  4.9%  CSCO=  4.1%  LRCX=  4.1%  AMAT=  4.0%  PLTR=  4.8%  util=1.446833  Δ=+0.004956
+  MU+2%  NVDA= 24.6%  AAPL= 21.0%  MSFT= 15.1%  AVGO=  9.1%  MU=  8.3%  AMD=  4.9%  CSCO=  4.1%  LRCX=  4.1%  AMAT=  4.0%  PLTR=  4.8%  util=1.475059  Δ=+0.011504
+  AMD+2%  NVDA= 24.6%  AAPL= 21.0%  MSFT= 15.1%  AVGO=  9.1%  MU=  6.1%  AMD=  7.1%  CSCO=  4.1%  LRCX=  4.1%  AMAT=  4.0%  PLTR=  4.8%  util=1.456442  Δ=-0.009628
+  CSCO+2%  NVDA= 24.6%  AAPL= 21.0%  MSFT= 15.1%  AVGO=  9.1%  MU=  6.1%  AMD=  4.9%  CSCO=  6.4%  LRCX=  4.1%  AMAT=  4.0%  PLTR=  4.8%  util=1.426872  Δ=-0.000633
+  LRCX+2%  NVDA= 24.6%  AAPL= 21.0%  MSFT= 15.1%  AVGO=  9.1%  MU=  6.1%  AMD=  4.9%  CSCO=  4.1%  LRCX=  6.3%  AMAT=  4.0%  PLTR=  4.8%  util=1.444701  Δ=-0.007604
+  AMAT+2%  NVDA= 24.6%  AAPL= 21.0%  MSFT= 15.1%  AVGO=  9.1%  MU=  6.1%  AMD=  4.9%  CSCO=  4.1%  LRCX=  4.1%  AMAT=  6.2%  PLTR=  4.8%  util=1.437400  Δ=-0.012630
+  PLTR+2%  NVDA= 24.6%  AAPL= 21.0%  MSFT= 15.1%  AVGO=  9.1%  MU=  6.1%  AMD=  4.9%  CSCO=  4.1%  LRCX=  4.1%  AMAT=  4.0%  PLTR=  7.0%  util=1.504058  Δ=+0.027095
+  ★ WINNER: Epoch 1  improvement=+0.027095
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=1.951243  feasible=10  step=0.0300  streak=2  T=0.0451]
+  NVDA+3%  NVDA= 27.6%  AAPL= 20.7%  MSFT= 14.8%  AVGO=  8.7%  MU=  5.8%  AMD=  4.6%  CSCO=  3.8%  LRCX=  3.7%  AMAT=  3.6%  PLTR=  6.7%  util=1.532994  Δ=-0.015560
+  AAPL+3%  NVDA= 24.3%  AAPL= 24.0%  MSFT= 14.8%  AVGO=  8.7%  MU=  5.8%  AMD=  4.6%  CSCO=  3.8%  LRCX=  3.7%  AMAT=  3.6%  PLTR=  6.7%  util=1.469466  Δ=-0.006201
+  MSFT+3%  NVDA= 24.3%  AAPL= 20.7%  MSFT= 18.1%  AVGO=  8.7%  MU=  5.8%  AMD=  4.6%  CSCO=  3.8%  LRCX=  3.7%  AMAT=  3.6%  PLTR=  6.7%  util=1.465611  Δ=-0.016061
+  AVGO+3%  NVDA= 24.3%  AAPL= 20.7%  MSFT= 14.8%  AVGO= 12.1%  MU=  5.8%  AMD=  4.6%  CSCO=  3.8%  LRCX=  3.7%  AMAT=  3.6%  PLTR=  6.7%  util=1.496523  Δ=+0.008164
+  MU+3%  NVDA= 24.3%  AAPL= 20.7%  MSFT= 14.8%  AVGO=  8.7%  MU=  9.1%  AMD=  4.6%  CSCO=  3.8%  LRCX=  3.7%  AMAT=  3.6%  PLTR=  6.7%  util=1.539283  Δ=+0.019660
+  AMD+3%  NVDA= 24.3%  AAPL= 20.7%  MSFT= 14.8%  AVGO=  8.7%  MU=  5.8%  AMD=  7.9%  CSCO=  3.8%  LRCX=  3.7%  AMAT=  3.6%  PLTR=  6.7%  util=1.511663  Δ=-0.012266
+  CSCO+3%  NVDA= 24.3%  AAPL= 20.7%  MSFT= 14.8%  AVGO=  8.7%  MU=  5.8%  AMD=  4.6%  CSCO=  7.1%  LRCX=  3.7%  AMAT=  3.6%  PLTR=  6.7%  util=1.466523  Δ=-0.000365
+  LRCX+3%  NVDA= 24.3%  AAPL= 20.7%  MSFT= 14.8%  AVGO=  8.7%  MU=  5.8%  AMD=  4.6%  CSCO=  3.8%  LRCX=  7.1%  AMAT=  3.6%  PLTR=  6.7%  util=1.493584  Δ=-0.009043
+  AMAT+3%  NVDA= 24.3%  AAPL= 20.7%  MSFT= 14.8%  AVGO=  8.7%  MU=  5.8%  AMD=  4.6%  CSCO=  3.8%  LRCX=  3.7%  AMAT=  7.0%  PLTR=  6.7%  util=1.482632  Δ=-0.016630
+  PLTR+3%  NVDA= 24.3%  AAPL= 20.7%  MSFT= 14.8%  AVGO=  8.7%  MU=  5.8%  AMD=  4.6%  CSCO=  3.8%  LRCX=  3.7%  AMAT=  3.6%  PLTR= 10.1%  util=1.577392  Δ=+0.022345
+  ★ WINNER: Epoch 2  improvement=+0.022345
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=1.973588  feasible=10  step=0.0400  streak=3  T=0.0429]
+  NVDA+4%  NVDA= 28.3%  AAPL= 20.2%  MSFT= 14.3%  AVGO=  8.3%  MU=  5.3%  AMD=  4.1%  CSCO=  3.4%  LRCX=  3.3%  AMAT=  3.2%  PLTR=  9.6%  util=1.616266  Δ=-0.018958
+  AAPL+4%  NVDA= 23.8%  AAPL= 24.7%  MSFT= 14.3%  AVGO=  8.3%  MU=  5.3%  AMD=  4.1%  CSCO=  3.4%  LRCX=  3.3%  AMAT=  3.2%  PLTR=  9.6%  util=1.531501  Δ=-0.008017
+  MSFT+4%  NVDA= 23.8%  AAPL= 20.2%  MSFT= 18.8%  AVGO=  8.3%  MU=  5.3%  AMD=  4.1%  CSCO=  3.4%  LRCX=  3.3%  AMAT=  3.2%  PLTR=  9.6%  util=1.526401  Δ=-0.021129
+  AVGO+4%  NVDA= 23.8%  AAPL= 20.2%  MSFT= 14.3%  AVGO= 12.7%  MU=  5.3%  AMD=  4.1%  CSCO=  3.4%  LRCX=  3.3%  AMAT=  3.2%  PLTR=  9.6%  util=1.567578  Δ=+0.011371
+  MU+4%  NVDA= 23.8%  AAPL= 20.2%  MSFT= 14.3%  AVGO=  8.3%  MU=  9.8%  AMD=  4.1%  CSCO=  3.4%  LRCX=  3.3%  AMAT=  3.2%  PLTR=  9.6%  util=1.625140  Δ=+0.030566
+  AMD+4%  NVDA= 23.8%  AAPL= 20.2%  MSFT= 14.3%  AVGO=  8.3%  MU=  5.3%  AMD=  8.6%  CSCO=  3.4%  LRCX=  3.3%  AMAT=  3.2%  PLTR=  9.6%  util=1.588083  Δ=-0.013050
+  CSCO+4%  NVDA= 23.8%  AAPL= 20.2%  MSFT= 14.3%  AVGO=  8.3%  MU=  5.3%  AMD=  4.1%  CSCO=  7.8%  LRCX=  3.3%  AMAT=  3.2%  PLTR=  9.6%  util=1.527570  Δ=-0.000643
+  LRCX+4%  NVDA= 23.8%  AAPL= 20.2%  MSFT= 14.3%  AVGO=  8.3%  MU=  5.3%  AMD=  4.1%  CSCO=  3.4%  LRCX=  7.7%  AMAT=  3.2%  PLTR=  9.6%  util=1.564114  Δ=-0.008563
+  AMAT+4%  NVDA= 23.8%  AAPL= 20.2%  MSFT= 14.3%  AVGO=  8.3%  MU=  5.3%  AMD=  4.1%  CSCO=  3.4%  LRCX=  3.3%  AMAT=  7.6%  PLTR=  9.6%  util=1.549495  Δ=-0.019001
+  PLTR+4%  NVDA= 23.8%  AAPL= 20.2%  MSFT= 14.3%  AVGO=  8.3%  MU=  5.3%  AMD=  4.1%  CSCO=  3.4%  LRCX=  3.3%  AMAT=  3.2%  PLTR= 14.1%  util=1.670149  Δ=+0.008180
+  ★ WINNER: Epoch 3  improvement=+0.030566
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=2.004154  feasible=10  step=0.0500  streak=4  T=0.0407]
+  NVDA+5%  NVDA= 28.8%  AAPL= 19.7%  MSFT= 13.8%  AVGO=  7.7%  MU=  9.2%  AMD=  3.6%  CSCO=  2.8%  LRCX=  2.7%  AMAT=  2.6%  PLTR=  9.0%  util=1.674318  Δ=-0.019976
+  AAPL+5%  NVDA= 23.3%  AAPL= 25.2%  MSFT= 13.8%  AVGO=  7.7%  MU=  9.2%  AMD=  3.6%  CSCO=  2.8%  LRCX=  2.7%  AMAT=  2.6%  PLTR=  9.0%  util=1.568332  Δ=-0.006728
+  MSFT+5%  NVDA= 23.3%  AAPL= 19.7%  MSFT= 19.3%  AVGO=  7.7%  MU=  9.2%  AMD=  3.6%  CSCO=  2.8%  LRCX=  2.7%  AMAT=  2.6%  PLTR=  9.0%  util=1.562084  Δ=-0.022050
+  AVGO+5%  NVDA= 23.3%  AAPL= 19.7%  MSFT= 13.8%  AVGO= 13.3%  MU=  9.2%  AMD=  3.6%  CSCO=  2.8%  LRCX=  2.7%  AMAT=  2.6%  PLTR=  9.0%  util=1.613338  Δ=+0.017148
+  MU+5%  NVDA= 23.3%  AAPL= 19.7%  MSFT= 13.8%  AVGO=  7.7%  MU= 14.8%  AMD=  3.6%  CSCO=  2.8%  LRCX=  2.7%  AMAT=  2.6%  PLTR=  9.0%  util=1.678454  Δ=+0.016276
+  AMD+5%  NVDA= 23.3%  AAPL= 19.7%  MSFT= 13.8%  AVGO=  7.7%  MU=  9.2%  AMD=  9.1%  CSCO=  2.8%  LRCX=  2.7%  AMAT=  2.6%  PLTR=  9.0%  util=1.638640  Δ=-0.014979
+  CSCO+5%  NVDA= 23.3%  AAPL= 19.7%  MSFT= 13.8%  AVGO=  7.7%  MU=  9.2%  AMD=  3.6%  CSCO=  8.4%  LRCX=  2.7%  AMAT=  2.6%  PLTR=  9.0%  util=1.563316  Δ=+0.002356
+  LRCX+5%  NVDA= 23.3%  AAPL= 19.7%  MSFT= 13.8%  AVGO=  7.7%  MU=  9.2%  AMD=  3.6%  CSCO=  2.8%  LRCX=  8.3%  AMAT=  2.6%  PLTR=  9.0%  util=1.607798  Δ=-0.015759
+  AMAT+5%  NVDA= 23.3%  AAPL= 19.7%  MSFT= 13.8%  AVGO=  7.7%  MU=  9.2%  AMD=  3.6%  CSCO=  2.8%  LRCX=  2.7%  AMAT=  8.2%  PLTR=  9.0%  util=1.590092  Δ=-0.025249
+  PLTR+5%  NVDA= 23.3%  AAPL= 19.7%  MSFT= 13.8%  AVGO=  7.7%  MU=  9.2%  AMD=  3.6%  CSCO=  2.8%  LRCX=  2.7%  AMAT=  2.6%  PLTR= 14.6%  util=1.742115  Δ=+0.016337
+  ★ WINNER: Epoch 4  improvement=+0.017148
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=2.021302  feasible=10  step=0.0500  streak=5  T=0.0387]
+  NVDA+5%  NVDA= 28.3%  AAPL= 19.1%  MSFT= 13.2%  AVGO= 12.7%  MU=  8.7%  AMD=  3.0%  CSCO=  2.2%  LRCX=  2.2%  AMAT=  2.1%  PLTR=  8.5%  util=1.662536  Δ=-0.020405
+  AAPL+5%  NVDA= 22.7%  AAPL= 24.7%  MSFT= 13.2%  AVGO= 12.7%  MU=  8.7%  AMD=  3.0%  CSCO=  2.2%  LRCX=  2.2%  AMAT=  2.1%  PLTR=  8.5%  util=1.556382  Δ=-0.006721
+  MSFT+5%  NVDA= 22.7%  AAPL= 19.1%  MSFT= 18.8%  AVGO= 12.7%  MU=  8.7%  AMD=  3.0%  CSCO=  2.2%  LRCX=  2.2%  AMAT=  2.1%  PLTR=  8.5%  util=1.550081  Δ=-0.022251
+  AVGO+5%  NVDA= 22.7%  AAPL= 19.1%  MSFT= 13.2%  AVGO= 18.3%  MU=  8.7%  AMD=  3.0%  CSCO=  2.2%  LRCX=  2.2%  AMAT=  2.1%  PLTR=  8.5%  util=1.600390  Δ=+0.008961
+  MU+5%  NVDA= 22.7%  AAPL= 19.1%  MSFT= 13.2%  AVGO= 12.7%  MU= 14.2%  AMD=  3.0%  CSCO=  2.2%  LRCX=  2.2%  AMAT=  2.1%  PLTR=  8.5%  util=1.667480  Δ=+0.018726
+  AMD+5%  NVDA= 22.7%  AAPL= 19.1%  MSFT= 13.2%  AVGO= 12.7%  MU=  8.7%  AMD=  8.6%  CSCO=  2.2%  LRCX=  2.2%  AMAT=  2.1%  PLTR=  8.5%  util=1.627009  Δ=-0.014044
+  CSCO+5%  NVDA= 22.7%  AAPL= 19.1%  MSFT= 13.2%  AVGO= 12.7%  MU=  8.7%  AMD=  3.0%  CSCO=  7.8%  LRCX=  2.2%  AMAT=  2.1%  PLTR=  8.5%  util=1.551401  Δ=+0.002549
+  LRCX+5%  NVDA= 22.7%  AAPL= 19.1%  MSFT= 13.2%  AVGO= 12.7%  MU=  8.7%  AMD=  3.0%  CSCO=  2.2%  LRCX=  7.7%  AMAT=  2.1%  PLTR=  8.5%  util=1.596130  Δ=-0.014739
+  AMAT+5%  NVDA= 22.7%  AAPL= 19.1%  MSFT= 13.2%  AVGO= 12.7%  MU=  8.7%  AMD=  3.0%  CSCO=  2.2%  LRCX=  2.2%  AMAT=  7.6%  PLTR=  8.5%  util=1.578332  Δ=-0.024589
+  PLTR+5%  NVDA= 22.7%  AAPL= 19.1%  MSFT= 13.2%  AVGO= 12.7%  MU=  8.7%  AMD=  3.0%  CSCO=  2.2%  LRCX=  2.2%  AMAT=  2.1%  PLTR= 14.1%  util=1.730852  Δ=+0.017592
+  ★ WINNER: Epoch 5  improvement=+0.018726
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=2.040028  feasible=10  step=0.0500  streak=6  T=0.0368]
+  NVDA+5%  NVDA= 27.7%  AAPL= 18.6%  MSFT= 12.7%  AVGO= 12.2%  MU= 13.7%  AMD=  2.5%  CSCO=  1.7%  LRCX=  1.6%  AMAT=  1.5%  PLTR=  7.9%  util=1.718336  Δ=-0.016044
+  AAPL+5%  NVDA= 22.2%  AAPL= 24.1%  MSFT= 12.7%  AVGO= 12.2%  MU= 13.7%  AMD=  2.5%  CSCO=  1.7%  LRCX=  1.6%  AMAT=  1.5%  PLTR=  7.9%  util=1.611052  Δ=-0.004351
+  MSFT+5%  NVDA= 22.2%  AAPL= 18.6%  MSFT= 18.2%  AVGO= 12.2%  MU= 13.7%  AMD=  2.5%  CSCO=  1.7%  LRCX=  1.6%  AMAT=  1.5%  PLTR=  7.9%  util=1.604922  Δ=-0.018755
+  AVGO+5%  NVDA= 22.2%  AAPL= 18.6%  MSFT= 12.7%  AVGO= 17.7%  MU= 13.7%  AMD=  2.5%  CSCO=  1.7%  LRCX=  1.6%  AMAT=  1.5%  PLTR=  7.9%  util=1.655399  Δ=+0.011567
+  MU+5%  NVDA= 22.2%  AAPL= 18.6%  MSFT= 12.7%  AVGO= 12.2%  MU= 19.2%  AMD=  2.5%  CSCO=  1.7%  LRCX=  1.6%  AMAT=  1.5%  PLTR=  7.9%  util=1.711234  Δ=+0.001367
+  AMD+5%  NVDA= 22.2%  AAPL= 18.6%  MSFT= 12.7%  AVGO= 12.2%  MU= 13.7%  AMD=  8.0%  CSCO=  1.7%  LRCX=  1.6%  AMAT=  1.5%  PLTR=  7.9%  util=1.681562  Δ=-0.011699
+  CSCO+5%  NVDA= 22.2%  AAPL= 18.6%  MSFT= 12.7%  AVGO= 12.2%  MU= 13.7%  AMD=  2.5%  CSCO=  7.2%  LRCX=  1.6%  AMAT=  1.5%  PLTR=  7.9%  util=1.605912  Δ=+0.004539
+  LRCX+5%  NVDA= 22.2%  AAPL= 18.6%  MSFT= 12.7%  AVGO= 12.2%  MU= 13.7%  AMD=  2.5%  CSCO=  1.7%  LRCX=  7.2%  AMAT=  1.5%  PLTR=  7.9%  util=1.648078  Δ=-0.019169
+  AMAT+5%  NVDA= 22.2%  AAPL= 18.6%  MSFT= 12.7%  AVGO= 12.2%  MU= 13.7%  AMD=  2.5%  CSCO=  1.7%  LRCX=  1.6%  AMAT=  7.1%  PLTR=  7.9%  util=1.631896  Δ=-0.026360
+  PLTR+5%  NVDA= 22.2%  AAPL= 18.6%  MSFT= 12.7%  AVGO= 12.2%  MU= 13.7%  AMD=  2.5%  CSCO=  1.7%  LRCX=  1.6%  AMAT=  1.5%  PLTR= 13.5%  util=1.788679  Δ=+0.027903
+  ★ WINNER: Epoch 6  improvement=+0.027903
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=2.067931  feasible=10  step=0.0500  streak=7  T=0.0349]
+  NVDA+5%  NVDA= 27.2%  AAPL= 18.0%  MSFT= 12.1%  AVGO= 11.6%  MU= 13.1%  AMD=  1.9%  CSCO=  1.1%  LRCX=  1.1%  AMAT=  1.0%  PLTR= 12.9%  util=1.839032  Δ=-0.012118
+  AAPL+5%  NVDA= 21.6%  AAPL= 23.6%  MSFT= 12.1%  AVGO= 11.6%  MU= 13.1%  AMD=  1.9%  CSCO=  1.1%  LRCX=  1.1%  AMAT=  1.0%  PLTR= 12.9%  util=1.732839  Δ=-0.003781
+  MSFT+5%  NVDA= 21.6%  AAPL= 18.0%  MSFT= 17.7%  AVGO= 11.6%  MU= 13.1%  AMD=  1.9%  CSCO=  1.1%  LRCX=  1.1%  AMAT=  1.0%  PLTR= 12.9%  util=1.726730  Δ=-0.017990
+  AVGO+5%  NVDA= 21.6%  AAPL= 18.0%  MSFT= 12.1%  AVGO= 17.2%  MU= 13.1%  AMD=  1.9%  CSCO=  1.1%  LRCX=  1.1%  AMAT=  1.0%  PLTR= 12.9%  util=1.776885  Δ=+0.013861
+  MU+5%  NVDA= 21.6%  AAPL= 18.0%  MSFT= 12.1%  AVGO= 11.6%  MU= 18.7%  AMD=  1.9%  CSCO=  1.1%  LRCX=  1.1%  AMAT=  1.0%  PLTR= 12.9%  util=1.841043  Δ=+0.010930
+  AMD+5%  NVDA= 21.6%  AAPL= 18.0%  MSFT= 12.1%  AVGO= 11.6%  MU= 13.1%  AMD=  7.5%  CSCO=  1.1%  LRCX=  1.1%  AMAT=  1.0%  PLTR= 12.9%  util=1.804013  Δ=-0.004095
+  CSCO+5%  NVDA= 21.6%  AAPL= 18.0%  MSFT= 12.1%  AVGO= 11.6%  MU= 13.1%  AMD=  1.9%  CSCO=  6.7%  LRCX=  1.1%  AMAT=  1.0%  PLTR= 12.9%  util=1.727754  Δ=+0.004429
+  LRCX+5%  NVDA= 21.6%  AAPL= 18.0%  MSFT= 12.1%  AVGO= 11.6%  MU= 13.1%  AMD=  1.9%  CSCO=  1.1%  LRCX=  6.6%  AMAT=  1.0%  PLTR= 12.9%  util=1.772027  Δ=-0.013013
+  AMAT+5%  NVDA= 21.6%  AAPL= 18.0%  MSFT= 12.1%  AVGO= 11.6%  MU= 13.1%  AMD=  1.9%  CSCO=  1.1%  LRCX=  1.1%  AMAT=  6.5%  PLTR= 12.9%  util=1.754757  Δ=-0.020770
+  PLTR+5%  NVDA= 21.6%  AAPL= 18.0%  MSFT= 12.1%  AVGO= 11.6%  MU= 13.1%  AMD=  1.9%  CSCO=  1.1%  LRCX=  1.1%  AMAT=  1.0%  PLTR= 18.5%  util=1.900996  Δ=+0.000570
+  ★ WINNER: Epoch 7  improvement=+0.013861
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=2.081792  feasible=10  step=0.0500  streak=8  T=0.0332]
+  NVDA+5%  NVDA= 26.6%  AAPL= 17.5%  MSFT= 11.6%  AVGO= 16.6%  MU= 12.6%  AMD=  1.4%  CSCO=  0.6%  LRCX=  0.5%  AMAT=  0.4%  PLTR= 12.4%  util=1.827269  Δ=-0.012268
+  AAPL+5%  NVDA= 21.0%  AAPL= 23.0%  MSFT= 11.6%  AVGO= 16.6%  MU= 12.6%  AMD=  1.4%  CSCO=  0.6%  LRCX=  0.5%  AMAT=  0.4%  PLTR= 12.4%  util=1.720917  Δ=-0.003839
+  MSFT+5%  NVDA= 21.0%  AAPL= 17.5%  MSFT= 17.1%  AVGO= 16.6%  MU= 12.6%  AMD=  1.4%  CSCO=  0.6%  LRCX=  0.5%  AMAT=  0.4%  PLTR= 12.4%  util=1.714757  Δ=-0.018230
+  AVGO+5%  NVDA= 21.0%  AAPL= 17.5%  MSFT= 11.6%  AVGO= 22.2%  MU= 12.6%  AMD=  1.4%  CSCO=  0.6%  LRCX=  0.5%  AMAT=  0.4%  PLTR= 12.4%  util=1.764119  Δ=+0.007633
+  MU+5%  NVDA= 21.0%  AAPL= 17.5%  MSFT= 11.6%  AVGO= 16.6%  MU= 18.1%  AMD=  1.4%  CSCO=  0.6%  LRCX=  0.5%  AMAT=  0.4%  PLTR= 12.4%  util=1.830138  Δ=+0.012661
+  AMD+5%  NVDA= 21.0%  AAPL= 17.5%  MSFT= 11.6%  AVGO= 16.6%  MU= 12.6%  AMD=  6.9%  CSCO=  0.6%  LRCX=  0.5%  AMAT=  0.4%  PLTR= 12.4%  util=1.792391  Δ=-0.002899
+  CSCO+5%  NVDA= 21.0%  AAPL= 17.5%  MSFT= 11.6%  AVGO= 16.6%  MU= 12.6%  AMD=  1.4%  CSCO=  6.1%  LRCX=  0.5%  AMAT=  0.4%  PLTR= 12.4%  util=1.715856  Δ=+0.004465
+  LRCX+5%  NVDA= 21.0%  AAPL= 17.5%  MSFT= 11.6%  AVGO= 16.6%  MU= 12.6%  AMD=  1.4%  CSCO=  0.6%  LRCX=  6.1%  AMAT=  0.4%  PLTR= 12.4%  util=1.760349  Δ=-0.012239
+  AMAT+5%  NVDA= 21.0%  AAPL= 17.5%  MSFT= 11.6%  AVGO= 16.6%  MU= 12.6%  AMD=  1.4%  CSCO=  0.6%  LRCX=  0.5%  AMAT=  6.0%  PLTR= 12.4%  util=1.743013  Δ=-0.020192
+  PLTR+5%  NVDA= 21.0%  AAPL= 17.5%  MSFT= 11.6%  AVGO= 16.6%  MU= 12.6%  AMD=  1.4%  CSCO=  0.6%  LRCX=  0.5%  AMAT=  0.4%  PLTR= 17.9%  util=1.889602  Δ=+0.001160
+  ★ WINNER: Epoch 8  improvement=+0.012661
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=2.094453  feasible=0  step=0.0500  streak=9  T=0.0315]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=2.094453  (gain=+0.189223  epochs=10)

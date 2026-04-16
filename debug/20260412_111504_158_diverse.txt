@@ -1,0 +1,270 @@
+=== OPTIMIZATION DEBUG: diverse ===
+Time:   Sun Apr 12 11:15:21 EDT 2026
+Start:  USO= 10.0%  GLD= 10.0%  MUB= 10.0%  VCLT= 10.0%  LQD= 10.0%  IGLB= 10.0%  XOM= 10.0%  SPY= 10.0%  QQQ= 10.0%  VXUS= 10.0%
+        utility = 7.342735
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=7.342735  feasible=10  step=0.0100  streak=0  T=0.0500]
+  USO+1%  USO= 11.0%  GLD=  9.9%  MUB=  9.9%  VCLT=  9.9%  LQD=  9.9%  IGLB=  9.9%  XOM=  9.9%  SPY=  9.9%  QQQ=  9.9%  VXUS=  9.9%  util=7.505369  Δ=+0.162634
+  GLD+1%  USO=  9.9%  GLD= 11.0%  MUB=  9.9%  VCLT=  9.9%  LQD=  9.9%  IGLB=  9.9%  XOM=  9.9%  SPY=  9.9%  QQQ=  9.9%  VXUS=  9.9%  util=7.601970  Δ=+0.259235
+  MUB+1%  USO=  9.9%  GLD=  9.9%  MUB= 11.0%  VCLT=  9.9%  LQD=  9.9%  IGLB=  9.9%  XOM=  9.9%  SPY=  9.9%  QQQ=  9.9%  VXUS=  9.9%  util=7.222299  Δ=-0.120437
+  VCLT+1%  USO=  9.9%  GLD=  9.9%  MUB=  9.9%  VCLT= 11.0%  LQD=  9.9%  IGLB=  9.9%  XOM=  9.9%  SPY=  9.9%  QQQ=  9.9%  VXUS=  9.9%  util=7.129337  Δ=-0.213399
+  LQD+1%  USO=  9.9%  GLD=  9.9%  MUB=  9.9%  VCLT=  9.9%  LQD= 11.0%  IGLB=  9.9%  XOM=  9.9%  SPY=  9.9%  QQQ=  9.9%  VXUS=  9.9%  util=7.190156  Δ=-0.152579
+  IGLB+1%  USO=  9.9%  GLD=  9.9%  MUB=  9.9%  VCLT=  9.9%  LQD=  9.9%  IGLB= 11.0%  XOM=  9.9%  SPY=  9.9%  QQQ=  9.9%  VXUS=  9.9%  util=7.131483  Δ=-0.211252
+  XOM+1%  USO=  9.9%  GLD=  9.9%  MUB=  9.9%  VCLT=  9.9%  LQD=  9.9%  IGLB=  9.9%  XOM= 11.0%  SPY=  9.9%  QQQ=  9.9%  VXUS=  9.9%  util=7.670983  Δ=+0.328248
+  SPY+1%  USO=  9.9%  GLD=  9.9%  MUB=  9.9%  VCLT=  9.9%  LQD=  9.9%  IGLB=  9.9%  XOM=  9.9%  SPY= 11.0%  QQQ=  9.9%  VXUS=  9.9%  util=7.316321  Δ=-0.026415
+  QQQ+1%  USO=  9.9%  GLD=  9.9%  MUB=  9.9%  VCLT=  9.9%  LQD=  9.9%  IGLB=  9.9%  XOM=  9.9%  SPY=  9.9%  QQQ= 11.0%  VXUS=  9.9%  util=7.372069  Δ=+0.029334
+  VXUS+1%  USO=  9.9%  GLD=  9.9%  MUB=  9.9%  VCLT=  9.9%  LQD=  9.9%  IGLB=  9.9%  XOM=  9.9%  SPY=  9.9%  QQQ=  9.9%  VXUS= 11.0%  util=7.254916  Δ=-0.087820
+  ★ WINNER: Epoch 0  improvement=+0.328248
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=7.670983  feasible=10  step=0.0200  streak=1  T=0.0475]
+  USO+2%  USO= 11.9%  GLD=  9.7%  MUB=  9.7%  VCLT=  9.7%  LQD=  9.7%  IGLB=  9.7%  XOM= 10.8%  SPY=  9.7%  QQQ=  9.7%  VXUS=  9.7%  util=7.958984  Δ=+0.288001
+  GLD+2%  USO=  9.7%  GLD= 11.9%  MUB=  9.7%  VCLT=  9.7%  LQD=  9.7%  IGLB=  9.7%  XOM= 10.8%  SPY=  9.7%  QQQ=  9.7%  VXUS=  9.7%  util=8.229406  Δ=+0.558423
+  MUB+2%  USO=  9.7%  GLD=  9.7%  MUB= 11.9%  VCLT=  9.7%  LQD=  9.7%  IGLB=  9.7%  XOM= 10.8%  SPY=  9.7%  QQQ=  9.7%  VXUS=  9.7%  util=7.420480  Δ=-0.250504
+  VCLT+2%  USO=  9.7%  GLD=  9.7%  MUB=  9.7%  VCLT= 11.9%  LQD=  9.7%  IGLB=  9.7%  XOM= 10.8%  SPY=  9.7%  QQQ=  9.7%  VXUS=  9.7%  util=7.230704  Δ=-0.440280
+  LQD+2%  USO=  9.7%  GLD=  9.7%  MUB=  9.7%  VCLT=  9.7%  LQD= 11.9%  IGLB=  9.7%  XOM= 10.8%  SPY=  9.7%  QQQ=  9.7%  VXUS=  9.7%  util=7.357254  Δ=-0.313729
+  IGLB+2%  USO=  9.7%  GLD=  9.7%  MUB=  9.7%  VCLT=  9.7%  LQD=  9.7%  IGLB= 11.9%  XOM= 10.8%  SPY=  9.7%  QQQ=  9.7%  VXUS=  9.7%  util=7.234790  Δ=-0.436193
+  XOM+2%  USO=  9.7%  GLD=  9.7%  MUB=  9.7%  VCLT=  9.7%  LQD=  9.7%  IGLB=  9.7%  XOM= 13.0%  SPY=  9.7%  QQQ=  9.7%  VXUS=  9.7%  util=8.334517  Δ=+0.663533
+  SPY+2%  USO=  9.7%  GLD=  9.7%  MUB=  9.7%  VCLT=  9.7%  LQD=  9.7%  IGLB=  9.7%  XOM= 10.8%  SPY= 11.9%  QQQ=  9.7%  VXUS=  9.7%  util=7.621578  Δ=-0.049405
+  QQQ+2%  USO=  9.7%  GLD=  9.7%  MUB=  9.7%  VCLT=  9.7%  LQD=  9.7%  IGLB=  9.7%  XOM= 10.8%  SPY=  9.7%  QQQ= 11.9%  VXUS=  9.7%  util=7.739337  Δ=+0.068354
+  VXUS+2%  USO=  9.7%  GLD=  9.7%  MUB=  9.7%  VCLT=  9.7%  LQD=  9.7%  IGLB=  9.7%  XOM= 10.8%  SPY=  9.7%  QQQ=  9.7%  VXUS= 11.9%  util=7.492375  Δ=-0.178609
+  ★ WINNER: Epoch 1  improvement=+0.663533
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=8.334517  feasible=10  step=0.0300  streak=2  T=0.0451]
+  USO+3%  USO= 12.7%  GLD=  9.3%  MUB=  9.3%  VCLT=  9.3%  LQD=  9.3%  IGLB=  9.3%  XOM= 12.7%  SPY=  9.3%  QQQ=  9.3%  VXUS=  9.3%  util=8.671925  Δ=+0.337408
+  GLD+3%  USO=  9.3%  GLD= 12.7%  MUB=  9.3%  VCLT=  9.3%  LQD=  9.3%  IGLB=  9.3%  XOM= 12.7%  SPY=  9.3%  QQQ=  9.3%  VXUS=  9.3%  util=9.304534  Δ=+0.970017
+  MUB+3%  USO=  9.3%  GLD=  9.3%  MUB= 12.7%  VCLT=  9.3%  LQD=  9.3%  IGLB=  9.3%  XOM= 12.7%  SPY=  9.3%  QQQ=  9.3%  VXUS=  9.3%  util=7.928269  Δ=-0.406247
+  VCLT+3%  USO=  9.3%  GLD=  9.3%  MUB=  9.3%  VCLT= 12.7%  LQD=  9.3%  IGLB=  9.3%  XOM= 12.7%  SPY=  9.3%  QQQ=  9.3%  VXUS=  9.3%  util=7.624206  Δ=-0.710311
+  LQD+3%  USO=  9.3%  GLD=  9.3%  MUB=  9.3%  VCLT=  9.3%  LQD= 12.7%  IGLB=  9.3%  XOM= 12.7%  SPY=  9.3%  QQQ=  9.3%  VXUS=  9.3%  util=7.830395  Δ=-0.504121
+  IGLB+3%  USO=  9.3%  GLD=  9.3%  MUB=  9.3%  VCLT=  9.3%  LQD=  9.3%  IGLB= 12.7%  XOM= 12.7%  SPY=  9.3%  QQQ=  9.3%  VXUS=  9.3%  util=7.630512  Δ=-0.704005
+  XOM+3%  USO=  9.3%  GLD=  9.3%  MUB=  9.3%  VCLT=  9.3%  LQD=  9.3%  IGLB=  9.3%  XOM= 16.0%  SPY=  9.3%  QQQ=  9.3%  VXUS=  9.3%  util=9.259376  Δ=+0.924860
+  SPY+3%  USO=  9.3%  GLD=  9.3%  MUB=  9.3%  VCLT=  9.3%  LQD=  9.3%  IGLB=  9.3%  XOM= 12.7%  SPY= 12.7%  QQQ=  9.3%  VXUS=  9.3%  util=8.273175  Δ=-0.061342
+  QQQ+3%  USO=  9.3%  GLD=  9.3%  MUB=  9.3%  VCLT=  9.3%  LQD=  9.3%  IGLB=  9.3%  XOM= 12.7%  SPY=  9.3%  QQQ= 12.7%  VXUS=  9.3%  util=8.479353  Δ=+0.144836
+  VXUS+3%  USO=  9.3%  GLD=  9.3%  MUB=  9.3%  VCLT=  9.3%  LQD=  9.3%  IGLB=  9.3%  XOM= 12.7%  SPY=  9.3%  QQQ=  9.3%  VXUS= 12.7%  util=8.047475  Δ=-0.287041
+  ★ WINNER: Epoch 2  improvement=+0.970017
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=9.304534  feasible=10  step=0.0400  streak=3  T=0.0429]
+  USO+4%  USO= 13.3%  GLD= 12.2%  MUB=  8.9%  VCLT=  8.9%  LQD=  8.9%  IGLB=  8.9%  XOM= 12.2%  SPY=  8.9%  QQQ=  8.9%  VXUS=  8.9%  util=9.800593  Δ=+0.496059
+  GLD+4%  USO=  8.9%  GLD= 16.7%  MUB=  8.9%  VCLT=  8.9%  LQD=  8.9%  IGLB=  8.9%  XOM= 12.2%  SPY=  8.9%  QQQ=  8.9%  VXUS=  8.9%  util=10.352731  Δ=+1.048198
+  MUB+4%  USO=  8.9%  GLD= 12.2%  MUB= 13.3%  VCLT=  8.9%  LQD=  8.9%  IGLB=  8.9%  XOM= 12.2%  SPY=  8.9%  QQQ=  8.9%  VXUS=  8.9%  util=8.704208  Δ=-0.600326
+  VCLT+4%  USO=  8.9%  GLD= 12.2%  MUB=  8.9%  VCLT= 13.3%  LQD=  8.9%  IGLB=  8.9%  XOM= 12.2%  SPY=  8.9%  QQQ=  8.9%  VXUS=  8.9%  util=8.220268  Δ=-1.084266
+  LQD+4%  USO=  8.9%  GLD= 12.2%  MUB=  8.9%  VCLT=  8.9%  LQD= 13.3%  IGLB=  8.9%  XOM= 12.2%  SPY=  8.9%  QQQ=  8.9%  VXUS=  8.9%  util=8.526996  Δ=-0.777538
+  IGLB+4%  USO=  8.9%  GLD= 12.2%  MUB=  8.9%  VCLT=  8.9%  LQD=  8.9%  IGLB= 13.3%  XOM= 12.2%  SPY=  8.9%  QQQ=  8.9%  VXUS=  8.9%  util=8.228881  Δ=-1.075653
+  XOM+4%  USO=  8.9%  GLD= 12.2%  MUB=  8.9%  VCLT=  8.9%  LQD=  8.9%  IGLB=  8.9%  XOM= 16.7%  SPY=  8.9%  QQQ=  8.9%  VXUS=  8.9%  util=10.722001  Δ=+1.417467
+  SPY+4%  USO=  8.9%  GLD= 12.2%  MUB=  8.9%  VCLT=  8.9%  LQD=  8.9%  IGLB=  8.9%  XOM= 12.2%  SPY= 13.3%  QQQ=  8.9%  VXUS=  8.9%  util=9.248357  Δ=-0.056177
+  QQQ+4%  USO=  8.9%  GLD= 12.2%  MUB=  8.9%  VCLT=  8.9%  LQD=  8.9%  IGLB=  8.9%  XOM= 12.2%  SPY=  8.9%  QQQ= 13.3%  VXUS=  8.9%  util=9.526316  Δ=+0.221782
+  VXUS+4%  USO=  8.9%  GLD= 12.2%  MUB=  8.9%  VCLT=  8.9%  LQD=  8.9%  IGLB=  8.9%  XOM= 12.2%  SPY=  8.9%  QQQ=  8.9%  VXUS= 13.3%  util=8.775209  Δ=-0.529325
+  ★ WINNER: Epoch 3  improvement=+1.417467
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=10.722001  feasible=10  step=0.0500  streak=4  T=0.0407]
+  USO+5%  USO= 13.9%  GLD= 11.7%  MUB=  8.3%  VCLT=  8.3%  LQD=  8.3%  IGLB=  8.3%  XOM= 16.1%  SPY=  8.3%  QQQ=  8.3%  VXUS=  8.3%  util=10.785457  Δ=+0.063456
+  GLD+5%  USO=  8.3%  GLD= 17.2%  MUB=  8.3%  VCLT=  8.3%  LQD=  8.3%  IGLB=  8.3%  XOM= 16.1%  SPY=  8.3%  QQQ=  8.3%  VXUS=  8.3%  util=12.320689  Δ=+1.598688
+  MUB+5%  USO=  8.3%  GLD= 11.7%  MUB= 13.9%  VCLT=  8.3%  LQD=  8.3%  IGLB=  8.3%  XOM= 16.1%  SPY=  8.3%  QQQ=  8.3%  VXUS=  8.3%  util=9.897626  Δ=-0.824375
+  VCLT+5%  USO=  8.3%  GLD= 11.7%  MUB=  8.3%  VCLT= 13.9%  LQD=  8.3%  IGLB=  8.3%  XOM= 16.1%  SPY=  8.3%  QQQ=  8.3%  VXUS=  8.3%  util=9.249854  Δ=-1.472147
+  LQD+5%  USO=  8.3%  GLD= 11.7%  MUB=  8.3%  VCLT=  8.3%  LQD= 13.9%  IGLB=  8.3%  XOM= 16.1%  SPY=  8.3%  QQQ=  8.3%  VXUS=  8.3%  util=9.686012  Δ=-1.035989
+  IGLB+5%  USO=  8.3%  GLD= 11.7%  MUB=  8.3%  VCLT=  8.3%  LQD=  8.3%  IGLB= 13.9%  XOM= 16.1%  SPY=  8.3%  QQQ=  8.3%  VXUS=  8.3%  util=9.263475  Δ=-1.458526
+  XOM+5%  USO=  8.3%  GLD= 11.7%  MUB=  8.3%  VCLT=  8.3%  LQD=  8.3%  IGLB=  8.3%  XOM= 21.7%  SPY=  8.3%  QQQ=  8.3%  VXUS=  8.3%  util=11.820810  Δ=+1.098810
+  SPY+5%  USO=  8.3%  GLD= 11.7%  MUB=  8.3%  VCLT=  8.3%  LQD=  8.3%  IGLB=  8.3%  XOM= 16.1%  SPY= 13.9%  QQQ=  8.3%  VXUS=  8.3%  util=10.826873  Δ=+0.104872
+  QQQ+5%  USO=  8.3%  GLD= 11.7%  MUB=  8.3%  VCLT=  8.3%  LQD=  8.3%  IGLB=  8.3%  XOM= 16.1%  SPY=  8.3%  QQQ= 13.9%  VXUS=  8.3%  util=11.455293  Δ=+0.733292
+  VXUS+5%  USO=  8.3%  GLD= 11.7%  MUB=  8.3%  VCLT=  8.3%  LQD=  8.3%  IGLB=  8.3%  XOM= 16.1%  SPY=  8.3%  QQQ=  8.3%  VXUS= 13.9%  util=10.035138  Δ=-0.686863
+  ★ WINNER: Epoch 4  improvement=+1.598688
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=12.320689  feasible=10  step=0.0500  streak=5  T=0.0387]
+  USO+5%  USO= 13.3%  GLD= 16.7%  MUB=  7.8%  VCLT=  7.8%  LQD=  7.8%  IGLB=  7.8%  XOM= 15.6%  SPY=  7.8%  QQQ=  7.8%  VXUS=  7.8%  util=12.961949  Δ=+0.641260
+  GLD+5%  USO=  7.8%  GLD= 22.2%  MUB=  7.8%  VCLT=  7.8%  LQD=  7.8%  IGLB=  7.8%  XOM= 15.6%  SPY=  7.8%  QQQ=  7.8%  VXUS=  7.8%  util=13.048935  Δ=+0.728246
+  MUB+5%  USO=  7.8%  GLD= 16.7%  MUB= 13.3%  VCLT=  7.8%  LQD=  7.8%  IGLB=  7.8%  XOM= 15.6%  SPY=  7.8%  QQQ=  7.8%  VXUS=  7.8%  util=11.420065  Δ=-0.900624
+  VCLT+5%  USO=  7.8%  GLD= 16.7%  MUB=  7.8%  VCLT= 13.3%  LQD=  7.8%  IGLB=  7.8%  XOM= 15.6%  SPY=  7.8%  QQQ=  7.8%  VXUS=  7.8%  util=10.606698  Δ=-1.713992
+  LQD+5%  USO=  7.8%  GLD= 16.7%  MUB=  7.8%  VCLT=  7.8%  LQD= 13.3%  IGLB=  7.8%  XOM= 15.6%  SPY=  7.8%  QQQ=  7.8%  VXUS=  7.8%  util=11.075033  Δ=-1.245657
+  IGLB+5%  USO=  7.8%  GLD= 16.7%  MUB=  7.8%  VCLT=  7.8%  LQD=  7.8%  IGLB= 13.3%  XOM= 15.6%  SPY=  7.8%  QQQ=  7.8%  VXUS=  7.8%  util=10.619761  Δ=-1.700928
+  XOM+5%  USO=  7.8%  GLD= 16.7%  MUB=  7.8%  VCLT=  7.8%  LQD=  7.8%  IGLB=  7.8%  XOM= 21.1%  SPY=  7.8%  QQQ=  7.8%  VXUS=  7.8%  util=13.855281  Δ=+1.534591
+  SPY+5%  USO=  7.8%  GLD= 16.7%  MUB=  7.8%  VCLT=  7.8%  LQD=  7.8%  IGLB=  7.8%  XOM= 15.6%  SPY= 13.3%  QQQ=  7.8%  VXUS=  7.8%  util=12.761422  Δ=+0.440733
+  QQQ+5%  USO=  7.8%  GLD= 16.7%  MUB=  7.8%  VCLT=  7.8%  LQD=  7.8%  IGLB=  7.8%  XOM= 15.6%  SPY=  7.8%  QQQ= 13.3%  VXUS=  7.8%  util=13.725236  Δ=+1.404547
+  VXUS+5%  USO=  7.8%  GLD= 16.7%  MUB=  7.8%  VCLT=  7.8%  LQD=  7.8%  IGLB=  7.8%  XOM= 15.6%  SPY=  7.8%  QQQ=  7.8%  VXUS= 13.3%  util=11.236934  Δ=-1.083755
+  ★ WINNER: Epoch 5  improvement=+1.534591
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=13.855281  feasible=10  step=0.0500  streak=6  T=0.0368]
+  USO+5%  USO= 12.8%  GLD= 16.1%  MUB=  7.2%  VCLT=  7.2%  LQD=  7.2%  IGLB=  7.2%  XOM= 20.6%  SPY=  7.2%  QQQ=  7.2%  VXUS=  7.2%  util=13.880617  Δ=+0.025337
+  GLD+5%  USO=  7.2%  GLD= 21.7%  MUB=  7.2%  VCLT=  7.2%  LQD=  7.2%  IGLB=  7.2%  XOM= 20.6%  SPY=  7.2%  QQQ=  7.2%  VXUS=  7.2%  util=14.862324  Δ=+1.007043
+  MUB+5%  USO=  7.2%  GLD= 16.1%  MUB= 12.8%  VCLT=  7.2%  LQD=  7.2%  IGLB=  7.2%  XOM= 20.6%  SPY=  7.2%  QQQ=  7.2%  VXUS=  7.2%  util=12.921131  Δ=-0.934149
+  VCLT+5%  USO=  7.2%  GLD= 16.1%  MUB=  7.2%  VCLT= 12.8%  LQD=  7.2%  IGLB=  7.2%  XOM= 20.6%  SPY=  7.2%  QQQ=  7.2%  VXUS=  7.2%  util=12.183059  Δ=-1.672222
+  LQD+5%  USO=  7.2%  GLD= 16.1%  MUB=  7.2%  VCLT=  7.2%  LQD= 12.8%  IGLB=  7.2%  XOM= 20.6%  SPY=  7.2%  QQQ=  7.2%  VXUS=  7.2%  util=12.694224  Δ=-1.161057
+  IGLB+5%  USO=  7.2%  GLD= 16.1%  MUB=  7.2%  VCLT=  7.2%  LQD=  7.2%  IGLB= 12.8%  XOM= 20.6%  SPY=  7.2%  QQQ=  7.2%  VXUS=  7.2%  util=12.201367  Δ=-1.653914
+  XOM+5%  USO=  7.2%  GLD= 16.1%  MUB=  7.2%  VCLT=  7.2%  LQD=  7.2%  IGLB=  7.2%  XOM= 26.1%  SPY=  7.2%  QQQ=  7.2%  VXUS=  7.2%  util=14.032933  Δ=+0.177652
+  SPY+5%  USO=  7.2%  GLD= 16.1%  MUB=  7.2%  VCLT=  7.2%  LQD=  7.2%  IGLB=  7.2%  XOM= 20.6%  SPY= 12.8%  QQQ=  7.2%  VXUS=  7.2%  util=14.678803  Δ=+0.823522
+  QQQ+5%  USO=  7.2%  GLD= 16.1%  MUB=  7.2%  VCLT=  7.2%  LQD=  7.2%  IGLB=  7.2%  XOM= 20.6%  SPY=  7.2%  QQQ= 12.8%  VXUS=  7.2%  util=16.243544  Δ=+2.388264
+  VXUS+5%  USO=  7.2%  GLD= 16.1%  MUB=  7.2%  VCLT=  7.2%  LQD=  7.2%  IGLB=  7.2%  XOM= 20.6%  SPY=  7.2%  QQQ=  7.2%  VXUS= 12.8%  util=12.889749  Δ=-0.965531
+  ★ WINNER: Epoch 6  improvement=+2.388264
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=16.243544  feasible=10  step=0.0500  streak=7  T=0.0349]
+  USO+5%  USO= 12.2%  GLD= 15.6%  MUB=  6.7%  VCLT=  6.7%  LQD=  6.7%  IGLB=  6.7%  XOM= 20.0%  SPY=  6.7%  QQQ= 12.2%  VXUS=  6.7%  util=16.259058  Δ=+0.015514
+  GLD+5%  USO=  6.7%  GLD= 21.1%  MUB=  6.7%  VCLT=  6.7%  LQD=  6.7%  IGLB=  6.7%  XOM= 20.0%  SPY=  6.7%  QQQ= 12.2%  VXUS=  6.7%  util=17.932061  Δ=+1.688517
+  MUB+5%  USO=  6.7%  GLD= 15.6%  MUB= 12.2%  VCLT=  6.7%  LQD=  6.7%  IGLB=  6.7%  XOM= 20.0%  SPY=  6.7%  QQQ= 12.2%  VXUS=  6.7%  util=15.139544  Δ=-1.104000
+  VCLT+5%  USO=  6.7%  GLD= 15.6%  MUB=  6.7%  VCLT= 12.2%  LQD=  6.7%  IGLB=  6.7%  XOM= 20.0%  SPY=  6.7%  QQQ= 12.2%  VXUS=  6.7%  util=14.048473  Δ=-2.195072
+  LQD+5%  USO=  6.7%  GLD= 15.6%  MUB=  6.7%  VCLT=  6.7%  LQD= 12.2%  IGLB=  6.7%  XOM= 20.0%  SPY=  6.7%  QQQ= 12.2%  VXUS=  6.7%  util=14.742815  Δ=-1.500729
+  IGLB+5%  USO=  6.7%  GLD= 15.6%  MUB=  6.7%  VCLT=  6.7%  LQD=  6.7%  IGLB= 12.2%  XOM= 20.0%  SPY=  6.7%  QQQ= 12.2%  VXUS=  6.7%  util=14.067753  Δ=-2.175791
+  XOM+5%  USO=  6.7%  GLD= 15.6%  MUB=  6.7%  VCLT=  6.7%  LQD=  6.7%  IGLB=  6.7%  XOM= 25.6%  SPY=  6.7%  QQQ= 12.2%  VXUS=  6.7%  util=17.086219  Δ=+0.842674
+  SPY+5%  USO=  6.7%  GLD= 15.6%  MUB=  6.7%  VCLT=  6.7%  LQD=  6.7%  IGLB=  6.7%  XOM= 20.0%  SPY= 12.2%  QQQ= 12.2%  VXUS=  6.7%  util=16.583210  Δ=+0.339666
+  QQQ+5%  USO=  6.7%  GLD= 15.6%  MUB=  6.7%  VCLT=  6.7%  LQD=  6.7%  IGLB=  6.7%  XOM= 20.0%  SPY=  6.7%  QQQ= 17.8%  VXUS=  6.7%  util=17.681947  Δ=+1.438403
+  VXUS+5%  USO=  6.7%  GLD= 15.6%  MUB=  6.7%  VCLT=  6.7%  LQD=  6.7%  IGLB=  6.7%  XOM= 20.0%  SPY=  6.7%  QQQ= 12.2%  VXUS= 12.2%  util=14.965891  Δ=-1.277653
+  ★ WINNER: Epoch 7  improvement=+1.688517
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=17.932061  feasible=10  step=0.0500  streak=8  T=0.0332]
+  USO+5%  USO= 11.7%  GLD= 20.6%  MUB=  6.1%  VCLT=  6.1%  LQD=  6.1%  IGLB=  6.1%  XOM= 19.4%  SPY=  6.1%  QQQ= 11.7%  VXUS=  6.1%  util=19.026953  Δ=+1.094893
+  GLD+5%  USO=  6.1%  GLD= 26.1%  MUB=  6.1%  VCLT=  6.1%  LQD=  6.1%  IGLB=  6.1%  XOM= 19.4%  SPY=  6.1%  QQQ= 11.7%  VXUS=  6.1%  util=18.398034  Δ=+0.465973
+  MUB+5%  USO=  6.1%  GLD= 20.6%  MUB= 11.7%  VCLT=  6.1%  LQD=  6.1%  IGLB=  6.1%  XOM= 19.4%  SPY=  6.1%  QQQ= 11.7%  VXUS=  6.1%  util=16.794796  Δ=-1.137265
+  VCLT+5%  USO=  6.1%  GLD= 20.6%  MUB=  6.1%  VCLT= 11.7%  LQD=  6.1%  IGLB=  6.1%  XOM= 19.4%  SPY=  6.1%  QQQ= 11.7%  VXUS=  6.1%  util=15.530846  Δ=-2.401215
+  LQD+5%  USO=  6.1%  GLD= 20.6%  MUB=  6.1%  VCLT=  6.1%  LQD= 11.7%  IGLB=  6.1%  XOM= 19.4%  SPY=  6.1%  QQQ= 11.7%  VXUS=  6.1%  util=16.238673  Δ=-1.693388
+  IGLB+5%  USO=  6.1%  GLD= 20.6%  MUB=  6.1%  VCLT=  6.1%  LQD=  6.1%  IGLB= 11.7%  XOM= 19.4%  SPY=  6.1%  QQQ= 11.7%  VXUS=  6.1%  util=15.553405  Δ=-2.378655
+  XOM+5%  USO=  6.1%  GLD= 20.6%  MUB=  6.1%  VCLT=  6.1%  LQD=  6.1%  IGLB=  6.1%  XOM= 25.0%  SPY=  6.1%  QQQ= 11.7%  VXUS=  6.1%  util=19.223220  Δ=+1.291159
+  SPY+5%  USO=  6.1%  GLD= 20.6%  MUB=  6.1%  VCLT=  6.1%  LQD=  6.1%  IGLB=  6.1%  XOM= 19.4%  SPY= 11.7%  QQQ= 11.7%  VXUS=  6.1%  util=18.993840  Δ=+1.061780
+  QQQ+5%  USO=  6.1%  GLD= 20.6%  MUB=  6.1%  VCLT=  6.1%  LQD=  6.1%  IGLB=  6.1%  XOM= 19.4%  SPY=  6.1%  QQQ= 17.2%  VXUS=  6.1%  util=20.419958  Δ=+2.487897
+  VXUS+5%  USO=  6.1%  GLD= 20.6%  MUB=  6.1%  VCLT=  6.1%  LQD=  6.1%  IGLB=  6.1%  XOM= 19.4%  SPY=  6.1%  QQQ= 11.7%  VXUS= 11.7%  util=16.148330  Δ=-1.783730
+  ★ WINNER: Epoch 8  improvement=+2.487897
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=20.419958  feasible=10  step=0.0500  streak=9  T=0.0315]
+  USO+5%  USO= 11.1%  GLD= 20.0%  MUB=  5.6%  VCLT=  5.6%  LQD=  5.6%  IGLB=  5.6%  XOM= 18.9%  SPY=  5.6%  QQQ= 16.7%  VXUS=  5.6%  util=22.390114  Δ=+1.970156
+  GLD+5%  USO=  5.6%  GLD= 25.6%  MUB=  5.6%  VCLT=  5.6%  LQD=  5.6%  IGLB=  5.6%  XOM= 18.9%  SPY=  5.6%  QQQ= 16.7%  VXUS=  5.6%  util=21.679293  Δ=+1.259335
+  MUB+5%  USO=  5.6%  GLD= 20.0%  MUB= 11.1%  VCLT=  5.6%  LQD=  5.6%  IGLB=  5.6%  XOM= 18.9%  SPY=  5.6%  QQQ= 16.7%  VXUS=  5.6%  util=19.130872  Δ=-1.289086
+  VCLT+5%  USO=  5.6%  GLD= 20.0%  MUB=  5.6%  VCLT= 11.1%  LQD=  5.6%  IGLB=  5.6%  XOM= 18.9%  SPY=  5.6%  QQQ= 16.7%  VXUS=  5.6%  util=17.429784  Δ=-2.990174
+  LQD+5%  USO=  5.6%  GLD= 20.0%  MUB=  5.6%  VCLT=  5.6%  LQD= 11.1%  IGLB=  5.6%  XOM= 18.9%  SPY=  5.6%  QQQ= 16.7%  VXUS=  5.6%  util=18.320690  Δ=-2.099269
+  IGLB+5%  USO=  5.6%  GLD= 20.0%  MUB=  5.6%  VCLT=  5.6%  LQD=  5.6%  IGLB= 11.1%  XOM= 18.9%  SPY=  5.6%  QQQ= 16.7%  VXUS=  5.6%  util=17.446595  Δ=-2.973363
+  XOM+5%  USO=  5.6%  GLD= 20.0%  MUB=  5.6%  VCLT=  5.6%  LQD=  5.6%  IGLB=  5.6%  XOM= 24.4%  SPY=  5.6%  QQQ= 16.7%  VXUS=  5.6%  util=22.807383  Δ=+2.387425
+  SPY+5%  USO=  5.6%  GLD= 20.0%  MUB=  5.6%  VCLT=  5.6%  LQD=  5.6%  IGLB=  5.6%  XOM= 18.9%  SPY= 11.1%  QQQ= 16.7%  VXUS=  5.6%  util=20.837595  Δ=+0.417637
+  QQQ+5%  USO=  5.6%  GLD= 20.0%  MUB=  5.6%  VCLT=  5.6%  LQD=  5.6%  IGLB=  5.6%  XOM= 18.9%  SPY=  5.6%  QQQ= 22.2%  VXUS=  5.6%  util=21.668462  Δ=+1.248504
+  VXUS+5%  USO=  5.6%  GLD= 20.0%  MUB=  5.6%  VCLT=  5.6%  LQD=  5.6%  IGLB=  5.6%  XOM= 18.9%  SPY=  5.6%  QQQ= 16.7%  VXUS= 11.1%  util=18.166581  Δ=-2.253377
+  ★ WINNER: Epoch 9  improvement=+2.387425
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=22.807383  feasible=10  step=0.0500  streak=10  T=0.0299]
+  USO+5%  USO= 10.6%  GLD= 19.4%  MUB=  5.0%  VCLT=  5.0%  LQD=  5.0%  IGLB=  5.0%  XOM= 23.9%  SPY=  5.0%  QQQ= 16.1%  VXUS=  5.0%  util=23.653108  Δ=+0.845725
+  GLD+5%  USO=  5.0%  GLD= 25.0%  MUB=  5.0%  VCLT=  5.0%  LQD=  5.0%  IGLB=  5.0%  XOM= 23.9%  SPY=  5.0%  QQQ= 16.1%  VXUS=  5.0%  util=24.590003  Δ=+1.782620
+  MUB+5%  USO=  5.0%  GLD= 19.4%  MUB= 10.6%  VCLT=  5.0%  LQD=  5.0%  IGLB=  5.0%  XOM= 23.9%  SPY=  5.0%  QQQ= 16.1%  VXUS=  5.0%  util=21.554984  Δ=-1.252399
+  VCLT+5%  USO=  5.0%  GLD= 19.4%  MUB=  5.0%  VCLT= 10.6%  LQD=  5.0%  IGLB=  5.0%  XOM= 23.9%  SPY=  5.0%  QQQ= 16.1%  VXUS=  5.0%  util=20.048617  Δ=-2.758766
+  LQD+5%  USO=  5.0%  GLD= 19.4%  MUB=  5.0%  VCLT=  5.0%  LQD= 10.6%  IGLB=  5.0%  XOM= 23.9%  SPY=  5.0%  QQQ= 16.1%  VXUS=  5.0%  util=21.004978  Δ=-1.802406
+  IGLB+5%  USO=  5.0%  GLD= 19.4%  MUB=  5.0%  VCLT=  5.0%  LQD=  5.0%  IGLB= 10.6%  XOM= 23.9%  SPY=  5.0%  QQQ= 16.1%  VXUS=  5.0%  util=20.078321  Δ=-2.729063
+  XOM+5%  USO=  5.0%  GLD= 19.4%  MUB=  5.0%  VCLT=  5.0%  LQD=  5.0%  IGLB=  5.0%  XOM= 29.4%  SPY=  5.0%  QQQ= 16.1%  VXUS=  5.0%  util=22.563213  Δ=-0.244170
+  SPY+5%  USO=  5.0%  GLD= 19.4%  MUB=  5.0%  VCLT=  5.0%  LQD=  5.0%  IGLB=  5.0%  XOM= 23.9%  SPY= 10.6%  QQQ= 16.1%  VXUS=  5.0%  util=23.770519  Δ=+0.963136
+  QQQ+5%  USO=  5.0%  GLD= 19.4%  MUB=  5.0%  VCLT=  5.0%  LQD=  5.0%  IGLB=  5.0%  XOM= 23.9%  SPY=  5.0%  QQQ= 21.7%  VXUS=  5.0%  util=25.725415  Δ=+2.918032
+  VXUS+5%  USO=  5.0%  GLD= 19.4%  MUB=  5.0%  VCLT=  5.0%  LQD=  5.0%  IGLB=  5.0%  XOM= 23.9%  SPY=  5.0%  QQQ= 16.1%  VXUS= 10.6%  util=20.656800  Δ=-2.150584
+  ★ WINNER: Epoch 10  improvement=+2.918032
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=25.725415  feasible=10  step=0.0500  streak=11  T=0.0284]
+  USO+5%  USO= 10.0%  GLD= 18.9%  MUB=  4.4%  VCLT=  4.4%  LQD=  4.4%  IGLB=  4.4%  XOM= 23.3%  SPY=  4.4%  QQQ= 21.1%  VXUS=  4.4%  util=27.013024  Δ=+1.287608
+  GLD+5%  USO=  4.4%  GLD= 24.4%  MUB=  4.4%  VCLT=  4.4%  LQD=  4.4%  IGLB=  4.4%  XOM= 23.3%  SPY=  4.4%  QQQ= 21.1%  VXUS=  4.4%  util=28.517433  Δ=+2.792017
+  MUB+5%  USO=  4.4%  GLD= 18.9%  MUB= 10.0%  VCLT=  4.4%  LQD=  4.4%  IGLB=  4.4%  XOM= 23.3%  SPY=  4.4%  QQQ= 21.1%  VXUS=  4.4%  util=24.225504  Δ=-1.499911
+  VCLT+5%  USO=  4.4%  GLD= 18.9%  MUB=  4.4%  VCLT= 10.0%  LQD=  4.4%  IGLB=  4.4%  XOM= 23.3%  SPY=  4.4%  QQQ= 21.1%  VXUS=  4.4%  util=22.202042  Δ=-3.523373
+  LQD+5%  USO=  4.4%  GLD= 18.9%  MUB=  4.4%  VCLT=  4.4%  LQD= 10.0%  IGLB=  4.4%  XOM= 23.3%  SPY=  4.4%  QQQ= 21.1%  VXUS=  4.4%  util=23.432579  Δ=-2.292836
+  IGLB+5%  USO=  4.4%  GLD= 18.9%  MUB=  4.4%  VCLT=  4.4%  LQD=  4.4%  IGLB= 10.0%  XOM= 23.3%  SPY=  4.4%  QQQ= 21.1%  VXUS=  4.4%  util=22.238413  Δ=-3.487003
+  XOM+5%  USO=  4.4%  GLD= 18.9%  MUB=  4.4%  VCLT=  4.4%  LQD=  4.4%  IGLB=  4.4%  XOM= 28.9%  SPY=  4.4%  QQQ= 21.1%  VXUS=  4.4%  util=26.143686  Δ=+0.418270
+  SPY+5%  USO=  4.4%  GLD= 18.9%  MUB=  4.4%  VCLT=  4.4%  LQD=  4.4%  IGLB=  4.4%  XOM= 23.3%  SPY= 10.0%  QQQ= 21.1%  VXUS=  4.4%  util=25.979801  Δ=+0.254386
+  QQQ+5%  USO=  4.4%  GLD= 18.9%  MUB=  4.4%  VCLT=  4.4%  LQD=  4.4%  IGLB=  4.4%  XOM= 23.3%  SPY=  4.4%  QQQ= 26.7%  VXUS=  4.4%  util=27.330016  Δ=+1.604601
+  VXUS+5%  USO=  4.4%  GLD= 18.9%  MUB=  4.4%  VCLT=  4.4%  LQD=  4.4%  IGLB=  4.4%  XOM= 23.3%  SPY=  4.4%  QQQ= 21.1%  VXUS= 10.0%  util=23.177735  Δ=-2.547680
+  ★ WINNER: Epoch 11  improvement=+2.792017
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=28.517433  feasible=10  step=0.0500  streak=12  T=0.0270]
+  USO+5%  USO=  9.4%  GLD= 23.9%  MUB=  3.9%  VCLT=  3.9%  LQD=  3.9%  IGLB=  3.9%  XOM= 22.8%  SPY=  3.9%  QQQ= 20.6%  VXUS=  3.9%  util=32.297010  Δ=+3.779578
+  GLD+5%  USO=  3.9%  GLD= 29.4%  MUB=  3.9%  VCLT=  3.9%  LQD=  3.9%  IGLB=  3.9%  XOM= 22.8%  SPY=  3.9%  QQQ= 20.6%  VXUS=  3.9%  util=29.578463  Δ=+1.061030
+  MUB+5%  USO=  3.9%  GLD= 23.9%  MUB=  9.4%  VCLT=  3.9%  LQD=  3.9%  IGLB=  3.9%  XOM= 22.8%  SPY=  3.9%  QQQ= 20.6%  VXUS=  3.9%  util=26.817817  Δ=-1.699615
+  VCLT+5%  USO=  3.9%  GLD= 23.9%  MUB=  3.9%  VCLT=  9.4%  LQD=  3.9%  IGLB=  3.9%  XOM= 22.8%  SPY=  3.9%  QQQ= 20.6%  VXUS=  3.9%  util=24.513175  Δ=-4.004257
+  LQD+5%  USO=  3.9%  GLD= 23.9%  MUB=  3.9%  VCLT=  3.9%  LQD=  9.4%  IGLB=  3.9%  XOM= 22.8%  SPY=  3.9%  QQQ= 20.6%  VXUS=  3.9%  util=25.759503  Δ=-2.757929
+  IGLB+5%  USO=  3.9%  GLD= 23.9%  MUB=  3.9%  VCLT=  3.9%  LQD=  3.9%  IGLB=  9.4%  XOM= 22.8%  SPY=  3.9%  QQQ= 20.6%  VXUS=  3.9%  util=24.539701  Δ=-3.977731
+  XOM+5%  USO=  3.9%  GLD= 23.9%  MUB=  3.9%  VCLT=  3.9%  LQD=  3.9%  IGLB=  3.9%  XOM= 28.3%  SPY=  3.9%  QQQ= 20.6%  VXUS=  3.9%  util=29.560936  Δ=+1.043503
+  SPY+5%  USO=  3.9%  GLD= 23.9%  MUB=  3.9%  VCLT=  3.9%  LQD=  3.9%  IGLB=  3.9%  XOM= 22.8%  SPY=  9.4%  QQQ= 20.6%  VXUS=  3.9%  util=29.546232  Δ=+1.028799
+  QQQ+5%  USO=  3.9%  GLD= 23.9%  MUB=  3.9%  VCLT=  3.9%  LQD=  3.9%  IGLB=  3.9%  XOM= 22.8%  SPY=  3.9%  QQQ= 26.1%  VXUS=  3.9%  util=31.278331  Δ=+2.760899
+  VXUS+5%  USO=  3.9%  GLD= 23.9%  MUB=  3.9%  VCLT=  3.9%  LQD=  3.9%  IGLB=  3.9%  XOM= 22.8%  SPY=  3.9%  QQQ= 20.6%  VXUS=  9.4%  util=25.052177  Δ=-3.465256
+  ★ WINNER: Epoch 12  improvement=+3.779578
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=32.297010  feasible=10  step=0.0500  streak=13  T=0.0257]
+  USO+5%  USO= 14.4%  GLD= 23.3%  MUB=  3.3%  VCLT=  3.3%  LQD=  3.3%  IGLB=  3.3%  XOM= 22.2%  SPY=  3.3%  QQQ= 20.0%  VXUS=  3.3%  util=30.783037  Δ=-1.513974
+  GLD+5%  USO=  8.9%  GLD= 28.9%  MUB=  3.3%  VCLT=  3.3%  LQD=  3.3%  IGLB=  3.3%  XOM= 22.2%  SPY=  3.3%  QQQ= 20.0%  VXUS=  3.3%  util=34.722996  Δ=+2.425986
+  MUB+5%  USO=  8.9%  GLD= 23.3%  MUB=  8.9%  VCLT=  3.3%  LQD=  3.3%  IGLB=  3.3%  XOM= 22.2%  SPY=  3.3%  QQQ= 20.0%  VXUS=  3.3%  util=30.920115  Δ=-1.376895
+  VCLT+5%  USO=  8.9%  GLD= 23.3%  MUB=  3.3%  VCLT=  8.9%  LQD=  3.3%  IGLB=  3.3%  XOM= 22.2%  SPY=  3.3%  QQQ= 20.0%  VXUS=  3.3%  util=28.618190  Δ=-3.678820
+  LQD+5%  USO=  8.9%  GLD= 23.3%  MUB=  3.3%  VCLT=  3.3%  LQD=  8.9%  IGLB=  3.3%  XOM= 22.2%  SPY=  3.3%  QQQ= 20.0%  VXUS=  3.3%  util=29.918245  Δ=-2.378765
+  IGLB+5%  USO=  8.9%  GLD= 23.3%  MUB=  3.3%  VCLT=  3.3%  LQD=  3.3%  IGLB=  8.9%  XOM= 22.2%  SPY=  3.3%  QQQ= 20.0%  VXUS=  3.3%  util=28.645781  Δ=-3.651230
+  XOM+5%  USO=  8.9%  GLD= 23.3%  MUB=  3.3%  VCLT=  3.3%  LQD=  3.3%  IGLB=  3.3%  XOM= 27.8%  SPY=  3.3%  QQQ= 20.0%  VXUS=  3.3%  util=31.999428  Δ=-0.297583
+  SPY+5%  USO=  8.9%  GLD= 23.3%  MUB=  3.3%  VCLT=  3.3%  LQD=  3.3%  IGLB=  3.3%  XOM= 22.2%  SPY=  8.9%  QQQ= 20.0%  VXUS=  3.3%  util=33.729671  Δ=+1.432660
+  QQQ+5%  USO=  8.9%  GLD= 23.3%  MUB=  3.3%  VCLT=  3.3%  LQD=  3.3%  IGLB=  3.3%  XOM= 22.2%  SPY=  3.3%  QQQ= 25.6%  VXUS=  3.3%  util=36.109299  Δ=+3.812289
+  VXUS+5%  USO=  8.9%  GLD= 23.3%  MUB=  3.3%  VCLT=  3.3%  LQD=  3.3%  IGLB=  3.3%  XOM= 22.2%  SPY=  3.3%  QQQ= 20.0%  VXUS=  8.9%  util=28.981730  Δ=-3.315281
+  ★ WINNER: Epoch 13  improvement=+3.812289
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=36.109299  feasible=10  step=0.0500  streak=14  T=0.0244]
+  USO+5%  USO= 13.9%  GLD= 22.8%  MUB=  2.8%  VCLT=  2.8%  LQD=  2.8%  IGLB=  2.8%  XOM= 21.7%  SPY=  2.8%  QQQ= 25.0%  VXUS=  2.8%  util=35.635893  Δ=-0.473406
+  GLD+5%  USO=  8.3%  GLD= 28.3%  MUB=  2.8%  VCLT=  2.8%  LQD=  2.8%  IGLB=  2.8%  XOM= 21.7%  SPY=  2.8%  QQQ= 25.0%  VXUS=  2.8%  util=40.408803  Δ=+4.299503
+  MUB+5%  USO=  8.3%  GLD= 22.8%  MUB=  8.3%  VCLT=  2.8%  LQD=  2.8%  IGLB=  2.8%  XOM= 21.7%  SPY=  2.8%  QQQ= 25.0%  VXUS=  2.8%  util=34.675168  Δ=-1.434131
+  VCLT+5%  USO=  8.3%  GLD= 22.8%  MUB=  2.8%  VCLT=  8.3%  LQD=  2.8%  IGLB=  2.8%  XOM= 21.7%  SPY=  2.8%  QQQ= 25.0%  VXUS=  2.8%  util=31.978526  Δ=-4.130773
+  LQD+5%  USO=  8.3%  GLD= 22.8%  MUB=  2.8%  VCLT=  2.8%  LQD=  8.3%  IGLB=  2.8%  XOM= 21.7%  SPY=  2.8%  QQQ= 25.0%  VXUS=  2.8%  util=33.698434  Δ=-2.410865
+  IGLB+5%  USO=  8.3%  GLD= 22.8%  MUB=  2.8%  VCLT=  2.8%  LQD=  2.8%  IGLB=  8.3%  XOM= 21.7%  SPY=  2.8%  QQQ= 25.0%  VXUS=  2.8%  util=32.018260  Δ=-4.091039
+  XOM+5%  USO=  8.3%  GLD= 22.8%  MUB=  2.8%  VCLT=  2.8%  LQD=  2.8%  IGLB=  2.8%  XOM= 27.2%  SPY=  2.8%  QQQ= 25.0%  VXUS=  2.8%  util=37.634177  Δ=+1.524878
+  SPY+5%  USO=  8.3%  GLD= 22.8%  MUB=  2.8%  VCLT=  2.8%  LQD=  2.8%  IGLB=  2.8%  XOM= 21.7%  SPY=  8.3%  QQQ= 25.0%  VXUS=  2.8%  util=37.101332  Δ=+0.992033
+  QQQ+5%  USO=  8.3%  GLD= 22.8%  MUB=  2.8%  VCLT=  2.8%  LQD=  2.8%  IGLB=  2.8%  XOM= 21.7%  SPY=  2.8%  QQQ= 30.6%  VXUS=  2.8%  util=38.612813  Δ=+2.503514
+  VXUS+5%  USO=  8.3%  GLD= 22.8%  MUB=  2.8%  VCLT=  2.8%  LQD=  2.8%  IGLB=  2.8%  XOM= 21.7%  SPY=  2.8%  QQQ= 25.0%  VXUS=  8.3%  util=32.694189  Δ=-3.415110
+  ★ WINNER: Epoch 14  improvement=+4.299503
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=40.408803  feasible=10  step=0.0500  streak=15  T=0.0232]
+  USO+5%  USO= 13.3%  GLD= 27.8%  MUB=  2.2%  VCLT=  2.2%  LQD=  2.2%  IGLB=  2.2%  XOM= 21.1%  SPY=  2.2%  QQQ= 24.4%  VXUS=  2.2%  util=42.595044  Δ=+2.186242
+  GLD+5%  USO=  7.8%  GLD= 33.3%  MUB=  2.2%  VCLT=  2.2%  LQD=  2.2%  IGLB=  2.2%  XOM= 21.1%  SPY=  2.2%  QQQ= 24.4%  VXUS=  2.2%  util=42.491377  Δ=+2.082574
+  MUB+5%  USO=  7.8%  GLD= 27.8%  MUB=  7.8%  VCLT=  2.2%  LQD=  2.2%  IGLB=  2.2%  XOM= 21.1%  SPY=  2.2%  QQQ= 24.4%  VXUS=  2.2%  util=38.809369  Δ=-1.599434
+  VCLT+5%  USO=  7.8%  GLD= 27.8%  MUB=  2.2%  VCLT=  7.8%  LQD=  2.2%  IGLB=  2.2%  XOM= 21.1%  SPY=  2.2%  QQQ= 24.4%  VXUS=  2.2%  util=35.458097  Δ=-4.950705
+  LQD+5%  USO=  7.8%  GLD= 27.8%  MUB=  2.2%  VCLT=  2.2%  LQD=  7.8%  IGLB=  2.2%  XOM= 21.1%  SPY=  2.2%  QQQ= 24.4%  VXUS=  2.2%  util=37.133375  Δ=-3.275428
+  IGLB+5%  USO=  7.8%  GLD= 27.8%  MUB=  2.2%  VCLT=  2.2%  LQD=  2.2%  IGLB=  7.8%  XOM= 21.1%  SPY=  2.2%  QQQ= 24.4%  VXUS=  2.2%  util=35.474601  Δ=-4.934202
+  XOM+5%  USO=  7.8%  GLD= 27.8%  MUB=  2.2%  VCLT=  2.2%  LQD=  2.2%  IGLB=  2.2%  XOM= 26.7%  SPY=  2.2%  QQQ= 24.4%  VXUS=  2.2%  util=43.040512  Δ=+2.631710
+  SPY+5%  USO=  7.8%  GLD= 27.8%  MUB=  2.2%  VCLT=  2.2%  LQD=  2.2%  IGLB=  2.2%  XOM= 21.1%  SPY=  7.8%  QQQ= 24.4%  VXUS=  2.2%  util=42.323848  Δ=+1.915045
+  QQQ+5%  USO=  7.8%  GLD= 27.8%  MUB=  2.2%  VCLT=  2.2%  LQD=  2.2%  IGLB=  2.2%  XOM= 21.1%  SPY=  2.2%  QQQ= 30.0%  VXUS=  2.2%  util=44.715054  Δ=+4.306252
+  VXUS+5%  USO=  7.8%  GLD= 27.8%  MUB=  2.2%  VCLT=  2.2%  LQD=  2.2%  IGLB=  2.2%  XOM= 21.1%  SPY=  2.2%  QQQ= 24.4%  VXUS=  7.8%  util=35.258968  Δ=-5.149834
+  ★ WINNER: Epoch 15  improvement=+4.306252
+────────────────────────────────────────────────────────────────────────
+Epoch 16  [startUtility=44.715054  feasible=10  step=0.0500  streak=16  T=0.0220]
+  USO+5%  USO= 12.8%  GLD= 27.2%  MUB=  1.7%  VCLT=  1.7%  LQD=  1.7%  IGLB=  1.7%  XOM= 20.6%  SPY=  1.7%  QQQ= 29.4%  VXUS=  1.7%  util=47.985618  Δ=+3.270564
+  GLD+5%  USO=  7.2%  GLD= 32.8%  MUB=  1.7%  VCLT=  1.7%  LQD=  1.7%  IGLB=  1.7%  XOM= 20.6%  SPY=  1.7%  QQQ= 29.4%  VXUS=  1.7%  util=47.946914  Δ=+3.231860
+  MUB+5%  USO=  7.2%  GLD= 27.2%  MUB=  7.2%  VCLT=  1.7%  LQD=  1.7%  IGLB=  1.7%  XOM= 20.6%  SPY=  1.7%  QQQ= 29.4%  VXUS=  1.7%  util=42.874015  Δ=-1.841039
+  VCLT+5%  USO=  7.2%  GLD= 27.2%  MUB=  1.7%  VCLT=  7.2%  LQD=  1.7%  IGLB=  1.7%  XOM= 20.6%  SPY=  1.7%  QQQ= 29.4%  VXUS=  1.7%  util=38.455372  Δ=-6.259682
+  LQD+5%  USO=  7.2%  GLD= 27.2%  MUB=  1.7%  VCLT=  1.7%  LQD=  7.2%  IGLB=  1.7%  XOM= 20.6%  SPY=  1.7%  QQQ= 29.4%  VXUS=  1.7%  util=40.878229  Δ=-3.836825
+  IGLB+5%  USO=  7.2%  GLD= 27.2%  MUB=  1.7%  VCLT=  1.7%  LQD=  1.7%  IGLB=  7.2%  XOM= 20.6%  SPY=  1.7%  QQQ= 29.4%  VXUS=  1.7%  util=38.504783  Δ=-6.210271
+  XOM+5%  USO=  7.2%  GLD= 27.2%  MUB=  1.7%  VCLT=  1.7%  LQD=  1.7%  IGLB=  1.7%  XOM= 26.1%  SPY=  1.7%  QQQ= 29.4%  VXUS=  1.7%  util=49.668235  Δ=+4.953180
+  SPY+5%  USO=  7.2%  GLD= 27.2%  MUB=  1.7%  VCLT=  1.7%  LQD=  1.7%  IGLB=  1.7%  XOM= 20.6%  SPY=  7.2%  QQQ= 29.4%  VXUS=  1.7%  util=45.418013  Δ=+0.702958
+  QQQ+5%  USO=  7.2%  GLD= 27.2%  MUB=  1.7%  VCLT=  1.7%  LQD=  1.7%  IGLB=  1.7%  XOM= 20.6%  SPY=  1.7%  QQQ= 35.0%  VXUS=  1.7%  util=46.391141  Δ=+1.676087
+  VXUS+5%  USO=  7.2%  GLD= 27.2%  MUB=  1.7%  VCLT=  1.7%  LQD=  1.7%  IGLB=  1.7%  XOM= 20.6%  SPY=  1.7%  QQQ= 29.4%  VXUS=  7.2%  util=39.118242  Δ=-5.596812
+  ★ WINNER: Epoch 16  improvement=+4.953180
+────────────────────────────────────────────────────────────────────────
+Epoch 17  [startUtility=49.668235  feasible=10  step=0.0500  streak=17  T=0.0209]
+  USO+5%  USO= 12.2%  GLD= 26.7%  MUB=  1.1%  VCLT=  1.1%  LQD=  1.1%  IGLB=  1.1%  XOM= 25.6%  SPY=  1.1%  QQQ= 28.9%  VXUS=  1.1%  util=50.031689  Δ=+0.363454
+  GLD+5%  USO=  6.7%  GLD= 32.2%  MUB=  1.1%  VCLT=  1.1%  LQD=  1.1%  IGLB=  1.1%  XOM= 25.6%  SPY=  1.1%  QQQ= 28.9%  VXUS=  1.1%  util=53.690458  Δ=+4.022223
+  MUB+5%  USO=  6.7%  GLD= 26.7%  MUB=  6.7%  VCLT=  1.1%  LQD=  1.1%  IGLB=  1.1%  XOM= 25.6%  SPY=  1.1%  QQQ= 28.9%  VXUS=  1.1%  util=47.865302  Δ=-1.802933
+  VCLT+5%  USO=  6.7%  GLD= 26.7%  MUB=  1.1%  VCLT=  6.7%  LQD=  1.1%  IGLB=  1.1%  XOM= 25.6%  SPY=  1.1%  QQQ= 28.9%  VXUS=  1.1%  util=44.536013  Δ=-5.132221
+  LQD+5%  USO=  6.7%  GLD= 26.7%  MUB=  1.1%  VCLT=  1.1%  LQD=  6.7%  IGLB=  1.1%  XOM= 25.6%  SPY=  1.1%  QQQ= 28.9%  VXUS=  1.1%  util=46.631718  Δ=-3.036516
+  IGLB+5%  USO=  6.7%  GLD= 26.7%  MUB=  1.1%  VCLT=  1.1%  LQD=  1.1%  IGLB=  6.7%  XOM= 25.6%  SPY=  1.1%  QQQ= 28.9%  VXUS=  1.1%  util=44.564946  Δ=-5.103289
+  XOM+5%  USO=  6.7%  GLD= 26.7%  MUB=  1.1%  VCLT=  1.1%  LQD=  1.1%  IGLB=  1.1%  XOM= 31.1%  SPY=  1.1%  QQQ= 28.9%  VXUS=  1.1%  util=46.360151  Δ=-3.308084
+  SPY+5%  USO=  6.7%  GLD= 26.7%  MUB=  1.1%  VCLT=  1.1%  LQD=  1.1%  IGLB=  1.1%  XOM= 25.6%  SPY=  6.7%  QQQ= 28.9%  VXUS=  1.1%  util=51.926258  Δ=+2.258023
+  QQQ+5%  USO=  6.7%  GLD= 26.7%  MUB=  1.1%  VCLT=  1.1%  LQD=  1.1%  IGLB=  1.1%  XOM= 25.6%  SPY=  1.1%  QQQ= 34.4%  VXUS=  1.1%  util=55.712251  Δ=+6.044017
+  VXUS+5%  USO=  6.7%  GLD= 26.7%  MUB=  1.1%  VCLT=  1.1%  LQD=  1.1%  IGLB=  1.1%  XOM= 25.6%  SPY=  1.1%  QQQ= 28.9%  VXUS=  6.7%  util=43.916569  Δ=-5.751666
+  ★ WINNER: Epoch 17  improvement=+6.044017
+────────────────────────────────────────────────────────────────────────
+Epoch 18  [startUtility=55.712251  feasible=10  step=0.0500  streak=18  T=0.0199]
+  USO+5%  USO= 11.7%  GLD= 26.1%  MUB=  0.6%  VCLT=  0.6%  LQD=  0.6%  IGLB=  0.6%  XOM= 25.0%  SPY=  0.6%  QQQ= 33.9%  VXUS=  0.6%  util=55.133362  Δ=-0.578890
+  GLD+5%  USO=  6.1%  GLD= 31.7%  MUB=  0.6%  VCLT=  0.6%  LQD=  0.6%  IGLB=  0.6%  XOM= 25.0%  SPY=  0.6%  QQQ= 33.9%  VXUS=  0.6%  util=61.738144  Δ=+6.025892
+  MUB+5%  USO=  6.1%  GLD= 26.1%  MUB=  6.1%  VCLT=  0.6%  LQD=  0.6%  IGLB=  0.6%  XOM= 25.0%  SPY=  0.6%  QQQ= 33.9%  VXUS=  0.6%  util=53.892833  Δ=-1.819418
+  VCLT+5%  USO=  6.1%  GLD= 26.1%  MUB=  0.6%  VCLT=  6.1%  LQD=  0.6%  IGLB=  0.6%  XOM= 25.0%  SPY=  0.6%  QQQ= 33.9%  VXUS=  0.6%  util=49.276399  Δ=-6.435852
+  LQD+5%  USO=  6.1%  GLD= 26.1%  MUB=  0.6%  VCLT=  0.6%  LQD=  6.1%  IGLB=  0.6%  XOM= 25.0%  SPY=  0.6%  QQQ= 33.9%  VXUS=  0.6%  util=52.321512  Δ=-3.390740
+  IGLB+5%  USO=  6.1%  GLD= 26.1%  MUB=  0.6%  VCLT=  0.6%  LQD=  0.6%  IGLB=  6.1%  XOM= 25.0%  SPY=  0.6%  QQQ= 33.9%  VXUS=  0.6%  util=49.333980  Δ=-6.378272
+  XOM+5%  USO=  6.1%  GLD= 26.1%  MUB=  0.6%  VCLT=  0.6%  LQD=  0.6%  IGLB=  0.6%  XOM= 30.6%  SPY=  0.6%  QQQ= 33.9%  VXUS=  0.6%  util=53.622007  Δ=-2.090245
+  SPY+5%  USO=  6.1%  GLD= 26.1%  MUB=  0.6%  VCLT=  0.6%  LQD=  0.6%  IGLB=  0.6%  XOM= 25.0%  SPY=  6.1%  QQQ= 33.9%  VXUS=  0.6%  util=57.493456  Δ=+1.781204
+  QQQ+5%  USO=  6.1%  GLD= 26.1%  MUB=  0.6%  VCLT=  0.6%  LQD=  0.6%  IGLB=  0.6%  XOM= 25.0%  SPY=  0.6%  QQQ= 39.4%  VXUS=  0.6%  util=59.421662  Δ=+3.709411
+  VXUS+5%  USO=  6.1%  GLD= 26.1%  MUB=  0.6%  VCLT=  0.6%  LQD=  0.6%  IGLB=  0.6%  XOM= 25.0%  SPY=  0.6%  QQQ= 33.9%  VXUS=  6.1%  util=48.986602  Δ=-6.725650
+  ★ WINNER: Epoch 18  improvement=+6.025892
+────────────────────────────────────────────────────────────────────────
+Epoch 19  [startUtility=61.738144  feasible=10  step=0.0500  streak=19  T=0.0189]
+  USO+5%  USO= 11.1%  GLD= 31.1%  MUB=  0.0%  VCLT=  0.0%  LQD=  0.0%  IGLB=  0.0%  XOM= 24.4%  SPY=  0.0%  QQQ= 33.3%  VXUS=  0.0%  util=67.502081  Δ=+5.763937
+  GLD+5%  USO=  5.6%  GLD= 36.7%  MUB=  0.0%  VCLT=  0.0%  LQD=  0.0%  IGLB=  0.0%  XOM= 24.4%  SPY=  0.0%  QQQ= 33.3%  VXUS=  0.0%  util=65.808910  Δ=+4.070766
+  MUB+5%  USO=  5.6%  GLD= 31.1%  MUB=  5.6%  VCLT=  0.0%  LQD=  0.0%  IGLB=  0.0%  XOM= 24.4%  SPY=  0.0%  QQQ= 33.3%  VXUS=  0.0%  util=59.792854  Δ=-1.945290
+  VCLT+5%  USO=  5.6%  GLD= 31.1%  MUB=  0.0%  VCLT=  5.6%  LQD=  0.0%  IGLB=  0.0%  XOM= 24.4%  SPY=  0.0%  QQQ= 33.3%  VXUS=  0.0%  util=54.515000  Δ=-7.223144
+  LQD+5%  USO=  5.6%  GLD= 31.1%  MUB=  0.0%  VCLT=  0.0%  LQD=  5.6%  IGLB=  0.0%  XOM= 24.4%  SPY=  0.0%  QQQ= 33.3%  VXUS=  0.0%  util=57.442272  Δ=-4.295872
+  IGLB+5%  USO=  5.6%  GLD= 31.1%  MUB=  0.0%  VCLT=  0.0%  LQD=  0.0%  IGLB=  5.6%  XOM= 24.4%  SPY=  0.0%  QQQ= 33.3%  VXUS=  0.0%  util=54.536890  Δ=-7.201254
+  XOM+5%  USO=  5.6%  GLD= 31.1%  MUB=  0.0%  VCLT=  0.0%  LQD=  0.0%  IGLB=  0.0%  XOM= 30.0%  SPY=  0.0%  QQQ= 33.3%  VXUS=  0.0%  util=60.728433  Δ=-1.009711
+  SPY+5%  USO=  5.6%  GLD= 31.1%  MUB=  0.0%  VCLT=  0.0%  LQD=  0.0%  IGLB=  0.0%  XOM= 24.4%  SPY=  5.6%  QQQ= 33.3%  VXUS=  0.0%  util=64.582520  Δ=+2.844376
+  QQQ+5%  USO=  5.6%  GLD= 31.1%  MUB=  0.0%  VCLT=  0.0%  LQD=  0.0%  IGLB=  0.0%  XOM= 24.4%  SPY=  0.0%  QQQ= 38.9%  VXUS=  0.0%  util=67.744364  Δ=+6.006220
+  VXUS+5%  USO=  5.6%  GLD= 31.1%  MUB=  0.0%  VCLT=  0.0%  LQD=  0.0%  IGLB=  0.0%  XOM= 24.4%  SPY=  0.0%  QQQ= 33.3%  VXUS=  5.6%  util=52.697473  Δ=-9.040671
+  ★ WINNER: Epoch 19  improvement=+6.006220
+────────────────────────────────────────────────────────────────────────
+Epoch 20  [startUtility=67.744364  feasible=0  step=0.0500  streak=20  T=0.0179]
+  ✗ STOPPED: no_feasible_variants
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=67.744364  (gain=+60.401629  epochs=21)

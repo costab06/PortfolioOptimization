@@ -1,0 +1,157 @@
+=== OPTIMIZATION DEBUG: Sector-HealthCare ===
+Time:   Mon Apr 13 16:16:57 EDT 2026
+Start:  LLY= 23.7%  JNJ= 18.2%  ABBV= 11.8%  MRK=  9.5%  UNH=  8.7%  AMGN=  6.0%  TMO=  5.9%  ABT=  5.6%  GILD=  5.5%  ISRG=  5.1%
+        utility = 0.423653
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.423653  feasible=10  step=0.0100  streak=0  T=0.0500]
+  LLY+1%  LLY= 24.7%  JNJ= 18.1%  ABBV= 11.6%  MRK=  9.4%  UNH=  8.6%  AMGN=  5.9%  TMO=  5.8%  ABT=  5.5%  GILD=  5.4%  ISRG=  4.9%  util=0.428007  Δ=+0.004353
+  JNJ+1%  LLY= 23.6%  JNJ= 19.2%  ABBV= 11.6%  MRK=  9.4%  UNH=  8.6%  AMGN=  5.9%  TMO=  5.8%  ABT=  5.5%  GILD=  5.4%  ISRG=  4.9%  util=0.420729  Δ=-0.002924
+  ABBV+1%  LLY= 23.6%  JNJ= 18.1%  ABBV= 12.8%  MRK=  9.4%  UNH=  8.6%  AMGN=  5.9%  TMO=  5.8%  ABT=  5.5%  GILD=  5.4%  ISRG=  4.9%  util=0.423496  Δ=-0.000158
+  MRK+1%  LLY= 23.6%  JNJ= 18.1%  ABBV= 11.6%  MRK= 10.5%  UNH=  8.6%  AMGN=  5.9%  TMO=  5.8%  ABT=  5.5%  GILD=  5.4%  ISRG=  4.9%  util=0.422870  Δ=-0.000784
+  UNH+1%  LLY= 23.6%  JNJ= 18.1%  ABBV= 11.6%  MRK=  9.4%  UNH=  9.7%  AMGN=  5.9%  TMO=  5.8%  ABT=  5.5%  GILD=  5.4%  ISRG=  4.9%  util=0.422855  Δ=-0.000799
+  AMGN+1%  LLY= 23.6%  JNJ= 18.1%  ABBV= 11.6%  MRK=  9.4%  UNH=  8.6%  AMGN=  7.0%  TMO=  5.8%  ABT=  5.5%  GILD=  5.4%  ISRG=  4.9%  util=0.422407  Δ=-0.001246
+  TMO+1%  LLY= 23.6%  JNJ= 18.1%  ABBV= 11.6%  MRK=  9.4%  UNH=  8.6%  AMGN=  5.9%  TMO=  6.9%  ABT=  5.5%  GILD=  5.4%  ISRG=  4.9%  util=0.422228  Δ=-0.001425
+  ABT+1%  LLY= 23.6%  JNJ= 18.1%  ABBV= 11.6%  MRK=  9.4%  UNH=  8.6%  AMGN=  5.9%  TMO=  5.8%  ABT=  6.6%  GILD=  5.4%  ISRG=  4.9%  util=0.420780  Δ=-0.002873
+  GILD+1%  LLY= 23.6%  JNJ= 18.1%  ABBV= 11.6%  MRK=  9.4%  UNH=  8.6%  AMGN=  5.9%  TMO=  5.8%  ABT=  5.5%  GILD=  6.5%  ISRG=  4.9%  util=0.425793  Δ=+0.002140
+  ISRG+1%  LLY= 23.6%  JNJ= 18.1%  ABBV= 11.6%  MRK=  9.4%  UNH=  8.6%  AMGN=  5.9%  TMO=  5.8%  ABT=  5.5%  GILD=  5.4%  ISRG=  6.1%  util=0.426887  Δ=+0.003234
+  ★ WINNER: Epoch 0  improvement=+0.004353
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.428007  feasible=10  step=0.0200  streak=1  T=0.0475]
+  LLY+2%  LLY= 26.7%  JNJ= 17.9%  ABBV= 11.4%  MRK=  9.2%  UNH=  8.4%  AMGN=  5.7%  TMO=  5.6%  ABT=  5.3%  GILD=  5.2%  ISRG=  4.7%  util=0.436613  Δ=+0.008607
+  JNJ+2%  LLY= 24.5%  JNJ= 20.1%  ABBV= 11.4%  MRK=  9.2%  UNH=  8.4%  AMGN=  5.7%  TMO=  5.6%  ABT=  5.3%  GILD=  5.2%  ISRG=  4.7%  util=0.422162  Δ=-0.005845
+  ABBV+2%  LLY= 24.5%  JNJ= 17.9%  ABBV= 13.6%  MRK=  9.2%  UNH=  8.4%  AMGN=  5.7%  TMO=  5.6%  ABT=  5.3%  GILD=  5.2%  ISRG=  4.7%  util=0.427700  Δ=-0.000306
+  MRK+2%  LLY= 24.5%  JNJ= 17.9%  ABBV= 11.4%  MRK= 11.4%  UNH=  8.4%  AMGN=  5.7%  TMO=  5.6%  ABT=  5.3%  GILD=  5.2%  ISRG=  4.7%  util=0.426397  Δ=-0.001610
+  UNH+2%  LLY= 24.5%  JNJ= 17.9%  ABBV= 11.4%  MRK=  9.2%  UNH= 10.6%  AMGN=  5.7%  TMO=  5.6%  ABT=  5.3%  GILD=  5.2%  ISRG=  4.7%  util=0.426333  Δ=-0.001673
+  AMGN+2%  LLY= 24.5%  JNJ= 17.9%  ABBV= 11.4%  MRK=  9.2%  UNH=  8.4%  AMGN=  7.9%  TMO=  5.6%  ABT=  5.3%  GILD=  5.2%  ISRG=  4.7%  util=0.425494  Δ=-0.002512
+  TMO+2%  LLY= 24.5%  JNJ= 17.9%  ABBV= 11.4%  MRK=  9.2%  UNH=  8.4%  AMGN=  5.7%  TMO=  7.8%  ABT=  5.3%  GILD=  5.2%  ISRG=  4.7%  util=0.425147  Δ=-0.002859
+  ABT+2%  LLY= 24.5%  JNJ= 17.9%  ABBV= 11.4%  MRK=  9.2%  UNH=  8.4%  AMGN=  5.7%  TMO=  5.6%  ABT=  7.5%  GILD=  5.2%  ISRG=  4.7%  util=0.422296  Δ=-0.005711
+  GILD+2%  LLY= 24.5%  JNJ= 17.9%  ABBV= 11.4%  MRK=  9.2%  UNH=  8.4%  AMGN=  5.7%  TMO=  5.6%  ABT=  5.3%  GILD=  7.4%  ISRG=  4.7%  util=0.432293  Δ=+0.004287
+  ISRG+2%  LLY= 24.5%  JNJ= 17.9%  ABBV= 11.4%  MRK=  9.2%  UNH=  8.4%  AMGN=  5.7%  TMO=  5.6%  ABT=  5.3%  GILD=  5.2%  ISRG=  6.9%  util=0.434497  Δ=+0.006490
+  ★ WINNER: Epoch 1  improvement=+0.008607
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.436613  feasible=10  step=0.0300  streak=2  T=0.0451]
+  LLY+3%  LLY= 29.7%  JNJ= 17.6%  ABBV= 11.1%  MRK=  8.9%  UNH=  8.0%  AMGN=  5.3%  TMO=  5.2%  ABT=  4.9%  GILD=  4.9%  ISRG=  4.4%  util=0.449143  Δ=+0.012530
+  JNJ+3%  LLY= 26.4%  JNJ= 20.9%  ABBV= 11.1%  MRK=  8.9%  UNH=  8.0%  AMGN=  5.3%  TMO=  5.2%  ABT=  4.9%  GILD=  4.9%  ISRG=  4.4%  util=0.427845  Δ=-0.008768
+  ABBV+3%  LLY= 26.4%  JNJ= 17.6%  ABBV= 14.4%  MRK=  8.9%  UNH=  8.0%  AMGN=  5.3%  TMO=  5.2%  ABT=  4.9%  GILD=  4.9%  ISRG=  4.4%  util=0.436135  Δ=-0.000478
+  MRK+3%  LLY= 26.4%  JNJ= 17.6%  ABBV= 11.1%  MRK= 12.2%  UNH=  8.0%  AMGN=  5.3%  TMO=  5.2%  ABT=  4.9%  GILD=  4.9%  ISRG=  4.4%  util=0.434192  Δ=-0.002422
+  UNH+3%  LLY= 26.4%  JNJ= 17.6%  ABBV= 11.1%  MRK=  8.9%  UNH= 11.4%  AMGN=  5.3%  TMO=  5.2%  ABT=  4.9%  GILD=  4.9%  ISRG=  4.4%  util=0.434075  Δ=-0.002538
+  AMGN+3%  LLY= 26.4%  JNJ= 17.6%  ABBV= 11.1%  MRK=  8.9%  UNH=  8.0%  AMGN=  8.7%  TMO=  5.2%  ABT=  4.9%  GILD=  4.9%  ISRG=  4.4%  util=0.432856  Δ=-0.003757
+  TMO+3%  LLY= 26.4%  JNJ= 17.6%  ABBV= 11.1%  MRK=  8.9%  UNH=  8.0%  AMGN=  5.3%  TMO=  8.6%  ABT=  4.9%  GILD=  4.9%  ISRG=  4.4%  util=0.432329  Δ=-0.004284
+  ABT+3%  LLY= 26.4%  JNJ= 17.6%  ABBV= 11.1%  MRK=  8.9%  UNH=  8.0%  AMGN=  5.3%  TMO=  5.2%  ABT=  8.3%  GILD=  4.9%  ISRG=  4.4%  util=0.428098  Δ=-0.008515
+  GILD+3%  LLY= 26.4%  JNJ= 17.6%  ABBV= 11.1%  MRK=  8.9%  UNH=  8.0%  AMGN=  5.3%  TMO=  5.2%  ABT=  4.9%  GILD=  8.2%  ISRG=  4.4%  util=0.443048  Δ=+0.006434
+  ISRG+3%  LLY= 26.4%  JNJ= 17.6%  ABBV= 11.1%  MRK=  8.9%  UNH=  8.0%  AMGN=  5.3%  TMO=  5.2%  ABT=  4.9%  GILD=  4.9%  ISRG=  7.7%  util=0.446314  Δ=+0.009701
+  ★ WINNER: Epoch 2  improvement=+0.012530
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.449143  feasible=10  step=0.0400  streak=3  T=0.0429]
+  LLY+4%  LLY= 33.7%  JNJ= 17.1%  ABBV= 10.6%  MRK=  8.4%  UNH=  7.6%  AMGN=  4.9%  TMO=  4.8%  ABT=  4.5%  GILD=  4.4%  ISRG=  3.9%  util=0.465284  Δ=+0.016141
+  JNJ+4%  LLY= 29.3%  JNJ= 21.6%  ABBV= 10.6%  MRK=  8.4%  UNH=  7.6%  AMGN=  4.9%  TMO=  4.8%  ABT=  4.5%  GILD=  4.4%  ISRG=  3.9%  util=0.437438  Δ=-0.011705
+  ABBV+4%  LLY= 29.3%  JNJ= 17.1%  ABBV= 15.1%  MRK=  8.4%  UNH=  7.6%  AMGN=  4.9%  TMO=  4.8%  ABT=  4.5%  GILD=  4.4%  ISRG=  3.9%  util=0.448457  Δ=-0.000686
+  MRK+4%  LLY= 29.3%  JNJ= 17.1%  ABBV= 10.6%  MRK= 12.9%  UNH=  7.6%  AMGN=  4.9%  TMO=  4.8%  ABT=  4.5%  GILD=  4.4%  ISRG=  3.9%  util=0.445849  Δ=-0.003294
+  UNH+4%  LLY= 29.3%  JNJ= 17.1%  ABBV= 10.6%  MRK=  8.4%  UNH= 12.0%  AMGN=  4.9%  TMO=  4.8%  ABT=  4.5%  GILD=  4.4%  ISRG=  3.9%  util=0.445566  Δ=-0.003577
+  AMGN+4%  LLY= 29.3%  JNJ= 17.1%  ABBV= 10.6%  MRK=  8.4%  UNH=  7.6%  AMGN=  9.3%  TMO=  4.8%  ABT=  4.5%  GILD=  4.4%  ISRG=  3.9%  util=0.444158  Δ=-0.004985
+  TMO+4%  LLY= 29.3%  JNJ= 17.1%  ABBV= 10.6%  MRK=  8.4%  UNH=  7.6%  AMGN=  4.9%  TMO=  9.2%  ABT=  4.5%  GILD=  4.4%  ISRG=  3.9%  util=0.443507  Δ=-0.005637
+  ABT+4%  LLY= 29.3%  JNJ= 17.1%  ABBV= 10.6%  MRK=  8.4%  UNH=  7.6%  AMGN=  4.9%  TMO=  4.8%  ABT=  8.9%  GILD=  4.4%  ISRG=  3.9%  util=0.437848  Δ=-0.011295
+  GILD+4%  LLY= 29.3%  JNJ= 17.1%  ABBV= 10.6%  MRK=  8.4%  UNH=  7.6%  AMGN=  4.9%  TMO=  4.8%  ABT=  4.5%  GILD=  8.9%  ISRG=  3.9%  util=0.457780  Δ=+0.008636
+  ISRG+4%  LLY= 29.3%  JNJ= 17.1%  ABBV= 10.6%  MRK=  8.4%  UNH=  7.6%  AMGN=  4.9%  TMO=  4.8%  ABT=  4.5%  GILD=  4.4%  ISRG=  8.4%  util=0.462166  Δ=+0.013023
+  ★ WINNER: Epoch 3  improvement=+0.016141
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.465284  feasible=10  step=0.0500  streak=4  T=0.0407]
+  LLY+5%  LLY= 38.7%  JNJ= 16.6%  ABBV= 10.1%  MRK=  7.9%  UNH=  7.0%  AMGN=  4.3%  TMO=  4.2%  ABT=  3.9%  GILD=  3.9%  ISRG=  3.4%  util=0.484182  Δ=+0.018898
+  JNJ+5%  LLY= 33.2%  JNJ= 22.1%  ABBV= 10.1%  MRK=  7.9%  UNH=  7.0%  AMGN=  4.3%  TMO=  4.2%  ABT=  3.9%  GILD=  3.9%  ISRG=  3.4%  util=0.450441  Δ=-0.014842
+  ABBV+5%  LLY= 33.2%  JNJ= 16.6%  ABBV= 15.6%  MRK=  7.9%  UNH=  7.0%  AMGN=  4.3%  TMO=  4.2%  ABT=  3.9%  GILD=  3.9%  ISRG=  3.4%  util=0.464264  Δ=-0.001020
+  MRK+5%  LLY= 33.2%  JNJ= 16.6%  ABBV= 10.1%  MRK= 13.4%  UNH=  7.0%  AMGN=  4.3%  TMO=  4.2%  ABT=  3.9%  GILD=  3.9%  ISRG=  3.4%  util=0.460836  Δ=-0.004447
+  UNH+5%  LLY= 33.2%  JNJ= 16.6%  ABBV= 10.1%  MRK=  7.9%  UNH= 12.6%  AMGN=  4.3%  TMO=  4.2%  ABT=  3.9%  GILD=  3.9%  ISRG=  3.4%  util=0.460740  Δ=-0.004544
+  AMGN+5%  LLY= 33.2%  JNJ= 16.6%  ABBV= 10.1%  MRK=  7.9%  UNH=  7.0%  AMGN=  9.9%  TMO=  4.2%  ABT=  3.9%  GILD=  3.9%  ISRG=  3.4%  util=0.459044  Δ=-0.006239
+  TMO+5%  LLY= 33.2%  JNJ= 16.6%  ABBV= 10.1%  MRK=  7.9%  UNH=  7.0%  AMGN=  4.3%  TMO=  9.8%  ABT=  3.9%  GILD=  3.9%  ISRG=  3.4%  util=0.458118  Δ=-0.007166
+  ABT+5%  LLY= 33.2%  JNJ= 16.6%  ABBV= 10.1%  MRK=  7.9%  UNH=  7.0%  AMGN=  4.3%  TMO=  4.2%  ABT=  9.5%  GILD=  3.9%  ISRG=  3.4%  util=0.451277  Δ=-0.014007
+  GILD+5%  LLY= 33.2%  JNJ= 16.6%  ABBV= 10.1%  MRK=  7.9%  UNH=  7.0%  AMGN=  4.3%  TMO=  4.2%  ABT=  3.9%  GILD=  9.4%  ISRG=  3.4%  util=0.476208  Δ=+0.010924
+  ISRG+5%  LLY= 33.2%  JNJ= 16.6%  ABBV= 10.1%  MRK=  7.9%  UNH=  7.0%  AMGN=  4.3%  TMO=  4.2%  ABT=  3.9%  GILD=  3.9%  ISRG=  8.9%  util=0.481488  Δ=+0.016204
+  ★ WINNER: Epoch 4  improvement=+0.018898
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.484182  feasible=10  step=0.0500  streak=5  T=0.0387]
+  LLY+5%  LLY= 43.7%  JNJ= 16.0%  ABBV=  9.5%  MRK=  7.3%  UNH=  6.5%  AMGN=  3.8%  TMO=  3.7%  ABT=  3.4%  GILD=  3.3%  ISRG=  2.8%  util=0.502181  Δ=+0.018000
+  JNJ+5%  LLY= 38.2%  JNJ= 21.6%  ABBV=  9.5%  MRK=  7.3%  UNH=  6.5%  AMGN=  3.8%  TMO=  3.7%  ABT=  3.4%  GILD=  3.3%  ISRG=  2.8%  util=0.469565  Δ=-0.014617
+  ABBV+5%  LLY= 38.2%  JNJ= 16.0%  ABBV= 15.1%  MRK=  7.3%  UNH=  6.5%  AMGN=  3.8%  TMO=  3.7%  ABT=  3.4%  GILD=  3.3%  ISRG=  2.8%  util=0.483398  Δ=-0.000784
+  MRK+5%  LLY= 38.2%  JNJ= 16.0%  ABBV=  9.5%  MRK= 12.9%  UNH=  6.5%  AMGN=  3.8%  TMO=  3.7%  ABT=  3.4%  GILD=  3.3%  ISRG=  2.8%  util=0.479694  Δ=-0.004488
+  UNH+5%  LLY= 38.2%  JNJ= 16.0%  ABBV=  9.5%  MRK=  7.3%  UNH= 12.0%  AMGN=  3.8%  TMO=  3.7%  ABT=  3.4%  GILD=  3.3%  ISRG=  2.8%  util=0.480242  Δ=-0.003940
+  AMGN+5%  LLY= 38.2%  JNJ= 16.0%  ABBV=  9.5%  MRK=  7.3%  UNH=  6.5%  AMGN=  9.3%  TMO=  3.7%  ABT=  3.4%  GILD=  3.3%  ISRG=  2.8%  util=0.478167  Δ=-0.006014
+  TMO+5%  LLY= 38.2%  JNJ= 16.0%  ABBV=  9.5%  MRK=  7.3%  UNH=  6.5%  AMGN=  3.8%  TMO=  9.2%  ABT=  3.4%  GILD=  3.3%  ISRG=  2.8%  util=0.477542  Δ=-0.006640
+  ABT+5%  LLY= 38.2%  JNJ= 16.0%  ABBV=  9.5%  MRK=  7.3%  UNH=  6.5%  AMGN=  3.8%  TMO=  3.7%  ABT=  8.9%  GILD=  3.3%  ISRG=  2.8%  util=0.470346  Δ=-0.013835
+  GILD+5%  LLY= 38.2%  JNJ= 16.0%  ABBV=  9.5%  MRK=  7.3%  UNH=  6.5%  AMGN=  3.8%  TMO=  3.7%  ABT=  3.4%  GILD=  8.9%  ISRG=  2.8%  util=0.495519  Δ=+0.011337
+  ISRG+5%  LLY= 38.2%  JNJ= 16.0%  ABBV=  9.5%  MRK=  7.3%  UNH=  6.5%  AMGN=  3.8%  TMO=  3.7%  ABT=  3.4%  GILD=  3.3%  ISRG=  8.4%  util=0.500946  Δ=+0.016764
+  ★ WINNER: Epoch 5  improvement=+0.018000
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.502181  feasible=10  step=0.0500  streak=6  T=0.0368]
+  LLY+5%  LLY= 48.7%  JNJ= 15.4%  ABBV=  9.0%  MRK=  6.8%  UNH=  5.9%  AMGN=  3.2%  TMO=  3.1%  ABT=  2.8%  GILD=  2.7%  ISRG=  2.3%  util=0.519553  Δ=+0.017372
+  JNJ+5%  LLY= 43.2%  JNJ= 21.0%  ABBV=  9.0%  MRK=  6.8%  UNH=  5.9%  AMGN=  3.2%  TMO=  3.1%  ABT=  2.8%  GILD=  2.7%  ISRG=  2.3%  util=0.487669  Δ=-0.014513
+  ABBV+5%  LLY= 43.2%  JNJ= 15.4%  ABBV= 14.5%  MRK=  6.8%  UNH=  5.9%  AMGN=  3.2%  TMO=  3.1%  ABT=  2.8%  GILD=  2.7%  ISRG=  2.3%  util=0.501559  Δ=-0.000622
+  MRK+5%  LLY= 43.2%  JNJ= 15.4%  ABBV=  9.0%  MRK= 12.3%  UNH=  5.9%  AMGN=  3.2%  TMO=  3.1%  ABT=  2.8%  GILD=  2.7%  ISRG=  2.3%  util=0.497599  Δ=-0.004582
+  UNH+5%  LLY= 43.2%  JNJ= 15.4%  ABBV=  9.0%  MRK=  6.8%  UNH= 11.5%  AMGN=  3.2%  TMO=  3.1%  ABT=  2.8%  GILD=  2.7%  ISRG=  2.3%  util=0.498437  Δ=-0.003744
+  AMGN+5%  LLY= 43.2%  JNJ= 15.4%  ABBV=  9.0%  MRK=  6.8%  UNH=  5.9%  AMGN=  8.8%  TMO=  3.1%  ABT=  2.8%  GILD=  2.7%  ISRG=  2.3%  util=0.496291  Δ=-0.005890
+  TMO+5%  LLY= 43.2%  JNJ= 15.4%  ABBV=  9.0%  MRK=  6.8%  UNH=  5.9%  AMGN=  3.2%  TMO=  8.7%  ABT=  2.8%  GILD=  2.7%  ISRG=  2.3%  util=0.495832  Δ=-0.006350
+  ABT+5%  LLY= 43.2%  JNJ= 15.4%  ABBV=  9.0%  MRK=  6.8%  UNH=  5.9%  AMGN=  3.2%  TMO=  3.1%  ABT=  8.4%  GILD=  2.7%  ISRG=  2.3%  util=0.488471  Δ=-0.013710
+  GILD+5%  LLY= 43.2%  JNJ= 15.4%  ABBV=  9.0%  MRK=  6.8%  UNH=  5.9%  AMGN=  3.2%  TMO=  3.1%  ABT=  2.8%  GILD=  8.3%  ISRG=  2.3%  util=0.513747  Δ=+0.011565
+  ISRG+5%  LLY= 43.2%  JNJ= 15.4%  ABBV=  9.0%  MRK=  6.8%  UNH=  5.9%  AMGN=  3.2%  TMO=  3.1%  ABT=  2.8%  GILD=  2.7%  ISRG=  7.8%  util=0.519473  Δ=+0.017292
+  ★ WINNER: Epoch 6  improvement=+0.017372
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=0.519553  feasible=10  step=0.0500  streak=7  T=0.0349]
+  LLY+5%  LLY= 53.7%  JNJ= 14.9%  ABBV=  8.4%  MRK=  6.2%  UNH=  5.4%  AMGN=  2.7%  TMO=  2.6%  ABT=  2.3%  GILD=  2.2%  ISRG=  1.7%  util=0.535826  Δ=+0.016273
+  JNJ+5%  LLY= 48.2%  JNJ= 20.4%  ABBV=  8.4%  MRK=  6.2%  UNH=  5.4%  AMGN=  2.7%  TMO=  2.6%  ABT=  2.3%  GILD=  2.2%  ISRG=  1.7%  util=0.505323  Δ=-0.014230
+  ABBV+5%  LLY= 48.2%  JNJ= 14.9%  ABBV= 14.0%  MRK=  6.2%  UNH=  5.4%  AMGN=  2.7%  TMO=  2.6%  ABT=  2.3%  GILD=  2.2%  ISRG=  1.7%  util=0.519073  Δ=-0.000480
+  MRK+5%  LLY= 48.2%  JNJ= 14.9%  ABBV=  8.4%  MRK= 11.8%  UNH=  5.4%  AMGN=  2.7%  TMO=  2.6%  ABT=  2.3%  GILD=  2.2%  ISRG=  1.7%  util=0.514669  Δ=-0.004884
+  UNH+5%  LLY= 48.2%  JNJ= 14.9%  ABBV=  8.4%  MRK=  6.2%  UNH= 10.9%  AMGN=  2.7%  TMO=  2.6%  ABT=  2.3%  GILD=  2.2%  ISRG=  1.7%  util=0.515509  Δ=-0.004044
+  AMGN+5%  LLY= 48.2%  JNJ= 14.9%  ABBV=  8.4%  MRK=  6.2%  UNH=  5.4%  AMGN=  8.2%  TMO=  2.6%  ABT=  2.3%  GILD=  2.2%  ISRG=  1.7%  util=0.513605  Δ=-0.005949
+  TMO+5%  LLY= 48.2%  JNJ= 14.9%  ABBV=  8.4%  MRK=  6.2%  UNH=  5.4%  AMGN=  2.7%  TMO=  8.1%  ABT=  2.3%  GILD=  2.2%  ISRG=  1.7%  util=0.513362  Δ=-0.006191
+  ABT+5%  LLY= 48.2%  JNJ= 14.9%  ABBV=  8.4%  MRK=  6.2%  UNH=  5.4%  AMGN=  2.7%  TMO=  2.6%  ABT=  7.8%  GILD=  2.2%  ISRG=  1.7%  util=0.505725  Δ=-0.013828
+  GILD+5%  LLY= 48.2%  JNJ= 14.9%  ABBV=  8.4%  MRK=  6.2%  UNH=  5.4%  AMGN=  2.7%  TMO=  2.6%  ABT=  2.3%  GILD=  7.7%  ISRG=  1.7%  util=0.531201  Δ=+0.011648
+  ISRG+5%  LLY= 48.2%  JNJ= 14.9%  ABBV=  8.4%  MRK=  6.2%  UNH=  5.4%  AMGN=  2.7%  TMO=  2.6%  ABT=  2.3%  GILD=  2.2%  ISRG=  7.3%  util=0.536833  Δ=+0.017280
+  ★ WINNER: Epoch 7  improvement=+0.017280
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=0.536833  feasible=10  step=0.0500  streak=8  T=0.0332]
+  LLY+5%  LLY= 53.2%  JNJ= 14.3%  ABBV=  7.9%  MRK=  5.7%  UNH=  4.8%  AMGN=  2.1%  TMO=  2.0%  ABT=  1.7%  GILD=  1.6%  ISRG=  6.7%  util=0.553244  Δ=+0.016411
+  JNJ+5%  LLY= 47.6%  JNJ= 19.9%  ABBV=  7.9%  MRK=  5.7%  UNH=  4.8%  AMGN=  2.1%  TMO=  2.0%  ABT=  1.7%  GILD=  1.6%  ISRG=  6.7%  util=0.523537  Δ=-0.013296
+  ABBV+5%  LLY= 47.6%  JNJ= 14.3%  ABBV= 13.4%  MRK=  5.7%  UNH=  4.8%  AMGN=  2.1%  TMO=  2.0%  ABT=  1.7%  GILD=  1.6%  ISRG=  6.7%  util=0.536626  Δ=-0.000207
+  MRK+5%  LLY= 47.6%  JNJ= 14.3%  ABBV=  7.9%  MRK= 11.2%  UNH=  4.8%  AMGN=  2.1%  TMO=  2.0%  ABT=  1.7%  GILD=  1.6%  ISRG=  6.7%  util=0.532246  Δ=-0.004587
+  UNH+5%  LLY= 47.6%  JNJ= 14.3%  ABBV=  7.9%  MRK=  5.7%  UNH= 10.4%  AMGN=  2.1%  TMO=  2.0%  ABT=  1.7%  GILD=  1.6%  ISRG=  6.7%  util=0.532803  Δ=-0.004030
+  AMGN+5%  LLY= 47.6%  JNJ= 14.3%  ABBV=  7.9%  MRK=  5.7%  UNH=  4.8%  AMGN=  7.7%  TMO=  2.0%  ABT=  1.7%  GILD=  1.6%  ISRG=  6.7%  util=0.530929  Δ=-0.005905
+  TMO+5%  LLY= 47.6%  JNJ= 14.3%  ABBV=  7.9%  MRK=  5.7%  UNH=  4.8%  AMGN=  2.1%  TMO=  7.6%  ABT=  1.7%  GILD=  1.6%  ISRG=  6.7%  util=0.530401  Δ=-0.006433
+  ABT+5%  LLY= 47.6%  JNJ= 14.3%  ABBV=  7.9%  MRK=  5.7%  UNH=  4.8%  AMGN=  2.1%  TMO=  2.0%  ABT=  7.3%  GILD=  1.6%  ISRG=  6.7%  util=0.522983  Δ=-0.013851
+  GILD+5%  LLY= 47.6%  JNJ= 14.3%  ABBV=  7.9%  MRK=  5.7%  UNH=  4.8%  AMGN=  2.1%  TMO=  2.0%  ABT=  1.7%  GILD=  7.2%  ISRG=  6.7%  util=0.549219  Δ=+0.012385
+  ISRG+5%  LLY= 47.6%  JNJ= 14.3%  ABBV=  7.9%  MRK=  5.7%  UNH=  4.8%  AMGN=  2.1%  TMO=  2.0%  ABT=  1.7%  GILD=  1.6%  ISRG= 12.3%  util=0.551827  Δ=+0.014993
+  ★ WINNER: Epoch 8  improvement=+0.016411
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=0.553244  feasible=10  step=0.0500  streak=9  T=0.0315]
+  LLY+5%  LLY= 58.2%  JNJ= 13.8%  ABBV=  7.3%  MRK=  5.1%  UNH=  4.3%  AMGN=  1.6%  TMO=  1.4%  ABT=  1.2%  GILD=  1.1%  ISRG=  6.2%  util=0.568693  Δ=+0.015449
+  JNJ+5%  LLY= 52.6%  JNJ= 19.3%  ABBV=  7.3%  MRK=  5.1%  UNH=  4.3%  AMGN=  1.6%  TMO=  1.4%  ABT=  1.2%  GILD=  1.1%  ISRG=  6.2%  util=0.540127  Δ=-0.013117
+  ABBV+5%  LLY= 52.6%  JNJ= 13.8%  ABBV= 12.9%  MRK=  5.1%  UNH=  4.3%  AMGN=  1.6%  TMO=  1.4%  ABT=  1.2%  GILD=  1.1%  ISRG=  6.2%  util=0.553242  Δ=-0.000002
+  MRK+5%  LLY= 52.6%  JNJ= 13.8%  ABBV=  7.3%  MRK= 10.7%  UNH=  4.3%  AMGN=  1.6%  TMO=  1.4%  ABT=  1.2%  GILD=  1.1%  ISRG=  6.2%  util=0.548198  Δ=-0.005046
+  UNH+5%  LLY= 52.6%  JNJ= 13.8%  ABBV=  7.3%  MRK=  5.1%  UNH=  9.8%  AMGN=  1.6%  TMO=  1.4%  ABT=  1.2%  GILD=  1.1%  ISRG=  6.2%  util=0.549350  Δ=-0.003894
+  AMGN+5%  LLY= 52.6%  JNJ= 13.8%  ABBV=  7.3%  MRK=  5.1%  UNH=  4.3%  AMGN=  7.1%  TMO=  1.4%  ABT=  1.2%  GILD=  1.1%  ISRG=  6.2%  util=0.547285  Δ=-0.005959
+  TMO+5%  LLY= 52.6%  JNJ= 13.8%  ABBV=  7.3%  MRK=  5.1%  UNH=  4.3%  AMGN=  1.6%  TMO=  7.0%  ABT=  1.2%  GILD=  1.1%  ISRG=  6.2%  util=0.547226  Δ=-0.006018
+  ABT+5%  LLY= 52.6%  JNJ= 13.8%  ABBV=  7.3%  MRK=  5.1%  UNH=  4.3%  AMGN=  1.6%  TMO=  1.4%  ABT=  6.7%  GILD=  1.1%  ISRG=  6.2%  util=0.539467  Δ=-0.013777
+  GILD+5%  LLY= 52.6%  JNJ= 13.8%  ABBV=  7.3%  MRK=  5.1%  UNH=  4.3%  AMGN=  1.6%  TMO=  1.4%  ABT=  1.2%  GILD=  6.6%  ISRG=  6.2%  util=0.565660  Δ=+0.012416
+  ISRG+5%  LLY= 52.6%  JNJ= 13.8%  ABBV=  7.3%  MRK=  5.1%  UNH=  4.3%  AMGN=  1.6%  TMO=  1.4%  ABT=  1.2%  GILD=  1.1%  ISRG= 11.7%  util=0.568473  Δ=+0.015229
+  ★ WINNER: Epoch 9  improvement=+0.015449
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=0.568693  feasible=10  step=0.0500  streak=10  T=0.0299]
+  LLY+5%  LLY= 63.2%  JNJ= 13.2%  ABBV=  6.8%  MRK=  4.5%  UNH=  3.7%  AMGN=  1.0%  TMO=  0.9%  ABT=  0.6%  GILD=  0.5%  ISRG=  5.6%  util=0.583125  Δ=+0.014432
+  JNJ+5%  LLY= 57.6%  JNJ= 18.8%  ABBV=  6.8%  MRK=  4.5%  UNH=  3.7%  AMGN=  1.0%  TMO=  0.9%  ABT=  0.6%  GILD=  0.5%  ISRG=  5.6%  util=0.555804  Δ=-0.012889
+  ABBV+5%  LLY= 57.6%  JNJ= 13.2%  ABBV= 12.3%  MRK=  4.5%  UNH=  3.7%  AMGN=  1.0%  TMO=  0.9%  ABT=  0.6%  GILD=  0.5%  ISRG=  5.6%  util=0.568917  Δ=+0.000224
+  MRK+5%  LLY= 57.6%  JNJ= 13.2%  ABBV=  6.8%  MRK= 10.1%  UNH=  3.7%  AMGN=  1.0%  TMO=  0.9%  ABT=  0.6%  GILD=  0.5%  ISRG=  5.6%  util=0.563387  Δ=-0.005306
+  UNH+5%  LLY= 57.6%  JNJ= 13.2%  ABBV=  6.8%  MRK=  4.5%  UNH=  9.3%  AMGN=  1.0%  TMO=  0.9%  ABT=  0.6%  GILD=  0.5%  ISRG=  5.6%  util=0.564735  Δ=-0.003958
+  AMGN+5%  LLY= 57.6%  JNJ= 13.2%  ABBV=  6.8%  MRK=  4.5%  UNH=  3.7%  AMGN=  6.6%  TMO=  0.9%  ABT=  0.6%  GILD=  0.5%  ISRG=  5.6%  util=0.562577  Δ=-0.006116
+  TMO+5%  LLY= 57.6%  JNJ= 13.2%  ABBV=  6.8%  MRK=  4.5%  UNH=  3.7%  AMGN=  1.0%  TMO=  6.4%  ABT=  0.6%  GILD=  0.5%  ISRG=  5.6%  util=0.563072  Δ=-0.005621
+  ABT+5%  LLY= 57.6%  JNJ= 13.2%  ABBV=  6.8%  MRK=  4.5%  UNH=  3.7%  AMGN=  1.0%  TMO=  0.9%  ABT=  6.2%  GILD=  0.5%  ISRG=  5.6%  util=0.554718  Δ=-0.013975
+  GILD+5%  LLY= 57.6%  JNJ= 13.2%  ABBV=  6.8%  MRK=  4.5%  UNH=  3.7%  AMGN=  1.0%  TMO=  0.9%  ABT=  0.6%  GILD=  6.1%  ISRG=  5.6%  util=0.581298  Δ=+0.012605
+  ISRG+5%  LLY= 57.6%  JNJ= 13.2%  ABBV=  6.8%  MRK=  4.5%  UNH=  3.7%  AMGN=  1.0%  TMO=  0.9%  ABT=  0.6%  GILD=  0.5%  ISRG= 11.2%  util=0.584041  Δ=+0.015348
+  ★ WINNER: Epoch 10  improvement=+0.015348
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=0.584041  feasible=1  step=0.0500  streak=11  T=0.0284]
+  GILD+5%  LLY= 57.0%  JNJ= 12.7%  ABBV=  6.2%  MRK=  4.0%  UNH=  3.2%  AMGN=  0.4%  TMO=  0.3%  ABT=  0.0%  GILD=  5.5%  ISRG= 10.6%  util=0.597354  Δ=+0.013312
+  ★ WINNER: Epoch 11  improvement=+0.013312
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=0.597354  feasible=0  step=0.0500  streak=12  T=0.0270]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.597354  (gain=+0.173700  epochs=13)

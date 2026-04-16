@@ -1,0 +1,75 @@
+package com.bcfinancial.util.communicator;
+
+
+import java.net.*;
+import java.io.*;
+import java.util.*;
+
+
+public class ServletCommunicator {
+    
+    
+    final static boolean DEBUG = true;
+
+    final static String urlString = "http://192.168.1.151:8081/bcfinancial/servlet/MessageHandlerServlet";
+
+    
+    public static Object communicate(String commandProcessor, Vector argv) {
+	
+	Object returnedObject = null;
+	Exception exception = null;
+	
+	try {
+	    URL messageHandelingServlet = new URL( urlString );
+	    URLConnection servletConnection = messageHandelingServlet.openConnection();
+	    
+	    // inform the connection that we will send output and accept input
+	    servletConnection.setDoInput(true);
+	    servletConnection.setDoOutput(true);
+	    
+	    // Don't use a cached version of URL connection.
+	    servletConnection.setUseCaches (false);
+	    servletConnection.setDefaultUseCaches (false);
+	    
+	    // Specify the content type that we will send binary data
+	    servletConnection.setRequestProperty ("Content-Type", "application/octet-stream");
+	    // send the commandprocessor class name to the servlet using serialization
+	    ObjectOutputStream outputToServlet = new ObjectOutputStream(servletConnection.getOutputStream());
+	    
+	    outputToServlet.writeObject(commandProcessor);
+	    
+	    // send the argv
+	    if (DEBUG) {
+		System.out.println("argv has "+argv.size()+" elements");
+	    }
+	    
+	    Iterator i = argv.iterator();
+	    while(i.hasNext()) {
+		Object o = i.next();
+		
+		if (DEBUG) {
+		    System.out.println("writing: "+o);
+		}	
+		outputToServlet.writeObject(o);
+	    }
+	    
+	    // flush and close
+	    outputToServlet.flush();
+	    outputToServlet.close();
+	    
+	    // get the returned object
+	    ObjectInputStream inputFromServlet = new ObjectInputStream(servletConnection.getInputStream());
+	    returnedObject = inputFromServlet.readObject();
+	} catch (Exception e) {
+	    exception = e;
+	    returnedObject = null;
+	}
+	
+	if (DEBUG) {
+	    System.out.println("returnedObject: "+returnedObject);
+	    System.out.println("exception during call: "+exception);
+	}
+	return (returnedObject != null) ? returnedObject : exception;
+    }
+}
+

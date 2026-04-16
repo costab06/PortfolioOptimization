@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Optimizer</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0f1117;--surface:#1a1d27;--surface2:#232738;--border:#2e3248;
+  --accent:#4f7ef8;--accent2:#7c5cbf;--text:#e8eaf6;--muted:#8892b0;
+  --success:#4caf88;--warn:#f5a623;--error:#e05252;
+  --radius:8px;--shadow:0 4px 24px rgba(0,0,0,.4);
+}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vh}
+a{color:var(--accent)}
+
+/* ── Layout ── */
+header{background:var(--surface);border-bottom:1px solid var(--border);padding:12px 24px;
+  display:flex;align-items:center;gap:16px;position:sticky;top:0;z-index:100}
+header h1{font-size:1.15rem;font-weight:700;letter-spacing:.3px;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+#user-badge{margin-left:auto;font-size:.85rem;color:var(--muted);display:flex;align-items:center;gap:10px}
+#logout-btn{background:none;border:1px solid var(--border);color:var(--muted);padding:4px 12px;
+  border-radius:var(--radius);cursor:pointer;font-size:.8rem}
+#logout-btn:hover{border-color:var(--error);color:var(--error)}
+main{max-width:960px;margin:0 auto;padding:32px 16px}
+
+/* ── Cards ── */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:24px;margin-bottom:20px;box-shadow:var(--shadow)}
+.card h2{font-size:1rem;font-weight:600;color:var(--text);margin-bottom:18px;
+  display:flex;align-items:center;gap:8px}
+.card h2 .icon{font-size:1.1em}
+
+/* ── Auth ── */
+#auth-section{display:flex;justify-content:center;align-items:flex-start;padding-top:80px}
+.auth-box{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+  padding:36px 40px;width:100%;max-width:420px;box-shadow:var(--shadow)}
+.auth-box h1{text-align:center;font-size:1.5rem;margin-bottom:4px;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.auth-box p{text-align:center;color:var(--muted);font-size:.85rem;margin-bottom:24px}
+.tab-bar{display:flex;border-bottom:1px solid var(--border);margin-bottom:24px}
+.tab-btn{flex:1;background:none;border:none;color:var(--muted);padding:10px;cursor:pointer;
+  font-size:.9rem;border-bottom:2px solid transparent;transition:all .2s}
+.tab-btn.active{color:var(--accent);border-bottom-color:var(--accent)}
+
+/* ── Forms ── */
+.form-group{margin-bottom:14px}
+label{display:block;font-size:.8rem;color:var(--muted);margin-bottom:5px;font-weight:500;text-transform:uppercase;letter-spacing:.5px}
+input,select{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);
+  color:var(--text);padding:9px 12px;font-size:.9rem;outline:none;transition:border .2s}
+input:focus,select:focus{border-color:var(--accent)}
+input[type=number]{-moz-appearance:textfield}
+
+.btn{padding:9px 20px;border-radius:var(--radius);border:none;cursor:pointer;font-size:.875rem;
+  font-weight:600;transition:all .2s;white-space:nowrap}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{filter:brightness(1.15)}
+.btn-secondary{background:var(--surface2);color:var(--text);border:1px solid var(--border)}
+.btn-secondary:hover{border-color:var(--accent)}
+.btn-danger{background:var(--error);color:#fff}
+.btn-sm{padding:5px 12px;font-size:.8rem}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+
+/* ── Nav tabs ── */
+#app-section{display:none}
+nav{display:flex;gap:4px;margin-bottom:24px;background:var(--surface);
+  padding:6px;border-radius:var(--radius);border:1px solid var(--border)}
+nav button{flex:1;background:none;border:none;color:var(--muted);padding:8px 12px;
+  border-radius:6px;cursor:pointer;font-size:.875rem;font-weight:500;transition:all .2s}
+nav button.active{background:var(--accent);color:#fff}
+nav button:not(.active):hover{background:var(--surface2);color:var(--text)}
+
+/* ── Symbols table ── */
+.symbol-table{width:100%;border-collapse:collapse;margin-bottom:12px}
+.symbol-table th{text-align:left;font-size:.75rem;color:var(--muted);padding:6px 8px;
+  text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border)}
+.symbol-table td{padding:6px 8px}
+.symbol-table input{padding:6px 8px;font-size:.875rem}
+.symbol-table .del-row{background:none;border:none;color:var(--error);cursor:pointer;font-size:1rem;padding:4px 8px}
+.symbol-table .del-row:hover{opacity:.7}
+
+/* ── Results ── */
+.results-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+@media(max-width:600px){.results-grid{grid-template-columns:1fr}}
+.metric{background:var(--surface2);border-radius:var(--radius);padding:16px;text-align:center}
+.metric .val{font-size:1.6rem;font-weight:700;color:var(--accent)}
+.metric .lbl{font-size:.75rem;color:var(--muted);margin-top:4px;text-transform:uppercase;letter-spacing:.5px}
+
+table.data-table{width:100%;border-collapse:collapse;font-size:.85rem}
+table.data-table th{background:var(--surface2);padding:8px 12px;text-align:left;
+  font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+table.data-table td{padding:8px 12px;border-bottom:1px solid var(--border)}
+table.data-table tr:hover td{background:var(--surface2)}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.75rem;font-weight:600}
+.badge-sp500{background:#1565c044;color:#82b1ff}
+.badge-orig{background:#e65100aa;color:#ffccbc}
+.badge-epoch{background:#1b5e2044;color:#a5d6a7}
+.badge-best{background:#4a148c55;color:#ce93d8}
+.badge-active{background:#1b5e2066;color:#a5d6a7;border:1px solid #4caf8866}
+.cmp-table{width:100%;border-collapse:collapse;font-size:.875rem;margin-top:8px}
+.cmp-table th{background:var(--surface2);padding:10px 14px;text-align:left;font-size:.75rem;
+  color:var(--muted);text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border)}
+.cmp-table td{padding:10px 14px;border-bottom:1px solid var(--border);white-space:nowrap}
+.cmp-table .metric-lbl{color:var(--muted);font-size:.8rem}
+.cmp-table .val{font-weight:600;font-size:.95rem}
+.delta-pos{color:var(--success);font-size:.8rem}
+.delta-neg{color:var(--error);font-size:.8rem}
+.delta-neu{color:var(--muted);font-size:.8rem}
+.section-hdr{font-size:.7rem;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);
+  padding:6px 14px;background:var(--surface2);border-bottom:1px solid var(--border)}
+
+/* ── Utility function cards ── */
+.uf-card{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);
+  padding:18px 20px;margin-bottom:14px}
+.uf-card-header{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.uf-card-header h3{font-size:.95rem;font-weight:600;flex:1}
+.uf-card-desc{font-size:.8rem;color:var(--muted);margin-bottom:14px;line-height:1.5}
+.uf-params{display:flex;gap:12px;flex-wrap:wrap}
+.uf-params .form-group{flex:1;min-width:140px;margin-bottom:0}
+.uf-actions{display:flex;align-items:center;gap:10px;margin-top:14px}
+
+/* ── Optimize-by summary ── */
+.opt-uf-summary{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);
+  padding:12px 16px;margin-top:8px;font-size:.85rem;display:none}
+.opt-uf-summary .param-chip{display:inline-block;background:var(--surface);border:1px solid var(--border);
+  border-radius:4px;padding:2px 10px;margin:3px 4px 3px 0;font-size:.8rem;color:var(--text)}
+.opt-uf-summary .uf-link{color:var(--accent);cursor:pointer;font-size:.8rem;text-decoration:underline}
+
+/* ── Misc ── */
+.row{display:flex;gap:12px;align-items:flex-end}
+.row .form-group{flex:1;margin-bottom:0}
+.hint{font-size:.78rem;color:var(--muted);margin-top:4px}
+.status-bar{padding:10px 14px;border-radius:var(--radius);font-size:.875rem;margin-top:12px;display:none}
+.status-ok{background:#1b5e2055;border:1px solid var(--success);color:#a5d6a7}
+.status-err{background:#b71c1c44;border:1px solid var(--error);color:#ef9a9a}
+.status-info{background:#0d47a144;border:1px solid var(--accent);color:#90caf9}
+.spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--border);
+  border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;vertical-align:middle;margin-right:6px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.chart-wrap{position:relative;height:280px;margin-top:16px}
+.section{display:none}
+.section.active{display:block}
+.portfolio-list{display:grid;gap:10px}
+.portfolio-card{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);
+  padding:14px 18px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;transition:border .2s}
+.portfolio-card:hover{border-color:var(--accent)}
+.portfolio-card .name{font-weight:600}
+.portfolio-card .symbols{font-size:.8rem;color:var(--muted);margin-top:2px}
+.empty{text-align:center;padding:40px;color:var(--muted);font-size:.9rem}
+.weights-bar{display:flex;height:8px;border-radius:4px;overflow:hidden;margin-top:6px}
+.weights-bar span{height:100%}
+</style>
+</head>
+<body>
+
+<!-- ─────────────── AUTH ─────────────── -->
+<div id="auth-section">
+  <div class="auth-box">
+    <h1>Portfolio Optimizer</h1>
+    <p>Optimize your investments with utility-based analysis</p>
+    <div class="tab-bar">
+      <button class="tab-btn active" onclick="showAuthTab('login')">Login</button>
+      <button class="tab-btn" onclick="showAuthTab('register')">Register</button>
+    </div>
+
+    <div id="login-form">
+      <div class="form-group"><label>Username</label><input id="l-user" type="text" placeholder="username" autocomplete="username"></div>
+      <div class="form-group"><label>Password</label><input id="l-pass" type="password" placeholder="password" autocomplete="current-password"></div>
+      <button class="btn btn-primary" style="width:100%;margin-top:4px" onclick="doLogin()">Login</button>
+      <div id="login-status" class="status-bar"></div>
+    </div>
+
+    <div id="register-form" style="display:none">
+      <div class="form-group"><label>Username</label><input id="r-user" type="text" placeholder="username" autocomplete="username"></div>
+      <div class="form-group"><label>Password</label><input id="r-pass" type="password" placeholder="password" autocomplete="new-password"></div>
+      <div class="form-group"><label>Email</label><input id="r-email" type="email" placeholder="email@example.com" autocomplete="email"></div>
+      <button class="btn btn-primary" style="width:100%;margin-top:4px" onclick="doRegister()">Create Account</button>
+      <div id="register-status" class="status-bar"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ─────────────── MAIN APP ─────────────── -->
+<div id="app-section">
+  <header>
+    <h1>&#9632; Portfolio Optimizer</h1>
+    <div id="user-badge">
+      <span id="header-user"></span>
+      <button id="logout-btn" onclick="logout()">Logout</button>
+    </div>
+  </header>
+
+  <main>
+    <nav>
+      <button class="active" onclick="showTab('portfolios')">&#128196; Portfolios</button>
+      <button onclick="showTab('equity')">&#128225; Data Sources</button>
+      <button onclick="showTab('utility')">&#9889; Utility</button>
+      <button onclick="showTab('optimize')">&#9881; Optimize</button>
+      <button onclick="showTab('results')" id="results-tab-btn" style="display:none">&#9733; Results</button>
+    </nav>
+
+    <!-- ── PORTFOLIOS TAB ── -->
+    <div id="tab-portfolios" class="section active">
+      <div class="card">
+        <h2><span class="icon">&#128196;</span> Create / Update Portfolio</h2>
+        <div class="form-group"><label>Portfolio Name</label><input id="p-name" type="text" placeholder="e.g. tech-growth"></div>
+        <table class="symbol-table" id="symbol-table">
+          <thead><tr><th>Symbol</th><th>Weight (0–1)</th><th></th></tr></thead>
+          <tbody id="symbol-rows"></tbody>
+        </table>
+        <div style="display:flex;gap:8px;align-items:center;margin-bottom:12px">
+          <button class="btn btn-secondary btn-sm" onclick="addSymbolRow()">+ Add Symbol</button>
+          <span id="weight-total" class="hint"></span>
+        </div>
+        <button class="btn btn-primary" onclick="savePortfolio()">Save Portfolio</button>
+        <div id="portfolio-save-status" class="status-bar"></div>
+      </div>
+
+      <div class="card">
+        <h2><span class="icon">&#128218;</span> My Portfolios</h2>
+        <div id="portfolio-list" class="portfolio-list">
+          <div class="empty">No portfolios yet. Create one above.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── DATA SOURCES TAB ── -->
+    <div id="tab-equity" class="section">
+      <div class="card">
+        <h2><span class="icon">&#128225;</span> Data Sources</h2>
+        <p style="color:var(--muted);font-size:.875rem;margin-bottom:20px">
+          Select a data source and download historical price data for the symbols you want to optimise.
+          All sources return dividend-adjusted close prices so total returns are correctly captured.
+          Symbols must be loaded before running optimisation.
+        </p>
+
+        <div class="form-group" style="max-width:320px;margin-bottom:20px">
+          <label>Data Source</label>
+          <select id="eq-source">
+            <option value="yahoo">Yahoo Finance</option>
+          </select>
+          <div class="hint" id="eq-source-hint">
+            Free end-of-day OHLCV + adjusted close via the Yahoo Finance public API.
+            Covers equities, ETFs, and mutual funds globally.
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Symbols (comma-separated)</label>
+          <input id="eq-symbols" type="text" placeholder="SPY, QQQ, AAPL, MSFT">
+        </div>
+        <div class="row" style="margin-bottom:16px">
+          <div class="form-group">
+            <label>History</label>
+            <select id="eq-type">
+              <option value="days">Rolling window</option>
+              <option value="full">Full 5-year history</option>
+            </select>
+          </div>
+          <div class="form-group" id="eq-days-group">
+            <label>Days</label>
+            <input id="eq-days" type="number" value="90" min="1" max="1825">
+          </div>
+        </div>
+        <button class="btn btn-primary" onclick="loadEquity()">Download Data</button>
+        <div id="equity-status" class="status-bar"></div>
+      </div>
+    </div>
+
+    <!-- ── UTILITY TAB ── -->
+    <div id="tab-utility" class="section">
+      <div class="card">
+        <h2><span class="icon">&#9889;</span> Utility Functions</h2>
+        <p style="color:var(--muted);font-size:.875rem;margin-bottom:20px">
+          Configure the parameters for each utility function. Parameters are saved locally and applied automatically when you select a function on the <strong>Optimize tab</strong>.
+        </p>
+
+        <!-- Prospect Theory -->
+        <div class="uf-card" id="uf-card-powerLog">
+          <div class="uf-card-header">
+            <h3>&#128200; Prospect Theory <span style="font-weight:400;color:var(--muted);font-size:.85rem">(Kahneman-Tversky)</span></h3>
+          </div>
+          <p class="uf-card-desc">
+            Gains: u(r) = r<sup>α</sup> &nbsp;·&nbsp; Losses: u(r) = &minus;λ·|r|<sup>β</sup>.
+            Captures diminishing sensitivity and loss aversion. Empirical defaults: α=β=0.88, λ=2.25.
+          </p>
+          <div class="uf-params">
+            <div class="form-group">
+              <label>Alpha &alpha; — gain curvature</label>
+              <input id="uf-powerLog-alpha" type="number" step="0.01" min="0.01" max="1" value="0.88">
+              <div class="hint">Exponent for gains (0–1). Lower = more concave.</div>
+            </div>
+            <div class="form-group">
+              <label>Beta &beta; — loss curvature</label>
+              <input id="uf-powerLog-beta" type="number" step="0.01" min="0.01" max="1" value="0.88">
+              <div class="hint">Exponent for losses (0–1). Lower = more convex.</div>
+            </div>
+            <div class="form-group">
+              <label>Lambda &lambda; — loss aversion</label>
+              <input id="uf-powerLog-lambda" type="number" step="0.05" min="0.1" value="2.25">
+              <div class="hint">How much more losses hurt than equivalent gains. 1 = neutral.</div>
+            </div>
+          </div>
+          <div class="uf-actions">
+            <button class="btn btn-primary btn-sm" onclick="saveUfParams('powerLog')">Save Parameters</button>
+            <div id="uf-status-powerLog" class="status-bar" style="margin-top:0;flex:1"></div>
+          </div>
+        </div>
+
+        <!-- Sortino -->
+        <div class="uf-card" id="uf-card-sortino">
+          <div class="uf-card-header">
+            <h3>&#128185; Sortino Ratio</h3>
+          </div>
+          <p class="uf-card-desc">
+            Like Sharpe but only penalises <em>downside</em> volatility — returns below the risk-free threshold.
+            Sortino = (mean &minus; r<sub>f</sub>) / downside deviation. Leaves upside variance unpunished.
+          </p>
+          <div class="uf-params">
+            <div class="form-group">
+              <label>Risk-free rate (annualised)</label>
+              <input id="uf-sortino-rf" type="number" step="0.005" min="0" max="0.5" value="0.04">
+              <div class="hint">E.g. 0.04 = 4%. Returns below this are penalised as downside.</div>
+            </div>
+          </div>
+          <div class="uf-actions">
+            <button class="btn btn-primary btn-sm" onclick="saveUfParams('sortino')">Save Parameters</button>
+            <div id="uf-status-sortino" class="status-bar" style="margin-top:0;flex:1"></div>
+          </div>
+        </div>
+
+        <!-- Omega -->
+        <div class="uf-card" id="uf-card-omega">
+          <div class="uf-card-header">
+            <h3>&#937; Omega Ratio</h3>
+          </div>
+          <p class="uf-card-desc">
+            Ratio of probability-weighted returns <em>above</em> the threshold to probability-weighted
+            returns <em>below</em> it. Omega > 1 means more upside than downside relative to the threshold.
+            Uses the full return distribution, not just variance.
+          </p>
+          <div class="uf-params">
+            <div class="form-group">
+              <label>Threshold (annualised)</label>
+              <input id="uf-omega-rf" type="number" step="0.005" min="0" max="0.5" value="0.04">
+              <div class="hint">E.g. 0.04 = 4%. Returns above this count as gains, below as losses.</div>
+            </div>
+          </div>
+          <div class="uf-actions">
+            <button class="btn btn-primary btn-sm" onclick="saveUfParams('omega')">Save Parameters</button>
+            <div id="uf-status-omega" class="status-bar" style="margin-top:0;flex:1"></div>
+          </div>
+        </div>
+
+        <!-- Convex Loss -->
+        <div class="uf-card" id="uf-card-convexLoss">
+          <div class="uf-card-header">
+            <h3>&#9651; Convex Loss Utility</h3>
+          </div>
+          <p class="uf-card-desc">
+            Identical to Prospect Theory on the gains side (concave, diminishing marginal utility).
+            On the loss side, disutility <em>increases</em> with each additional unit of loss — large
+            losses feel disproportionately painful. The default β = 1/α ≈ 1.136 mirrors the gain
+            curve's shape while λ = 2.25 keeps the 2.25× loss-aversion scaling.
+          </p>
+          <div class="uf-params">
+            <div class="form-group">
+              <label>α — gain exponent (0 &lt; α ≤ 1)</label>
+              <input id="uf-convexLoss-alpha" type="number" step="0.01" min="0.01" max="1" value="0.88">
+              <div class="hint">Concavity of the gains curve. 0.88 = Kahneman-Tversky default.</div>
+            </div>
+            <div class="form-group">
+              <label>β — loss exponent (β &gt; 1)</label>
+              <input id="uf-convexLoss-beta" type="number" step="0.01" min="1.001" max="5" value="1.136">
+              <div class="hint">Convexity of the loss curve. Default 1/α ≈ 1.136 (geometric mirror of α).</div>
+            </div>
+            <div class="form-group">
+              <label>λ — loss aversion multiplier</label>
+              <input id="uf-convexLoss-lambda" type="number" step="0.05" min="0.1" max="10" value="2.25">
+              <div class="hint">How many times more the loss side weighs relative to gains. 2.25 = Kahneman-Tversky.</div>
+            </div>
+          </div>
+          <div class="uf-actions">
+            <button class="btn btn-primary btn-sm" onclick="saveUfParams('convexLoss')">Save Parameters</button>
+            <div id="uf-status-convexLoss" class="status-bar" style="margin-top:0;flex:1"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── OPTIMIZE TAB ── -->
+    <div id="tab-optimize" class="section">
+      <div class="card">
+        <h2><span class="icon">&#9881;</span> Run Optimization</h2>
+        <div class="row">
+          <div class="form-group">
+            <label>Portfolio</label>
+            <select id="opt-portfolio" onchange="onPortfolioChange()"></select>
+          </div>
+        </div>
+        <div class="row" style="margin-bottom:4px">
+          <div class="form-group"><label>End Year</label><input id="opt-year" type="number" min="2000" max="2030"></div>
+          <div class="form-group"><label>End Month</label><input id="opt-month" type="number" min="1" max="12"></div>
+          <div class="form-group"><label>End Day</label><input id="opt-day" type="number" min="1" max="31"></div>
+        </div>
+        <div class="hint" style="margin-bottom:14px">End date of the analysis window — defaults to the latest date available in the database for the selected portfolio.</div>
+        <div class="row">
+          <div class="form-group">
+            <label>Duration (years)</label>
+            <input id="opt-duration" type="number" value="5" min="1" max="10">
+            <div class="hint">Years of history ending at the end date.</div>
+          </div>
+          <div class="form-group">
+            <label>Return period (days)</label>
+            <input id="opt-period" type="number" value="45" min="1" max="365">
+            <div class="hint">Rolling window used to calculate each return sample.</div>
+          </div>
+        </div>
+
+        <!-- Optimize By — main selector -->
+        <div class="form-group">
+          <label>Optimize By</label>
+          <select id="opt-optimize-by" onchange="onOptimizeByChange()">
+            <option value="powerLog">Prospect Theory Utility (Kahneman-Tversky)</option>
+            <option value="sortino">Sortino Ratio Utility</option>
+            <option value="omega">Omega Ratio Utility</option>
+            <option value="convexLoss">Convex Loss Utility</option>
+            <option value="sharpe">Sharpe Ratio</option>
+          </select>
+        </div>
+        <!-- Parameter summary for selected utility function -->
+        <div id="opt-uf-summary" class="opt-uf-summary"></div>
+
+        <div class="form-group" style="margin-top:14px">
+          <label>Max weight per instrument</label>
+          <input id="opt-max-weight" type="number" value="0.9" min="0.01" max="1.0" step="0.05">
+          <div class="hint">No single instrument can exceed this allocation (e.g. 0.9 = 90%).</div>
+        </div>
+        <div class="row">
+          <div class="form-group">
+            <label>Min improvement per epoch</label>
+            <input id="opt-min-improvement" type="number" value="0.000001" step="0.000001">
+            <div class="hint">Stop when utility gain drops below this. Negative values push through flat regions.</div>
+          </div>
+          <div class="form-group">
+            <label>Max epochs</label>
+            <input id="opt-epochs" type="number" value="300" min="1">
+            <div class="hint">Hard cap on iterations.</div>
+          </div>
+        </div>
+
+        <!-- Algorithm parameters -->
+        <div style="border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:14px;background:var(--surface2)">
+          <div style="font-size:.8rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:14px">Algorithm Parameters</div>
+          <div class="row">
+            <div class="form-group">
+              <label>Annealing Temperature T&#8320;</label>
+              <input id="opt-anneal-temp" type="number" value="0.05" min="0" step="0.01">
+              <div class="hint">Initial temperature for simulated annealing. 0 = greedy (no annealing).</div>
+            </div>
+            <div class="form-group">
+              <label>Annealing Decay</label>
+              <input id="opt-anneal-decay" type="number" value="0.95" min="0.5" max="1" step="0.01">
+              <div class="hint">Per-epoch temperature multiplier (0.95 = 5% cooling per epoch).</div>
+            </div>
+            <div class="form-group">
+              <label>Multi-Start Count</label>
+              <input id="opt-multi-start" type="number" value="1" min="1" max="20">
+              <div class="hint">Run 1 = your portfolio; runs 2+ start from random weights. Rarely helps — portfolio utility landscapes are nearly convex and converge to the same result. Simulated annealing handles local maxima more efficiently.</div>
+            </div>
+            <div class="form-group">
+              <label>Step Size</label>
+              <input id="opt-step-size" type="number" value="0.01" min="0.001" max="0.5" step="0.001">
+              <div class="hint">Weight shifted to the favoured instrument each epoch (default 0.01 = 1%). For large portfolios (&gt;20 instruments) use a proportionally larger step, e.g. 0.03–0.05.</div>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" onclick="runOptimize()" id="opt-btn">Run Optimization</button>
+        <div id="optimize-status" class="status-bar"></div>
+      </div>
+    </div>
+
+    <!-- ── RESULTS TAB ── -->
+    <div id="tab-results" class="section">
+      <div style="display:flex;justify-content:flex-end;margin-bottom:12px">
+        <button id="pdf-btn" class="btn btn-primary" style="display:none" onclick="downloadReport()">
+          &#128196; Download PDF Report
+        </button>
+      </div>
+      <div class="card" id="results-summary"></div>
+      <div class="card">
+        <h2><span class="icon">&#127775;</span> Best Portfolio Weights</h2>
+        <div class="chart-wrap"><canvas id="weights-chart"></canvas></div>
+      </div>
+      <div class="card">
+        <h2><span class="icon">&#128202;</span> Epoch Performance</h2>
+        <div style="overflow-x:auto">
+          <table class="data-table" id="epochs-table">
+            <thead><tr>
+              <th>Name</th><th>Symbols / Weights</th>
+              <th>CAGR (ann.)</th><th>Sharpe</th><th>Max DD</th><th>Utility</th>
+              <th>VaR 95%</th><th>VaR 99%</th>
+              <th>VtG 95%</th><th>VtG 99%</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+// ─── State ───────────────────────────────────────────────────────────────
+const DEFAULT_UF_CONFIGS = {
+  powerLog:   { alpha: 0.88, beta: 0.88, lambda: 2.25 },
+  sortino:    { rfAnnual: 0.04 },
+  omega:      { rfAnnual: 0.04 },
+  convexLoss: { alpha: 0.88, beta: 1.136, lambda: 2.25 }
+};
+
+let state = {
+  username: null, password: null, portfolios: [],
+  utilityConfigs: JSON.parse(JSON.stringify(DEFAULT_UF_CONFIGS)),
+  lastOptimizeBy: null   // set when a job completes, used in Results title
+};
+let weightsChart = null;
+let pollTimer = null;
+
+/** Persist utility configs for this user to localStorage. */
+function saveUfToStorage() {
+  if (!state.username) return;
+  localStorage.setItem('ufConfigs:' + state.username, JSON.stringify(state.utilityConfigs));
+}
+
+/** Load utility configs from localStorage, falling back to server data then defaults. */
+function loadUfFromStorage(username, serverData) {
+  const stored = localStorage.getItem('ufConfigs:' + username);
+  const configs = stored ? JSON.parse(stored) : JSON.parse(JSON.stringify(DEFAULT_UF_CONFIGS));
+  // Overlay the one type the server knows about (in case params changed server-side)
+  const type = serverData.utilityType || 'powerLog';
+  if (type === 'powerLog'   && serverData.alpha    != null) configs.powerLog   = { alpha: serverData.alpha, beta: serverData.beta, lambda: serverData.lambda };
+  if (type === 'sortino'    && serverData.rfAnnual  != null) configs.sortino    = { rfAnnual: serverData.rfAnnual };
+  if (type === 'omega'      && serverData.rfAnnual  != null) configs.omega      = { rfAnnual: serverData.rfAnnual };
+  if (type === 'convexLoss' && serverData.alpha    != null) configs.convexLoss = { alpha: serverData.alpha, beta: serverData.beta, lambda: serverData.lambda };
+  return configs;
+}
+
+// ─── API ─────────────────────────────────────────────────────────────────
+async function api(method, path, body) {
+  const opts = { method, headers: { 'Content-Type': 'application/json' } };
+  if (body) opts.body = JSON.stringify(body);
+  const res = await fetch('/api' + path, opts);
+  return res.json();
+}
+
+// ─── Auth ─────────────────────────────────────────────────────────────────
+function showAuthTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach((b,i) => b.classList.toggle('active', (i===0 && tab==='login')||(i===1 && tab==='register')));
+  document.getElementById('login-form').style.display    = tab==='login'    ? '' : 'none';
+  document.getElementById('register-form').style.display = tab==='register' ? '' : 'none';
+}
+
+async function doLogin() {
+  const username = v('l-user'), password = v('l-pass');
+  if (!username || !password) { showStatus('login-status','err','Username and password required'); return; }
+  showStatus('login-status','info','<span class="spinner"></span>Logging in…');
+  const r = await api('POST','/users/login',{username,password});
+  if (r.status==='ok') { enterApp(r.data, password); }
+  else showStatus('login-status','err', r.message||'Login failed');
+}
+
+async function doRegister() {
+  const username=v('r-user'), password=v('r-pass'), email=v('r-email');
+  if (!username||!password) { showStatus('register-status','err','Username and password required'); return; }
+  showStatus('register-status','info','<span class="spinner"></span>Creating account…');
+  const r = await api('POST','/users/register',{username,password,email});
+  if (r.status==='ok') { enterApp(r.data, password); }
+  else showStatus('register-status','err', r.message||'Registration failed');
+}
+
+function enterApp(userData, password) {
+  state.username = userData.username;
+  state.password = password;
+  state.portfolios = userData.portfolioNames || [];
+
+  // Load utility configs: localStorage first, overlaid with server's current type
+  state.utilityConfigs = loadUfFromStorage(userData.username, userData);
+
+  document.getElementById('auth-section').style.display = 'none';
+  document.getElementById('app-section').style.display  = 'block';
+  document.getElementById('header-user').textContent    = '👤 ' + state.username;
+
+  refreshUtilityFields();
+  initPortfolioTab();
+  initOptimizeTab();
+  addSymbolRow(); addSymbolRow();
+}
+
+function logout() {
+  saveUfToStorage();  // persist before clearing state
+  state = { username:null, password:null, portfolios:[],
+    utilityConfigs: JSON.parse(JSON.stringify(DEFAULT_UF_CONFIGS)),
+    lastOptimizeBy: null
+  };
+  document.getElementById('auth-section').style.display = '';
+  document.getElementById('app-section').style.display  = 'none';
+  clearPoll();
+}
+
+// ─── Tabs ─────────────────────────────────────────────────────────────────
+const TAB_ORDER = ['portfolios','equity','utility','optimize','results'];
+
+function showTab(tab) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-'+tab).classList.add('active');
+  const idx = TAB_ORDER.indexOf(tab);
+  document.querySelectorAll('nav button')[idx]?.classList.add('active');
+  if (tab==='optimize') populatePortfolioSelect();
+  if (tab==='utility')  refreshUtilityFields();
+}
+
+// ─── Utility Tab ─────────────────────────────────────────────────────────
+
+/** Populate input fields from state (called when entering the tab). */
+function refreshUtilityFields() {
+  const cfg = state.utilityConfigs;
+  document.getElementById('uf-powerLog-alpha').value  = cfg.powerLog.alpha;
+  document.getElementById('uf-powerLog-beta').value   = cfg.powerLog.beta;
+  document.getElementById('uf-powerLog-lambda').value = cfg.powerLog.lambda;
+  document.getElementById('uf-sortino-rf').value  = cfg.sortino.rfAnnual;
+  document.getElementById('uf-omega-rf').value    = cfg.omega.rfAnnual;
+  document.getElementById('uf-convexLoss-alpha').value  = cfg.convexLoss.alpha;
+  document.getElementById('uf-convexLoss-beta').value   = cfg.convexLoss.beta;
+  document.getElementById('uf-convexLoss-lambda').value = cfg.convexLoss.lambda;
+}
+
+/** Save parameters for one utility type to JS state + localStorage. */
+function saveUfParams(type) {
+  const statusId = 'uf-status-' + type;
+  if (type === 'powerLog') {
+    const alpha  = parseFloat(document.getElementById('uf-powerLog-alpha').value);
+    const beta   = parseFloat(document.getElementById('uf-powerLog-beta').value);
+    const lambda = parseFloat(document.getElementById('uf-powerLog-lambda').value);
+    if (isNaN(alpha)||isNaN(beta)||isNaN(lambda)||alpha<=0||beta<=0||lambda<=0) {
+      showStatus(statusId,'err','All fields must be positive numbers'); return;
+    }
+    state.utilityConfigs.powerLog = {alpha, beta, lambda};
+  } else if (type === 'sortino') {
+    const rfAnnual = parseFloat(document.getElementById('uf-sortino-rf').value);
+    if (isNaN(rfAnnual)||rfAnnual<0) { showStatus(statusId,'err','Risk-free rate must be ≥ 0'); return; }
+    state.utilityConfigs.sortino = {rfAnnual};
+  } else if (type === 'omega') {
+    const rfAnnual = parseFloat(document.getElementById('uf-omega-rf').value);
+    if (isNaN(rfAnnual)||rfAnnual<0) { showStatus(statusId,'err','Threshold must be ≥ 0'); return; }
+    state.utilityConfigs.omega = {rfAnnual};
+  } else if (type === 'convexLoss') {
+    const alpha  = parseFloat(document.getElementById('uf-convexLoss-alpha').value);
+    const beta   = parseFloat(document.getElementById('uf-convexLoss-beta').value);
+    const lambda = parseFloat(document.getElementById('uf-convexLoss-lambda').value);
+    if (isNaN(alpha)||alpha<=0||alpha>1)  { showStatus(statusId,'err','α must be between 0 and 1'); return; }
+    if (isNaN(beta)||beta<=1)             { showStatus(statusId,'err','β must be greater than 1'); return; }
+    if (isNaN(lambda)||lambda<=0)         { showStatus(statusId,'err','λ must be positive'); return; }
+    state.utilityConfigs.convexLoss = {alpha, beta, lambda};
+  }
+  saveUfToStorage();
+  showStatus(statusId,'ok','Parameters saved.');
+  onOptimizeByChange();  // refresh summary on optimize tab if open
+}
+
+function buildUtilityBody(type) {
+  if (type === 'powerLog') {
+    const c = state.utilityConfigs.powerLog;
+    return { type: 'powerLog', alpha: c.alpha, beta: c.beta, lambda: c.lambda };
+  } else if (type === 'sortino') {
+    return { type: 'sortino', rfAnnual: state.utilityConfigs.sortino.rfAnnual };
+  } else if (type === 'omega') {
+    return { type: 'omega', rfAnnual: state.utilityConfigs.omega.rfAnnual };
+  } else if (type === 'convexLoss') {
+    const c = state.utilityConfigs.convexLoss;
+    return { type: 'convexLoss', alpha: c.alpha, beta: c.beta, lambda: c.lambda };
+  }
+  return {};
+}
+
+// ─── Portfolios ───────────────────────────────────────────────────────────
+function initPortfolioTab() { renderPortfolioList(); }
+
+function addSymbolRow(sym='', wt='') {
+  const tbody = document.getElementById('symbol-rows');
+  const tr = document.createElement('tr');
+  tr.innerHTML = `<td><input type="text" placeholder="SPY" value="${sym}" style="text-transform:uppercase" oninput="this.value=this.value.toUpperCase();updateWeightTotal()"></td>
+    <td><input type="number" placeholder="0.00" value="${wt}" min="0" max="1" step="0.01" oninput="updateWeightTotal()"></td>
+    <td><button class="del-row" onclick="this.closest('tr').remove();updateWeightTotal()">&#215;</button></td>`;
+  tbody.appendChild(tr);
+  updateWeightTotal();
+}
+
+function updateWeightTotal() {
+  const inputs = document.querySelectorAll('#symbol-rows td:nth-child(2) input');
+  const total = Array.from(inputs).reduce((s,i) => s + (parseFloat(i.value)||0), 0);
+  const el = document.getElementById('weight-total');
+  el.textContent = 'Total: ' + total.toFixed(4);
+  el.style.color = Math.abs(total-1) < 0.001 ? 'var(--success)' : 'var(--warn)';
+}
+
+function getSymbolRows() {
+  const rows = document.querySelectorAll('#symbol-rows tr');
+  const symbols=[], weights=[];
+  rows.forEach(r => {
+    const sym = r.cells[0].querySelector('input').value.trim().toUpperCase();
+    const wt  = parseFloat(r.cells[1].querySelector('input').value);
+    if (sym && !isNaN(wt)) { symbols.push(sym); weights.push(wt); }
+  });
+  return { symbols, weights };
+}
+
+async function savePortfolio() {
+  const name = v('p-name').trim();
+  if (!name) { showStatus('portfolio-save-status','err','Portfolio name is required'); return; }
+  const { symbols, weights } = getSymbolRows();
+  if (symbols.length === 0) { showStatus('portfolio-save-status','err','Add at least one symbol'); return; }
+  const total = weights.reduce((a,b)=>a+b,0);
+  if (Math.abs(total-1)>0.01) { showStatus('portfolio-save-status','err',`Weights must sum to 1.0 (currently ${total.toFixed(4)})`); return; }
+
+  showStatus('portfolio-save-status','info','<span class="spinner"></span>Saving…');
+  const r = await api('POST','/portfolios',{username:state.username,portfolioName:name,symbols,weights});
+  if (r.status==='ok') {
+    showStatus('portfolio-save-status','ok','Portfolio saved.');
+    if (!state.portfolios.includes(name)) state.portfolios.push(name);
+    renderPortfolioList();
+    populatePortfolioSelect();
+  } else showStatus('portfolio-save-status','err',r.message||'Save failed');
+}
+
+function renderPortfolioList() {
+  const el = document.getElementById('portfolio-list');
+  if (!state.portfolios || state.portfolios.length===0) {
+    el.innerHTML = '<div class="empty">No portfolios yet. Create one above.</div>'; return;
+  }
+  el.innerHTML = state.portfolios.map(name => `
+    <div class="portfolio-card">
+      <div onclick="loadPortfolioIntoForm('${name}')" style="flex:1;cursor:pointer">
+        <div class="name">${name}</div><div class="symbols">Click to edit</div>
+      </div>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-secondary btn-sm" onclick="loadPortfolioIntoForm('${name}')">Edit</button>
+        <button class="btn btn-danger btn-sm" onclick="deletePortfolio('${name}')">Delete</button>
+      </div>
+    </div>`).join('');
+}
+
+async function deletePortfolio(name) {
+  if (!confirm(`Delete portfolio "${name}"? This cannot be undone.`)) return;
+  const r = await api('DELETE', `/portfolios/${state.username}/${name}`);
+  if (r.status === 'ok') {
+    state.portfolios = state.portfolios.filter(n => n !== name);
+    renderPortfolioList();
+    populatePortfolioSelect();
+  } else {
+    alert('Delete failed: ' + (r.message || 'unknown error'));
+  }
+}
+
+async function loadPortfolioIntoForm(name) {
+  const r = await api('GET', `/portfolios/${state.username}/${name}`);
+  if (r.status !== 'ok') return;
+  const p = r.data;
+  document.getElementById('p-name').value = p.portfolioName;
+  document.getElementById('symbol-rows').innerHTML = '';
+  for (let i=0; i<p.symbols.length; i++) addSymbolRow(p.symbols[i], p.weights[i]);
+  showTab('portfolios');
+  document.querySelector('#tab-portfolios').scrollIntoView({behavior:'smooth'});
+}
+
+// ─── Equity ───────────────────────────────────────────────────────────────
+document.getElementById('eq-type').addEventListener('change', function() {
+  document.getElementById('eq-days-group').style.display = this.value==='full' ? 'none' : '';
+});
+
+async function loadEquity() {
+  const raw = v('eq-symbols');
+  const symbols = raw.split(/[\s,]+/).map(s=>s.trim().toUpperCase()).filter(Boolean);
+  if (symbols.length===0) { showStatus('equity-status','err','Enter at least one symbol'); return; }
+  const full = document.getElementById('eq-type').value === 'full';
+  const days = parseInt(v('eq-days'))||90;
+
+  showStatus('equity-status','info',`<span class="spinner"></span>Loading ${symbols.join(', ')}…`);
+  const r = await api('POST','/equity/load', full ? {symbols,full:true} : {symbols,days});
+  if (r.status==='ok') {
+    const d = r.data;
+    showStatus('equity-status','ok', `Loaded ${d.loaded} symbol(s). ${d.failed>0?d.failed+' failed.':''}`);
+  } else showStatus('equity-status','err',r.message||'Load failed');
+}
+
+// ─── Optimize ─────────────────────────────────────────────────────────────
+function initOptimizeTab() {
+  populatePortfolioSelect();
+  onOptimizeByChange();
+}
+
+function populatePortfolioSelect() {
+  const sel = document.getElementById('opt-portfolio');
+  sel.innerHTML = state.portfolios.length === 0
+    ? '<option value="">— create a portfolio first —</option>'
+    : state.portfolios.map(n=>`<option value="${n}">${n}</option>`).join('');
+  if (state.portfolios.length > 0) {
+    const saved = localStorage.getItem('lastPortfolio:' + state.username);
+    if (saved && state.portfolios.includes(saved)) sel.value = saved;
+    onPortfolioChange();
+  }
+}
+
+async function onPortfolioChange() {
+  const name = v('opt-portfolio');
+  if (name && state.username) localStorage.setItem('lastPortfolio:' + state.username, name);
+  if (!name || !state.username) return;
+  const r = await api('GET', `/portfolios/${state.username}/${name}/latest-date`);
+  if (r.status === 'ok') {
+    document.getElementById('opt-year').value  = r.data.year;
+    document.getElementById('opt-month').value = r.data.month;
+    document.getElementById('opt-day').value   = r.data.day;
+  }
+}
+
+const UF_LABELS = {
+  powerLog:   'Prospect Theory (Kahneman-Tversky)',
+  sortino:    'Sortino Ratio',
+  omega:      'Omega Ratio',
+  convexLoss: 'Convex Loss Utility',
+  sharpe:     'Sharpe Ratio'
+};
+
+function onOptimizeByChange() {
+  const type    = v('opt-optimize-by');
+  const summary = document.getElementById('opt-uf-summary');
+  if (!summary) return;
+
+  if (type === 'sharpe') {
+    summary.style.display = 'block';
+    summary.innerHTML = `<strong>Sharpe Ratio</strong> &nbsp;·&nbsp; Annualized (risk-free rate: 4%). Maximises return per unit of total volatility.`;
+    return;
+  }
+
+  const cfg = state.utilityConfigs[type] || {};
+  let chips = '';
+  if (type === 'powerLog') {
+    chips = chip('α (gain curve)', cfg.alpha) + chip('β (loss curve)', cfg.beta) + chip('λ (loss aversion)', cfg.lambda);
+  } else if (type === 'sortino') {
+    chips = chip('Risk-free', pct(cfg.rfAnnual));
+  } else if (type === 'omega') {
+    chips = chip('Threshold', pct(cfg.rfAnnual));
+  } else if (type === 'convexLoss') {
+    chips = chip('α (gain curve)', cfg.alpha) + chip('β (loss curve)', cfg.beta) + chip('λ (loss aversion)', cfg.lambda);
+  }
+
+  const editLink = `<span class="uf-link" onclick="showTab('utility')">Edit on Utility tab</span>`;
+  summary.style.display = 'block';
+  summary.innerHTML = `<strong>${UF_LABELS[type]}</strong> &nbsp;·&nbsp; ${editLink}<div style="margin-top:8px">${chips}</div>`;
+}
+
+function chip(label, val) {
+  return `<span class="param-chip"><span style="color:var(--muted)">${label}:</span> ${val}</span>`;
+}
+
+async function runOptimize() {
+  const portfolioName = v('opt-portfolio');
+  if (!portfolioName) { showStatus('optimize-status','err','Select a portfolio'); return; }
+
+  const optimizeByRaw = v('opt-optimize-by');
+  const isSharpe = (optimizeByRaw === 'sharpe');
+  const optimizeBy = isSharpe ? 'sharpe' : 'utility';
+
+  const btn = document.getElementById('opt-btn');
+  btn.disabled = true;
+
+  // Save the selected utility type + params to the server before running
+  if (!isSharpe) {
+    showStatus('optimize-status','info','<span class="spinner"></span>Applying utility function…');
+    const ufBody = buildUtilityBody(optimizeByRaw);
+    const ufr = await api('PUT', `/users/${state.username}/utility`, { password: state.password, ...ufBody });
+    if (ufr.status !== 'ok') {
+      showStatus('optimize-status','err','Could not apply utility function: ' + (ufr.message||'error'));
+      btn.disabled = false; return;
+    }
+  }
+
+  state.lastOptimizeBy = optimizeByRaw;
+
+  const body = {
+    username:     state.username,
+    password:     state.password,
+    portfolioName,
+    endYear:      parseInt(v('opt-year')),
+    endMonth:     parseInt(v('opt-month')),
+    endDay:       parseInt(v('opt-day')),
+    durationYears:parseInt(v('opt-duration')),
+    timePeriodDays:parseInt(v('opt-period')),
+    minImprovementPerEpoch: parseFloat(v('opt-min-improvement')),
+    maxEpochs:    parseInt(v('opt-epochs')),
+    optimizeBy,
+    optimizeByType: optimizeByRaw,
+    maxWeightPerInstrument: parseFloat(v('opt-max-weight') || '0.9'),
+    annealingTemperature:   parseFloat(v('opt-anneal-temp')  || '0.05'),
+    annealingDecay:         parseFloat(v('opt-anneal-decay') || '0.95'),
+    multiStartCount:        parseInt(v('opt-multi-start')    || '1'),
+    stepSize:               parseFloat(v('opt-step-size')    || '0.01'),
+  };
+
+  showStatus('optimize-status','info','<span class="spinner"></span>Submitting optimization job…');
+
+  const r = await api('POST','/optimize',body);
+  if (r.status!=='ok') {
+    showStatus('optimize-status','err',r.message||'Failed to start optimization');
+    btn.disabled=false; return;
+  }
+
+  const jobId = r.data.jobId;
+  showStatus('optimize-status','info',`<span class="spinner"></span>Running… job <code>${jobId.substring(0,8)}…</code>`);
+  clearPoll();
+  pollTimer = setInterval(() => pollJob(jobId, btn), 2000);
+}
+
+async function pollJob(jobId, btn) {
+  const r = await api('GET', `/optimize/${jobId}`);
+  if (r.status !== 'ok') { clearPoll(); btn.disabled=false; return; }
+  const job = r.data;
+  if (job.state === 'running') return;
+  clearPoll();
+  btn.disabled = false;
+  if (job.state === 'completed') {
+    state.lastJobId = jobId;
+    showStatus('optimize-status','ok','Optimization complete! See Results tab.');
+    document.getElementById('results-tab-btn').style.display = '';
+    renderResults(job.result);
+    showTab('results');
+  } else {
+    showStatus('optimize-status','err','Optimization failed: ' + (job.error||'unknown error'));
+  }
+}
+
+function clearPoll() { if (pollTimer) { clearInterval(pollTimer); pollTimer=null; } }
+
+function downloadReport() {
+  if (!state.lastJobId) return;
+  window.location.href = `/api/optimize/${state.lastJobId}/report`;
+}
+
+// ─── Results ─────────────────────────────────────────────────────────────
+const COLORS = ['#4f7ef8','#7c5cbf','#4caf88','#f5a623','#e05252','#26c6da','#ff8a65','#9ccc65'];
+
+function renderResults(result) {
+  const pdfBtn = document.getElementById('pdf-btn');
+  if (pdfBtn) pdfBtn.style.display = state.lastJobId ? '' : 'none';
+
+  // Show or remove constraint warning
+  const existingWarning = document.getElementById('stopped-reason-banner');
+  if (existingWarning) existingWarning.remove();
+  const bannerMessages = {
+    maxWeightConstraint: '&#9888;&#65039; Optimization stopped because at least one instrument hit the <strong>max weight per instrument</strong> cap. Consider raising the limit.',
+    noFeasibleMove: '&#9888;&#65039; Optimization stopped because some instruments have near-zero weights and cannot be reduced further. The portfolio may have converged to a boundary solution.',
+  };
+  if (result.stoppedReason && bannerMessages[result.stoppedReason]) {
+    const banner = document.createElement('div');
+    banner.id = 'stopped-reason-banner';
+    banner.style.cssText = 'background:#fff3cd;border:1px solid #ffc107;color:#856404;padding:10px 14px;border-radius:6px;margin-bottom:12px;font-size:0.9em';
+    banner.innerHTML = bannerMessages[result.stoppedReason];
+    document.getElementById('tab-results').prepend(banner);
+  }
+
+  const hasEpochs = result.epochs && result.epochs.length > 0;
+  const best = hasEpochs ? result.epochs[result.epochs.length - 1] : null;
+  const sp   = result.sp500;
+  const orig = result.original;
+
+  const metrics = [
+    { key:'cagr',           label:'CAGR (annualized)', fmt:pct,  higherBetter:true  },
+    { key:'sharpeRatio',    label:'Sharpe Ratio',      fmt:fmt4, higherBetter:true  },
+    { key:'maxDrawdown',    label:'Max Drawdown',      fmt:pct,  higherBetter:false },
+    { key:'var95',          label:'VaR 95%',           fmt:pct,  higherBetter:true  },
+    { key:'var99',          label:'VaR 99%',           fmt:pct,  higherBetter:true  },
+    { key:'vtg95',          label:'VtG 95%',           fmt:pct,  higherBetter:true  },
+    { key:'vtg99',          label:'VtG 99%',           fmt:pct,  higherBetter:true  },
+    { key:'weightedUtility',label:'Utility',           fmt:fmt4, higherBetter:true  },
+  ];
+
+  const cmpRows = metrics.map(m => {
+    const bv = best?.[m.key], sv = sp?.[m.key], ov = orig?.[m.key];
+    const bestCell = hasEpochs ? `<td class="val">${m.fmt(bv)}</td>
+      <td>${delta(bv, sv, m.higherBetter, m.fmt)}</td>
+      <td>${delta(bv, ov, m.higherBetter, m.fmt)}</td>` : '';
+    return `<tr>
+      <td class="metric-lbl">${m.label}</td>
+      <td class="val">${m.fmt(sv)}</td>
+      <td class="val">${m.fmt(ov)}</td>
+      ${bestCell}
+    </tr>`;
+  }).join('');
+
+  const epochsRun = (result.epochs||[]).length;
+  const noImprovementNote = !hasEpochs
+    ? `<div style="margin-bottom:12px;padding:10px 14px;background:#f5a62322;border:1px solid #f5a62366;border-radius:6px;font-size:.85rem;color:var(--warn)">
+        &#9888; No improvement found — the original portfolio already maximises utility given the current weights and utility function.
+       </div>`
+    : '';
+  const methodLabel = UF_LABELS[state.lastOptimizeBy] || state.lastOptimizeBy || 'Utility';
+  document.getElementById('results-summary').innerHTML = `
+    <h2><span class="icon">&#127775;</span> Optimization Summary
+      <span style="margin-left:10px;font-size:.8rem;font-weight:500;color:var(--accent);background:var(--surface2);
+        border:1px solid var(--border);border-radius:4px;padding:2px 10px">${methodLabel}</span>
+      <span style="margin-left:auto;font-size:.8rem;font-weight:400;color:var(--muted)">${epochsRun} epoch${epochsRun!==1?'s':''} run</span>
+    </h2>
+    ${noImprovementNote}
+    ${result.finalPortfolio ? `<div style="margin-bottom:14px;font-size:.875rem">
+      <strong>Final weights:</strong>&nbsp;
+      ${result.finalPortfolio.symbols.map((s,i)=>`${s}&nbsp;<strong>${pct(result.finalPortfolio.weights[i])}</strong>`).join(' &nbsp; ')}
+    </div>` : ''}
+    <div style="overflow-x:auto">
+      <table class="cmp-table">
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th><span class="badge badge-sp500">SPY Benchmark</span></th>
+            <th><span class="badge badge-orig">Original</span></th>
+            ${hasEpochs ? `<th><span class="badge badge-best">Best Optimized</span></th><th>vs SPY</th><th>vs Original</th>` : ''}
+          </tr>
+        </thead>
+        <tbody>${cmpRows}</tbody>
+      </table>
+    </div>`;
+
+  const rows = [];
+  if (sp)   rows.push({...sp,   _badge:'sp500', _label:'SPY Benchmark'});
+  if (orig) rows.push({...orig, _badge:'orig',  _label:'Original'});
+  (result.epochs||[]).forEach((e,i) => rows.push({...e,
+    _badge: i===result.epochs.length-1 ? 'best' : 'epoch'}));
+
+  document.querySelector('#epochs-table tbody').innerHTML = rows.map(row => `<tr>
+    <td><span class="badge badge-${row._badge}">${row.name||row._label}</span></td>
+    <td style="font-size:.8rem">${formatWeights(row.symbols, row.weights)}</td>
+    <td>${pct(row.cagr)}</td>
+    <td>${fmt4(row.sharpeRatio)}</td>
+    <td>${pct(row.maxDrawdown)}</td>
+    <td>${fmt4(row.weightedUtility)}</td>
+    <td>${row.var95 != null ? pct(row.var95) : '—'}</td>
+    <td>${row.var99 != null ? pct(row.var99) : '—'}</td>
+    <td>${row.vtg95 != null ? pct(row.vtg95) : '—'}</td>
+    <td>${row.vtg99 != null ? pct(row.vtg99) : '—'}</td>
+  </tr>`).join('');
+
+  if (result.finalPortfolio) drawWeightsChart(result.finalPortfolio);
+}
+
+function delta(a, b, higherBetter, fmtFn) {
+  if (a == null || b == null) return '<span class="delta-neu">—</span>';
+  const d = a - b;
+  const better = higherBetter ? d > 0 : d < 0;
+  const cls = Math.abs(d) < 1e-9 ? 'delta-neu' : better ? 'delta-pos' : 'delta-neg';
+  const sign = d >= 0 ? '+' : '';
+  return `<span class="${cls}">${sign}${fmtFn(d)}</span>`;
+}
+
+function fmt4(val) {
+  if (val == null) return '—';
+  return parseFloat(val).toFixed(4);
+}
+
+function drawWeightsChart(portfolio) {
+  if (weightsChart) { weightsChart.destroy(); weightsChart=null; }
+  const ctx = document.getElementById('weights-chart').getContext('2d');
+  weightsChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: portfolio.symbols,
+      datasets: [{
+        label: 'Weight',
+        data: portfolio.weights.map(w => (w*100).toFixed(2)),
+        backgroundColor: portfolio.symbols.map((_,i)=>COLORS[i%COLORS.length]+'bb'),
+        borderColor:     portfolio.symbols.map((_,i)=>COLORS[i%COLORS.length]),
+        borderWidth: 1, borderRadius: 4,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend:{display:false}, tooltip:{callbacks:{label:c=>c.raw+'%'}} },
+      scales: {
+        x: { grid:{color:'#2e324822'}, ticks:{color:'#8892b0'} },
+        y: { grid:{color:'#2e324822'}, ticks:{color:'#8892b0', callback:v=>v+'%'}, min:0 }
+      }
+    }
+  });
+}
+
+// ─── Utilities ────────────────────────────────────────────────────────────
+function v(id) { return document.getElementById(id)?.value ?? ''; }
+
+function showStatus(id, type, msg) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.className = 'status-bar status-' + (type==='ok'?'ok':type==='err'?'err':'info');
+  el.innerHTML = msg;
+  el.style.display = 'block';
+}
+
+function pct(val) {
+  if (val == null) return '—';
+  return (val*100).toFixed(2)+'%';
+}
+
+function formatWeights(symbols, weights) {
+  if (!symbols) return '—';
+  return symbols.map((s,i)=>`${s}&nbsp;<strong>${pct(weights[i])}</strong>`).join(' &nbsp;');
+}
+</script>
+</body>
+</html>

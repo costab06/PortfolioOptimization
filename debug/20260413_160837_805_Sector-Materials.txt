@@ -1,0 +1,205 @@
+=== OPTIMIZATION DEBUG: Sector-Materials ===
+Time:   Mon Apr 13 16:17:58 EDT 2026
+Start:  LIN= 23.5%  NEM= 13.0%  FCX=  9.6%  CRH=  8.0%  VMC=  7.8%  SHW=  7.7%  APD=  7.7%  NUE=  7.7%  CTVA=  7.6%  MLM=  7.5%
+        utility = 2.789578
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=2.789578  feasible=10  step=0.0100  streak=0  T=0.0500]
+  LIN+1%  LIN= 24.5%  NEM= 12.9%  FCX=  9.4%  CRH=  7.8%  VMC=  7.7%  SHW=  7.6%  APD=  7.6%  NUE=  7.6%  CTVA=  7.5%  MLM=  7.4%  util=2.779016  Δ=-0.010562
+  NEM+1%  LIN= 23.4%  NEM= 14.0%  FCX=  9.4%  CRH=  7.8%  VMC=  7.7%  SHW=  7.6%  APD=  7.6%  NUE=  7.6%  CTVA=  7.5%  MLM=  7.4%  util=2.817294  Δ=+0.027716
+  FCX+1%  LIN= 23.4%  NEM= 12.9%  FCX= 10.5%  CRH=  7.8%  VMC=  7.7%  SHW=  7.6%  APD=  7.6%  NUE=  7.6%  CTVA=  7.5%  MLM=  7.4%  util=2.797455  Δ=+0.007877
+  CRH+1%  LIN= 23.4%  NEM= 12.9%  FCX=  9.4%  CRH=  9.0%  VMC=  7.7%  SHW=  7.6%  APD=  7.6%  NUE=  7.6%  CTVA=  7.5%  MLM=  7.4%  util=2.796445  Δ=+0.006867
+  VMC+1%  LIN= 23.4%  NEM= 12.9%  FCX=  9.4%  CRH=  7.8%  VMC=  8.8%  SHW=  7.6%  APD=  7.6%  NUE=  7.6%  CTVA=  7.5%  MLM=  7.4%  util=2.775063  Δ=-0.014515
+  SHW+1%  LIN= 23.4%  NEM= 12.9%  FCX=  9.4%  CRH=  7.8%  VMC=  7.7%  SHW=  8.7%  APD=  7.6%  NUE=  7.6%  CTVA=  7.5%  MLM=  7.4%  util=2.777439  Δ=-0.012139
+  APD+1%  LIN= 23.4%  NEM= 12.9%  FCX=  9.4%  CRH=  7.8%  VMC=  7.7%  SHW=  7.6%  APD=  8.7%  NUE=  7.6%  CTVA=  7.5%  MLM=  7.4%  util=2.778628  Δ=-0.010950
+  NUE+1%  LIN= 23.4%  NEM= 12.9%  FCX=  9.4%  CRH=  7.8%  VMC=  7.7%  SHW=  7.6%  APD=  7.6%  NUE=  8.7%  CTVA=  7.5%  MLM=  7.4%  util=2.806525  Δ=+0.016948
+  CTVA+1%  LIN= 23.4%  NEM= 12.9%  FCX=  9.4%  CRH=  7.8%  VMC=  7.7%  SHW=  7.6%  APD=  7.6%  NUE=  7.6%  CTVA=  8.6%  MLM=  7.4%  util=2.789626  Δ=+0.000049
+  MLM+1%  LIN= 23.4%  NEM= 12.9%  FCX=  9.4%  CRH=  7.8%  VMC=  7.7%  SHW=  7.6%  APD=  7.6%  NUE=  7.6%  CTVA=  7.5%  MLM=  8.5%  util=2.775585  Δ=-0.013993
+  ★ WINNER: Epoch 0  improvement=+0.027716
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=2.817294  feasible=10  step=0.0200  streak=1  T=0.0475]
+  LIN+2%  LIN= 25.4%  NEM= 13.8%  FCX=  9.2%  CRH=  7.6%  VMC=  7.5%  SHW=  7.4%  APD=  7.3%  NUE=  7.3%  CTVA=  7.3%  MLM=  7.2%  util=2.796143  Δ=-0.021150
+  NEM+2%  LIN= 23.2%  NEM= 16.0%  FCX=  9.2%  CRH=  7.6%  VMC=  7.5%  SHW=  7.4%  APD=  7.3%  NUE=  7.3%  CTVA=  7.3%  MLM=  7.2%  util=2.869569  Δ=+0.052275
+  FCX+2%  LIN= 23.2%  NEM= 13.8%  FCX= 11.4%  CRH=  7.6%  VMC=  7.5%  SHW=  7.4%  APD=  7.3%  NUE=  7.3%  CTVA=  7.3%  MLM=  7.2%  util=2.831440  Δ=+0.014146
+  CRH+2%  LIN= 23.2%  NEM= 13.8%  FCX=  9.2%  CRH=  9.8%  VMC=  7.5%  SHW=  7.4%  APD=  7.3%  NUE=  7.3%  CTVA=  7.3%  MLM=  7.2%  util=2.831103  Δ=+0.013809
+  VMC+2%  LIN= 23.2%  NEM= 13.8%  FCX=  9.2%  CRH=  7.6%  VMC=  9.7%  SHW=  7.4%  APD=  7.3%  NUE=  7.3%  CTVA=  7.3%  MLM=  7.2%  util=2.788398  Δ=-0.028895
+  SHW+2%  LIN= 23.2%  NEM= 13.8%  FCX=  9.2%  CRH=  7.6%  VMC=  7.5%  SHW=  9.6%  APD=  7.3%  NUE=  7.3%  CTVA=  7.3%  MLM=  7.2%  util=2.793194  Δ=-0.024100
+  APD+2%  LIN= 23.2%  NEM= 13.8%  FCX=  9.2%  CRH=  7.6%  VMC=  7.5%  SHW=  7.4%  APD=  9.6%  NUE=  7.3%  CTVA=  7.3%  MLM=  7.2%  util=2.795045  Δ=-0.022249
+  NUE+2%  LIN= 23.2%  NEM= 13.8%  FCX=  9.2%  CRH=  7.6%  VMC=  7.5%  SHW=  7.4%  APD=  7.3%  NUE=  9.6%  CTVA=  7.3%  MLM=  7.2%  util=2.850195  Δ=+0.032901
+  CTVA+2%  LIN= 23.2%  NEM= 13.8%  FCX=  9.2%  CRH=  7.6%  VMC=  7.5%  SHW=  7.4%  APD=  7.3%  NUE=  7.3%  CTVA=  9.5%  MLM=  7.2%  util=2.816913  Δ=-0.000380
+  MLM+2%  LIN= 23.2%  NEM= 13.8%  FCX=  9.2%  CRH=  7.6%  VMC=  7.5%  SHW=  7.4%  APD=  7.3%  NUE=  7.3%  CTVA=  7.3%  MLM=  9.4%  util=2.789396  Δ=-0.027898
+  ★ WINNER: Epoch 1  improvement=+0.052275
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=2.869569  feasible=10  step=0.0300  streak=2  T=0.0451]
+  LIN+3%  LIN= 26.2%  NEM= 15.7%  FCX=  8.9%  CRH=  7.3%  VMC=  7.1%  SHW=  7.1%  APD=  7.0%  NUE=  7.0%  CTVA=  7.0%  MLM=  6.8%  util=2.838360  Δ=-0.031208
+  NEM+3%  LIN= 22.8%  NEM= 19.0%  FCX=  8.9%  CRH=  7.3%  VMC=  7.1%  SHW=  7.1%  APD=  7.0%  NUE=  7.0%  CTVA=  7.0%  MLM=  6.8%  util=2.940358  Δ=+0.070790
+  FCX+3%  LIN= 22.8%  NEM= 15.7%  FCX= 12.2%  CRH=  7.3%  VMC=  7.1%  SHW=  7.1%  APD=  7.0%  NUE=  7.0%  CTVA=  7.0%  MLM=  6.8%  util=2.886997  Δ=+0.017428
+  CRH+3%  LIN= 22.8%  NEM= 15.7%  FCX=  8.9%  CRH= 10.6%  VMC=  7.1%  SHW=  7.1%  APD=  7.0%  NUE=  7.0%  CTVA=  7.0%  MLM=  6.8%  util=2.891664  Δ=+0.022096
+  VMC+3%  LIN= 22.8%  NEM= 15.7%  FCX=  8.9%  CRH=  7.3%  VMC= 10.5%  SHW=  7.1%  APD=  7.0%  NUE=  7.0%  CTVA=  7.0%  MLM=  6.8%  util=2.827217  Δ=-0.042352
+  SHW+3%  LIN= 22.8%  NEM= 15.7%  FCX=  8.9%  CRH=  7.3%  VMC=  7.1%  SHW= 10.4%  APD=  7.0%  NUE=  7.0%  CTVA=  7.0%  MLM=  6.8%  util=2.834749  Δ=-0.034820
+  APD+3%  LIN= 22.8%  NEM= 15.7%  FCX=  8.9%  CRH=  7.3%  VMC=  7.1%  SHW=  7.1%  APD= 10.3%  NUE=  7.0%  CTVA=  7.0%  MLM=  6.8%  util=2.836484  Δ=-0.033084
+  NUE+3%  LIN= 22.8%  NEM= 15.7%  FCX=  8.9%  CRH=  7.3%  VMC=  7.1%  SHW=  7.1%  APD=  7.0%  NUE= 10.3%  CTVA=  7.0%  MLM=  6.8%  util=2.917681  Δ=+0.048112
+  CTVA+3%  LIN= 22.8%  NEM= 15.7%  FCX=  8.9%  CRH=  7.3%  VMC=  7.1%  SHW=  7.1%  APD=  7.0%  NUE=  7.0%  CTVA= 10.3%  MLM=  6.8%  util=2.868024  Δ=-0.001544
+  MLM+3%  LIN= 22.8%  NEM= 15.7%  FCX=  8.9%  CRH=  7.3%  VMC=  7.1%  SHW=  7.1%  APD=  7.0%  NUE=  7.0%  CTVA=  7.0%  MLM= 10.2%  util=2.828420  Δ=-0.041148
+  ★ WINNER: Epoch 2  improvement=+0.070790
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=2.940358  feasible=10  step=0.0400  streak=3  T=0.0429]
+  LIN+4%  LIN= 26.8%  NEM= 18.5%  FCX=  8.4%  CRH=  6.8%  VMC=  6.7%  SHW=  6.6%  APD=  6.6%  NUE=  6.6%  CTVA=  6.5%  MLM=  6.4%  util=2.899625  Δ=-0.040734
+  NEM+4%  LIN= 22.4%  NEM= 23.0%  FCX=  8.4%  CRH=  6.8%  VMC=  6.7%  SHW=  6.6%  APD=  6.6%  NUE=  6.6%  CTVA=  6.5%  MLM=  6.4%  util=3.021629  Δ=+0.081271
+  FCX+4%  LIN= 22.4%  NEM= 18.5%  FCX= 12.9%  CRH=  6.8%  VMC=  6.7%  SHW=  6.6%  APD=  6.6%  NUE=  6.6%  CTVA=  6.5%  MLM=  6.4%  util=2.956620  Δ=+0.016261
+  CRH+4%  LIN= 22.4%  NEM= 18.5%  FCX=  8.4%  CRH= 11.3%  VMC=  6.7%  SHW=  6.6%  APD=  6.6%  NUE=  6.6%  CTVA=  6.5%  MLM=  6.4%  util=2.973059  Δ=+0.032700
+  VMC+4%  LIN= 22.4%  NEM= 18.5%  FCX=  8.4%  CRH=  6.8%  VMC= 11.1%  SHW=  6.6%  APD=  6.6%  NUE=  6.6%  CTVA=  6.5%  MLM=  6.4%  util=2.886639  Δ=-0.053720
+  SHW+4%  LIN= 22.4%  NEM= 18.5%  FCX=  8.4%  CRH=  6.8%  VMC=  6.7%  SHW= 11.1%  APD=  6.6%  NUE=  6.6%  CTVA=  6.5%  MLM=  6.4%  util=2.897098  Δ=-0.043261
+  APD+4%  LIN= 22.4%  NEM= 18.5%  FCX=  8.4%  CRH=  6.8%  VMC=  6.7%  SHW=  6.6%  APD= 11.0%  NUE=  6.6%  CTVA=  6.5%  MLM=  6.4%  util=2.896260  Δ=-0.044099
+  NUE+4%  LIN= 22.4%  NEM= 18.5%  FCX=  8.4%  CRH=  6.8%  VMC=  6.7%  SHW=  6.6%  APD=  6.6%  NUE= 11.0%  CTVA=  6.5%  MLM=  6.4%  util=3.002010  Δ=+0.061652
+  CTVA+4%  LIN= 22.4%  NEM= 18.5%  FCX=  8.4%  CRH=  6.8%  VMC=  6.7%  SHW=  6.6%  APD=  6.6%  NUE=  6.6%  CTVA= 11.0%  MLM=  6.4%  util=2.936470  Δ=-0.003888
+  MLM+4%  LIN= 22.4%  NEM= 18.5%  FCX=  8.4%  CRH=  6.8%  VMC=  6.7%  SHW=  6.6%  APD=  6.6%  NUE=  6.6%  CTVA=  6.5%  MLM= 10.8%  util=2.887558  Δ=-0.052801
+  ★ WINNER: Epoch 3  improvement=+0.081271
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=3.021629  feasible=10  step=0.0500  streak=4  T=0.0407]
+  LIN+5%  LIN= 27.4%  NEM= 22.4%  FCX=  7.9%  CRH=  6.3%  VMC=  6.1%  SHW=  6.1%  APD=  6.0%  NUE=  6.0%  CTVA=  6.0%  MLM=  5.8%  util=2.971590  Δ=-0.050040
+  NEM+5%  LIN= 21.8%  NEM= 28.0%  FCX=  7.9%  CRH=  6.3%  VMC=  6.1%  SHW=  6.1%  APD=  6.0%  NUE=  6.0%  CTVA=  6.0%  MLM=  5.8%  util=3.100971  Δ=+0.079342
+  FCX+5%  LIN= 21.8%  NEM= 22.4%  FCX= 13.4%  CRH=  6.3%  VMC=  6.1%  SHW=  6.1%  APD=  6.0%  NUE=  6.0%  CTVA=  6.0%  MLM=  5.8%  util=3.030816  Δ=+0.009186
+  CRH+5%  LIN= 21.8%  NEM= 22.4%  FCX=  7.9%  CRH= 11.8%  VMC=  6.1%  SHW=  6.1%  APD=  6.0%  NUE=  6.0%  CTVA=  6.0%  MLM=  5.8%  util=3.068318  Δ=+0.046689
+  VMC+5%  LIN= 21.8%  NEM= 22.4%  FCX=  7.9%  CRH=  6.3%  VMC= 11.7%  SHW=  6.1%  APD=  6.0%  NUE=  6.0%  CTVA=  6.0%  MLM=  5.8%  util=2.959736  Δ=-0.061894
+  SHW+5%  LIN= 21.8%  NEM= 22.4%  FCX=  7.9%  CRH=  6.3%  VMC=  6.1%  SHW= 11.6%  APD=  6.0%  NUE=  6.0%  CTVA=  6.0%  MLM=  5.8%  util=2.971384  Δ=-0.050245
+  APD+5%  LIN= 21.8%  NEM= 22.4%  FCX=  7.9%  CRH=  6.3%  VMC=  6.1%  SHW=  6.1%  APD= 11.6%  NUE=  6.0%  CTVA=  6.0%  MLM=  5.8%  util=2.965293  Δ=-0.056336
+  NUE+5%  LIN= 21.8%  NEM= 22.4%  FCX=  7.9%  CRH=  6.3%  VMC=  6.1%  SHW=  6.1%  APD=  6.0%  NUE= 11.6%  CTVA=  6.0%  MLM=  5.8%  util=3.094832  Δ=+0.073203
+  CTVA+5%  LIN= 21.8%  NEM= 22.4%  FCX=  7.9%  CRH=  6.3%  VMC=  6.1%  SHW=  6.1%  APD=  6.0%  NUE=  6.0%  CTVA= 11.5%  MLM=  5.8%  util=3.014016  Δ=-0.007613
+  MLM+5%  LIN= 21.8%  NEM= 22.4%  FCX=  7.9%  CRH=  6.3%  VMC=  6.1%  SHW=  6.1%  APD=  6.0%  NUE=  6.0%  CTVA=  6.0%  MLM= 11.4%  util=2.959339  Δ=-0.062290
+  ★ WINNER: Epoch 4  improvement=+0.079342
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=3.100971  feasible=10  step=0.0500  streak=5  T=0.0387]
+  LIN+5%  LIN= 26.8%  NEM= 27.4%  FCX=  7.3%  CRH=  5.7%  VMC=  5.6%  SHW=  5.5%  APD=  5.5%  NUE=  5.5%  CTVA=  5.4%  MLM=  5.3%  util=3.050897  Δ=-0.050074
+  NEM+5%  LIN= 21.3%  NEM= 33.0%  FCX=  7.3%  CRH=  5.7%  VMC=  5.6%  SHW=  5.5%  APD=  5.5%  NUE=  5.5%  CTVA=  5.4%  MLM=  5.3%  util=3.150438  Δ=+0.049467
+  FCX+5%  LIN= 21.3%  NEM= 27.4%  FCX= 12.9%  CRH=  5.7%  VMC=  5.6%  SHW=  5.5%  APD=  5.5%  NUE=  5.5%  CTVA=  5.4%  MLM=  5.3%  util=3.096846  Δ=-0.004125
+  CRH+5%  LIN= 21.3%  NEM= 27.4%  FCX=  7.3%  CRH= 11.3%  VMC=  5.6%  SHW=  5.5%  APD=  5.5%  NUE=  5.5%  CTVA=  5.4%  MLM=  5.3%  util=3.157130  Δ=+0.056159
+  VMC+5%  LIN= 21.3%  NEM= 27.4%  FCX=  7.3%  CRH=  5.7%  VMC= 11.1%  SHW=  5.5%  APD=  5.5%  NUE=  5.5%  CTVA=  5.4%  MLM=  5.3%  util=3.049353  Δ=-0.051618
+  SHW+5%  LIN= 21.3%  NEM= 27.4%  FCX=  7.3%  CRH=  5.7%  VMC=  5.6%  SHW= 11.1%  APD=  5.5%  NUE=  5.5%  CTVA=  5.4%  MLM=  5.3%  util=3.056024  Δ=-0.044947
+  APD+5%  LIN= 21.3%  NEM= 27.4%  FCX=  7.3%  CRH=  5.7%  VMC=  5.6%  SHW=  5.5%  APD= 11.0%  NUE=  5.5%  CTVA=  5.4%  MLM=  5.3%  util=3.043284  Δ=-0.057687
+  NUE+5%  LIN= 21.3%  NEM= 27.4%  FCX=  7.3%  CRH=  5.7%  VMC=  5.6%  SHW=  5.5%  APD=  5.5%  NUE= 11.0%  CTVA=  5.4%  MLM=  5.3%  util=3.172604  Δ=+0.071633
+  CTVA+5%  LIN= 21.3%  NEM= 27.4%  FCX=  7.3%  CRH=  5.7%  VMC=  5.6%  SHW=  5.5%  APD=  5.5%  NUE=  5.5%  CTVA= 11.0%  MLM=  5.3%  util=3.091367  Δ=-0.009604
+  MLM+5%  LIN= 21.3%  NEM= 27.4%  FCX=  7.3%  CRH=  5.7%  VMC=  5.6%  SHW=  5.5%  APD=  5.5%  NUE=  5.5%  CTVA=  5.4%  MLM= 10.8%  util=3.046577  Δ=-0.054394
+  ★ WINNER: Epoch 5  improvement=+0.071633
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=3.172604  feasible=10  step=0.0500  streak=6  T=0.0368]
+  LIN+5%  LIN= 26.3%  NEM= 26.9%  FCX=  6.8%  CRH=  5.2%  VMC=  5.0%  SHW=  5.0%  APD=  4.9%  NUE= 10.5%  CTVA=  4.8%  MLM=  4.7%  util=3.127070  Δ=-0.045534
+  NEM+5%  LIN= 20.7%  NEM= 32.4%  FCX=  6.8%  CRH=  5.2%  VMC=  5.0%  SHW=  5.0%  APD=  4.9%  NUE= 10.5%  CTVA=  4.8%  MLM=  4.7%  util=3.222159  Δ=+0.049555
+  FCX+5%  LIN= 20.7%  NEM= 26.9%  FCX= 12.3%  CRH=  5.2%  VMC=  5.0%  SHW=  5.0%  APD=  4.9%  NUE= 10.5%  CTVA=  4.8%  MLM=  4.7%  util=3.165479  Δ=-0.007125
+  CRH+5%  LIN= 20.7%  NEM= 26.9%  FCX=  6.8%  CRH= 10.7%  VMC=  5.0%  SHW=  5.0%  APD=  4.9%  NUE= 10.5%  CTVA=  4.8%  MLM=  4.7%  util=3.226929  Δ=+0.054326
+  VMC+5%  LIN= 20.7%  NEM= 26.9%  FCX=  6.8%  CRH=  5.2%  VMC= 10.6%  SHW=  5.0%  APD=  4.9%  NUE= 10.5%  CTVA=  4.8%  MLM=  4.7%  util=3.126947  Δ=-0.045657
+  SHW+5%  LIN= 20.7%  NEM= 26.9%  FCX=  6.8%  CRH=  5.2%  VMC=  5.0%  SHW= 10.5%  APD=  4.9%  NUE= 10.5%  CTVA=  4.8%  MLM=  4.7%  util=3.130970  Δ=-0.041634
+  APD+5%  LIN= 20.7%  NEM= 26.9%  FCX=  6.8%  CRH=  5.2%  VMC=  5.0%  SHW=  5.0%  APD= 10.5%  NUE= 10.5%  CTVA=  4.8%  MLM=  4.7%  util=3.124189  Δ=-0.048415
+  NUE+5%  LIN= 20.7%  NEM= 26.9%  FCX=  6.8%  CRH=  5.2%  VMC=  5.0%  SHW=  5.0%  APD=  4.9%  NUE= 16.0%  CTVA=  4.8%  MLM=  4.7%  util=3.220134  Δ=+0.047530
+  CTVA+5%  LIN= 20.7%  NEM= 26.9%  FCX=  6.8%  CRH=  5.2%  VMC=  5.0%  SHW=  5.0%  APD=  4.9%  NUE= 10.5%  CTVA= 10.4%  MLM=  4.7%  util=3.164061  Δ=-0.008543
+  MLM+5%  LIN= 20.7%  NEM= 26.9%  FCX=  6.8%  CRH=  5.2%  VMC=  5.0%  SHW=  5.0%  APD=  4.9%  NUE= 10.5%  CTVA=  4.8%  MLM= 10.3%  util=3.121366  Δ=-0.051238
+  ★ WINNER: Epoch 6  improvement=+0.054326
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=3.226929  feasible=10  step=0.0500  streak=7  T=0.0349]
+  LIN+5%  LIN= 25.7%  NEM= 26.3%  FCX=  6.2%  CRH= 10.2%  VMC=  4.5%  SHW=  4.4%  APD=  4.3%  NUE=  9.9%  CTVA=  4.3%  MLM=  4.2%  util=3.181951  Δ=-0.044978
+  NEM+5%  LIN= 20.2%  NEM= 31.9%  FCX=  6.2%  CRH= 10.2%  VMC=  4.5%  SHW=  4.4%  APD=  4.3%  NUE=  9.9%  CTVA=  4.3%  MLM=  4.2%  util=3.287319  Δ=+0.060389
+  FCX+5%  LIN= 20.2%  NEM= 26.3%  FCX= 11.8%  CRH= 10.2%  VMC=  4.5%  SHW=  4.4%  APD=  4.3%  NUE=  9.9%  CTVA=  4.3%  MLM=  4.2%  util=3.225590  Δ=-0.001340
+  CRH+5%  LIN= 20.2%  NEM= 26.3%  FCX=  6.2%  CRH= 15.7%  VMC=  4.5%  SHW=  4.4%  APD=  4.3%  NUE=  9.9%  CTVA=  4.3%  MLM=  4.2%  util=3.265645  Δ=+0.038716
+  VMC+5%  LIN= 20.2%  NEM= 26.3%  FCX=  6.2%  CRH= 10.2%  VMC= 10.0%  SHW=  4.4%  APD=  4.3%  NUE=  9.9%  CTVA=  4.3%  MLM=  4.2%  util=3.177733  Δ=-0.049196
+  SHW+5%  LIN= 20.2%  NEM= 26.3%  FCX=  6.2%  CRH= 10.2%  VMC=  4.5%  SHW= 10.0%  APD=  4.3%  NUE=  9.9%  CTVA=  4.3%  MLM=  4.2%  util=3.184821  Δ=-0.042109
+  APD+5%  LIN= 20.2%  NEM= 26.3%  FCX=  6.2%  CRH= 10.2%  VMC=  4.5%  SHW=  4.4%  APD=  9.9%  NUE=  9.9%  CTVA=  4.3%  MLM=  4.2%  util=3.183537  Δ=-0.043392
+  NUE+5%  LIN= 20.2%  NEM= 26.3%  FCX=  6.2%  CRH= 10.2%  VMC=  4.5%  SHW=  4.4%  APD=  4.3%  NUE= 15.5%  CTVA=  4.3%  MLM=  4.2%  util=3.273734  Δ=+0.046805
+  CTVA+5%  LIN= 20.2%  NEM= 26.3%  FCX=  6.2%  CRH= 10.2%  VMC=  4.5%  SHW=  4.4%  APD=  4.3%  NUE=  9.9%  CTVA=  9.8%  MLM=  4.2%  util=3.220870  Δ=-0.006060
+  MLM+5%  LIN= 20.2%  NEM= 26.3%  FCX=  6.2%  CRH= 10.2%  VMC=  4.5%  SHW=  4.4%  APD=  4.3%  NUE=  9.9%  CTVA=  4.3%  MLM=  9.7%  util=3.173514  Δ=-0.053415
+  ★ WINNER: Epoch 7  improvement=+0.060389
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=3.287319  feasible=10  step=0.0500  streak=8  T=0.0332]
+  LIN+5%  LIN= 25.2%  NEM= 31.3%  FCX=  5.7%  CRH=  9.6%  VMC=  3.9%  SHW=  3.9%  APD=  3.8%  NUE=  9.3%  CTVA=  3.7%  MLM=  3.6%  util=3.240605  Δ=-0.046713
+  NEM+5%  LIN= 19.6%  NEM= 36.9%  FCX=  5.7%  CRH=  9.6%  VMC=  3.9%  SHW=  3.9%  APD=  3.8%  NUE=  9.3%  CTVA=  3.7%  MLM=  3.6%  util=3.315386  Δ=+0.028067
+  FCX+5%  LIN= 19.6%  NEM= 31.3%  FCX= 11.2%  CRH=  9.6%  VMC=  3.9%  SHW=  3.9%  APD=  3.8%  NUE=  9.3%  CTVA=  3.7%  MLM=  3.6%  util=3.271538  Δ=-0.015781
+  CRH+5%  LIN= 19.6%  NEM= 31.3%  FCX=  5.7%  CRH= 15.2%  VMC=  3.9%  SHW=  3.9%  APD=  3.8%  NUE=  9.3%  CTVA=  3.7%  MLM=  3.6%  util=3.335008  Δ=+0.047690
+  VMC+5%  LIN= 19.6%  NEM= 31.3%  FCX=  5.7%  CRH=  9.6%  VMC=  9.5%  SHW=  3.9%  APD=  3.8%  NUE=  9.3%  CTVA=  3.7%  MLM=  3.6%  util=3.253138  Δ=-0.034181
+  SHW+5%  LIN= 19.6%  NEM= 31.3%  FCX=  5.7%  CRH=  9.6%  VMC=  3.9%  SHW=  9.4%  APD=  3.8%  NUE=  9.3%  CTVA=  3.7%  MLM=  3.6%  util=3.249250  Δ=-0.038069
+  APD+5%  LIN= 19.6%  NEM= 31.3%  FCX=  5.7%  CRH=  9.6%  VMC=  3.9%  SHW=  3.9%  APD=  9.3%  NUE=  9.3%  CTVA=  3.7%  MLM=  3.6%  util=3.242742  Δ=-0.044577
+  NUE+5%  LIN= 19.6%  NEM= 31.3%  FCX=  5.7%  CRH=  9.6%  VMC=  3.9%  SHW=  3.9%  APD=  3.8%  NUE= 14.9%  CTVA=  3.7%  MLM=  3.6%  util=3.329994  Δ=+0.042675
+  CTVA+5%  LIN= 19.6%  NEM= 31.3%  FCX=  5.7%  CRH=  9.6%  VMC=  3.9%  SHW=  3.9%  APD=  3.8%  NUE=  9.3%  CTVA=  9.3%  MLM=  3.6%  util=3.276800  Δ=-0.010519
+  MLM+5%  LIN= 19.6%  NEM= 31.3%  FCX=  5.7%  CRH=  9.6%  VMC=  3.9%  SHW=  3.9%  APD=  3.8%  NUE=  9.3%  CTVA=  3.7%  MLM=  9.2%  util=3.244819  Δ=-0.042500
+  ★ WINNER: Epoch 8  improvement=+0.047690
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=3.335008  feasible=10  step=0.0500  streak=9  T=0.0315]
+  LIN+5%  LIN= 24.6%  NEM= 30.8%  FCX=  5.1%  CRH= 14.6%  VMC=  3.3%  SHW=  3.3%  APD=  3.2%  NUE=  8.8%  CTVA=  3.2%  MLM=  3.1%  util=3.289455  Δ=-0.045553
+  NEM+5%  LIN= 19.1%  NEM= 36.3%  FCX=  5.1%  CRH= 14.6%  VMC=  3.3%  SHW=  3.3%  APD=  3.2%  NUE=  8.8%  CTVA=  3.2%  MLM=  3.1%  util=3.373411  Δ=+0.038403
+  FCX+5%  LIN= 19.1%  NEM= 30.8%  FCX= 10.7%  CRH= 14.6%  VMC=  3.3%  SHW=  3.3%  APD=  3.2%  NUE=  8.8%  CTVA=  3.2%  MLM=  3.1%  util=3.325467  Δ=-0.009541
+  CRH+5%  LIN= 19.1%  NEM= 30.8%  FCX=  5.1%  CRH= 20.2%  VMC=  3.3%  SHW=  3.3%  APD=  3.2%  NUE=  8.8%  CTVA=  3.2%  MLM=  3.1%  util=3.366335  Δ=+0.031326
+  VMC+5%  LIN= 19.1%  NEM= 30.8%  FCX=  5.1%  CRH= 14.6%  VMC=  8.9%  SHW=  3.3%  APD=  3.2%  NUE=  8.8%  CTVA=  3.2%  MLM=  3.1%  util=3.297963  Δ=-0.037046
+  SHW+5%  LIN= 19.1%  NEM= 30.8%  FCX=  5.1%  CRH= 14.6%  VMC=  3.3%  SHW=  8.9%  APD=  3.2%  NUE=  8.8%  CTVA=  3.2%  MLM=  3.1%  util=3.296238  Δ=-0.038770
+  APD+5%  LIN= 19.1%  NEM= 30.8%  FCX=  5.1%  CRH= 14.6%  VMC=  3.3%  SHW=  3.3%  APD=  8.8%  NUE=  8.8%  CTVA=  3.2%  MLM=  3.1%  util=3.294831  Δ=-0.040177
+  NUE+5%  LIN= 19.1%  NEM= 30.8%  FCX=  5.1%  CRH= 14.6%  VMC=  3.3%  SHW=  3.3%  APD=  3.2%  NUE= 14.3%  CTVA=  3.2%  MLM=  3.1%  util=3.377124  Δ=+0.042116
+  CTVA+5%  LIN= 19.1%  NEM= 30.8%  FCX=  5.1%  CRH= 14.6%  VMC=  3.3%  SHW=  3.3%  APD=  3.2%  NUE=  8.8%  CTVA=  8.7%  MLM=  3.1%  util=3.326349  Δ=-0.008659
+  MLM+5%  LIN= 19.1%  NEM= 30.8%  FCX=  5.1%  CRH= 14.6%  VMC=  3.3%  SHW=  3.3%  APD=  3.2%  NUE=  8.8%  CTVA=  3.2%  MLM=  8.6%  util=3.291356  Δ=-0.043652
+  ★ WINNER: Epoch 9  improvement=+0.042116
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=3.377124  feasible=10  step=0.0500  streak=10  T=0.0299]
+  LIN+5%  LIN= 24.1%  NEM= 30.2%  FCX=  4.6%  CRH= 14.1%  VMC=  2.8%  SHW=  2.7%  APD=  2.7%  NUE= 13.8%  CTVA=  2.6%  MLM=  2.5%  util=3.335792  Δ=-0.041331
+  NEM+5%  LIN= 18.5%  NEM= 35.8%  FCX=  4.6%  CRH= 14.1%  VMC=  2.8%  SHW=  2.7%  APD=  2.7%  NUE= 13.8%  CTVA=  2.6%  MLM=  2.5%  util=3.412341  Δ=+0.035217
+  FCX+5%  LIN= 18.5%  NEM= 30.2%  FCX= 10.1%  CRH= 14.1%  VMC=  2.8%  SHW=  2.7%  APD=  2.7%  NUE= 13.8%  CTVA=  2.6%  MLM=  2.5%  util=3.366668  Δ=-0.010455
+  CRH+5%  LIN= 18.5%  NEM= 30.2%  FCX=  4.6%  CRH= 19.6%  VMC=  2.8%  SHW=  2.7%  APD=  2.7%  NUE= 13.8%  CTVA=  2.6%  MLM=  2.5%  util=3.407727  Δ=+0.030603
+  VMC+5%  LIN= 18.5%  NEM= 30.2%  FCX=  4.6%  CRH= 14.1%  VMC=  8.3%  SHW=  2.7%  APD=  2.7%  NUE= 13.8%  CTVA=  2.6%  MLM=  2.5%  util=3.348966  Δ=-0.028158
+  SHW+5%  LIN= 18.5%  NEM= 30.2%  FCX=  4.6%  CRH= 14.1%  VMC=  2.8%  SHW=  8.3%  APD=  2.7%  NUE= 13.8%  CTVA=  2.6%  MLM=  2.5%  util=3.341667  Δ=-0.035457
+  APD+5%  LIN= 18.5%  NEM= 30.2%  FCX=  4.6%  CRH= 14.1%  VMC=  2.8%  SHW=  2.7%  APD=  8.2%  NUE= 13.8%  CTVA=  2.6%  MLM=  2.5%  util=3.346723  Δ=-0.030400
+  NUE+5%  LIN= 18.5%  NEM= 30.2%  FCX=  4.6%  CRH= 14.1%  VMC=  2.8%  SHW=  2.7%  APD=  2.7%  NUE= 19.3%  CTVA=  2.6%  MLM=  2.5%  util=3.394494  Δ=+0.017370
+  CTVA+5%  LIN= 18.5%  NEM= 30.2%  FCX=  4.6%  CRH= 14.1%  VMC=  2.8%  SHW=  2.7%  APD=  2.7%  NUE= 13.8%  CTVA=  8.2%  MLM=  2.5%  util=3.365830  Δ=-0.011294
+  MLM+5%  LIN= 18.5%  NEM= 30.2%  FCX=  4.6%  CRH= 14.1%  VMC=  2.8%  SHW=  2.7%  APD=  2.7%  NUE= 13.8%  CTVA=  2.6%  MLM=  8.1%  util=3.339982  Δ=-0.037142
+  ★ WINNER: Epoch 10  improvement=+0.035217
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=3.412341  feasible=10  step=0.0500  streak=11  T=0.0284]
+  LIN+5%  LIN= 23.5%  NEM= 35.2%  FCX=  4.0%  CRH= 13.5%  VMC=  2.2%  SHW=  2.2%  APD=  2.1%  NUE= 13.2%  CTVA=  2.1%  MLM=  1.9%  util=3.368124  Δ=-0.044216
+  NEM+5%  LIN= 17.9%  NEM= 40.8%  FCX=  4.0%  CRH= 13.5%  VMC=  2.2%  SHW=  2.2%  APD=  2.1%  NUE= 13.2%  CTVA=  2.1%  MLM=  1.9%  util=3.415137  Δ=+0.002796
+  FCX+5%  LIN= 17.9%  NEM= 35.2%  FCX=  9.6%  CRH= 13.5%  VMC=  2.2%  SHW=  2.2%  APD=  2.1%  NUE= 13.2%  CTVA=  2.1%  MLM=  1.9%  util=3.388815  Δ=-0.023526
+  CRH+5%  LIN= 17.9%  NEM= 35.2%  FCX=  4.0%  CRH= 19.1%  VMC=  2.2%  SHW=  2.2%  APD=  2.1%  NUE= 13.2%  CTVA=  2.1%  MLM=  1.9%  util=3.452163  Δ=+0.039823
+  VMC+5%  LIN= 17.9%  NEM= 35.2%  FCX=  4.0%  CRH= 13.5%  VMC=  7.8%  SHW=  2.2%  APD=  2.1%  NUE= 13.2%  CTVA=  2.1%  MLM=  1.9%  util=3.403819  Δ=-0.008522
+  SHW+5%  LIN= 17.9%  NEM= 35.2%  FCX=  4.0%  CRH= 13.5%  VMC=  2.2%  SHW=  7.7%  APD=  2.1%  NUE= 13.2%  CTVA=  2.1%  MLM=  1.9%  util=3.380922  Δ=-0.031419
+  APD+5%  LIN= 17.9%  NEM= 35.2%  FCX=  4.0%  CRH= 13.5%  VMC=  2.2%  SHW=  2.2%  APD=  7.7%  NUE= 13.2%  CTVA=  2.1%  MLM=  1.9%  util=3.382215  Δ=-0.030126
+  NUE+5%  LIN= 17.9%  NEM= 35.2%  FCX=  4.0%  CRH= 13.5%  VMC=  2.2%  SHW=  2.2%  APD=  2.1%  NUE= 18.8%  CTVA=  2.1%  MLM=  1.9%  util=3.426205  Δ=+0.013864
+  CTVA+5%  LIN= 17.9%  NEM= 35.2%  FCX=  4.0%  CRH= 13.5%  VMC=  2.2%  SHW=  2.2%  APD=  2.1%  NUE= 13.2%  CTVA=  7.6%  MLM=  1.9%  util=3.395421  Δ=-0.016920
+  MLM+5%  LIN= 17.9%  NEM= 35.2%  FCX=  4.0%  CRH= 13.5%  VMC=  2.2%  SHW=  2.2%  APD=  2.1%  NUE= 13.2%  CTVA=  2.1%  MLM=  7.5%  util=3.389997  Δ=-0.022344
+  ★ WINNER: Epoch 11  improvement=+0.039823
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=3.452163  feasible=10  step=0.0500  streak=12  T=0.0270]
+  LIN+5%  LIN= 22.9%  NEM= 34.7%  FCX=  3.4%  CRH= 18.5%  VMC=  1.7%  SHW=  1.6%  APD=  1.6%  NUE= 12.7%  CTVA=  1.5%  MLM=  1.4%  util=3.408798  Δ=-0.043365
+  NEM+5%  LIN= 17.4%  NEM= 40.2%  FCX=  3.4%  CRH= 18.5%  VMC=  1.7%  SHW=  1.6%  APD=  1.6%  NUE= 12.7%  CTVA=  1.5%  MLM=  1.4%  util=3.464701  Δ=+0.012538
+  FCX+5%  LIN= 17.4%  NEM= 34.7%  FCX=  9.0%  CRH= 18.5%  VMC=  1.7%  SHW=  1.6%  APD=  1.6%  NUE= 12.7%  CTVA=  1.5%  MLM=  1.4%  util=3.434985  Δ=-0.017178
+  CRH+5%  LIN= 17.4%  NEM= 34.7%  FCX=  3.4%  CRH= 24.1%  VMC=  1.7%  SHW=  1.6%  APD=  1.6%  NUE= 12.7%  CTVA=  1.5%  MLM=  1.4%  util=3.475374  Δ=+0.023211
+  VMC+5%  LIN= 17.4%  NEM= 34.7%  FCX=  3.4%  CRH= 18.5%  VMC=  7.2%  SHW=  1.6%  APD=  1.6%  NUE= 12.7%  CTVA=  1.5%  MLM=  1.4%  util=3.441898  Δ=-0.010265
+  SHW+5%  LIN= 17.4%  NEM= 34.7%  FCX=  3.4%  CRH= 18.5%  VMC=  1.7%  SHW=  7.2%  APD=  1.6%  NUE= 12.7%  CTVA=  1.5%  MLM=  1.4%  util=3.419599  Δ=-0.032564
+  APD+5%  LIN= 17.4%  NEM= 34.7%  FCX=  3.4%  CRH= 18.5%  VMC=  1.7%  SHW=  1.6%  APD=  7.1%  NUE= 12.7%  CTVA=  1.5%  MLM=  1.4%  util=3.425205  Δ=-0.026958
+  NUE+5%  LIN= 17.4%  NEM= 34.7%  FCX=  3.4%  CRH= 18.5%  VMC=  1.7%  SHW=  1.6%  APD=  1.6%  NUE= 18.2%  CTVA=  1.5%  MLM=  1.4%  util=3.465589  Δ=+0.013426
+  CTVA+5%  LIN= 17.4%  NEM= 34.7%  FCX=  3.4%  CRH= 18.5%  VMC=  1.7%  SHW=  1.6%  APD=  1.6%  NUE= 12.7%  CTVA=  7.1%  MLM=  1.4%  util=3.435466  Δ=-0.016697
+  MLM+5%  LIN= 17.4%  NEM= 34.7%  FCX=  3.4%  CRH= 18.5%  VMC=  1.7%  SHW=  1.6%  APD=  1.6%  NUE= 12.7%  CTVA=  1.5%  MLM=  6.9%  util=3.430436  Δ=-0.021727
+  ★ WINNER: Epoch 12  improvement=+0.023211
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=3.475374  feasible=10  step=0.0500  streak=13  T=0.0257]
+  LIN+5%  LIN= 22.4%  NEM= 34.1%  FCX=  2.9%  CRH= 23.5%  VMC=  1.1%  SHW=  1.1%  APD=  1.0%  NUE= 12.1%  CTVA=  1.0%  MLM=  0.8%  util=3.432066  Δ=-0.043309
+  NEM+5%  LIN= 16.8%  NEM= 39.7%  FCX=  2.9%  CRH= 23.5%  VMC=  1.1%  SHW=  1.1%  APD=  1.0%  NUE= 12.1%  CTVA=  1.0%  MLM=  0.8%  util=3.495937  Δ=+0.020563
+  FCX+5%  LIN= 16.8%  NEM= 34.1%  FCX=  8.4%  CRH= 23.5%  VMC=  1.1%  SHW=  1.1%  APD=  1.0%  NUE= 12.1%  CTVA=  1.0%  MLM=  0.8%  util=3.464588  Δ=-0.010786
+  CRH+5%  LIN= 16.8%  NEM= 34.1%  FCX=  2.9%  CRH= 29.1%  VMC=  1.1%  SHW=  1.1%  APD=  1.0%  NUE= 12.1%  CTVA=  1.0%  MLM=  0.8%  util=3.483388  Δ=+0.008014
+  VMC+5%  LIN= 16.8%  NEM= 34.1%  FCX=  2.9%  CRH= 23.5%  VMC=  6.7%  SHW=  1.1%  APD=  1.0%  NUE= 12.1%  CTVA=  1.0%  MLM=  0.8%  util=3.465208  Δ=-0.010166
+  SHW+5%  LIN= 16.8%  NEM= 34.1%  FCX=  2.9%  CRH= 23.5%  VMC=  1.1%  SHW=  6.6%  APD=  1.0%  NUE= 12.1%  CTVA=  1.0%  MLM=  0.8%  util=3.441955  Δ=-0.033420
+  APD+5%  LIN= 16.8%  NEM= 34.1%  FCX=  2.9%  CRH= 23.5%  VMC=  1.1%  SHW=  1.1%  APD=  6.6%  NUE= 12.1%  CTVA=  1.0%  MLM=  0.8%  util=3.451446  Δ=-0.023928
+  NUE+5%  LIN= 16.8%  NEM= 34.1%  FCX=  2.9%  CRH= 23.5%  VMC=  1.1%  SHW=  1.1%  APD=  1.0%  NUE= 17.7%  CTVA=  1.0%  MLM=  0.8%  util=3.489252  Δ=+0.013878
+  CTVA+5%  LIN= 16.8%  NEM= 34.1%  FCX=  2.9%  CRH= 23.5%  VMC=  1.1%  SHW=  1.1%  APD=  1.0%  NUE= 12.1%  CTVA=  6.5%  MLM=  0.8%  util=3.458108  Δ=-0.017266
+  MLM+5%  LIN= 16.8%  NEM= 34.1%  FCX=  2.9%  CRH= 23.5%  VMC=  1.1%  SHW=  1.1%  APD=  1.0%  NUE= 12.1%  CTVA=  1.0%  MLM=  6.4%  util=3.455396  Δ=-0.019978
+  ★ WINNER: Epoch 13  improvement=+0.020563
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=3.495937  feasible=10  step=0.0500  streak=14  T=0.0244]
+  LIN+5%  LIN= 21.8%  NEM= 39.1%  FCX=  2.3%  CRH= 23.0%  VMC=  0.6%  SHW=  0.5%  APD=  0.5%  NUE= 11.6%  CTVA=  0.4%  MLM=  0.3%  util=3.449090  Δ=-0.046847
+  NEM+5%  LIN= 16.3%  NEM= 44.7%  FCX=  2.3%  CRH= 23.0%  VMC=  0.6%  SHW=  0.5%  APD=  0.5%  NUE= 11.6%  CTVA=  0.4%  MLM=  0.3%  util=3.485123  Δ=-0.010814
+  FCX+5%  LIN= 16.3%  NEM= 39.1%  FCX=  7.9%  CRH= 23.0%  VMC=  0.6%  SHW=  0.5%  APD=  0.5%  NUE= 11.6%  CTVA=  0.4%  MLM=  0.3%  util=3.474401  Δ=-0.021536
+  CRH+5%  LIN= 16.3%  NEM= 39.1%  FCX=  2.3%  CRH= 28.5%  VMC=  0.6%  SHW=  0.5%  APD=  0.5%  NUE= 11.6%  CTVA=  0.4%  MLM=  0.3%  util=3.510467  Δ=+0.014529
+  VMC+5%  LIN= 16.3%  NEM= 39.1%  FCX=  2.3%  CRH= 23.0%  VMC=  6.1%  SHW=  0.5%  APD=  0.5%  NUE= 11.6%  CTVA=  0.4%  MLM=  0.3%  util=3.506007  Δ=+0.010069
+  SHW+5%  LIN= 16.3%  NEM= 39.1%  FCX=  2.3%  CRH= 23.0%  VMC=  0.6%  SHW=  6.1%  APD=  0.5%  NUE= 11.6%  CTVA=  0.4%  MLM=  0.3%  util=3.465774  Δ=-0.030164
+  APD+5%  LIN= 16.3%  NEM= 39.1%  FCX=  2.3%  CRH= 23.0%  VMC=  0.6%  SHW=  0.5%  APD=  6.0%  NUE= 11.6%  CTVA=  0.4%  MLM=  0.3%  util=3.472439  Δ=-0.023498
+  NUE+5%  LIN= 16.3%  NEM= 39.1%  FCX=  2.3%  CRH= 23.0%  VMC=  0.6%  SHW=  0.5%  APD=  0.5%  NUE= 17.1%  CTVA=  0.4%  MLM=  0.3%  util=3.508025  Δ=+0.012088
+  CTVA+5%  LIN= 16.3%  NEM= 39.1%  FCX=  2.3%  CRH= 23.0%  VMC=  0.6%  SHW=  0.5%  APD=  0.5%  NUE= 11.6%  CTVA=  6.0%  MLM=  0.3%  util=3.472984  Δ=-0.022954
+  MLM+5%  LIN= 16.3%  NEM= 39.1%  FCX=  2.3%  CRH= 23.0%  VMC=  0.6%  SHW=  0.5%  APD=  0.5%  NUE= 11.6%  CTVA=  0.4%  MLM=  5.8%  util=3.492243  Δ=-0.003695
+  ★ WINNER: Epoch 14  improvement=+0.014529
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=3.510467  feasible=0  step=0.0500  streak=15  T=0.0232]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=3.510467  (gain=+0.720889  epochs=16)

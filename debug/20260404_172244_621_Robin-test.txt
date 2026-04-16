@@ -1,0 +1,131 @@
+=== OPTIMIZATION DEBUG: Robin-test ===
+Time:   Sat Apr 04 17:22:47 EDT 2026
+Start:  VOO= 50.0%  AVUV= 50.0%
+        utility = 0.568894
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.568894  feasible=2]
+  VOO+1%  VOO= 51.0%  AVUV= 49.0%  util=0.106948  Δ=+0.003881
+  AVUV+1%  VOO= 49.0%  AVUV= 51.0%  util=0.105568  Δ=-0.003927
+  ★ WINNER: VOO  improvement=+0.003881
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.572775  feasible=2]
+  VOO+1%  VOO= 52.0%  AVUV= 48.0%  util=0.107600  Δ=+0.003833
+  AVUV+1%  VOO= 50.0%  AVUV= 50.0%  util=0.106267  Δ=-0.003881
+  ★ WINNER: VOO  improvement=+0.003833
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.576608  feasible=2]
+  VOO+1%  VOO= 53.0%  AVUV= 47.0%  util=0.108248  Δ=+0.003784
+  AVUV+1%  VOO= 51.0%  AVUV= 49.0%  util=0.106948  Δ=-0.003833
+  ★ WINNER: VOO  improvement=+0.003784
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.580391  feasible=2]
+  VOO+1%  VOO= 54.0%  AVUV= 46.0%  util=0.108887  Δ=+0.003734
+  AVUV+1%  VOO= 52.0%  AVUV= 48.0%  util=0.107600  Δ=-0.003784
+  ★ WINNER: VOO  improvement=+0.003734
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.584126  feasible=2]
+  VOO+1%  VOO= 55.0%  AVUV= 45.0%  util=0.109529  Δ=+0.003683
+  AVUV+1%  VOO= 53.0%  AVUV= 47.0%  util=0.108248  Δ=-0.003734
+  ★ WINNER: VOO  improvement=+0.003683
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.587809  feasible=2]
+  VOO+1%  VOO= 56.0%  AVUV= 44.0%  util=0.110161  Δ=+0.003632
+  AVUV+1%  VOO= 54.0%  AVUV= 46.0%  util=0.108887  Δ=-0.003683
+  ★ WINNER: VOO  improvement=+0.003632
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.591441  feasible=2]
+  VOO+1%  VOO= 57.0%  AVUV= 43.0%  util=0.110781  Δ=+0.003579
+  AVUV+1%  VOO= 55.0%  AVUV= 45.0%  util=0.109529  Δ=-0.003632
+  ★ WINNER: VOO  improvement=+0.003579
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=0.595020  feasible=2]
+  VOO+1%  VOO= 58.0%  AVUV= 42.0%  util=0.111362  Δ=+0.003526
+  AVUV+1%  VOO= 56.0%  AVUV= 44.0%  util=0.110161  Δ=-0.003579
+  ★ WINNER: VOO  improvement=+0.003526
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=0.598546  feasible=2]
+  VOO+1%  VOO= 59.0%  AVUV= 41.0%  util=0.111918  Δ=+0.003471
+  AVUV+1%  VOO= 57.0%  AVUV= 43.0%  util=0.110781  Δ=-0.003526
+  ★ WINNER: VOO  improvement=+0.003471
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=0.602018  feasible=2]
+  VOO+1%  VOO= 60.0%  AVUV= 40.0%  util=0.112450  Δ=+0.003416
+  AVUV+1%  VOO= 58.0%  AVUV= 42.0%  util=0.111362  Δ=-0.003471
+  ★ WINNER: VOO  improvement=+0.003416
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=0.605434  feasible=2]
+  VOO+1%  VOO= 61.0%  AVUV= 39.0%  util=0.112971  Δ=+0.003360
+  AVUV+1%  VOO= 59.0%  AVUV= 41.0%  util=0.111918  Δ=-0.003416
+  ★ WINNER: VOO  improvement=+0.003360
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=0.608794  feasible=2]
+  VOO+1%  VOO= 62.0%  AVUV= 38.0%  util=0.113488  Δ=+0.003303
+  AVUV+1%  VOO= 60.0%  AVUV= 40.0%  util=0.112450  Δ=-0.003360
+  ★ WINNER: VOO  improvement=+0.003303
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=0.612097  feasible=2]
+  VOO+1%  VOO= 63.0%  AVUV= 37.0%  util=0.113984  Δ=+0.003246
+  AVUV+1%  VOO= 61.0%  AVUV= 39.0%  util=0.112971  Δ=-0.003303
+  ★ WINNER: VOO  improvement=+0.003246
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=0.615343  feasible=2]
+  VOO+1%  VOO= 64.0%  AVUV= 36.0%  util=0.114455  Δ=+0.003187
+  AVUV+1%  VOO= 62.0%  AVUV= 38.0%  util=0.113488  Δ=-0.003246
+  ★ WINNER: VOO  improvement=+0.003187
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=0.618530  feasible=2]
+  VOO+1%  VOO= 65.0%  AVUV= 35.0%  util=0.114919  Δ=+0.003128
+  AVUV+1%  VOO= 63.0%  AVUV= 37.0%  util=0.113984  Δ=-0.003187
+  ★ WINNER: VOO  improvement=+0.003128
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=0.621658  feasible=2]
+  VOO+1%  VOO= 66.0%  AVUV= 34.0%  util=0.115374  Δ=+0.003068
+  AVUV+1%  VOO= 64.0%  AVUV= 36.0%  util=0.114455  Δ=-0.003128
+  ★ WINNER: VOO  improvement=+0.003068
+────────────────────────────────────────────────────────────────────────
+Epoch 16  [startUtility=0.624725  feasible=2]
+  VOO+1%  VOO= 67.0%  AVUV= 33.0%  util=0.115822  Δ=+0.003007
+  AVUV+1%  VOO= 65.0%  AVUV= 35.0%  util=0.114919  Δ=-0.003068
+  ★ WINNER: VOO  improvement=+0.003007
+────────────────────────────────────────────────────────────────────────
+Epoch 17  [startUtility=0.627732  feasible=2]
+  VOO+1%  VOO= 68.0%  AVUV= 32.0%  util=0.116261  Δ=+0.002945
+  AVUV+1%  VOO= 66.0%  AVUV= 34.0%  util=0.115374  Δ=-0.003007
+  ★ WINNER: VOO  improvement=+0.002945
+────────────────────────────────────────────────────────────────────────
+Epoch 18  [startUtility=0.630677  feasible=2]
+  VOO+1%  VOO= 69.0%  AVUV= 31.0%  util=0.116685  Δ=+0.002883
+  AVUV+1%  VOO= 67.0%  AVUV= 33.0%  util=0.115822  Δ=-0.002945
+  ★ WINNER: VOO  improvement=+0.002883
+────────────────────────────────────────────────────────────────────────
+Epoch 19  [startUtility=0.633560  feasible=2]
+  VOO+1%  VOO= 70.0%  AVUV= 30.0%  util=0.117090  Δ=+0.002820
+  AVUV+1%  VOO= 68.0%  AVUV= 32.0%  util=0.116261  Δ=-0.002883
+  ★ WINNER: VOO  improvement=+0.002820
+────────────────────────────────────────────────────────────────────────
+Epoch 20  [startUtility=0.636381  feasible=2]
+  VOO+1%  VOO= 71.0%  AVUV= 29.0%  util=0.117486  Δ=+0.002757
+  AVUV+1%  VOO= 69.0%  AVUV= 31.0%  util=0.116685  Δ=-0.002820
+  ★ WINNER: VOO  improvement=+0.002757
+────────────────────────────────────────────────────────────────────────
+Epoch 21  [startUtility=0.639137  feasible=2]
+  VOO+1%  VOO= 72.0%  AVUV= 28.0%  util=0.117871  Δ=+0.002693
+  AVUV+1%  VOO= 70.0%  AVUV= 30.0%  util=0.117090  Δ=-0.002757
+  ★ WINNER: VOO  improvement=+0.002693
+────────────────────────────────────────────────────────────────────────
+Epoch 22  [startUtility=0.641830  feasible=2]
+  VOO+1%  VOO= 73.0%  AVUV= 27.0%  util=0.118260  Δ=+0.002628
+  AVUV+1%  VOO= 71.0%  AVUV= 29.0%  util=0.117486  Δ=-0.002693
+  ★ WINNER: VOO  improvement=+0.002628
+────────────────────────────────────────────────────────────────────────
+Epoch 23  [startUtility=0.644458  feasible=2]
+  VOO+1%  VOO= 74.0%  AVUV= 26.0%  util=0.118649  Δ=+0.002563
+  AVUV+1%  VOO= 72.0%  AVUV= 28.0%  util=0.117871  Δ=-0.002628
+  ★ WINNER: VOO  improvement=+0.002563
+────────────────────────────────────────────────────────────────────────
+Epoch 24  [startUtility=0.647021  feasible=1]
+  AVUV+1%  VOO= 73.0%  AVUV= 27.0%  util=0.118260  Δ=-0.002563
+  ✗ STOPPED: no_improvement
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.647021  (gain=+0.078126  epochs=25)

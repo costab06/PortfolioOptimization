@@ -1,0 +1,205 @@
+=== OPTIMIZATION DEBUG: Sector-RealEstate ===
+Time:   Mon Apr 13 16:17:59 EDT 2026
+Start:  WELL= 17.2%  PLD= 15.3%  EQIX= 12.1%  AMT= 10.1%  SPG=  7.9%  DLR=  7.8%  CBRE=  7.6%  VTR=  7.4%  PSA=  7.3%  O=  7.3%
+        utility = 0.270169
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.270169  feasible=10  step=0.0100  streak=0  T=0.0500]
+  WELL+1%  WELL= 18.2%  PLD= 15.2%  EQIX= 12.0%  AMT=  9.9%  SPG=  7.8%  DLR=  7.7%  CBRE=  7.5%  VTR=  7.3%  PSA=  7.2%  O=  7.2%  util=0.272001  Δ=+0.001832
+  PLD+1%  WELL= 17.1%  PLD= 16.3%  EQIX= 12.0%  AMT=  9.9%  SPG=  7.8%  DLR=  7.7%  CBRE=  7.5%  VTR=  7.3%  PSA=  7.2%  O=  7.2%  util=0.269683  Δ=-0.000486
+  EQIX+1%  WELL= 17.1%  PLD= 15.2%  EQIX= 13.1%  AMT=  9.9%  SPG=  7.8%  DLR=  7.7%  CBRE=  7.5%  VTR=  7.3%  PSA=  7.2%  O=  7.2%  util=0.269539  Δ=-0.000630
+  AMT+1%  WELL= 17.1%  PLD= 15.2%  EQIX= 12.0%  AMT= 11.1%  SPG=  7.8%  DLR=  7.7%  CBRE=  7.5%  VTR=  7.3%  PSA=  7.2%  O=  7.2%  util=0.268644  Δ=-0.001525
+  SPG+1%  WELL= 17.1%  PLD= 15.2%  EQIX= 12.0%  AMT=  9.9%  SPG=  8.9%  DLR=  7.7%  CBRE=  7.5%  VTR=  7.3%  PSA=  7.2%  O=  7.2%  util=0.271332  Δ=+0.001163
+  DLR+1%  WELL= 17.1%  PLD= 15.2%  EQIX= 12.0%  AMT=  9.9%  SPG=  7.8%  DLR=  8.8%  CBRE=  7.5%  VTR=  7.3%  PSA=  7.2%  O=  7.2%  util=0.270659  Δ=+0.000490
+  CBRE+1%  WELL= 17.1%  PLD= 15.2%  EQIX= 12.0%  AMT=  9.9%  SPG=  7.8%  DLR=  7.7%  CBRE=  8.6%  VTR=  7.3%  PSA=  7.2%  O=  7.2%  util=0.271503  Δ=+0.001334
+  VTR+1%  WELL= 17.1%  PLD= 15.2%  EQIX= 12.0%  AMT=  9.9%  SPG=  7.8%  DLR=  7.7%  CBRE=  7.5%  VTR=  8.4%  PSA=  7.2%  O=  7.2%  util=0.270900  Δ=+0.000731
+  PSA+1%  WELL= 17.1%  PLD= 15.2%  EQIX= 12.0%  AMT=  9.9%  SPG=  7.8%  DLR=  7.7%  CBRE=  7.5%  VTR=  7.3%  PSA=  8.3%  O=  7.2%  util=0.269163  Δ=-0.001006
+  O+1%  WELL= 17.1%  PLD= 15.2%  EQIX= 12.0%  AMT=  9.9%  SPG=  7.8%  DLR=  7.7%  CBRE=  7.5%  VTR=  7.3%  PSA=  7.2%  O=  8.3%  util=0.268223  Δ=-0.001946
+  ★ WINNER: Epoch 0  improvement=+0.001832
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.272001  feasible=10  step=0.0200  streak=1  T=0.0475]
+  WELL+2%  WELL= 20.2%  PLD= 15.0%  EQIX= 11.8%  AMT=  9.7%  SPG=  7.5%  DLR=  7.5%  CBRE=  7.2%  VTR=  7.1%  PSA=  7.0%  O=  7.0%  util=0.275530  Δ=+0.003529
+  PLD+2%  WELL= 18.0%  PLD= 17.2%  EQIX= 11.8%  AMT=  9.7%  SPG=  7.5%  DLR=  7.5%  CBRE=  7.2%  VTR=  7.1%  PSA=  7.0%  O=  7.0%  util=0.271019  Δ=-0.000982
+  EQIX+2%  WELL= 18.0%  PLD= 15.0%  EQIX= 14.0%  AMT=  9.7%  SPG=  7.5%  DLR=  7.5%  CBRE=  7.2%  VTR=  7.1%  PSA=  7.0%  O=  7.0%  util=0.270675  Δ=-0.001326
+  AMT+2%  WELL= 18.0%  PLD= 15.0%  EQIX= 11.8%  AMT= 11.9%  SPG=  7.5%  DLR=  7.5%  CBRE=  7.2%  VTR=  7.1%  PSA=  7.0%  O=  7.0%  util=0.268883  Δ=-0.003118
+  SPG+2%  WELL= 18.0%  PLD= 15.0%  EQIX= 11.8%  AMT=  9.7%  SPG=  9.8%  DLR=  7.5%  CBRE=  7.2%  VTR=  7.1%  PSA=  7.0%  O=  7.0%  util=0.274291  Δ=+0.002290
+  DLR+2%  WELL= 18.0%  PLD= 15.0%  EQIX= 11.8%  AMT=  9.7%  SPG=  7.5%  DLR=  9.7%  CBRE=  7.2%  VTR=  7.1%  PSA=  7.0%  O=  7.0%  util=0.272947  Δ=+0.000946
+  CBRE+2%  WELL= 18.0%  PLD= 15.0%  EQIX= 11.8%  AMT=  9.7%  SPG=  7.5%  DLR=  7.5%  CBRE=  9.5%  VTR=  7.1%  PSA=  7.0%  O=  7.0%  util=0.274642  Δ=+0.002641
+  VTR+2%  WELL= 18.0%  PLD= 15.0%  EQIX= 11.8%  AMT=  9.7%  SPG=  7.5%  DLR=  7.5%  CBRE=  7.2%  VTR=  9.3%  PSA=  7.0%  O=  7.0%  util=0.273376  Δ=+0.001375
+  PSA+2%  WELL= 18.0%  PLD= 15.0%  EQIX= 11.8%  AMT=  9.7%  SPG=  7.5%  DLR=  7.5%  CBRE=  7.2%  VTR=  7.1%  PSA=  9.2%  O=  7.0%  util=0.269978  Δ=-0.002022
+  O+2%  WELL= 18.0%  PLD= 15.0%  EQIX= 11.8%  AMT=  9.7%  SPG=  7.5%  DLR=  7.5%  CBRE=  7.2%  VTR=  7.1%  PSA=  7.0%  O=  9.2%  util=0.268099  Δ=-0.003902
+  ★ WINNER: Epoch 1  improvement=+0.003529
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.275530  feasible=10  step=0.0300  streak=2  T=0.0451]
+  WELL+3%  WELL= 23.2%  PLD= 14.6%  EQIX= 11.4%  AMT=  9.4%  SPG=  7.2%  DLR=  7.2%  CBRE=  6.9%  VTR=  6.7%  PSA=  6.7%  O=  6.7%  util=0.280735  Δ=+0.005204
+  PLD+3%  WELL= 19.8%  PLD= 18.0%  EQIX= 11.4%  AMT=  9.4%  SPG=  7.2%  DLR=  7.2%  CBRE=  6.9%  VTR=  6.7%  PSA=  6.7%  O=  6.7%  util=0.274131  Δ=-0.001399
+  EQIX+3%  WELL= 19.8%  PLD= 14.6%  EQIX= 14.8%  AMT=  9.4%  SPG=  7.2%  DLR=  7.2%  CBRE=  6.9%  VTR=  6.7%  PSA=  6.7%  O=  6.7%  util=0.273510  Δ=-0.002021
+  AMT+3%  WELL= 19.8%  PLD= 14.6%  EQIX= 11.4%  AMT= 12.7%  SPG=  7.2%  DLR=  7.2%  CBRE=  6.9%  VTR=  6.7%  PSA=  6.7%  O=  6.7%  util=0.270773  Δ=-0.004758
+  SPG+3%  WELL= 19.8%  PLD= 14.6%  EQIX= 11.4%  AMT=  9.4%  SPG= 10.5%  DLR=  7.2%  CBRE=  6.9%  VTR=  6.7%  PSA=  6.7%  O=  6.7%  util=0.278992  Δ=+0.003462
+  DLR+3%  WELL= 19.8%  PLD= 14.6%  EQIX= 11.4%  AMT=  9.4%  SPG=  7.2%  DLR= 10.5%  CBRE=  6.9%  VTR=  6.7%  PSA=  6.7%  O=  6.7%  util=0.276879  Δ=+0.001349
+  CBRE+3%  WELL= 19.8%  PLD= 14.6%  EQIX= 11.4%  AMT=  9.4%  SPG=  7.2%  DLR=  7.2%  CBRE= 10.2%  VTR=  6.7%  PSA=  6.7%  O=  6.7%  util=0.279547  Δ=+0.004017
+  VTR+3%  WELL= 19.8%  PLD= 14.6%  EQIX= 11.4%  AMT=  9.4%  SPG=  7.2%  DLR=  7.2%  CBRE=  6.9%  VTR= 10.1%  PSA=  6.7%  O=  6.7%  util=0.277449  Δ=+0.001919
+  PSA+3%  WELL= 19.8%  PLD= 14.6%  EQIX= 11.4%  AMT=  9.4%  SPG=  7.2%  DLR=  7.2%  CBRE=  6.9%  VTR=  6.7%  PSA= 10.0%  O=  6.7%  util=0.272548  Δ=-0.002983
+  O+3%  WELL= 19.8%  PLD= 14.6%  EQIX= 11.4%  AMT=  9.4%  SPG=  7.2%  DLR=  7.2%  CBRE=  6.9%  VTR=  6.7%  PSA=  6.7%  O= 10.0%  util=0.269720  Δ=-0.005811
+  ★ WINNER: Epoch 2  improvement=+0.005204
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.280735  feasible=10  step=0.0400  streak=3  T=0.0429]
+  WELL+4%  WELL= 27.2%  PLD= 14.2%  EQIX= 11.0%  AMT=  8.9%  SPG=  6.8%  DLR=  6.7%  CBRE=  6.5%  VTR=  6.3%  PSA=  6.2%  O=  6.2%  util=0.287251  Δ=+0.006516
+  PLD+4%  WELL= 22.7%  PLD= 18.6%  EQIX= 11.0%  AMT=  8.9%  SPG=  6.8%  DLR=  6.7%  CBRE=  6.5%  VTR=  6.3%  PSA=  6.2%  O=  6.2%  util=0.278882  Δ=-0.001853
+  EQIX+4%  WELL= 22.7%  PLD= 14.2%  EQIX= 15.4%  AMT=  8.9%  SPG=  6.8%  DLR=  6.7%  CBRE=  6.5%  VTR=  6.3%  PSA=  6.2%  O=  6.2%  util=0.277929  Δ=-0.002805
+  AMT+4%  WELL= 22.7%  PLD= 14.2%  EQIX= 11.0%  AMT= 13.4%  SPG=  6.8%  DLR=  6.7%  CBRE=  6.5%  VTR=  6.3%  PSA=  6.2%  O=  6.2%  util=0.274229  Δ=-0.006506
+  SPG+4%  WELL= 22.7%  PLD= 14.2%  EQIX= 11.0%  AMT=  8.9%  SPG= 11.2%  DLR=  6.7%  CBRE=  6.5%  VTR=  6.3%  PSA=  6.2%  O=  6.2%  util=0.285426  Δ=+0.004691
+  DLR+4%  WELL= 22.7%  PLD= 14.2%  EQIX= 11.0%  AMT=  8.9%  SPG=  6.8%  DLR= 11.2%  CBRE=  6.5%  VTR=  6.3%  PSA=  6.2%  O=  6.2%  util=0.282308  Δ=+0.001573
+  CBRE+4%  WELL= 22.7%  PLD= 14.2%  EQIX= 11.0%  AMT=  8.9%  SPG=  6.8%  DLR=  6.7%  CBRE= 10.9%  VTR=  6.3%  PSA=  6.2%  O=  6.2%  util=0.286137  Δ=+0.005402
+  VTR+4%  WELL= 22.7%  PLD= 14.2%  EQIX= 11.0%  AMT=  8.9%  SPG=  6.8%  DLR=  6.7%  CBRE=  6.5%  VTR= 10.7%  PSA=  6.2%  O=  6.2%  util=0.282940  Δ=+0.002205
+  PSA+4%  WELL= 22.7%  PLD= 14.2%  EQIX= 11.0%  AMT=  8.9%  SPG=  6.8%  DLR=  6.7%  CBRE=  6.5%  VTR=  6.3%  PSA= 10.7%  O=  6.2%  util=0.276665  Δ=-0.004070
+  O+4%  WELL= 22.7%  PLD= 14.2%  EQIX= 11.0%  AMT=  8.9%  SPG=  6.8%  DLR=  6.7%  CBRE=  6.5%  VTR=  6.3%  PSA=  6.2%  O= 10.7%  util=0.273001  Δ=-0.007734
+  ★ WINNER: Epoch 3  improvement=+0.006516
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.287251  feasible=10  step=0.0500  streak=4  T=0.0407]
+  WELL+5%  WELL= 32.2%  PLD= 13.6%  EQIX= 10.4%  AMT=  8.4%  SPG=  6.2%  DLR=  6.2%  CBRE=  5.9%  VTR=  5.7%  PSA=  5.7%  O=  5.7%  util=0.294885  Δ=+0.007634
+  PLD+5%  WELL= 26.6%  PLD= 19.2%  EQIX= 10.4%  AMT=  8.4%  SPG=  6.2%  DLR=  6.2%  CBRE=  5.9%  VTR=  5.7%  PSA=  5.7%  O=  5.7%  util=0.285023  Δ=-0.002227
+  EQIX+5%  WELL= 26.6%  PLD= 13.6%  EQIX= 16.0%  AMT=  8.4%  SPG=  6.2%  DLR=  6.2%  CBRE=  5.9%  VTR=  5.7%  PSA=  5.7%  O=  5.7%  util=0.283597  Δ=-0.003653
+  AMT+5%  WELL= 26.6%  PLD= 13.6%  EQIX= 10.4%  AMT= 13.9%  SPG=  6.2%  DLR=  6.2%  CBRE=  5.9%  VTR=  5.7%  PSA=  5.7%  O=  5.7%  util=0.279102  Δ=-0.008149
+  SPG+5%  WELL= 26.6%  PLD= 13.6%  EQIX= 10.4%  AMT=  8.4%  SPG= 11.8%  DLR=  6.2%  CBRE=  5.9%  VTR=  5.7%  PSA=  5.7%  O=  5.7%  util=0.293249  Δ=+0.005998
+  DLR+5%  WELL= 26.6%  PLD= 13.6%  EQIX= 10.4%  AMT=  8.4%  SPG=  6.2%  DLR= 11.7%  CBRE=  5.9%  VTR=  5.7%  PSA=  5.7%  O=  5.7%  util=0.288982  Δ=+0.001731
+  CBRE+5%  WELL= 26.6%  PLD= 13.6%  EQIX= 10.4%  AMT=  8.4%  SPG=  6.2%  DLR=  6.2%  CBRE= 11.5%  VTR=  5.7%  PSA=  5.7%  O=  5.7%  util=0.294171  Δ=+0.006920
+  VTR+5%  WELL= 26.6%  PLD= 13.6%  EQIX= 10.4%  AMT=  8.4%  SPG=  6.2%  DLR=  6.2%  CBRE=  5.9%  VTR= 11.3%  PSA=  5.7%  O=  5.7%  util=0.289533  Δ=+0.002283
+  PSA+5%  WELL= 26.6%  PLD= 13.6%  EQIX= 10.4%  AMT=  8.4%  SPG=  6.2%  DLR=  6.2%  CBRE=  5.9%  VTR=  5.7%  PSA= 11.2%  O=  5.7%  util=0.282070  Δ=-0.005180
+  O+5%  WELL= 26.6%  PLD= 13.6%  EQIX= 10.4%  AMT=  8.4%  SPG=  6.2%  DLR=  6.2%  CBRE=  5.9%  VTR=  5.7%  PSA=  5.7%  O= 11.2%  util=0.277664  Δ=-0.009586
+  ★ WINNER: Epoch 4  improvement=+0.007634
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.294885  feasible=10  step=0.0500  streak=5  T=0.0387]
+  WELL+5%  WELL= 37.2%  PLD= 13.1%  EQIX=  9.9%  AMT=  7.8%  SPG=  5.7%  DLR=  5.6%  CBRE=  5.4%  VTR=  5.2%  PSA=  5.1%  O=  5.1%  util=0.301888  Δ=+0.007003
+  PLD+5%  WELL= 31.6%  PLD= 18.6%  EQIX=  9.9%  AMT=  7.8%  SPG=  5.7%  DLR=  5.6%  CBRE=  5.4%  VTR=  5.2%  PSA=  5.1%  O=  5.1%  util=0.292824  Δ=-0.002061
+  EQIX+5%  WELL= 31.6%  PLD= 13.1%  EQIX= 15.4%  AMT=  7.8%  SPG=  5.7%  DLR=  5.6%  CBRE=  5.4%  VTR=  5.2%  PSA=  5.1%  O=  5.1%  util=0.291129  Δ=-0.003756
+  AMT+5%  WELL= 31.6%  PLD= 13.1%  EQIX=  9.9%  AMT= 13.4%  SPG=  5.7%  DLR=  5.6%  CBRE=  5.4%  VTR=  5.2%  PSA=  5.1%  O=  5.1%  util=0.286922  Δ=-0.007963
+  SPG+5%  WELL= 31.6%  PLD= 13.1%  EQIX=  9.9%  AMT=  7.8%  SPG= 11.2%  DLR=  5.6%  CBRE=  5.4%  VTR=  5.2%  PSA=  5.1%  O=  5.1%  util=0.301196  Δ=+0.006311
+  DLR+5%  WELL= 31.6%  PLD= 13.1%  EQIX=  9.9%  AMT=  7.8%  SPG=  5.7%  DLR= 11.2%  CBRE=  5.4%  VTR=  5.2%  PSA=  5.1%  O=  5.1%  util=0.296613  Δ=+0.001728
+  CBRE+5%  WELL= 31.6%  PLD= 13.1%  EQIX=  9.9%  AMT=  7.8%  SPG=  5.7%  DLR=  5.6%  CBRE= 10.9%  VTR=  5.2%  PSA=  5.1%  O=  5.1%  util=0.302000  Δ=+0.007115
+  VTR+5%  WELL= 31.6%  PLD= 13.1%  EQIX=  9.9%  AMT=  7.8%  SPG=  5.7%  DLR=  5.6%  CBRE=  5.4%  VTR= 10.7%  PSA=  5.1%  O=  5.1%  util=0.296613  Δ=+0.001727
+  PSA+5%  WELL= 31.6%  PLD= 13.1%  EQIX=  9.9%  AMT=  7.8%  SPG=  5.7%  DLR=  5.6%  CBRE=  5.4%  VTR=  5.2%  PSA= 10.7%  O=  5.1%  util=0.289762  Δ=-0.005123
+  O+5%  WELL= 31.6%  PLD= 13.1%  EQIX=  9.9%  AMT=  7.8%  SPG=  5.7%  DLR=  5.6%  CBRE=  5.4%  VTR=  5.2%  PSA=  5.1%  O= 10.7%  util=0.285289  Δ=-0.009596
+  ★ WINNER: Epoch 5  improvement=+0.007115
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.302000  feasible=10  step=0.0500  streak=6  T=0.0368]
+  WELL+5%  WELL= 36.6%  PLD= 12.5%  EQIX=  9.3%  AMT=  7.3%  SPG=  5.1%  DLR=  5.0%  CBRE= 10.4%  VTR=  4.6%  PSA=  4.6%  O=  4.6%  util=0.309291  Δ=+0.007291
+  PLD+5%  WELL= 31.1%  PLD= 18.1%  EQIX=  9.3%  AMT=  7.3%  SPG=  5.1%  DLR=  5.0%  CBRE= 10.4%  VTR=  4.6%  PSA=  4.6%  O=  4.6%  util=0.299670  Δ=-0.002329
+  EQIX+5%  WELL= 31.1%  PLD= 12.5%  EQIX= 14.9%  AMT=  7.3%  SPG=  5.1%  DLR=  5.0%  CBRE= 10.4%  VTR=  4.6%  PSA=  4.6%  O=  4.6%  util=0.298453  Δ=-0.003546
+  AMT+5%  WELL= 31.1%  PLD= 12.5%  EQIX=  9.3%  AMT= 12.8%  SPG=  5.1%  DLR=  5.0%  CBRE= 10.4%  VTR=  4.6%  PSA=  4.6%  O=  4.6%  util=0.294371  Δ=-0.007629
+  SPG+5%  WELL= 31.1%  PLD= 12.5%  EQIX=  9.3%  AMT=  7.3%  SPG= 10.7%  DLR=  5.0%  CBRE= 10.4%  VTR=  4.6%  PSA=  4.6%  O=  4.6%  util=0.308149  Δ=+0.006149
+  DLR+5%  WELL= 31.1%  PLD= 12.5%  EQIX=  9.3%  AMT=  7.3%  SPG=  5.1%  DLR= 10.6%  CBRE= 10.4%  VTR=  4.6%  PSA=  4.6%  O=  4.6%  util=0.303859  Δ=+0.001859
+  CBRE+5%  WELL= 31.1%  PLD= 12.5%  EQIX=  9.3%  AMT=  7.3%  SPG=  5.1%  DLR=  5.0%  CBRE= 15.9%  VTR=  4.6%  PSA=  4.6%  O=  4.6%  util=0.308174  Δ=+0.006174
+  VTR+5%  WELL= 31.1%  PLD= 12.5%  EQIX=  9.3%  AMT=  7.3%  SPG=  5.1%  DLR=  5.0%  CBRE= 10.4%  VTR= 10.2%  PSA=  4.6%  O=  4.6%  util=0.304105  Δ=+0.002105
+  PSA+5%  WELL= 31.1%  PLD= 12.5%  EQIX=  9.3%  AMT=  7.3%  SPG=  5.1%  DLR=  5.0%  CBRE= 10.4%  VTR=  4.6%  PSA= 10.1%  O=  4.6%  util=0.297174  Δ=-0.004826
+  O+5%  WELL= 31.1%  PLD= 12.5%  EQIX=  9.3%  AMT=  7.3%  SPG=  5.1%  DLR=  5.0%  CBRE= 10.4%  VTR=  4.6%  PSA=  4.6%  O= 10.1%  util=0.292502  Δ=-0.009497
+  ★ WINNER: Epoch 6  improvement=+0.007291
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=0.309291  feasible=10  step=0.0500  streak=7  T=0.0349]
+  WELL+5%  WELL= 41.6%  PLD= 12.0%  EQIX=  8.8%  AMT=  6.7%  SPG=  4.5%  DLR=  4.5%  CBRE=  9.8%  VTR=  4.1%  PSA=  4.0%  O=  4.0%  util=0.316001  Δ=+0.006710
+  PLD+5%  WELL= 36.1%  PLD= 17.5%  EQIX=  8.8%  AMT=  6.7%  SPG=  4.5%  DLR=  4.5%  CBRE=  9.8%  VTR=  4.1%  PSA=  4.0%  O=  4.0%  util=0.307229  Δ=-0.002062
+  EQIX+5%  WELL= 36.1%  PLD= 12.0%  EQIX= 14.3%  AMT=  6.7%  SPG=  4.5%  DLR=  4.5%  CBRE=  9.8%  VTR=  4.1%  PSA=  4.0%  O=  4.0%  util=0.305738  Δ=-0.003553
+  AMT+5%  WELL= 36.1%  PLD= 12.0%  EQIX=  8.8%  AMT= 12.3%  SPG=  4.5%  DLR=  4.5%  CBRE=  9.8%  VTR=  4.1%  PSA=  4.0%  O=  4.0%  util=0.301778  Δ=-0.007513
+  SPG+5%  WELL= 36.1%  PLD= 12.0%  EQIX=  8.8%  AMT=  6.7%  SPG= 10.1%  DLR=  4.5%  CBRE=  9.8%  VTR=  4.1%  PSA=  4.0%  O=  4.0%  util=0.315804  Δ=+0.006513
+  DLR+5%  WELL= 36.1%  PLD= 12.0%  EQIX=  8.8%  AMT=  6.7%  SPG=  4.5%  DLR= 10.0%  CBRE=  9.8%  VTR=  4.1%  PSA=  4.0%  O=  4.0%  util=0.311238  Δ=+0.001946
+  CBRE+5%  WELL= 36.1%  PLD= 12.0%  EQIX=  8.8%  AMT=  6.7%  SPG=  4.5%  DLR=  4.5%  CBRE= 15.4%  VTR=  4.1%  PSA=  4.0%  O=  4.0%  util=0.315692  Δ=+0.006401
+  VTR+5%  WELL= 36.1%  PLD= 12.0%  EQIX=  8.8%  AMT=  6.7%  SPG=  4.5%  DLR=  4.5%  CBRE=  9.8%  VTR=  9.6%  PSA=  4.0%  O=  4.0%  util=0.311043  Δ=+0.001752
+  PSA+5%  WELL= 36.1%  PLD= 12.0%  EQIX=  8.8%  AMT=  6.7%  SPG=  4.5%  DLR=  4.5%  CBRE=  9.8%  VTR=  4.1%  PSA=  9.6%  O=  4.0%  util=0.304562  Δ=-0.004729
+  O+5%  WELL= 36.1%  PLD= 12.0%  EQIX=  8.8%  AMT=  6.7%  SPG=  4.5%  DLR=  4.5%  CBRE=  9.8%  VTR=  4.1%  PSA=  4.0%  O=  9.6%  util=0.299835  Δ=-0.009456
+  ★ WINNER: Epoch 7  improvement=+0.006710
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=0.316001  feasible=10  step=0.0500  streak=8  T=0.0332]
+  WELL+5%  WELL= 46.6%  PLD= 11.4%  EQIX=  8.2%  AMT=  6.2%  SPG=  4.0%  DLR=  3.9%  CBRE=  9.2%  VTR=  3.5%  PSA=  3.5%  O=  3.4%  util=0.322014  Δ=+0.006013
+  PLD+5%  WELL= 41.1%  PLD= 17.0%  EQIX=  8.2%  AMT=  6.2%  SPG=  4.0%  DLR=  3.9%  CBRE=  9.2%  VTR=  3.5%  PSA=  3.5%  O=  3.4%  util=0.314126  Δ=-0.001876
+  EQIX+5%  WELL= 41.1%  PLD= 11.4%  EQIX= 13.8%  AMT=  6.2%  SPG=  4.0%  DLR=  3.9%  CBRE=  9.2%  VTR=  3.5%  PSA=  3.5%  O=  3.4%  util=0.312492  Δ=-0.003510
+  AMT+5%  WELL= 41.1%  PLD= 11.4%  EQIX=  8.2%  AMT= 11.7%  SPG=  4.0%  DLR=  3.9%  CBRE=  9.2%  VTR=  3.5%  PSA=  3.5%  O=  3.4%  util=0.308583  Δ=-0.007418
+  SPG+5%  WELL= 41.1%  PLD= 11.4%  EQIX=  8.2%  AMT=  6.2%  SPG=  9.5%  DLR=  3.9%  CBRE=  9.2%  VTR=  3.5%  PSA=  3.5%  O=  3.4%  util=0.322805  Δ=+0.006803
+  DLR+5%  WELL= 41.1%  PLD= 11.4%  EQIX=  8.2%  AMT=  6.2%  SPG=  4.0%  DLR=  9.5%  CBRE=  9.2%  VTR=  3.5%  PSA=  3.5%  O=  3.4%  util=0.318028  Δ=+0.002027
+  CBRE+5%  WELL= 41.1%  PLD= 11.4%  EQIX=  8.2%  AMT=  6.2%  SPG=  4.0%  DLR=  3.9%  CBRE= 14.8%  VTR=  3.5%  PSA=  3.5%  O=  3.4%  util=0.322605  Δ=+0.006604
+  VTR+5%  WELL= 41.1%  PLD= 11.4%  EQIX=  8.2%  AMT=  6.2%  SPG=  4.0%  DLR=  3.9%  CBRE=  9.2%  VTR=  9.1%  PSA=  3.5%  O=  3.4%  util=0.317266  Δ=+0.001264
+  PSA+5%  WELL= 41.1%  PLD= 11.4%  EQIX=  8.2%  AMT=  6.2%  SPG=  4.0%  DLR=  3.9%  CBRE=  9.2%  VTR=  3.5%  PSA=  9.0%  O=  3.4%  util=0.311386  Δ=-0.004616
+  O+5%  WELL= 41.1%  PLD= 11.4%  EQIX=  8.2%  AMT=  6.2%  SPG=  4.0%  DLR=  3.9%  CBRE=  9.2%  VTR=  3.5%  PSA=  3.5%  O=  9.0%  util=0.306621  Δ=-0.009380
+  ★ WINNER: Epoch 8  improvement=+0.006803
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=0.322805  feasible=10  step=0.0500  streak=9  T=0.0315]
+  WELL+5%  WELL= 46.1%  PLD= 10.9%  EQIX=  7.7%  AMT=  5.6%  SPG=  9.0%  DLR=  3.4%  CBRE=  8.7%  VTR=  2.9%  PSA=  2.9%  O=  2.9%  util=0.329117  Δ=+0.006312
+  PLD+5%  WELL= 40.5%  PLD= 16.4%  EQIX=  7.7%  AMT=  5.6%  SPG=  9.0%  DLR=  3.4%  CBRE=  8.7%  VTR=  2.9%  PSA=  2.9%  O=  2.9%  util=0.320639  Δ=-0.002166
+  EQIX+5%  WELL= 40.5%  PLD= 10.9%  EQIX= 13.2%  AMT=  5.6%  SPG=  9.0%  DLR=  3.4%  CBRE=  8.7%  VTR=  2.9%  PSA=  2.9%  O=  2.9%  util=0.319304  Δ=-0.003500
+  AMT+5%  WELL= 40.5%  PLD= 10.9%  EQIX=  7.7%  AMT= 11.2%  SPG=  9.0%  DLR=  3.4%  CBRE=  8.7%  VTR=  2.9%  PSA=  2.9%  O=  2.9%  util=0.315427  Δ=-0.007378
+  SPG+5%  WELL= 40.5%  PLD= 10.9%  EQIX=  7.7%  AMT=  5.6%  SPG= 14.5%  DLR=  3.4%  CBRE=  8.7%  VTR=  2.9%  PSA=  2.9%  O=  2.9%  util=0.328414  Δ=+0.005609
+  DLR+5%  WELL= 40.5%  PLD= 10.9%  EQIX=  7.7%  AMT=  5.6%  SPG=  9.0%  DLR=  8.9%  CBRE=  8.7%  VTR=  2.9%  PSA=  2.9%  O=  2.9%  util=0.324863  Δ=+0.002059
+  CBRE+5%  WELL= 40.5%  PLD= 10.9%  EQIX=  7.7%  AMT=  5.6%  SPG=  9.0%  DLR=  3.4%  CBRE= 14.2%  VTR=  2.9%  PSA=  2.9%  O=  2.9%  util=0.328950  Δ=+0.006145
+  VTR+5%  WELL= 40.5%  PLD= 10.9%  EQIX=  7.7%  AMT=  5.6%  SPG=  9.0%  DLR=  3.4%  CBRE=  8.7%  VTR=  8.5%  PSA=  2.9%  O=  2.9%  util=0.324218  Δ=+0.001413
+  PSA+5%  WELL= 40.5%  PLD= 10.9%  EQIX=  7.7%  AMT=  5.6%  SPG=  9.0%  DLR=  3.4%  CBRE=  8.7%  VTR=  2.9%  PSA=  8.5%  O=  2.9%  util=0.318195  Δ=-0.004610
+  O+5%  WELL= 40.5%  PLD= 10.9%  EQIX=  7.7%  AMT=  5.6%  SPG=  9.0%  DLR=  3.4%  CBRE=  8.7%  VTR=  2.9%  PSA=  2.9%  O=  8.4%  util=0.313402  Δ=-0.009403
+  ★ WINNER: Epoch 9  improvement=+0.006312
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=0.329117  feasible=10  step=0.0500  streak=10  T=0.0299]
+  WELL+5%  WELL= 51.1%  PLD= 10.3%  EQIX=  7.1%  AMT=  5.1%  SPG=  8.4%  DLR=  2.8%  CBRE=  8.1%  VTR=  2.4%  PSA=  2.3%  O=  2.3%  util=0.334775  Δ=+0.005658
+  PLD+5%  WELL= 45.5%  PLD= 15.9%  EQIX=  7.1%  AMT=  5.1%  SPG=  8.4%  DLR=  2.8%  CBRE=  8.1%  VTR=  2.4%  PSA=  2.3%  O=  2.3%  util=0.327270  Δ=-0.001848
+  EQIX+5%  WELL= 45.5%  PLD= 10.3%  EQIX= 12.7%  AMT=  5.1%  SPG=  8.4%  DLR=  2.8%  CBRE=  8.1%  VTR=  2.4%  PSA=  2.3%  O=  2.3%  util=0.325678  Δ=-0.003440
+  AMT+5%  WELL= 45.5%  PLD= 10.3%  EQIX=  7.1%  AMT= 10.6%  SPG=  8.4%  DLR=  2.8%  CBRE=  8.1%  VTR=  2.4%  PSA=  2.3%  O=  2.3%  util=0.321976  Δ=-0.007142
+  SPG+5%  WELL= 45.5%  PLD= 10.3%  EQIX=  7.1%  AMT=  5.1%  SPG= 14.0%  DLR=  2.8%  CBRE=  8.1%  VTR=  2.4%  PSA=  2.3%  O=  2.3%  util=0.335024  Δ=+0.005906
+  DLR+5%  WELL= 45.5%  PLD= 10.3%  EQIX=  7.1%  AMT=  5.1%  SPG=  8.4%  DLR=  8.4%  CBRE=  8.1%  VTR=  2.4%  PSA=  2.3%  O=  2.3%  util=0.331366  Δ=+0.002249
+  CBRE+5%  WELL= 45.5%  PLD= 10.3%  EQIX=  7.1%  AMT=  5.1%  SPG=  8.4%  DLR=  2.8%  CBRE= 13.7%  VTR=  2.4%  PSA=  2.3%  O=  2.3%  util=0.335615  Δ=+0.006498
+  VTR+5%  WELL= 45.5%  PLD= 10.3%  EQIX=  7.1%  AMT=  5.1%  SPG=  8.4%  DLR=  2.8%  CBRE=  8.1%  VTR=  7.9%  PSA=  2.3%  O=  2.3%  util=0.330124  Δ=+0.001007
+  PSA+5%  WELL= 45.5%  PLD= 10.3%  EQIX=  7.1%  AMT=  5.1%  SPG=  8.4%  DLR=  2.8%  CBRE=  8.1%  VTR=  2.4%  PSA=  7.9%  O=  2.3%  util=0.324736  Δ=-0.004381
+  O+5%  WELL= 45.5%  PLD= 10.3%  EQIX=  7.1%  AMT=  5.1%  SPG=  8.4%  DLR=  2.8%  CBRE=  8.1%  VTR=  2.4%  PSA=  2.3%  O=  7.9%  util=0.319853  Δ=-0.009264
+  ★ WINNER: Epoch 10  improvement=+0.006498
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=0.335615  feasible=10  step=0.0500  streak=11  T=0.0284]
+  WELL+5%  WELL= 50.5%  PLD=  9.8%  EQIX=  6.5%  AMT=  4.5%  SPG=  7.9%  DLR=  2.3%  CBRE= 13.1%  VTR=  1.8%  PSA=  1.8%  O=  1.8%  util=0.341498  Δ=+0.005883
+  PLD+5%  WELL= 45.0%  PLD= 15.3%  EQIX=  6.5%  AMT=  4.5%  SPG=  7.9%  DLR=  2.3%  CBRE= 13.1%  VTR=  1.8%  PSA=  1.8%  O=  1.8%  util=0.333568  Δ=-0.002047
+  EQIX+5%  WELL= 45.0%  PLD=  9.8%  EQIX= 12.1%  AMT=  4.5%  SPG=  7.9%  DLR=  2.3%  CBRE= 13.1%  VTR=  1.8%  PSA=  1.8%  O=  1.8%  util=0.332324  Δ=-0.003291
+  AMT+5%  WELL= 45.0%  PLD=  9.8%  EQIX=  6.5%  AMT= 10.1%  SPG=  7.9%  DLR=  2.3%  CBRE= 13.1%  VTR=  1.8%  PSA=  1.8%  O=  1.8%  util=0.328831  Δ=-0.006784
+  SPG+5%  WELL= 45.0%  PLD=  9.8%  EQIX=  6.5%  AMT=  4.5%  SPG= 13.4%  DLR=  2.3%  CBRE= 13.1%  VTR=  1.8%  PSA=  1.8%  O=  1.8%  util=0.341155  Δ=+0.005540
+  DLR+5%  WELL= 45.0%  PLD=  9.8%  EQIX=  6.5%  AMT=  4.5%  SPG=  7.9%  DLR=  7.8%  CBRE= 13.1%  VTR=  1.8%  PSA=  1.8%  O=  1.8%  util=0.338013  Δ=+0.002398
+  CBRE+5%  WELL= 45.0%  PLD=  9.8%  EQIX=  6.5%  AMT=  4.5%  SPG=  7.9%  DLR=  2.3%  CBRE= 18.7%  VTR=  1.8%  PSA=  1.8%  O=  1.8%  util=0.340957  Δ=+0.005342
+  VTR+5%  WELL= 45.0%  PLD=  9.8%  EQIX=  6.5%  AMT=  4.5%  SPG=  7.9%  DLR=  2.3%  CBRE= 13.1%  VTR=  7.4%  PSA=  1.8%  O=  1.8%  util=0.336826  Δ=+0.001211
+  PSA+5%  WELL= 45.0%  PLD=  9.8%  EQIX=  6.5%  AMT=  4.5%  SPG=  7.9%  DLR=  2.3%  CBRE= 13.1%  VTR=  1.8%  PSA=  7.3%  O=  1.8%  util=0.331460  Δ=-0.004155
+  O+5%  WELL= 45.0%  PLD=  9.8%  EQIX=  6.5%  AMT=  4.5%  SPG=  7.9%  DLR=  2.3%  CBRE= 13.1%  VTR=  1.8%  PSA=  1.8%  O=  7.3%  util=0.326430  Δ=-0.009185
+  ★ WINNER: Epoch 11  improvement=+0.005883
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=0.341498  feasible=10  step=0.0500  streak=12  T=0.0270]
+  WELL+5%  WELL= 55.5%  PLD=  9.2%  EQIX=  6.0%  AMT=  3.9%  SPG=  7.3%  DLR=  1.7%  CBRE= 12.6%  VTR=  1.3%  PSA=  1.2%  O=  1.2%  util=0.346617  Δ=+0.005119
+  PLD+5%  WELL= 50.0%  PLD= 14.8%  EQIX=  6.0%  AMT=  3.9%  SPG=  7.3%  DLR=  1.7%  CBRE= 12.6%  VTR=  1.3%  PSA=  1.2%  O=  1.2%  util=0.339721  Δ=-0.001777
+  EQIX+5%  WELL= 50.0%  PLD=  9.2%  EQIX= 11.5%  AMT=  3.9%  SPG=  7.3%  DLR=  1.7%  CBRE= 12.6%  VTR=  1.3%  PSA=  1.2%  O=  1.2%  util=0.338374  Δ=-0.003124
+  AMT+5%  WELL= 50.0%  PLD=  9.2%  EQIX=  6.0%  AMT=  9.5%  SPG=  7.3%  DLR=  1.7%  CBRE= 12.6%  VTR=  1.3%  PSA=  1.2%  O=  1.2%  util=0.334841  Δ=-0.006657
+  SPG+5%  WELL= 50.0%  PLD=  9.2%  EQIX=  6.0%  AMT=  3.9%  SPG= 12.9%  DLR=  1.7%  CBRE= 12.6%  VTR=  1.3%  PSA=  1.2%  O=  1.2%  util=0.347319  Δ=+0.005821
+  DLR+5%  WELL= 50.0%  PLD=  9.2%  EQIX=  6.0%  AMT=  3.9%  SPG=  7.3%  DLR=  7.3%  CBRE= 12.6%  VTR=  1.3%  PSA=  1.2%  O=  1.2%  util=0.344045  Δ=+0.002547
+  CBRE+5%  WELL= 50.0%  PLD=  9.2%  EQIX=  6.0%  AMT=  3.9%  SPG=  7.3%  DLR=  1.7%  CBRE= 18.1%  VTR=  1.3%  PSA=  1.2%  O=  1.2%  util=0.347193  Δ=+0.005695
+  VTR+5%  WELL= 50.0%  PLD=  9.2%  EQIX=  6.0%  AMT=  3.9%  SPG=  7.3%  DLR=  1.7%  CBRE= 12.6%  VTR=  6.8%  PSA=  1.2%  O=  1.2%  util=0.342033  Δ=+0.000535
+  PSA+5%  WELL= 50.0%  PLD=  9.2%  EQIX=  6.0%  AMT=  3.9%  SPG=  7.3%  DLR=  1.7%  CBRE= 12.6%  VTR=  1.3%  PSA=  6.8%  O=  1.2%  util=0.337562  Δ=-0.003936
+  O+5%  WELL= 50.0%  PLD=  9.2%  EQIX=  6.0%  AMT=  3.9%  SPG=  7.3%  DLR=  1.7%  CBRE= 12.6%  VTR=  1.3%  PSA=  1.2%  O=  6.8%  util=0.332403  Δ=-0.009095
+  ★ WINNER: Epoch 12  improvement=+0.005821
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=0.347319  feasible=10  step=0.0500  streak=13  T=0.0257]
+  WELL+5%  WELL= 55.0%  PLD=  8.6%  EQIX=  5.4%  AMT=  3.4%  SPG= 12.3%  DLR=  1.2%  CBRE= 12.0%  VTR=  0.7%  PSA=  0.7%  O=  0.7%  util=0.352769  Δ=+0.005450
+  PLD+5%  WELL= 49.4%  PLD= 14.2%  EQIX=  5.4%  AMT=  3.4%  SPG= 12.3%  DLR=  1.2%  CBRE= 12.0%  VTR=  0.7%  PSA=  0.7%  O=  0.7%  util=0.345302  Δ=-0.002017
+  EQIX+5%  WELL= 49.4%  PLD=  8.6%  EQIX= 11.0%  AMT=  3.4%  SPG= 12.3%  DLR=  1.2%  CBRE= 12.0%  VTR=  0.7%  PSA=  0.7%  O=  0.7%  util=0.344327  Δ=-0.002991
+  AMT+5%  WELL= 49.4%  PLD=  8.6%  EQIX=  5.4%  AMT=  8.9%  SPG= 12.3%  DLR=  1.2%  CBRE= 12.0%  VTR=  0.7%  PSA=  0.7%  O=  0.7%  util=0.340955  Δ=-0.006364
+  SPG+5%  WELL= 49.4%  PLD=  8.6%  EQIX=  5.4%  AMT=  3.4%  SPG= 17.9%  DLR=  1.2%  CBRE= 12.0%  VTR=  0.7%  PSA=  0.7%  O=  0.7%  util=0.351936  Δ=+0.004618
+  DLR+5%  WELL= 49.4%  PLD=  8.6%  EQIX=  5.4%  AMT=  3.4%  SPG= 12.3%  DLR=  6.7%  CBRE= 12.0%  VTR=  0.7%  PSA=  0.7%  O=  0.7%  util=0.350185  Δ=+0.002867
+  CBRE+5%  WELL= 49.4%  PLD=  8.6%  EQIX=  5.4%  AMT=  3.4%  SPG= 12.3%  DLR=  1.2%  CBRE= 17.6%  VTR=  0.7%  PSA=  0.7%  O=  0.7%  util=0.352570  Δ=+0.005251
+  VTR+5%  WELL= 49.4%  PLD=  8.6%  EQIX=  5.4%  AMT=  3.4%  SPG= 12.3%  DLR=  1.2%  CBRE= 12.0%  VTR=  6.3%  PSA=  0.7%  O=  0.7%  util=0.348134  Δ=+0.000815
+  PSA+5%  WELL= 49.4%  PLD=  8.6%  EQIX=  5.4%  AMT=  3.4%  SPG= 12.3%  DLR=  1.2%  CBRE= 12.0%  VTR=  0.7%  PSA=  6.2%  O=  0.7%  util=0.343491  Δ=-0.003828
+  O+5%  WELL= 49.4%  PLD=  8.6%  EQIX=  5.4%  AMT=  3.4%  SPG= 12.3%  DLR=  1.2%  CBRE= 12.0%  VTR=  0.7%  PSA=  0.7%  O=  6.2%  util=0.338347  Δ=-0.008972
+  ★ WINNER: Epoch 13  improvement=+0.005450
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=0.352769  feasible=10  step=0.0500  streak=14  T=0.0244]
+  WELL+5%  WELL= 60.0%  PLD=  8.1%  EQIX=  4.9%  AMT=  2.8%  SPG= 11.8%  DLR=  0.6%  CBRE= 11.5%  VTR=  0.2%  PSA=  0.1%  O=  0.1%  util=0.357509  Δ=+0.004741
+  PLD+5%  WELL= 54.4%  PLD= 13.6%  EQIX=  4.9%  AMT=  2.8%  SPG= 11.8%  DLR=  0.6%  CBRE= 11.5%  VTR=  0.2%  PSA=  0.1%  O=  0.1%  util=0.351089  Δ=-0.001679
+  EQIX+5%  WELL= 54.4%  PLD=  8.1%  EQIX= 10.4%  AMT=  2.8%  SPG= 11.8%  DLR=  0.6%  CBRE= 11.5%  VTR=  0.2%  PSA=  0.1%  O=  0.1%  util=0.349856  Δ=-0.002912
+  AMT+5%  WELL= 54.4%  PLD=  8.1%  EQIX=  4.9%  AMT=  8.4%  SPG= 11.8%  DLR=  0.6%  CBRE= 11.5%  VTR=  0.2%  PSA=  0.1%  O=  0.1%  util=0.346455  Δ=-0.006314
+  SPG+5%  WELL= 54.4%  PLD=  8.1%  EQIX=  4.9%  AMT=  2.8%  SPG= 17.3%  DLR=  0.6%  CBRE= 11.5%  VTR=  0.2%  PSA=  0.1%  O=  0.1%  util=0.357583  Δ=+0.004815
+  DLR+5%  WELL= 54.4%  PLD=  8.1%  EQIX=  4.9%  AMT=  2.8%  SPG= 11.8%  DLR=  6.2%  CBRE= 11.5%  VTR=  0.2%  PSA=  0.1%  O=  0.1%  util=0.355720  Δ=+0.002952
+  CBRE+5%  WELL= 54.4%  PLD=  8.1%  EQIX=  4.9%  AMT=  2.8%  SPG= 11.8%  DLR=  0.6%  CBRE= 17.0%  VTR=  0.2%  PSA=  0.1%  O=  0.1%  util=0.358379  Δ=+0.005611
+  VTR+5%  WELL= 54.4%  PLD=  8.1%  EQIX=  4.9%  AMT=  2.8%  SPG= 11.8%  DLR=  0.6%  CBRE= 11.5%  VTR=  5.7%  PSA=  0.1%  O=  0.1%  util=0.352987  Δ=+0.000219
+  PSA+5%  WELL= 54.4%  PLD=  8.1%  EQIX=  4.9%  AMT=  2.8%  SPG= 11.8%  DLR=  0.6%  CBRE= 11.5%  VTR=  0.2%  PSA=  5.7%  O=  0.1%  util=0.349276  Δ=-0.003493
+  O+5%  WELL= 54.4%  PLD=  8.1%  EQIX=  4.9%  AMT=  2.8%  SPG= 11.8%  DLR=  0.6%  CBRE= 11.5%  VTR=  0.2%  PSA=  0.1%  O=  5.7%  util=0.343875  Δ=-0.008894
+  ★ WINNER: Epoch 14  improvement=+0.005611
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=0.358379  feasible=0  step=0.0500  streak=15  T=0.0232]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.358379  (gain=+0.088210  epochs=16)

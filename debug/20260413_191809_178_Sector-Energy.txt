@@ -1,0 +1,140 @@
+=== OPTIMIZATION DEBUG: Sector-Energy ===
+Time:   Mon Apr 13 19:25:38 EDT 2026
+Start:  XOM= 30.7%  CVX= 22.5%  COP=  9.6%  SLB=  5.9%  WMB=  5.8%  EOG=  5.6%  VLO=  5.4%  MPC=  4.9%  PSX=  4.9%  KMI=  4.8%
+        utility = 2.537794
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=2.537794  feasible=10  step=0.0100  streak=0  T=0.0500]
+  XOM+1%  XOM= 31.7%  CVX= 22.4%  COP=  9.4%  SLB=  5.8%  WMB=  5.6%  EOG=  5.4%  VLO=  5.3%  MPC=  4.8%  PSX=  4.7%  KMI=  4.7%  util=2.530392  Δ=-0.007403
+  CVX+1%  XOM= 30.6%  CVX= 23.5%  COP=  9.4%  SLB=  5.8%  WMB=  5.6%  EOG=  5.4%  VLO=  5.3%  MPC=  4.8%  PSX=  4.7%  KMI=  4.7%  util=2.524244  Δ=-0.013550
+  COP+1%  XOM= 30.6%  CVX= 22.4%  COP= 10.6%  SLB=  5.8%  WMB=  5.6%  EOG=  5.4%  VLO=  5.3%  MPC=  4.8%  PSX=  4.7%  KMI=  4.7%  util=2.536045  Δ=-0.001750
+  SLB+1%  XOM= 30.6%  CVX= 22.4%  COP=  9.4%  SLB=  6.9%  WMB=  5.6%  EOG=  5.4%  VLO=  5.3%  MPC=  4.8%  PSX=  4.7%  KMI=  4.7%  util=2.536563  Δ=-0.001232
+  WMB+1%  XOM= 30.6%  CVX= 22.4%  COP=  9.4%  SLB=  5.8%  WMB=  6.8%  EOG=  5.4%  VLO=  5.3%  MPC=  4.8%  PSX=  4.7%  KMI=  4.7%  util=2.550340  Δ=+0.012546
+  EOG+1%  XOM= 30.6%  CVX= 22.4%  COP=  9.4%  SLB=  5.8%  WMB=  5.6%  EOG=  6.6%  VLO=  5.3%  MPC=  4.8%  PSX=  4.7%  KMI=  4.7%  util=2.530081  Δ=-0.007713
+  VLO+1%  XOM= 30.6%  CVX= 22.4%  COP=  9.4%  SLB=  5.8%  WMB=  5.6%  EOG=  5.4%  VLO=  6.4%  MPC=  4.8%  PSX=  4.7%  KMI=  4.7%  util=2.542879  Δ=+0.005085
+  MPC+1%  XOM= 30.6%  CVX= 22.4%  COP=  9.4%  SLB=  5.8%  WMB=  5.6%  EOG=  5.4%  VLO=  5.3%  MPC=  5.9%  PSX=  4.7%  KMI=  4.7%  util=2.553905  Δ=+0.016111
+  PSX+1%  XOM= 30.6%  CVX= 22.4%  COP=  9.4%  SLB=  5.8%  WMB=  5.6%  EOG=  5.4%  VLO=  5.3%  MPC=  4.8%  PSX=  5.9%  KMI=  4.7%  util=2.533750  Δ=-0.004045
+  KMI+1%  XOM= 30.6%  CVX= 22.4%  COP=  9.4%  SLB=  5.8%  WMB=  5.6%  EOG=  5.4%  VLO=  5.3%  MPC=  4.8%  PSX=  4.7%  KMI=  5.8%  util=2.538583  Δ=+0.000788
+  ★ WINNER: Epoch 0  improvement=+0.016111
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=2.553905  feasible=10  step=0.0200  streak=1  T=0.0475]
+  XOM+2%  XOM= 32.6%  CVX= 22.2%  COP=  9.2%  SLB=  5.5%  WMB=  5.4%  EOG=  5.2%  VLO=  5.0%  MPC=  5.7%  PSX=  4.5%  KMI=  4.5%  util=2.539023  Δ=-0.014882
+  CVX+2%  XOM= 30.4%  CVX= 24.4%  COP=  9.2%  SLB=  5.5%  WMB=  5.4%  EOG=  5.2%  VLO=  5.0%  MPC=  5.7%  PSX=  4.5%  KMI=  4.5%  util=2.526709  Δ=-0.027196
+  COP+2%  XOM= 30.4%  CVX= 22.2%  COP= 11.4%  SLB=  5.5%  WMB=  5.4%  EOG=  5.2%  VLO=  5.0%  MPC=  5.7%  PSX=  4.5%  KMI=  4.5%  util=2.550284  Δ=-0.003621
+  SLB+2%  XOM= 30.4%  CVX= 22.2%  COP=  9.2%  SLB=  7.8%  WMB=  5.4%  EOG=  5.2%  VLO=  5.0%  MPC=  5.7%  PSX=  4.5%  KMI=  4.5%  util=2.551175  Δ=-0.002730
+  WMB+2%  XOM= 30.4%  CVX= 22.2%  COP=  9.2%  SLB=  5.5%  WMB=  7.6%  EOG=  5.2%  VLO=  5.0%  MPC=  5.7%  PSX=  4.5%  KMI=  4.5%  util=2.579327  Δ=+0.025422
+  EOG+2%  XOM= 30.4%  CVX= 22.2%  COP=  9.2%  SLB=  5.5%  WMB=  5.4%  EOG=  7.4%  VLO=  5.0%  MPC=  5.7%  PSX=  4.5%  KMI=  4.5%  util=2.538449  Δ=-0.015457
+  VLO+2%  XOM= 30.4%  CVX= 22.2%  COP=  9.2%  SLB=  5.5%  WMB=  5.4%  EOG=  5.2%  VLO=  7.3%  MPC=  5.7%  PSX=  4.5%  KMI=  4.5%  util=2.563475  Δ=+0.009570
+  MPC+2%  XOM= 30.4%  CVX= 22.2%  COP=  9.2%  SLB=  5.5%  WMB=  5.4%  EOG=  5.2%  VLO=  5.0%  MPC=  7.9%  PSX=  4.5%  KMI=  4.5%  util=2.585024  Δ=+0.031118
+  PSX+2%  XOM= 30.4%  CVX= 22.2%  COP=  9.2%  SLB=  5.5%  WMB=  5.4%  EOG=  5.2%  VLO=  5.0%  MPC=  5.7%  PSX=  6.7%  KMI=  4.5%  util=2.545219  Δ=-0.008686
+  KMI+2%  XOM= 30.4%  CVX= 22.2%  COP=  9.2%  SLB=  5.5%  WMB=  5.4%  EOG=  5.2%  VLO=  5.0%  MPC=  5.7%  PSX=  4.5%  KMI=  6.7%  util=2.555693  Δ=+0.001787
+  ★ WINNER: Epoch 1  improvement=+0.031118
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=2.585024  feasible=10  step=0.0300  streak=2  T=0.0451]
+  XOM+3%  XOM= 33.4%  CVX= 21.9%  COP=  8.9%  SLB=  5.2%  WMB=  5.1%  EOG=  4.9%  VLO=  4.7%  MPC=  7.6%  PSX=  4.2%  KMI=  4.2%  util=2.562640  Δ=-0.022383
+  CVX+3%  XOM= 30.1%  CVX= 25.2%  COP=  8.9%  SLB=  5.2%  WMB=  5.1%  EOG=  4.9%  VLO=  4.7%  MPC=  7.6%  PSX=  4.2%  KMI=  4.2%  util=2.544241  Δ=-0.040783
+  COP+3%  XOM= 30.1%  CVX= 21.9%  COP= 12.2%  SLB=  5.2%  WMB=  5.1%  EOG=  4.9%  VLO=  4.7%  MPC=  7.6%  PSX=  4.2%  KMI=  4.2%  util=2.579502  Δ=-0.005522
+  SLB+3%  XOM= 30.1%  CVX= 21.9%  COP=  8.9%  SLB=  8.5%  WMB=  5.1%  EOG=  4.9%  VLO=  4.7%  MPC=  7.6%  PSX=  4.2%  KMI=  4.2%  util=2.580339  Δ=-0.004685
+  WMB+3%  XOM= 30.1%  CVX= 21.9%  COP=  8.9%  SLB=  5.2%  WMB=  8.4%  EOG=  4.9%  VLO=  4.7%  MPC=  7.6%  PSX=  4.2%  KMI=  4.2%  util=2.624461  Δ=+0.039437
+  EOG+3%  XOM= 30.1%  CVX= 21.9%  COP=  8.9%  SLB=  5.2%  WMB=  5.1%  EOG=  8.2%  VLO=  4.7%  MPC=  7.6%  PSX=  4.2%  KMI=  4.2%  util=2.561900  Δ=-0.023124
+  VLO+3%  XOM= 30.1%  CVX= 21.9%  COP=  8.9%  SLB=  5.2%  WMB=  5.1%  EOG=  4.9%  VLO=  8.0%  MPC=  7.6%  PSX=  4.2%  KMI=  4.2%  util=2.597856  Δ=+0.012833
+  MPC+3%  XOM= 30.1%  CVX= 21.9%  COP=  8.9%  SLB=  5.2%  WMB=  5.1%  EOG=  4.9%  VLO=  4.7%  MPC= 10.9%  PSX=  4.2%  KMI=  4.2%  util=2.628888  Δ=+0.043864
+  PSX+3%  XOM= 30.1%  CVX= 21.9%  COP=  8.9%  SLB=  5.2%  WMB=  5.1%  EOG=  4.9%  VLO=  4.7%  MPC=  7.6%  PSX=  7.5%  KMI=  4.2%  util=2.570842  Δ=-0.014181
+  KMI+3%  XOM= 30.1%  CVX= 21.9%  COP=  8.9%  SLB=  5.2%  WMB=  5.1%  EOG=  4.9%  VLO=  4.7%  MPC=  7.6%  PSX=  4.2%  KMI=  7.5%  util=2.588821  Δ=+0.003797
+  ★ WINNER: Epoch 2  improvement=+0.043864
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=2.628888  feasible=10  step=0.0400  streak=3  T=0.0429]
+  XOM+4%  XOM= 34.1%  CVX= 21.4%  COP=  8.4%  SLB=  4.8%  WMB=  4.6%  EOG=  4.4%  VLO=  4.3%  MPC= 10.5%  PSX=  3.7%  KMI=  3.7%  util=2.599074  Δ=-0.029814
+  CVX+4%  XOM= 29.6%  CVX= 25.9%  COP=  8.4%  SLB=  4.8%  WMB=  4.6%  EOG=  4.4%  VLO=  4.3%  MPC= 10.5%  PSX=  3.7%  KMI=  3.7%  util=2.574806  Δ=-0.054082
+  COP+4%  XOM= 29.6%  CVX= 21.4%  COP= 12.9%  SLB=  4.8%  WMB=  4.6%  EOG=  4.4%  VLO=  4.3%  MPC= 10.5%  PSX=  3.7%  KMI=  3.7%  util=2.621540  Δ=-0.007348
+  SLB+4%  XOM= 29.6%  CVX= 21.4%  COP=  8.4%  SLB=  9.2%  WMB=  4.6%  EOG=  4.4%  VLO=  4.3%  MPC= 10.5%  PSX=  3.7%  KMI=  3.7%  util=2.621726  Δ=-0.007162
+  WMB+4%  XOM= 29.6%  CVX= 21.4%  COP=  8.4%  SLB=  4.8%  WMB=  9.1%  EOG=  4.4%  VLO=  4.3%  MPC= 10.5%  PSX=  3.7%  KMI=  3.7%  util=2.684201  Δ=+0.055313
+  EOG+4%  XOM= 29.6%  CVX= 21.4%  COP=  8.4%  SLB=  4.8%  WMB=  4.6%  EOG=  8.9%  VLO=  4.3%  MPC= 10.5%  PSX=  3.7%  KMI=  3.7%  util=2.598297  Δ=-0.030591
+  VLO+4%  XOM= 29.6%  CVX= 21.4%  COP=  8.4%  SLB=  4.8%  WMB=  4.6%  EOG=  4.4%  VLO=  8.7%  MPC= 10.5%  PSX=  3.7%  KMI=  3.7%  util=2.642644  Δ=+0.013756
+  MPC+4%  XOM= 29.6%  CVX= 21.4%  COP=  8.4%  SLB=  4.8%  WMB=  4.6%  EOG=  4.4%  VLO=  4.3%  MPC= 14.9%  PSX=  3.7%  KMI=  3.7%  util=2.681917  Δ=+0.053029
+  PSX+4%  XOM= 29.6%  CVX= 21.4%  COP=  8.4%  SLB=  4.8%  WMB=  4.6%  EOG=  4.4%  VLO=  4.3%  MPC= 10.5%  PSX=  8.2%  KMI=  3.7%  util=2.608147  Δ=-0.020741
+  KMI+4%  XOM= 29.6%  CVX= 21.4%  COP=  8.4%  SLB=  4.8%  WMB=  4.6%  EOG=  4.4%  VLO=  4.3%  MPC= 10.5%  PSX=  3.7%  KMI=  8.2%  util=2.636482  Δ=+0.007594
+  ★ WINNER: Epoch 3  improvement=+0.055313
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=2.684201  feasible=10  step=0.0500  streak=4  T=0.0407]
+  XOM+5%  XOM= 34.6%  CVX= 20.9%  COP=  7.9%  SLB=  4.2%  WMB=  8.5%  EOG=  3.9%  VLO=  3.7%  MPC=  9.9%  PSX=  3.2%  KMI=  3.2%  util=2.646500  Δ=-0.037701
+  CVX+5%  XOM= 29.1%  CVX= 26.4%  COP=  7.9%  SLB=  4.2%  WMB=  8.5%  EOG=  3.9%  VLO=  3.7%  MPC=  9.9%  PSX=  3.2%  KMI=  3.2%  util=2.615431  Δ=-0.068770
+  COP+5%  XOM= 29.1%  CVX= 20.9%  COP= 13.4%  SLB=  4.2%  WMB=  8.5%  EOG=  3.9%  VLO=  3.7%  MPC=  9.9%  PSX=  3.2%  KMI=  3.2%  util=2.675732  Δ=-0.008470
+  SLB+5%  XOM= 29.1%  CVX= 20.9%  COP=  7.9%  SLB=  9.8%  WMB=  8.5%  EOG=  3.9%  VLO=  3.7%  MPC=  9.9%  PSX=  3.2%  KMI=  3.2%  util=2.675796  Δ=-0.008405
+  WMB+5%  XOM= 29.1%  CVX= 20.9%  COP=  7.9%  SLB=  4.2%  WMB= 14.1%  EOG=  3.9%  VLO=  3.7%  MPC=  9.9%  PSX=  3.2%  KMI=  3.2%  util=2.746850  Δ=+0.062649
+  EOG+5%  XOM= 29.1%  CVX= 20.9%  COP=  7.9%  SLB=  4.2%  WMB=  8.5%  EOG=  9.4%  VLO=  3.7%  MPC=  9.9%  PSX=  3.2%  KMI=  3.2%  util=2.644598  Δ=-0.039603
+  VLO+5%  XOM= 29.1%  CVX= 20.9%  COP=  7.9%  SLB=  4.2%  WMB=  8.5%  EOG=  3.9%  VLO=  9.3%  MPC=  9.9%  PSX=  3.2%  KMI=  3.2%  util=2.702348  Δ=+0.018147
+  MPC+5%  XOM= 29.1%  CVX= 20.9%  COP=  7.9%  SLB=  4.2%  WMB=  8.5%  EOG=  3.9%  VLO=  3.7%  MPC= 15.5%  PSX=  3.2%  KMI=  3.2%  util=2.754530  Δ=+0.070329
+  PSX+5%  XOM= 29.1%  CVX= 20.9%  COP=  7.9%  SLB=  4.2%  WMB=  8.5%  EOG=  3.9%  VLO=  3.7%  MPC=  9.9%  PSX=  8.7%  KMI=  3.2%  util=2.657654  Δ=-0.026547
+  KMI+5%  XOM= 29.1%  CVX= 20.9%  COP=  7.9%  SLB=  4.2%  WMB=  8.5%  EOG=  3.9%  VLO=  3.7%  MPC=  9.9%  PSX=  3.2%  KMI=  8.7%  util=2.688645  Δ=+0.004444
+  ★ WINNER: Epoch 4  improvement=+0.070329
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=2.754530  feasible=10  step=0.0500  streak=5  T=0.0387]
+  XOM+5%  XOM= 34.1%  CVX= 20.3%  COP=  7.3%  SLB=  3.7%  WMB=  8.0%  EOG=  3.3%  VLO=  3.1%  MPC= 14.9%  PSX=  2.6%  KMI=  2.6%  util=2.717559  Δ=-0.036971
+  CVX+5%  XOM= 28.5%  CVX= 25.9%  COP=  7.3%  SLB=  3.7%  WMB=  8.0%  EOG=  3.3%  VLO=  3.1%  MPC= 14.9%  PSX=  2.6%  KMI=  2.6%  util=2.687483  Δ=-0.067047
+  COP+5%  XOM= 28.5%  CVX= 20.3%  COP= 12.9%  SLB=  3.7%  WMB=  8.0%  EOG=  3.3%  VLO=  3.1%  MPC= 14.9%  PSX=  2.6%  KMI=  2.6%  util=2.747230  Δ=-0.007299
+  SLB+5%  XOM= 28.5%  CVX= 20.3%  COP=  7.3%  SLB=  9.2%  WMB=  8.0%  EOG=  3.3%  VLO=  3.1%  MPC= 14.9%  PSX=  2.6%  KMI=  2.6%  util=2.745301  Δ=-0.009229
+  WMB+5%  XOM= 28.5%  CVX= 20.3%  COP=  7.3%  SLB=  3.7%  WMB= 13.5%  EOG=  3.3%  VLO=  3.1%  MPC= 14.9%  PSX=  2.6%  KMI=  2.6%  util=2.823739  Δ=+0.069209
+  EOG+5%  XOM= 28.5%  CVX= 20.3%  COP=  7.3%  SLB=  3.7%  WMB=  8.0%  EOG=  8.9%  VLO=  3.1%  MPC= 14.9%  PSX=  2.6%  KMI=  2.6%  util=2.716025  Δ=-0.038505
+  VLO+5%  XOM= 28.5%  CVX= 20.3%  COP=  7.3%  SLB=  3.7%  WMB=  8.0%  EOG=  3.3%  VLO=  8.7%  MPC= 14.9%  PSX=  2.6%  KMI=  2.6%  util=2.766627  Δ=+0.012097
+  MPC+5%  XOM= 28.5%  CVX= 20.3%  COP=  7.3%  SLB=  3.7%  WMB=  8.0%  EOG=  3.3%  VLO=  3.1%  MPC= 20.5%  PSX=  2.6%  KMI=  2.6%  util=2.814036  Δ=+0.059506
+  PSX+5%  XOM= 28.5%  CVX= 20.3%  COP=  7.3%  SLB=  3.7%  WMB=  8.0%  EOG=  3.3%  VLO=  3.1%  MPC= 14.9%  PSX=  8.2%  KMI=  2.6%  util=2.725625  Δ=-0.028905
+  KMI+5%  XOM= 28.5%  CVX= 20.3%  COP=  7.3%  SLB=  3.7%  WMB=  8.0%  EOG=  3.3%  VLO=  3.1%  MPC= 14.9%  PSX=  2.6%  KMI=  8.2%  util=2.765776  Δ=+0.011246
+  ★ WINNER: Epoch 5  improvement=+0.069209
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=2.823739  feasible=10  step=0.0500  streak=6  T=0.0368]
+  XOM+5%  XOM= 33.5%  CVX= 19.8%  COP=  6.8%  SLB=  3.1%  WMB= 13.0%  EOG=  2.8%  VLO=  2.6%  MPC= 14.4%  PSX=  2.1%  KMI=  2.1%  util=2.786929  Δ=-0.036810
+  CVX+5%  XOM= 27.9%  CVX= 25.3%  COP=  6.8%  SLB=  3.1%  WMB= 13.0%  EOG=  2.8%  VLO=  2.6%  MPC= 14.4%  PSX=  2.1%  KMI=  2.1%  util=2.756405  Δ=-0.067334
+  COP+5%  XOM= 27.9%  CVX= 19.8%  COP= 12.3%  SLB=  3.1%  WMB= 13.0%  EOG=  2.8%  VLO=  2.6%  MPC= 14.4%  PSX=  2.1%  KMI=  2.1%  util=2.818519  Δ=-0.005219
+  SLB+5%  XOM= 27.9%  CVX= 19.8%  COP=  6.8%  SLB=  8.7%  WMB= 13.0%  EOG=  2.8%  VLO=  2.6%  MPC= 14.4%  PSX=  2.1%  KMI=  2.1%  util=2.816514  Δ=-0.007225
+  WMB+5%  XOM= 27.9%  CVX= 19.8%  COP=  6.8%  SLB=  3.1%  WMB= 18.5%  EOG=  2.8%  VLO=  2.6%  MPC= 14.4%  PSX=  2.1%  KMI=  2.1%  util=2.884105  Δ=+0.060366
+  EOG+5%  XOM= 27.9%  CVX= 19.8%  COP=  6.8%  SLB=  3.1%  WMB= 13.0%  EOG=  8.3%  VLO=  2.6%  MPC= 14.4%  PSX=  2.1%  KMI=  2.1%  util=2.784138  Δ=-0.039601
+  VLO+5%  XOM= 27.9%  CVX= 19.8%  COP=  6.8%  SLB=  3.1%  WMB= 13.0%  EOG=  2.8%  VLO=  8.1%  MPC= 14.4%  PSX=  2.1%  KMI=  2.1%  util=2.838037  Δ=+0.014298
+  MPC+5%  XOM= 27.9%  CVX= 19.8%  COP=  6.8%  SLB=  3.1%  WMB= 13.0%  EOG=  2.8%  VLO=  2.6%  MPC= 19.9%  PSX=  2.1%  KMI=  2.1%  util=2.889083  Δ=+0.065344
+  PSX+5%  XOM= 27.9%  CVX= 19.8%  COP=  6.8%  SLB=  3.1%  WMB= 13.0%  EOG=  2.8%  VLO=  2.6%  MPC= 14.4%  PSX=  7.6%  KMI=  2.1%  util=2.795436  Δ=-0.028303
+  KMI+5%  XOM= 27.9%  CVX= 19.8%  COP=  6.8%  SLB=  3.1%  WMB= 13.0%  EOG=  2.8%  VLO=  2.6%  MPC= 14.4%  PSX=  2.1%  KMI=  7.6%  util=2.828708  Δ=+0.004969
+  ★ WINNER: Epoch 6  improvement=+0.065344
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=2.889083  feasible=10  step=0.0500  streak=7  T=0.0349]
+  XOM+5%  XOM= 32.9%  CVX= 19.2%  COP=  6.2%  SLB=  2.5%  WMB= 12.4%  EOG=  2.2%  VLO=  2.0%  MPC= 19.4%  PSX=  1.5%  KMI=  1.5%  util=2.853264  Δ=-0.035819
+  CVX+5%  XOM= 27.4%  CVX= 24.8%  COP=  6.2%  SLB=  2.5%  WMB= 12.4%  EOG=  2.2%  VLO=  2.0%  MPC= 19.4%  PSX=  1.5%  KMI=  1.5%  util=2.823932  Δ=-0.065151
+  COP+5%  XOM= 27.4%  CVX= 19.2%  COP= 11.8%  SLB=  2.5%  WMB= 12.4%  EOG=  2.2%  VLO=  2.0%  MPC= 19.4%  PSX=  1.5%  KMI=  1.5%  util=2.885490  Δ=-0.003593
+  SLB+5%  XOM= 27.4%  CVX= 19.2%  COP=  6.2%  SLB=  8.1%  WMB= 12.4%  EOG=  2.2%  VLO=  2.0%  MPC= 19.4%  PSX=  1.5%  KMI=  1.5%  util=2.881618  Δ=-0.007464
+  WMB+5%  XOM= 27.4%  CVX= 19.2%  COP=  6.2%  SLB=  2.5%  WMB= 18.0%  EOG=  2.2%  VLO=  2.0%  MPC= 19.4%  PSX=  1.5%  KMI=  1.5%  util=2.955712  Δ=+0.066629
+  EOG+5%  XOM= 27.4%  CVX= 19.2%  COP=  6.2%  SLB=  2.5%  WMB= 12.4%  EOG=  7.8%  VLO=  2.0%  MPC= 19.4%  PSX=  1.5%  KMI=  1.5%  util=2.850913  Δ=-0.038169
+  VLO+5%  XOM= 27.4%  CVX= 19.2%  COP=  6.2%  SLB=  2.5%  WMB= 12.4%  EOG=  2.2%  VLO=  7.6%  MPC= 19.4%  PSX=  1.5%  KMI=  1.5%  util=2.897189  Δ=+0.008107
+  MPC+5%  XOM= 27.4%  CVX= 19.2%  COP=  6.2%  SLB=  2.5%  WMB= 12.4%  EOG=  2.2%  VLO=  2.0%  MPC= 24.9%  PSX=  1.5%  KMI=  1.5%  util=2.942732  Δ=+0.053650
+  PSX+5%  XOM= 27.4%  CVX= 19.2%  COP=  6.2%  SLB=  2.5%  WMB= 12.4%  EOG=  2.2%  VLO=  2.0%  MPC= 19.4%  PSX=  7.1%  KMI=  1.5%  util=2.858490  Δ=-0.030593
+  KMI+5%  XOM= 27.4%  CVX= 19.2%  COP=  6.2%  SLB=  2.5%  WMB= 12.4%  EOG=  2.2%  VLO=  2.0%  MPC= 19.4%  PSX=  1.5%  KMI=  7.1%  util=2.900947  Δ=+0.011865
+  ★ WINNER: Epoch 7  improvement=+0.066629
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=2.955712  feasible=10  step=0.0500  streak=8  T=0.0332]
+  XOM+5%  XOM= 32.4%  CVX= 18.7%  COP=  5.7%  SLB=  2.0%  WMB= 17.4%  EOG=  1.7%  VLO=  1.5%  MPC= 18.8%  PSX=  1.0%  KMI=  0.9%  util=2.920296  Δ=-0.035415
+  CVX+5%  XOM= 26.8%  CVX= 24.2%  COP=  5.7%  SLB=  2.0%  WMB= 17.4%  EOG=  1.7%  VLO=  1.5%  MPC= 18.8%  PSX=  1.0%  KMI=  0.9%  util=2.890918  Δ=-0.064793
+  COP+5%  XOM= 26.8%  CVX= 18.7%  COP= 11.2%  SLB=  2.0%  WMB= 17.4%  EOG=  1.7%  VLO=  1.5%  MPC= 18.8%  PSX=  1.0%  KMI=  0.9%  util=2.954593  Δ=-0.001119
+  SLB+5%  XOM= 26.8%  CVX= 18.7%  COP=  5.7%  SLB=  7.5%  WMB= 17.4%  EOG=  1.7%  VLO=  1.5%  MPC= 18.8%  PSX=  1.0%  KMI=  0.9%  util=2.950856  Δ=-0.004855
+  WMB+5%  XOM= 26.8%  CVX= 18.7%  COP=  5.7%  SLB=  2.0%  WMB= 23.0%  EOG=  1.7%  VLO=  1.5%  MPC= 18.8%  PSX=  1.0%  KMI=  0.9%  util=3.012599  Δ=+0.056888
+  EOG+5%  XOM= 26.8%  CVX= 18.7%  COP=  5.7%  SLB=  2.0%  WMB= 17.4%  EOG=  7.2%  VLO=  1.5%  MPC= 18.8%  PSX=  1.0%  KMI=  0.9%  util=2.916597  Δ=-0.039115
+  VLO+5%  XOM= 26.8%  CVX= 18.7%  COP=  5.7%  SLB=  2.0%  WMB= 17.4%  EOG=  1.7%  VLO=  7.0%  MPC= 18.8%  PSX=  1.0%  KMI=  0.9%  util=2.966414  Δ=+0.010703
+  MPC+5%  XOM= 26.8%  CVX= 18.7%  COP=  5.7%  SLB=  2.0%  WMB= 17.4%  EOG=  1.7%  VLO=  1.5%  MPC= 24.4%  PSX=  1.0%  KMI=  0.9%  util=3.014732  Δ=+0.059021
+  PSX+5%  XOM= 26.8%  CVX= 18.7%  COP=  5.7%  SLB=  2.0%  WMB= 17.4%  EOG=  1.7%  VLO=  1.5%  MPC= 18.8%  PSX=  6.5%  KMI=  0.9%  util=2.926008  Δ=-0.029704
+  KMI+5%  XOM= 26.8%  CVX= 18.7%  COP=  5.7%  SLB=  2.0%  WMB= 17.4%  EOG=  1.7%  VLO=  1.5%  MPC= 18.8%  PSX=  1.0%  KMI=  6.5%  util=2.960206  Δ=+0.004494
+  ★ WINNER: Epoch 8  improvement=+0.059021
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=3.014732  feasible=10  step=0.0500  streak=9  T=0.0315]
+  XOM+5%  XOM= 31.8%  CVX= 18.1%  COP=  5.1%  SLB=  1.4%  WMB= 16.9%  EOG=  1.1%  VLO=  0.9%  MPC= 23.8%  PSX=  0.4%  KMI=  0.4%  util=2.980433  Δ=-0.034299
+  CVX+5%  XOM= 26.3%  CVX= 23.7%  COP=  5.1%  SLB=  1.4%  WMB= 16.9%  EOG=  1.1%  VLO=  0.9%  MPC= 23.8%  PSX=  0.4%  KMI=  0.4%  util=2.952378  Δ=-0.062354
+  COP+5%  XOM= 26.3%  CVX= 18.1%  COP= 10.7%  SLB=  1.4%  WMB= 16.9%  EOG=  1.1%  VLO=  0.9%  MPC= 23.8%  PSX=  0.4%  KMI=  0.4%  util=3.015473  Δ=+0.000740
+  SLB+5%  XOM= 26.3%  CVX= 18.1%  COP=  5.1%  SLB=  7.0%  WMB= 16.9%  EOG=  1.1%  VLO=  0.9%  MPC= 23.8%  PSX=  0.4%  KMI=  0.4%  util=3.009859  Δ=-0.004874
+  WMB+5%  XOM= 26.3%  CVX= 18.1%  COP=  5.1%  SLB=  1.4%  WMB= 22.4%  EOG=  1.1%  VLO=  0.9%  MPC= 23.8%  PSX=  0.4%  KMI=  0.4%  util=3.077542  Δ=+0.062810
+  EOG+5%  XOM= 26.3%  CVX= 18.1%  COP=  5.1%  SLB=  1.4%  WMB= 16.9%  EOG=  6.7%  VLO=  0.9%  MPC= 23.8%  PSX=  0.4%  KMI=  0.4%  util=2.977230  Δ=-0.037502
+  VLO+5%  XOM= 26.3%  CVX= 18.1%  COP=  5.1%  SLB=  1.4%  WMB= 16.9%  EOG=  1.1%  VLO=  6.5%  MPC= 23.8%  PSX=  0.4%  KMI=  0.4%  util=3.019177  Δ=+0.004445
+  MPC+5%  XOM= 26.3%  CVX= 18.1%  COP=  5.1%  SLB=  1.4%  WMB= 16.9%  EOG=  1.1%  VLO=  0.9%  MPC= 29.4%  PSX=  0.4%  KMI=  0.4%  util=3.061961  Δ=+0.047229
+  PSX+5%  XOM= 26.3%  CVX= 18.1%  COP=  5.1%  SLB=  1.4%  WMB= 16.9%  EOG=  1.1%  VLO=  0.9%  MPC= 23.8%  PSX=  6.0%  KMI=  0.4%  util=2.982814  Δ=-0.031918
+  KMI+5%  XOM= 26.3%  CVX= 18.1%  COP=  5.1%  SLB=  1.4%  WMB= 16.9%  EOG=  1.1%  VLO=  0.9%  MPC= 23.8%  PSX=  0.4%  KMI=  5.9%  util=3.026034  Δ=+0.011302
+  ★ WINNER: Epoch 9  improvement=+0.062810
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=3.077542  feasible=0  step=0.0500  streak=10  T=0.0299]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=3.077542  (gain=+0.539748  epochs=11)

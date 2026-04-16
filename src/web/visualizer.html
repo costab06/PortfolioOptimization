@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Optimization Path Visualizer</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #0f1117; color: #e0e0e0; }
+
+header {
+  padding: 16px 24px;
+  border-bottom: 1px solid #2a2a3a;
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+}
+header h1 { font-size: 1.1rem; font-weight: 600; color: #fff; }
+.controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+button {
+  padding: 6px 14px; border: 1px solid #444; border-radius: 6px;
+  background: #1e1e2e; color: #ccc; cursor: pointer; font-size: .82rem;
+}
+button:hover { background: #2a2a3e; border-color: #666; }
+select {
+  padding: 5px 10px; border: 1px solid #444; border-radius: 6px;
+  background: #1e1e2e; color: #ccc; font-size: .82rem;
+}
+#session-label { font-size: .8rem; color: #888; }
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  grid-template-rows: 1fr auto;
+  gap: 12px;
+  padding: 12px;
+  height: calc(100vh - 57px);
+}
+
+.panel {
+  background: #161622;
+  border: 1px solid #2a2a3a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.panel-title {
+  padding: 8px 14px;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #888;
+  border-bottom: 1px solid #2a2a3a;
+  flex-shrink: 0;
+}
+
+/* Weight charts panel — spans both rows on the left */
+#weights-panel {
+  grid-row: 1 / 3;
+  display: flex;
+  flex-direction: column;
+}
+#weight-charts-grid {
+  flex: 1;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 8px;
+  padding: 8px;
+  align-content: start;
+}
+.wc-wrapper {
+  background: #0e0e1c;
+  border: 1px solid #1e1e2e;
+  border-radius: 5px;
+}
+.wc-title {
+  font-size: .7rem;
+  color: #7aabdc;
+  padding: 5px 8px 2px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.wc-svg { display: block; width: 100%; }
+
+/* Utility panel */
+#utility-svg { display: block; width: 100%; }
+
+/* Legend */
+#legend {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  padding: 8px 12px;
+  border-top: 1px solid #2a2a3a;
+  flex-shrink: 0;
+}
+.legend-item {
+  display: flex; align-items: center; gap: 5px;
+  font-size: .78rem; color: #bbb; cursor: pointer;
+  padding: 3px 8px; border-radius: 4px;
+  border: 1px solid transparent;
+  transition: border-color .15s;
+}
+.legend-item:hover { border-color: #555; }
+.legend-item.hidden { opacity: .3; }
+.legend-dot {
+  width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+}
+
+/* Detail panel */
+#detail-subtitle { font-weight:400; text-transform:none; color:#666; font-size:.85em; }
+#detail-info {
+  padding: 10px 14px;
+  font-size: .8rem;
+  color: #aaa;
+  overflow-y: auto;
+  max-height: 220px;
+}
+#detail-info .epoch-header { margin-bottom: 8px; color: #ccc; font-weight: 600; }
+#detail-info table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+#detail-info th {
+  text-align: left; padding: 3px 8px;
+  color: #666; font-weight: 500; border-bottom: 1px solid #2a2a3a;
+}
+#detail-info td { padding: 3px 8px; border-bottom: 1px solid #1a1a2a; }
+#detail-info tr.winner td { color: #7ecb7e; }
+#detail-info tr.stopped td { color: #e07070; }
+#detail-info .delta-pos { color: #7ecb7e; }
+#detail-info .delta-neg { color: #e07070; }
+
+/* Tooltip */
+#tooltip {
+  position: fixed; pointer-events: none;
+  background: #1e1e30; border: 1px solid #444; border-radius: 6px;
+  padding: 8px 12px; font-size: .78rem; color: #ccc;
+  display: none; z-index: 100; max-width: 260px; line-height: 1.5;
+}
+#tooltip strong { color: #fff; display: block; margin-bottom: 3px; }
+#tooltip .tw { color: #9bbfe8; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Optimization Path Visualizer</h1>
+  <div class="controls">
+    <select id="session-select"><option value="">— load a debug session —</option></select>
+    <button id="btn-recent">Load most recent run</button>
+    <span id="session-label"></span>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="panel" id="weights-panel">
+    <div class="panel-title">Weight Trajectories</div>
+    <div id="weight-charts-grid"></div>
+    <div id="legend"></div>
+  </div>
+
+  <div class="panel" id="utility-panel">
+    <div class="panel-title">Utility Convergence</div>
+    <svg id="utility-svg" viewBox="0 0 360 200"></svg>
+  </div>
+
+  <div class="panel" id="detail-panel">
+    <div class="panel-title">Epoch Detail <span id="detail-subtitle"></span></div>
+    <div id="detail-info"><span style="color:#555">Hover over a chart to inspect an epoch.</span></div>
+  </div>
+
+</div>
+
+<div id="tooltip"></div>
+
+<script>
+// ─── Palette ──────────────────────────────────────────────────────────────────
+const PALETTE = [
+  '#4e9af1','#f0833a','#56c47a','#e05c7a','#a67cdc',
+  '#f5c542','#4ec9c9','#c98a5e','#9dc96b','#e08adc',
+];
+
+// ─── Chart geometry constants ─────────────────────────────────────────────────
+// Weight chart viewBox
+const WC = { VW: 260, VH: 110, pl: 30, pr: 4, pt: 6, pb: 16 };
+WC.cw = WC.VW - WC.pl - WC.pr;
+WC.ch = WC.VH - WC.pt - WC.pb;
+
+// Utility chart viewBox
+const UC = { VW: 360, VH: 200, pl: 50, pr: 12, pt: 12, pb: 26 };
+UC.cw = UC.VW - UC.pl - UC.pr;
+UC.ch = UC.VH - UC.pt - UC.pb;
+
+// ─── State ────────────────────────────────────────────────────────────────────
+let runs    = [];
+let hidden  = new Set();
+let pinned  = null;   // {step} — pinned epoch step index
+let maxStep = 0;
+
+// ─── Data loading ─────────────────────────────────────────────────────────────
+async function apiGet(path) {
+  const r = await fetch('/api' + path);
+  return r.json();
+}
+
+async function loadSession(files) {
+  runs = [];
+  for (const f of files) {
+    try {
+      const r = await fetch('/api/debug/' + encodeURIComponent(f));
+      runs.push(processRun(await r.json(), runs.length));
+    } catch (e) { console.warn('failed to load', f, e); }
+  }
+  render();
+}
+
+function processRun(raw, idx) {
+  const syms = raw.symbols;
+
+  // path: [{weights, utility, epochIdx, epochData?}, ...]
+  // step 0 = start position; step k = position after epoch k
+  const path = [];
+  path.push({ weights: raw.startWeights, utility: raw.initialUtility, epochIdx: -1 });
+  for (const ep of raw.epochs) {
+    if (ep.endWeights !== undefined) {
+      path.push({ weights: ep.endWeights, utility: ep.endUtility, epochIdx: ep.epoch, epochData: ep });
+    } else {
+      // Terminal (stopped without moving) — attach to last step
+      path[path.length - 1].terminalEpoch = ep;
+    }
+  }
+
+  // utilTrace: [{step, utility}, ...] parallel to path
+  const utilTrace = path.map((pt, i) => ({
+    step: i,
+    utility: pt.utility ?? pt.terminalEpoch?.bestUtility ?? 0,
+  }));
+
+  // weightTrace: {sym: [w0, w1, ...]} one entry per path step
+  const weightTrace = {};
+  for (const sym of syms) {
+    weightTrace[sym] = path.map(pt => pt.weights[sym] ?? 0);
+  }
+
+  const label = raw.portfolioName.replace(/^bh_debug_\d+_/, '').replace(/_/g, ' ');
+  return { raw, syms, path, utilTrace, weightTrace, label, idx, color: PALETTE[idx % PALETTE.length] };
+}
+
+// ─── Session list ─────────────────────────────────────────────────────────────
+async function populateSessionList() {
+  const resp = await apiGet('/debug');
+  const files = (resp.data?.files || []).filter(f => f.endsWith('.json'));
+
+  const sessions = {};
+  for (const f of files) {
+    const ts = f.substring(0, 15);
+    if (!sessions[ts]) sessions[ts] = [];
+    sessions[ts].push(f);
+  }
+
+  const sel = document.getElementById('session-select');
+  sel.innerHTML = '<option value="">— choose a session —</option>';
+  for (const [ts, sfiles] of Object.entries(sessions).sort().reverse()) {
+    const opt = document.createElement('option');
+    const lbl = ts.replace('_', ' ')
+      .replace(/(\d{4})(\d{2})(\d{2}) (\d{2})(\d{2})(\d{2})/, '$1-$2-$3 $4:$5:$6');
+    opt.value       = JSON.stringify(sfiles);
+    opt.textContent = `${lbl}  (${sfiles.length} runs)`;
+    sel.appendChild(opt);
+  }
+  return sessions;
+}
+
+// ─── Top-level render ─────────────────────────────────────────────────────────
+function render() {
+  maxStep = runs.length ? Math.max(...runs.map(r => r.path.length - 1)) : 0;
+  renderWeightCharts();
+  renderUtility();
+  renderLegend();
+  clearDetail();
+}
+
+// ─── Weight trajectory charts ─────────────────────────────────────────────────
+function renderWeightCharts() {
+  const grid = document.getElementById('weight-charts-grid');
+  grid.innerHTML = '';
+  if (!runs.length) return;
+
+  const syms = runs[0].syms;
+
+  syms.forEach((sym, si) => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'wc-wrapper';
+
+    const titleEl = document.createElement('div');
+    titleEl.className = 'wc-title';
+    titleEl.textContent = sym;
+    wrapper.appendChild(titleEl);
+
+    const svg = svgEl('svg', {
+      viewBox: `0 0 ${WC.VW} ${WC.VH}`,
+      class: 'wc-svg',
+      id: `wc-svg-${si}`,
+    });
+
+    // Plot background
+    svg.appendChild(svgEl('rect', {
+      x: WC.pl, y: WC.pt, width: WC.cw, height: WC.ch,
+      fill: '#0a0a18', rx: 2,
+    }));
+
+    // Y grid: 0%, 25%, 50%, 75%, 100%
+    [0, 0.25, 0.5, 0.75, 1].forEach(frac => {
+      const y = WC.pt + WC.ch * (1 - frac);
+      svg.appendChild(line({ x: WC.pl, y }, { x: WC.pl + WC.cw, y }, '#1c1c2c', 1));
+      svg.appendChild(txtLabel(WC.pl - 2, y + 3, Math.round(frac * 100) + '%', 'end', '#444', 7));
+    });
+
+    // X tick labels (epoch numbers)
+    if (maxStep > 0) {
+      const xStep = Math.max(1, Math.ceil(maxStep / 5));
+      for (let s = 0; s <= maxStep; s += xStep) {
+        const x = WC.pl + (s / maxStep) * WC.cw;
+        svg.appendChild(txtLabel(x, WC.VH - 2, s, 'middle', '#444', 7));
+      }
+    }
+
+    // One polyline per run
+    for (const run of runs) {
+      if (hidden.has(run.idx)) continue;
+      const wts = run.weightTrace[sym];
+      if (!wts || wts.length < 2) continue;
+
+      const pts = wts.map((w, i) => ({
+        x: WC.pl + (maxStep > 0 ? i / maxStep : 0) * WC.cw,
+        y: WC.pt + WC.ch * (1 - w),
+      }));
+      const d = pts.map((p, i) => (i === 0 ? 'M' : 'L') + p.x.toFixed(1) + ',' + p.y.toFixed(1)).join(' ');
+      svg.appendChild(svgEl('path', {
+        d, fill: 'none', stroke: run.color,
+        'stroke-width': 1.8, 'stroke-opacity': 0.85,
+        'stroke-linejoin': 'round', 'stroke-linecap': 'round',
+      }));
+
+      // Start dot (white) and end dot (filled)
+      const p0 = pts[0], pN = pts[pts.length - 1];
+      svg.appendChild(svgEl('circle', { cx: p0.x, cy: p0.y, r: 2.5, fill: '#fff', 'fill-opacity': 0.5 }));
+      svg.appendChild(svgEl('circle', { cx: pN.x, cy: pN.y, r: 3,   fill: run.color }));
+    }
+
+    // Pinned step vertical line
+    if (pinned !== null) {
+      const x = WC.pl + (maxStep > 0 ? pinned.step / maxStep : 0) * WC.cw;
+      svg.appendChild(svgEl('line', {
+        x1: x, y1: WC.pt, x2: x, y2: WC.pt + WC.ch,
+        stroke: '#fff', 'stroke-width': 1, 'stroke-dasharray': '4,3', 'stroke-opacity': 0.6,
+      }));
+    }
+
+    // Hover cursor (starts off-screen)
+    svg.appendChild(svgEl('line', {
+      id: `wc-cursor-${si}`,
+      x1: -99, y1: WC.pt, x2: -99, y2: WC.pt + WC.ch,
+      stroke: '#7a9acc', 'stroke-width': 1, 'stroke-dasharray': '3,2', 'stroke-opacity': 0.7,
+    }));
+
+    // Mouse capture overlay
+    const overlay = svgEl('rect', {
+      x: WC.pl, y: WC.pt, width: WC.cw, height: WC.ch,
+      fill: 'transparent', style: 'cursor:crosshair',
+    });
+    overlay.addEventListener('mousemove', e => onChartHover(e, svg, sym));
+    overlay.addEventListener('mouseleave', onChartOut);
+    overlay.addEventListener('click',      e => onChartClick(e, svg));
+    svg.appendChild(overlay);
+
+    wrapper.appendChild(svg);
+    grid.appendChild(wrapper);
+  });
+}
+
+// Convert a mouseevent over a weight chart SVG to a step index
+function mouseToStep(e, svgDom) {
+  const rect = svgDom.getBoundingClientRect();
+  const svgX = (e.clientX - rect.left) * (WC.VW / rect.width);
+  const frac  = Math.max(0, Math.min(1, (svgX - WC.pl) / WC.cw));
+  return Math.round(frac * maxStep);
+}
+
+// Move every cursor line (weight charts + utility chart) to a given step
+function updateCursors(step) {
+  if (!runs.length) return;
+  const syms = runs[0].syms;
+  const wx = WC.pl + (maxStep > 0 ? step / maxStep : 0) * WC.cw;
+
+  syms.forEach((_, si) => {
+    const c = document.getElementById(`wc-cursor-${si}`);
+    if (c) { c.setAttribute('x1', wx); c.setAttribute('x2', wx); }
+  });
+
+  // Utility chart — its x domain is also 0..maxStep
+  const uc = document.getElementById('util-cursor');
+  if (uc) {
+    const ux = UC.pl + (maxStep > 0 ? step / maxStep : 0) * UC.cw;
+    uc.setAttribute('x1', ux); uc.setAttribute('x2', ux);
+    uc.setAttribute('visibility', 'visible');
+  }
+}
+
+function hideCursors() {
+  if (!runs.length) return;
+  runs[0].syms.forEach((_, si) => {
+    const c = document.getElementById(`wc-cursor-${si}`);
+    if (c) { c.setAttribute('x1', -99); c.setAttribute('x2', -99); }
+  });
+  const uc = document.getElementById('util-cursor');
+  if (uc) uc.setAttribute('visibility', 'hidden');
+}
+
+function onChartHover(e, svgDom, sym) {
+  const step = mouseToStep(e, svgDom);
+  updateCursors(step);
+
+  // Tooltip: weight of this symbol for every visible run at this step
+  const visRuns = runs.filter(r => !hidden.has(r.idx));
+  let html = `<strong>${sym} — epoch ${step}</strong>`;
+  for (const run of visRuns) {
+    const w = run.weightTrace[sym]?.[step];
+    if (w !== undefined) {
+      html += `<br><span style="color:${run.color}">&#9679;</span> ${run.label}: <span class="tw">${(w * 100).toFixed(1)}%</span>`;
+    }
+  }
+  showTip(e, html);
+  if (!pinned) showDetailAtStep(step);
+}
+
+function onChartOut() {
+  hideCursors();
+  hideTip();
+  if (!pinned) clearDetail();
+}
+
+function onChartClick(e, svgDom) {
+  const step = mouseToStep(e, svgDom);
+  if (pinned !== null && pinned.step === step) {
+    pinned = null;
+    clearDetail();
+    render();
+  } else {
+    pinned = { step };
+    showDetailAtStep(step);
+    render();
+  }
+  e.stopPropagation();
+}
+
+// ─── Utility convergence chart ─────────────────────────────────────────────────
+function renderUtility() {
+  const svg = document.getElementById('utility-svg');
+  svg.innerHTML = '';
+  if (!runs.length) return;
+
+  const { VW: W, VH: H, pl, pr, pt, pb, cw, ch } = UC;
+
+  const visRuns = runs.filter(r => !hidden.has(r.idx));
+  if (!visRuns.length) return;
+
+  const allU   = visRuns.flatMap(r => r.utilTrace.map(u => u.utility));
+  const minU   = Math.min(...allU);
+  const maxU   = Math.max(...allU);
+  const uRange = maxU - minU || 1;
+
+  const xScale = s => pl + (maxStep > 0 ? s / maxStep : 0) * cw;
+  const yScale = u => pt + ch - ((u - minU) / uRange) * ch;
+
+  // Axes
+  svg.appendChild(line({ x: pl, y: pt },    { x: pl,    y: pt + ch }, '#333', 1));
+  svg.appendChild(line({ x: pl, y: pt + ch }, { x: pl + cw, y: pt + ch }, '#333', 1));
+
+  // Y grid
+  for (let i = 0; i <= 4; i++) {
+    const u = minU + uRange * i / 4;
+    const y = yScale(u);
+    svg.appendChild(line({ x: pl, y }, { x: pl + cw, y }, '#222', 1));
+    svg.appendChild(txtLabel(pl - 3, y + 3, u.toFixed(4), 'end', '#555', 8));
+  }
+
+  // X grid
+  const xStep = Math.max(1, Math.ceil(maxStep / 5));
+  for (let s = 0; s <= maxStep; s += xStep) {
+    const x = xScale(s);
+    svg.appendChild(line({ x, y: pt }, { x, y: pt + ch }, '#222', 1));
+    svg.appendChild(txtLabel(x, pt + ch + 12, s, 'middle', '#555', 8));
+  }
+  svg.appendChild(txtLabel(pl + cw / 2, H - 2, 'Epoch', 'middle', '#555', 9));
+
+  // Polylines
+  for (const run of visRuns) {
+    const pts = run.utilTrace.map(u => ({ x: xScale(u.step), y: yScale(u.utility) }));
+    const d   = pts.map((p, i) => (i === 0 ? 'M' : 'L') + p.x.toFixed(1) + ',' + p.y.toFixed(1)).join(' ');
+    svg.appendChild(svgEl('path', {
+      d, fill: 'none', stroke: run.color,
+      'stroke-width': 1.8, 'stroke-opacity': 0.9, 'stroke-linejoin': 'round',
+    }));
+    const last = pts[pts.length - 1];
+    svg.appendChild(svgEl('circle', { cx: last.x, cy: last.y, r: 3.5, fill: run.color }));
+  }
+
+  // Hover cursor (starts hidden)
+  svg.appendChild(svgEl('line', {
+    id: 'util-cursor',
+    x1: -99, y1: pt, x2: -99, y2: pt + ch,
+    stroke: '#7a9acc', 'stroke-width': 1, 'stroke-dasharray': '3,2',
+    'stroke-opacity': 0.7, visibility: 'hidden',
+  }));
+
+  // Pinned step line
+  if (pinned !== null) {
+    const x = xScale(pinned.step);
+    svg.appendChild(svgEl('line', {
+      x1: x, y1: pt, x2: x, y2: pt + ch,
+      stroke: '#fff', 'stroke-width': 1, 'stroke-dasharray': '4,3', 'stroke-opacity': 0.6,
+    }));
+  }
+
+  // Mouse overlay (syncs cursors with weight charts)
+  const overlay = svgEl('rect', {
+    x: pl, y: pt, width: cw, height: ch,
+    fill: 'transparent', style: 'cursor:crosshair',
+  });
+  overlay.addEventListener('mousemove', e => {
+    const rect  = svg.getBoundingClientRect();
+    const svgX  = (e.clientX - rect.left) * (W / rect.width);
+    const step  = Math.round(Math.max(0, Math.min(1, (svgX - pl) / cw)) * maxStep);
+    updateCursors(step);
+    if (!pinned) showDetailAtStep(step);
+
+    let html = `<strong>Epoch ${step}</strong>`;
+    for (const run of visRuns) {
+      const u = run.utilTrace[step]?.utility;
+      if (u !== undefined) {
+        html += `<br><span style="color:${run.color}">&#9679;</span> ${run.label}: <span class="tw">${u.toFixed(6)}</span>`;
+      }
+    }
+    showTip(e, html);
+  });
+  overlay.addEventListener('mouseleave', () => {
+    hideCursors(); hideTip();
+    if (!pinned) clearDetail();
+  });
+  overlay.addEventListener('click', e => {
+    const rect = svg.getBoundingClientRect();
+    const svgX = (e.clientX - rect.left) * (W / rect.width);
+    const step = Math.round(Math.max(0, Math.min(1, (svgX - pl) / cw)) * maxStep);
+    if (pinned !== null && pinned.step === step) {
+      pinned = null; clearDetail(); render();
+    } else {
+      pinned = { step }; showDetailAtStep(step); render();
+    }
+    e.stopPropagation();
+  });
+  svg.appendChild(overlay);
+}
+
+// ─── Legend ───────────────────────────────────────────────────────────────────
+function renderLegend() {
+  const leg = document.getElementById('legend');
+  leg.innerHTML = '';
+  for (const run of runs) {
+    const item = document.createElement('div');
+    item.className = 'legend-item' + (hidden.has(run.idx) ? ' hidden' : '');
+    item.innerHTML = `<span class="legend-dot" style="background:${run.color}"></span>${run.label}`;
+    item.title = run.raw.portfolioName;
+    item.addEventListener('click', () => {
+      if (hidden.has(run.idx)) hidden.delete(run.idx); else hidden.add(run.idx);
+      render();
+    });
+    leg.appendChild(item);
+  }
+}
+
+// ─── Epoch detail panel ────────────────────────────────────────────────────────
+function showDetailAtStep(step) {
+  const visRuns = runs.filter(r => !hidden.has(r.idx));
+  for (const run of visRuns) {
+    if (step < run.path.length) { showDetail(run, step); return; }
+  }
+  clearDetail();
+}
+
+function showDetail(run, ptIdx) {
+  const pt  = run.path[ptIdx];
+  const ep  = pt?.epochData || pt?.terminalEpoch;
+  const sub = document.getElementById('detail-subtitle');
+  const inf = document.getElementById('detail-info');
+
+  if (!ep) {
+    sub.textContent = `— ${run.label}  (start)`;
+    inf.innerHTML   = `<div class="epoch-header">Starting weights</div>
+      ${weightsRow(run.syms, pt.weights)}
+      <p style="margin-top:6px;color:#666">No epoch data at the start position.</p>`;
+    return;
+  }
+
+  sub.textContent = `— ${run.label}  epoch ${ep.epoch}  util ${(pt.utility ?? ep.startUtility ?? 0).toFixed(6)}`;
+
+  const stopped  = ep.stopped;
+  const variants = (ep.variants || []).slice().sort((a, b) => b.utility - a.utility);
+  let rows = '';
+  for (const v of variants) {
+    const isWinner  = v.symbol === ep.winner;
+    const isStopped = stopped && v.symbol === ep.bestSymbol;
+    const cls  = isWinner ? 'winner' : (isStopped ? 'stopped' : '');
+    const sign = v.delta >= 0 ? '+' : '';
+    const dCls = v.delta >= 0 ? 'delta-pos' : 'delta-neg';
+    const wStr = run.syms.map(s => `${s}=${(v.weights[s] * 100).toFixed(1)}%`).join('&nbsp; ');
+    rows += `<tr class="${cls}">
+      <td>${isWinner ? '★' : (isStopped ? '✗' : '&nbsp;')} ${v.symbol}</td>
+      <td>${wStr}</td>
+      <td>${v.utility.toFixed(6)}</td>
+      <td class="${dCls}">${sign}${v.delta.toFixed(6)}</td>
+    </tr>`;
+  }
+
+  const stopMsg = stopped
+    ? `<p style="margin-top:6px;color:#e07070">Stopped: ${stopped}</p>` : '';
+
+  inf.innerHTML = `
+    <div class="epoch-header">
+      Epoch ${ep.epoch} &nbsp;|&nbsp; start util ${ep.startUtility.toFixed(6)}
+      &nbsp;|&nbsp; ${ep.feasibleCount ?? variants.length} moves
+    </div>
+    <table>
+      <thead><tr><th>Symbol</th><th>Result weights</th><th>Utility</th><th>Δ utility</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+    ${stopMsg}`;
+}
+
+function weightsRow(syms, w) {
+  return `<p style="color:#9bbfe8">${syms.map(s => `${s}=${((w[s] ?? 0) * 100).toFixed(1)}%`).join('  ')}</p>`;
+}
+
+function clearDetail() {
+  document.getElementById('detail-subtitle').textContent = '';
+  document.getElementById('detail-info').innerHTML =
+    '<span style="color:#555">Hover over a chart to inspect an epoch.</span>';
+}
+
+// ─── Tooltip ──────────────────────────────────────────────────────────────────
+const tooltip = document.getElementById('tooltip');
+
+function showTip(e, html) {
+  tooltip.innerHTML = html;
+  tooltip.style.display = 'block';
+  moveTip(e);
+}
+function hideTip() { tooltip.style.display = 'none'; }
+
+document.addEventListener('mousemove', moveTip);
+document.addEventListener('click', () => { if (pinned) { pinned = null; hideCursors(); render(); } });
+
+function moveTip(e) {
+  tooltip.style.left = Math.min(e.clientX + 14, window.innerWidth  - 280) + 'px';
+  tooltip.style.top  = Math.max(e.clientY - 10, 4)                        + 'px';
+}
+
+// ─── SVG helpers ──────────────────────────────────────────────────────────────
+function svgEl(tag, attrs) {
+  const el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+  for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
+  return el;
+}
+
+function line(a, b, stroke, sw, dash) {
+  const attrs = { x1: a.x, y1: a.y, x2: b.x, y2: b.y, stroke, 'stroke-width': sw };
+  if (dash) attrs['stroke-dasharray'] = dash;
+  return svgEl('line', attrs);
+}
+
+function txtLabel(x, y, text, anchor, fill, size) {
+  const el = svgEl('text', {
+    x, y, 'text-anchor': anchor, fill,
+    'font-size': size, 'font-family': 'system-ui, sans-serif',
+  });
+  el.textContent = text;
+  return el;
+}
+
+// ─── Bootstrap ────────────────────────────────────────────────────────────────
+(async () => {
+  const sessions = await populateSessionList();
+  const allTs    = Object.keys(sessions).sort().reverse();
+
+  document.getElementById('btn-recent').addEventListener('click', async () => {
+    if (!allTs.length) { alert('No debug files found. Run an optimization first.'); return; }
+    const files = sessions[allTs[0]];
+    document.getElementById('session-label').textContent = `Loading ${files.length} runs…`;
+    hidden.clear(); pinned = null;
+    await loadSession(files);
+    document.getElementById('session-label').textContent = `${files.length} runs loaded`;
+  });
+
+  document.getElementById('session-select').addEventListener('change', async function () {
+    if (!this.value) return;
+    const files = JSON.parse(this.value);
+    document.getElementById('session-label').textContent = `Loading ${files.length} runs…`;
+    hidden.clear(); pinned = null;
+    await loadSession(files);
+    document.getElementById('session-label').textContent = `${files.length} runs loaded`;
+  });
+
+  // Auto-load most recent session
+  if (allTs.length) {
+    const files = sessions[allTs[0]];
+    document.getElementById('session-label').textContent = `Auto-loading most recent session…`;
+    hidden.clear(); pinned = null;
+    await loadSession(files);
+    document.getElementById('session-label').textContent = `${files.length} runs loaded (most recent)`;
+  }
+})();
+</script>
+</body>
+</html>

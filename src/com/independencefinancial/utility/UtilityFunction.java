@@ -1,0 +1,9 @@
+package com.bcfinancial.utility;
+
+public interface UtilityFunction {
+
+    public double getWeightedUtility(double[] returns);
+    public double[] getUtilities(double[] returns);
+			   
+    public UtilityFunction deepCopy();
+}

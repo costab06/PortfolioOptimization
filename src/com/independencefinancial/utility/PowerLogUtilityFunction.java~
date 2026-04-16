@@ -1,0 +1,82 @@
+package com.bcfinancial.utility;
+
+import java.io.Serializable;
+import com.bcfinancial.persistenceManager.Persistable;
+
+public class PowerLogUtilityFunction implements UtilityFunction, Serializable {
+
+    private double powerBase;
+    private double logBase;
+    
+    public PowerLogUtilityFunction(double powerBase, double logBase) {
+	this.powerBase = powerBase;
+	this.logBase=logBase;
+    }
+
+    
+    public double getWeightedUtility(double[] sortedReturns) {
+
+	// ignore the highest and lowest 1% of the returns as outlyers
+	System.out.println("returns.length: "+sortedReturns.length);
+	int index1 = 5*sortedReturns.length/100;
+	System.out.println("index1: "+index1);
+	int index2 = 95*sortedReturns.length/100;
+	System.out.println("index2: "+index2);
+
+	double[] rets = new double[index2-index1];
+	for (int i=index1;i<index2;i++) {
+	    System.out.println("storing index "+i+" to "+(i-index1));	    
+	    rets[i-index1]=sortedReturns[i];
+	}
+	
+	double[] utilities = getUtilities(rets);
+	double weightedUtility = 0.0;
+	
+	
+	for (int i=0;i<utilities.length;i++) {
+	    weightedUtility += utilities[i];
+	}
+	
+	weightedUtility /= utilities.length;
+	return weightedUtility;
+    }
+    
+
+
+    public double[] getUtilities(double[] returns) {
+	
+	double [] utilities = new double[returns.length];
+	try {
+	    for (int i=0;i<returns.length;i++) {
+		if (returns[i] < 0) {
+		    utilities[i]=powerFunc(powerBase,returns[i]);
+		} else {
+		    utilities[i]=logFunc(logBase,returns[i]);
+		}
+	    }
+	} catch (Exception e) {
+	    System.out.println("Exception: "+e);
+	}
+	return utilities;
+    }
+
+
+    private double logFunc(double base, double r) throws Exception {
+	if (base <= 1) {
+	    throw new Exception("base must be greater than 1");
+	}
+	return (Math.log(1+r)/Math.log(base));
+    }
+
+    private double powerFunc(double base, double r) throws Exception {
+
+	return (1/base)*Math.pow(1+r,base);
+
+    }
+
+
+    public PowerLogUtilityFunction deepCopy() {
+	return new PowerLogUtilityFunction(powerBase,logBase);
+    }
+    
+}

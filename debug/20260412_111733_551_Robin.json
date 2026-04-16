@@ -1,0 +1,1256 @@
+{
+  "portfolioName" : "Robin",
+  "symbols" : [ "VT", "VOO", "VYM", "SCHD" ],
+  "startWeights" : {
+    "VT" : 0.25,
+    "VOO" : 0.25,
+    "VYM" : 0.25,
+    "SCHD" : 0.25
+  },
+  "optimizeBy" : "utility",
+  "initialUtility" : 4.738599020418726,
+  "epochs" : [ {
+    "epoch" : 0,
+    "startWeights" : {
+      "VT" : 0.25,
+      "VOO" : 0.25,
+      "VYM" : 0.25,
+      "SCHD" : 0.25
+    },
+    "startUtility" : 4.738599020418726,
+    "optimizeBy" : "utility",
+    "step" : 0.01,
+    "epochStreak" : 0,
+    "temperature" : 0.05,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.26,
+        "VOO" : 0.246667,
+        "VYM" : 0.246667,
+        "SCHD" : 0.246667
+      },
+      "utility" : 4.730865481283862,
+      "sharpe" : 0.7007060917197443,
+      "score" : 4.730865481283862,
+      "delta" : -0.007733539134863854
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.246667,
+        "VOO" : 0.26,
+        "VYM" : 0.246667,
+        "SCHD" : 0.246667
+      },
+      "utility" : 4.7519103801315525,
+      "sharpe" : 0.7037757019351694,
+      "score" : 4.7519103801315525,
+      "delta" : 0.013311359712826487
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.246667,
+        "VOO" : 0.246667,
+        "VYM" : 0.26,
+        "SCHD" : 0.246667
+      },
+      "utility" : 4.741169929583314,
+      "sharpe" : 0.7008208836685981,
+      "score" : 4.741169929583314,
+      "delta" : 0.002570909164587576
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.246667,
+        "VOO" : 0.246667,
+        "VYM" : 0.246667,
+        "SCHD" : 0.26
+      },
+      "utility" : 4.729447911656904,
+      "sharpe" : 0.7007404006805429,
+      "score" : 4.729447911656904,
+      "delta" : -0.009151108761821902
+    } ],
+    "winner" : "Epoch 0",
+    "endWeights" : {
+      "VT" : 0.246667,
+      "VOO" : 0.26,
+      "VYM" : 0.246667,
+      "SCHD" : 0.246667
+    },
+    "endUtility" : 4.7519103801315525,
+    "improvement" : 0.013311359712826487
+  }, {
+    "epoch" : 1,
+    "startWeights" : {
+      "VT" : 0.246667,
+      "VOO" : 0.26,
+      "VYM" : 0.246667,
+      "SCHD" : 0.246667
+    },
+    "startUtility" : 4.7519103801315525,
+    "optimizeBy" : "utility",
+    "step" : 0.02,
+    "epochStreak" : 1,
+    "temperature" : 0.0475,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.266667,
+        "VOO" : 0.253333,
+        "VYM" : 0.24,
+        "SCHD" : 0.24
+      },
+      "utility" : 4.736333241157569,
+      "sharpe" : 0.7021073225205885,
+      "score" : 4.736333241157569,
+      "delta" : -0.015577138973983828
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.24,
+        "VOO" : 0.28,
+        "VYM" : 0.24,
+        "SCHD" : 0.24
+      },
+      "utility" : 4.777308339978439,
+      "sharpe" : 0.708218702317832,
+      "score" : 4.777308339978439,
+      "delta" : 0.02539795984688631
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.24,
+        "VOO" : 0.253333,
+        "VYM" : 0.266667,
+        "SCHD" : 0.24
+      },
+      "utility" : 4.757636407729549,
+      "sharpe" : 0.7023911052848277,
+      "score" : 4.757636407729549,
+      "delta" : 0.005726027597996897
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.24,
+        "VOO" : 0.253333,
+        "VYM" : 0.24,
+        "SCHD" : 0.266667
+      },
+      "utility" : 4.734172391571892,
+      "sharpe" : 0.7022267458585163,
+      "score" : 4.734172391571892,
+      "delta" : -0.017737988559660245
+    } ],
+    "winner" : "Epoch 1",
+    "endWeights" : {
+      "VT" : 0.24,
+      "VOO" : 0.28,
+      "VYM" : 0.24,
+      "SCHD" : 0.24
+    },
+    "endUtility" : 4.777308339978439,
+    "improvement" : 0.02539795984688631
+  }, {
+    "epoch" : 2,
+    "startWeights" : {
+      "VT" : 0.24,
+      "VOO" : 0.28,
+      "VYM" : 0.24,
+      "SCHD" : 0.24
+    },
+    "startUtility" : 4.777308339978439,
+    "optimizeBy" : "utility",
+    "step" : 0.03,
+    "epochStreak" : 2,
+    "temperature" : 0.045125,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.27,
+        "VOO" : 0.27,
+        "VYM" : 0.23,
+        "SCHD" : 0.23
+      },
+      "utility" : 4.752769340794141,
+      "sharpe" : 0.7056244440237909,
+      "score" : 4.752769340794141,
+      "delta" : -0.024538999184297694
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.23,
+        "VOO" : 0.31,
+        "VYM" : 0.23,
+        "SCHD" : 0.23
+      },
+      "utility" : 4.812715338650508,
+      "sharpe" : 0.7147150881704333,
+      "score" : 4.812715338650508,
+      "delta" : 0.035406998672069534
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.23,
+        "VOO" : 0.27,
+        "VYM" : 0.27,
+        "SCHD" : 0.23
+      },
+      "utility" : 4.787301072200998,
+      "sharpe" : 0.7062109058421093,
+      "score" : 4.787301072200998,
+      "delta" : 0.009992732222559475
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.23,
+        "VOO" : 0.27,
+        "VYM" : 0.23,
+        "SCHD" : 0.27
+      },
+      "utility" : 4.752734520628524,
+      "sharpe" : 0.7059667547753365,
+      "score" : 4.752734520628524,
+      "delta" : -0.024573819349915205
+    } ],
+    "winner" : "Epoch 2",
+    "endWeights" : {
+      "VT" : 0.23,
+      "VOO" : 0.31,
+      "VYM" : 0.23,
+      "SCHD" : 0.23
+    },
+    "endUtility" : 4.812715338650508,
+    "improvement" : 0.035406998672069534
+  }, {
+    "epoch" : 3,
+    "startWeights" : {
+      "VT" : 0.23,
+      "VOO" : 0.31,
+      "VYM" : 0.23,
+      "SCHD" : 0.23
+    },
+    "startUtility" : 4.812715338650508,
+    "optimizeBy" : "utility",
+    "step" : 0.04,
+    "epochStreak" : 3,
+    "temperature" : 0.04286875,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.27,
+        "VOO" : 0.296667,
+        "VYM" : 0.216667,
+        "SCHD" : 0.216667
+      },
+      "utility" : 4.777838273581304,
+      "sharpe" : 0.711090857632418,
+      "score" : 4.777838273581304,
+      "delta" : -0.03487706506920407
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.216667,
+        "VOO" : 0.35,
+        "VYM" : 0.216667,
+        "SCHD" : 0.216667
+      },
+      "utility" : 4.856162980662298,
+      "sharpe" : 0.7230617225540465,
+      "score" : 4.856162980662298,
+      "delta" : 0.043447642011789966
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.216667,
+        "VOO" : 0.296667,
+        "VYM" : 0.27,
+        "SCHD" : 0.216667
+      },
+      "utility" : 4.828235161312615,
+      "sharpe" : 0.7121921719225394,
+      "score" : 4.828235161312615,
+      "delta" : 0.01551982266210672
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.216667,
+        "VOO" : 0.296667,
+        "VYM" : 0.216667,
+        "SCHD" : 0.27
+      },
+      "utility" : 4.783074270831215,
+      "sharpe" : 0.7118802560569942,
+      "score" : 4.783074270831215,
+      "delta" : -0.0296410678192931
+    } ],
+    "winner" : "Epoch 3",
+    "endWeights" : {
+      "VT" : 0.216667,
+      "VOO" : 0.35,
+      "VYM" : 0.216667,
+      "SCHD" : 0.216667
+    },
+    "endUtility" : 4.856162980662298,
+    "improvement" : 0.043447642011789966
+  }, {
+    "epoch" : 4,
+    "startWeights" : {
+      "VT" : 0.216667,
+      "VOO" : 0.35,
+      "VYM" : 0.216667,
+      "SCHD" : 0.216667
+    },
+    "startUtility" : 4.856162980662298,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 4,
+    "temperature" : 0.0407253125,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.266667,
+        "VOO" : 0.333333,
+        "VYM" : 0.2,
+        "SCHD" : 0.2
+      },
+      "utility" : 4.808707333541563,
+      "sharpe" : 0.7182732091902688,
+      "score" : 4.808707333541563,
+      "delta" : -0.04745564712073502
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.2,
+        "VOO" : 0.4,
+        "VYM" : 0.2,
+        "SCHD" : 0.2
+      },
+      "utility" : 4.903873776336516,
+      "sharpe" : 0.7329863413341884,
+      "score" : 4.903873776336516,
+      "delta" : 0.04771079567421754
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.2,
+        "VOO" : 0.333333,
+        "VYM" : 0.266667,
+        "SCHD" : 0.2
+      },
+      "utility" : 4.879118826606342,
+      "sharpe" : 0.7201778569356752,
+      "score" : 4.879118826606342,
+      "delta" : 0.022955845944043318
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.2,
+        "VOO" : 0.333333,
+        "VYM" : 0.2,
+        "SCHD" : 0.266667
+      },
+      "utility" : 4.822864347822712,
+      "sharpe" : 0.7198189636652492,
+      "score" : 4.822864347822712,
+      "delta" : -0.03329863283958634
+    } ],
+    "winner" : "Epoch 4",
+    "endWeights" : {
+      "VT" : 0.2,
+      "VOO" : 0.4,
+      "VYM" : 0.2,
+      "SCHD" : 0.2
+    },
+    "endUtility" : 4.903873776336516,
+    "improvement" : 0.04771079567421754
+  }, {
+    "epoch" : 5,
+    "startWeights" : {
+      "VT" : 0.2,
+      "VOO" : 0.4,
+      "VYM" : 0.2,
+      "SCHD" : 0.2
+    },
+    "startUtility" : 4.903873776336516,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 5,
+    "temperature" : 0.038689046874999994,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.25,
+        "VOO" : 0.383333,
+        "VYM" : 0.183333,
+        "SCHD" : 0.183333
+      },
+      "utility" : 4.85401883731322,
+      "sharpe" : 0.7279312192747889,
+      "score" : 4.85401883731322,
+      "delta" : -0.049854939023296296
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.183333,
+        "VOO" : 0.45,
+        "VYM" : 0.183333,
+        "SCHD" : 0.183333
+      },
+      "utility" : 4.945712700120426,
+      "sharpe" : 0.742344479394844,
+      "score" : 4.945712700120426,
+      "delta" : 0.041838923783910076
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.183333,
+        "VOO" : 0.383333,
+        "VYM" : 0.25,
+        "SCHD" : 0.183333
+      },
+      "utility" : 4.931145294410903,
+      "sharpe" : 0.7304876087377257,
+      "score" : 4.931145294410903,
+      "delta" : 0.02727151807438677
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.183333,
+        "VOO" : 0.383333,
+        "VYM" : 0.183333,
+        "SCHD" : 0.25
+      },
+      "utility" : 4.877172871294187,
+      "sharpe" : 0.7301962895043219,
+      "score" : 4.877172871294187,
+      "delta" : -0.026700905042329026
+    } ],
+    "winner" : "Epoch 5",
+    "endWeights" : {
+      "VT" : 0.183333,
+      "VOO" : 0.45,
+      "VYM" : 0.183333,
+      "SCHD" : 0.183333
+    },
+    "endUtility" : 4.945712700120426,
+    "improvement" : 0.041838923783910076
+  }, {
+    "epoch" : 6,
+    "startWeights" : {
+      "VT" : 0.183333,
+      "VOO" : 0.45,
+      "VYM" : 0.183333,
+      "SCHD" : 0.183333
+    },
+    "startUtility" : 4.945712700120426,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 6,
+    "temperature" : 0.03675459453124999,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.233333,
+        "VOO" : 0.433333,
+        "VYM" : 0.166667,
+        "SCHD" : 0.166667
+      },
+      "utility" : 4.893295312331578,
+      "sharpe" : 0.7370285685949327,
+      "score" : 4.893295312331578,
+      "delta" : -0.0524173877888483
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.166667,
+        "VOO" : 0.5,
+        "VYM" : 0.166667,
+        "SCHD" : 0.166667
+      },
+      "utility" : 4.981915582245257,
+      "sharpe" : 0.7511363913148331,
+      "score" : 4.981915582245257,
+      "delta" : 0.03620288212483125
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.166667,
+        "VOO" : 0.433333,
+        "VYM" : 0.233333,
+        "SCHD" : 0.166667
+      },
+      "utility" : 4.9763344363045405,
+      "sharpe" : 0.7402276100458004,
+      "score" : 4.9763344363045405,
+      "delta" : 0.030621736184114567
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.166667,
+        "VOO" : 0.433333,
+        "VYM" : 0.166667,
+        "SCHD" : 0.233333
+      },
+      "utility" : 4.9242263662466526,
+      "sharpe" : 0.7400065203412822,
+      "score" : 4.9242263662466526,
+      "delta" : -0.02148633387377341
+    } ],
+    "winner" : "Epoch 6",
+    "endWeights" : {
+      "VT" : 0.166667,
+      "VOO" : 0.5,
+      "VYM" : 0.166667,
+      "SCHD" : 0.166667
+    },
+    "endUtility" : 4.981915582245257,
+    "improvement" : 0.03620288212483125
+  }, {
+    "epoch" : 7,
+    "startWeights" : {
+      "VT" : 0.166667,
+      "VOO" : 0.5,
+      "VYM" : 0.166667,
+      "SCHD" : 0.166667
+    },
+    "startUtility" : 4.981915582245257,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 7,
+    "temperature" : 0.03491686480468749,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.216667,
+        "VOO" : 0.483333,
+        "VYM" : 0.15,
+        "SCHD" : 0.15
+      },
+      "utility" : 4.926098434877001,
+      "sharpe" : 0.7455661525693001,
+      "score" : 4.926098434877001,
+      "delta" : -0.05581714736825649
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.15,
+        "VOO" : 0.55,
+        "VYM" : 0.15,
+        "SCHD" : 0.15
+      },
+      "utility" : 5.012696494155736,
+      "sharpe" : 0.7593639762589528,
+      "score" : 5.012696494155736,
+      "delta" : 0.030780911910478714
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.15,
+        "VOO" : 0.483333,
+        "VYM" : 0.216667,
+        "SCHD" : 0.15
+      },
+      "utility" : 5.014934603077254,
+      "sharpe" : 0.7493970722367773,
+      "score" : 5.014934603077254,
+      "delta" : 0.033019020831996926
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.15,
+        "VOO" : 0.483333,
+        "VYM" : 0.15,
+        "SCHD" : 0.216667
+      },
+      "utility" : 4.965753287770131,
+      "sharpe" : 0.7492485401458362,
+      "score" : 4.965753287770131,
+      "delta" : -0.016162294475126515
+    } ],
+    "winner" : "Epoch 7",
+    "endWeights" : {
+      "VT" : 0.15,
+      "VOO" : 0.483333,
+      "VYM" : 0.216667,
+      "SCHD" : 0.15
+    },
+    "endUtility" : 5.014934603077254,
+    "improvement" : 0.033019020831996926
+  }, {
+    "epoch" : 8,
+    "startWeights" : {
+      "VT" : 0.15,
+      "VOO" : 0.483333,
+      "VYM" : 0.216667,
+      "SCHD" : 0.15
+    },
+    "startUtility" : 5.014934603077254,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 8,
+    "temperature" : 0.03317102156445311,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.2,
+        "VOO" : 0.466667,
+        "VYM" : 0.2,
+        "SCHD" : 0.133333
+      },
+      "utility" : 4.961196385048709,
+      "sharpe" : 0.7440826852578726,
+      "score" : 4.961196385048709,
+      "delta" : -0.053738218028545504
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.133333,
+        "VOO" : 0.533333,
+        "VYM" : 0.2,
+        "SCHD" : 0.133333
+      },
+      "utility" : 5.048596456667366,
+      "sharpe" : 0.7579969243170581,
+      "score" : 5.048596456667366,
+      "delta" : 0.03366185359011187
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.133333,
+        "VOO" : 0.466667,
+        "VYM" : 0.266667,
+        "SCHD" : 0.133333
+      },
+      "utility" : 5.046311417994878,
+      "sharpe" : 0.7472712760065707,
+      "score" : 5.046311417994878,
+      "delta" : 0.031376814917623896
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.133333,
+        "VOO" : 0.466667,
+        "VYM" : 0.2,
+        "SCHD" : 0.2
+      },
+      "utility" : 4.996427512160978,
+      "sharpe" : 0.747251921089486,
+      "score" : 4.996427512160978,
+      "delta" : -0.018507090916275892
+    } ],
+    "winner" : "Epoch 8",
+    "endWeights" : {
+      "VT" : 0.133333,
+      "VOO" : 0.533333,
+      "VYM" : 0.2,
+      "SCHD" : 0.133333
+    },
+    "endUtility" : 5.048596456667366,
+    "improvement" : 0.03366185359011187
+  }, {
+    "epoch" : 9,
+    "startWeights" : {
+      "VT" : 0.133333,
+      "VOO" : 0.533333,
+      "VYM" : 0.2,
+      "SCHD" : 0.133333
+    },
+    "startUtility" : 5.048596456667366,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 9,
+    "temperature" : 0.03151247048623045,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.183333,
+        "VOO" : 0.516667,
+        "VYM" : 0.183333,
+        "SCHD" : 0.116667
+      },
+      "utility" : 4.991989888021083,
+      "sharpe" : 0.7524294634419164,
+      "score" : 4.991989888021083,
+      "delta" : -0.05660656864628333
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.116667,
+        "VOO" : 0.583333,
+        "VYM" : 0.183333,
+        "SCHD" : 0.116667
+      },
+      "utility" : 5.077758406154855,
+      "sharpe" : 0.7660297291267344,
+      "score" : 5.077758406154855,
+      "delta" : 0.029161949487488847
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.116667,
+        "VOO" : 0.516667,
+        "VYM" : 0.25,
+        "SCHD" : 0.116667
+      },
+      "utility" : 5.082543874652013,
+      "sharpe" : 0.7562492388546801,
+      "score" : 5.082543874652013,
+      "delta" : 0.03394741798464729
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.116667,
+        "VOO" : 0.516667,
+        "VYM" : 0.183333,
+        "SCHD" : 0.183333
+      },
+      "utility" : 5.0353451059220955,
+      "sharpe" : 0.7563035683430175,
+      "score" : 5.0353451059220955,
+      "delta" : -0.013251350745270507
+    } ],
+    "winner" : "Epoch 9",
+    "endWeights" : {
+      "VT" : 0.116667,
+      "VOO" : 0.516667,
+      "VYM" : 0.25,
+      "SCHD" : 0.116667
+    },
+    "endUtility" : 5.082543874652013,
+    "improvement" : 0.03394741798464729
+  }, {
+    "epoch" : 10,
+    "startWeights" : {
+      "VT" : 0.116667,
+      "VOO" : 0.516667,
+      "VYM" : 0.25,
+      "SCHD" : 0.116667
+    },
+    "startUtility" : 5.082543874652013,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 10,
+    "temperature" : 0.029936846961918936,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.166667,
+        "VOO" : 0.5,
+        "VYM" : 0.233333,
+        "SCHD" : 0.1
+      },
+      "utility" : 5.027528829562898,
+      "sharpe" : 0.7509401531081062,
+      "score" : 5.027528829562898,
+      "delta" : -0.05501504508911559
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.1,
+        "VOO" : 0.566667,
+        "VYM" : 0.233333,
+        "SCHD" : 0.1
+      },
+      "utility" : 5.114074951701397,
+      "sharpe" : 0.7646545910845196,
+      "score" : 5.114074951701397,
+      "delta" : 0.03153107704938396
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.1,
+        "VOO" : 0.5,
+        "VYM" : 0.3,
+        "SCHD" : 0.1
+      },
+      "utility" : 5.114474959283397,
+      "sharpe" : 0.7541117917765116,
+      "score" : 5.114474959283397,
+      "delta" : 0.03193108463138383
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.1,
+        "VOO" : 0.5,
+        "VYM" : 0.233333,
+        "SCHD" : 0.166667
+      },
+      "utility" : 5.066560678488111,
+      "sharpe" : 0.7542987565528555,
+      "score" : 5.066560678488111,
+      "delta" : -0.015983196163902313
+    } ],
+    "winner" : "Epoch 10",
+    "endWeights" : {
+      "VT" : 0.1,
+      "VOO" : 0.5,
+      "VYM" : 0.3,
+      "SCHD" : 0.1
+    },
+    "endUtility" : 5.114474959283397,
+    "improvement" : 0.03193108463138383
+  }, {
+    "epoch" : 11,
+    "startWeights" : {
+      "VT" : 0.1,
+      "VOO" : 0.5,
+      "VYM" : 0.3,
+      "SCHD" : 0.1
+    },
+    "startUtility" : 5.114474959283397,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 11,
+    "temperature" : 0.028440004613822983,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.15,
+        "VOO" : 0.483333,
+        "VYM" : 0.283333,
+        "SCHD" : 0.083333
+      },
+      "utility" : 5.061410165336111,
+      "sharpe" : 0.7490691664738071,
+      "score" : 5.061410165336111,
+      "delta" : -0.05306479394728569
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.083333,
+        "VOO" : 0.55,
+        "VYM" : 0.283333,
+        "SCHD" : 0.083333
+      },
+      "utility" : 5.14850530844922,
+      "sharpe" : 0.76289568898179,
+      "score" : 5.14850530844922,
+      "delta" : 0.034030349165822926
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.083333,
+        "VOO" : 0.483333,
+        "VYM" : 0.35,
+        "SCHD" : 0.083333
+      },
+      "utility" : 5.144030585459777,
+      "sharpe" : 0.7515759050753158,
+      "score" : 5.144030585459777,
+      "delta" : 0.0295556261763803
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.083333,
+        "VOO" : 0.483333,
+        "VYM" : 0.283333,
+        "SCHD" : 0.15
+      },
+      "utility" : 5.09504597424681,
+      "sharpe" : 0.7518997275004841,
+      "score" : 5.09504597424681,
+      "delta" : -0.019428985036586965
+    } ],
+    "winner" : "Epoch 11",
+    "endWeights" : {
+      "VT" : 0.083333,
+      "VOO" : 0.55,
+      "VYM" : 0.283333,
+      "SCHD" : 0.083333
+    },
+    "endUtility" : 5.14850530844922,
+    "improvement" : 0.034030349165822926
+  }, {
+    "epoch" : 12,
+    "startWeights" : {
+      "VT" : 0.083333,
+      "VOO" : 0.55,
+      "VYM" : 0.283333,
+      "SCHD" : 0.083333
+    },
+    "startUtility" : 5.14850530844922,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 12,
+    "temperature" : 0.027018004383131834,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.133333,
+        "VOO" : 0.533333,
+        "VYM" : 0.266667,
+        "SCHD" : 0.066667
+      },
+      "utility" : 5.093330215025331,
+      "sharpe" : 0.7575957321329163,
+      "score" : 5.093330215025331,
+      "delta" : -0.055175093423889265
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.066667,
+        "VOO" : 0.6,
+        "VYM" : 0.266667,
+        "SCHD" : 0.066667
+      },
+      "utility" : 5.178081409396874,
+      "sharpe" : 0.7711043641496188,
+      "score" : 5.178081409396874,
+      "delta" : 0.029576100947654282
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.066667,
+        "VOO" : 0.533333,
+        "VYM" : 0.333333,
+        "SCHD" : 0.066667
+      },
+      "utility" : 5.181185119557246,
+      "sharpe" : 0.7607438255651873,
+      "score" : 5.181185119557246,
+      "delta" : 0.03267981110802598
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.066667,
+        "VOO" : 0.533333,
+        "VYM" : 0.266667,
+        "SCHD" : 0.133333
+      },
+      "utility" : 5.134648455084181,
+      "sharpe" : 0.7611414771465009,
+      "score" : 5.134648455084181,
+      "delta" : -0.013856853365038724
+    } ],
+    "winner" : "Epoch 12",
+    "endWeights" : {
+      "VT" : 0.066667,
+      "VOO" : 0.533333,
+      "VYM" : 0.333333,
+      "SCHD" : 0.066667
+    },
+    "endUtility" : 5.181185119557246,
+    "improvement" : 0.03267981110802598
+  }, {
+    "epoch" : 13,
+    "startWeights" : {
+      "VT" : 0.066667,
+      "VOO" : 0.533333,
+      "VYM" : 0.333333,
+      "SCHD" : 0.066667
+    },
+    "startUtility" : 5.181185119557246,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 13,
+    "temperature" : 0.025667104163975243,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.116667,
+        "VOO" : 0.516667,
+        "VYM" : 0.316667,
+        "SCHD" : 0.05
+      },
+      "utility" : 5.128046019401973,
+      "sharpe" : 0.7557128731736813,
+      "score" : 5.128046019401973,
+      "delta" : -0.05313910015527323
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.05,
+        "VOO" : 0.583333,
+        "VYM" : 0.316667,
+        "SCHD" : 0.05
+      },
+      "utility" : 5.2135947207028766,
+      "sharpe" : 0.7693313564934012,
+      "score" : 5.2135947207028766,
+      "delta" : 0.03240960114563052
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.05,
+        "VOO" : 0.516667,
+        "VYM" : 0.383333,
+        "SCHD" : 0.05
+      },
+      "utility" : 5.212755766620648,
+      "sharpe" : 0.75819026418456,
+      "score" : 5.212755766620648,
+      "delta" : 0.03157064706340229
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.05,
+        "VOO" : 0.516667,
+        "VYM" : 0.316667,
+        "SCHD" : 0.116667
+      },
+      "utility" : 5.165069296895005,
+      "sharpe" : 0.7587281521681513,
+      "score" : 5.165069296895005,
+      "delta" : -0.016115822662240653
+    } ],
+    "winner" : "Epoch 13",
+    "endWeights" : {
+      "VT" : 0.05,
+      "VOO" : 0.583333,
+      "VYM" : 0.316667,
+      "SCHD" : 0.05
+    },
+    "endUtility" : 5.2135947207028766,
+    "improvement" : 0.03240960114563052
+  }, {
+    "epoch" : 14,
+    "startWeights" : {
+      "VT" : 0.05,
+      "VOO" : 0.583333,
+      "VYM" : 0.316667,
+      "SCHD" : 0.05
+    },
+    "startUtility" : 5.2135947207028766,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 14,
+    "temperature" : 0.02438374895577648,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.1,
+        "VOO" : 0.566667,
+        "VYM" : 0.3,
+        "SCHD" : 0.033333
+      },
+      "utility" : 5.158136847399802,
+      "sharpe" : 0.7640443967210575,
+      "score" : 5.158136847399802,
+      "delta" : -0.055457873303074834
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.033333,
+        "VOO" : 0.633333,
+        "VYM" : 0.3,
+        "SCHD" : 0.033333
+      },
+      "utility" : 5.241491646494255,
+      "sharpe" : 0.777341447300548,
+      "score" : 5.241491646494255,
+      "delta" : 0.027896925791378813
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.033333,
+        "VOO" : 0.566667,
+        "VYM" : 0.366667,
+        "SCHD" : 0.033333
+      },
+      "utility" : 5.2478778725701725,
+      "sharpe" : 0.7671622785266059,
+      "score" : 5.2478778725701725,
+      "delta" : 0.03428315186729591
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.033333,
+        "VOO" : 0.566667,
+        "VYM" : 0.3,
+        "SCHD" : 0.1
+      },
+      "utility" : 5.201884169885684,
+      "sharpe" : 0.7677747498883863,
+      "score" : 5.201884169885684,
+      "delta" : -0.011710550817192633
+    } ],
+    "winner" : "Epoch 14",
+    "endWeights" : {
+      "VT" : 0.033333,
+      "VOO" : 0.566667,
+      "VYM" : 0.366667,
+      "SCHD" : 0.033333
+    },
+    "endUtility" : 5.2478778725701725,
+    "improvement" : 0.03428315186729591
+  }, {
+    "epoch" : 15,
+    "startWeights" : {
+      "VT" : 0.033333,
+      "VOO" : 0.566667,
+      "VYM" : 0.366667,
+      "SCHD" : 0.033333
+    },
+    "startUtility" : 5.2478778725701725,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 15,
+    "temperature" : 0.023164561507987652,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.083333,
+        "VOO" : 0.55,
+        "VYM" : 0.35,
+        "SCHD" : 0.016667
+      },
+      "utility" : 5.193440725247791,
+      "sharpe" : 0.7621468203709109,
+      "score" : 5.193440725247791,
+      "delta" : -0.05443714732238103
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.016667,
+        "VOO" : 0.616667,
+        "VYM" : 0.35,
+        "SCHD" : 0.016667
+      },
+      "utility" : 5.27877928976845,
+      "sharpe" : 0.7755514156110663,
+      "score" : 5.27877928976845,
+      "delta" : 0.03090141719827777
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.016667,
+        "VOO" : 0.55,
+        "VYM" : 0.416667,
+        "SCHD" : 0.016667
+      },
+      "utility" : 5.279351067059012,
+      "sharpe" : 0.7645883461121918,
+      "score" : 5.279351067059012,
+      "delta" : 0.03147319448883934
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.016667,
+        "VOO" : 0.55,
+        "VYM" : 0.35,
+        "SCHD" : 0.083333
+      },
+      "utility" : 5.234080604565535,
+      "sharpe" : 0.7653444157858246,
+      "score" : 5.234080604565535,
+      "delta" : -0.01379726800463743
+    } ],
+    "winner" : "Epoch 15",
+    "endWeights" : {
+      "VT" : 0.016667,
+      "VOO" : 0.55,
+      "VYM" : 0.416667,
+      "SCHD" : 0.016667
+    },
+    "endUtility" : 5.279351067059012,
+    "improvement" : 0.03147319448883934
+  }, {
+    "epoch" : 16,
+    "startWeights" : {
+      "VT" : 0.016667,
+      "VOO" : 0.55,
+      "VYM" : 0.416667,
+      "SCHD" : 0.016667
+    },
+    "startUtility" : 5.279351067059012,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 16,
+    "temperature" : 0.02200633343258827,
+    "feasibleCount" : 4,
+    "variants" : [ {
+      "symbol" : "VT",
+      "weights" : {
+        "VT" : 0.066667,
+        "VOO" : 0.533333,
+        "VYM" : 0.4,
+        "SCHD" : 0.0
+      },
+      "utility" : 5.2272269590088705,
+      "sharpe" : 0.7598522821095627,
+      "score" : 5.2272269590088705,
+      "delta" : -0.05212410805014134
+    }, {
+      "symbol" : "VOO",
+      "weights" : {
+        "VT" : 0.0,
+        "VOO" : 0.6,
+        "VYM" : 0.4,
+        "SCHD" : 0.0
+      },
+      "utility" : 5.313494493071462,
+      "sharpe" : 0.7733623012796812,
+      "score" : 5.313494493071462,
+      "delta" : 0.03414342601245046
+    }, {
+      "symbol" : "VYM",
+      "weights" : {
+        "VT" : 0.0,
+        "VOO" : 0.533333,
+        "VYM" : 0.466667,
+        "SCHD" : 0.0
+      },
+      "utility" : 5.309015211501013,
+      "sharpe" : 0.7616013208983461,
+      "score" : 5.309015211501013,
+      "delta" : 0.02966414444200094
+    }, {
+      "symbol" : "SCHD",
+      "weights" : {
+        "VT" : 0.0,
+        "VOO" : 0.533333,
+        "VYM" : 0.4,
+        "SCHD" : 0.066667
+      },
+      "utility" : 5.262548605160495,
+      "sharpe" : 0.7625048807218027,
+      "score" : 5.262548605160495,
+      "delta" : -0.016802461898516974
+    } ],
+    "winner" : "Epoch 16",
+    "endWeights" : {
+      "VT" : 0.0,
+      "VOO" : 0.6,
+      "VYM" : 0.4,
+      "SCHD" : 0.0
+    },
+    "endUtility" : 5.313494493071462,
+    "improvement" : 0.03414342601245046
+  }, {
+    "epoch" : 17,
+    "startWeights" : {
+      "VT" : 0.0,
+      "VOO" : 0.6,
+      "VYM" : 0.4,
+      "SCHD" : 0.0
+    },
+    "startUtility" : 5.313494493071462,
+    "optimizeBy" : "utility",
+    "step" : 0.05,
+    "epochStreak" : 17,
+    "temperature" : 0.020906016760958854,
+    "feasibleCount" : 0,
+    "variants" : [ ],
+    "stopped" : "no_feasible_variants"
+  } ],
+  "finalUtility" : 5.313494493071462,
+  "totalGain" : 0.5748954726527362,
+  "epochCount" : 18
+}

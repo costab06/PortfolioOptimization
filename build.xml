@@ -1,0 +1,223 @@
+<project name="BCFinancial" default="dist" basedir=".">
+    <description>
+	BCFinancial build script
+    </description>
+  <!-- set global properties for this build -->
+  <property name="cots" location="cots"/>
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="dist"/>
+  <property name="catalina_home"  location="deploy/usr/local/tomcat"/>
+  <property name="persistenceService_home"  location="deploy/usr/local/persistenceService"/>
+  <property name="javadoc"  location="javadoc"/>
+
+
+  <path id="classpath"> 
+
+        <pathelement location="cots/jfreechart/jfreechart-1.0.1/lib/jcommon-1.0.0.jar"/>
+        <pathelement location="cots/jfreechart/jfreechart-1.0.1/lib/jfreechart-1.0.1.jar"/>
+        <pathelement location="cots/jfreechart/jfreechart-1.0.1/lib/servlet.jar"/>
+        <pathelement location="cots/iText/lib/itext-1.4.2.jar"/>
+        <pathelement location="cots/batik/batik-1.6/lib/batik-awt-util.jar"/>
+        <pathelement location="cots/batik/batik-1.6/lib/batik-dom.jar"/>
+        <pathelement location="cots/batik/batik-1.6/lib/batik-svggen.jar"/>
+        <pathelement location="cots/batik/batik-1.6/lib/batik-util.jar"/>
+
+        <pathelement location="cots/jini/jini2_1/lib/jini-core.jar" />
+	<pathelement location="cots/jini/jini2_1/lib/jini-ext.jar" />
+	<pathelement location="cots/jini/jini2_1/lib/sun-util.jar" />
+	<pathelement location="cots/jini/serviceUI/serviceui-1.1a.jar"  />
+
+        <pathelement location="cots/computefarm/computefarm-0.8.2/computefarm-0.8.2.jar" />
+
+
+        <pathelement location="cots/hibernate/hibernate-3.2/hibernate3.jar" />
+        <fileset dir="cots/hibernate/hibernate-3.2/lib/">
+                <include name="*.jar"/>
+        </fileset>
+
+	<!-- whirlycache with the default xml file -->
+        <pathelement location="cots/whirlycache/whirlycache-1.0.1/dist/whirlycache-1.0.1.jar" />
+	<pathelement location="cots/whirlycache/whirlycache-1.0.1/src/java/whirlycache-default.xml" />
+        <fileset dir="cots/whirlycache/whirlycache-1.0.1/lib/">
+                <include name="*.jar"/>
+        </fileset>
+
+
+    <!-- Javamail, needed for the servlet -->
+
+        <pathelement location="cots/jaf/jaf-1.1/activation.jar" />
+        <pathelement location="cots/javamail/javamail-1.4/lib/smtp.jar" />
+        <pathelement location="cots/javamail/javamail-1.4/lib/mailapi.jar" />
+
+    <!-- poi, needed for loading portfolios -->
+
+        <pathelement location="cots/poi/poi-2.5.1/poi-2.5.1-final-20040804.jar" />
+
+
+    <!-- jama for matrix computations -->
+        <pathelement location="cots/jama/Jama-1.0.2.jar" />
+
+    <!-- the actual build files -->	
+        <pathelement location="${build}" />
+
+    </path> 
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}" debug="on">
+        <classpath refid="classpath" />
+    </javac>
+
+    <!-- copy some non java files to the build tree for jaring -->
+
+
+    <copy todir="${build}/com/bcfinancial/applet/config" overwrite="true">
+             <fileset dir="${src}/com/bcfinancial/applet/config">
+                  <include name="*.cfg"/>
+             </fileset>
+    </copy>
+
+
+    <copy todir="${build}/com/bcfinancial/applet/images" overwrite="true">
+             <fileset dir="${src}/com/bcfinancial/applet/images">
+                  <include name="*.jpg"/>
+             </fileset>
+    </copy>
+
+
+    <copy todir="${build}/com/bcfinancial/applet/help" overwrite="true">
+             <fileset dir="${src}/com/bcfinancial/applet/help">
+                  <include name="*.html"/>
+             </fileset>
+    </copy>
+
+
+
+  </target>
+
+  <target name="dist" depends="compile"
+        description="generate the distribution" >
+    <!-- Create the distribution directory -->
+    <mkdir dir="${dist}/lib"/>
+
+    <!-- Put everything in ${build} into the jar files -->
+
+    <jar jarfile="${dist}/lib/BCFinancial.jar" basedir="${build}" excludes="com/bcfinancial/applet com/bcfinancial/servlet com/bcfinancial/persistenceService" />    
+
+
+    <jar jarfile="${dist}/lib/BCFinancial-applet.jar" basedir="${build}" includes="com/bcfinancial/applet/* com/bcfinancial/applet/common/* com/bcfinancial/applet/layout/* com/bcfinancial/applet/progressIndicator/* com/bcfinancial/user/* com/bcfinancial/persistenceManager/Persistable.class com/bcfinancial/utility/* com/bcfinancial/instruments/* com/bcfinancial/portfolio/* com/bcfinancial/util/communicator/*" />    
+
+    <jar jarfile="${dist}/lib/BCFinancial-servlet.jar" basedir="${build}" includes="com/bcfinancial/servlet/* com/bcfinancial/computeFarm/* com/bcfinancial/persistenceManager/* com/bcfinancial/portfolio/* com/bcfinancial/instruments/* com/bcfinancial/utility/* com/bcfinancial/user/*" />    
+
+    <jar jarfile="${dist}/lib/BCFinancial-persistenceService.jar" basedir="${build}" includes="com/bcfinancial/persistenceService/*" />
+
+    <jar jarfile="${dist}/lib/BCFinancial-persistenceService-dl.jar" basedir="${build}" includes="com/bcfinancial/persistenceService/* com/bcfinancial/persistenceManager/*" />
+
+
+  </target>
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+    <delete dir="${javadoc}"/>
+  </target>
+
+
+
+    <target name="javadoc" depends="init">
+        <delete dir="${javadoc}" />
+        <mkdir dir="${javadoc}" />
+        <javadoc destdir="${javadoc}" 
+                 windowtitle="BCFinancial Class Library)"
+                 overview="${src}/overview.html"
+                 use="yes"
+                 linksource="yes"
+                 splitindex="yes">
+            <packageset dir="${src}" defaultexcludes="yes">
+                <include name="com/bcfinancial/**"/>
+                <exclude name="com/bcfinancial/**/junit"/>
+            </packageset>
+        </javadoc>
+    </target>
+
+    <!-- Create zip file containing the API HTML pages. -->
+    <target name="zip-javadoc" depends="javadoc">
+        <!-- make the zip file -->
+        <zip zipfile="${dist}/doc/BCFinancial-javadoc-${DSTAMP}.zip">
+             <zipfileset dir="${javadoc}"
+                         prefix="BCFinancial-javadoc" />
+        </zip>
+    </target>
+
+    <target name="deploy_tomcat">
+         <!-- move cots files, htmls, jars and classes to the tomcat server then restart tomcat -->
+
+
+         <copy file="${cots}/jfreechart/jfreechart-1.0.1/lib/jfreechart-1.0.1.jar" todir="${catalina_home}/webapps/bcfinancial/WEB-INF/lib"  overwrite="false"/>
+
+         <copy file="${cots}/jfreechart/jfreechart-1.0.1/lib/jcommon-1.0.0.jar" todir="${catalina_home}/webapps/bcfinancial/WEB-INF/lib"  overwrite="false"/>
+
+         <copy file="${cots}/javamail/javamail-1.4/lib/smtp.jar" todir="${catalina_home}/webapps/bcfinancial/WEB-INF/lib"  overwrite="false"/>         
+
+	 <copy file="${cots}/javamail/javamail-1.4/lib/mailapi.jar" todir="${catalina_home}/webapps/bcfinancial/WEB-INF/lib"  overwrite="false"/>
+
+         <copy file="${cots}/jaf/jaf-1.1/activation.jar" todir="${catalina_home}/webapps/bcfinancial/WEB-INF/lib"  overwrite="false"/>
+
+
+         <copy file="${src}/com/bcfinancial/servlet/html/index.html" todir="${catalina_home}/webapps/bcfinancial/"  overwrite="true"/>
+
+         <copy file="${src}/com/bcfinancial/servlet/WEB-INF/web.xml" todir="${catalina_home}/webapps/bcfinancial/WEB-INF"  overwrite="true"/>
+
+         <copy file="${dist}/lib/BCFinancial-servlet.jar" todir="${catalina_home}/webapps/bcfinancial/WEB-INF/lib"  overwrite="true"/>
+
+         <copy file="${dist}/lib/BCFinancial-applet.jar" todir="${catalina_home}/webapps/bcfinancial"  overwrite="true"/>
+
+         <copy todir="${catalina_home}/webapps/bcfinancial" overwrite="true">
+             <fileset dir="${build}/com/bcfinancial/applet/config">
+                  <include name="*.cfg"/>
+             </fileset>
+        </copy>
+
+
+         <copy todir="${catalina_home}/webapps/bcfinancial" overwrite="true">
+             <fileset dir="${build}/com/bcfinancial/applet/help">
+                  <include name="*.html"/>
+             </fileset>
+        </copy>
+
+
+         <copy todir="${catalina_home}/webapps/bcfinancial" overwrite="true">
+             <fileset dir="${build}/com/bcfinancial/applet/images">
+                  <include name="*.jpg"/>
+             </fileset>
+        </copy>
+
+         <copy todir="${catalina_home}/webapps/bcfinancial/WEB-INF/classes/com/bcfinancial/servlet" overwrite="true">
+             <fileset dir="${build}/com/bcfinancial/servlet">
+                  <include name="*.class"/>
+             </fileset>
+         </copy>
+
+
+
+         <exec dir="${catalina_home}/bin" executable="sudo">
+               <arg line="${catalina_home}/bin/restart.sh"/>
+         </exec>
+
+
+
+    </target>
+
+</project>
+

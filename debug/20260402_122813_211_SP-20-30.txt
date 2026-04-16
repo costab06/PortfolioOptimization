@@ -1,0 +1,1061 @@
+=== OPTIMIZATION DEBUG: SP-20-30 ===
+Time:   Thu Apr 02 12:30:36 EDT 2026
+Start:  NFLX= 11.4%  JNJ= 10.5%  WMT= 10.2%  BAC=  9.5%  CRM=  9.2%  ORCL=  9.1%  MRK=  8.5%  NOW=  8.3%  ABBV=  8.0%  AMD=  7.7%  IBM=  7.6%
+        utility = 0.431355
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.431355  feasible=11]
+  NFLX+1%  NFLX= 12.4%  JNJ= 10.4%  WMT= 10.1%  BAC=  9.4%  CRM=  9.1%  ORCL=  9.0%  MRK=  8.4%  NOW=  8.2%  ABBV=  7.9%  AMD=  7.6%  IBM=  7.5%  util=0.433992  Δ=+0.002637
+  JNJ+1%  NFLX= 11.3%  JNJ= 11.5%  WMT= 10.1%  BAC=  9.4%  CRM=  9.1%  ORCL=  9.0%  MRK=  8.4%  NOW=  8.2%  ABBV=  7.9%  AMD=  7.6%  IBM=  7.5%  util=0.428630  Δ=-0.002725
+  WMT+1%  NFLX= 11.3%  JNJ= 10.4%  WMT= 11.2%  BAC=  9.4%  CRM=  9.1%  ORCL=  9.0%  MRK=  8.4%  NOW=  8.2%  ABBV=  7.9%  AMD=  7.6%  IBM=  7.5%  util=0.430424  Δ=-0.000931
+  BAC+1%  NFLX= 11.3%  JNJ= 10.4%  WMT= 10.1%  BAC= 10.5%  CRM=  9.1%  ORCL=  9.0%  MRK=  8.4%  NOW=  8.2%  ABBV=  7.9%  AMD=  7.6%  IBM=  7.5%  util=0.430421  Δ=-0.000934
+  CRM+1%  NFLX= 11.3%  JNJ= 10.4%  WMT= 10.1%  BAC=  9.4%  CRM= 10.2%  ORCL=  9.0%  MRK=  8.4%  NOW=  8.2%  ABBV=  7.9%  AMD=  7.6%  IBM=  7.5%  util=0.429616  Δ=-0.001739
+  ORCL+1%  NFLX= 11.3%  JNJ= 10.4%  WMT= 10.1%  BAC=  9.4%  CRM=  9.1%  ORCL= 10.1%  MRK=  8.4%  NOW=  8.2%  ABBV=  7.9%  AMD=  7.6%  IBM=  7.5%  util=0.430570  Δ=-0.000785
+  MRK+1%  NFLX= 11.3%  JNJ= 10.4%  WMT= 10.1%  BAC=  9.4%  CRM=  9.1%  ORCL=  9.0%  MRK=  9.5%  NOW=  8.2%  ABBV=  7.9%  AMD=  7.6%  IBM=  7.5%  util=0.428985  Δ=-0.002370
+  NOW+1%  NFLX= 11.3%  JNJ= 10.4%  WMT= 10.1%  BAC=  9.4%  CRM=  9.1%  ORCL=  9.0%  MRK=  8.4%  NOW=  9.3%  ABBV=  7.9%  AMD=  7.6%  IBM=  7.5%  util=0.431854  Δ=+0.000500
+  ABBV+1%  NFLX= 11.3%  JNJ= 10.4%  WMT= 10.1%  BAC=  9.4%  CRM=  9.1%  ORCL=  9.0%  MRK=  8.4%  NOW=  8.2%  ABBV=  9.0%  AMD=  7.6%  IBM=  7.5%  util=0.431417  Δ=+0.000063
+  AMD+1%  NFLX= 11.3%  JNJ= 10.4%  WMT= 10.1%  BAC=  9.4%  CRM=  9.1%  ORCL=  9.0%  MRK=  8.4%  NOW=  8.2%  ABBV=  7.9%  AMD=  8.7%  IBM=  7.5%  util=0.439531  Δ=+0.008177
+  IBM+1%  NFLX= 11.3%  JNJ= 10.4%  WMT= 10.1%  BAC=  9.4%  CRM=  9.1%  ORCL=  9.0%  MRK=  8.4%  NOW=  8.2%  ABBV=  7.9%  AMD=  7.6%  IBM=  8.6%  util=0.429257  Δ=-0.002097
+  ★ WINNER: AMD  improvement=+0.008177
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.439531  feasible=11]
+  NFLX+1%  NFLX= 12.3%  JNJ= 10.3%  WMT= 10.0%  BAC=  9.3%  CRM=  9.0%  ORCL=  8.9%  MRK=  8.3%  NOW=  8.1%  ABBV=  7.8%  AMD=  8.6%  IBM=  7.4%  util=0.442248  Δ=+0.002717
+  JNJ+1%  NFLX= 11.2%  JNJ= 11.4%  WMT= 10.0%  BAC=  9.3%  CRM=  9.0%  ORCL=  8.9%  MRK=  8.3%  NOW=  8.1%  ABBV=  7.8%  AMD=  8.6%  IBM=  7.4%  util=0.436811  Δ=-0.002721
+  WMT+1%  NFLX= 11.2%  JNJ= 10.3%  WMT= 11.1%  BAC=  9.3%  CRM=  9.0%  ORCL=  8.9%  MRK=  8.3%  NOW=  8.1%  ABBV=  7.8%  AMD=  8.6%  IBM=  7.4%  util=0.438613  Δ=-0.000918
+  BAC+1%  NFLX= 11.2%  JNJ= 10.3%  WMT= 10.0%  BAC= 10.4%  CRM=  9.0%  ORCL=  8.9%  MRK=  8.3%  NOW=  8.1%  ABBV=  7.8%  AMD=  8.6%  IBM=  7.4%  util=0.438593  Δ=-0.000939
+  CRM+1%  NFLX= 11.2%  JNJ= 10.3%  WMT= 10.0%  BAC=  9.3%  CRM= 10.1%  ORCL=  8.9%  MRK=  8.3%  NOW=  8.1%  ABBV=  7.8%  AMD=  8.6%  IBM=  7.4%  util=0.437879  Δ=-0.001653
+  ORCL+1%  NFLX= 11.2%  JNJ= 10.3%  WMT= 10.0%  BAC=  9.3%  CRM=  9.0%  ORCL= 10.0%  MRK=  8.3%  NOW=  8.1%  ABBV=  7.8%  AMD=  8.6%  IBM=  7.4%  util=0.438788  Δ=-0.000743
+  MRK+1%  NFLX= 11.2%  JNJ= 10.3%  WMT= 10.0%  BAC=  9.3%  CRM=  9.0%  ORCL=  8.9%  MRK=  9.4%  NOW=  8.1%  ABBV=  7.8%  AMD=  8.6%  IBM=  7.4%  util=0.437137  Δ=-0.002394
+  NOW+1%  NFLX= 11.2%  JNJ= 10.3%  WMT= 10.0%  BAC=  9.3%  CRM=  9.0%  ORCL=  8.9%  MRK=  8.3%  NOW=  9.2%  ABBV=  7.8%  AMD=  8.6%  IBM=  7.4%  util=0.440119  Δ=+0.000588
+  ABBV+1%  NFLX= 11.2%  JNJ= 10.3%  WMT= 10.0%  BAC=  9.3%  CRM=  9.0%  ORCL=  8.9%  MRK=  8.3%  NOW=  8.1%  ABBV=  8.9%  AMD=  8.6%  IBM=  7.4%  util=0.439631  Δ=+0.000100
+  AMD+1%  NFLX= 11.2%  JNJ= 10.3%  WMT= 10.0%  BAC=  9.3%  CRM=  9.0%  ORCL=  8.9%  MRK=  8.3%  NOW=  8.1%  ABBV=  7.8%  AMD=  9.7%  IBM=  7.4%  util=0.447294  Δ=+0.007763
+  IBM+1%  NFLX= 11.2%  JNJ= 10.3%  WMT= 10.0%  BAC=  9.3%  CRM=  9.0%  ORCL=  8.9%  MRK=  8.3%  NOW=  8.1%  ABBV=  7.8%  AMD=  8.6%  IBM=  8.5%  util=0.437438  Δ=-0.002094
+  ★ WINNER: AMD  improvement=+0.007763
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.447294  feasible=11]
+  NFLX+1%  NFLX= 12.2%  JNJ= 10.2%  WMT=  9.9%  BAC=  9.2%  CRM=  8.9%  ORCL=  8.8%  MRK=  8.2%  NOW=  8.0%  ABBV=  7.7%  AMD=  9.6%  IBM=  7.3%  util=0.450161  Δ=+0.002867
+  JNJ+1%  NFLX= 11.1%  JNJ= 11.3%  WMT=  9.9%  BAC=  9.2%  CRM=  8.9%  ORCL=  8.8%  MRK=  8.2%  NOW=  8.0%  ABBV=  7.7%  AMD=  9.6%  IBM=  7.3%  util=0.444564  Δ=-0.002730
+  WMT+1%  NFLX= 11.1%  JNJ= 10.2%  WMT= 11.0%  BAC=  9.2%  CRM=  8.9%  ORCL=  8.8%  MRK=  8.2%  NOW=  8.0%  ABBV=  7.7%  AMD=  9.6%  IBM=  7.3%  util=0.446379  Δ=-0.000915
+  BAC+1%  NFLX= 11.1%  JNJ= 10.2%  WMT=  9.9%  BAC= 10.3%  CRM=  8.9%  ORCL=  8.8%  MRK=  8.2%  NOW=  8.0%  ABBV=  7.7%  AMD=  9.6%  IBM=  7.3%  util=0.446382  Δ=-0.000912
+  CRM+1%  NFLX= 11.1%  JNJ= 10.2%  WMT=  9.9%  BAC=  9.2%  CRM= 10.0%  ORCL=  8.8%  MRK=  8.2%  NOW=  8.0%  ABBV=  7.7%  AMD=  9.6%  IBM=  7.3%  util=0.445681  Δ=-0.001614
+  ORCL+1%  NFLX= 11.1%  JNJ= 10.2%  WMT=  9.9%  BAC=  9.2%  CRM=  8.9%  ORCL=  9.9%  MRK=  8.2%  NOW=  8.0%  ABBV=  7.7%  AMD=  9.6%  IBM=  7.3%  util=0.446603  Δ=-0.000692
+  MRK+1%  NFLX= 11.1%  JNJ= 10.2%  WMT=  9.9%  BAC=  9.2%  CRM=  8.9%  ORCL=  8.8%  MRK=  9.3%  NOW=  8.0%  ABBV=  7.7%  AMD=  9.6%  IBM=  7.3%  util=0.444892  Δ=-0.002402
+  NOW+1%  NFLX= 11.1%  JNJ= 10.2%  WMT=  9.9%  BAC=  9.2%  CRM=  8.9%  ORCL=  8.8%  MRK=  8.2%  NOW=  9.1%  ABBV=  7.7%  AMD=  9.6%  IBM=  7.3%  util=0.447955  Δ=+0.000661
+  ABBV+1%  NFLX= 11.1%  JNJ= 10.2%  WMT=  9.9%  BAC=  9.2%  CRM=  8.9%  ORCL=  8.8%  MRK=  8.2%  NOW=  8.0%  ABBV=  8.8%  AMD=  9.6%  IBM=  7.3%  util=0.447422  Δ=+0.000128
+  AMD+1%  NFLX= 11.1%  JNJ= 10.2%  WMT=  9.9%  BAC=  9.2%  CRM=  8.9%  ORCL=  8.8%  MRK=  8.2%  NOW=  8.0%  ABBV=  7.7%  AMD= 10.7%  IBM=  7.3%  util=0.454805  Δ=+0.007511
+  IBM+1%  NFLX= 11.1%  JNJ= 10.2%  WMT=  9.9%  BAC=  9.2%  CRM=  8.9%  ORCL=  8.8%  MRK=  8.2%  NOW=  8.0%  ABBV=  7.7%  AMD=  9.6%  IBM=  8.4%  util=0.445214  Δ=-0.002080
+  ★ WINNER: AMD  improvement=+0.007511
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.454805  feasible=11]
+  NFLX+1%  NFLX= 12.1%  JNJ= 10.1%  WMT=  9.8%  BAC=  9.1%  CRM=  8.8%  ORCL=  8.7%  MRK=  8.1%  NOW=  7.9%  ABBV=  7.6%  AMD= 10.6%  IBM=  7.2%  util=0.457739  Δ=+0.002933
+  JNJ+1%  NFLX= 11.0%  JNJ= 11.2%  WMT=  9.8%  BAC=  9.1%  CRM=  8.8%  ORCL=  8.7%  MRK=  8.1%  NOW=  7.9%  ABBV=  7.6%  AMD= 10.6%  IBM=  7.2%  util=0.452064  Δ=-0.002741
+  WMT+1%  NFLX= 11.0%  JNJ= 10.1%  WMT= 10.9%  BAC=  9.1%  CRM=  8.8%  ORCL=  8.7%  MRK=  8.1%  NOW=  7.9%  ABBV=  7.6%  AMD= 10.6%  IBM=  7.2%  util=0.453902  Δ=-0.000903
+  BAC+1%  NFLX= 11.0%  JNJ= 10.1%  WMT=  9.8%  BAC= 10.2%  CRM=  8.8%  ORCL=  8.7%  MRK=  8.1%  NOW=  7.9%  ABBV=  7.6%  AMD= 10.6%  IBM=  7.2%  util=0.453914  Δ=-0.000891
+  CRM+1%  NFLX= 11.0%  JNJ= 10.1%  WMT=  9.8%  BAC=  9.1%  CRM=  9.9%  ORCL=  8.7%  MRK=  8.1%  NOW=  7.9%  ABBV=  7.6%  AMD= 10.6%  IBM=  7.2%  util=0.453193  Δ=-0.001612
+  ORCL+1%  NFLX= 11.0%  JNJ= 10.1%  WMT=  9.8%  BAC=  9.1%  CRM=  8.8%  ORCL=  9.8%  MRK=  8.1%  NOW=  7.9%  ABBV=  7.6%  AMD= 10.6%  IBM=  7.2%  util=0.454120  Δ=-0.000685
+  MRK+1%  NFLX= 11.0%  JNJ= 10.1%  WMT=  9.8%  BAC=  9.1%  CRM=  8.8%  ORCL=  8.7%  MRK=  9.2%  NOW=  7.9%  ABBV=  7.6%  AMD= 10.6%  IBM=  7.2%  util=0.452408  Δ=-0.002397
+  NOW+1%  NFLX= 11.0%  JNJ= 10.1%  WMT=  9.8%  BAC=  9.1%  CRM=  8.8%  ORCL=  8.7%  MRK=  8.1%  NOW=  9.0%  ABBV=  7.6%  AMD= 10.6%  IBM=  7.2%  util=0.455490  Δ=+0.000685
+  ABBV+1%  NFLX= 11.0%  JNJ= 10.1%  WMT=  9.8%  BAC=  9.1%  CRM=  8.8%  ORCL=  8.7%  MRK=  8.1%  NOW=  7.9%  ABBV=  8.7%  AMD= 10.6%  IBM=  7.2%  util=0.454949  Δ=+0.000144
+  AMD+1%  NFLX= 11.0%  JNJ= 10.1%  WMT=  9.8%  BAC=  9.1%  CRM=  8.8%  ORCL=  8.7%  MRK=  8.1%  NOW=  7.9%  ABBV=  7.6%  AMD= 11.7%  IBM=  7.2%  util=0.462027  Δ=+0.007222
+  IBM+1%  NFLX= 11.0%  JNJ= 10.1%  WMT=  9.8%  BAC=  9.1%  CRM=  8.8%  ORCL=  8.7%  MRK=  8.1%  NOW=  7.9%  ABBV=  7.6%  AMD= 10.6%  IBM=  8.3%  util=0.452729  Δ=-0.002076
+  ★ WINNER: AMD  improvement=+0.007222
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.462027  feasible=11]
+  NFLX+1%  NFLX= 12.0%  JNJ= 10.0%  WMT=  9.7%  BAC=  9.0%  CRM=  8.7%  ORCL=  8.6%  MRK=  8.0%  NOW=  7.8%  ABBV=  7.5%  AMD= 11.6%  IBM=  7.1%  util=0.465061  Δ=+0.003034
+  JNJ+1%  NFLX= 10.9%  JNJ= 11.1%  WMT=  9.7%  BAC=  9.0%  CRM=  8.7%  ORCL=  8.6%  MRK=  8.0%  NOW=  7.8%  ABBV=  7.5%  AMD= 11.6%  IBM=  7.1%  util=0.459289  Δ=-0.002738
+  WMT+1%  NFLX= 10.9%  JNJ= 10.0%  WMT= 10.8%  BAC=  9.0%  CRM=  8.7%  ORCL=  8.6%  MRK=  8.0%  NOW=  7.8%  ABBV=  7.5%  AMD= 11.6%  IBM=  7.1%  util=0.461163  Δ=-0.000864
+  BAC+1%  NFLX= 10.9%  JNJ= 10.0%  WMT=  9.7%  BAC= 10.1%  CRM=  8.7%  ORCL=  8.6%  MRK=  8.0%  NOW=  7.8%  ABBV=  7.5%  AMD= 11.6%  IBM=  7.1%  util=0.461179  Δ=-0.000847
+  CRM+1%  NFLX= 10.9%  JNJ= 10.0%  WMT=  9.7%  BAC=  9.0%  CRM=  9.8%  ORCL=  8.6%  MRK=  8.0%  NOW=  7.8%  ABBV=  7.5%  AMD= 11.6%  IBM=  7.1%  util=0.460443  Δ=-0.001584
+  ORCL+1%  NFLX= 10.9%  JNJ= 10.0%  WMT=  9.7%  BAC=  9.0%  CRM=  8.7%  ORCL=  9.7%  MRK=  8.0%  NOW=  7.8%  ABBV=  7.5%  AMD= 11.6%  IBM=  7.1%  util=0.461401  Δ=-0.000626
+  MRK+1%  NFLX= 10.9%  JNJ= 10.0%  WMT=  9.7%  BAC=  9.0%  CRM=  8.7%  ORCL=  8.6%  MRK=  9.1%  NOW=  7.8%  ABBV=  7.5%  AMD= 11.6%  IBM=  7.1%  util=0.459645  Δ=-0.002382
+  NOW+1%  NFLX= 10.9%  JNJ= 10.0%  WMT=  9.7%  BAC=  9.0%  CRM=  8.7%  ORCL=  8.6%  MRK=  8.0%  NOW=  8.9%  ABBV=  7.5%  AMD= 11.6%  IBM=  7.1%  util=0.462775  Δ=+0.000749
+  ABBV+1%  NFLX= 10.9%  JNJ= 10.0%  WMT=  9.7%  BAC=  9.0%  CRM=  8.7%  ORCL=  8.6%  MRK=  8.0%  NOW=  7.8%  ABBV=  8.6%  AMD= 11.6%  IBM=  7.1%  util=0.462213  Δ=+0.000186
+  AMD+1%  NFLX= 10.9%  JNJ= 10.0%  WMT=  9.7%  BAC=  9.0%  CRM=  8.7%  ORCL=  8.6%  MRK=  8.0%  NOW=  7.8%  ABBV=  7.5%  AMD= 12.7%  IBM=  7.1%  util=0.469052  Δ=+0.007025
+  IBM+1%  NFLX= 10.9%  JNJ= 10.0%  WMT=  9.7%  BAC=  9.0%  CRM=  8.7%  ORCL=  8.6%  MRK=  8.0%  NOW=  7.8%  ABBV=  7.5%  AMD= 11.6%  IBM=  8.2%  util=0.459980  Δ=-0.002047
+  ★ WINNER: AMD  improvement=+0.007025
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.469052  feasible=11]
+  NFLX+1%  NFLX= 11.9%  JNJ=  9.9%  WMT=  9.6%  BAC=  8.9%  CRM=  8.6%  ORCL=  8.5%  MRK=  7.9%  NOW=  7.7%  ABBV=  7.4%  AMD= 12.6%  IBM=  7.0%  util=0.472164  Δ=+0.003113
+  JNJ+1%  NFLX= 10.8%  JNJ= 11.0%  WMT=  9.6%  BAC=  8.9%  CRM=  8.6%  ORCL=  8.5%  MRK=  7.9%  NOW=  7.7%  ABBV=  7.4%  AMD= 12.6%  IBM=  7.0%  util=0.466304  Δ=-0.002747
+  WMT+1%  NFLX= 10.8%  JNJ=  9.9%  WMT= 10.7%  BAC=  8.9%  CRM=  8.6%  ORCL=  8.5%  MRK=  7.9%  NOW=  7.7%  ABBV=  7.4%  AMD= 12.6%  IBM=  7.0%  util=0.468192  Δ=-0.000859
+  BAC+1%  NFLX= 10.8%  JNJ=  9.9%  WMT=  9.6%  BAC= 10.0%  CRM=  8.6%  ORCL=  8.5%  MRK=  7.9%  NOW=  7.7%  ABBV=  7.4%  AMD= 12.6%  IBM=  7.0%  util=0.468214  Δ=-0.000837
+  CRM+1%  NFLX= 10.8%  JNJ=  9.9%  WMT=  9.6%  BAC=  8.9%  CRM=  9.7%  ORCL=  8.5%  MRK=  7.9%  NOW=  7.7%  ABBV=  7.4%  AMD= 12.6%  IBM=  7.0%  util=0.467487  Δ=-0.001565
+  ORCL+1%  NFLX= 10.8%  JNJ=  9.9%  WMT=  9.6%  BAC=  8.9%  CRM=  8.6%  ORCL=  9.6%  MRK=  7.9%  NOW=  7.7%  ABBV=  7.4%  AMD= 12.6%  IBM=  7.0%  util=0.468420  Δ=-0.000631
+  MRK+1%  NFLX= 10.8%  JNJ=  9.9%  WMT=  9.6%  BAC=  8.9%  CRM=  8.6%  ORCL=  8.5%  MRK=  9.0%  NOW=  7.7%  ABBV=  7.4%  AMD= 12.6%  IBM=  7.0%  util=0.466658  Δ=-0.002393
+  NOW+1%  NFLX= 10.8%  JNJ=  9.9%  WMT=  9.6%  BAC=  8.9%  CRM=  8.6%  ORCL=  8.5%  MRK=  7.9%  NOW=  8.8%  ABBV=  7.4%  AMD= 12.6%  IBM=  7.0%  util=0.469827  Δ=+0.000776
+  ABBV+1%  NFLX= 10.8%  JNJ=  9.9%  WMT=  9.6%  BAC=  8.9%  CRM=  8.6%  ORCL=  8.5%  MRK=  7.9%  NOW=  7.7%  ABBV=  8.5%  AMD= 12.6%  IBM=  7.0%  util=0.469245  Δ=+0.000193
+  AMD+1%  NFLX= 10.8%  JNJ=  9.9%  WMT=  9.6%  BAC=  8.9%  CRM=  8.6%  ORCL=  8.5%  MRK=  7.9%  NOW=  7.7%  ABBV=  7.4%  AMD= 13.7%  IBM=  7.0%  util=0.475823  Δ=+0.006772
+  IBM+1%  NFLX= 10.8%  JNJ=  9.9%  WMT=  9.6%  BAC=  8.9%  CRM=  8.6%  ORCL=  8.5%  MRK=  7.9%  NOW=  7.7%  ABBV=  7.4%  AMD= 12.6%  IBM=  8.1%  util=0.467013  Δ=-0.002039
+  ★ WINNER: AMD  improvement=+0.006772
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.475823  feasible=11]
+  NFLX+1%  NFLX= 11.8%  JNJ=  9.8%  WMT=  9.5%  BAC=  8.8%  CRM=  8.5%  ORCL=  8.4%  MRK=  7.8%  NOW=  7.6%  ABBV=  7.3%  AMD= 13.6%  IBM=  6.9%  util=0.479075  Δ=+0.003251
+  JNJ+1%  NFLX= 10.7%  JNJ= 10.9%  WMT=  9.5%  BAC=  8.8%  CRM=  8.5%  ORCL=  8.4%  MRK=  7.8%  NOW=  7.6%  ABBV=  7.3%  AMD= 13.6%  IBM=  6.9%  util=0.473071  Δ=-0.002752
+  WMT+1%  NFLX= 10.7%  JNJ=  9.8%  WMT= 10.6%  BAC=  8.8%  CRM=  8.5%  ORCL=  8.4%  MRK=  7.8%  NOW=  7.6%  ABBV=  7.3%  AMD= 13.6%  IBM=  6.9%  util=0.474982  Δ=-0.000842
+  BAC+1%  NFLX= 10.7%  JNJ=  9.8%  WMT=  9.5%  BAC=  9.9%  CRM=  8.5%  ORCL=  8.4%  MRK=  7.8%  NOW=  7.6%  ABBV=  7.3%  AMD= 13.6%  IBM=  6.9%  util=0.474980  Δ=-0.000843
+  CRM+1%  NFLX= 10.7%  JNJ=  9.8%  WMT=  9.5%  BAC=  8.8%  CRM=  9.6%  ORCL=  8.4%  MRK=  7.8%  NOW=  7.6%  ABBV=  7.3%  AMD= 13.6%  IBM=  6.9%  util=0.474281  Δ=-0.001543
+  ORCL+1%  NFLX= 10.7%  JNJ=  9.8%  WMT=  9.5%  BAC=  8.8%  CRM=  8.5%  ORCL=  9.5%  MRK=  7.8%  NOW=  7.6%  ABBV=  7.3%  AMD= 13.6%  IBM=  6.9%  util=0.475189  Δ=-0.000635
+  MRK+1%  NFLX= 10.7%  JNJ=  9.8%  WMT=  9.5%  BAC=  8.8%  CRM=  8.5%  ORCL=  8.4%  MRK=  8.9%  NOW=  7.6%  ABBV=  7.3%  AMD= 13.6%  IBM=  6.9%  util=0.473418  Δ=-0.002406
+  NOW+1%  NFLX= 10.7%  JNJ=  9.8%  WMT=  9.5%  BAC=  8.8%  CRM=  8.5%  ORCL=  8.4%  MRK=  7.8%  NOW=  8.7%  ABBV=  7.3%  AMD= 13.6%  IBM=  6.9%  util=0.476644  Δ=+0.000820
+  ABBV+1%  NFLX= 10.7%  JNJ=  9.8%  WMT=  9.5%  BAC=  8.8%  CRM=  8.5%  ORCL=  8.4%  MRK=  7.8%  NOW=  7.6%  ABBV=  8.4%  AMD= 13.6%  IBM=  6.9%  util=0.476047  Δ=+0.000224
+  AMD+1%  NFLX= 10.7%  JNJ=  9.8%  WMT=  9.5%  BAC=  8.8%  CRM=  8.5%  ORCL=  8.4%  MRK=  7.8%  NOW=  7.6%  ABBV=  7.3%  AMD= 14.7%  IBM=  6.9%  util=0.482419  Δ=+0.006595
+  IBM+1%  NFLX= 10.7%  JNJ=  9.8%  WMT=  9.5%  BAC=  8.8%  CRM=  8.5%  ORCL=  8.4%  MRK=  7.8%  NOW=  7.6%  ABBV=  7.3%  AMD= 13.6%  IBM=  8.0%  util=0.473810  Δ=-0.002014
+  ★ WINNER: AMD  improvement=+0.006595
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=0.482419  feasible=11]
+  NFLX+1%  NFLX= 11.7%  JNJ=  9.7%  WMT=  9.4%  BAC=  8.7%  CRM=  8.4%  ORCL=  8.3%  MRK=  7.7%  NOW=  7.5%  ABBV=  7.2%  AMD= 14.6%  IBM=  6.8%  util=0.485729  Δ=+0.003310
+  JNJ+1%  NFLX= 10.6%  JNJ= 10.8%  WMT=  9.4%  BAC=  8.7%  CRM=  8.4%  ORCL=  8.3%  MRK=  7.7%  NOW=  7.5%  ABBV=  7.2%  AMD= 14.6%  IBM=  6.8%  util=0.479646  Δ=-0.002773
+  WMT+1%  NFLX= 10.6%  JNJ=  9.7%  WMT= 10.5%  BAC=  8.7%  CRM=  8.4%  ORCL=  8.3%  MRK=  7.7%  NOW=  7.5%  ABBV=  7.2%  AMD= 14.6%  IBM=  6.8%  util=0.481600  Δ=-0.000819
+  BAC+1%  NFLX= 10.6%  JNJ=  9.7%  WMT=  9.4%  BAC=  9.8%  CRM=  8.4%  ORCL=  8.3%  MRK=  7.7%  NOW=  7.5%  ABBV=  7.2%  AMD= 14.6%  IBM=  6.8%  util=0.481593  Δ=-0.000826
+  CRM+1%  NFLX= 10.6%  JNJ=  9.7%  WMT=  9.4%  BAC=  8.7%  CRM=  9.5%  ORCL=  8.3%  MRK=  7.7%  NOW=  7.5%  ABBV=  7.2%  AMD= 14.6%  IBM=  6.8%  util=0.480902  Δ=-0.001517
+  ORCL+1%  NFLX= 10.6%  JNJ=  9.7%  WMT=  9.4%  BAC=  8.7%  CRM=  8.4%  ORCL=  9.4%  MRK=  7.7%  NOW=  7.5%  ABBV=  7.2%  AMD= 14.6%  IBM=  6.8%  util=0.481798  Δ=-0.000621
+  MRK+1%  NFLX= 10.6%  JNJ=  9.7%  WMT=  9.4%  BAC=  8.7%  CRM=  8.4%  ORCL=  8.3%  MRK=  8.8%  NOW=  7.5%  ABBV=  7.2%  AMD= 14.6%  IBM=  6.8%  util=0.480013  Δ=-0.002406
+  NOW+1%  NFLX= 10.6%  JNJ=  9.7%  WMT=  9.4%  BAC=  8.7%  CRM=  8.4%  ORCL=  8.3%  MRK=  7.7%  NOW=  8.6%  ABBV=  7.2%  AMD= 14.6%  IBM=  6.8%  util=0.483283  Δ=+0.000865
+  ABBV+1%  NFLX= 10.6%  JNJ=  9.7%  WMT=  9.4%  BAC=  8.7%  CRM=  8.4%  ORCL=  8.3%  MRK=  7.7%  NOW=  7.5%  ABBV=  8.3%  AMD= 14.6%  IBM=  6.8%  util=0.482653  Δ=+0.000234
+  AMD+1%  NFLX= 10.6%  JNJ=  9.7%  WMT=  9.4%  BAC=  8.7%  CRM=  8.4%  ORCL=  8.3%  MRK=  7.7%  NOW=  7.5%  ABBV=  7.2%  AMD= 15.7%  IBM=  6.8%  util=0.488904  Δ=+0.006485
+  IBM+1%  NFLX= 10.6%  JNJ=  9.7%  WMT=  9.4%  BAC=  8.7%  CRM=  8.4%  ORCL=  8.3%  MRK=  7.7%  NOW=  7.5%  ABBV=  7.2%  AMD= 14.6%  IBM=  7.9%  util=0.480415  Δ=-0.002004
+  ★ WINNER: AMD  improvement=+0.006485
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=0.488904  feasible=11]
+  NFLX+1%  NFLX= 11.6%  JNJ=  9.6%  WMT=  9.3%  BAC=  8.6%  CRM=  8.3%  ORCL=  8.2%  MRK=  7.6%  NOW=  7.4%  ABBV=  7.1%  AMD= 15.6%  IBM=  6.7%  util=0.492230  Δ=+0.003326
+  JNJ+1%  NFLX= 10.5%  JNJ= 10.7%  WMT=  9.3%  BAC=  8.6%  CRM=  8.3%  ORCL=  8.2%  MRK=  7.6%  NOW=  7.4%  ABBV=  7.1%  AMD= 15.6%  IBM=  6.7%  util=0.486114  Δ=-0.002790
+  WMT+1%  NFLX= 10.5%  JNJ=  9.6%  WMT= 10.4%  BAC=  8.6%  CRM=  8.3%  ORCL=  8.2%  MRK=  7.6%  NOW=  7.4%  ABBV=  7.1%  AMD= 15.6%  IBM=  6.7%  util=0.488087  Δ=-0.000817
+  BAC+1%  NFLX= 10.5%  JNJ=  9.6%  WMT=  9.3%  BAC=  9.7%  CRM=  8.3%  ORCL=  8.2%  MRK=  7.6%  NOW=  7.4%  ABBV=  7.1%  AMD= 15.6%  IBM=  6.7%  util=0.488082  Δ=-0.000822
+  CRM+1%  NFLX= 10.5%  JNJ=  9.6%  WMT=  9.3%  BAC=  8.6%  CRM=  9.4%  ORCL=  8.2%  MRK=  7.6%  NOW=  7.4%  ABBV=  7.1%  AMD= 15.6%  IBM=  6.7%  util=0.487414  Δ=-0.001490
+  ORCL+1%  NFLX= 10.5%  JNJ=  9.6%  WMT=  9.3%  BAC=  8.6%  CRM=  8.3%  ORCL=  9.3%  MRK=  7.6%  NOW=  7.4%  ABBV=  7.1%  AMD= 15.6%  IBM=  6.7%  util=0.488304  Δ=-0.000600
+  MRK+1%  NFLX= 10.5%  JNJ=  9.6%  WMT=  9.3%  BAC=  8.6%  CRM=  8.3%  ORCL=  8.2%  MRK=  8.7%  NOW=  7.4%  ABBV=  7.1%  AMD= 15.6%  IBM=  6.7%  util=0.486473  Δ=-0.002431
+  NOW+1%  NFLX= 10.5%  JNJ=  9.6%  WMT=  9.3%  BAC=  8.6%  CRM=  8.3%  ORCL=  8.2%  MRK=  7.6%  NOW=  8.5%  ABBV=  7.1%  AMD= 15.6%  IBM=  6.7%  util=0.489780  Δ=+0.000876
+  ABBV+1%  NFLX= 10.5%  JNJ=  9.6%  WMT=  9.3%  BAC=  8.6%  CRM=  8.3%  ORCL=  8.2%  MRK=  7.6%  NOW=  7.4%  ABBV=  8.2%  AMD= 15.6%  IBM=  6.7%  util=0.489116  Δ=+0.000212
+  AMD+1%  NFLX= 10.5%  JNJ=  9.6%  WMT=  9.3%  BAC=  8.6%  CRM=  8.3%  ORCL=  8.2%  MRK=  7.6%  NOW=  7.4%  ABBV=  7.1%  AMD= 16.7%  IBM=  6.7%  util=0.495262  Δ=+0.006358
+  IBM+1%  NFLX= 10.5%  JNJ=  9.6%  WMT=  9.3%  BAC=  8.6%  CRM=  8.3%  ORCL=  8.2%  MRK=  7.6%  NOW=  7.4%  ABBV=  7.1%  AMD= 15.6%  IBM=  7.8%  util=0.486902  Δ=-0.002002
+  ★ WINNER: AMD  improvement=+0.006358
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=0.495262  feasible=11]
+  NFLX+1%  NFLX= 11.5%  JNJ=  9.5%  WMT=  9.2%  BAC=  8.5%  CRM=  8.2%  ORCL=  8.1%  MRK=  7.5%  NOW=  7.3%  ABBV=  7.0%  AMD= 16.6%  IBM=  6.6%  util=0.498608  Δ=+0.003346
+  JNJ+1%  NFLX= 10.4%  JNJ= 10.6%  WMT=  9.2%  BAC=  8.5%  CRM=  8.2%  ORCL=  8.1%  MRK=  7.5%  NOW=  7.3%  ABBV=  7.0%  AMD= 16.6%  IBM=  6.6%  util=0.492470  Δ=-0.002792
+  WMT+1%  NFLX= 10.4%  JNJ=  9.5%  WMT= 10.3%  BAC=  8.5%  CRM=  8.2%  ORCL=  8.1%  MRK=  7.5%  NOW=  7.3%  ABBV=  7.0%  AMD= 16.6%  IBM=  6.6%  util=0.494464  Δ=-0.000798
+  BAC+1%  NFLX= 10.4%  JNJ=  9.5%  WMT=  9.2%  BAC=  9.6%  CRM=  8.2%  ORCL=  8.1%  MRK=  7.5%  NOW=  7.3%  ABBV=  7.0%  AMD= 16.6%  IBM=  6.6%  util=0.494454  Δ=-0.000808
+  CRM+1%  NFLX= 10.4%  JNJ=  9.5%  WMT=  9.2%  BAC=  8.5%  CRM=  9.3%  ORCL=  8.1%  MRK=  7.5%  NOW=  7.3%  ABBV=  7.0%  AMD= 16.6%  IBM=  6.6%  util=0.493800  Δ=-0.001462
+  ORCL+1%  NFLX= 10.4%  JNJ=  9.5%  WMT=  9.2%  BAC=  8.5%  CRM=  8.2%  ORCL=  9.2%  MRK=  7.5%  NOW=  7.3%  ABBV=  7.0%  AMD= 16.6%  IBM=  6.6%  util=0.494701  Δ=-0.000561
+  MRK+1%  NFLX= 10.4%  JNJ=  9.5%  WMT=  9.2%  BAC=  8.5%  CRM=  8.2%  ORCL=  8.1%  MRK=  8.6%  NOW=  7.3%  ABBV=  7.0%  AMD= 16.6%  IBM=  6.6%  util=0.492826  Δ=-0.002436
+  NOW+1%  NFLX= 10.4%  JNJ=  9.5%  WMT=  9.2%  BAC=  8.5%  CRM=  8.2%  ORCL=  8.1%  MRK=  7.5%  NOW=  8.4%  ABBV=  7.0%  AMD= 16.6%  IBM=  6.6%  util=0.496162  Δ=+0.000900
+  ABBV+1%  NFLX= 10.4%  JNJ=  9.5%  WMT=  9.2%  BAC=  8.5%  CRM=  8.2%  ORCL=  8.1%  MRK=  7.5%  NOW=  7.3%  ABBV=  8.1%  AMD= 16.6%  IBM=  6.6%  util=0.495466  Δ=+0.000204
+  AMD+1%  NFLX= 10.4%  JNJ=  9.5%  WMT=  9.2%  BAC=  8.5%  CRM=  8.2%  ORCL=  8.1%  MRK=  7.5%  NOW=  7.3%  ABBV=  7.0%  AMD= 17.7%  IBM=  6.6%  util=0.501550  Δ=+0.006288
+  IBM+1%  NFLX= 10.4%  JNJ=  9.5%  WMT=  9.2%  BAC=  8.5%  CRM=  8.2%  ORCL=  8.1%  MRK=  7.5%  NOW=  7.3%  ABBV=  7.0%  AMD= 16.6%  IBM=  7.7%  util=0.493258  Δ=-0.002004
+  ★ WINNER: AMD  improvement=+0.006288
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=0.501550  feasible=11]
+  NFLX+1%  NFLX= 11.4%  JNJ=  9.4%  WMT=  9.1%  BAC=  8.4%  CRM=  8.1%  ORCL=  8.0%  MRK=  7.4%  NOW=  7.2%  ABBV=  6.9%  AMD= 17.6%  IBM=  6.5%  util=0.504907  Δ=+0.003357
+  JNJ+1%  NFLX= 10.3%  JNJ= 10.5%  WMT=  9.1%  BAC=  8.4%  CRM=  8.1%  ORCL=  8.0%  MRK=  7.4%  NOW=  7.2%  ABBV=  6.9%  AMD= 17.6%  IBM=  6.5%  util=0.498746  Δ=-0.002804
+  WMT+1%  NFLX= 10.3%  JNJ=  9.4%  WMT= 10.2%  BAC=  8.4%  CRM=  8.1%  ORCL=  8.0%  MRK=  7.4%  NOW=  7.2%  ABBV=  6.9%  AMD= 17.6%  IBM=  6.5%  util=0.500770  Δ=-0.000780
+  BAC+1%  NFLX= 10.3%  JNJ=  9.4%  WMT=  9.1%  BAC=  9.5%  CRM=  8.1%  ORCL=  8.0%  MRK=  7.4%  NOW=  7.2%  ABBV=  6.9%  AMD= 17.6%  IBM=  6.5%  util=0.500742  Δ=-0.000808
+  CRM+1%  NFLX= 10.3%  JNJ=  9.4%  WMT=  9.1%  BAC=  8.4%  CRM=  9.2%  ORCL=  8.0%  MRK=  7.4%  NOW=  7.2%  ABBV=  6.9%  AMD= 17.6%  IBM=  6.5%  util=0.500089  Δ=-0.001461
+  ORCL+1%  NFLX= 10.3%  JNJ=  9.4%  WMT=  9.1%  BAC=  8.4%  CRM=  8.1%  ORCL=  9.1%  MRK=  7.4%  NOW=  7.2%  ABBV=  6.9%  AMD= 17.6%  IBM=  6.5%  util=0.500976  Δ=-0.000575
+  MRK+1%  NFLX= 10.3%  JNJ=  9.4%  WMT=  9.1%  BAC=  8.4%  CRM=  8.1%  ORCL=  8.0%  MRK=  8.5%  NOW=  7.2%  ABBV=  6.9%  AMD= 17.6%  IBM=  6.5%  util=0.499103  Δ=-0.002448
+  NOW+1%  NFLX= 10.3%  JNJ=  9.4%  WMT=  9.1%  BAC=  8.4%  CRM=  8.1%  ORCL=  8.0%  MRK=  7.4%  NOW=  8.3%  ABBV=  6.9%  AMD= 17.6%  IBM=  6.5%  util=0.502442  Δ=+0.000892
+  ABBV+1%  NFLX= 10.3%  JNJ=  9.4%  WMT=  9.1%  BAC=  8.4%  CRM=  8.1%  ORCL=  8.0%  MRK=  7.4%  NOW=  7.2%  ABBV=  8.0%  AMD= 17.6%  IBM=  6.5%  util=0.501739  Δ=+0.000189
+  AMD+1%  NFLX= 10.3%  JNJ=  9.4%  WMT=  9.1%  BAC=  8.4%  CRM=  8.1%  ORCL=  8.0%  MRK=  7.4%  NOW=  7.2%  ABBV=  6.9%  AMD= 18.7%  IBM=  6.5%  util=0.507720  Δ=+0.006169
+  IBM+1%  NFLX= 10.3%  JNJ=  9.4%  WMT=  9.1%  BAC=  8.4%  CRM=  8.1%  ORCL=  8.0%  MRK=  7.4%  NOW=  7.2%  ABBV=  6.9%  AMD= 17.6%  IBM=  7.6%  util=0.499538  Δ=-0.002012
+  ★ WINNER: AMD  improvement=+0.006169
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=0.507720  feasible=11]
+  NFLX+1%  NFLX= 11.3%  JNJ=  9.3%  WMT=  9.0%  BAC=  8.3%  CRM=  8.0%  ORCL=  7.9%  MRK=  7.3%  NOW=  7.1%  ABBV=  6.8%  AMD= 18.6%  IBM=  6.4%  util=0.511124  Δ=+0.003404
+  JNJ+1%  NFLX= 10.2%  JNJ= 10.4%  WMT=  9.0%  BAC=  8.3%  CRM=  8.0%  ORCL=  7.9%  MRK=  7.3%  NOW=  7.1%  ABBV=  6.8%  AMD= 18.6%  IBM=  6.4%  util=0.504920  Δ=-0.002800
+  WMT+1%  NFLX= 10.2%  JNJ=  9.3%  WMT= 10.1%  BAC=  8.3%  CRM=  8.0%  ORCL=  7.9%  MRK=  7.3%  NOW=  7.1%  ABBV=  6.8%  AMD= 18.6%  IBM=  6.4%  util=0.506971  Δ=-0.000748
+  BAC+1%  NFLX= 10.2%  JNJ=  9.3%  WMT=  9.0%  BAC=  9.4%  CRM=  8.0%  ORCL=  7.9%  MRK=  7.3%  NOW=  7.1%  ABBV=  6.8%  AMD= 18.6%  IBM=  6.4%  util=0.506944  Δ=-0.000775
+  CRM+1%  NFLX= 10.2%  JNJ=  9.3%  WMT=  9.0%  BAC=  8.3%  CRM=  9.1%  ORCL=  7.9%  MRK=  7.3%  NOW=  7.1%  ABBV=  6.8%  AMD= 18.6%  IBM=  6.4%  util=0.506271  Δ=-0.001448
+  ORCL+1%  NFLX= 10.2%  JNJ=  9.3%  WMT=  9.0%  BAC=  8.3%  CRM=  8.0%  ORCL=  9.0%  MRK=  7.3%  NOW=  7.1%  ABBV=  6.8%  AMD= 18.6%  IBM=  6.4%  util=0.507149  Δ=-0.000571
+  MRK+1%  NFLX= 10.2%  JNJ=  9.3%  WMT=  9.0%  BAC=  8.3%  CRM=  8.0%  ORCL=  7.9%  MRK=  8.4%  NOW=  7.1%  ABBV=  6.8%  AMD= 18.6%  IBM=  6.4%  util=0.505270  Δ=-0.002450
+  NOW+1%  NFLX= 10.2%  JNJ=  9.3%  WMT=  9.0%  BAC=  8.3%  CRM=  8.0%  ORCL=  7.9%  MRK=  7.3%  NOW=  8.2%  ABBV=  6.8%  AMD= 18.6%  IBM=  6.4%  util=0.508604  Δ=+0.000885
+  ABBV+1%  NFLX= 10.2%  JNJ=  9.3%  WMT=  9.0%  BAC=  8.3%  CRM=  8.0%  ORCL=  7.9%  MRK=  7.3%  NOW=  7.1%  ABBV=  7.9%  AMD= 18.6%  IBM=  6.4%  util=0.507906  Δ=+0.000187
+  AMD+1%  NFLX= 10.2%  JNJ=  9.3%  WMT=  9.0%  BAC=  8.3%  CRM=  8.0%  ORCL=  7.9%  MRK=  7.3%  NOW=  7.1%  ABBV=  6.8%  AMD= 19.7%  IBM=  6.4%  util=0.513760  Δ=+0.006040
+  IBM+1%  NFLX= 10.2%  JNJ=  9.3%  WMT=  9.0%  BAC=  8.3%  CRM=  8.0%  ORCL=  7.9%  MRK=  7.3%  NOW=  7.1%  ABBV=  6.8%  AMD= 18.6%  IBM=  7.5%  util=0.505722  Δ=-0.001997
+  ★ WINNER: AMD  improvement=+0.006040
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=0.513760  feasible=11]
+  NFLX+1%  NFLX= 11.2%  JNJ=  9.2%  WMT=  8.9%  BAC=  8.2%  CRM=  7.9%  ORCL=  7.8%  MRK=  7.2%  NOW=  7.0%  ABBV=  6.7%  AMD= 19.6%  IBM=  6.3%  util=0.517236  Δ=+0.003476
+  JNJ+1%  NFLX= 10.1%  JNJ= 10.3%  WMT=  8.9%  BAC=  8.2%  CRM=  7.9%  ORCL=  7.8%  MRK=  7.2%  NOW=  7.0%  ABBV=  6.7%  AMD= 19.6%  IBM=  6.3%  util=0.510954  Δ=-0.002806
+  WMT+1%  NFLX= 10.1%  JNJ=  9.2%  WMT= 10.0%  BAC=  8.2%  CRM=  7.9%  ORCL=  7.8%  MRK=  7.2%  NOW=  7.0%  ABBV=  6.7%  AMD= 19.6%  IBM=  6.3%  util=0.513018  Δ=-0.000742
+  BAC+1%  NFLX= 10.1%  JNJ=  9.2%  WMT=  8.9%  BAC=  9.3%  CRM=  7.9%  ORCL=  7.8%  MRK=  7.2%  NOW=  7.0%  ABBV=  6.7%  AMD= 19.6%  IBM=  6.3%  util=0.513031  Δ=-0.000729
+  CRM+1%  NFLX= 10.1%  JNJ=  9.2%  WMT=  8.9%  BAC=  8.2%  CRM=  9.0%  ORCL=  7.8%  MRK=  7.2%  NOW=  7.0%  ABBV=  6.7%  AMD= 19.6%  IBM=  6.3%  util=0.512321  Δ=-0.001438
+  ORCL+1%  NFLX= 10.1%  JNJ=  9.2%  WMT=  8.9%  BAC=  8.2%  CRM=  7.9%  ORCL=  8.9%  MRK=  7.2%  NOW=  7.0%  ABBV=  6.7%  AMD= 19.6%  IBM=  6.3%  util=0.513223  Δ=-0.000537
+  MRK+1%  NFLX= 10.1%  JNJ=  9.2%  WMT=  8.9%  BAC=  8.2%  CRM=  7.9%  ORCL=  7.8%  MRK=  8.3%  NOW=  7.0%  ABBV=  6.7%  AMD= 19.6%  IBM=  6.3%  util=0.511309  Δ=-0.002451
+  NOW+1%  NFLX= 10.1%  JNJ=  9.2%  WMT=  8.9%  BAC=  8.2%  CRM=  7.9%  ORCL=  7.8%  MRK=  7.2%  NOW=  8.1%  ABBV=  6.7%  AMD= 19.6%  IBM=  6.3%  util=0.514672  Δ=+0.000912
+  ABBV+1%  NFLX= 10.1%  JNJ=  9.2%  WMT=  8.9%  BAC=  8.2%  CRM=  7.9%  ORCL=  7.8%  MRK=  7.2%  NOW=  7.0%  ABBV=  7.8%  AMD= 19.6%  IBM=  6.3%  util=0.513958  Δ=+0.000198
+  AMD+1%  NFLX= 10.1%  JNJ=  9.2%  WMT=  8.9%  BAC=  8.2%  CRM=  7.9%  ORCL=  7.8%  MRK=  7.2%  NOW=  7.0%  ABBV=  6.7%  AMD= 20.7%  IBM=  6.3%  util=0.519719  Δ=+0.005959
+  IBM+1%  NFLX= 10.1%  JNJ=  9.2%  WMT=  8.9%  BAC=  8.2%  CRM=  7.9%  ORCL=  7.8%  MRK=  7.2%  NOW=  7.0%  ABBV=  6.7%  AMD= 19.6%  IBM=  7.4%  util=0.511787  Δ=-0.001973
+  ★ WINNER: AMD  improvement=+0.005959
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=0.519719  feasible=11]
+  NFLX+1%  NFLX= 11.1%  JNJ=  9.1%  WMT=  8.8%  BAC=  8.1%  CRM=  7.8%  ORCL=  7.7%  MRK=  7.1%  NOW=  6.9%  ABBV=  6.6%  AMD= 20.6%  IBM=  6.2%  util=0.523240  Δ=+0.003520
+  JNJ+1%  NFLX= 10.0%  JNJ= 10.2%  WMT=  8.8%  BAC=  8.1%  CRM=  7.8%  ORCL=  7.7%  MRK=  7.1%  NOW=  6.9%  ABBV=  6.6%  AMD= 20.6%  IBM=  6.2%  util=0.516905  Δ=-0.002815
+  WMT+1%  NFLX= 10.0%  JNJ=  9.1%  WMT=  9.9%  BAC=  8.1%  CRM=  7.8%  ORCL=  7.7%  MRK=  7.1%  NOW=  6.9%  ABBV=  6.6%  AMD= 20.6%  IBM=  6.2%  util=0.518976  Δ=-0.000743
+  BAC+1%  NFLX= 10.0%  JNJ=  9.1%  WMT=  8.8%  BAC=  9.2%  CRM=  7.8%  ORCL=  7.7%  MRK=  7.1%  NOW=  6.9%  ABBV=  6.6%  AMD= 20.6%  IBM=  6.2%  util=0.519036  Δ=-0.000683
+  CRM+1%  NFLX= 10.0%  JNJ=  9.1%  WMT=  8.8%  BAC=  8.1%  CRM=  8.9%  ORCL=  7.7%  MRK=  7.1%  NOW=  6.9%  ABBV=  6.6%  AMD= 20.6%  IBM=  6.2%  util=0.518305  Δ=-0.001415
+  ORCL+1%  NFLX= 10.0%  JNJ=  9.1%  WMT=  8.8%  BAC=  8.1%  CRM=  7.8%  ORCL=  8.8%  MRK=  7.1%  NOW=  6.9%  ABBV=  6.6%  AMD= 20.6%  IBM=  6.2%  util=0.519212  Δ=-0.000508
+  MRK+1%  NFLX= 10.0%  JNJ=  9.1%  WMT=  8.8%  BAC=  8.1%  CRM=  7.8%  ORCL=  7.7%  MRK=  8.2%  NOW=  6.9%  ABBV=  6.6%  AMD= 20.6%  IBM=  6.2%  util=0.517266  Δ=-0.002453
+  NOW+1%  NFLX= 10.0%  JNJ=  9.1%  WMT=  8.8%  BAC=  8.1%  CRM=  7.8%  ORCL=  7.7%  MRK=  7.1%  NOW=  8.0%  ABBV=  6.6%  AMD= 20.6%  IBM=  6.2%  util=0.520668  Δ=+0.000948
+  ABBV+1%  NFLX= 10.0%  JNJ=  9.1%  WMT=  8.8%  BAC=  8.1%  CRM=  7.8%  ORCL=  7.7%  MRK=  7.1%  NOW=  6.9%  ABBV=  7.7%  AMD= 20.6%  IBM=  6.2%  util=0.519921  Δ=+0.000202
+  AMD+1%  NFLX= 10.0%  JNJ=  9.1%  WMT=  8.8%  BAC=  8.1%  CRM=  7.8%  ORCL=  7.7%  MRK=  7.1%  NOW=  6.9%  ABBV=  6.6%  AMD= 21.7%  IBM=  6.2%  util=0.525587  Δ=+0.005868
+  IBM+1%  NFLX= 10.0%  JNJ=  9.1%  WMT=  8.8%  BAC=  8.1%  CRM=  7.8%  ORCL=  7.7%  MRK=  7.1%  NOW=  6.9%  ABBV=  6.6%  AMD= 20.6%  IBM=  7.3%  util=0.517753  Δ=-0.001966
+  ★ WINNER: AMD  improvement=+0.005868
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=0.525587  feasible=11]
+  NFLX+1%  NFLX= 11.0%  JNJ=  9.0%  WMT=  8.7%  BAC=  8.0%  CRM=  7.7%  ORCL=  7.6%  MRK=  7.0%  NOW=  6.8%  ABBV=  6.5%  AMD= 21.6%  IBM=  6.1%  util=0.529115  Δ=+0.003528
+  JNJ+1%  NFLX=  9.9%  JNJ= 10.1%  WMT=  8.7%  BAC=  8.0%  CRM=  7.7%  ORCL=  7.6%  MRK=  7.0%  NOW=  6.8%  ABBV=  6.5%  AMD= 21.6%  IBM=  6.1%  util=0.522747  Δ=-0.002840
+  WMT+1%  NFLX=  9.9%  JNJ=  9.0%  WMT=  9.8%  BAC=  8.0%  CRM=  7.7%  ORCL=  7.6%  MRK=  7.0%  NOW=  6.8%  ABBV=  6.5%  AMD= 21.6%  IBM=  6.1%  util=0.524826  Δ=-0.000761
+  BAC+1%  NFLX=  9.9%  JNJ=  9.0%  WMT=  8.7%  BAC=  9.1%  CRM=  7.7%  ORCL=  7.6%  MRK=  7.0%  NOW=  6.8%  ABBV=  6.5%  AMD= 21.6%  IBM=  6.1%  util=0.524909  Δ=-0.000678
+  CRM+1%  NFLX=  9.9%  JNJ=  9.0%  WMT=  8.7%  BAC=  8.0%  CRM=  8.8%  ORCL=  7.6%  MRK=  7.0%  NOW=  6.8%  ABBV=  6.5%  AMD= 21.6%  IBM=  6.1%  util=0.524186  Δ=-0.001401
+  ORCL+1%  NFLX=  9.9%  JNJ=  9.0%  WMT=  8.7%  BAC=  8.0%  CRM=  7.7%  ORCL=  8.7%  MRK=  7.0%  NOW=  6.8%  ABBV=  6.5%  AMD= 21.6%  IBM=  6.1%  util=0.525104  Δ=-0.000483
+  MRK+1%  NFLX=  9.9%  JNJ=  9.0%  WMT=  8.7%  BAC=  8.0%  CRM=  7.7%  ORCL=  7.6%  MRK=  8.1%  NOW=  6.8%  ABBV=  6.5%  AMD= 21.6%  IBM=  6.1%  util=0.523099  Δ=-0.002488
+  NOW+1%  NFLX=  9.9%  JNJ=  9.0%  WMT=  8.7%  BAC=  8.0%  CRM=  7.7%  ORCL=  7.6%  MRK=  7.0%  NOW=  7.9%  ABBV=  6.5%  AMD= 21.6%  IBM=  6.1%  util=0.526574  Δ=+0.000987
+  ABBV+1%  NFLX=  9.9%  JNJ=  9.0%  WMT=  8.7%  BAC=  8.0%  CRM=  7.7%  ORCL=  7.6%  MRK=  7.0%  NOW=  6.8%  ABBV=  7.6%  AMD= 21.6%  IBM=  6.1%  util=0.525785  Δ=+0.000197
+  AMD+1%  NFLX=  9.9%  JNJ=  9.0%  WMT=  8.7%  BAC=  8.0%  CRM=  7.7%  ORCL=  7.6%  MRK=  7.0%  NOW=  6.8%  ABBV=  6.5%  AMD= 22.7%  IBM=  6.1%  util=0.531347  Δ=+0.005760
+  IBM+1%  NFLX=  9.9%  JNJ=  9.0%  WMT=  8.7%  BAC=  8.0%  CRM=  7.7%  ORCL=  7.6%  MRK=  7.0%  NOW=  6.8%  ABBV=  6.5%  AMD= 21.6%  IBM=  7.2%  util=0.523589  Δ=-0.001998
+  ★ WINNER: AMD  improvement=+0.005760
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=0.531347  feasible=11]
+  NFLX+1%  NFLX= 10.9%  JNJ=  8.9%  WMT=  8.6%  BAC=  7.9%  CRM=  7.6%  ORCL=  7.5%  MRK=  6.9%  NOW=  6.7%  ABBV=  6.4%  AMD= 22.6%  IBM=  6.0%  util=0.534879  Δ=+0.003532
+  JNJ+1%  NFLX=  9.8%  JNJ= 10.0%  WMT=  8.6%  BAC=  7.9%  CRM=  7.6%  ORCL=  7.5%  MRK=  6.9%  NOW=  6.7%  ABBV=  6.4%  AMD= 22.6%  IBM=  6.0%  util=0.528513  Δ=-0.002834
+  WMT+1%  NFLX=  9.8%  JNJ=  8.9%  WMT=  9.7%  BAC=  7.9%  CRM=  7.6%  ORCL=  7.5%  MRK=  6.9%  NOW=  6.7%  ABBV=  6.4%  AMD= 22.6%  IBM=  6.0%  util=0.530571  Δ=-0.000776
+  BAC+1%  NFLX=  9.8%  JNJ=  8.9%  WMT=  8.6%  BAC=  9.0%  CRM=  7.6%  ORCL=  7.5%  MRK=  6.9%  NOW=  6.7%  ABBV=  6.4%  AMD= 22.6%  IBM=  6.0%  util=0.530705  Δ=-0.000642
+  CRM+1%  NFLX=  9.8%  JNJ=  8.9%  WMT=  8.6%  BAC=  7.9%  CRM=  8.7%  ORCL=  7.5%  MRK=  6.9%  NOW=  6.7%  ABBV=  6.4%  AMD= 22.6%  IBM=  6.0%  util=0.529952  Δ=-0.001395
+  ORCL+1%  NFLX=  9.8%  JNJ=  8.9%  WMT=  8.6%  BAC=  7.9%  CRM=  7.6%  ORCL=  8.6%  MRK=  6.9%  NOW=  6.7%  ABBV=  6.4%  AMD= 22.6%  IBM=  6.0%  util=0.530924  Δ=-0.000423
+  MRK+1%  NFLX=  9.8%  JNJ=  8.9%  WMT=  8.6%  BAC=  7.9%  CRM=  7.6%  ORCL=  7.5%  MRK=  8.0%  NOW=  6.7%  ABBV=  6.4%  AMD= 22.6%  IBM=  6.0%  util=0.528839  Δ=-0.002508
+  NOW+1%  NFLX=  9.8%  JNJ=  8.9%  WMT=  8.6%  BAC=  7.9%  CRM=  7.6%  ORCL=  7.5%  MRK=  6.9%  NOW=  7.8%  ABBV=  6.4%  AMD= 22.6%  IBM=  6.0%  util=0.532348  Δ=+0.001001
+  ABBV+1%  NFLX=  9.8%  JNJ=  8.9%  WMT=  8.6%  BAC=  7.9%  CRM=  7.6%  ORCL=  7.5%  MRK=  6.9%  NOW=  6.7%  ABBV=  7.5%  AMD= 22.6%  IBM=  6.0%  util=0.531548  Δ=+0.000201
+  AMD+1%  NFLX=  9.8%  JNJ=  8.9%  WMT=  8.6%  BAC=  7.9%  CRM=  7.6%  ORCL=  7.5%  MRK=  6.9%  NOW=  6.7%  ABBV=  6.4%  AMD= 23.7%  IBM=  6.0%  util=0.537055  Δ=+0.005708
+  IBM+1%  NFLX=  9.8%  JNJ=  8.9%  WMT=  8.6%  BAC=  7.9%  CRM=  7.6%  ORCL=  7.5%  MRK=  6.9%  NOW=  6.7%  ABBV=  6.4%  AMD= 22.6%  IBM=  7.1%  util=0.529379  Δ=-0.001968
+  ★ WINNER: AMD  improvement=+0.005708
+────────────────────────────────────────────────────────────────────────
+Epoch 16  [startUtility=0.537055  feasible=11]
+  NFLX+1%  NFLX= 10.8%  JNJ=  8.8%  WMT=  8.5%  BAC=  7.8%  CRM=  7.5%  ORCL=  7.4%  MRK=  6.8%  NOW=  6.6%  ABBV=  6.3%  AMD= 23.6%  IBM=  5.9%  util=0.540601  Δ=+0.003546
+  JNJ+1%  NFLX=  9.7%  JNJ=  9.9%  WMT=  8.5%  BAC=  7.8%  CRM=  7.5%  ORCL=  7.4%  MRK=  6.8%  NOW=  6.6%  ABBV=  6.3%  AMD= 23.6%  IBM=  5.9%  util=0.534219  Δ=-0.002836
+  WMT+1%  NFLX=  9.7%  JNJ=  8.8%  WMT=  9.6%  BAC=  7.8%  CRM=  7.5%  ORCL=  7.4%  MRK=  6.8%  NOW=  6.6%  ABBV=  6.3%  AMD= 23.6%  IBM=  5.9%  util=0.536259  Δ=-0.000796
+  BAC+1%  NFLX=  9.7%  JNJ=  8.8%  WMT=  8.5%  BAC=  8.9%  CRM=  7.5%  ORCL=  7.4%  MRK=  6.8%  NOW=  6.6%  ABBV=  6.3%  AMD= 23.6%  IBM=  5.9%  util=0.536452  Δ=-0.000603
+  CRM+1%  NFLX=  9.7%  JNJ=  8.8%  WMT=  8.5%  BAC=  7.8%  CRM=  8.6%  ORCL=  7.4%  MRK=  6.8%  NOW=  6.6%  ABBV=  6.3%  AMD= 23.6%  IBM=  5.9%  util=0.535647  Δ=-0.001408
+  ORCL+1%  NFLX=  9.7%  JNJ=  8.8%  WMT=  8.5%  BAC=  7.8%  CRM=  7.5%  ORCL=  8.5%  MRK=  6.8%  NOW=  6.6%  ABBV=  6.3%  AMD= 23.6%  IBM=  5.9%  util=0.536652  Δ=-0.000403
+  MRK+1%  NFLX=  9.7%  JNJ=  8.8%  WMT=  8.5%  BAC=  7.8%  CRM=  7.5%  ORCL=  7.4%  MRK=  7.9%  NOW=  6.6%  ABBV=  6.3%  AMD= 23.6%  IBM=  5.9%  util=0.534535  Δ=-0.002520
+  NOW+1%  NFLX=  9.7%  JNJ=  8.8%  WMT=  8.5%  BAC=  7.8%  CRM=  7.5%  ORCL=  7.4%  MRK=  6.8%  NOW=  7.7%  ABBV=  6.3%  AMD= 23.6%  IBM=  5.9%  util=0.538035  Δ=+0.000980
+  ABBV+1%  NFLX=  9.7%  JNJ=  8.8%  WMT=  8.5%  BAC=  7.8%  CRM=  7.5%  ORCL=  7.4%  MRK=  6.8%  NOW=  6.6%  ABBV=  7.4%  AMD= 23.6%  IBM=  5.9%  util=0.537268  Δ=+0.000213
+  AMD+1%  NFLX=  9.7%  JNJ=  8.8%  WMT=  8.5%  BAC=  7.8%  CRM=  7.5%  ORCL=  7.4%  MRK=  6.8%  NOW=  6.6%  ABBV=  6.3%  AMD= 24.7%  IBM=  5.9%  util=0.542694  Δ=+0.005639
+  IBM+1%  NFLX=  9.7%  JNJ=  8.8%  WMT=  8.5%  BAC=  7.8%  CRM=  7.5%  ORCL=  7.4%  MRK=  6.8%  NOW=  6.6%  ABBV=  6.3%  AMD= 23.6%  IBM=  7.0%  util=0.535101  Δ=-0.001953
+  ★ WINNER: AMD  improvement=+0.005639
+────────────────────────────────────────────────────────────────────────
+Epoch 17  [startUtility=0.542694  feasible=11]
+  NFLX+1%  NFLX= 10.7%  JNJ=  8.7%  WMT=  8.4%  BAC=  7.7%  CRM=  7.4%  ORCL=  7.3%  MRK=  6.7%  NOW=  6.5%  ABBV=  6.2%  AMD= 24.6%  IBM=  5.8%  util=0.546277  Δ=+0.003582
+  JNJ+1%  NFLX=  9.6%  JNJ=  9.8%  WMT=  8.4%  BAC=  7.7%  CRM=  7.4%  ORCL=  7.3%  MRK=  6.7%  NOW=  6.5%  ABBV=  6.2%  AMD= 24.6%  IBM=  5.8%  util=0.539858  Δ=-0.002837
+  WMT+1%  NFLX=  9.6%  JNJ=  8.7%  WMT=  9.5%  BAC=  7.7%  CRM=  7.4%  ORCL=  7.3%  MRK=  6.7%  NOW=  6.5%  ABBV=  6.2%  AMD= 24.6%  IBM=  5.8%  util=0.541895  Δ=-0.000799
+  BAC+1%  NFLX=  9.6%  JNJ=  8.7%  WMT=  8.4%  BAC=  8.8%  CRM=  7.4%  ORCL=  7.3%  MRK=  6.7%  NOW=  6.5%  ABBV=  6.2%  AMD= 24.6%  IBM=  5.8%  util=0.542134  Δ=-0.000560
+  CRM+1%  NFLX=  9.6%  JNJ=  8.7%  WMT=  8.4%  BAC=  7.7%  CRM=  8.5%  ORCL=  7.3%  MRK=  6.7%  NOW=  6.5%  ABBV=  6.2%  AMD= 24.6%  IBM=  5.8%  util=0.541296  Δ=-0.001398
+  ORCL+1%  NFLX=  9.6%  JNJ=  8.7%  WMT=  8.4%  BAC=  7.7%  CRM=  7.4%  ORCL=  8.4%  MRK=  6.7%  NOW=  6.5%  ABBV=  6.2%  AMD= 24.6%  IBM=  5.8%  util=0.542312  Δ=-0.000382
+  MRK+1%  NFLX=  9.6%  JNJ=  8.7%  WMT=  8.4%  BAC=  7.7%  CRM=  7.4%  ORCL=  7.3%  MRK=  7.8%  NOW=  6.5%  ABBV=  6.2%  AMD= 24.6%  IBM=  5.8%  util=0.540162  Δ=-0.002533
+  NOW+1%  NFLX=  9.6%  JNJ=  8.7%  WMT=  8.4%  BAC=  7.7%  CRM=  7.4%  ORCL=  7.3%  MRK=  6.7%  NOW=  7.6%  ABBV=  6.2%  AMD= 24.6%  IBM=  5.8%  util=0.543693  Δ=+0.000999
+  ABBV+1%  NFLX=  9.6%  JNJ=  8.7%  WMT=  8.4%  BAC=  7.7%  CRM=  7.4%  ORCL=  7.3%  MRK=  6.7%  NOW=  6.5%  ABBV=  7.3%  AMD= 24.6%  IBM=  5.8%  util=0.542917  Δ=+0.000223
+  AMD+1%  NFLX=  9.6%  JNJ=  8.7%  WMT=  8.4%  BAC=  7.7%  CRM=  7.4%  ORCL=  7.3%  MRK=  6.7%  NOW=  6.5%  ABBV=  6.2%  AMD= 25.7%  IBM=  5.8%  util=0.548306  Δ=+0.005612
+  IBM+1%  NFLX=  9.6%  JNJ=  8.7%  WMT=  8.4%  BAC=  7.7%  CRM=  7.4%  ORCL=  7.3%  MRK=  6.7%  NOW=  6.5%  ABBV=  6.2%  AMD= 24.6%  IBM=  6.9%  util=0.540753  Δ=-0.001941
+  ★ WINNER: AMD  improvement=+0.005612
+────────────────────────────────────────────────────────────────────────
+Epoch 18  [startUtility=0.548306  feasible=11]
+  NFLX+1%  NFLX= 10.6%  JNJ=  8.6%  WMT=  8.3%  BAC=  7.6%  CRM=  7.3%  ORCL=  7.2%  MRK=  6.6%  NOW=  6.4%  ABBV=  6.1%  AMD= 25.6%  IBM=  5.7%  util=0.551908  Δ=+0.003602
+  JNJ+1%  NFLX=  9.5%  JNJ=  9.7%  WMT=  8.3%  BAC=  7.6%  CRM=  7.3%  ORCL=  7.2%  MRK=  6.6%  NOW=  6.4%  ABBV=  6.1%  AMD= 25.6%  IBM=  5.7%  util=0.545439  Δ=-0.002867
+  WMT+1%  NFLX=  9.5%  JNJ=  8.6%  WMT=  9.4%  BAC=  7.6%  CRM=  7.3%  ORCL=  7.2%  MRK=  6.6%  NOW=  6.4%  ABBV=  6.1%  AMD= 25.6%  IBM=  5.7%  util=0.547508  Δ=-0.000798
+  BAC+1%  NFLX=  9.5%  JNJ=  8.6%  WMT=  8.3%  BAC=  8.7%  CRM=  7.3%  ORCL=  7.2%  MRK=  6.6%  NOW=  6.4%  ABBV=  6.1%  AMD= 25.6%  IBM=  5.7%  util=0.547763  Δ=-0.000543
+  CRM+1%  NFLX=  9.5%  JNJ=  8.6%  WMT=  8.3%  BAC=  7.6%  CRM=  8.4%  ORCL=  7.2%  MRK=  6.6%  NOW=  6.4%  ABBV=  6.1%  AMD= 25.6%  IBM=  5.7%  util=0.546908  Δ=-0.001398
+  ORCL+1%  NFLX=  9.5%  JNJ=  8.6%  WMT=  8.3%  BAC=  7.6%  CRM=  7.3%  ORCL=  8.3%  MRK=  6.6%  NOW=  6.4%  ABBV=  6.1%  AMD= 25.6%  IBM=  5.7%  util=0.547915  Δ=-0.000391
+  MRK+1%  NFLX=  9.5%  JNJ=  8.6%  WMT=  8.3%  BAC=  7.6%  CRM=  7.3%  ORCL=  7.2%  MRK=  7.7%  NOW=  6.4%  ABBV=  6.1%  AMD= 25.6%  IBM=  5.7%  util=0.545734  Δ=-0.002572
+  NOW+1%  NFLX=  9.5%  JNJ=  8.6%  WMT=  8.3%  BAC=  7.6%  CRM=  7.3%  ORCL=  7.2%  MRK=  6.6%  NOW=  7.5%  ABBV=  6.1%  AMD= 25.6%  IBM=  5.7%  util=0.549308  Δ=+0.001002
+  ABBV+1%  NFLX=  9.5%  JNJ=  8.6%  WMT=  8.3%  BAC=  7.6%  CRM=  7.3%  ORCL=  7.2%  MRK=  6.6%  NOW=  6.4%  ABBV=  7.2%  AMD= 25.6%  IBM=  5.7%  util=0.548499  Δ=+0.000193
+  AMD+1%  NFLX=  9.5%  JNJ=  8.6%  WMT=  8.3%  BAC=  7.6%  CRM=  7.3%  ORCL=  7.2%  MRK=  6.6%  NOW=  6.4%  ABBV=  6.1%  AMD= 26.7%  IBM=  5.7%  util=0.553818  Δ=+0.005512
+  IBM+1%  NFLX=  9.5%  JNJ=  8.6%  WMT=  8.3%  BAC=  7.6%  CRM=  7.3%  ORCL=  7.2%  MRK=  6.6%  NOW=  6.4%  ABBV=  6.1%  AMD= 25.6%  IBM=  6.8%  util=0.546340  Δ=-0.001966
+  ★ WINNER: AMD  improvement=+0.005512
+────────────────────────────────────────────────────────────────────────
+Epoch 19  [startUtility=0.553818  feasible=11]
+  NFLX+1%  NFLX= 10.5%  JNJ=  8.5%  WMT=  8.2%  BAC=  7.5%  CRM=  7.2%  ORCL=  7.1%  MRK=  6.5%  NOW=  6.3%  ABBV=  6.0%  AMD= 26.6%  IBM=  5.6%  util=0.557448  Δ=+0.003630
+  JNJ+1%  NFLX=  9.4%  JNJ=  9.6%  WMT=  8.2%  BAC=  7.5%  CRM=  7.2%  ORCL=  7.1%  MRK=  6.5%  NOW=  6.3%  ABBV=  6.0%  AMD= 26.6%  IBM=  5.6%  util=0.550955  Δ=-0.002863
+  WMT+1%  NFLX=  9.4%  JNJ=  8.5%  WMT=  9.3%  BAC=  7.5%  CRM=  7.2%  ORCL=  7.1%  MRK=  6.5%  NOW=  6.3%  ABBV=  6.0%  AMD= 26.6%  IBM=  5.6%  util=0.553048  Δ=-0.000769
+  BAC+1%  NFLX=  9.4%  JNJ=  8.5%  WMT=  8.2%  BAC=  8.6%  CRM=  7.2%  ORCL=  7.1%  MRK=  6.5%  NOW=  6.3%  ABBV=  6.0%  AMD= 26.6%  IBM=  5.6%  util=0.553315  Δ=-0.000503
+  CRM+1%  NFLX=  9.4%  JNJ=  8.5%  WMT=  8.2%  BAC=  7.5%  CRM=  8.3%  ORCL=  7.1%  MRK=  6.5%  NOW=  6.3%  ABBV=  6.0%  AMD= 26.6%  IBM=  5.6%  util=0.552428  Δ=-0.001390
+  ORCL+1%  NFLX=  9.4%  JNJ=  8.5%  WMT=  8.2%  BAC=  7.5%  CRM=  7.2%  ORCL=  8.2%  MRK=  6.5%  NOW=  6.3%  ABBV=  6.0%  AMD= 26.6%  IBM=  5.6%  util=0.553440  Δ=-0.000378
+  MRK+1%  NFLX=  9.4%  JNJ=  8.5%  WMT=  8.2%  BAC=  7.5%  CRM=  7.2%  ORCL=  7.1%  MRK=  7.6%  NOW=  6.3%  ABBV=  6.0%  AMD= 26.6%  IBM=  5.6%  util=0.551244  Δ=-0.002574
+  NOW+1%  NFLX=  9.4%  JNJ=  8.5%  WMT=  8.2%  BAC=  7.5%  CRM=  7.2%  ORCL=  7.1%  MRK=  6.5%  NOW=  7.4%  ABBV=  6.0%  AMD= 26.6%  IBM=  5.6%  util=0.554826  Δ=+0.001009
+  ABBV+1%  NFLX=  9.4%  JNJ=  8.5%  WMT=  8.2%  BAC=  7.5%  CRM=  7.2%  ORCL=  7.1%  MRK=  6.5%  NOW=  6.3%  ABBV=  7.1%  AMD= 26.6%  IBM=  5.6%  util=0.554005  Δ=+0.000187
+  AMD+1%  NFLX=  9.4%  JNJ=  8.5%  WMT=  8.2%  BAC=  7.5%  CRM=  7.2%  ORCL=  7.1%  MRK=  6.5%  NOW=  6.3%  ABBV=  6.0%  AMD= 27.7%  IBM=  5.6%  util=0.559269  Δ=+0.005451
+  IBM+1%  NFLX=  9.4%  JNJ=  8.5%  WMT=  8.2%  BAC=  7.5%  CRM=  7.2%  ORCL=  7.1%  MRK=  6.5%  NOW=  6.3%  ABBV=  6.0%  AMD= 26.6%  IBM=  6.7%  util=0.551858  Δ=-0.001960
+  ★ WINNER: AMD  improvement=+0.005451
+────────────────────────────────────────────────────────────────────────
+Epoch 20  [startUtility=0.559269  feasible=11]
+  NFLX+1%  NFLX= 10.4%  JNJ=  8.4%  WMT=  8.1%  BAC=  7.4%  CRM=  7.1%  ORCL=  7.0%  MRK=  6.4%  NOW=  6.2%  ABBV=  5.9%  AMD= 27.6%  IBM=  5.5%  util=0.562934  Δ=+0.003666
+  JNJ+1%  NFLX=  9.3%  JNJ=  9.5%  WMT=  8.1%  BAC=  7.4%  CRM=  7.1%  ORCL=  7.0%  MRK=  6.4%  NOW=  6.2%  ABBV=  5.9%  AMD= 27.6%  IBM=  5.5%  util=0.556398  Δ=-0.002870
+  WMT+1%  NFLX=  9.3%  JNJ=  8.4%  WMT=  9.2%  BAC=  7.4%  CRM=  7.1%  ORCL=  7.0%  MRK=  6.4%  NOW=  6.2%  ABBV=  5.9%  AMD= 27.6%  IBM=  5.5%  util=0.558506  Δ=-0.000763
+  BAC+1%  NFLX=  9.3%  JNJ=  8.4%  WMT=  8.1%  BAC=  8.5%  CRM=  7.1%  ORCL=  7.0%  MRK=  6.4%  NOW=  6.2%  ABBV=  5.9%  AMD= 27.6%  IBM=  5.5%  util=0.558795  Δ=-0.000474
+  CRM+1%  NFLX=  9.3%  JNJ=  8.4%  WMT=  8.1%  BAC=  7.4%  CRM=  8.2%  ORCL=  7.0%  MRK=  6.4%  NOW=  6.2%  ABBV=  5.9%  AMD= 27.6%  IBM=  5.5%  util=0.557888  Δ=-0.001380
+  ORCL+1%  NFLX=  9.3%  JNJ=  8.4%  WMT=  8.1%  BAC=  7.4%  CRM=  7.1%  ORCL=  8.1%  MRK=  6.4%  NOW=  6.2%  ABBV=  5.9%  AMD= 27.6%  IBM=  5.5%  util=0.558913  Δ=-0.000356
+  MRK+1%  NFLX=  9.3%  JNJ=  8.4%  WMT=  8.1%  BAC=  7.4%  CRM=  7.1%  ORCL=  7.0%  MRK=  7.5%  NOW=  6.2%  ABBV=  5.9%  AMD= 27.6%  IBM=  5.5%  util=0.556692  Δ=-0.002577
+  NOW+1%  NFLX=  9.3%  JNJ=  8.4%  WMT=  8.1%  BAC=  7.4%  CRM=  7.1%  ORCL=  7.0%  MRK=  6.4%  NOW=  7.3%  ABBV=  5.9%  AMD= 27.6%  IBM=  5.5%  util=0.560278  Δ=+0.001010
+  ABBV+1%  NFLX=  9.3%  JNJ=  8.4%  WMT=  8.1%  BAC=  7.4%  CRM=  7.1%  ORCL=  7.0%  MRK=  6.4%  NOW=  6.2%  ABBV=  7.0%  AMD= 27.6%  IBM=  5.5%  util=0.559449  Δ=+0.000181
+  AMD+1%  NFLX=  9.3%  JNJ=  8.4%  WMT=  8.1%  BAC=  7.4%  CRM=  7.1%  ORCL=  7.0%  MRK=  6.4%  NOW=  6.2%  ABBV=  5.9%  AMD= 28.7%  IBM=  5.5%  util=0.564658  Δ=+0.005389
+  IBM+1%  NFLX=  9.3%  JNJ=  8.4%  WMT=  8.1%  BAC=  7.4%  CRM=  7.1%  ORCL=  7.0%  MRK=  6.4%  NOW=  6.2%  ABBV=  5.9%  AMD= 27.6%  IBM=  6.6%  util=0.557318  Δ=-0.001951
+  ★ WINNER: AMD  improvement=+0.005389
+────────────────────────────────────────────────────────────────────────
+Epoch 21  [startUtility=0.564658  feasible=11]
+  NFLX+1%  NFLX= 10.3%  JNJ=  8.3%  WMT=  8.0%  BAC=  7.3%  CRM=  7.0%  ORCL=  6.9%  MRK=  6.3%  NOW=  6.1%  ABBV=  5.8%  AMD= 28.6%  IBM=  5.4%  util=0.568363  Δ=+0.003705
+  JNJ+1%  NFLX=  9.2%  JNJ=  9.4%  WMT=  8.0%  BAC=  7.3%  CRM=  7.0%  ORCL=  6.9%  MRK=  6.3%  NOW=  6.1%  ABBV=  5.8%  AMD= 28.6%  IBM=  5.4%  util=0.561786  Δ=-0.002872
+  WMT+1%  NFLX=  9.2%  JNJ=  8.3%  WMT=  9.1%  BAC=  7.3%  CRM=  7.0%  ORCL=  6.9%  MRK=  6.3%  NOW=  6.1%  ABBV=  5.8%  AMD= 28.6%  IBM=  5.4%  util=0.563906  Δ=-0.000752
+  BAC+1%  NFLX=  9.2%  JNJ=  8.3%  WMT=  8.0%  BAC=  8.4%  CRM=  7.0%  ORCL=  6.9%  MRK=  6.3%  NOW=  6.1%  ABBV=  5.8%  AMD= 28.6%  IBM=  5.4%  util=0.564210  Δ=-0.000447
+  CRM+1%  NFLX=  9.2%  JNJ=  8.3%  WMT=  8.0%  BAC=  7.3%  CRM=  8.1%  ORCL=  6.9%  MRK=  6.3%  NOW=  6.1%  ABBV=  5.8%  AMD= 28.6%  IBM=  5.4%  util=0.563293  Δ=-0.001365
+  ORCL+1%  NFLX=  9.2%  JNJ=  8.3%  WMT=  8.0%  BAC=  7.3%  CRM=  7.0%  ORCL=  8.0%  MRK=  6.3%  NOW=  6.1%  ABBV=  5.8%  AMD= 28.6%  IBM=  5.4%  util=0.564335  Δ=-0.000323
+  MRK+1%  NFLX=  9.2%  JNJ=  8.3%  WMT=  8.0%  BAC=  7.3%  CRM=  7.0%  ORCL=  6.9%  MRK=  7.4%  NOW=  6.1%  ABBV=  5.8%  AMD= 28.6%  IBM=  5.4%  util=0.562072  Δ=-0.002586
+  NOW+1%  NFLX=  9.2%  JNJ=  8.3%  WMT=  8.0%  BAC=  7.3%  CRM=  7.0%  ORCL=  6.9%  MRK=  6.3%  NOW=  7.2%  ABBV=  5.8%  AMD= 28.6%  IBM=  5.4%  util=0.565684  Δ=+0.001027
+  ABBV+1%  NFLX=  9.2%  JNJ=  8.3%  WMT=  8.0%  BAC=  7.3%  CRM=  7.0%  ORCL=  6.9%  MRK=  6.3%  NOW=  6.1%  ABBV=  6.9%  AMD= 28.6%  IBM=  5.4%  util=0.564843  Δ=+0.000185
+  AMD+1%  NFLX=  9.2%  JNJ=  8.3%  WMT=  8.0%  BAC=  7.3%  CRM=  7.0%  ORCL=  6.9%  MRK=  6.3%  NOW=  6.1%  ABBV=  5.8%  AMD= 29.7%  IBM=  5.4%  util=0.569996  Δ=+0.005338
+  IBM+1%  NFLX=  9.2%  JNJ=  8.3%  WMT=  8.0%  BAC=  7.3%  CRM=  7.0%  ORCL=  6.9%  MRK=  6.3%  NOW=  6.1%  ABBV=  5.8%  AMD= 28.6%  IBM=  6.5%  util=0.562719  Δ=-0.001939
+  ★ WINNER: AMD  improvement=+0.005338
+────────────────────────────────────────────────────────────────────────
+Epoch 22  [startUtility=0.569996  feasible=11]
+  NFLX+1%  NFLX= 10.2%  JNJ=  8.2%  WMT=  7.9%  BAC=  7.2%  CRM=  6.9%  ORCL=  6.8%  MRK=  6.2%  NOW=  6.0%  ABBV=  5.7%  AMD= 29.6%  IBM=  5.3%  util=0.573726  Δ=+0.003730
+  JNJ+1%  NFLX=  9.1%  JNJ=  9.3%  WMT=  7.9%  BAC=  7.2%  CRM=  6.9%  ORCL=  6.8%  MRK=  6.2%  NOW=  6.0%  ABBV=  5.7%  AMD= 29.6%  IBM=  5.3%  util=0.567094  Δ=-0.002902
+  WMT+1%  NFLX=  9.1%  JNJ=  8.2%  WMT=  9.0%  BAC=  7.2%  CRM=  6.9%  ORCL=  6.8%  MRK=  6.2%  NOW=  6.0%  ABBV=  5.7%  AMD= 29.6%  IBM=  5.3%  util=0.569228  Δ=-0.000768
+  BAC+1%  NFLX=  9.1%  JNJ=  8.2%  WMT=  7.9%  BAC=  8.3%  CRM=  6.9%  ORCL=  6.8%  MRK=  6.2%  NOW=  6.0%  ABBV=  5.7%  AMD= 29.6%  IBM=  5.3%  util=0.569545  Δ=-0.000451
+  CRM+1%  NFLX=  9.1%  JNJ=  8.2%  WMT=  7.9%  BAC=  7.2%  CRM=  8.0%  ORCL=  6.8%  MRK=  6.2%  NOW=  6.0%  ABBV=  5.7%  AMD= 29.6%  IBM=  5.3%  util=0.568636  Δ=-0.001360
+  ORCL+1%  NFLX=  9.1%  JNJ=  8.2%  WMT=  7.9%  BAC=  7.2%  CRM=  6.9%  ORCL=  7.9%  MRK=  6.2%  NOW=  6.0%  ABBV=  5.7%  AMD= 29.6%  IBM=  5.3%  util=0.569673  Δ=-0.000323
+  MRK+1%  NFLX=  9.1%  JNJ=  8.2%  WMT=  7.9%  BAC=  7.2%  CRM=  6.9%  ORCL=  6.8%  MRK=  7.3%  NOW=  6.0%  ABBV=  5.7%  AMD= 29.6%  IBM=  5.3%  util=0.567377  Δ=-0.002619
+  NOW+1%  NFLX=  9.1%  JNJ=  8.2%  WMT=  7.9%  BAC=  7.2%  CRM=  6.9%  ORCL=  6.8%  MRK=  6.2%  NOW=  7.1%  ABBV=  5.7%  AMD= 29.6%  IBM=  5.3%  util=0.571032  Δ=+0.001036
+  ABBV+1%  NFLX=  9.1%  JNJ=  8.2%  WMT=  7.9%  BAC=  7.2%  CRM=  6.9%  ORCL=  6.8%  MRK=  6.2%  NOW=  6.0%  ABBV=  6.8%  AMD= 29.6%  IBM=  5.3%  util=0.570165  Δ=+0.000169
+  AMD+1%  NFLX=  9.1%  JNJ=  8.2%  WMT=  7.9%  BAC=  7.2%  CRM=  6.9%  ORCL=  6.8%  MRK=  6.2%  NOW=  6.0%  ABBV=  5.7%  AMD= 30.7%  IBM=  5.3%  util=0.575225  Δ=+0.005229
+  IBM+1%  NFLX=  9.1%  JNJ=  8.2%  WMT=  7.9%  BAC=  7.2%  CRM=  6.9%  ORCL=  6.8%  MRK=  6.2%  NOW=  6.0%  ABBV=  5.7%  AMD= 29.6%  IBM=  6.4%  util=0.568041  Δ=-0.001955
+  ★ WINNER: AMD  improvement=+0.005229
+────────────────────────────────────────────────────────────────────────
+Epoch 23  [startUtility=0.575225  feasible=11]
+  NFLX+1%  NFLX= 10.1%  JNJ=  8.1%  WMT=  7.8%  BAC=  7.1%  CRM=  6.8%  ORCL=  6.7%  MRK=  6.1%  NOW=  5.9%  ABBV=  5.6%  AMD= 30.6%  IBM=  5.2%  util=0.579028  Δ=+0.003803
+  JNJ+1%  NFLX=  9.0%  JNJ=  9.2%  WMT=  7.8%  BAC=  7.1%  CRM=  6.8%  ORCL=  6.7%  MRK=  6.1%  NOW=  5.9%  ABBV=  5.6%  AMD= 30.6%  IBM=  5.2%  util=0.572325  Δ=-0.002900
+  WMT+1%  NFLX=  9.0%  JNJ=  8.1%  WMT=  8.9%  BAC=  7.1%  CRM=  6.8%  ORCL=  6.7%  MRK=  6.1%  NOW=  5.9%  ABBV=  5.6%  AMD= 30.6%  IBM=  5.2%  util=0.574478  Δ=-0.000747
+  BAC+1%  NFLX=  9.0%  JNJ=  8.1%  WMT=  7.8%  BAC=  8.2%  CRM=  6.8%  ORCL=  6.7%  MRK=  6.1%  NOW=  5.9%  ABBV=  5.6%  AMD= 30.6%  IBM=  5.2%  util=0.574791  Δ=-0.000434
+  CRM+1%  NFLX=  9.0%  JNJ=  8.1%  WMT=  7.8%  BAC=  7.1%  CRM=  7.9%  ORCL=  6.7%  MRK=  6.1%  NOW=  5.9%  ABBV=  5.6%  AMD= 30.6%  IBM=  5.2%  util=0.573891  Δ=-0.001334
+  ORCL+1%  NFLX=  9.0%  JNJ=  8.1%  WMT=  7.8%  BAC=  7.1%  CRM=  6.8%  ORCL=  7.8%  MRK=  6.1%  NOW=  5.9%  ABBV=  5.6%  AMD= 30.6%  IBM=  5.2%  util=0.574914  Δ=-0.000311
+  MRK+1%  NFLX=  9.0%  JNJ=  8.1%  WMT=  7.8%  BAC=  7.1%  CRM=  6.8%  ORCL=  6.7%  MRK=  7.2%  NOW=  5.9%  ABBV=  5.6%  AMD= 30.6%  IBM=  5.2%  util=0.572577  Δ=-0.002649
+  NOW+1%  NFLX=  9.0%  JNJ=  8.1%  WMT=  7.8%  BAC=  7.1%  CRM=  6.8%  ORCL=  6.7%  MRK=  6.1%  NOW=  7.0%  ABBV=  5.6%  AMD= 30.6%  IBM=  5.2%  util=0.576315  Δ=+0.001090
+  ABBV+1%  NFLX=  9.0%  JNJ=  8.1%  WMT=  7.8%  BAC=  7.1%  CRM=  6.8%  ORCL=  6.7%  MRK=  6.1%  NOW=  5.9%  ABBV=  6.7%  AMD= 30.6%  IBM=  5.2%  util=0.575386  Δ=+0.000161
+  AMD+1%  NFLX=  9.0%  JNJ=  8.1%  WMT=  7.8%  BAC=  7.1%  CRM=  6.8%  ORCL=  6.7%  MRK=  6.1%  NOW=  5.9%  ABBV=  5.6%  AMD= 31.7%  IBM=  5.2%  util=0.580398  Δ=+0.005173
+  IBM+1%  NFLX=  9.0%  JNJ=  8.1%  WMT=  7.8%  BAC=  7.1%  CRM=  6.8%  ORCL=  6.7%  MRK=  6.1%  NOW=  5.9%  ABBV=  5.6%  AMD= 30.6%  IBM=  6.3%  util=0.573269  Δ=-0.001956
+  ★ WINNER: AMD  improvement=+0.005173
+────────────────────────────────────────────────────────────────────────
+Epoch 24  [startUtility=0.580398  feasible=11]
+  NFLX+1%  NFLX= 10.0%  JNJ=  8.0%  WMT=  7.7%  BAC=  7.0%  CRM=  6.7%  ORCL=  6.6%  MRK=  6.0%  NOW=  5.8%  ABBV=  5.5%  AMD= 31.6%  IBM=  5.1%  util=0.584217  Δ=+0.003819
+  JNJ+1%  NFLX=  8.9%  JNJ=  9.1%  WMT=  7.7%  BAC=  7.0%  CRM=  6.7%  ORCL=  6.6%  MRK=  6.0%  NOW=  5.8%  ABBV=  5.5%  AMD= 31.6%  IBM=  5.1%  util=0.577505  Δ=-0.002893
+  WMT+1%  NFLX=  8.9%  JNJ=  8.0%  WMT=  8.8%  BAC=  7.0%  CRM=  6.7%  ORCL=  6.6%  MRK=  6.0%  NOW=  5.8%  ABBV=  5.5%  AMD= 31.6%  IBM=  5.1%  util=0.579641  Δ=-0.000757
+  BAC+1%  NFLX=  8.9%  JNJ=  8.0%  WMT=  7.7%  BAC=  8.1%  CRM=  6.7%  ORCL=  6.6%  MRK=  6.0%  NOW=  5.8%  ABBV=  5.5%  AMD= 31.6%  IBM=  5.1%  util=0.579990  Δ=-0.000408
+  CRM+1%  NFLX=  8.9%  JNJ=  8.0%  WMT=  7.7%  BAC=  7.0%  CRM=  7.8%  ORCL=  6.6%  MRK=  6.0%  NOW=  5.8%  ABBV=  5.5%  AMD= 31.6%  IBM=  5.1%  util=0.579047  Δ=-0.001351
+  ORCL+1%  NFLX=  8.9%  JNJ=  8.0%  WMT=  7.7%  BAC=  7.0%  CRM=  6.7%  ORCL=  7.7%  MRK=  6.0%  NOW=  5.8%  ABBV=  5.5%  AMD= 31.6%  IBM=  5.1%  util=0.580111  Δ=-0.000288
+  MRK+1%  NFLX=  8.9%  JNJ=  8.0%  WMT=  7.7%  BAC=  7.0%  CRM=  6.7%  ORCL=  6.6%  MRK=  7.1%  NOW=  5.8%  ABBV=  5.5%  AMD= 31.6%  IBM=  5.1%  util=0.577735  Δ=-0.002664
+  NOW+1%  NFLX=  8.9%  JNJ=  8.0%  WMT=  7.7%  BAC=  7.0%  CRM=  6.7%  ORCL=  6.6%  MRK=  6.0%  NOW=  6.9%  ABBV=  5.5%  AMD= 31.6%  IBM=  5.1%  util=0.581484  Δ=+0.001085
+  ABBV+1%  NFLX=  8.9%  JNJ=  8.0%  WMT=  7.7%  BAC=  7.0%  CRM=  6.7%  ORCL=  6.6%  MRK=  6.0%  NOW=  5.8%  ABBV=  6.6%  AMD= 31.6%  IBM=  5.1%  util=0.580566  Δ=+0.000168
+  AMD+1%  NFLX=  8.9%  JNJ=  8.0%  WMT=  7.7%  BAC=  7.0%  CRM=  6.7%  ORCL=  6.6%  MRK=  6.0%  NOW=  5.8%  ABBV=  5.5%  AMD= 32.7%  IBM=  5.1%  util=0.585494  Δ=+0.005095
+  IBM+1%  NFLX=  8.9%  JNJ=  8.0%  WMT=  7.7%  BAC=  7.0%  CRM=  6.7%  ORCL=  6.6%  MRK=  6.0%  NOW=  5.8%  ABBV=  5.5%  AMD= 31.6%  IBM=  6.2%  util=0.578469  Δ=-0.001930
+  ★ WINNER: AMD  improvement=+0.005095
+────────────────────────────────────────────────────────────────────────
+Epoch 25  [startUtility=0.585494  feasible=11]
+  NFLX+1%  NFLX=  9.9%  JNJ=  7.9%  WMT=  7.6%  BAC=  6.9%  CRM=  6.6%  ORCL=  6.5%  MRK=  5.9%  NOW=  5.7%  ABBV=  5.4%  AMD= 32.6%  IBM=  5.0%  util=0.589335  Δ=+0.003841
+  JNJ+1%  NFLX=  8.8%  JNJ=  9.0%  WMT=  7.6%  BAC=  6.9%  CRM=  6.6%  ORCL=  6.5%  MRK=  5.9%  NOW=  5.7%  ABBV=  5.4%  AMD= 32.6%  IBM=  5.0%  util=0.582595  Δ=-0.002899
+  WMT+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  8.7%  BAC=  6.9%  CRM=  6.6%  ORCL=  6.5%  MRK=  5.9%  NOW=  5.7%  ABBV=  5.4%  AMD= 32.6%  IBM=  5.0%  util=0.584747  Δ=-0.000747
+  BAC+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  7.6%  BAC=  8.0%  CRM=  6.6%  ORCL=  6.5%  MRK=  5.9%  NOW=  5.7%  ABBV=  5.4%  AMD= 32.6%  IBM=  5.0%  util=0.585134  Δ=-0.000360
+  CRM+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  7.6%  BAC=  6.9%  CRM=  7.7%  ORCL=  6.5%  MRK=  5.9%  NOW=  5.7%  ABBV=  5.4%  AMD= 32.6%  IBM=  5.0%  util=0.584099  Δ=-0.001395
+  ORCL+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  7.6%  BAC=  6.9%  CRM=  6.6%  ORCL=  7.6%  MRK=  5.9%  NOW=  5.7%  ABBV=  5.4%  AMD= 32.6%  IBM=  5.0%  util=0.585237  Δ=-0.000257
+  MRK+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  7.6%  BAC=  6.9%  CRM=  6.6%  ORCL=  6.5%  MRK=  7.0%  NOW=  5.7%  ABBV=  5.4%  AMD= 32.6%  IBM=  5.0%  util=0.582828  Δ=-0.002666
+  NOW+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  7.6%  BAC=  6.9%  CRM=  6.6%  ORCL=  6.5%  MRK=  5.9%  NOW=  6.8%  ABBV=  5.4%  AMD= 32.6%  IBM=  5.0%  util=0.586545  Δ=+0.001051
+  ABBV+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  7.6%  BAC=  6.9%  CRM=  6.6%  ORCL=  6.5%  MRK=  5.9%  NOW=  5.7%  ABBV=  6.5%  AMD= 32.6%  IBM=  5.0%  util=0.585660  Δ=+0.000166
+  AMD+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  7.6%  BAC=  6.9%  CRM=  6.6%  ORCL=  6.5%  MRK=  5.9%  NOW=  5.7%  ABBV=  5.4%  AMD= 33.7%  IBM=  5.0%  util=0.590526  Δ=+0.005033
+  IBM+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  7.6%  BAC=  6.9%  CRM=  6.6%  ORCL=  6.5%  MRK=  5.9%  NOW=  5.7%  ABBV=  5.4%  AMD= 32.6%  IBM=  6.1%  util=0.583581  Δ=-0.001913
+  ★ WINNER: AMD  improvement=+0.005033
+────────────────────────────────────────────────────────────────────────
+Epoch 26  [startUtility=0.590526  feasible=11]
+  NFLX+1%  NFLX=  9.8%  JNJ=  7.8%  WMT=  7.5%  BAC=  6.8%  CRM=  6.5%  ORCL=  6.4%  MRK=  5.8%  NOW=  5.6%  ABBV=  5.3%  AMD= 33.6%  IBM=  4.9%  util=0.594405  Δ=+0.003879
+  JNJ+1%  NFLX=  8.7%  JNJ=  8.9%  WMT=  7.5%  BAC=  6.8%  CRM=  6.5%  ORCL=  6.4%  MRK=  5.8%  NOW=  5.6%  ABBV=  5.3%  AMD= 33.6%  IBM=  4.9%  util=0.587615  Δ=-0.002911
+  WMT+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  8.6%  BAC=  6.8%  CRM=  6.5%  ORCL=  6.4%  MRK=  5.8%  NOW=  5.6%  ABBV=  5.3%  AMD= 33.6%  IBM=  4.9%  util=0.589780  Δ=-0.000747
+  BAC+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  7.5%  BAC=  7.9%  CRM=  6.5%  ORCL=  6.4%  MRK=  5.8%  NOW=  5.6%  ABBV=  5.3%  AMD= 33.6%  IBM=  4.9%  util=0.590199  Δ=-0.000328
+  CRM+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  7.5%  BAC=  6.8%  CRM=  7.6%  ORCL=  6.4%  MRK=  5.8%  NOW=  5.6%  ABBV=  5.3%  AMD= 33.6%  IBM=  4.9%  util=0.589132  Δ=-0.001394
+  ORCL+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  7.5%  BAC=  6.8%  CRM=  6.5%  ORCL=  7.5%  MRK=  5.8%  NOW=  5.6%  ABBV=  5.3%  AMD= 33.6%  IBM=  4.9%  util=0.590299  Δ=-0.000228
+  MRK+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  7.5%  BAC=  6.8%  CRM=  6.5%  ORCL=  6.4%  MRK=  6.9%  NOW=  5.6%  ABBV=  5.3%  AMD= 33.6%  IBM=  4.9%  util=0.587844  Δ=-0.002683
+  NOW+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  7.5%  BAC=  6.8%  CRM=  6.5%  ORCL=  6.4%  MRK=  5.8%  NOW=  6.7%  ABBV=  5.3%  AMD= 33.6%  IBM=  4.9%  util=0.591578  Δ=+0.001051
+  ABBV+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  7.5%  BAC=  6.8%  CRM=  6.5%  ORCL=  6.4%  MRK=  5.8%  NOW=  5.6%  ABBV=  6.4%  AMD= 33.6%  IBM=  4.9%  util=0.590680  Δ=+0.000153
+  AMD+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  7.5%  BAC=  6.8%  CRM=  6.5%  ORCL=  6.4%  MRK=  5.8%  NOW=  5.6%  ABBV=  5.3%  AMD= 34.7%  IBM=  4.9%  util=0.595476  Δ=+0.004949
+  IBM+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  7.5%  BAC=  6.8%  CRM=  6.5%  ORCL=  6.4%  MRK=  5.8%  NOW=  5.6%  ABBV=  5.3%  AMD= 33.6%  IBM=  6.0%  util=0.588615  Δ=-0.001912
+  ★ WINNER: AMD  improvement=+0.004949
+────────────────────────────────────────────────────────────────────────
+Epoch 27  [startUtility=0.595476  feasible=11]
+  NFLX+1%  NFLX=  9.7%  JNJ=  7.7%  WMT=  7.4%  BAC=  6.7%  CRM=  6.4%  ORCL=  6.3%  MRK=  5.7%  NOW=  5.5%  ABBV=  5.2%  AMD= 34.6%  IBM=  4.8%  util=0.599411  Δ=+0.003935
+  JNJ+1%  NFLX=  8.6%  JNJ=  8.8%  WMT=  7.4%  BAC=  6.7%  CRM=  6.4%  ORCL=  6.3%  MRK=  5.7%  NOW=  5.5%  ABBV=  5.2%  AMD= 34.6%  IBM=  4.8%  util=0.592547  Δ=-0.002929
+  WMT+1%  NFLX=  8.6%  JNJ=  7.7%  WMT=  8.5%  BAC=  6.7%  CRM=  6.4%  ORCL=  6.3%  MRK=  5.7%  NOW=  5.5%  ABBV=  5.2%  AMD= 34.6%  IBM=  4.8%  util=0.594754  Δ=-0.000721
+  BAC+1%  NFLX=  8.6%  JNJ=  7.7%  WMT=  7.4%  BAC=  7.8%  CRM=  6.4%  ORCL=  6.3%  MRK=  5.7%  NOW=  5.5%  ABBV=  5.2%  AMD= 34.6%  IBM=  4.8%  util=0.595162  Δ=-0.000313
+  CRM+1%  NFLX=  8.6%  JNJ=  7.7%  WMT=  7.4%  BAC=  6.7%  CRM=  7.5%  ORCL=  6.3%  MRK=  5.7%  NOW=  5.5%  ABBV=  5.2%  AMD= 34.6%  IBM=  4.8%  util=0.594095  Δ=-0.001380
+  ORCL+1%  NFLX=  8.6%  JNJ=  7.7%  WMT=  7.4%  BAC=  6.7%  CRM=  6.4%  ORCL=  7.4%  MRK=  5.7%  NOW=  5.5%  ABBV=  5.2%  AMD= 34.6%  IBM=  4.8%  util=0.595256  Δ=-0.000220
+  MRK+1%  NFLX=  8.6%  JNJ=  7.7%  WMT=  7.4%  BAC=  6.7%  CRM=  6.4%  ORCL=  6.3%  MRK=  6.8%  NOW=  5.5%  ABBV=  5.2%  AMD= 34.6%  IBM=  4.8%  util=0.592769  Δ=-0.002706
+  NOW+1%  NFLX=  8.6%  JNJ=  7.7%  WMT=  7.4%  BAC=  6.7%  CRM=  6.4%  ORCL=  6.3%  MRK=  5.7%  NOW=  6.6%  ABBV=  5.2%  AMD= 34.6%  IBM=  4.8%  util=0.596563  Δ=+0.001087
+  ABBV+1%  NFLX=  8.6%  JNJ=  7.7%  WMT=  7.4%  BAC=  6.7%  CRM=  6.4%  ORCL=  6.3%  MRK=  5.7%  NOW=  5.5%  ABBV=  6.3%  AMD= 34.6%  IBM=  4.8%  util=0.595631  Δ=+0.000156
+  AMD+1%  NFLX=  8.6%  JNJ=  7.7%  WMT=  7.4%  BAC=  6.7%  CRM=  6.4%  ORCL=  6.3%  MRK=  5.7%  NOW=  5.5%  ABBV=  5.2%  AMD= 35.7%  IBM=  4.8%  util=0.600366  Δ=+0.004890
+  IBM+1%  NFLX=  8.6%  JNJ=  7.7%  WMT=  7.4%  BAC=  6.7%  CRM=  6.4%  ORCL=  6.3%  MRK=  5.7%  NOW=  5.5%  ABBV=  5.2%  AMD= 34.6%  IBM=  5.9%  util=0.593583  Δ=-0.001893
+  ★ WINNER: AMD  improvement=+0.004890
+────────────────────────────────────────────────────────────────────────
+Epoch 28  [startUtility=0.600366  feasible=11]
+  NFLX+1%  NFLX=  9.6%  JNJ=  7.6%  WMT=  7.3%  BAC=  6.6%  CRM=  6.3%  ORCL=  6.2%  MRK=  5.6%  NOW=  5.4%  ABBV=  5.1%  AMD= 35.6%  IBM=  4.7%  util=0.604329  Δ=+0.003963
+  JNJ+1%  NFLX=  8.5%  JNJ=  8.7%  WMT=  7.3%  BAC=  6.6%  CRM=  6.3%  ORCL=  6.2%  MRK=  5.6%  NOW=  5.4%  ABBV=  5.1%  AMD= 35.6%  IBM=  4.7%  util=0.597422  Δ=-0.002944
+  WMT+1%  NFLX=  8.5%  JNJ=  7.6%  WMT=  8.4%  BAC=  6.6%  CRM=  6.3%  ORCL=  6.2%  MRK=  5.6%  NOW=  5.4%  ABBV=  5.1%  AMD= 35.6%  IBM=  4.7%  util=0.599647  Δ=-0.000718
+  BAC+1%  NFLX=  8.5%  JNJ=  7.6%  WMT=  7.3%  BAC=  7.7%  CRM=  6.3%  ORCL=  6.2%  MRK=  5.6%  NOW=  5.4%  ABBV=  5.1%  AMD= 35.6%  IBM=  4.7%  util=0.600052  Δ=-0.000313
+  CRM+1%  NFLX=  8.5%  JNJ=  7.6%  WMT=  7.3%  BAC=  6.6%  CRM=  7.4%  ORCL=  6.2%  MRK=  5.6%  NOW=  5.4%  ABBV=  5.1%  AMD= 35.6%  IBM=  4.7%  util=0.598988  Δ=-0.001377
+  ORCL+1%  NFLX=  8.5%  JNJ=  7.6%  WMT=  7.3%  BAC=  6.6%  CRM=  6.3%  ORCL=  7.3%  MRK=  5.6%  NOW=  5.4%  ABBV=  5.1%  AMD= 35.6%  IBM=  4.7%  util=0.600142  Δ=-0.000224
+  MRK+1%  NFLX=  8.5%  JNJ=  7.6%  WMT=  7.3%  BAC=  6.6%  CRM=  6.3%  ORCL=  6.2%  MRK=  6.7%  NOW=  5.4%  ABBV=  5.1%  AMD= 35.6%  IBM=  4.7%  util=0.597634  Δ=-0.002731
+  NOW+1%  NFLX=  8.5%  JNJ=  7.6%  WMT=  7.3%  BAC=  6.6%  CRM=  6.3%  ORCL=  6.2%  MRK=  5.6%  NOW=  6.5%  ABBV=  5.1%  AMD= 35.6%  IBM=  4.7%  util=0.601467  Δ=+0.001101
+  ABBV+1%  NFLX=  8.5%  JNJ=  7.6%  WMT=  7.3%  BAC=  6.6%  CRM=  6.3%  ORCL=  6.2%  MRK=  5.6%  NOW=  5.4%  ABBV=  6.2%  AMD= 35.6%  IBM=  4.7%  util=0.600513  Δ=+0.000148
+  AMD+1%  NFLX=  8.5%  JNJ=  7.6%  WMT=  7.3%  BAC=  6.6%  CRM=  6.3%  ORCL=  6.2%  MRK=  5.6%  NOW=  5.4%  ABBV=  5.1%  AMD= 36.7%  IBM=  4.7%  util=0.605176  Δ=+0.004810
+  IBM+1%  NFLX=  8.5%  JNJ=  7.6%  WMT=  7.3%  BAC=  6.6%  CRM=  6.3%  ORCL=  6.2%  MRK=  5.6%  NOW=  5.4%  ABBV=  5.1%  AMD= 35.6%  IBM=  5.8%  util=0.598454  Δ=-0.001912
+  ★ WINNER: AMD  improvement=+0.004810
+────────────────────────────────────────────────────────────────────────
+Epoch 29  [startUtility=0.605176  feasible=11]
+  NFLX+1%  NFLX=  9.5%  JNJ=  7.5%  WMT=  7.2%  BAC=  6.5%  CRM=  6.2%  ORCL=  6.1%  MRK=  5.5%  NOW=  5.3%  ABBV=  5.0%  AMD= 36.6%  IBM=  4.6%  util=0.609165  Δ=+0.003989
+  JNJ+1%  NFLX=  8.4%  JNJ=  8.6%  WMT=  7.2%  BAC=  6.5%  CRM=  6.2%  ORCL=  6.1%  MRK=  5.5%  NOW=  5.3%  ABBV=  5.0%  AMD= 36.6%  IBM=  4.6%  util=0.602233  Δ=-0.002943
+  WMT+1%  NFLX=  8.4%  JNJ=  7.5%  WMT=  8.3%  BAC=  6.5%  CRM=  6.2%  ORCL=  6.1%  MRK=  5.5%  NOW=  5.3%  ABBV=  5.0%  AMD= 36.6%  IBM=  4.6%  util=0.604456  Δ=-0.000720
+  BAC+1%  NFLX=  8.4%  JNJ=  7.5%  WMT=  7.2%  BAC=  7.6%  CRM=  6.2%  ORCL=  6.1%  MRK=  5.5%  NOW=  5.3%  ABBV=  5.0%  AMD= 36.6%  IBM=  4.6%  util=0.604865  Δ=-0.000311
+  CRM+1%  NFLX=  8.4%  JNJ=  7.5%  WMT=  7.2%  BAC=  6.5%  CRM=  7.3%  ORCL=  6.1%  MRK=  5.5%  NOW=  5.3%  ABBV=  5.0%  AMD= 36.6%  IBM=  4.6%  util=0.603783  Δ=-0.001394
+  ORCL+1%  NFLX=  8.4%  JNJ=  7.5%  WMT=  7.2%  BAC=  6.5%  CRM=  6.2%  ORCL=  7.2%  MRK=  5.5%  NOW=  5.3%  ABBV=  5.0%  AMD= 36.6%  IBM=  4.6%  util=0.604983  Δ=-0.000193
+  MRK+1%  NFLX=  8.4%  JNJ=  7.5%  WMT=  7.2%  BAC=  6.5%  CRM=  6.2%  ORCL=  6.1%  MRK=  6.6%  NOW=  5.3%  ABBV=  5.0%  AMD= 36.6%  IBM=  4.6%  util=0.602406  Δ=-0.002770
+  NOW+1%  NFLX=  8.4%  JNJ=  7.5%  WMT=  7.2%  BAC=  6.5%  CRM=  6.2%  ORCL=  6.1%  MRK=  5.5%  NOW=  6.4%  ABBV=  5.0%  AMD= 36.6%  IBM=  4.6%  util=0.606272  Δ=+0.001096
+  ABBV+1%  NFLX=  8.4%  JNJ=  7.5%  WMT=  7.2%  BAC=  6.5%  CRM=  6.2%  ORCL=  6.1%  MRK=  5.5%  NOW=  5.3%  ABBV=  6.1%  AMD= 36.6%  IBM=  4.6%  util=0.605347  Δ=+0.000171
+  AMD+1%  NFLX=  8.4%  JNJ=  7.5%  WMT=  7.2%  BAC=  6.5%  CRM=  6.2%  ORCL=  6.1%  MRK=  5.5%  NOW=  5.3%  ABBV=  5.0%  AMD= 37.7%  IBM=  4.6%  util=0.609901  Δ=+0.004725
+  IBM+1%  NFLX=  8.4%  JNJ=  7.5%  WMT=  7.2%  BAC=  6.5%  CRM=  6.2%  ORCL=  6.1%  MRK=  5.5%  NOW=  5.3%  ABBV=  5.0%  AMD= 36.6%  IBM=  5.7%  util=0.603267  Δ=-0.001909
+  ★ WINNER: AMD  improvement=+0.004725
+────────────────────────────────────────────────────────────────────────
+Epoch 30  [startUtility=0.609901  feasible=11]
+  NFLX+1%  NFLX=  9.4%  JNJ=  7.4%  WMT=  7.1%  BAC=  6.4%  CRM=  6.1%  ORCL=  6.0%  MRK=  5.4%  NOW=  5.2%  ABBV=  4.9%  AMD= 37.6%  IBM=  4.5%  util=0.613916  Δ=+0.004015
+  JNJ+1%  NFLX=  8.3%  JNJ=  8.5%  WMT=  7.1%  BAC=  6.4%  CRM=  6.1%  ORCL=  6.0%  MRK=  5.4%  NOW=  5.2%  ABBV=  4.9%  AMD= 37.6%  IBM=  4.5%  util=0.606940  Δ=-0.002960
+  WMT+1%  NFLX=  8.3%  JNJ=  7.4%  WMT=  8.2%  BAC=  6.4%  CRM=  6.1%  ORCL=  6.0%  MRK=  5.4%  NOW=  5.2%  ABBV=  4.9%  AMD= 37.6%  IBM=  4.5%  util=0.609178  Δ=-0.000722
+  BAC+1%  NFLX=  8.3%  JNJ=  7.4%  WMT=  7.1%  BAC=  7.5%  CRM=  6.1%  ORCL=  6.0%  MRK=  5.4%  NOW=  5.2%  ABBV=  4.9%  AMD= 37.6%  IBM=  4.5%  util=0.609648  Δ=-0.000253
+  CRM+1%  NFLX=  8.3%  JNJ=  7.4%  WMT=  7.1%  BAC=  6.4%  CRM=  7.2%  ORCL=  6.0%  MRK=  5.4%  NOW=  5.2%  ABBV=  4.9%  AMD= 37.6%  IBM=  4.5%  util=0.608501  Δ=-0.001400
+  ORCL+1%  NFLX=  8.3%  JNJ=  7.4%  WMT=  7.1%  BAC=  6.4%  CRM=  6.1%  ORCL=  7.1%  MRK=  5.4%  NOW=  5.2%  ABBV=  4.9%  AMD= 37.6%  IBM=  4.5%  util=0.609746  Δ=-0.000155
+  MRK+1%  NFLX=  8.3%  JNJ=  7.4%  WMT=  7.1%  BAC=  6.4%  CRM=  6.1%  ORCL=  6.0%  MRK=  6.5%  NOW=  5.2%  ABBV=  4.9%  AMD= 37.6%  IBM=  4.5%  util=0.607106  Δ=-0.002794
+  NOW+1%  NFLX=  8.3%  JNJ=  7.4%  WMT=  7.1%  BAC=  6.4%  CRM=  6.1%  ORCL=  6.0%  MRK=  5.4%  NOW=  6.3%  ABBV=  4.9%  AMD= 37.6%  IBM=  4.5%  util=0.611003  Δ=+0.001102
+  ABBV+1%  NFLX=  8.3%  JNJ=  7.4%  WMT=  7.1%  BAC=  6.4%  CRM=  6.1%  ORCL=  6.0%  MRK=  5.4%  NOW=  5.2%  ABBV=  6.0%  AMD= 37.6%  IBM=  4.5%  util=0.610083  Δ=+0.000183
+  AMD+1%  NFLX=  8.3%  JNJ=  7.4%  WMT=  7.1%  BAC=  6.4%  CRM=  6.1%  ORCL=  6.0%  MRK=  5.4%  NOW=  5.2%  ABBV=  4.9%  AMD= 38.7%  IBM=  4.5%  util=0.614554  Δ=+0.004653
+  IBM+1%  NFLX=  8.3%  JNJ=  7.4%  WMT=  7.1%  BAC=  6.4%  CRM=  6.1%  ORCL=  6.0%  MRK=  5.4%  NOW=  5.2%  ABBV=  4.9%  AMD= 37.6%  IBM=  5.6%  util=0.608032  Δ=-0.001869
+  ★ WINNER: AMD  improvement=+0.004653
+────────────────────────────────────────────────────────────────────────
+Epoch 31  [startUtility=0.614554  feasible=11]
+  NFLX+1%  NFLX=  9.3%  JNJ=  7.3%  WMT=  7.0%  BAC=  6.3%  CRM=  6.0%  ORCL=  5.9%  MRK=  5.3%  NOW=  5.1%  ABBV=  4.8%  AMD= 38.6%  IBM=  4.4%  util=0.618636  Δ=+0.004082
+  JNJ+1%  NFLX=  8.2%  JNJ=  8.4%  WMT=  7.0%  BAC=  6.3%  CRM=  6.0%  ORCL=  5.9%  MRK=  5.3%  NOW=  5.1%  ABBV=  4.8%  AMD= 38.6%  IBM=  4.4%  util=0.611571  Δ=-0.002983
+  WMT+1%  NFLX=  8.2%  JNJ=  7.3%  WMT=  8.1%  BAC=  6.3%  CRM=  6.0%  ORCL=  5.9%  MRK=  5.3%  NOW=  5.1%  ABBV=  4.8%  AMD= 38.6%  IBM=  4.4%  util=0.613842  Δ=-0.000711
+  BAC+1%  NFLX=  8.2%  JNJ=  7.3%  WMT=  7.0%  BAC=  7.4%  CRM=  6.0%  ORCL=  5.9%  MRK=  5.3%  NOW=  5.1%  ABBV=  4.8%  AMD= 38.6%  IBM=  4.4%  util=0.614359  Δ=-0.000194
+  CRM+1%  NFLX=  8.2%  JNJ=  7.3%  WMT=  7.0%  BAC=  6.3%  CRM=  7.1%  ORCL=  5.9%  MRK=  5.3%  NOW=  5.1%  ABBV=  4.8%  AMD= 38.6%  IBM=  4.4%  util=0.613177  Δ=-0.001377
+  ORCL+1%  NFLX=  8.2%  JNJ=  7.3%  WMT=  7.0%  BAC=  6.3%  CRM=  6.0%  ORCL=  7.0%  MRK=  5.3%  NOW=  5.1%  ABBV=  4.8%  AMD= 38.6%  IBM=  4.4%  util=0.614420  Δ=-0.000134
+  MRK+1%  NFLX=  8.2%  JNJ=  7.3%  WMT=  7.0%  BAC=  6.3%  CRM=  6.0%  ORCL=  5.9%  MRK=  6.4%  NOW=  5.1%  ABBV=  4.8%  AMD= 38.6%  IBM=  4.4%  util=0.611722  Δ=-0.002832
+  NOW+1%  NFLX=  8.2%  JNJ=  7.3%  WMT=  7.0%  BAC=  6.3%  CRM=  6.0%  ORCL=  5.9%  MRK=  5.3%  NOW=  6.2%  ABBV=  4.8%  AMD= 38.6%  IBM=  4.4%  util=0.615677  Δ=+0.001123
+  ABBV+1%  NFLX=  8.2%  JNJ=  7.3%  WMT=  7.0%  BAC=  6.3%  CRM=  6.0%  ORCL=  5.9%  MRK=  5.3%  NOW=  5.1%  ABBV=  5.9%  AMD= 38.6%  IBM=  4.4%  util=0.614738  Δ=+0.000184
+  AMD+1%  NFLX=  8.2%  JNJ=  7.3%  WMT=  7.0%  BAC=  6.3%  CRM=  6.0%  ORCL=  5.9%  MRK=  5.3%  NOW=  5.1%  ABBV=  4.8%  AMD= 39.7%  IBM=  4.4%  util=0.619132  Δ=+0.004578
+  IBM+1%  NFLX=  8.2%  JNJ=  7.3%  WMT=  7.0%  BAC=  6.3%  CRM=  6.0%  ORCL=  5.9%  MRK=  5.3%  NOW=  5.1%  ABBV=  4.8%  AMD= 38.6%  IBM=  5.5%  util=0.612687  Δ=-0.001866
+  ★ WINNER: AMD  improvement=+0.004578
+────────────────────────────────────────────────────────────────────────
+Epoch 32  [startUtility=0.619132  feasible=11]
+  NFLX+1%  NFLX=  9.2%  JNJ=  7.2%  WMT=  6.9%  BAC=  6.2%  CRM=  5.9%  ORCL=  5.8%  MRK=  5.2%  NOW=  5.0%  ABBV=  4.7%  AMD= 39.6%  IBM=  4.3%  util=0.623260  Δ=+0.004128
+  JNJ+1%  NFLX=  8.1%  JNJ=  8.3%  WMT=  6.9%  BAC=  6.2%  CRM=  5.9%  ORCL=  5.8%  MRK=  5.2%  NOW=  5.0%  ABBV=  4.7%  AMD= 39.6%  IBM=  4.3%  util=0.616135  Δ=-0.002996
+  WMT+1%  NFLX=  8.1%  JNJ=  7.2%  WMT=  8.0%  BAC=  6.2%  CRM=  5.9%  ORCL=  5.8%  MRK=  5.2%  NOW=  5.0%  ABBV=  4.7%  AMD= 39.6%  IBM=  4.3%  util=0.618402  Δ=-0.000730
+  BAC+1%  NFLX=  8.1%  JNJ=  7.2%  WMT=  6.9%  BAC=  7.3%  CRM=  5.9%  ORCL=  5.8%  MRK=  5.2%  NOW=  5.0%  ABBV=  4.7%  AMD= 39.6%  IBM=  4.3%  util=0.618962  Δ=-0.000170
+  CRM+1%  NFLX=  8.1%  JNJ=  7.2%  WMT=  6.9%  BAC=  6.2%  CRM=  7.0%  ORCL=  5.8%  MRK=  5.2%  NOW=  5.0%  ABBV=  4.7%  AMD= 39.6%  IBM=  4.3%  util=0.617742  Δ=-0.001389
+  ORCL+1%  NFLX=  8.1%  JNJ=  7.2%  WMT=  6.9%  BAC=  6.2%  CRM=  5.9%  ORCL=  6.9%  MRK=  5.2%  NOW=  5.0%  ABBV=  4.7%  AMD= 39.6%  IBM=  4.3%  util=0.619004  Δ=-0.000128
+  MRK+1%  NFLX=  8.1%  JNJ=  7.2%  WMT=  6.9%  BAC=  6.2%  CRM=  5.9%  ORCL=  5.8%  MRK=  6.3%  NOW=  5.0%  ABBV=  4.7%  AMD= 39.6%  IBM=  4.3%  util=0.616217  Δ=-0.002914
+  NOW+1%  NFLX=  8.1%  JNJ=  7.2%  WMT=  6.9%  BAC=  6.2%  CRM=  5.9%  ORCL=  5.8%  MRK=  5.2%  NOW=  6.1%  ABBV=  4.7%  AMD= 39.6%  IBM=  4.3%  util=0.620283  Δ=+0.001152
+  ABBV+1%  NFLX=  8.1%  JNJ=  7.2%  WMT=  6.9%  BAC=  6.2%  CRM=  5.9%  ORCL=  5.8%  MRK=  5.2%  NOW=  5.0%  ABBV=  5.8%  AMD= 39.6%  IBM=  4.3%  util=0.619308  Δ=+0.000177
+  AMD+1%  NFLX=  8.1%  JNJ=  7.2%  WMT=  6.9%  BAC=  6.2%  CRM=  5.9%  ORCL=  5.8%  MRK=  5.2%  NOW=  5.0%  ABBV=  4.7%  AMD= 40.7%  IBM=  4.3%  util=0.623604  Δ=+0.004473
+  IBM+1%  NFLX=  8.1%  JNJ=  7.2%  WMT=  6.9%  BAC=  6.2%  CRM=  5.9%  ORCL=  5.8%  MRK=  5.2%  NOW=  5.0%  ABBV=  4.7%  AMD= 39.6%  IBM=  5.4%  util=0.617254  Δ=-0.001878
+  ★ WINNER: AMD  improvement=+0.004473
+────────────────────────────────────────────────────────────────────────
+Epoch 33  [startUtility=0.623604  feasible=11]
+  NFLX+1%  NFLX=  9.1%  JNJ=  7.1%  WMT=  6.8%  BAC=  6.1%  CRM=  5.8%  ORCL=  5.7%  MRK=  5.1%  NOW=  4.9%  ABBV=  4.6%  AMD= 40.6%  IBM=  4.2%  util=0.627762  Δ=+0.004158
+  JNJ+1%  NFLX=  8.0%  JNJ=  8.2%  WMT=  6.8%  BAC=  6.1%  CRM=  5.8%  ORCL=  5.7%  MRK=  5.1%  NOW=  4.9%  ABBV=  4.6%  AMD= 40.6%  IBM=  4.2%  util=0.620615  Δ=-0.002990
+  WMT+1%  NFLX=  8.0%  JNJ=  7.1%  WMT=  7.9%  BAC=  6.1%  CRM=  5.8%  ORCL=  5.7%  MRK=  5.1%  NOW=  4.9%  ABBV=  4.6%  AMD= 40.6%  IBM=  4.2%  util=0.622907  Δ=-0.000697
+  BAC+1%  NFLX=  8.0%  JNJ=  7.1%  WMT=  6.8%  BAC=  7.2%  CRM=  5.8%  ORCL=  5.7%  MRK=  5.1%  NOW=  4.9%  ABBV=  4.6%  AMD= 40.6%  IBM=  4.2%  util=0.623491  Δ=-0.000113
+  CRM+1%  NFLX=  8.0%  JNJ=  7.1%  WMT=  6.8%  BAC=  6.1%  CRM=  6.9%  ORCL=  5.7%  MRK=  5.1%  NOW=  4.9%  ABBV=  4.6%  AMD= 40.6%  IBM=  4.2%  util=0.622218  Δ=-0.001386
+  ORCL+1%  NFLX=  8.0%  JNJ=  7.1%  WMT=  6.8%  BAC=  6.1%  CRM=  5.8%  ORCL=  6.8%  MRK=  5.1%  NOW=  4.9%  ABBV=  4.6%  AMD= 40.6%  IBM=  4.2%  util=0.623515  Δ=-0.000089
+  MRK+1%  NFLX=  8.0%  JNJ=  7.1%  WMT=  6.8%  BAC=  6.1%  CRM=  5.8%  ORCL=  5.7%  MRK=  6.2%  NOW=  4.9%  ABBV=  4.6%  AMD= 40.6%  IBM=  4.2%  util=0.620642  Δ=-0.002962
+  NOW+1%  NFLX=  8.0%  JNJ=  7.1%  WMT=  6.8%  BAC=  6.1%  CRM=  5.8%  ORCL=  5.7%  MRK=  5.1%  NOW=  6.0%  ABBV=  4.6%  AMD= 40.6%  IBM=  4.2%  util=0.624798  Δ=+0.001194
+  ABBV+1%  NFLX=  8.0%  JNJ=  7.1%  WMT=  6.8%  BAC=  6.1%  CRM=  5.8%  ORCL=  5.7%  MRK=  5.1%  NOW=  4.9%  ABBV=  5.7%  AMD= 40.6%  IBM=  4.2%  util=0.623802  Δ=+0.000198
+  AMD+1%  NFLX=  8.0%  JNJ=  7.1%  WMT=  6.8%  BAC=  6.1%  CRM=  5.8%  ORCL=  5.7%  MRK=  5.1%  NOW=  4.9%  ABBV=  4.6%  AMD= 41.7%  IBM=  4.2%  util=0.628007  Δ=+0.004403
+  IBM+1%  NFLX=  8.0%  JNJ=  7.1%  WMT=  6.8%  BAC=  6.1%  CRM=  5.8%  ORCL=  5.7%  MRK=  5.1%  NOW=  4.9%  ABBV=  4.6%  AMD= 40.6%  IBM=  5.3%  util=0.621743  Δ=-0.001861
+  ★ WINNER: AMD  improvement=+0.004403
+────────────────────────────────────────────────────────────────────────
+Epoch 34  [startUtility=0.628007  feasible=11]
+  NFLX+1%  NFLX=  9.0%  JNJ=  7.0%  WMT=  6.7%  BAC=  6.0%  CRM=  5.7%  ORCL=  5.6%  MRK=  5.0%  NOW=  4.8%  ABBV=  4.5%  AMD= 41.6%  IBM=  4.1%  util=0.632186  Δ=+0.004180
+  JNJ+1%  NFLX=  7.9%  JNJ=  8.1%  WMT=  6.7%  BAC=  6.0%  CRM=  5.7%  ORCL=  5.6%  MRK=  5.0%  NOW=  4.8%  ABBV=  4.5%  AMD= 41.6%  IBM=  4.1%  util=0.624996  Δ=-0.003011
+  WMT+1%  NFLX=  7.9%  JNJ=  7.0%  WMT=  7.8%  BAC=  6.0%  CRM=  5.7%  ORCL=  5.6%  MRK=  5.0%  NOW=  4.8%  ABBV=  4.5%  AMD= 41.6%  IBM=  4.1%  util=0.627350  Δ=-0.000657
+  BAC+1%  NFLX=  7.9%  JNJ=  7.0%  WMT=  6.7%  BAC=  7.1%  CRM=  5.7%  ORCL=  5.6%  MRK=  5.0%  NOW=  4.8%  ABBV=  4.5%  AMD= 41.6%  IBM=  4.1%  util=0.627941  Δ=-0.000065
+  CRM+1%  NFLX=  7.9%  JNJ=  7.0%  WMT=  6.7%  BAC=  6.0%  CRM=  6.8%  ORCL=  5.6%  MRK=  5.0%  NOW=  4.8%  ABBV=  4.5%  AMD= 41.6%  IBM=  4.1%  util=0.626612  Δ=-0.001395
+  ORCL+1%  NFLX=  7.9%  JNJ=  7.0%  WMT=  6.7%  BAC=  6.0%  CRM=  5.7%  ORCL=  6.7%  MRK=  5.0%  NOW=  4.8%  ABBV=  4.5%  AMD= 41.6%  IBM=  4.1%  util=0.627906  Δ=-0.000101
+  MRK+1%  NFLX=  7.9%  JNJ=  7.0%  WMT=  6.7%  BAC=  6.0%  CRM=  5.7%  ORCL=  5.6%  MRK=  6.1%  NOW=  4.8%  ABBV=  4.5%  AMD= 41.6%  IBM=  4.1%  util=0.624992  Δ=-0.003014
+  NOW+1%  NFLX=  7.9%  JNJ=  7.0%  WMT=  6.7%  BAC=  6.0%  CRM=  5.7%  ORCL=  5.6%  MRK=  5.0%  NOW=  5.9%  ABBV=  4.5%  AMD= 41.6%  IBM=  4.1%  util=0.629185  Δ=+0.001179
+  ABBV+1%  NFLX=  7.9%  JNJ=  7.0%  WMT=  6.7%  BAC=  6.0%  CRM=  5.7%  ORCL=  5.6%  MRK=  5.0%  NOW=  4.8%  ABBV=  5.6%  AMD= 41.6%  IBM=  4.1%  util=0.628212  Δ=+0.000205
+  AMD+1%  NFLX=  7.9%  JNJ=  7.0%  WMT=  6.7%  BAC=  6.0%  CRM=  5.7%  ORCL=  5.6%  MRK=  5.0%  NOW=  4.8%  ABBV=  4.5%  AMD= 42.7%  IBM=  4.1%  util=0.632318  Δ=+0.004311
+  IBM+1%  NFLX=  7.9%  JNJ=  7.0%  WMT=  6.7%  BAC=  6.0%  CRM=  5.7%  ORCL=  5.6%  MRK=  5.0%  NOW=  4.8%  ABBV=  4.5%  AMD= 41.6%  IBM=  5.2%  util=0.626148  Δ=-0.001858
+  ★ WINNER: AMD  improvement=+0.004311
+────────────────────────────────────────────────────────────────────────
+Epoch 35  [startUtility=0.632318  feasible=11]
+  NFLX+1%  NFLX=  8.9%  JNJ=  6.9%  WMT=  6.6%  BAC=  5.9%  CRM=  5.6%  ORCL=  5.5%  MRK=  4.9%  NOW=  4.7%  ABBV=  4.4%  AMD= 42.6%  IBM=  4.0%  util=0.636561  Δ=+0.004243
+  JNJ+1%  NFLX=  7.8%  JNJ=  8.0%  WMT=  6.6%  BAC=  5.9%  CRM=  5.6%  ORCL=  5.5%  MRK=  4.9%  NOW=  4.7%  ABBV=  4.4%  AMD= 42.6%  IBM=  4.0%  util=0.629277  Δ=-0.003041
+  WMT+1%  NFLX=  7.8%  JNJ=  6.9%  WMT=  7.7%  BAC=  5.9%  CRM=  5.6%  ORCL=  5.5%  MRK=  4.9%  NOW=  4.7%  ABBV=  4.4%  AMD= 42.6%  IBM=  4.0%  util=0.631693  Δ=-0.000625
+  BAC+1%  NFLX=  7.8%  JNJ=  6.9%  WMT=  6.6%  BAC=  7.0%  CRM=  5.6%  ORCL=  5.5%  MRK=  4.9%  NOW=  4.7%  ABBV=  4.4%  AMD= 42.6%  IBM=  4.0%  util=0.632266  Δ=-0.000051
+  CRM+1%  NFLX=  7.8%  JNJ=  6.9%  WMT=  6.6%  BAC=  5.9%  CRM=  6.7%  ORCL=  5.5%  MRK=  4.9%  NOW=  4.7%  ABBV=  4.4%  AMD= 42.6%  IBM=  4.0%  util=0.630923  Δ=-0.001394
+  ORCL+1%  NFLX=  7.8%  JNJ=  6.9%  WMT=  6.6%  BAC=  5.9%  CRM=  5.6%  ORCL=  6.6%  MRK=  4.9%  NOW=  4.7%  ABBV=  4.4%  AMD= 42.6%  IBM=  4.0%  util=0.632223  Δ=-0.000095
+  MRK+1%  NFLX=  7.8%  JNJ=  6.9%  WMT=  6.6%  BAC=  5.9%  CRM=  5.6%  ORCL=  5.5%  MRK=  6.0%  NOW=  4.7%  ABBV=  4.4%  AMD= 42.6%  IBM=  4.0%  util=0.629282  Δ=-0.003036
+  NOW+1%  NFLX=  7.8%  JNJ=  6.9%  WMT=  6.6%  BAC=  5.9%  CRM=  5.6%  ORCL=  5.5%  MRK=  4.9%  NOW=  5.8%  ABBV=  4.4%  AMD= 42.6%  IBM=  4.0%  util=0.633503  Δ=+0.001185
+  ABBV+1%  NFLX=  7.8%  JNJ=  6.9%  WMT=  6.6%  BAC=  5.9%  CRM=  5.6%  ORCL=  5.5%  MRK=  4.9%  NOW=  4.7%  ABBV=  5.5%  AMD= 42.6%  IBM=  4.0%  util=0.632507  Δ=+0.000189
+  AMD+1%  NFLX=  7.8%  JNJ=  6.9%  WMT=  6.6%  BAC=  5.9%  CRM=  5.6%  ORCL=  5.5%  MRK=  4.9%  NOW=  4.7%  ABBV=  4.4%  AMD= 43.7%  IBM=  4.0%  util=0.636533  Δ=+0.004215
+  IBM+1%  NFLX=  7.8%  JNJ=  6.9%  WMT=  6.6%  BAC=  5.9%  CRM=  5.6%  ORCL=  5.5%  MRK=  4.9%  NOW=  4.7%  ABBV=  4.4%  AMD= 42.6%  IBM=  5.1%  util=0.630455  Δ=-0.001863
+  ★ WINNER: NFLX  improvement=+0.004243
+────────────────────────────────────────────────────────────────────────
+Epoch 36  [startUtility=0.636561  feasible=11]
+  NFLX+1%  NFLX=  9.9%  JNJ=  6.8%  WMT=  6.5%  BAC=  5.8%  CRM=  5.5%  ORCL=  5.4%  MRK=  4.8%  NOW=  4.6%  ABBV=  4.3%  AMD= 42.5%  IBM=  3.9%  util=0.640715  Δ=+0.004154
+  JNJ+1%  NFLX=  8.8%  JNJ=  7.9%  WMT=  6.5%  BAC=  5.8%  CRM=  5.5%  ORCL=  5.4%  MRK=  4.8%  NOW=  4.6%  ABBV=  4.3%  AMD= 42.5%  IBM=  3.9%  util=0.633562  Δ=-0.002999
+  WMT+1%  NFLX=  8.8%  JNJ=  6.8%  WMT=  7.6%  BAC=  5.8%  CRM=  5.5%  ORCL=  5.4%  MRK=  4.8%  NOW=  4.6%  ABBV=  4.3%  AMD= 42.5%  IBM=  3.9%  util=0.635935  Δ=-0.000626
+  BAC+1%  NFLX=  8.8%  JNJ=  6.8%  WMT=  6.5%  BAC=  6.9%  CRM=  5.5%  ORCL=  5.4%  MRK=  4.8%  NOW=  4.6%  ABBV=  4.3%  AMD= 42.5%  IBM=  3.9%  util=0.636538  Δ=-0.000023
+  CRM+1%  NFLX=  8.8%  JNJ=  6.8%  WMT=  6.5%  BAC=  5.8%  CRM=  6.6%  ORCL=  5.4%  MRK=  4.8%  NOW=  4.6%  ABBV=  4.3%  AMD= 42.5%  IBM=  3.9%  util=0.635159  Δ=-0.001402
+  ORCL+1%  NFLX=  8.8%  JNJ=  6.8%  WMT=  6.5%  BAC=  5.8%  CRM=  5.5%  ORCL=  6.5%  MRK=  4.8%  NOW=  4.6%  ABBV=  4.3%  AMD= 42.5%  IBM=  3.9%  util=0.636511  Δ=-0.000050
+  MRK+1%  NFLX=  8.8%  JNJ=  6.8%  WMT=  6.5%  BAC=  5.8%  CRM=  5.5%  ORCL=  5.4%  MRK=  5.9%  NOW=  4.6%  ABBV=  4.3%  AMD= 42.5%  IBM=  3.9%  util=0.633511  Δ=-0.003050
+  NOW+1%  NFLX=  8.8%  JNJ=  6.8%  WMT=  6.5%  BAC=  5.8%  CRM=  5.5%  ORCL=  5.4%  MRK=  4.8%  NOW=  5.7%  ABBV=  4.3%  AMD= 42.5%  IBM=  3.9%  util=0.637699  Δ=+0.001138
+  ABBV+1%  NFLX=  8.8%  JNJ=  6.8%  WMT=  6.5%  BAC=  5.8%  CRM=  5.5%  ORCL=  5.4%  MRK=  4.8%  NOW=  4.6%  ABBV=  5.4%  AMD= 42.5%  IBM=  3.9%  util=0.636740  Δ=+0.000179
+  AMD+1%  NFLX=  8.8%  JNJ=  6.8%  WMT=  6.5%  BAC=  5.8%  CRM=  5.5%  ORCL=  5.4%  MRK=  4.8%  NOW=  4.6%  ABBV=  4.3%  AMD= 43.6%  IBM=  3.9%  util=0.640839  Δ=+0.004278
+  IBM+1%  NFLX=  8.8%  JNJ=  6.8%  WMT=  6.5%  BAC=  5.8%  CRM=  5.5%  ORCL=  5.4%  MRK=  4.8%  NOW=  4.6%  ABBV=  4.3%  AMD= 42.5%  IBM=  5.0%  util=0.634722  Δ=-0.001839
+  ★ WINNER: AMD  improvement=+0.004278
+────────────────────────────────────────────────────────────────────────
+Epoch 37  [startUtility=0.640839  feasible=11]
+  NFLX+1%  NFLX=  9.8%  JNJ=  6.7%  WMT=  6.4%  BAC=  5.7%  CRM=  5.4%  ORCL=  5.3%  MRK=  4.7%  NOW=  4.5%  ABBV=  4.2%  AMD= 43.5%  IBM=  3.8%  util=0.645055  Δ=+0.004215
+  JNJ+1%  NFLX=  8.7%  JNJ=  7.8%  WMT=  6.4%  BAC=  5.7%  CRM=  5.4%  ORCL=  5.3%  MRK=  4.7%  NOW=  4.5%  ABBV=  4.2%  AMD= 43.5%  IBM=  3.8%  util=0.637813  Δ=-0.003026
+  WMT+1%  NFLX=  8.7%  JNJ=  6.7%  WMT=  7.5%  BAC=  5.7%  CRM=  5.4%  ORCL=  5.3%  MRK=  4.7%  NOW=  4.5%  ABBV=  4.2%  AMD= 43.5%  IBM=  3.8%  util=0.640228  Δ=-0.000611
+  BAC+1%  NFLX=  8.7%  JNJ=  6.7%  WMT=  6.4%  BAC=  6.8%  CRM=  5.4%  ORCL=  5.3%  MRK=  4.7%  NOW=  4.5%  ABBV=  4.2%  AMD= 43.5%  IBM=  3.8%  util=0.640822  Δ=-0.000018
+  CRM+1%  NFLX=  8.7%  JNJ=  6.7%  WMT=  6.4%  BAC=  5.7%  CRM=  6.5%  ORCL=  5.3%  MRK=  4.7%  NOW=  4.5%  ABBV=  4.2%  AMD= 43.5%  IBM=  3.8%  util=0.639414  Δ=-0.001425
+  ORCL+1%  NFLX=  8.7%  JNJ=  6.7%  WMT=  6.4%  BAC=  5.7%  CRM=  5.4%  ORCL=  6.4%  MRK=  4.7%  NOW=  4.5%  ABBV=  4.2%  AMD= 43.5%  IBM=  3.8%  util=0.640805  Δ=-0.000034
+  MRK+1%  NFLX=  8.7%  JNJ=  6.7%  WMT=  6.4%  BAC=  5.7%  CRM=  5.4%  ORCL=  5.3%  MRK=  5.8%  NOW=  4.5%  ABBV=  4.2%  AMD= 43.5%  IBM=  3.8%  util=0.637731  Δ=-0.003108
+  NOW+1%  NFLX=  8.7%  JNJ=  6.7%  WMT=  6.4%  BAC=  5.7%  CRM=  5.4%  ORCL=  5.3%  MRK=  4.7%  NOW=  5.6%  ABBV=  4.2%  AMD= 43.5%  IBM=  3.8%  util=0.641972  Δ=+0.001132
+  ABBV+1%  NFLX=  8.7%  JNJ=  6.7%  WMT=  6.4%  BAC=  5.7%  CRM=  5.4%  ORCL=  5.3%  MRK=  4.7%  NOW=  4.5%  ABBV=  5.3%  AMD= 43.5%  IBM=  3.8%  util=0.641017  Δ=+0.000177
+  AMD+1%  NFLX=  8.7%  JNJ=  6.7%  WMT=  6.4%  BAC=  5.7%  CRM=  5.4%  ORCL=  5.3%  MRK=  4.7%  NOW=  4.5%  ABBV=  4.2%  AMD= 44.6%  IBM=  3.8%  util=0.645003  Δ=+0.004163
+  IBM+1%  NFLX=  8.7%  JNJ=  6.7%  WMT=  6.4%  BAC=  5.7%  CRM=  5.4%  ORCL=  5.3%  MRK=  4.7%  NOW=  4.5%  ABBV=  4.2%  AMD= 43.5%  IBM=  4.9%  util=0.639005  Δ=-0.001835
+  ★ WINNER: NFLX  improvement=+0.004215
+────────────────────────────────────────────────────────────────────────
+Epoch 38  [startUtility=0.645055  feasible=11]
+  NFLX+1%  NFLX= 10.8%  JNJ=  6.6%  WMT=  6.3%  BAC=  5.6%  CRM=  5.3%  ORCL=  5.2%  MRK=  4.6%  NOW=  4.4%  ABBV=  4.1%  AMD= 43.4%  IBM=  3.7%  util=0.649131  Δ=+0.004077
+  JNJ+1%  NFLX=  9.7%  JNJ=  7.7%  WMT=  6.3%  BAC=  5.6%  CRM=  5.3%  ORCL=  5.2%  MRK=  4.6%  NOW=  4.4%  ABBV=  4.1%  AMD= 43.4%  IBM=  3.7%  util=0.642038  Δ=-0.003017
+  WMT+1%  NFLX=  9.7%  JNJ=  6.6%  WMT=  7.4%  BAC=  5.6%  CRM=  5.3%  ORCL=  5.2%  MRK=  4.6%  NOW=  4.4%  ABBV=  4.1%  AMD= 43.4%  IBM=  3.7%  util=0.644448  Δ=-0.000606
+  BAC+1%  NFLX=  9.7%  JNJ=  6.6%  WMT=  6.3%  BAC=  6.7%  CRM=  5.3%  ORCL=  5.2%  MRK=  4.6%  NOW=  4.4%  ABBV=  4.1%  AMD= 43.4%  IBM=  3.7%  util=0.645059  Δ=+0.000004
+  CRM+1%  NFLX=  9.7%  JNJ=  6.6%  WMT=  6.3%  BAC=  5.6%  CRM=  6.4%  ORCL=  5.2%  MRK=  4.6%  NOW=  4.4%  ABBV=  4.1%  AMD= 43.4%  IBM=  3.7%  util=0.643639  Δ=-0.001415
+  ORCL+1%  NFLX=  9.7%  JNJ=  6.6%  WMT=  6.3%  BAC=  5.6%  CRM=  5.3%  ORCL=  6.3%  MRK=  4.6%  NOW=  4.4%  ABBV=  4.1%  AMD= 43.4%  IBM=  3.7%  util=0.645074  Δ=+0.000019
+  MRK+1%  NFLX=  9.7%  JNJ=  6.6%  WMT=  6.3%  BAC=  5.6%  CRM=  5.3%  ORCL=  5.2%  MRK=  5.7%  NOW=  4.4%  ABBV=  4.1%  AMD= 43.4%  IBM=  3.7%  util=0.641938  Δ=-0.003116
+  NOW+1%  NFLX=  9.7%  JNJ=  6.6%  WMT=  6.3%  BAC=  5.6%  CRM=  5.3%  ORCL=  5.2%  MRK=  4.6%  NOW=  5.5%  ABBV=  4.1%  AMD= 43.4%  IBM=  3.7%  util=0.646172  Δ=+0.001118
+  ABBV+1%  NFLX=  9.7%  JNJ=  6.6%  WMT=  6.3%  BAC=  5.6%  CRM=  5.3%  ORCL=  5.2%  MRK=  4.6%  NOW=  4.4%  ABBV=  5.2%  AMD= 43.4%  IBM=  3.7%  util=0.645182  Δ=+0.000127
+  AMD+1%  NFLX=  9.7%  JNJ=  6.6%  WMT=  6.3%  BAC=  5.6%  CRM=  5.3%  ORCL=  5.2%  MRK=  4.6%  NOW=  4.4%  ABBV=  4.1%  AMD= 44.5%  IBM=  3.7%  util=0.649273  Δ=+0.004218
+  IBM+1%  NFLX=  9.7%  JNJ=  6.6%  WMT=  6.3%  BAC=  5.6%  CRM=  5.3%  ORCL=  5.2%  MRK=  4.6%  NOW=  4.4%  ABBV=  4.1%  AMD= 43.4%  IBM=  4.8%  util=0.643200  Δ=-0.001854
+  ★ WINNER: AMD  improvement=+0.004218
+────────────────────────────────────────────────────────────────────────
+Epoch 39  [startUtility=0.649273  feasible=11]
+  NFLX+1%  NFLX= 10.7%  JNJ=  6.5%  WMT=  6.2%  BAC=  5.5%  CRM=  5.2%  ORCL=  5.1%  MRK=  4.5%  NOW=  4.3%  ABBV=  4.0%  AMD= 44.4%  IBM=  3.6%  util=0.653408  Δ=+0.004135
+  JNJ+1%  NFLX=  9.6%  JNJ=  7.6%  WMT=  6.2%  BAC=  5.5%  CRM=  5.2%  ORCL=  5.1%  MRK=  4.5%  NOW=  4.3%  ABBV=  4.0%  AMD= 44.4%  IBM=  3.6%  util=0.646254  Δ=-0.003019
+  WMT+1%  NFLX=  9.6%  JNJ=  6.5%  WMT=  7.3%  BAC=  5.5%  CRM=  5.2%  ORCL=  5.1%  MRK=  4.5%  NOW=  4.3%  ABBV=  4.0%  AMD= 44.4%  IBM=  3.6%  util=0.648740  Δ=-0.000533
+  BAC+1%  NFLX=  9.6%  JNJ=  6.5%  WMT=  6.2%  BAC=  6.6%  CRM=  5.2%  ORCL=  5.1%  MRK=  4.5%  NOW=  4.3%  ABBV=  4.0%  AMD= 44.4%  IBM=  3.6%  util=0.649300  Δ=+0.000027
+  CRM+1%  NFLX=  9.6%  JNJ=  6.5%  WMT=  6.2%  BAC=  5.5%  CRM=  6.3%  ORCL=  5.1%  MRK=  4.5%  NOW=  4.3%  ABBV=  4.0%  AMD= 44.4%  IBM=  3.6%  util=0.647821  Δ=-0.001452
+  ORCL+1%  NFLX=  9.6%  JNJ=  6.5%  WMT=  6.2%  BAC=  5.5%  CRM=  5.2%  ORCL=  6.2%  MRK=  4.5%  NOW=  4.3%  ABBV=  4.0%  AMD= 44.4%  IBM=  3.6%  util=0.649347  Δ=+0.000074
+  MRK+1%  NFLX=  9.6%  JNJ=  6.5%  WMT=  6.2%  BAC=  5.5%  CRM=  5.2%  ORCL=  5.1%  MRK=  5.6%  NOW=  4.3%  ABBV=  4.0%  AMD= 44.4%  IBM=  3.6%  util=0.646091  Δ=-0.003182
+  NOW+1%  NFLX=  9.6%  JNJ=  6.5%  WMT=  6.2%  BAC=  5.5%  CRM=  5.2%  ORCL=  5.1%  MRK=  4.5%  NOW=  5.4%  ABBV=  4.0%  AMD= 44.4%  IBM=  3.6%  util=0.650414  Δ=+0.001141
+  ABBV+1%  NFLX=  9.6%  JNJ=  6.5%  WMT=  6.2%  BAC=  5.5%  CRM=  5.2%  ORCL=  5.1%  MRK=  4.5%  NOW=  4.3%  ABBV=  5.1%  AMD= 44.4%  IBM=  3.6%  util=0.649424  Δ=+0.000151
+  AMD+1%  NFLX=  9.6%  JNJ=  6.5%  WMT=  6.2%  BAC=  5.5%  CRM=  5.2%  ORCL=  5.1%  MRK=  4.5%  NOW=  4.3%  ABBV=  4.0%  AMD= 45.5%  IBM=  3.6%  util=0.653380  Δ=+0.004107
+  IBM+1%  NFLX=  9.6%  JNJ=  6.5%  WMT=  6.2%  BAC=  5.5%  CRM=  5.2%  ORCL=  5.1%  MRK=  4.5%  NOW=  4.3%  ABBV=  4.0%  AMD= 44.4%  IBM=  4.7%  util=0.647456  Δ=-0.001817
+  ★ WINNER: NFLX  improvement=+0.004135
+────────────────────────────────────────────────────────────────────────
+Epoch 40  [startUtility=0.653408  feasible=11]
+  NFLX+1%  NFLX= 11.7%  JNJ=  6.4%  WMT=  6.1%  BAC=  5.4%  CRM=  5.1%  ORCL=  5.0%  MRK=  4.4%  NOW=  4.2%  ABBV=  3.9%  AMD= 44.3%  IBM=  3.5%  util=0.657468  Δ=+0.004060
+  JNJ+1%  NFLX= 10.6%  JNJ=  7.5%  WMT=  6.1%  BAC=  5.4%  CRM=  5.1%  ORCL=  5.0%  MRK=  4.4%  NOW=  4.2%  ABBV=  3.9%  AMD= 44.3%  IBM=  3.5%  util=0.650428  Δ=-0.002980
+  WMT+1%  NFLX= 10.6%  JNJ=  6.4%  WMT=  7.2%  BAC=  5.4%  CRM=  5.1%  ORCL=  5.0%  MRK=  4.4%  NOW=  4.2%  ABBV=  3.9%  AMD= 44.3%  IBM=  3.5%  util=0.652877  Δ=-0.000531
+  BAC+1%  NFLX= 10.6%  JNJ=  6.4%  WMT=  6.1%  BAC=  6.5%  CRM=  5.1%  ORCL=  5.0%  MRK=  4.4%  NOW=  4.2%  ABBV=  3.9%  AMD= 44.3%  IBM=  3.5%  util=0.653483  Δ=+0.000075
+  CRM+1%  NFLX= 10.6%  JNJ=  6.4%  WMT=  6.1%  BAC=  5.4%  CRM=  6.2%  ORCL=  5.0%  MRK=  4.4%  NOW=  4.2%  ABBV=  3.9%  AMD= 44.3%  IBM=  3.5%  util=0.651968  Δ=-0.001440
+  ORCL+1%  NFLX= 10.6%  JNJ=  6.4%  WMT=  6.1%  BAC=  5.4%  CRM=  5.1%  ORCL=  6.1%  MRK=  4.4%  NOW=  4.2%  ABBV=  3.9%  AMD= 44.3%  IBM=  3.5%  util=0.653509  Δ=+0.000102
+  MRK+1%  NFLX= 10.6%  JNJ=  6.4%  WMT=  6.1%  BAC=  5.4%  CRM=  5.1%  ORCL=  5.0%  MRK=  5.5%  NOW=  4.2%  ABBV=  3.9%  AMD= 44.3%  IBM=  3.5%  util=0.650242  Δ=-0.003166
+  NOW+1%  NFLX= 10.6%  JNJ=  6.4%  WMT=  6.1%  BAC=  5.4%  CRM=  5.1%  ORCL=  5.0%  MRK=  4.4%  NOW=  5.3%  ABBV=  3.9%  AMD= 44.3%  IBM=  3.5%  util=0.654532  Δ=+0.001124
+  ABBV+1%  NFLX= 10.6%  JNJ=  6.4%  WMT=  6.1%  BAC=  5.4%  CRM=  5.1%  ORCL=  5.0%  MRK=  4.4%  NOW=  4.2%  ABBV=  5.0%  AMD= 44.3%  IBM=  3.5%  util=0.653568  Δ=+0.000160
+  AMD+1%  NFLX= 10.6%  JNJ=  6.4%  WMT=  6.1%  BAC=  5.4%  CRM=  5.1%  ORCL=  5.0%  MRK=  4.4%  NOW=  4.2%  ABBV=  3.9%  AMD= 45.4%  IBM=  3.5%  util=0.657574  Δ=+0.004166
+  IBM+1%  NFLX= 10.6%  JNJ=  6.4%  WMT=  6.1%  BAC=  5.4%  CRM=  5.1%  ORCL=  5.0%  MRK=  4.4%  NOW=  4.2%  ABBV=  3.9%  AMD= 44.3%  IBM=  4.6%  util=0.651603  Δ=-0.001805
+  ★ WINNER: AMD  improvement=+0.004166
+────────────────────────────────────────────────────────────────────────
+Epoch 41  [startUtility=0.657574  feasible=11]
+  NFLX+1%  NFLX= 11.6%  JNJ=  6.3%  WMT=  6.0%  BAC=  5.3%  CRM=  5.0%  ORCL=  4.9%  MRK=  4.3%  NOW=  4.1%  ABBV=  3.8%  AMD= 45.3%  IBM=  3.4%  util=0.661682  Δ=+0.004108
+  JNJ+1%  NFLX= 10.5%  JNJ=  7.4%  WMT=  6.0%  BAC=  5.3%  CRM=  5.0%  ORCL=  4.9%  MRK=  4.3%  NOW=  4.1%  ABBV=  3.8%  AMD= 45.3%  IBM=  3.4%  util=0.654585  Δ=-0.002989
+  WMT+1%  NFLX= 10.5%  JNJ=  6.3%  WMT=  7.1%  BAC=  5.3%  CRM=  5.0%  ORCL=  4.9%  MRK=  4.3%  NOW=  4.1%  ABBV=  3.8%  AMD= 45.3%  IBM=  3.4%  util=0.657113  Δ=-0.000461
+  BAC+1%  NFLX= 10.5%  JNJ=  6.3%  WMT=  6.0%  BAC=  6.4%  CRM=  5.0%  ORCL=  4.9%  MRK=  4.3%  NOW=  4.1%  ABBV=  3.8%  AMD= 45.3%  IBM=  3.4%  util=0.657643  Δ=+0.000069
+  CRM+1%  NFLX= 10.5%  JNJ=  6.3%  WMT=  6.0%  BAC=  5.3%  CRM=  6.1%  ORCL=  4.9%  MRK=  4.3%  NOW=  4.1%  ABBV=  3.8%  AMD= 45.3%  IBM=  3.4%  util=0.656141  Δ=-0.001433
+  ORCL+1%  NFLX= 10.5%  JNJ=  6.3%  WMT=  6.0%  BAC=  5.3%  CRM=  5.0%  ORCL=  6.0%  MRK=  4.3%  NOW=  4.1%  ABBV=  3.8%  AMD= 45.3%  IBM=  3.4%  util=0.657693  Δ=+0.000120
+  MRK+1%  NFLX= 10.5%  JNJ=  6.3%  WMT=  6.0%  BAC=  5.3%  CRM=  5.0%  ORCL=  4.9%  MRK=  5.4%  NOW=  4.1%  ABBV=  3.8%  AMD= 45.3%  IBM=  3.4%  util=0.654388  Δ=-0.003186
+  NOW+1%  NFLX= 10.5%  JNJ=  6.3%  WMT=  6.0%  BAC=  5.3%  CRM=  5.0%  ORCL=  4.9%  MRK=  4.3%  NOW=  5.2%  ABBV=  3.8%  AMD= 45.3%  IBM=  3.4%  util=0.658706  Δ=+0.001132
+  ABBV+1%  NFLX= 10.5%  JNJ=  6.3%  WMT=  6.0%  BAC=  5.3%  CRM=  5.0%  ORCL=  4.9%  MRK=  4.3%  NOW=  4.1%  ABBV=  4.9%  AMD= 45.3%  IBM=  3.4%  util=0.657772  Δ=+0.000198
+  AMD+1%  NFLX= 10.5%  JNJ=  6.3%  WMT=  6.0%  BAC=  5.3%  CRM=  5.0%  ORCL=  4.9%  MRK=  4.3%  NOW=  4.1%  ABBV=  3.8%  AMD= 46.4%  IBM=  3.4%  util=0.661689  Δ=+0.004115
+  IBM+1%  NFLX= 10.5%  JNJ=  6.3%  WMT=  6.0%  BAC=  5.3%  CRM=  5.0%  ORCL=  4.9%  MRK=  4.3%  NOW=  4.1%  ABBV=  3.8%  AMD= 45.3%  IBM=  4.5%  util=0.655812  Δ=-0.001762
+  ★ WINNER: AMD  improvement=+0.004115
+────────────────────────────────────────────────────────────────────────
+Epoch 42  [startUtility=0.661689  feasible=11]
+  NFLX+1%  NFLX= 11.5%  JNJ=  6.2%  WMT=  5.9%  BAC=  5.2%  CRM=  4.9%  ORCL=  4.8%  MRK=  4.2%  NOW=  4.0%  ABBV=  3.7%  AMD= 46.3%  IBM=  3.3%  util=0.665838  Δ=+0.004149
+  JNJ+1%  NFLX= 10.4%  JNJ=  7.3%  WMT=  5.9%  BAC=  5.2%  CRM=  4.9%  ORCL=  4.8%  MRK=  4.2%  NOW=  4.0%  ABBV=  3.7%  AMD= 46.3%  IBM=  3.3%  util=0.658679  Δ=-0.003010
+  WMT+1%  NFLX= 10.4%  JNJ=  6.2%  WMT=  7.0%  BAC=  5.2%  CRM=  4.9%  ORCL=  4.8%  MRK=  4.2%  NOW=  4.0%  ABBV=  3.7%  AMD= 46.3%  IBM=  3.3%  util=0.661244  Δ=-0.000445
+  BAC+1%  NFLX= 10.4%  JNJ=  6.2%  WMT=  5.9%  BAC=  6.3%  CRM=  4.9%  ORCL=  4.8%  MRK=  4.2%  NOW=  4.0%  ABBV=  3.7%  AMD= 46.3%  IBM=  3.3%  util=0.661769  Δ=+0.000080
+  CRM+1%  NFLX= 10.4%  JNJ=  6.2%  WMT=  5.9%  BAC=  5.2%  CRM=  6.0%  ORCL=  4.8%  MRK=  4.2%  NOW=  4.0%  ABBV=  3.7%  AMD= 46.3%  IBM=  3.3%  util=0.660264  Δ=-0.001425
+  ORCL+1%  NFLX= 10.4%  JNJ=  6.2%  WMT=  5.9%  BAC=  5.2%  CRM=  4.9%  ORCL=  5.9%  MRK=  4.2%  NOW=  4.0%  ABBV=  3.7%  AMD= 46.3%  IBM=  3.3%  util=0.661805  Δ=+0.000115
+  MRK+1%  NFLX= 10.4%  JNJ=  6.2%  WMT=  5.9%  BAC=  5.2%  CRM=  4.9%  ORCL=  4.8%  MRK=  5.3%  NOW=  4.0%  ABBV=  3.7%  AMD= 46.3%  IBM=  3.3%  util=0.658502  Δ=-0.003187
+  NOW+1%  NFLX= 10.4%  JNJ=  6.2%  WMT=  5.9%  BAC=  5.2%  CRM=  4.9%  ORCL=  4.8%  MRK=  4.2%  NOW=  5.1%  ABBV=  3.7%  AMD= 46.3%  IBM=  3.3%  util=0.662843  Δ=+0.001154
+  ABBV+1%  NFLX= 10.4%  JNJ=  6.2%  WMT=  5.9%  BAC=  5.2%  CRM=  4.9%  ORCL=  4.8%  MRK=  4.2%  NOW=  4.0%  ABBV=  4.8%  AMD= 46.3%  IBM=  3.3%  util=0.661880  Δ=+0.000190
+  AMD+1%  NFLX= 10.4%  JNJ=  6.2%  WMT=  5.9%  BAC=  5.2%  CRM=  4.9%  ORCL=  4.8%  MRK=  4.2%  NOW=  4.0%  ABBV=  3.7%  AMD= 47.4%  IBM=  3.3%  util=0.665757  Δ=+0.004068
+  IBM+1%  NFLX= 10.4%  JNJ=  6.2%  WMT=  5.9%  BAC=  5.2%  CRM=  4.9%  ORCL=  4.8%  MRK=  4.2%  NOW=  4.0%  ABBV=  3.7%  AMD= 46.3%  IBM=  4.4%  util=0.659931  Δ=-0.001758
+  ★ WINNER: NFLX  improvement=+0.004149
+────────────────────────────────────────────────────────────────────────
+Epoch 43  [startUtility=0.665838  feasible=11]
+  NFLX+1%  NFLX= 12.5%  JNJ=  6.1%  WMT=  5.8%  BAC=  5.1%  CRM=  4.8%  ORCL=  4.7%  MRK=  4.1%  NOW=  3.9%  ABBV=  3.6%  AMD= 46.2%  IBM=  3.2%  util=0.669946  Δ=+0.004107
+  JNJ+1%  NFLX= 11.4%  JNJ=  7.2%  WMT=  5.8%  BAC=  5.1%  CRM=  4.8%  ORCL=  4.7%  MRK=  4.1%  NOW=  3.9%  ABBV=  3.6%  AMD= 46.2%  IBM=  3.2%  util=0.662859  Δ=-0.002979
+  WMT+1%  NFLX= 11.4%  JNJ=  6.1%  WMT=  6.9%  BAC=  5.1%  CRM=  4.8%  ORCL=  4.7%  MRK=  4.1%  NOW=  3.9%  ABBV=  3.6%  AMD= 46.2%  IBM=  3.2%  util=0.665404  Δ=-0.000434
+  BAC+1%  NFLX= 11.4%  JNJ=  6.1%  WMT=  5.8%  BAC=  6.2%  CRM=  4.8%  ORCL=  4.7%  MRK=  4.1%  NOW=  3.9%  ABBV=  3.6%  AMD= 46.2%  IBM=  3.2%  util=0.665915  Δ=+0.000077
+  CRM+1%  NFLX= 11.4%  JNJ=  6.1%  WMT=  5.8%  BAC=  5.1%  CRM=  5.9%  ORCL=  4.7%  MRK=  4.1%  NOW=  3.9%  ABBV=  3.6%  AMD= 46.2%  IBM=  3.2%  util=0.664433  Δ=-0.001405
+  ORCL+1%  NFLX= 11.4%  JNJ=  6.1%  WMT=  5.8%  BAC=  5.1%  CRM=  4.8%  ORCL=  5.8%  MRK=  4.1%  NOW=  3.9%  ABBV=  3.6%  AMD= 46.2%  IBM=  3.2%  util=0.665969  Δ=+0.000131
+  MRK+1%  NFLX= 11.4%  JNJ=  6.1%  WMT=  5.8%  BAC=  5.1%  CRM=  4.8%  ORCL=  4.7%  MRK=  5.2%  NOW=  3.9%  ABBV=  3.6%  AMD= 46.2%  IBM=  3.2%  util=0.662640  Δ=-0.003198
+  NOW+1%  NFLX= 11.4%  JNJ=  6.1%  WMT=  5.8%  BAC=  5.1%  CRM=  4.8%  ORCL=  4.7%  MRK=  4.1%  NOW=  5.0%  ABBV=  3.6%  AMD= 46.2%  IBM=  3.2%  util=0.666974  Δ=+0.001136
+  ABBV+1%  NFLX= 11.4%  JNJ=  6.1%  WMT=  5.8%  BAC=  5.1%  CRM=  4.8%  ORCL=  4.7%  MRK=  4.1%  NOW=  3.9%  ABBV=  4.7%  AMD= 46.2%  IBM=  3.2%  util=0.666003  Δ=+0.000165
+  AMD+1%  NFLX= 11.4%  JNJ=  6.1%  WMT=  5.8%  BAC=  5.1%  CRM=  4.8%  ORCL=  4.7%  MRK=  4.1%  NOW=  3.9%  ABBV=  3.6%  AMD= 47.3%  IBM=  3.2%  util=0.669951  Δ=+0.004113
+  IBM+1%  NFLX= 11.4%  JNJ=  6.1%  WMT=  5.8%  BAC=  5.1%  CRM=  4.8%  ORCL=  4.7%  MRK=  4.1%  NOW=  3.9%  ABBV=  3.6%  AMD= 46.2%  IBM=  4.3%  util=0.664072  Δ=-0.001766
+  ★ WINNER: AMD  improvement=+0.004113
+────────────────────────────────────────────────────────────────────────
+Epoch 44  [startUtility=0.669951  feasible=11]
+  NFLX+1%  NFLX= 12.4%  JNJ=  6.0%  WMT=  5.7%  BAC=  5.0%  CRM=  4.7%  ORCL=  4.6%  MRK=  4.0%  NOW=  3.8%  ABBV=  3.5%  AMD= 47.2%  IBM=  3.1%  util=0.674069  Δ=+0.004118
+  JNJ+1%  NFLX= 11.3%  JNJ=  7.1%  WMT=  5.7%  BAC=  5.0%  CRM=  4.7%  ORCL=  4.6%  MRK=  4.0%  NOW=  3.8%  ABBV=  3.5%  AMD= 47.2%  IBM=  3.1%  util=0.666953  Δ=-0.002998
+  WMT+1%  NFLX= 11.3%  JNJ=  6.0%  WMT=  6.8%  BAC=  5.0%  CRM=  4.7%  ORCL=  4.6%  MRK=  4.0%  NOW=  3.8%  ABBV=  3.5%  AMD= 47.2%  IBM=  3.1%  util=0.669527  Δ=-0.000425
+  BAC+1%  NFLX= 11.3%  JNJ=  6.0%  WMT=  5.7%  BAC=  6.1%  CRM=  4.7%  ORCL=  4.6%  MRK=  4.0%  NOW=  3.8%  ABBV=  3.5%  AMD= 47.2%  IBM=  3.1%  util=0.670035  Δ=+0.000084
+  CRM+1%  NFLX= 11.3%  JNJ=  6.0%  WMT=  5.7%  BAC=  5.0%  CRM=  5.8%  ORCL=  4.6%  MRK=  4.0%  NOW=  3.8%  ABBV=  3.5%  AMD= 47.2%  IBM=  3.1%  util=0.668540  Δ=-0.001411
+  ORCL+1%  NFLX= 11.3%  JNJ=  6.0%  WMT=  5.7%  BAC=  5.0%  CRM=  4.7%  ORCL=  5.7%  MRK=  4.0%  NOW=  3.8%  ABBV=  3.5%  AMD= 47.2%  IBM=  3.1%  util=0.670101  Δ=+0.000150
+  MRK+1%  NFLX= 11.3%  JNJ=  6.0%  WMT=  5.7%  BAC=  5.0%  CRM=  4.7%  ORCL=  4.6%  MRK=  5.1%  NOW=  3.8%  ABBV=  3.5%  AMD= 47.2%  IBM=  3.1%  util=0.666740  Δ=-0.003211
+  NOW+1%  NFLX= 11.3%  JNJ=  6.0%  WMT=  5.7%  BAC=  5.0%  CRM=  4.7%  ORCL=  4.6%  MRK=  4.0%  NOW=  4.9%  ABBV=  3.5%  AMD= 47.2%  IBM=  3.1%  util=0.671083  Δ=+0.001131
+  ABBV+1%  NFLX= 11.3%  JNJ=  6.0%  WMT=  5.7%  BAC=  5.0%  CRM=  4.7%  ORCL=  4.6%  MRK=  4.0%  NOW=  3.8%  ABBV=  4.6%  AMD= 47.2%  IBM=  3.1%  util=0.670118  Δ=+0.000167
+  AMD+1%  NFLX= 11.3%  JNJ=  6.0%  WMT=  5.7%  BAC=  5.0%  CRM=  4.7%  ORCL=  4.6%  MRK=  4.0%  NOW=  3.8%  ABBV=  3.5%  AMD= 48.3%  IBM=  3.1%  util=0.674002  Δ=+0.004051
+  IBM+1%  NFLX= 11.3%  JNJ=  6.0%  WMT=  5.7%  BAC=  5.0%  CRM=  4.7%  ORCL=  4.6%  MRK=  4.0%  NOW=  3.8%  ABBV=  3.5%  AMD= 47.2%  IBM=  4.2%  util=0.668217  Δ=-0.001734
+  ★ WINNER: NFLX  improvement=+0.004118
+────────────────────────────────────────────────────────────────────────
+Epoch 45  [startUtility=0.674069  feasible=11]
+  NFLX+1%  NFLX= 13.4%  JNJ=  5.9%  WMT=  5.6%  BAC=  4.9%  CRM=  4.6%  ORCL=  4.5%  MRK=  3.9%  NOW=  3.7%  ABBV=  3.4%  AMD= 47.1%  IBM=  3.0%  util=0.678155  Δ=+0.004086
+  JNJ+1%  NFLX= 12.3%  JNJ=  7.0%  WMT=  5.6%  BAC=  4.9%  CRM=  4.6%  ORCL=  4.5%  MRK=  3.9%  NOW=  3.7%  ABBV=  3.4%  AMD= 47.1%  IBM=  3.0%  util=0.671083  Δ=-0.002987
+  WMT+1%  NFLX= 12.3%  JNJ=  5.9%  WMT=  6.7%  BAC=  4.9%  CRM=  4.6%  ORCL=  4.5%  MRK=  3.9%  NOW=  3.7%  ABBV=  3.4%  AMD= 47.1%  IBM=  3.0%  util=0.673637  Δ=-0.000432
+  BAC+1%  NFLX= 12.3%  JNJ=  5.9%  WMT=  5.6%  BAC=  6.0%  CRM=  4.6%  ORCL=  4.5%  MRK=  3.9%  NOW=  3.7%  ABBV=  3.4%  AMD= 47.1%  IBM=  3.0%  util=0.674168  Δ=+0.000099
+  CRM+1%  NFLX= 12.3%  JNJ=  5.9%  WMT=  5.6%  BAC=  4.9%  CRM=  5.7%  ORCL=  4.5%  MRK=  3.9%  NOW=  3.7%  ABBV=  3.4%  AMD= 47.1%  IBM=  3.0%  util=0.672685  Δ=-0.001384
+  ORCL+1%  NFLX= 12.3%  JNJ=  5.9%  WMT=  5.6%  BAC=  4.9%  CRM=  4.6%  ORCL=  5.6%  MRK=  3.9%  NOW=  3.7%  ABBV=  3.4%  AMD= 47.1%  IBM=  3.0%  util=0.674222  Δ=+0.000153
+  MRK+1%  NFLX= 12.3%  JNJ=  5.9%  WMT=  5.6%  BAC=  4.9%  CRM=  4.6%  ORCL=  4.5%  MRK=  5.0%  NOW=  3.7%  ABBV=  3.4%  AMD= 47.1%  IBM=  3.0%  util=0.670842  Δ=-0.003227
+  NOW+1%  NFLX= 12.3%  JNJ=  5.9%  WMT=  5.6%  BAC=  4.9%  CRM=  4.6%  ORCL=  4.5%  MRK=  3.9%  NOW=  4.8%  ABBV=  3.4%  AMD= 47.1%  IBM=  3.0%  util=0.675212  Δ=+0.001143
+  ABBV+1%  NFLX= 12.3%  JNJ=  5.9%  WMT=  5.6%  BAC=  4.9%  CRM=  4.6%  ORCL=  4.5%  MRK=  3.9%  NOW=  3.7%  ABBV=  4.5%  AMD= 47.1%  IBM=  3.0%  util=0.674210  Δ=+0.000141
+  AMD+1%  NFLX= 12.3%  JNJ=  5.9%  WMT=  5.6%  BAC=  4.9%  CRM=  4.6%  ORCL=  4.5%  MRK=  3.9%  NOW=  3.7%  ABBV=  3.4%  AMD= 48.2%  IBM=  3.0%  util=0.678151  Δ=+0.004081
+  IBM+1%  NFLX= 12.3%  JNJ=  5.9%  WMT=  5.6%  BAC=  4.9%  CRM=  4.6%  ORCL=  4.5%  MRK=  3.9%  NOW=  3.7%  ABBV=  3.4%  AMD= 47.1%  IBM=  4.1%  util=0.672323  Δ=-0.001747
+  ★ WINNER: NFLX  improvement=+0.004086
+────────────────────────────────────────────────────────────────────────
+Epoch 46  [startUtility=0.678155  feasible=11]
+  NFLX+1%  NFLX= 14.4%  JNJ=  5.8%  WMT=  5.5%  BAC=  4.8%  CRM=  4.5%  ORCL=  4.4%  MRK=  3.8%  NOW=  3.6%  ABBV=  3.3%  AMD= 47.0%  IBM=  2.9%  util=0.682199  Δ=+0.004044
+  JNJ+1%  NFLX= 13.3%  JNJ=  6.9%  WMT=  5.5%  BAC=  4.8%  CRM=  4.5%  ORCL=  4.4%  MRK=  3.8%  NOW=  3.6%  ABBV=  3.3%  AMD= 47.0%  IBM=  2.9%  util=0.675189  Δ=-0.002967
+  WMT+1%  NFLX= 13.3%  JNJ=  5.8%  WMT=  6.6%  BAC=  4.8%  CRM=  4.5%  ORCL=  4.4%  MRK=  3.8%  NOW=  3.6%  ABBV=  3.3%  AMD= 47.0%  IBM=  2.9%  util=0.677720  Δ=-0.000435
+  BAC+1%  NFLX= 13.3%  JNJ=  5.8%  WMT=  5.5%  BAC=  5.9%  CRM=  4.5%  ORCL=  4.4%  MRK=  3.8%  NOW=  3.6%  ABBV=  3.3%  AMD= 47.0%  IBM=  2.9%  util=0.678271  Δ=+0.000116
+  CRM+1%  NFLX= 13.3%  JNJ=  5.8%  WMT=  5.5%  BAC=  4.8%  CRM=  5.6%  ORCL=  4.4%  MRK=  3.8%  NOW=  3.6%  ABBV=  3.3%  AMD= 47.0%  IBM=  2.9%  util=0.676774  Δ=-0.001382
+  ORCL+1%  NFLX= 13.3%  JNJ=  5.8%  WMT=  5.5%  BAC=  4.8%  CRM=  4.5%  ORCL=  5.5%  MRK=  3.8%  NOW=  3.6%  ABBV=  3.3%  AMD= 47.0%  IBM=  2.9%  util=0.678323  Δ=+0.000168
+  MRK+1%  NFLX= 13.3%  JNJ=  5.8%  WMT=  5.5%  BAC=  4.8%  CRM=  4.5%  ORCL=  4.4%  MRK=  4.9%  NOW=  3.6%  ABBV=  3.3%  AMD= 47.0%  IBM=  2.9%  util=0.674935  Δ=-0.003220
+  NOW+1%  NFLX= 13.3%  JNJ=  5.8%  WMT=  5.5%  BAC=  4.8%  CRM=  4.5%  ORCL=  4.4%  MRK=  3.8%  NOW=  4.7%  ABBV=  3.3%  AMD= 47.0%  IBM=  2.9%  util=0.679256  Δ=+0.001101
+  ABBV+1%  NFLX= 13.3%  JNJ=  5.8%  WMT=  5.5%  BAC=  4.8%  CRM=  4.5%  ORCL=  4.4%  MRK=  3.8%  NOW=  3.6%  ABBV=  4.4%  AMD= 47.0%  IBM=  2.9%  util=0.678285  Δ=+0.000130
+  AMD+1%  NFLX= 13.3%  JNJ=  5.8%  WMT=  5.5%  BAC=  4.8%  CRM=  4.5%  ORCL=  4.4%  MRK=  3.8%  NOW=  3.6%  ABBV=  3.3%  AMD= 48.1%  IBM=  2.9%  util=0.682249  Δ=+0.004094
+  IBM+1%  NFLX= 13.3%  JNJ=  5.8%  WMT=  5.5%  BAC=  4.8%  CRM=  4.5%  ORCL=  4.4%  MRK=  3.8%  NOW=  3.6%  ABBV=  3.3%  AMD= 47.0%  IBM=  4.0%  util=0.676409  Δ=-0.001747
+  ★ WINNER: AMD  improvement=+0.004094
+────────────────────────────────────────────────────────────────────────
+Epoch 47  [startUtility=0.682249  feasible=11]
+  NFLX+1%  NFLX= 14.3%  JNJ=  5.7%  WMT=  5.4%  BAC=  4.7%  CRM=  4.4%  ORCL=  4.3%  MRK=  3.7%  NOW=  3.5%  ABBV=  3.2%  AMD= 48.0%  IBM=  2.8%  util=0.686331  Δ=+0.004082
+  JNJ+1%  NFLX= 13.2%  JNJ=  6.8%  WMT=  5.4%  BAC=  4.7%  CRM=  4.4%  ORCL=  4.3%  MRK=  3.7%  NOW=  3.5%  ABBV=  3.2%  AMD= 48.0%  IBM=  2.8%  util=0.679268  Δ=-0.002981
+  WMT+1%  NFLX= 13.2%  JNJ=  5.7%  WMT=  6.5%  BAC=  4.7%  CRM=  4.4%  ORCL=  4.3%  MRK=  3.7%  NOW=  3.5%  ABBV=  3.2%  AMD= 48.0%  IBM=  2.8%  util=0.681822  Δ=-0.000427
+  BAC+1%  NFLX= 13.2%  JNJ=  5.7%  WMT=  5.4%  BAC=  5.8%  CRM=  4.4%  ORCL=  4.3%  MRK=  3.7%  NOW=  3.5%  ABBV=  3.2%  AMD= 48.0%  IBM=  2.8%  util=0.682368  Δ=+0.000119
+  CRM+1%  NFLX= 13.2%  JNJ=  5.7%  WMT=  5.4%  BAC=  4.7%  CRM=  5.5%  ORCL=  4.3%  MRK=  3.7%  NOW=  3.5%  ABBV=  3.2%  AMD= 48.0%  IBM=  2.8%  util=0.680888  Δ=-0.001361
+  ORCL+1%  NFLX= 13.2%  JNJ=  5.7%  WMT=  5.4%  BAC=  4.7%  CRM=  4.4%  ORCL=  5.4%  MRK=  3.7%  NOW=  3.5%  ABBV=  3.2%  AMD= 48.0%  IBM=  2.8%  util=0.682384  Δ=+0.000135
+  MRK+1%  NFLX= 13.2%  JNJ=  5.7%  WMT=  5.4%  BAC=  4.7%  CRM=  4.4%  ORCL=  4.3%  MRK=  4.8%  NOW=  3.5%  ABBV=  3.2%  AMD= 48.0%  IBM=  2.8%  util=0.678981  Δ=-0.003268
+  NOW+1%  NFLX= 13.2%  JNJ=  5.7%  WMT=  5.4%  BAC=  4.7%  CRM=  4.4%  ORCL=  4.3%  MRK=  3.7%  NOW=  4.6%  ABBV=  3.2%  AMD= 48.0%  IBM=  2.8%  util=0.683400  Δ=+0.001151
+  ABBV+1%  NFLX= 13.2%  JNJ=  5.7%  WMT=  5.4%  BAC=  4.7%  CRM=  4.4%  ORCL=  4.3%  MRK=  3.7%  NOW=  3.5%  ABBV=  4.3%  AMD= 48.0%  IBM=  2.8%  util=0.682398  Δ=+0.000149
+  AMD+1%  NFLX= 13.2%  JNJ=  5.7%  WMT=  5.4%  BAC=  4.7%  CRM=  4.4%  ORCL=  4.3%  MRK=  3.7%  NOW=  3.5%  ABBV=  3.2%  AMD= 49.1%  IBM=  2.8%  util=0.686287  Δ=+0.004038
+  IBM+1%  NFLX= 13.2%  JNJ=  5.7%  WMT=  5.4%  BAC=  4.7%  CRM=  4.4%  ORCL=  4.3%  MRK=  3.7%  NOW=  3.5%  ABBV=  3.2%  AMD= 48.0%  IBM=  3.9%  util=0.680533  Δ=-0.001716
+  ★ WINNER: NFLX  improvement=+0.004082
+────────────────────────────────────────────────────────────────────────
+Epoch 48  [startUtility=0.686331  feasible=11]
+  NFLX+1%  NFLX= 15.3%  JNJ=  5.6%  WMT=  5.3%  BAC=  4.6%  CRM=  4.3%  ORCL=  4.2%  MRK=  3.6%  NOW=  3.4%  ABBV=  3.1%  AMD= 47.9%  IBM=  2.7%  util=0.690403  Δ=+0.004072
+  JNJ+1%  NFLX= 14.2%  JNJ=  6.7%  WMT=  5.3%  BAC=  4.6%  CRM=  4.3%  ORCL=  4.2%  MRK=  3.6%  NOW=  3.4%  ABBV=  3.1%  AMD= 47.9%  IBM=  2.7%  util=0.683361  Δ=-0.002970
+  WMT+1%  NFLX= 14.2%  JNJ=  5.6%  WMT=  6.4%  BAC=  4.6%  CRM=  4.3%  ORCL=  4.2%  MRK=  3.6%  NOW=  3.4%  ABBV=  3.1%  AMD= 47.9%  IBM=  2.7%  util=0.685919  Δ=-0.000412
+  BAC+1%  NFLX= 14.2%  JNJ=  5.6%  WMT=  5.3%  BAC=  5.7%  CRM=  4.3%  ORCL=  4.2%  MRK=  3.6%  NOW=  3.4%  ABBV=  3.1%  AMD= 47.9%  IBM=  2.7%  util=0.686460  Δ=+0.000129
+  CRM+1%  NFLX= 14.2%  JNJ=  5.6%  WMT=  5.3%  BAC=  4.6%  CRM=  5.4%  ORCL=  4.2%  MRK=  3.6%  NOW=  3.4%  ABBV=  3.1%  AMD= 47.9%  IBM=  2.7%  util=0.684970  Δ=-0.001361
+  ORCL+1%  NFLX= 14.2%  JNJ=  5.6%  WMT=  5.3%  BAC=  4.6%  CRM=  4.3%  ORCL=  5.3%  MRK=  3.6%  NOW=  3.4%  ABBV=  3.1%  AMD= 47.9%  IBM=  2.7%  util=0.686492  Δ=+0.000161
+  MRK+1%  NFLX= 14.2%  JNJ=  5.6%  WMT=  5.3%  BAC=  4.6%  CRM=  4.3%  ORCL=  4.2%  MRK=  4.7%  NOW=  3.4%  ABBV=  3.1%  AMD= 47.9%  IBM=  2.7%  util=0.683060  Δ=-0.003271
+  NOW+1%  NFLX= 14.2%  JNJ=  5.6%  WMT=  5.3%  BAC=  4.6%  CRM=  4.3%  ORCL=  4.2%  MRK=  3.6%  NOW=  4.5%  ABBV=  3.1%  AMD= 47.9%  IBM=  2.7%  util=0.687459  Δ=+0.001128
+  ABBV+1%  NFLX= 14.2%  JNJ=  5.6%  WMT=  5.3%  BAC=  4.6%  CRM=  4.3%  ORCL=  4.2%  MRK=  3.6%  NOW=  3.4%  ABBV=  4.2%  AMD= 47.9%  IBM=  2.7%  util=0.686451  Δ=+0.000120
+  AMD+1%  NFLX= 14.2%  JNJ=  5.6%  WMT=  5.3%  BAC=  4.6%  CRM=  4.3%  ORCL=  4.2%  MRK=  3.6%  NOW=  3.4%  ABBV=  3.1%  AMD= 49.0%  IBM=  2.7%  util=0.690398  Δ=+0.004067
+  IBM+1%  NFLX= 14.2%  JNJ=  5.6%  WMT=  5.3%  BAC=  4.6%  CRM=  4.3%  ORCL=  4.2%  MRK=  3.6%  NOW=  3.4%  ABBV=  3.1%  AMD= 47.9%  IBM=  3.8%  util=0.684615  Δ=-0.001716
+  ★ WINNER: NFLX  improvement=+0.004072
+────────────────────────────────────────────────────────────────────────
+Epoch 49  [startUtility=0.690403  feasible=11]
+  NFLX+1%  NFLX= 16.3%  JNJ=  5.5%  WMT=  5.2%  BAC=  4.5%  CRM=  4.2%  ORCL=  4.1%  MRK=  3.5%  NOW=  3.3%  ABBV=  3.0%  AMD= 47.8%  IBM=  2.6%  util=0.694430  Δ=+0.004027
+  JNJ+1%  NFLX= 15.2%  JNJ=  6.6%  WMT=  5.2%  BAC=  4.5%  CRM=  4.2%  ORCL=  4.1%  MRK=  3.5%  NOW=  3.3%  ABBV=  3.0%  AMD= 47.8%  IBM=  2.6%  util=0.687446  Δ=-0.002957
+  WMT+1%  NFLX= 15.2%  JNJ=  5.5%  WMT=  6.3%  BAC=  4.5%  CRM=  4.2%  ORCL=  4.1%  MRK=  3.5%  NOW=  3.3%  ABBV=  3.0%  AMD= 47.8%  IBM=  2.6%  util=0.689981  Δ=-0.000422
+  BAC+1%  NFLX= 15.2%  JNJ=  5.5%  WMT=  5.2%  BAC=  5.6%  CRM=  4.2%  ORCL=  4.1%  MRK=  3.5%  NOW=  3.3%  ABBV=  3.0%  AMD= 47.8%  IBM=  2.6%  util=0.690527  Δ=+0.000124
+  CRM+1%  NFLX= 15.2%  JNJ=  5.5%  WMT=  5.2%  BAC=  4.5%  CRM=  5.3%  ORCL=  4.1%  MRK=  3.5%  NOW=  3.3%  ABBV=  3.0%  AMD= 47.8%  IBM=  2.6%  util=0.689035  Δ=-0.001368
+  ORCL+1%  NFLX= 15.2%  JNJ=  5.5%  WMT=  5.2%  BAC=  4.5%  CRM=  4.2%  ORCL=  5.2%  MRK=  3.5%  NOW=  3.3%  ABBV=  3.0%  AMD= 47.8%  IBM=  2.6%  util=0.690574  Δ=+0.000171
+  MRK+1%  NFLX= 15.2%  JNJ=  5.5%  WMT=  5.2%  BAC=  4.5%  CRM=  4.2%  ORCL=  4.1%  MRK=  4.6%  NOW=  3.3%  ABBV=  3.0%  AMD= 47.8%  IBM=  2.6%  util=0.687132  Δ=-0.003271
+  NOW+1%  NFLX= 15.2%  JNJ=  5.5%  WMT=  5.2%  BAC=  4.5%  CRM=  4.2%  ORCL=  4.1%  MRK=  3.5%  NOW=  4.4%  ABBV=  3.0%  AMD= 47.8%  IBM=  2.6%  util=0.691502  Δ=+0.001099
+  ABBV+1%  NFLX= 15.2%  JNJ=  5.5%  WMT=  5.2%  BAC=  4.5%  CRM=  4.2%  ORCL=  4.1%  MRK=  3.5%  NOW=  3.3%  ABBV=  4.1%  AMD= 47.8%  IBM=  2.6%  util=0.690494  Δ=+0.000091
+  AMD+1%  NFLX= 15.2%  JNJ=  5.5%  WMT=  5.2%  BAC=  4.5%  CRM=  4.2%  ORCL=  4.1%  MRK=  3.5%  NOW=  3.3%  ABBV=  3.0%  AMD= 48.9%  IBM=  2.6%  util=0.694495  Δ=+0.004092
+  IBM+1%  NFLX= 15.2%  JNJ=  5.5%  WMT=  5.2%  BAC=  4.5%  CRM=  4.2%  ORCL=  4.1%  MRK=  3.5%  NOW=  3.3%  ABBV=  3.0%  AMD= 47.8%  IBM=  3.7%  util=0.688672  Δ=-0.001731
+  ★ WINNER: AMD  improvement=+0.004092
+────────────────────────────────────────────────────────────────────────
+Epoch 50  [startUtility=0.694495  feasible=11]
+  NFLX+1%  NFLX= 16.2%  JNJ=  5.4%  WMT=  5.1%  BAC=  4.4%  CRM=  4.1%  ORCL=  4.0%  MRK=  3.4%  NOW=  3.2%  ABBV=  2.9%  AMD= 48.8%  IBM=  2.5%  util=0.698552  Δ=+0.004056
+  JNJ+1%  NFLX= 15.1%  JNJ=  6.5%  WMT=  5.1%  BAC=  4.4%  CRM=  4.1%  ORCL=  4.0%  MRK=  3.4%  NOW=  3.2%  ABBV=  2.9%  AMD= 48.8%  IBM=  2.5%  util=0.691509  Δ=-0.002986
+  WMT+1%  NFLX= 15.1%  JNJ=  5.4%  WMT=  6.2%  BAC=  4.4%  CRM=  4.1%  ORCL=  4.0%  MRK=  3.4%  NOW=  3.2%  ABBV=  2.9%  AMD= 48.8%  IBM=  2.5%  util=0.694126  Δ=-0.000369
+  BAC+1%  NFLX= 15.1%  JNJ=  5.4%  WMT=  5.1%  BAC=  5.5%  CRM=  4.1%  ORCL=  4.0%  MRK=  3.4%  NOW=  3.2%  ABBV=  2.9%  AMD= 48.8%  IBM=  2.5%  util=0.694635  Δ=+0.000140
+  CRM+1%  NFLX= 15.1%  JNJ=  5.4%  WMT=  5.1%  BAC=  4.4%  CRM=  5.2%  ORCL=  4.0%  MRK=  3.4%  NOW=  3.2%  ABBV=  2.9%  AMD= 48.8%  IBM=  2.5%  util=0.693150  Δ=-0.001345
+  ORCL+1%  NFLX= 15.1%  JNJ=  5.4%  WMT=  5.1%  BAC=  4.4%  CRM=  4.1%  ORCL=  5.1%  MRK=  3.4%  NOW=  3.2%  ABBV=  2.9%  AMD= 48.8%  IBM=  2.5%  util=0.694628  Δ=+0.000133
+  MRK+1%  NFLX= 15.1%  JNJ=  5.4%  WMT=  5.1%  BAC=  4.4%  CRM=  4.1%  ORCL=  4.0%  MRK=  4.5%  NOW=  3.2%  ABBV=  2.9%  AMD= 48.8%  IBM=  2.5%  util=0.691162  Δ=-0.003333
+  NOW+1%  NFLX= 15.1%  JNJ=  5.4%  WMT=  5.1%  BAC=  4.4%  CRM=  4.1%  ORCL=  4.0%  MRK=  3.4%  NOW=  4.3%  ABBV=  2.9%  AMD= 48.8%  IBM=  2.5%  util=0.695619  Δ=+0.001123
+  ABBV+1%  NFLX= 15.1%  JNJ=  5.4%  WMT=  5.1%  BAC=  4.4%  CRM=  4.1%  ORCL=  4.0%  MRK=  3.4%  NOW=  3.2%  ABBV=  4.0%  AMD= 48.8%  IBM=  2.5%  util=0.694608  Δ=+0.000113
+  AMD+1%  NFLX= 15.1%  JNJ=  5.4%  WMT=  5.1%  BAC=  4.4%  CRM=  4.1%  ORCL=  4.0%  MRK=  3.4%  NOW=  3.2%  ABBV=  2.9%  AMD= 49.9%  IBM=  2.5%  util=0.698507  Δ=+0.004012
+  IBM+1%  NFLX= 15.1%  JNJ=  5.4%  WMT=  5.1%  BAC=  4.4%  CRM=  4.1%  ORCL=  4.0%  MRK=  3.4%  NOW=  3.2%  ABBV=  2.9%  AMD= 48.8%  IBM=  3.6%  util=0.692765  Δ=-0.001730
+  ★ WINNER: NFLX  improvement=+0.004056
+────────────────────────────────────────────────────────────────────────
+Epoch 51  [startUtility=0.698552  feasible=11]
+  NFLX+1%  NFLX= 17.2%  JNJ=  5.3%  WMT=  5.0%  BAC=  4.3%  CRM=  4.0%  ORCL=  3.9%  MRK=  3.3%  NOW=  3.1%  ABBV=  2.8%  AMD= 48.7%  IBM=  2.4%  util=0.702528  Δ=+0.003977
+  JNJ+1%  NFLX= 16.1%  JNJ=  6.4%  WMT=  5.0%  BAC=  4.3%  CRM=  4.0%  ORCL=  3.9%  MRK=  3.3%  NOW=  3.1%  ABBV=  2.8%  AMD= 48.7%  IBM=  2.4%  util=0.695596  Δ=-0.002956
+  WMT+1%  NFLX= 16.1%  JNJ=  5.3%  WMT=  6.1%  BAC=  4.3%  CRM=  4.0%  ORCL=  3.9%  MRK=  3.3%  NOW=  3.1%  ABBV=  2.8%  AMD= 48.7%  IBM=  2.4%  util=0.698168  Δ=-0.000384
+  BAC+1%  NFLX= 16.1%  JNJ=  5.3%  WMT=  5.0%  BAC=  5.4%  CRM=  4.0%  ORCL=  3.9%  MRK=  3.3%  NOW=  3.1%  ABBV=  2.8%  AMD= 48.7%  IBM=  2.4%  util=0.698709  Δ=+0.000157
+  CRM+1%  NFLX= 16.1%  JNJ=  5.3%  WMT=  5.0%  BAC=  4.3%  CRM=  5.1%  ORCL=  3.9%  MRK=  3.3%  NOW=  3.1%  ABBV=  2.8%  AMD= 48.7%  IBM=  2.4%  util=0.697211  Δ=-0.001340
+  ORCL+1%  NFLX= 16.1%  JNJ=  5.3%  WMT=  5.0%  BAC=  4.3%  CRM=  4.0%  ORCL=  5.0%  MRK=  3.3%  NOW=  3.1%  ABBV=  2.8%  AMD= 48.7%  IBM=  2.4%  util=0.698721  Δ=+0.000170
+  MRK+1%  NFLX= 16.1%  JNJ=  5.3%  WMT=  5.0%  BAC=  4.3%  CRM=  4.0%  ORCL=  3.9%  MRK=  4.4%  NOW=  3.1%  ABBV=  2.8%  AMD= 48.7%  IBM=  2.4%  util=0.695243  Δ=-0.003309
+  NOW+1%  NFLX= 16.1%  JNJ=  5.3%  WMT=  5.0%  BAC=  4.3%  CRM=  4.0%  ORCL=  3.9%  MRK=  3.3%  NOW=  4.2%  ABBV=  2.8%  AMD= 48.7%  IBM=  2.4%  util=0.699654  Δ=+0.001102
+  ABBV+1%  NFLX= 16.1%  JNJ=  5.3%  WMT=  5.0%  BAC=  4.3%  CRM=  4.0%  ORCL=  3.9%  MRK=  3.3%  NOW=  3.1%  ABBV=  3.9%  AMD= 48.7%  IBM=  2.4%  util=0.698664  Δ=+0.000112
+  AMD+1%  NFLX= 16.1%  JNJ=  5.3%  WMT=  5.0%  BAC=  4.3%  CRM=  4.0%  ORCL=  3.9%  MRK=  3.3%  NOW=  3.1%  ABBV=  2.8%  AMD= 49.8%  IBM=  2.4%  util=0.702594  Δ=+0.004043
+  IBM+1%  NFLX= 16.1%  JNJ=  5.3%  WMT=  5.0%  BAC=  4.3%  CRM=  4.0%  ORCL=  3.9%  MRK=  3.3%  NOW=  3.1%  ABBV=  2.8%  AMD= 48.7%  IBM=  3.5%  util=0.696830  Δ=-0.001721
+  ★ WINNER: AMD  improvement=+0.004043
+────────────────────────────────────────────────────────────────────────
+Epoch 52  [startUtility=0.702594  feasible=11]
+  NFLX+1%  NFLX= 17.1%  JNJ=  5.2%  WMT=  4.9%  BAC=  4.2%  CRM=  3.9%  ORCL=  3.8%  MRK=  3.2%  NOW=  3.0%  ABBV=  2.7%  AMD= 49.7%  IBM=  2.3%  util=0.706609  Δ=+0.004015
+  JNJ+1%  NFLX= 16.0%  JNJ=  6.3%  WMT=  4.9%  BAC=  4.2%  CRM=  3.9%  ORCL=  3.8%  MRK=  3.2%  NOW=  3.0%  ABBV=  2.7%  AMD= 49.7%  IBM=  2.3%  util=0.699623  Δ=-0.002971
+  WMT+1%  NFLX= 16.0%  JNJ=  5.2%  WMT=  6.0%  BAC=  4.2%  CRM=  3.9%  ORCL=  3.8%  MRK=  3.2%  NOW=  3.0%  ABBV=  2.7%  AMD= 49.7%  IBM=  2.3%  util=0.702261  Δ=-0.000334
+  BAC+1%  NFLX= 16.0%  JNJ=  5.2%  WMT=  4.9%  BAC=  5.3%  CRM=  3.9%  ORCL=  3.8%  MRK=  3.2%  NOW=  3.0%  ABBV=  2.7%  AMD= 49.7%  IBM=  2.3%  util=0.702761  Δ=+0.000166
+  CRM+1%  NFLX= 16.0%  JNJ=  5.2%  WMT=  4.9%  BAC=  4.2%  CRM=  5.0%  ORCL=  3.8%  MRK=  3.2%  NOW=  3.0%  ABBV=  2.7%  AMD= 49.7%  IBM=  2.3%  util=0.701256  Δ=-0.001338
+  ORCL+1%  NFLX= 16.0%  JNJ=  5.2%  WMT=  4.9%  BAC=  4.2%  CRM=  3.9%  ORCL=  4.9%  MRK=  3.2%  NOW=  3.0%  ABBV=  2.7%  AMD= 49.7%  IBM=  2.3%  util=0.702748  Δ=+0.000154
+  MRK+1%  NFLX= 16.0%  JNJ=  5.2%  WMT=  4.9%  BAC=  4.2%  CRM=  3.9%  ORCL=  3.8%  MRK=  4.3%  NOW=  3.0%  ABBV=  2.7%  AMD= 49.7%  IBM=  2.3%  util=0.699266  Δ=-0.003328
+  NOW+1%  NFLX= 16.0%  JNJ=  5.2%  WMT=  4.9%  BAC=  4.2%  CRM=  3.9%  ORCL=  3.8%  MRK=  3.2%  NOW=  4.1%  ABBV=  2.7%  AMD= 49.7%  IBM=  2.3%  util=0.703724  Δ=+0.001130
+  ABBV+1%  NFLX= 16.0%  JNJ=  5.2%  WMT=  4.9%  BAC=  4.2%  CRM=  3.9%  ORCL=  3.8%  MRK=  3.2%  NOW=  3.0%  ABBV=  3.8%  AMD= 49.7%  IBM=  2.3%  util=0.702741  Δ=+0.000147
+  AMD+1%  NFLX= 16.0%  JNJ=  5.2%  WMT=  4.9%  BAC=  4.2%  CRM=  3.9%  ORCL=  3.8%  MRK=  3.2%  NOW=  3.0%  ABBV=  2.7%  AMD= 50.8%  IBM=  2.3%  util=0.706606  Δ=+0.004012
+  IBM+1%  NFLX= 16.0%  JNJ=  5.2%  WMT=  4.9%  BAC=  4.2%  CRM=  3.9%  ORCL=  3.8%  MRK=  3.2%  NOW=  3.0%  ABBV=  2.7%  AMD= 49.7%  IBM=  3.4%  util=0.700883  Δ=-0.001711
+  ★ WINNER: NFLX  improvement=+0.004015
+────────────────────────────────────────────────────────────────────────
+Epoch 53  [startUtility=0.706609  feasible=11]
+  NFLX+1%  NFLX= 18.1%  JNJ=  5.1%  WMT=  4.8%  BAC=  4.1%  CRM=  3.8%  ORCL=  3.7%  MRK=  3.1%  NOW=  2.9%  ABBV=  2.6%  AMD= 49.6%  IBM=  2.2%  util=0.710581  Δ=+0.003972
+  JNJ+1%  NFLX= 17.0%  JNJ=  6.2%  WMT=  4.8%  BAC=  4.1%  CRM=  3.8%  ORCL=  3.7%  MRK=  3.1%  NOW=  2.9%  ABBV=  2.6%  AMD= 49.6%  IBM=  2.2%  util=0.703661  Δ=-0.002948
+  WMT+1%  NFLX= 17.0%  JNJ=  5.1%  WMT=  5.9%  BAC=  4.1%  CRM=  3.8%  ORCL=  3.7%  MRK=  3.1%  NOW=  2.9%  ABBV=  2.6%  AMD= 49.6%  IBM=  2.2%  util=0.706263  Δ=-0.000345
+  BAC+1%  NFLX= 17.0%  JNJ=  5.1%  WMT=  4.8%  BAC=  5.2%  CRM=  3.8%  ORCL=  3.7%  MRK=  3.1%  NOW=  2.9%  ABBV=  2.6%  AMD= 49.6%  IBM=  2.2%  util=0.706790  Δ=+0.000181
+  CRM+1%  NFLX= 17.0%  JNJ=  5.1%  WMT=  4.8%  BAC=  4.1%  CRM=  4.9%  ORCL=  3.7%  MRK=  3.1%  NOW=  2.9%  ABBV=  2.6%  AMD= 49.6%  IBM=  2.2%  util=0.705280  Δ=-0.001329
+  ORCL+1%  NFLX= 17.0%  JNJ=  5.1%  WMT=  4.8%  BAC=  4.1%  CRM=  3.8%  ORCL=  4.8%  MRK=  3.1%  NOW=  2.9%  ABBV=  2.6%  AMD= 49.6%  IBM=  2.2%  util=0.706783  Δ=+0.000174
+  MRK+1%  NFLX= 17.0%  JNJ=  5.1%  WMT=  4.8%  BAC=  4.1%  CRM=  3.8%  ORCL=  3.7%  MRK=  4.2%  NOW=  2.9%  ABBV=  2.6%  AMD= 49.6%  IBM=  2.2%  util=0.703300  Δ=-0.003309
+  NOW+1%  NFLX= 17.0%  JNJ=  5.1%  WMT=  4.8%  BAC=  4.1%  CRM=  3.8%  ORCL=  3.7%  MRK=  3.1%  NOW=  4.0%  ABBV=  2.6%  AMD= 49.6%  IBM=  2.2%  util=0.707719  Δ=+0.001110
+  ABBV+1%  NFLX= 17.0%  JNJ=  5.1%  WMT=  4.8%  BAC=  4.1%  CRM=  3.8%  ORCL=  3.7%  MRK=  3.1%  NOW=  2.9%  ABBV=  3.7%  AMD= 49.6%  IBM=  2.2%  util=0.706761  Δ=+0.000152
+  AMD+1%  NFLX= 17.0%  JNJ=  5.1%  WMT=  4.8%  BAC=  4.1%  CRM=  3.8%  ORCL=  3.7%  MRK=  3.1%  NOW=  2.9%  ABBV=  2.6%  AMD= 50.7%  IBM=  2.2%  util=0.710651  Δ=+0.004042
+  IBM+1%  NFLX= 17.0%  JNJ=  5.1%  WMT=  4.8%  BAC=  4.1%  CRM=  3.8%  ORCL=  3.7%  MRK=  3.1%  NOW=  2.9%  ABBV=  2.6%  AMD= 49.6%  IBM=  3.3%  util=0.704899  Δ=-0.001710
+  ★ WINNER: AMD  improvement=+0.004042
+────────────────────────────────────────────────────────────────────────
+Epoch 54  [startUtility=0.710651  feasible=11]
+  NFLX+1%  NFLX= 18.0%  JNJ=  5.0%  WMT=  4.7%  BAC=  4.0%  CRM=  3.7%  ORCL=  3.6%  MRK=  3.0%  NOW=  2.8%  ABBV=  2.5%  AMD= 50.6%  IBM=  2.1%  util=0.714642  Δ=+0.003991
+  JNJ+1%  NFLX= 16.9%  JNJ=  6.1%  WMT=  4.7%  BAC=  4.0%  CRM=  3.7%  ORCL=  3.6%  MRK=  3.0%  NOW=  2.8%  ABBV=  2.5%  AMD= 50.6%  IBM=  2.1%  util=0.707690  Δ=-0.002961
+  WMT+1%  NFLX= 16.9%  JNJ=  5.0%  WMT=  5.8%  BAC=  4.0%  CRM=  3.7%  ORCL=  3.6%  MRK=  3.0%  NOW=  2.8%  ABBV=  2.5%  AMD= 50.6%  IBM=  2.1%  util=0.710315  Δ=-0.000336
+  BAC+1%  NFLX= 16.9%  JNJ=  5.0%  WMT=  4.7%  BAC=  5.1%  CRM=  3.7%  ORCL=  3.6%  MRK=  3.0%  NOW=  2.8%  ABBV=  2.5%  AMD= 50.6%  IBM=  2.1%  util=0.710840  Δ=+0.000189
+  CRM+1%  NFLX= 16.9%  JNJ=  5.0%  WMT=  4.7%  BAC=  4.0%  CRM=  4.8%  ORCL=  3.6%  MRK=  3.0%  NOW=  2.8%  ABBV=  2.5%  AMD= 50.6%  IBM=  2.1%  util=0.709332  Δ=-0.001320
+  ORCL+1%  NFLX= 16.9%  JNJ=  5.0%  WMT=  4.7%  BAC=  4.0%  CRM=  3.7%  ORCL=  4.7%  MRK=  3.0%  NOW=  2.8%  ABBV=  2.5%  AMD= 50.6%  IBM=  2.1%  util=0.710810  Δ=+0.000159
+  MRK+1%  NFLX= 16.9%  JNJ=  5.0%  WMT=  4.7%  BAC=  4.0%  CRM=  3.7%  ORCL=  3.6%  MRK=  4.1%  NOW=  2.8%  ABBV=  2.5%  AMD= 50.6%  IBM=  2.1%  util=0.707327  Δ=-0.003324
+  NOW+1%  NFLX= 16.9%  JNJ=  5.0%  WMT=  4.7%  BAC=  4.0%  CRM=  3.7%  ORCL=  3.6%  MRK=  3.0%  NOW=  3.9%  ABBV=  2.5%  AMD= 50.6%  IBM=  2.1%  util=0.711788  Δ=+0.001137
+  ABBV+1%  NFLX= 16.9%  JNJ=  5.0%  WMT=  4.7%  BAC=  4.0%  CRM=  3.7%  ORCL=  3.6%  MRK=  3.0%  NOW=  2.8%  ABBV=  3.6%  AMD= 50.6%  IBM=  2.1%  util=0.710781  Δ=+0.000130
+  AMD+1%  NFLX= 16.9%  JNJ=  5.0%  WMT=  4.7%  BAC=  4.0%  CRM=  3.7%  ORCL=  3.6%  MRK=  3.0%  NOW=  2.8%  ABBV=  2.5%  AMD= 51.7%  IBM=  2.1%  util=0.714664  Δ=+0.004013
+  IBM+1%  NFLX= 16.9%  JNJ=  5.0%  WMT=  4.7%  BAC=  4.0%  CRM=  3.7%  ORCL=  3.6%  MRK=  3.0%  NOW=  2.8%  ABBV=  2.5%  AMD= 50.6%  IBM=  3.2%  util=0.708958  Δ=-0.001693
+  ★ WINNER: AMD  improvement=+0.004013
+────────────────────────────────────────────────────────────────────────
+Epoch 55  [startUtility=0.714664  feasible=11]
+  NFLX+1%  NFLX= 17.9%  JNJ=  4.9%  WMT=  4.6%  BAC=  3.9%  CRM=  3.6%  ORCL=  3.5%  MRK=  2.9%  NOW=  2.7%  ABBV=  2.4%  AMD= 51.6%  IBM=  2.0%  util=0.718674  Δ=+0.004011
+  JNJ+1%  NFLX= 16.8%  JNJ=  6.0%  WMT=  4.6%  BAC=  3.9%  CRM=  3.6%  ORCL=  3.5%  MRK=  2.9%  NOW=  2.7%  ABBV=  2.4%  AMD= 51.6%  IBM=  2.0%  util=0.711687  Δ=-0.002977
+  WMT+1%  NFLX= 16.8%  JNJ=  4.9%  WMT=  5.7%  BAC=  3.9%  CRM=  3.6%  ORCL=  3.5%  MRK=  2.9%  NOW=  2.7%  ABBV=  2.4%  AMD= 51.6%  IBM=  2.0%  util=0.714333  Δ=-0.000331
+  BAC+1%  NFLX= 16.8%  JNJ=  4.9%  WMT=  4.6%  BAC=  5.0%  CRM=  3.6%  ORCL=  3.5%  MRK=  2.9%  NOW=  2.7%  ABBV=  2.4%  AMD= 51.6%  IBM=  2.0%  util=0.714842  Δ=+0.000179
+  CRM+1%  NFLX= 16.8%  JNJ=  4.9%  WMT=  4.6%  BAC=  3.9%  CRM=  4.7%  ORCL=  3.5%  MRK=  2.9%  NOW=  2.7%  ABBV=  2.4%  AMD= 51.6%  IBM=  2.0%  util=0.713347  Δ=-0.001316
+  ORCL+1%  NFLX= 16.8%  JNJ=  4.9%  WMT=  4.6%  BAC=  3.9%  CRM=  3.6%  ORCL=  4.6%  MRK=  2.9%  NOW=  2.7%  ABBV=  2.4%  AMD= 51.6%  IBM=  2.0%  util=0.714806  Δ=+0.000143
+  MRK+1%  NFLX= 16.8%  JNJ=  4.9%  WMT=  4.6%  BAC=  3.9%  CRM=  3.6%  ORCL=  3.5%  MRK=  4.0%  NOW=  2.7%  ABBV=  2.4%  AMD= 51.6%  IBM=  2.0%  util=0.711323  Δ=-0.003341
+  NOW+1%  NFLX= 16.8%  JNJ=  4.9%  WMT=  4.6%  BAC=  3.9%  CRM=  3.6%  ORCL=  3.5%  MRK=  2.9%  NOW=  3.8%  ABBV=  2.4%  AMD= 51.6%  IBM=  2.0%  util=0.715796  Δ=+0.001133
+  ABBV+1%  NFLX= 16.8%  JNJ=  4.9%  WMT=  4.6%  BAC=  3.9%  CRM=  3.6%  ORCL=  3.5%  MRK=  2.9%  NOW=  2.7%  ABBV=  3.5%  AMD= 51.6%  IBM=  2.0%  util=0.714787  Δ=+0.000123
+  AMD+1%  NFLX= 16.8%  JNJ=  4.9%  WMT=  4.6%  BAC=  3.9%  CRM=  3.6%  ORCL=  3.5%  MRK=  2.9%  NOW=  2.7%  ABBV=  2.4%  AMD= 52.7%  IBM=  2.0%  util=0.718647  Δ=+0.003984
+  IBM+1%  NFLX= 16.8%  JNJ=  4.9%  WMT=  4.6%  BAC=  3.9%  CRM=  3.6%  ORCL=  3.5%  MRK=  2.9%  NOW=  2.7%  ABBV=  2.4%  AMD= 51.6%  IBM=  3.1%  util=0.712994  Δ=-0.001670
+  ★ WINNER: NFLX  improvement=+0.004011
+────────────────────────────────────────────────────────────────────────
+Epoch 56  [startUtility=0.718674  feasible=11]
+  NFLX+1%  NFLX= 18.9%  JNJ=  4.8%  WMT=  4.5%  BAC=  3.8%  CRM=  3.5%  ORCL=  3.4%  MRK=  2.8%  NOW=  2.6%  ABBV=  2.3%  AMD= 51.5%  IBM=  1.9%  util=0.722632  Δ=+0.003958
+  JNJ+1%  NFLX= 17.8%  JNJ=  5.9%  WMT=  4.5%  BAC=  3.8%  CRM=  3.5%  ORCL=  3.4%  MRK=  2.8%  NOW=  2.6%  ABBV=  2.3%  AMD= 51.5%  IBM=  1.9%  util=0.715722  Δ=-0.002952
+  WMT+1%  NFLX= 17.8%  JNJ=  4.8%  WMT=  5.6%  BAC=  3.8%  CRM=  3.5%  ORCL=  3.4%  MRK=  2.8%  NOW=  2.6%  ABBV=  2.3%  AMD= 51.5%  IBM=  1.9%  util=0.718321  Δ=-0.000353
+  BAC+1%  NFLX= 17.8%  JNJ=  4.8%  WMT=  4.5%  BAC=  4.9%  CRM=  3.5%  ORCL=  3.4%  MRK=  2.8%  NOW=  2.6%  ABBV=  2.3%  AMD= 51.5%  IBM=  1.9%  util=0.718866  Δ=+0.000192
+  CRM+1%  NFLX= 17.8%  JNJ=  4.8%  WMT=  4.5%  BAC=  3.8%  CRM=  4.6%  ORCL=  3.4%  MRK=  2.8%  NOW=  2.6%  ABBV=  2.3%  AMD= 51.5%  IBM=  1.9%  util=0.717365  Δ=-0.001310
+  ORCL+1%  NFLX= 17.8%  JNJ=  4.8%  WMT=  4.5%  BAC=  3.8%  CRM=  3.5%  ORCL=  4.5%  MRK=  2.8%  NOW=  2.6%  ABBV=  2.3%  AMD= 51.5%  IBM=  1.9%  util=0.718850  Δ=+0.000176
+  MRK+1%  NFLX= 17.8%  JNJ=  4.8%  WMT=  4.5%  BAC=  3.8%  CRM=  3.5%  ORCL=  3.4%  MRK=  3.9%  NOW=  2.6%  ABBV=  2.3%  AMD= 51.5%  IBM=  1.9%  util=0.715366  Δ=-0.003308
+  NOW+1%  NFLX= 17.8%  JNJ=  4.8%  WMT=  4.5%  BAC=  3.8%  CRM=  3.5%  ORCL=  3.4%  MRK=  2.8%  NOW=  3.7%  ABBV=  2.3%  AMD= 51.5%  IBM=  1.9%  util=0.719805  Δ=+0.001130
+  ABBV+1%  NFLX= 17.8%  JNJ=  4.8%  WMT=  4.5%  BAC=  3.8%  CRM=  3.5%  ORCL=  3.4%  MRK=  2.8%  NOW=  2.6%  ABBV=  3.4%  AMD= 51.5%  IBM=  1.9%  util=0.718796  Δ=+0.000122
+  AMD+1%  NFLX= 17.8%  JNJ=  4.8%  WMT=  4.5%  BAC=  3.8%  CRM=  3.5%  ORCL=  3.4%  MRK=  2.8%  NOW=  2.6%  ABBV=  2.3%  AMD= 52.6%  IBM=  1.9%  util=0.722683  Δ=+0.004009
+  IBM+1%  NFLX= 17.8%  JNJ=  4.8%  WMT=  4.5%  BAC=  3.8%  CRM=  3.5%  ORCL=  3.4%  MRK=  2.8%  NOW=  2.6%  ABBV=  2.3%  AMD= 51.5%  IBM=  3.0%  util=0.716996  Δ=-0.001678
+  ★ WINNER: AMD  improvement=+0.004009
+────────────────────────────────────────────────────────────────────────
+Epoch 57  [startUtility=0.722683  feasible=11]
+  NFLX+1%  NFLX= 18.8%  JNJ=  4.7%  WMT=  4.4%  BAC=  3.7%  CRM=  3.4%  ORCL=  3.3%  MRK=  2.7%  NOW=  2.5%  ABBV=  2.2%  AMD= 52.5%  IBM=  1.8%  util=0.726637  Δ=+0.003954
+  JNJ+1%  NFLX= 17.7%  JNJ=  5.8%  WMT=  4.4%  BAC=  3.7%  CRM=  3.4%  ORCL=  3.3%  MRK=  2.7%  NOW=  2.5%  ABBV=  2.2%  AMD= 52.5%  IBM=  1.8%  util=0.719707  Δ=-0.002976
+  WMT+1%  NFLX= 17.7%  JNJ=  4.7%  WMT=  5.5%  BAC=  3.7%  CRM=  3.4%  ORCL=  3.3%  MRK=  2.7%  NOW=  2.5%  ABBV=  2.2%  AMD= 52.5%  IBM=  1.8%  util=0.722327  Δ=-0.000356
+  BAC+1%  NFLX= 17.7%  JNJ=  4.7%  WMT=  4.4%  BAC=  4.8%  CRM=  3.4%  ORCL=  3.3%  MRK=  2.7%  NOW=  2.5%  ABBV=  2.2%  AMD= 52.5%  IBM=  1.8%  util=0.722870  Δ=+0.000187
+  CRM+1%  NFLX= 17.7%  JNJ=  4.7%  WMT=  4.4%  BAC=  3.7%  CRM=  4.5%  ORCL=  3.3%  MRK=  2.7%  NOW=  2.5%  ABBV=  2.2%  AMD= 52.5%  IBM=  1.8%  util=0.721374  Δ=-0.001309
+  ORCL+1%  NFLX= 17.7%  JNJ=  4.7%  WMT=  4.4%  BAC=  3.7%  CRM=  3.4%  ORCL=  4.4%  MRK=  2.7%  NOW=  2.5%  ABBV=  2.2%  AMD= 52.5%  IBM=  1.8%  util=0.722840  Δ=+0.000157
+  MRK+1%  NFLX= 17.7%  JNJ=  4.7%  WMT=  4.4%  BAC=  3.7%  CRM=  3.4%  ORCL=  3.3%  MRK=  3.8%  NOW=  2.5%  ABBV=  2.2%  AMD= 52.5%  IBM=  1.8%  util=0.719351  Δ=-0.003332
+  NOW+1%  NFLX= 17.7%  JNJ=  4.7%  WMT=  4.4%  BAC=  3.7%  CRM=  3.4%  ORCL=  3.3%  MRK=  2.7%  NOW=  3.6%  ABBV=  2.2%  AMD= 52.5%  IBM=  1.8%  util=0.723794  Δ=+0.001110
+  ABBV+1%  NFLX= 17.7%  JNJ=  4.7%  WMT=  4.4%  BAC=  3.7%  CRM=  3.4%  ORCL=  3.3%  MRK=  2.7%  NOW=  2.5%  ABBV=  3.3%  AMD= 52.5%  IBM=  1.8%  util=0.722808  Δ=+0.000125
+  AMD+1%  NFLX= 17.7%  JNJ=  4.7%  WMT=  4.4%  BAC=  3.7%  CRM=  3.4%  ORCL=  3.3%  MRK=  2.7%  NOW=  2.5%  ABBV=  2.2%  AMD= 53.6%  IBM=  1.8%  util=0.726649  Δ=+0.003966
+  IBM+1%  NFLX= 17.7%  JNJ=  4.7%  WMT=  4.4%  BAC=  3.7%  CRM=  3.4%  ORCL=  3.3%  MRK=  2.7%  NOW=  2.5%  ABBV=  2.2%  AMD= 52.5%  IBM=  2.9%  util=0.721032  Δ=-0.001652
+  ★ WINNER: AMD  improvement=+0.003966
+────────────────────────────────────────────────────────────────────────
+Epoch 58  [startUtility=0.726649  feasible=11]
+  NFLX+1%  NFLX= 18.7%  JNJ=  4.6%  WMT=  4.3%  BAC=  3.6%  CRM=  3.3%  ORCL=  3.2%  MRK=  2.6%  NOW=  2.4%  ABBV=  2.1%  AMD= 53.5%  IBM=  1.7%  util=0.730638  Δ=+0.003989
+  JNJ+1%  NFLX= 17.6%  JNJ=  5.7%  WMT=  4.3%  BAC=  3.6%  CRM=  3.3%  ORCL=  3.2%  MRK=  2.6%  NOW=  2.4%  ABBV=  2.1%  AMD= 53.5%  IBM=  1.7%  util=0.723663  Δ=-0.002986
+  WMT+1%  NFLX= 17.6%  JNJ=  4.6%  WMT=  5.4%  BAC=  3.6%  CRM=  3.3%  ORCL=  3.2%  MRK=  2.6%  NOW=  2.4%  ABBV=  2.1%  AMD= 53.5%  IBM=  1.7%  util=0.726299  Δ=-0.000350
+  BAC+1%  NFLX= 17.6%  JNJ=  4.6%  WMT=  4.3%  BAC=  4.7%  CRM=  3.3%  ORCL=  3.2%  MRK=  2.6%  NOW=  2.4%  ABBV=  2.1%  AMD= 53.5%  IBM=  1.7%  util=0.726841  Δ=+0.000192
+  CRM+1%  NFLX= 17.6%  JNJ=  4.6%  WMT=  4.3%  BAC=  3.6%  CRM=  4.4%  ORCL=  3.2%  MRK=  2.6%  NOW=  2.4%  ABBV=  2.1%  AMD= 53.5%  IBM=  1.7%  util=0.725342  Δ=-0.001307
+  ORCL+1%  NFLX= 17.6%  JNJ=  4.6%  WMT=  4.3%  BAC=  3.6%  CRM=  3.3%  ORCL=  4.3%  MRK=  2.6%  NOW=  2.4%  ABBV=  2.1%  AMD= 53.5%  IBM=  1.7%  util=0.726802  Δ=+0.000153
+  MRK+1%  NFLX= 17.6%  JNJ=  4.6%  WMT=  4.3%  BAC=  3.6%  CRM=  3.3%  ORCL=  3.2%  MRK=  3.7%  NOW=  2.4%  ABBV=  2.1%  AMD= 53.5%  IBM=  1.7%  util=0.723278  Δ=-0.003371
+  NOW+1%  NFLX= 17.6%  JNJ=  4.6%  WMT=  4.3%  BAC=  3.6%  CRM=  3.3%  ORCL=  3.2%  MRK=  2.6%  NOW=  3.5%  ABBV=  2.1%  AMD= 53.5%  IBM=  1.7%  util=0.727767  Δ=+0.001117
+  ABBV+1%  NFLX= 17.6%  JNJ=  4.6%  WMT=  4.3%  BAC=  3.6%  CRM=  3.3%  ORCL=  3.2%  MRK=  2.6%  NOW=  2.4%  ABBV=  3.2%  AMD= 53.5%  IBM=  1.7%  util=0.726770  Δ=+0.000121
+  AMD+1%  NFLX= 17.6%  JNJ=  4.6%  WMT=  4.3%  BAC=  3.6%  CRM=  3.3%  ORCL=  3.2%  MRK=  2.6%  NOW=  2.4%  ABBV=  2.1%  AMD= 54.6%  IBM=  1.7%  util=0.730552  Δ=+0.003903
+  IBM+1%  NFLX= 17.6%  JNJ=  4.6%  WMT=  4.3%  BAC=  3.6%  CRM=  3.3%  ORCL=  3.2%  MRK=  2.6%  NOW=  2.4%  ABBV=  2.1%  AMD= 53.5%  IBM=  2.8%  util=0.725024  Δ=-0.001625
+  ★ WINNER: NFLX  improvement=+0.003989
+────────────────────────────────────────────────────────────────────────
+Epoch 59  [startUtility=0.730638  feasible=11]
+  NFLX+1%  NFLX= 19.7%  JNJ=  4.5%  WMT=  4.2%  BAC=  3.5%  CRM=  3.2%  ORCL=  3.1%  MRK=  2.5%  NOW=  2.3%  ABBV=  2.0%  AMD= 53.4%  IBM=  1.6%  util=0.734574  Δ=+0.003936
+  JNJ+1%  NFLX= 18.6%  JNJ=  5.6%  WMT=  4.2%  BAC=  3.5%  CRM=  3.2%  ORCL=  3.1%  MRK=  2.5%  NOW=  2.3%  ABBV=  2.0%  AMD= 53.4%  IBM=  1.6%  util=0.727674  Δ=-0.002964
+  WMT+1%  NFLX= 18.6%  JNJ=  4.5%  WMT=  5.3%  BAC=  3.5%  CRM=  3.2%  ORCL=  3.1%  MRK=  2.5%  NOW=  2.3%  ABBV=  2.0%  AMD= 53.4%  IBM=  1.6%  util=0.730279  Δ=-0.000358
+  BAC+1%  NFLX= 18.6%  JNJ=  4.5%  WMT=  4.2%  BAC=  4.6%  CRM=  3.2%  ORCL=  3.1%  MRK=  2.5%  NOW=  2.3%  ABBV=  2.0%  AMD= 53.4%  IBM=  1.6%  util=0.730850  Δ=+0.000212
+  CRM+1%  NFLX= 18.6%  JNJ=  4.5%  WMT=  4.2%  BAC=  3.5%  CRM=  4.3%  ORCL=  3.1%  MRK=  2.5%  NOW=  2.3%  ABBV=  2.0%  AMD= 53.4%  IBM=  1.6%  util=0.729348  Δ=-0.001290
+  ORCL+1%  NFLX= 18.6%  JNJ=  4.5%  WMT=  4.2%  BAC=  3.5%  CRM=  3.2%  ORCL=  4.2%  MRK=  2.5%  NOW=  2.3%  ABBV=  2.0%  AMD= 53.4%  IBM=  1.6%  util=0.730813  Δ=+0.000175
+  MRK+1%  NFLX= 18.6%  JNJ=  4.5%  WMT=  4.2%  BAC=  3.5%  CRM=  3.2%  ORCL=  3.1%  MRK=  3.6%  NOW=  2.3%  ABBV=  2.0%  AMD= 53.4%  IBM=  1.6%  util=0.727288  Δ=-0.003350
+  NOW+1%  NFLX= 18.6%  JNJ=  4.5%  WMT=  4.2%  BAC=  3.5%  CRM=  3.2%  ORCL=  3.1%  MRK=  2.5%  NOW=  3.4%  ABBV=  2.0%  AMD= 53.4%  IBM=  1.6%  util=0.731765  Δ=+0.001127
+  ABBV+1%  NFLX= 18.6%  JNJ=  4.5%  WMT=  4.2%  BAC=  3.5%  CRM=  3.2%  ORCL=  3.1%  MRK=  2.5%  NOW=  2.3%  ABBV=  3.1%  AMD= 53.4%  IBM=  1.6%  util=0.730753  Δ=+0.000115
+  AMD+1%  NFLX= 18.6%  JNJ=  4.5%  WMT=  4.2%  BAC=  3.5%  CRM=  3.2%  ORCL=  3.1%  MRK=  2.5%  NOW=  2.3%  ABBV=  2.0%  AMD= 54.5%  IBM=  1.6%  util=0.734568  Δ=+0.003930
+  IBM+1%  NFLX= 18.6%  JNJ=  4.5%  WMT=  4.2%  BAC=  3.5%  CRM=  3.2%  ORCL=  3.1%  MRK=  2.5%  NOW=  2.3%  ABBV=  2.0%  AMD= 53.4%  IBM=  2.7%  util=0.729000  Δ=-0.001638
+  ★ WINNER: NFLX  improvement=+0.003936
+────────────────────────────────────────────────────────────────────────
+Epoch 60  [startUtility=0.734574  feasible=11]
+  NFLX+1%  NFLX= 20.7%  JNJ=  4.4%  WMT=  4.1%  BAC=  3.4%  CRM=  3.1%  ORCL=  3.0%  MRK=  2.4%  NOW=  2.2%  ABBV=  1.9%  AMD= 53.3%  IBM=  1.5%  util=0.738462  Δ=+0.003888
+  JNJ+1%  NFLX= 19.6%  JNJ=  5.5%  WMT=  4.1%  BAC=  3.4%  CRM=  3.1%  ORCL=  3.0%  MRK=  2.4%  NOW=  2.2%  ABBV=  1.9%  AMD= 53.3%  IBM=  1.5%  util=0.731622  Δ=-0.002952
+  WMT+1%  NFLX= 19.6%  JNJ=  4.4%  WMT=  5.2%  BAC=  3.4%  CRM=  3.1%  ORCL=  3.0%  MRK=  2.4%  NOW=  2.2%  ABBV=  1.9%  AMD= 53.3%  IBM=  1.5%  util=0.734206  Δ=-0.000368
+  BAC+1%  NFLX= 19.6%  JNJ=  4.4%  WMT=  4.1%  BAC=  4.5%  CRM=  3.1%  ORCL=  3.0%  MRK=  2.4%  NOW=  2.2%  ABBV=  1.9%  AMD= 53.3%  IBM=  1.5%  util=0.734813  Δ=+0.000239
+  CRM+1%  NFLX= 19.6%  JNJ=  4.4%  WMT=  4.1%  BAC=  3.4%  CRM=  4.2%  ORCL=  3.0%  MRK=  2.4%  NOW=  2.2%  ABBV=  1.9%  AMD= 53.3%  IBM=  1.5%  util=0.733296  Δ=-0.001278
+  ORCL+1%  NFLX= 19.6%  JNJ=  4.4%  WMT=  4.1%  BAC=  3.4%  CRM=  3.1%  ORCL=  4.1%  MRK=  2.4%  NOW=  2.2%  ABBV=  1.9%  AMD= 53.3%  IBM=  1.5%  util=0.734756  Δ=+0.000182
+  MRK+1%  NFLX= 19.6%  JNJ=  4.4%  WMT=  4.1%  BAC=  3.4%  CRM=  3.1%  ORCL=  3.0%  MRK=  3.5%  NOW=  2.2%  ABBV=  1.9%  AMD= 53.3%  IBM=  1.5%  util=0.731260  Δ=-0.003314
+  NOW+1%  NFLX= 19.6%  JNJ=  4.4%  WMT=  4.1%  BAC=  3.4%  CRM=  3.1%  ORCL=  3.0%  MRK=  2.4%  NOW=  3.3%  ABBV=  1.9%  AMD= 53.3%  IBM=  1.5%  util=0.735709  Δ=+0.001134
+  ABBV+1%  NFLX= 19.6%  JNJ=  4.4%  WMT=  4.1%  BAC=  3.4%  CRM=  3.1%  ORCL=  3.0%  MRK=  2.4%  NOW=  2.2%  ABBV=  3.0%  AMD= 53.3%  IBM=  1.5%  util=0.734693  Δ=+0.000119
+  AMD+1%  NFLX= 19.6%  JNJ=  4.4%  WMT=  4.1%  BAC=  3.4%  CRM=  3.1%  ORCL=  3.0%  MRK=  2.4%  NOW=  2.2%  ABBV=  1.9%  AMD= 54.4%  IBM=  1.5%  util=0.738532  Δ=+0.003958
+  IBM+1%  NFLX= 19.6%  JNJ=  4.4%  WMT=  4.1%  BAC=  3.4%  CRM=  3.1%  ORCL=  3.0%  MRK=  2.4%  NOW=  2.2%  ABBV=  1.9%  AMD= 53.3%  IBM=  2.6%  util=0.732935  Δ=-0.001639
+  ★ WINNER: AMD  improvement=+0.003958
+────────────────────────────────────────────────────────────────────────
+Epoch 61  [startUtility=0.738532  feasible=11]
+  NFLX+1%  NFLX= 20.6%  JNJ=  4.3%  WMT=  4.0%  BAC=  3.3%  CRM=  3.0%  ORCL=  2.9%  MRK=  2.3%  NOW=  2.1%  ABBV=  1.8%  AMD= 54.3%  IBM=  1.4%  util=0.742443  Δ=+0.003910
+  JNJ+1%  NFLX= 19.5%  JNJ=  5.4%  WMT=  4.0%  BAC=  3.3%  CRM=  3.0%  ORCL=  2.9%  MRK=  2.3%  NOW=  2.1%  ABBV=  1.8%  AMD= 54.3%  IBM=  1.4%  util=0.735564  Δ=-0.002968
+  WMT+1%  NFLX= 19.5%  JNJ=  4.3%  WMT=  5.1%  BAC=  3.3%  CRM=  3.0%  ORCL=  2.9%  MRK=  2.3%  NOW=  2.1%  ABBV=  1.8%  AMD= 54.3%  IBM=  1.4%  util=0.738180  Δ=-0.000353
+  BAC+1%  NFLX= 19.5%  JNJ=  4.3%  WMT=  4.0%  BAC=  4.4%  CRM=  3.0%  ORCL=  2.9%  MRK=  2.3%  NOW=  2.1%  ABBV=  1.8%  AMD= 54.3%  IBM=  1.4%  util=0.738762  Δ=+0.000230
+  CRM+1%  NFLX= 19.5%  JNJ=  4.3%  WMT=  4.0%  BAC=  3.3%  CRM=  4.1%  ORCL=  2.9%  MRK=  2.3%  NOW=  2.1%  ABBV=  1.8%  AMD= 54.3%  IBM=  1.4%  util=0.737245  Δ=-0.001288
+  ORCL+1%  NFLX= 19.5%  JNJ=  4.3%  WMT=  4.0%  BAC=  3.3%  CRM=  3.0%  ORCL=  4.0%  MRK=  2.3%  NOW=  2.1%  ABBV=  1.8%  AMD= 54.3%  IBM=  1.4%  util=0.738701  Δ=+0.000169
+  MRK+1%  NFLX= 19.5%  JNJ=  4.3%  WMT=  4.0%  BAC=  3.3%  CRM=  3.0%  ORCL=  2.9%  MRK=  3.4%  NOW=  2.1%  ABBV=  1.8%  AMD= 54.3%  IBM=  1.4%  util=0.735180  Δ=-0.003352
+  NOW+1%  NFLX= 19.5%  JNJ=  4.3%  WMT=  4.0%  BAC=  3.3%  CRM=  3.0%  ORCL=  2.9%  MRK=  2.3%  NOW=  3.2%  ABBV=  1.8%  AMD= 54.3%  IBM=  1.4%  util=0.739668  Δ=+0.001136
+  ABBV+1%  NFLX= 19.5%  JNJ=  4.3%  WMT=  4.0%  BAC=  3.3%  CRM=  3.0%  ORCL=  2.9%  MRK=  2.3%  NOW=  2.1%  ABBV=  2.9%  AMD= 54.3%  IBM=  1.4%  util=0.738659  Δ=+0.000127
+  AMD+1%  NFLX= 19.5%  JNJ=  4.3%  WMT=  4.0%  BAC=  3.3%  CRM=  3.0%  ORCL=  2.9%  MRK=  2.3%  NOW=  2.1%  ABBV=  1.8%  AMD= 55.4%  IBM=  1.4%  util=0.742439  Δ=+0.003906
+  IBM+1%  NFLX= 19.5%  JNJ=  4.3%  WMT=  4.0%  BAC=  3.3%  CRM=  3.0%  ORCL=  2.9%  MRK=  2.3%  NOW=  2.1%  ABBV=  1.8%  AMD= 54.3%  IBM=  2.5%  util=0.736899  Δ=-0.001633
+  ★ WINNER: NFLX  improvement=+0.003910
+────────────────────────────────────────────────────────────────────────
+Epoch 62  [startUtility=0.742443  feasible=11]
+  NFLX+1%  NFLX= 21.6%  JNJ=  4.2%  WMT=  3.9%  BAC=  3.2%  CRM=  2.9%  ORCL=  2.8%  MRK=  2.2%  NOW=  2.0%  ABBV=  1.7%  AMD= 54.2%  IBM=  1.3%  util=0.746227  Δ=+0.003784
+  JNJ+1%  NFLX= 20.5%  JNJ=  5.3%  WMT=  3.9%  BAC=  3.2%  CRM=  2.9%  ORCL=  2.8%  MRK=  2.2%  NOW=  2.0%  ABBV=  1.7%  AMD= 54.2%  IBM=  1.3%  util=0.739490  Δ=-0.002952
+  WMT+1%  NFLX= 20.5%  JNJ=  4.2%  WMT=  5.0%  BAC=  3.2%  CRM=  2.9%  ORCL=  2.8%  MRK=  2.2%  NOW=  2.0%  ABBV=  1.7%  AMD= 54.2%  IBM=  1.3%  util=0.742091  Δ=-0.000351
+  BAC+1%  NFLX= 20.5%  JNJ=  4.2%  WMT=  3.9%  BAC=  4.3%  CRM=  2.9%  ORCL=  2.8%  MRK=  2.2%  NOW=  2.0%  ABBV=  1.7%  AMD= 54.2%  IBM=  1.3%  util=0.742677  Δ=+0.000234
+  CRM+1%  NFLX= 20.5%  JNJ=  4.2%  WMT=  3.9%  BAC=  3.2%  CRM=  4.0%  ORCL=  2.8%  MRK=  2.2%  NOW=  2.0%  ABBV=  1.7%  AMD= 54.2%  IBM=  1.3%  util=0.741154  Δ=-0.001289
+  ORCL+1%  NFLX= 20.5%  JNJ=  4.2%  WMT=  3.9%  BAC=  3.2%  CRM=  2.9%  ORCL=  3.9%  MRK=  2.2%  NOW=  2.0%  ABBV=  1.7%  AMD= 54.2%  IBM=  1.3%  util=0.742627  Δ=+0.000185
+  MRK+1%  NFLX= 20.5%  JNJ=  4.2%  WMT=  3.9%  BAC=  3.2%  CRM=  2.9%  ORCL=  2.8%  MRK=  3.3%  NOW=  2.0%  ABBV=  1.7%  AMD= 54.2%  IBM=  1.3%  util=0.739113  Δ=-0.003329
+  NOW+1%  NFLX= 20.5%  JNJ=  4.2%  WMT=  3.9%  BAC=  3.2%  CRM=  2.9%  ORCL=  2.8%  MRK=  2.2%  NOW=  3.1%  ABBV=  1.7%  AMD= 54.2%  IBM=  1.3%  util=0.743582  Δ=+0.001139
+  ABBV+1%  NFLX= 20.5%  JNJ=  4.2%  WMT=  3.9%  BAC=  3.2%  CRM=  2.9%  ORCL=  2.8%  MRK=  2.2%  NOW=  2.0%  ABBV=  2.8%  AMD= 54.2%  IBM=  1.3%  util=0.742576  Δ=+0.000133
+  AMD+1%  NFLX= 20.5%  JNJ=  4.2%  WMT=  3.9%  BAC=  3.2%  CRM=  2.9%  ORCL=  2.8%  MRK=  2.2%  NOW=  2.0%  ABBV=  1.7%  AMD= 55.3%  IBM=  1.3%  util=0.746373  Δ=+0.003931
+  IBM+1%  NFLX= 20.5%  JNJ=  4.2%  WMT=  3.9%  BAC=  3.2%  CRM=  2.9%  ORCL=  2.8%  MRK=  2.2%  NOW=  2.0%  ABBV=  1.7%  AMD= 54.2%  IBM=  2.4%  util=0.740816  Δ=-0.001626
+  ★ WINNER: AMD  improvement=+0.003931
+────────────────────────────────────────────────────────────────────────
+Epoch 63  [startUtility=0.746373  feasible=11]
+  NFLX+1%  NFLX= 21.5%  JNJ=  4.1%  WMT=  3.8%  BAC=  3.1%  CRM=  2.8%  ORCL=  2.7%  MRK=  2.1%  NOW=  1.9%  ABBV=  1.6%  AMD= 55.2%  IBM=  1.2%  util=0.750230  Δ=+0.003856
+  JNJ+1%  NFLX= 20.4%  JNJ=  5.2%  WMT=  3.8%  BAC=  3.1%  CRM=  2.8%  ORCL=  2.7%  MRK=  2.1%  NOW=  1.9%  ABBV=  1.6%  AMD= 55.2%  IBM=  1.2%  util=0.743412  Δ=-0.002961
+  WMT+1%  NFLX= 20.4%  JNJ=  4.1%  WMT=  4.9%  BAC=  3.1%  CRM=  2.8%  ORCL=  2.7%  MRK=  2.1%  NOW=  1.9%  ABBV=  1.6%  AMD= 55.2%  IBM=  1.2%  util=0.746015  Δ=-0.000358
+  BAC+1%  NFLX= 20.4%  JNJ=  4.1%  WMT=  3.8%  BAC=  4.2%  CRM=  2.8%  ORCL=  2.7%  MRK=  2.1%  NOW=  1.9%  ABBV=  1.6%  AMD= 55.2%  IBM=  1.2%  util=0.746590  Δ=+0.000217
+  CRM+1%  NFLX= 20.4%  JNJ=  4.1%  WMT=  3.8%  BAC=  3.1%  CRM=  3.9%  ORCL=  2.7%  MRK=  2.1%  NOW=  1.9%  ABBV=  1.6%  AMD= 55.2%  IBM=  1.2%  util=0.745086  Δ=-0.001287
+  ORCL+1%  NFLX= 20.4%  JNJ=  4.1%  WMT=  3.8%  BAC=  3.1%  CRM=  2.8%  ORCL=  3.8%  MRK=  2.1%  NOW=  1.9%  ABBV=  1.6%  AMD= 55.2%  IBM=  1.2%  util=0.746559  Δ=+0.000186
+  MRK+1%  NFLX= 20.4%  JNJ=  4.1%  WMT=  3.8%  BAC=  3.1%  CRM=  2.8%  ORCL=  2.7%  MRK=  3.2%  NOW=  1.9%  ABBV=  1.6%  AMD= 55.2%  IBM=  1.2%  util=0.743014  Δ=-0.003359
+  NOW+1%  NFLX= 20.4%  JNJ=  4.1%  WMT=  3.8%  BAC=  3.1%  CRM=  2.8%  ORCL=  2.7%  MRK=  2.1%  NOW=  3.0%  ABBV=  1.6%  AMD= 55.2%  IBM=  1.2%  util=0.747517  Δ=+0.001144
+  ABBV+1%  NFLX= 20.4%  JNJ=  4.1%  WMT=  3.8%  BAC=  3.1%  CRM=  2.8%  ORCL=  2.7%  MRK=  2.1%  NOW=  1.9%  ABBV=  2.7%  AMD= 55.2%  IBM=  1.2%  util=0.746533  Δ=+0.000160
+  AMD+1%  NFLX= 20.4%  JNJ=  4.1%  WMT=  3.8%  BAC=  3.1%  CRM=  2.8%  ORCL=  2.7%  MRK=  2.1%  NOW=  1.9%  ABBV=  1.6%  AMD= 56.3%  IBM=  1.2%  util=0.750261  Δ=+0.003888
+  IBM+1%  NFLX= 20.4%  JNJ=  4.1%  WMT=  3.8%  BAC=  3.1%  CRM=  2.8%  ORCL=  2.7%  MRK=  2.1%  NOW=  1.9%  ABBV=  1.6%  AMD= 55.2%  IBM=  2.3%  util=0.744770  Δ=-0.001603
+  ★ WINNER: AMD  improvement=+0.003888
+────────────────────────────────────────────────────────────────────────
+Epoch 64  [startUtility=0.750261  feasible=11]
+  NFLX+1%  NFLX= 21.4%  JNJ=  4.0%  WMT=  3.7%  BAC=  3.0%  CRM=  2.7%  ORCL=  2.6%  MRK=  2.0%  NOW=  1.8%  ABBV=  1.5%  AMD= 56.2%  IBM=  1.1%  util=0.754172  Δ=+0.003911
+  JNJ+1%  NFLX= 20.3%  JNJ=  5.1%  WMT=  3.7%  BAC=  3.0%  CRM=  2.7%  ORCL=  2.6%  MRK=  2.0%  NOW=  1.8%  ABBV=  1.5%  AMD= 56.2%  IBM=  1.1%  util=0.747299  Δ=-0.002962
+  WMT+1%  NFLX= 20.3%  JNJ=  4.0%  WMT=  4.8%  BAC=  3.0%  CRM=  2.7%  ORCL=  2.6%  MRK=  2.0%  NOW=  1.8%  ABBV=  1.5%  AMD= 56.2%  IBM=  1.1%  util=0.749917  Δ=-0.000344
+  BAC+1%  NFLX= 20.3%  JNJ=  4.0%  WMT=  3.7%  BAC=  4.1%  CRM=  2.7%  ORCL=  2.6%  MRK=  2.0%  NOW=  1.8%  ABBV=  1.5%  AMD= 56.2%  IBM=  1.1%  util=0.750475  Δ=+0.000214
+  CRM+1%  NFLX= 20.3%  JNJ=  4.0%  WMT=  3.7%  BAC=  3.0%  CRM=  3.8%  ORCL=  2.6%  MRK=  2.0%  NOW=  1.8%  ABBV=  1.5%  AMD= 56.2%  IBM=  1.1%  util=0.748991  Δ=-0.001271
+  ORCL+1%  NFLX= 20.3%  JNJ=  4.0%  WMT=  3.7%  BAC=  3.0%  CRM=  2.7%  ORCL=  3.7%  MRK=  2.0%  NOW=  1.8%  ABBV=  1.5%  AMD= 56.2%  IBM=  1.1%  util=0.750459  Δ=+0.000198
+  MRK+1%  NFLX= 20.3%  JNJ=  4.0%  WMT=  3.7%  BAC=  3.0%  CRM=  2.7%  ORCL=  2.6%  MRK=  3.1%  NOW=  1.8%  ABBV=  1.5%  AMD= 56.2%  IBM=  1.1%  util=0.746878  Δ=-0.003384
+  NOW+1%  NFLX= 20.3%  JNJ=  4.0%  WMT=  3.7%  BAC=  3.0%  CRM=  2.7%  ORCL=  2.6%  MRK=  2.0%  NOW=  2.9%  ABBV=  1.5%  AMD= 56.2%  IBM=  1.1%  util=0.751424  Δ=+0.001163
+  ABBV+1%  NFLX= 20.3%  JNJ=  4.0%  WMT=  3.7%  BAC=  3.0%  CRM=  2.7%  ORCL=  2.6%  MRK=  2.0%  NOW=  1.8%  ABBV=  2.6%  AMD= 56.2%  IBM=  1.1%  util=0.750447  Δ=+0.000186
+  AMD+1%  NFLX= 20.3%  JNJ=  4.0%  WMT=  3.7%  BAC=  3.0%  CRM=  2.7%  ORCL=  2.6%  MRK=  2.0%  NOW=  1.8%  ABBV=  1.5%  AMD= 57.3%  IBM=  1.1%  util=0.754111  Δ=+0.003849
+  IBM+1%  NFLX= 20.3%  JNJ=  4.0%  WMT=  3.7%  BAC=  3.0%  CRM=  2.7%  ORCL=  2.6%  MRK=  2.0%  NOW=  1.8%  ABBV=  1.5%  AMD= 56.2%  IBM=  2.2%  util=0.748677  Δ=-0.001584
+  ★ WINNER: NFLX  improvement=+0.003911
+────────────────────────────────────────────────────────────────────────
+Epoch 65  [startUtility=0.754172  feasible=11]
+  NFLX+1%  NFLX= 22.4%  JNJ=  3.9%  WMT=  3.6%  BAC=  2.9%  CRM=  2.6%  ORCL=  2.5%  MRK=  1.9%  NOW=  1.7%  ABBV=  1.4%  AMD= 56.1%  IBM=  1.0%  util=0.757940  Δ=+0.003768
+  JNJ+1%  NFLX= 21.3%  JNJ=  5.0%  WMT=  3.6%  BAC=  2.9%  CRM=  2.6%  ORCL=  2.5%  MRK=  1.9%  NOW=  1.7%  ABBV=  1.4%  AMD= 56.1%  IBM=  1.0%  util=0.751215  Δ=-0.002957
+  WMT+1%  NFLX= 21.3%  JNJ=  3.9%  WMT=  4.7%  BAC=  2.9%  CRM=  2.6%  ORCL=  2.5%  MRK=  1.9%  NOW=  1.7%  ABBV=  1.4%  AMD= 56.1%  IBM=  1.0%  util=0.753809  Δ=-0.000363
+  BAC+1%  NFLX= 21.3%  JNJ=  3.9%  WMT=  3.6%  BAC=  4.0%  CRM=  2.6%  ORCL=  2.5%  MRK=  1.9%  NOW=  1.7%  ABBV=  1.4%  AMD= 56.1%  IBM=  1.0%  util=0.754389  Δ=+0.000217
+  CRM+1%  NFLX= 21.3%  JNJ=  3.9%  WMT=  3.6%  BAC=  2.9%  CRM=  3.7%  ORCL=  2.5%  MRK=  1.9%  NOW=  1.7%  ABBV=  1.4%  AMD= 56.1%  IBM=  1.0%  util=0.752895  Δ=-0.001278
+  ORCL+1%  NFLX= 21.3%  JNJ=  3.9%  WMT=  3.6%  BAC=  2.9%  CRM=  2.6%  ORCL=  3.6%  MRK=  1.9%  NOW=  1.7%  ABBV=  1.4%  AMD= 56.1%  IBM=  1.0%  util=0.754374  Δ=+0.000202
+  MRK+1%  NFLX= 21.3%  JNJ=  3.9%  WMT=  3.6%  BAC=  2.9%  CRM=  2.6%  ORCL=  2.5%  MRK=  3.0%  NOW=  1.7%  ABBV=  1.4%  AMD= 56.1%  IBM=  1.0%  util=0.750808  Δ=-0.003364
+  NOW+1%  NFLX= 21.3%  JNJ=  3.9%  WMT=  3.6%  BAC=  2.9%  CRM=  2.6%  ORCL=  2.5%  MRK=  1.9%  NOW=  2.8%  ABBV=  1.4%  AMD= 56.1%  IBM=  1.0%  util=0.755322  Δ=+0.001150
+  ABBV+1%  NFLX= 21.3%  JNJ=  3.9%  WMT=  3.6%  BAC=  2.9%  CRM=  2.6%  ORCL=  2.5%  MRK=  1.9%  NOW=  1.7%  ABBV=  2.5%  AMD= 56.1%  IBM=  1.0%  util=0.754354  Δ=+0.000182
+  AMD+1%  NFLX= 21.3%  JNJ=  3.9%  WMT=  3.6%  BAC=  2.9%  CRM=  2.6%  ORCL=  2.5%  MRK=  1.9%  NOW=  1.7%  ABBV=  1.4%  AMD= 57.2%  IBM=  1.0%  util=0.758031  Δ=+0.003858
+  IBM+1%  NFLX= 21.3%  JNJ=  3.9%  WMT=  3.6%  BAC=  2.9%  CRM=  2.6%  ORCL=  2.5%  MRK=  1.9%  NOW=  1.7%  ABBV=  1.4%  AMD= 56.1%  IBM=  2.1%  util=0.752578  Δ=-0.001594
+  ★ WINNER: AMD  improvement=+0.003858
+────────────────────────────────────────────────────────────────────────
+Epoch 66  [startUtility=0.758031  feasible=11]
+  NFLX+1%  NFLX= 22.3%  JNJ=  3.8%  WMT=  3.5%  BAC=  2.8%  CRM=  2.5%  ORCL=  2.4%  MRK=  1.8%  NOW=  1.6%  ABBV=  1.3%  AMD= 57.1%  IBM=  0.9%  util=0.761862  Δ=+0.003831
+  JNJ+1%  NFLX= 21.2%  JNJ=  4.9%  WMT=  3.5%  BAC=  2.8%  CRM=  2.5%  ORCL=  2.4%  MRK=  1.8%  NOW=  1.6%  ABBV=  1.3%  AMD= 57.1%  IBM=  0.9%  util=0.755059  Δ=-0.002972
+  WMT+1%  NFLX= 21.2%  JNJ=  3.8%  WMT=  4.6%  BAC=  2.8%  CRM=  2.5%  ORCL=  2.4%  MRK=  1.8%  NOW=  1.6%  ABBV=  1.3%  AMD= 57.1%  IBM=  0.9%  util=0.757691  Δ=-0.000339
+  BAC+1%  NFLX= 21.2%  JNJ=  3.8%  WMT=  3.5%  BAC=  3.9%  CRM=  2.5%  ORCL=  2.4%  MRK=  1.8%  NOW=  1.6%  ABBV=  1.3%  AMD= 57.1%  IBM=  0.9%  util=0.758239  Δ=+0.000209
+  CRM+1%  NFLX= 21.2%  JNJ=  3.8%  WMT=  3.5%  BAC=  2.8%  CRM=  3.6%  ORCL=  2.4%  MRK=  1.8%  NOW=  1.6%  ABBV=  1.3%  AMD= 57.1%  IBM=  0.9%  util=0.756761  Δ=-0.001269
+  ORCL+1%  NFLX= 21.2%  JNJ=  3.8%  WMT=  3.5%  BAC=  2.8%  CRM=  2.5%  ORCL=  3.5%  MRK=  1.8%  NOW=  1.6%  ABBV=  1.3%  AMD= 57.1%  IBM=  0.9%  util=0.758252  Δ=+0.000222
+  MRK+1%  NFLX= 21.2%  JNJ=  3.8%  WMT=  3.5%  BAC=  2.8%  CRM=  2.5%  ORCL=  2.4%  MRK=  2.9%  NOW=  1.6%  ABBV=  1.3%  AMD= 57.1%  IBM=  0.9%  util=0.754639  Δ=-0.003392
+  NOW+1%  NFLX= 21.2%  JNJ=  3.8%  WMT=  3.5%  BAC=  2.8%  CRM=  2.5%  ORCL=  2.4%  MRK=  1.8%  NOW=  2.7%  ABBV=  1.3%  AMD= 57.1%  IBM=  0.9%  util=0.759205  Δ=+0.001174
+  ABBV+1%  NFLX= 21.2%  JNJ=  3.8%  WMT=  3.5%  BAC=  2.8%  CRM=  2.5%  ORCL=  2.4%  MRK=  1.8%  NOW=  1.6%  ABBV=  2.4%  AMD= 57.1%  IBM=  0.9%  util=0.758222  Δ=+0.000192
+  AMD+1%  NFLX= 21.2%  JNJ=  3.8%  WMT=  3.5%  BAC=  2.8%  CRM=  2.5%  ORCL=  2.4%  MRK=  1.8%  NOW=  1.6%  ABBV=  1.3%  AMD= 58.2%  IBM=  0.9%  util=0.761855  Δ=+0.003824
+  IBM+1%  NFLX= 21.2%  JNJ=  3.8%  WMT=  3.5%  BAC=  2.8%  CRM=  2.5%  ORCL=  2.4%  MRK=  1.8%  NOW=  1.6%  ABBV=  1.3%  AMD= 57.1%  IBM=  2.0%  util=0.756464  Δ=-0.001567
+  ★ WINNER: NFLX  improvement=+0.003831
+────────────────────────────────────────────────────────────────────────
+Epoch 67  [startUtility=0.761862  feasible=11]
+  NFLX+1%  NFLX= 23.3%  JNJ=  3.7%  WMT=  3.4%  BAC=  2.7%  CRM=  2.4%  ORCL=  2.3%  MRK=  1.7%  NOW=  1.5%  ABBV=  1.2%  AMD= 57.0%  IBM=  0.8%  util=0.765591  Δ=+0.003729
+  JNJ+1%  NFLX= 22.2%  JNJ=  4.8%  WMT=  3.4%  BAC=  2.7%  CRM=  2.4%  ORCL=  2.3%  MRK=  1.7%  NOW=  1.5%  ABBV=  1.2%  AMD= 57.0%  IBM=  0.8%  util=0.758907  Δ=-0.002954
+  WMT+1%  NFLX= 22.2%  JNJ=  3.7%  WMT=  4.5%  BAC=  2.7%  CRM=  2.4%  ORCL=  2.3%  MRK=  1.7%  NOW=  1.5%  ABBV=  1.2%  AMD= 57.0%  IBM=  0.8%  util=0.761507  Δ=-0.000355
+  BAC+1%  NFLX= 22.2%  JNJ=  3.7%  WMT=  3.4%  BAC=  3.8%  CRM=  2.4%  ORCL=  2.3%  MRK=  1.7%  NOW=  1.5%  ABBV=  1.2%  AMD= 57.0%  IBM=  0.8%  util=0.762074  Δ=+0.000213
+  CRM+1%  NFLX= 22.2%  JNJ=  3.7%  WMT=  3.4%  BAC=  2.7%  CRM=  3.5%  ORCL=  2.3%  MRK=  1.7%  NOW=  1.5%  ABBV=  1.2%  AMD= 57.0%  IBM=  0.8%  util=0.760609  Δ=-0.001252
+  ORCL+1%  NFLX= 22.2%  JNJ=  3.7%  WMT=  3.4%  BAC=  2.7%  CRM=  2.4%  ORCL=  3.4%  MRK=  1.7%  NOW=  1.5%  ABBV=  1.2%  AMD= 57.0%  IBM=  0.8%  util=0.762103  Δ=+0.000241
+  MRK+1%  NFLX= 22.2%  JNJ=  3.7%  WMT=  3.4%  BAC=  2.7%  CRM=  2.4%  ORCL=  2.3%  MRK=  2.8%  NOW=  1.5%  ABBV=  1.2%  AMD= 57.0%  IBM=  0.8%  util=0.758486  Δ=-0.003375
+  NOW+1%  NFLX= 22.2%  JNJ=  3.7%  WMT=  3.4%  BAC=  2.7%  CRM=  2.4%  ORCL=  2.3%  MRK=  1.7%  NOW=  2.6%  ABBV=  1.2%  AMD= 57.0%  IBM=  0.8%  util=0.763058  Δ=+0.001196
+  ABBV+1%  NFLX= 22.2%  JNJ=  3.7%  WMT=  3.4%  BAC=  2.7%  CRM=  2.4%  ORCL=  2.3%  MRK=  1.7%  NOW=  1.5%  ABBV=  2.3%  AMD= 57.0%  IBM=  0.8%  util=0.762063  Δ=+0.000201
+  AMD+1%  NFLX= 22.2%  JNJ=  3.7%  WMT=  3.4%  BAC=  2.7%  CRM=  2.4%  ORCL=  2.3%  MRK=  1.7%  NOW=  1.5%  ABBV=  1.2%  AMD= 58.1%  IBM=  0.8%  util=0.765740  Δ=+0.003879
+  IBM+1%  NFLX= 22.2%  JNJ=  3.7%  WMT=  3.4%  BAC=  2.7%  CRM=  2.4%  ORCL=  2.3%  MRK=  1.7%  NOW=  1.5%  ABBV=  1.2%  AMD= 57.0%  IBM=  1.9%  util=0.760287  Δ=-0.001575
+  ★ WINNER: AMD  improvement=+0.003879
+────────────────────────────────────────────────────────────────────────
+Epoch 68  [startUtility=0.765740  feasible=11]
+  NFLX+1%  NFLX= 23.2%  JNJ=  3.6%  WMT=  3.3%  BAC=  2.6%  CRM=  2.3%  ORCL=  2.2%  MRK=  1.6%  NOW=  1.4%  ABBV=  1.1%  AMD= 58.0%  IBM=  0.7%  util=0.769519  Δ=+0.003778
+  JNJ+1%  NFLX= 22.1%  JNJ=  4.7%  WMT=  3.3%  BAC=  2.6%  CRM=  2.3%  ORCL=  2.2%  MRK=  1.6%  NOW=  1.4%  ABBV=  1.1%  AMD= 58.0%  IBM=  0.7%  util=0.762766  Δ=-0.002975
+  WMT+1%  NFLX= 22.1%  JNJ=  3.6%  WMT=  4.4%  BAC=  2.6%  CRM=  2.3%  ORCL=  2.2%  MRK=  1.6%  NOW=  1.4%  ABBV=  1.1%  AMD= 58.0%  IBM=  0.7%  util=0.765381  Δ=-0.000359
+  BAC+1%  NFLX= 22.1%  JNJ=  3.6%  WMT=  3.3%  BAC=  3.7%  CRM=  2.3%  ORCL=  2.2%  MRK=  1.6%  NOW=  1.4%  ABBV=  1.1%  AMD= 58.0%  IBM=  0.7%  util=0.765952  Δ=+0.000212
+  CRM+1%  NFLX= 22.1%  JNJ=  3.6%  WMT=  3.3%  BAC=  2.6%  CRM=  3.4%  ORCL=  2.2%  MRK=  1.6%  NOW=  1.4%  ABBV=  1.1%  AMD= 58.0%  IBM=  0.7%  util=0.764471  Δ=-0.001269
+  ORCL+1%  NFLX= 22.1%  JNJ=  3.6%  WMT=  3.3%  BAC=  2.6%  CRM=  2.3%  ORCL=  3.3%  MRK=  1.6%  NOW=  1.4%  ABBV=  1.1%  AMD= 58.0%  IBM=  0.7%  util=0.765985  Δ=+0.000244
+  MRK+1%  NFLX= 22.1%  JNJ=  3.6%  WMT=  3.3%  BAC=  2.6%  CRM=  2.3%  ORCL=  2.2%  MRK=  2.7%  NOW=  1.4%  ABBV=  1.1%  AMD= 58.0%  IBM=  0.7%  util=0.762302  Δ=-0.003438
+  NOW+1%  NFLX= 22.1%  JNJ=  3.6%  WMT=  3.3%  BAC=  2.6%  CRM=  2.3%  ORCL=  2.2%  MRK=  1.6%  NOW=  2.5%  ABBV=  1.1%  AMD= 58.0%  IBM=  0.7%  util=0.766922  Δ=+0.001182
+  ABBV+1%  NFLX= 22.1%  JNJ=  3.6%  WMT=  3.3%  BAC=  2.6%  CRM=  2.3%  ORCL=  2.2%  MRK=  1.6%  NOW=  1.4%  ABBV=  2.2%  AMD= 58.0%  IBM=  0.7%  util=0.765930  Δ=+0.000190
+  AMD+1%  NFLX= 22.1%  JNJ=  3.6%  WMT=  3.3%  BAC=  2.6%  CRM=  2.3%  ORCL=  2.2%  MRK=  1.6%  NOW=  1.4%  ABBV=  1.1%  AMD= 59.1%  IBM=  0.7%  util=0.769510  Δ=+0.003770
+  IBM+1%  NFLX= 22.1%  JNJ=  3.6%  WMT=  3.3%  BAC=  2.6%  CRM=  2.3%  ORCL=  2.2%  MRK=  1.6%  NOW=  1.4%  ABBV=  1.1%  AMD= 58.0%  IBM=  1.8%  util=0.764173  Δ=-0.001567
+  ★ WINNER: NFLX  improvement=+0.003778
+────────────────────────────────────────────────────────────────────────
+Epoch 69  [startUtility=0.769519  feasible=11]
+  NFLX+1%  NFLX= 24.2%  JNJ=  3.5%  WMT=  3.2%  BAC=  2.5%  CRM=  2.2%  ORCL=  2.1%  MRK=  1.5%  NOW=  1.3%  ABBV=  1.0%  AMD= 57.9%  IBM=  0.6%  util=0.773208  Δ=+0.003689
+  JNJ+1%  NFLX= 23.1%  JNJ=  4.6%  WMT=  3.2%  BAC=  2.5%  CRM=  2.2%  ORCL=  2.1%  MRK=  1.5%  NOW=  1.3%  ABBV=  1.0%  AMD= 57.9%  IBM=  0.6%  util=0.766554  Δ=-0.002965
+  WMT+1%  NFLX= 23.1%  JNJ=  3.5%  WMT=  4.3%  BAC=  2.5%  CRM=  2.2%  ORCL=  2.1%  MRK=  1.5%  NOW=  1.3%  ABBV=  1.0%  AMD= 57.9%  IBM=  0.6%  util=0.769153  Δ=-0.000366
+  BAC+1%  NFLX= 23.1%  JNJ=  3.5%  WMT=  3.2%  BAC=  3.6%  CRM=  2.2%  ORCL=  2.1%  MRK=  1.5%  NOW=  1.3%  ABBV=  1.0%  AMD= 57.9%  IBM=  0.6%  util=0.769734  Δ=+0.000216
+  CRM+1%  NFLX= 23.1%  JNJ=  3.5%  WMT=  3.2%  BAC=  2.5%  CRM=  3.3%  ORCL=  2.1%  MRK=  1.5%  NOW=  1.3%  ABBV=  1.0%  AMD= 57.9%  IBM=  0.6%  util=0.768265  Δ=-0.001254
+  ORCL+1%  NFLX= 23.1%  JNJ=  3.5%  WMT=  3.2%  BAC=  2.5%  CRM=  2.2%  ORCL=  3.2%  MRK=  1.5%  NOW=  1.3%  ABBV=  1.0%  AMD= 57.9%  IBM=  0.6%  util=0.769785  Δ=+0.000267
+  MRK+1%  NFLX= 23.1%  JNJ=  3.5%  WMT=  3.2%  BAC=  2.5%  CRM=  2.2%  ORCL=  2.1%  MRK=  2.6%  NOW=  1.3%  ABBV=  1.0%  AMD= 57.9%  IBM=  0.6%  util=0.766091  Δ=-0.003428
+  NOW+1%  NFLX= 23.1%  JNJ=  3.5%  WMT=  3.2%  BAC=  2.5%  CRM=  2.2%  ORCL=  2.1%  MRK=  1.5%  NOW=  2.4%  ABBV=  1.0%  AMD= 57.9%  IBM=  0.6%  util=0.770711  Δ=+0.001193
+  ABBV+1%  NFLX= 23.1%  JNJ=  3.5%  WMT=  3.2%  BAC=  2.5%  CRM=  2.2%  ORCL=  2.1%  MRK=  1.5%  NOW=  1.3%  ABBV=  2.1%  AMD= 57.9%  IBM=  0.6%  util=0.769713  Δ=+0.000194
+  AMD+1%  NFLX= 23.1%  JNJ=  3.5%  WMT=  3.2%  BAC=  2.5%  CRM=  2.2%  ORCL=  2.1%  MRK=  1.5%  NOW=  1.3%  ABBV=  1.0%  AMD= 59.0%  IBM=  0.6%  util=0.773340  Δ=+0.003822
+  IBM+1%  NFLX= 23.1%  JNJ=  3.5%  WMT=  3.2%  BAC=  2.5%  CRM=  2.2%  ORCL=  2.1%  MRK=  1.5%  NOW=  1.3%  ABBV=  1.0%  AMD= 57.9%  IBM=  1.7%  util=0.767949  Δ=-0.001570
+  ★ WINNER: AMD  improvement=+0.003822
+────────────────────────────────────────────────────────────────────────
+Epoch 70  [startUtility=0.773340  feasible=11]
+  NFLX+1%  NFLX= 24.1%  JNJ=  3.4%  WMT=  3.1%  BAC=  2.4%  CRM=  2.1%  ORCL=  2.0%  MRK=  1.4%  NOW=  1.2%  ABBV=  0.9%  AMD= 58.9%  IBM=  0.5%  util=0.777091  Δ=+0.003751
+  JNJ+1%  NFLX= 23.0%  JNJ=  4.5%  WMT=  3.1%  BAC=  2.4%  CRM=  2.1%  ORCL=  2.0%  MRK=  1.4%  NOW=  1.2%  ABBV=  0.9%  AMD= 58.9%  IBM=  0.5%  util=0.770359  Δ=-0.002981
+  WMT+1%  NFLX= 23.0%  JNJ=  3.4%  WMT=  4.2%  BAC=  2.4%  CRM=  2.1%  ORCL=  2.0%  MRK=  1.4%  NOW=  1.2%  ABBV=  0.9%  AMD= 58.9%  IBM=  0.5%  util=0.772992  Δ=-0.000349
+  BAC+1%  NFLX= 23.0%  JNJ=  3.4%  WMT=  3.1%  BAC=  3.5%  CRM=  2.1%  ORCL=  2.0%  MRK=  1.4%  NOW=  1.2%  ABBV=  0.9%  AMD= 58.9%  IBM=  0.5%  util=0.773567  Δ=+0.000227
+  CRM+1%  NFLX= 23.0%  JNJ=  3.4%  WMT=  3.1%  BAC=  2.4%  CRM=  3.2%  ORCL=  2.0%  MRK=  1.4%  NOW=  1.2%  ABBV=  0.9%  AMD= 58.9%  IBM=  0.5%  util=0.772087  Δ=-0.001254
+  ORCL+1%  NFLX= 23.0%  JNJ=  3.4%  WMT=  3.1%  BAC=  2.4%  CRM=  2.1%  ORCL=  3.1%  MRK=  1.4%  NOW=  1.2%  ABBV=  0.9%  AMD= 58.9%  IBM=  0.5%  util=0.773636  Δ=+0.000295
+  MRK+1%  NFLX= 23.0%  JNJ=  3.4%  WMT=  3.1%  BAC=  2.4%  CRM=  2.1%  ORCL=  2.0%  MRK=  2.5%  NOW=  1.2%  ABBV=  0.9%  AMD= 58.9%  IBM=  0.5%  util=0.769900  Δ=-0.003440
+  NOW+1%  NFLX= 23.0%  JNJ=  3.4%  WMT=  3.1%  BAC=  2.4%  CRM=  2.1%  ORCL=  2.0%  MRK=  1.4%  NOW=  2.3%  ABBV=  0.9%  AMD= 58.9%  IBM=  0.5%  util=0.774556  Δ=+0.001216
+  ABBV+1%  NFLX= 23.0%  JNJ=  3.4%  WMT=  3.1%  BAC=  2.4%  CRM=  2.1%  ORCL=  2.0%  MRK=  1.4%  NOW=  1.2%  ABBV=  2.0%  AMD= 58.9%  IBM=  0.5%  util=0.773553  Δ=+0.000213
+  AMD+1%  NFLX= 23.0%  JNJ=  3.4%  WMT=  3.1%  BAC=  2.4%  CRM=  2.1%  ORCL=  2.0%  MRK=  1.4%  NOW=  1.2%  ABBV=  0.9%  AMD= 60.0%  IBM=  0.5%  util=0.777120  Δ=+0.003780
+  IBM+1%  NFLX= 23.0%  JNJ=  3.4%  WMT=  3.1%  BAC=  2.4%  CRM=  2.1%  ORCL=  2.0%  MRK=  1.4%  NOW=  1.2%  ABBV=  0.9%  AMD= 58.9%  IBM=  1.6%  util=0.771795  Δ=-0.001546
+  ★ WINNER: AMD  improvement=+0.003780
+────────────────────────────────────────────────────────────────────────
+Epoch 71  [startUtility=0.777120  feasible=11]
+  NFLX+1%  NFLX= 24.0%  JNJ=  3.3%  WMT=  3.0%  BAC=  2.3%  CRM=  2.0%  ORCL=  1.9%  MRK=  1.3%  NOW=  1.1%  ABBV=  0.8%  AMD= 59.9%  IBM=  0.4%  util=0.780920  Δ=+0.003800
+  JNJ+1%  NFLX= 22.9%  JNJ=  4.4%  WMT=  3.0%  BAC=  2.3%  CRM=  2.0%  ORCL=  1.9%  MRK=  1.3%  NOW=  1.1%  ABBV=  0.8%  AMD= 59.9%  IBM=  0.4%  util=0.774138  Δ=-0.002982
+  WMT+1%  NFLX= 22.9%  JNJ=  3.3%  WMT=  4.1%  BAC=  2.3%  CRM=  2.0%  ORCL=  1.9%  MRK=  1.3%  NOW=  1.1%  ABBV=  0.8%  AMD= 59.9%  IBM=  0.4%  util=0.776783  Δ=-0.000337
+  BAC+1%  NFLX= 22.9%  JNJ=  3.3%  WMT=  3.0%  BAC=  3.4%  CRM=  2.0%  ORCL=  1.9%  MRK=  1.3%  NOW=  1.1%  ABBV=  0.8%  AMD= 59.9%  IBM=  0.4%  util=0.777330  Δ=+0.000210
+  CRM+1%  NFLX= 22.9%  JNJ=  3.3%  WMT=  3.0%  BAC=  2.3%  CRM=  3.1%  ORCL=  1.9%  MRK=  1.3%  NOW=  1.1%  ABBV=  0.8%  AMD= 59.9%  IBM=  0.4%  util=0.775861  Δ=-0.001259
+  ORCL+1%  NFLX= 22.9%  JNJ=  3.3%  WMT=  3.0%  BAC=  2.3%  CRM=  2.0%  ORCL=  3.0%  MRK=  1.3%  NOW=  1.1%  ABBV=  0.8%  AMD= 59.9%  IBM=  0.4%  util=0.777443  Δ=+0.000323
+  MRK+1%  NFLX= 22.9%  JNJ=  3.3%  WMT=  3.0%  BAC=  2.3%  CRM=  2.0%  ORCL=  1.9%  MRK=  2.4%  NOW=  1.1%  ABBV=  0.8%  AMD= 59.9%  IBM=  0.4%  util=0.773698  Δ=-0.003422
+  NOW+1%  NFLX= 22.9%  JNJ=  3.3%  WMT=  3.0%  BAC=  2.3%  CRM=  2.0%  ORCL=  1.9%  MRK=  1.3%  NOW=  2.2%  ABBV=  0.8%  AMD= 59.9%  IBM=  0.4%  util=0.778330  Δ=+0.001210
+  ABBV+1%  NFLX= 22.9%  JNJ=  3.3%  WMT=  3.0%  BAC=  2.3%  CRM=  2.0%  ORCL=  1.9%  MRK=  1.3%  NOW=  1.1%  ABBV=  1.9%  AMD= 59.9%  IBM=  0.4%  util=0.777366  Δ=+0.000246
+  AMD+1%  NFLX= 22.9%  JNJ=  3.3%  WMT=  3.0%  BAC=  2.3%  CRM=  2.0%  ORCL=  1.9%  MRK=  1.3%  NOW=  1.1%  ABBV=  0.8%  AMD= 61.0%  IBM=  0.4%  util=0.780881  Δ=+0.003761
+  IBM+1%  NFLX= 22.9%  JNJ=  3.3%  WMT=  3.0%  BAC=  2.3%  CRM=  2.0%  ORCL=  1.9%  MRK=  1.3%  NOW=  1.1%  ABBV=  0.8%  AMD= 59.9%  IBM=  1.5%  util=0.775601  Δ=-0.001519
+  ★ WINNER: NFLX  improvement=+0.003800
+────────────────────────────────────────────────────────────────────────
+Epoch 72  [startUtility=0.780920  feasible=11]
+  NFLX+1%  NFLX= 25.0%  JNJ=  3.2%  WMT=  2.9%  BAC=  2.2%  CRM=  1.9%  ORCL=  1.8%  MRK=  1.2%  NOW=  1.0%  ABBV=  0.7%  AMD= 59.8%  IBM=  0.3%  util=0.784625  Δ=+0.003706
+  JNJ+1%  NFLX= 23.9%  JNJ=  4.3%  WMT=  2.9%  BAC=  2.2%  CRM=  1.9%  ORCL=  1.8%  MRK=  1.2%  NOW=  1.0%  ABBV=  0.7%  AMD= 59.8%  IBM=  0.3%  util=0.777945  Δ=-0.002975
+  WMT+1%  NFLX= 23.9%  JNJ=  3.2%  WMT=  4.0%  BAC=  2.2%  CRM=  1.9%  ORCL=  1.8%  MRK=  1.2%  NOW=  1.0%  ABBV=  0.7%  AMD= 59.8%  IBM=  0.3%  util=0.780568  Δ=-0.000352
+  BAC+1%  NFLX= 23.9%  JNJ=  3.2%  WMT=  2.9%  BAC=  3.3%  CRM=  1.9%  ORCL=  1.8%  MRK=  1.2%  NOW=  1.0%  ABBV=  0.7%  AMD= 59.8%  IBM=  0.3%  util=0.781138  Δ=+0.000218
+  CRM+1%  NFLX= 23.9%  JNJ=  3.2%  WMT=  2.9%  BAC=  2.2%  CRM=  3.0%  ORCL=  1.8%  MRK=  1.2%  NOW=  1.0%  ABBV=  0.7%  AMD= 59.8%  IBM=  0.3%  util=0.779664  Δ=-0.001256
+  ORCL+1%  NFLX= 23.9%  JNJ=  3.2%  WMT=  2.9%  BAC=  2.2%  CRM=  1.9%  ORCL=  2.9%  MRK=  1.2%  NOW=  1.0%  ABBV=  0.7%  AMD= 59.8%  IBM=  0.3%  util=0.781236  Δ=+0.000316
+  MRK+1%  NFLX= 23.9%  JNJ=  3.2%  WMT=  2.9%  BAC=  2.2%  CRM=  1.9%  ORCL=  1.8%  MRK=  2.3%  NOW=  1.0%  ABBV=  0.7%  AMD= 59.8%  IBM=  0.3%  util=0.777478  Δ=-0.003442
+  NOW+1%  NFLX= 23.9%  JNJ=  3.2%  WMT=  2.9%  BAC=  2.2%  CRM=  1.9%  ORCL=  1.8%  MRK=  1.2%  NOW=  2.1%  ABBV=  0.7%  AMD= 59.8%  IBM=  0.3%  util=0.782135  Δ=+0.001215
+  ABBV+1%  NFLX= 23.9%  JNJ=  3.2%  WMT=  2.9%  BAC=  2.2%  CRM=  1.9%  ORCL=  1.8%  MRK=  1.2%  NOW=  1.0%  ABBV=  1.8%  AMD= 59.8%  IBM=  0.3%  util=0.781156  Δ=+0.000236
+  AMD+1%  NFLX= 23.9%  JNJ=  3.2%  WMT=  2.9%  BAC=  2.2%  CRM=  1.9%  ORCL=  1.8%  MRK=  1.2%  NOW=  1.0%  ABBV=  0.7%  AMD= 60.9%  IBM=  0.3%  util=0.784696  Δ=+0.003776
+  IBM+1%  NFLX= 23.9%  JNJ=  3.2%  WMT=  2.9%  BAC=  2.2%  CRM=  1.9%  ORCL=  1.8%  MRK=  1.2%  NOW=  1.0%  ABBV=  0.7%  AMD= 59.8%  IBM=  1.4%  util=0.779376  Δ=-0.001544
+  ★ WINNER: AMD  improvement=+0.003776
+────────────────────────────────────────────────────────────────────────
+Epoch 73  [startUtility=0.784696  feasible=11]
+  NFLX+1%  NFLX= 24.9%  JNJ=  3.1%  WMT=  2.8%  BAC=  2.1%  CRM=  1.8%  ORCL=  1.7%  MRK=  1.1%  NOW=  0.9%  ABBV=  0.6%  AMD= 60.8%  IBM=  0.2%  util=0.788477  Δ=+0.003781
+  JNJ+1%  NFLX= 23.8%  JNJ=  4.2%  WMT=  2.8%  BAC=  2.1%  CRM=  1.8%  ORCL=  1.7%  MRK=  1.1%  NOW=  0.9%  ABBV=  0.6%  AMD= 60.8%  IBM=  0.2%  util=0.781721  Δ=-0.002974
+  WMT+1%  NFLX= 23.8%  JNJ=  3.1%  WMT=  3.9%  BAC=  2.1%  CRM=  1.8%  ORCL=  1.7%  MRK=  1.1%  NOW=  0.9%  ABBV=  0.6%  AMD= 60.8%  IBM=  0.2%  util=0.784366  Δ=-0.000330
+  BAC+1%  NFLX= 23.8%  JNJ=  3.1%  WMT=  2.8%  BAC=  3.2%  CRM=  1.8%  ORCL=  1.7%  MRK=  1.1%  NOW=  0.9%  ABBV=  0.6%  AMD= 60.8%  IBM=  0.2%  util=0.784895  Δ=+0.000200
+  CRM+1%  NFLX= 23.8%  JNJ=  3.1%  WMT=  2.8%  BAC=  2.1%  CRM=  2.9%  ORCL=  1.7%  MRK=  1.1%  NOW=  0.9%  ABBV=  0.6%  AMD= 60.8%  IBM=  0.2%  util=0.783446  Δ=-0.001249
+  ORCL+1%  NFLX= 23.8%  JNJ=  3.1%  WMT=  2.8%  BAC=  2.1%  CRM=  1.8%  ORCL=  2.8%  MRK=  1.1%  NOW=  0.9%  ABBV=  0.6%  AMD= 60.8%  IBM=  0.2%  util=0.785023  Δ=+0.000327
+  MRK+1%  NFLX= 23.8%  JNJ=  3.1%  WMT=  2.8%  BAC=  2.1%  CRM=  1.8%  ORCL=  1.7%  MRK=  2.2%  NOW=  0.9%  ABBV=  0.6%  AMD= 60.8%  IBM=  0.2%  util=0.781273  Δ=-0.003423
+  NOW+1%  NFLX= 23.8%  JNJ=  3.1%  WMT=  2.8%  BAC=  2.1%  CRM=  1.8%  ORCL=  1.7%  MRK=  1.1%  NOW=  2.0%  ABBV=  0.6%  AMD= 60.8%  IBM=  0.2%  util=0.785924  Δ=+0.001229
+  ABBV+1%  NFLX= 23.8%  JNJ=  3.1%  WMT=  2.8%  BAC=  2.1%  CRM=  1.8%  ORCL=  1.7%  MRK=  1.1%  NOW=  0.9%  ABBV=  1.7%  AMD= 60.8%  IBM=  0.2%  util=0.784959  Δ=+0.000264
+  AMD+1%  NFLX= 23.8%  JNJ=  3.1%  WMT=  2.8%  BAC=  2.1%  CRM=  1.8%  ORCL=  1.7%  MRK=  1.1%  NOW=  0.9%  ABBV=  0.6%  AMD= 61.9%  IBM=  0.2%  util=0.788466  Δ=+0.003770
+  IBM+1%  NFLX= 23.8%  JNJ=  3.1%  WMT=  2.8%  BAC=  2.1%  CRM=  1.8%  ORCL=  1.7%  MRK=  1.1%  NOW=  0.9%  ABBV=  0.6%  AMD= 60.8%  IBM=  1.3%  util=0.783183  Δ=-0.001513
+  ★ WINNER: NFLX  improvement=+0.003781
+────────────────────────────────────────────────────────────────────────
+Epoch 74  [startUtility=0.788477  feasible=11]
+  NFLX+1%  NFLX= 25.9%  JNJ=  3.0%  WMT=  2.7%  BAC=  2.0%  CRM=  1.7%  ORCL=  1.6%  MRK=  1.0%  NOW=  0.8%  ABBV=  0.5%  AMD= 60.7%  IBM=  0.1%  util=0.792136  Δ=+0.003659
+  JNJ+1%  NFLX= 24.8%  JNJ=  4.1%  WMT=  2.7%  BAC=  2.0%  CRM=  1.7%  ORCL=  1.6%  MRK=  1.0%  NOW=  0.8%  ABBV=  0.5%  AMD= 60.7%  IBM=  0.1%  util=0.785506  Δ=-0.002971
+  WMT+1%  NFLX= 24.8%  JNJ=  3.0%  WMT=  3.8%  BAC=  2.0%  CRM=  1.7%  ORCL=  1.6%  MRK=  1.0%  NOW=  0.8%  ABBV=  0.5%  AMD= 60.7%  IBM=  0.1%  util=0.788119  Δ=-0.000357
+  BAC+1%  NFLX= 24.8%  JNJ=  3.0%  WMT=  2.7%  BAC=  3.1%  CRM=  1.7%  ORCL=  1.6%  MRK=  1.0%  NOW=  0.8%  ABBV=  0.5%  AMD= 60.7%  IBM=  0.1%  util=0.788682  Δ=+0.000206
+  CRM+1%  NFLX= 24.8%  JNJ=  3.0%  WMT=  2.7%  BAC=  2.0%  CRM=  2.8%  ORCL=  1.6%  MRK=  1.0%  NOW=  0.8%  ABBV=  0.5%  AMD= 60.7%  IBM=  0.1%  util=0.787231  Δ=-0.001246
+  ORCL+1%  NFLX= 24.8%  JNJ=  3.0%  WMT=  2.7%  BAC=  2.0%  CRM=  1.7%  ORCL=  2.7%  MRK=  1.0%  NOW=  0.8%  ABBV=  0.5%  AMD= 60.7%  IBM=  0.1%  util=0.788809  Δ=+0.000332
+  MRK+1%  NFLX= 24.8%  JNJ=  3.0%  WMT=  2.7%  BAC=  2.0%  CRM=  1.7%  ORCL=  1.6%  MRK=  2.1%  NOW=  0.8%  ABBV=  0.5%  AMD= 60.7%  IBM=  0.1%  util=0.785027  Δ=-0.003449
+  NOW+1%  NFLX= 24.8%  JNJ=  3.0%  WMT=  2.7%  BAC=  2.0%  CRM=  1.7%  ORCL=  1.6%  MRK=  1.0%  NOW=  1.9%  ABBV=  0.5%  AMD= 60.7%  IBM=  0.1%  util=0.789697  Δ=+0.001221
+  ABBV+1%  NFLX= 24.8%  JNJ=  3.0%  WMT=  2.7%  BAC=  2.0%  CRM=  1.7%  ORCL=  1.6%  MRK=  1.0%  NOW=  0.8%  ABBV=  1.6%  AMD= 60.7%  IBM=  0.1%  util=0.788730  Δ=+0.000253
+  AMD+1%  NFLX= 24.8%  JNJ=  3.0%  WMT=  2.7%  BAC=  2.0%  CRM=  1.7%  ORCL=  1.6%  MRK=  1.0%  NOW=  0.8%  ABBV=  0.5%  AMD= 61.8%  IBM=  0.1%  util=0.792266  Δ=+0.003789
+  IBM+1%  NFLX= 24.8%  JNJ=  3.0%  WMT=  2.7%  BAC=  2.0%  CRM=  1.7%  ORCL=  1.6%  MRK=  1.0%  NOW=  0.8%  ABBV=  0.5%  AMD= 60.7%  IBM=  1.2%  util=0.786946  Δ=-0.001531
+  ★ WINNER: AMD  improvement=+0.003789
+────────────────────────────────────────────────────────────────────────
+Epoch 75  [startUtility=0.792266  feasible=1]
+  IBM+1%  NFLX= 24.7%  JNJ=  2.9%  WMT=  2.6%  BAC=  1.9%  CRM=  1.6%  ORCL=  1.5%  MRK=  0.9%  NOW=  0.7%  ABBV=  0.4%  AMD= 61.7%  IBM=  1.1%  util=0.790750  Δ=-0.001516
+  ✗ STOPPED: no_improvement
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.792266  (gain=+0.360911  epochs=76)

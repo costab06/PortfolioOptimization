@@ -1,0 +1,56 @@
+package com.bcfinancial.portfolio;
+
+import java.util.*;
+
+import java.io.Serializable;
+import java.util.logging.Logger;
+
+public class Portfolio implements Serializable {
+    private static final Logger logger =
+        Logger.getLogger(Portfolio.class.getName());
+    
+    
+    String[] symbols = null;
+    double[] weights = null;
+
+    
+    public Portfolio (String[] symbols, double[] weights) {
+	this.symbols = symbols;
+	this.weights = weights;
+    }
+
+    public String[] getSymbols() {
+	return symbols;
+    }
+
+    public void setWeights(double[] weights) {
+	this.weights=weights;
+    }
+
+    public double[] getWeights() {
+	return weights;
+    }
+
+    
+    public String toString() {
+	String ret = new String("\n");
+	double total = 0.0;
+	    for(int i=0;i<symbols.length;i++) {
+		ret+=symbols[i]+"  "+weights[i]+"\n";
+		total += weights[i];
+	    }
+	ret+="Total: "+(total *100)+"%";
+	return ret;
+    }
+    
+    public Portfolio deepCopy() {
+	String[] s = new String[symbols.length];
+	double[] w = new double[weights.length];
+	for (int i=0;i<symbols.length;i++) {
+	    s[i] = new String(symbols[i]);
+	    w[i] = weights[i];
+	}
+	return new Portfolio(s,w);
+    }
+    
+}

@@ -1,0 +1,569 @@
+=== OPTIMIZATION DEBUG: SP-10 ===
+Time:   Thu Apr 02 12:22:17 EDT 2026
+Start:  AAPL= 21.0%  MSFT= 17.6%  NVDA= 16.4%  AMZN= 10.8%  GOOGL=  7.4%  META=  7.1%  GOOG=  5.4%  TSLA=  4.8%  AVGO=  4.8%  BRK-B=  4.8%
+        utility = 0.600845
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.600845  feasible=10]
+  AAPL+1%  AAPL= 22.0%  MSFT= 17.5%  NVDA= 16.3%  AMZN= 10.7%  GOOGL=  7.3%  META=  7.0%  GOOG=  5.3%  TSLA=  4.7%  AVGO=  4.7%  BRK-B=  4.7%  util=0.598971  Δ=-0.001874
+  MSFT+1%  AAPL= 20.9%  MSFT= 18.6%  NVDA= 16.3%  AMZN= 10.7%  GOOGL=  7.3%  META=  7.0%  GOOG=  5.3%  TSLA=  4.7%  AVGO=  4.7%  BRK-B=  4.7%  util=0.598262  Δ=-0.002584
+  NVDA+1%  AAPL= 20.9%  MSFT= 17.5%  NVDA= 17.4%  AMZN= 10.7%  GOOGL=  7.3%  META=  7.0%  GOOG=  5.3%  TSLA=  4.7%  AVGO=  4.7%  BRK-B=  4.7%  util=0.607787  Δ=+0.006942
+  AMZN+1%  AAPL= 20.9%  MSFT= 17.5%  NVDA= 16.3%  AMZN= 11.8%  GOOGL=  7.3%  META=  7.0%  GOOG=  5.3%  TSLA=  4.7%  AVGO=  4.7%  BRK-B=  4.7%  util=0.598313  Δ=-0.002533
+  GOOGL+1%  AAPL= 20.9%  MSFT= 17.5%  NVDA= 16.3%  AMZN= 10.7%  GOOGL=  8.4%  META=  7.0%  GOOG=  5.3%  TSLA=  4.7%  AVGO=  4.7%  BRK-B=  4.7%  util=0.598428  Δ=-0.002417
+  META+1%  AAPL= 20.9%  MSFT= 17.5%  NVDA= 16.3%  AMZN= 10.7%  GOOGL=  7.3%  META=  8.1%  GOOG=  5.3%  TSLA=  4.7%  AVGO=  4.7%  BRK-B=  4.7%  util=0.599079  Δ=-0.001767
+  GOOG+1%  AAPL= 20.9%  MSFT= 17.5%  NVDA= 16.3%  AMZN= 10.7%  GOOGL=  7.3%  META=  7.0%  GOOG=  6.4%  TSLA=  4.7%  AVGO=  4.7%  BRK-B=  4.7%  util=0.598465  Δ=-0.002381
+  TSLA+1%  AAPL= 20.9%  MSFT= 17.5%  NVDA= 16.3%  AMZN= 10.7%  GOOGL=  7.3%  META=  7.0%  GOOG=  5.3%  TSLA=  5.8%  AVGO=  4.7%  BRK-B=  4.7%  util=0.609767  Δ=+0.008922
+  AVGO+1%  AAPL= 20.9%  MSFT= 17.5%  NVDA= 16.3%  AMZN= 10.7%  GOOGL=  7.3%  META=  7.0%  GOOG=  5.3%  TSLA=  4.7%  AVGO=  5.8%  BRK-B=  4.7%  util=0.601568  Δ=+0.000723
+  BRK-B+1%  AAPL= 20.9%  MSFT= 17.5%  NVDA= 16.3%  AMZN= 10.7%  GOOGL=  7.3%  META=  7.0%  GOOG=  5.3%  TSLA=  4.7%  AVGO=  4.7%  BRK-B=  5.8%  util=0.597387  Δ=-0.003458
+  ★ WINNER: TSLA  improvement=+0.008922
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.609767  feasible=10]
+  AAPL+1%  AAPL= 21.9%  MSFT= 17.3%  NVDA= 16.2%  AMZN= 10.5%  GOOGL=  7.1%  META=  6.9%  GOOG=  5.2%  TSLA=  5.7%  AVGO=  4.6%  BRK-B=  4.6%  util=0.607899  Δ=-0.001868
+  MSFT+1%  AAPL= 20.7%  MSFT= 18.5%  NVDA= 16.2%  AMZN= 10.5%  GOOGL=  7.1%  META=  6.9%  GOOG=  5.2%  TSLA=  5.7%  AVGO=  4.6%  BRK-B=  4.6%  util=0.607217  Δ=-0.002550
+  NVDA+1%  AAPL= 20.7%  MSFT= 17.3%  NVDA= 17.3%  AMZN= 10.5%  GOOGL=  7.1%  META=  6.9%  GOOG=  5.2%  TSLA=  5.7%  AVGO=  4.6%  BRK-B=  4.6%  util=0.616888  Δ=+0.007121
+  AMZN+1%  AAPL= 20.7%  MSFT= 17.3%  NVDA= 16.2%  AMZN= 11.7%  GOOGL=  7.1%  META=  6.9%  GOOG=  5.2%  TSLA=  5.7%  AVGO=  4.6%  BRK-B=  4.6%  util=0.607256  Δ=-0.002511
+  GOOGL+1%  AAPL= 20.7%  MSFT= 17.3%  NVDA= 16.2%  AMZN= 10.5%  GOOGL=  8.3%  META=  6.9%  GOOG=  5.2%  TSLA=  5.7%  AVGO=  4.6%  BRK-B=  4.6%  util=0.607383  Δ=-0.002384
+  META+1%  AAPL= 20.7%  MSFT= 17.3%  NVDA= 16.2%  AMZN= 10.5%  GOOGL=  7.1%  META=  8.0%  GOOG=  5.2%  TSLA=  5.7%  AVGO=  4.6%  BRK-B=  4.6%  util=0.608099  Δ=-0.001668
+  GOOG+1%  AAPL= 20.7%  MSFT= 17.3%  NVDA= 16.2%  AMZN= 10.5%  GOOGL=  7.1%  META=  6.9%  GOOG=  6.3%  TSLA=  5.7%  AVGO=  4.6%  BRK-B=  4.6%  util=0.607419  Δ=-0.002348
+  TSLA+1%  AAPL= 20.7%  MSFT= 17.3%  NVDA= 16.2%  AMZN= 10.5%  GOOGL=  7.1%  META=  6.9%  GOOG=  5.2%  TSLA=  6.8%  AVGO=  4.6%  BRK-B=  4.6%  util=0.618030  Δ=+0.008263
+  AVGO+1%  AAPL= 20.7%  MSFT= 17.3%  NVDA= 16.2%  AMZN= 10.5%  GOOGL=  7.1%  META=  6.9%  GOOG=  5.2%  TSLA=  5.7%  AVGO=  5.7%  BRK-B=  4.6%  util=0.610593  Δ=+0.000826
+  BRK-B+1%  AAPL= 20.7%  MSFT= 17.3%  NVDA= 16.2%  AMZN= 10.5%  GOOGL=  7.1%  META=  6.9%  GOOG=  5.2%  TSLA=  5.7%  AVGO=  4.6%  BRK-B=  5.7%  util=0.606353  Δ=-0.003414
+  ★ WINNER: TSLA  improvement=+0.008263
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.618030  feasible=10]
+  AAPL+1%  AAPL= 21.7%  MSFT= 17.2%  NVDA= 16.1%  AMZN= 10.4%  GOOGL=  7.0%  META=  6.7%  GOOG=  5.0%  TSLA=  6.7%  AVGO=  4.5%  BRK-B=  4.5%  util=0.616145  Δ=-0.001885
+  MSFT+1%  AAPL= 20.6%  MSFT= 18.3%  NVDA= 16.1%  AMZN= 10.4%  GOOGL=  7.0%  META=  6.7%  GOOG=  5.0%  TSLA=  6.7%  AVGO=  4.5%  BRK-B=  4.5%  util=0.615543  Δ=-0.002487
+  NVDA+1%  AAPL= 20.6%  MSFT= 17.2%  NVDA= 17.2%  AMZN= 10.4%  GOOGL=  7.0%  META=  6.7%  GOOG=  5.0%  TSLA=  6.7%  AVGO=  4.5%  BRK-B=  4.5%  util=0.625423  Δ=+0.007393
+  AMZN+1%  AAPL= 20.6%  MSFT= 17.2%  NVDA= 16.1%  AMZN= 11.5%  GOOGL=  7.0%  META=  6.7%  GOOG=  5.0%  TSLA=  6.7%  AVGO=  4.5%  BRK-B=  4.5%  util=0.615569  Δ=-0.002460
+  GOOGL+1%  AAPL= 20.6%  MSFT= 17.2%  NVDA= 16.1%  AMZN= 10.4%  GOOGL=  8.1%  META=  6.7%  GOOG=  5.0%  TSLA=  6.7%  AVGO=  4.5%  BRK-B=  4.5%  util=0.615700  Δ=-0.002329
+  META+1%  AAPL= 20.6%  MSFT= 17.2%  NVDA= 16.1%  AMZN= 10.4%  GOOGL=  7.0%  META=  7.9%  GOOG=  5.0%  TSLA=  6.7%  AVGO=  4.5%  BRK-B=  4.5%  util=0.616493  Δ=-0.001537
+  GOOG+1%  AAPL= 20.6%  MSFT= 17.2%  NVDA= 16.1%  AMZN= 10.4%  GOOGL=  7.0%  META=  6.7%  GOOG=  6.2%  TSLA=  6.7%  AVGO=  4.5%  BRK-B=  4.5%  util=0.615737  Δ=-0.002293
+  TSLA+1%  AAPL= 20.6%  MSFT= 17.2%  NVDA= 16.1%  AMZN= 10.4%  GOOGL=  7.0%  META=  6.7%  GOOG=  5.0%  TSLA=  7.8%  AVGO=  4.5%  BRK-B=  4.5%  util=0.625634  Δ=+0.007605
+  AVGO+1%  AAPL= 20.6%  MSFT= 17.2%  NVDA= 16.1%  AMZN= 10.4%  GOOGL=  7.0%  META=  6.7%  GOOG=  5.0%  TSLA=  6.7%  AVGO=  5.6%  BRK-B=  4.5%  util=0.618984  Δ=+0.000954
+  BRK-B+1%  AAPL= 20.6%  MSFT= 17.2%  NVDA= 16.1%  AMZN= 10.4%  GOOGL=  7.0%  META=  6.7%  GOOG=  5.0%  TSLA=  6.7%  AVGO=  4.5%  BRK-B=  5.6%  util=0.614609  Δ=-0.003421
+  ★ WINNER: TSLA  improvement=+0.007605
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.625634  feasible=10]
+  AAPL+1%  AAPL= 21.6%  MSFT= 17.1%  NVDA= 16.0%  AMZN= 10.3%  GOOGL=  6.9%  META=  6.6%  GOOG=  4.9%  TSLA=  7.7%  AVGO=  4.4%  BRK-B=  4.4%  util=0.623740  Δ=-0.001894
+  MSFT+1%  AAPL= 20.5%  MSFT= 18.2%  NVDA= 16.0%  AMZN= 10.3%  GOOGL=  6.9%  META=  6.6%  GOOG=  4.9%  TSLA=  7.7%  AVGO=  4.4%  BRK-B=  4.4%  util=0.623199  Δ=-0.002435
+  NVDA+1%  AAPL= 20.5%  MSFT= 17.1%  NVDA= 17.1%  AMZN= 10.3%  GOOGL=  6.9%  META=  6.6%  GOOG=  4.9%  TSLA=  7.7%  AVGO=  4.4%  BRK-B=  4.4%  util=0.633249  Δ=+0.007615
+  AMZN+1%  AAPL= 20.5%  MSFT= 17.1%  NVDA= 16.0%  AMZN= 11.4%  GOOGL=  6.9%  META=  6.6%  GOOG=  4.9%  TSLA=  7.7%  AVGO=  4.4%  BRK-B=  4.4%  util=0.623226  Δ=-0.002408
+  GOOGL+1%  AAPL= 20.5%  MSFT= 17.1%  NVDA= 16.0%  AMZN= 10.3%  GOOGL=  8.0%  META=  6.6%  GOOG=  4.9%  TSLA=  7.7%  AVGO=  4.4%  BRK-B=  4.4%  util=0.623363  Δ=-0.002271
+  META+1%  AAPL= 20.5%  MSFT= 17.1%  NVDA= 16.0%  AMZN= 10.3%  GOOGL=  6.9%  META=  7.7%  GOOG=  4.9%  TSLA=  7.7%  AVGO=  4.4%  BRK-B=  4.4%  util=0.624218  Δ=-0.001416
+  GOOG+1%  AAPL= 20.5%  MSFT= 17.1%  NVDA= 16.0%  AMZN= 10.3%  GOOGL=  6.9%  META=  6.6%  GOOG=  6.0%  TSLA=  7.7%  AVGO=  4.4%  BRK-B=  4.4%  util=0.623401  Δ=-0.002234
+  TSLA+1%  AAPL= 20.5%  MSFT= 17.1%  NVDA= 16.0%  AMZN= 10.3%  GOOGL=  6.9%  META=  6.6%  GOOG=  4.9%  TSLA=  8.8%  AVGO=  4.4%  BRK-B=  4.4%  util=0.632678  Δ=+0.007044
+  AVGO+1%  AAPL= 20.5%  MSFT= 17.1%  NVDA= 16.0%  AMZN= 10.3%  GOOGL=  6.9%  META=  6.6%  GOOG=  4.9%  TSLA=  7.7%  AVGO=  5.5%  BRK-B=  4.4%  util=0.626660  Δ=+0.001026
+  BRK-B+1%  AAPL= 20.5%  MSFT= 17.1%  NVDA= 16.0%  AMZN= 10.3%  GOOGL=  6.9%  META=  6.6%  GOOG=  4.9%  TSLA=  7.7%  AVGO=  4.4%  BRK-B=  5.5%  util=0.622222  Δ=-0.003412
+  ★ WINNER: NVDA  improvement=+0.007615
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.633249  feasible=10]
+  AAPL+1%  AAPL= 21.5%  MSFT= 17.0%  NVDA= 17.0%  AMZN= 10.2%  GOOGL=  6.8%  META=  6.5%  GOOG=  4.8%  TSLA=  7.6%  AVGO=  4.3%  BRK-B=  4.3%  util=0.631376  Δ=-0.001873
+  MSFT+1%  AAPL= 20.4%  MSFT= 18.1%  NVDA= 17.0%  AMZN= 10.2%  GOOGL=  6.8%  META=  6.5%  GOOG=  4.8%  TSLA=  7.6%  AVGO=  4.3%  BRK-B=  4.3%  util=0.630796  Δ=-0.002453
+  NVDA+1%  AAPL= 20.4%  MSFT= 17.0%  NVDA= 18.1%  AMZN= 10.2%  GOOGL=  6.8%  META=  6.5%  GOOG=  4.8%  TSLA=  7.6%  AVGO=  4.3%  BRK-B=  4.3%  util=0.640694  Δ=+0.007445
+  AMZN+1%  AAPL= 20.4%  MSFT= 17.0%  NVDA= 17.0%  AMZN= 11.3%  GOOGL=  6.8%  META=  6.5%  GOOG=  4.8%  TSLA=  7.6%  AVGO=  4.3%  BRK-B=  4.3%  util=0.630833  Δ=-0.002416
+  GOOGL+1%  AAPL= 20.4%  MSFT= 17.0%  NVDA= 17.0%  AMZN= 10.2%  GOOGL=  7.9%  META=  6.5%  GOOG=  4.8%  TSLA=  7.6%  AVGO=  4.3%  BRK-B=  4.3%  util=0.630970  Δ=-0.002279
+  META+1%  AAPL= 20.4%  MSFT= 17.0%  NVDA= 17.0%  AMZN= 10.2%  GOOGL=  6.8%  META=  7.6%  GOOG=  4.8%  TSLA=  7.6%  AVGO=  4.3%  BRK-B=  4.3%  util=0.631798  Δ=-0.001451
+  GOOG+1%  AAPL= 20.4%  MSFT= 17.0%  NVDA= 17.0%  AMZN= 10.2%  GOOGL=  6.8%  META=  6.5%  GOOG=  5.9%  TSLA=  7.6%  AVGO=  4.3%  BRK-B=  4.3%  util=0.631007  Δ=-0.002243
+  TSLA+1%  AAPL= 20.4%  MSFT= 17.0%  NVDA= 17.0%  AMZN= 10.2%  GOOGL=  6.8%  META=  6.5%  GOOG=  4.8%  TSLA=  8.7%  AVGO=  4.3%  BRK-B=  4.3%  util=0.640480  Δ=+0.007231
+  AVGO+1%  AAPL= 20.4%  MSFT= 17.0%  NVDA= 17.0%  AMZN= 10.2%  GOOGL=  6.8%  META=  6.5%  GOOG=  4.8%  TSLA=  7.6%  AVGO=  5.4%  BRK-B=  4.3%  util=0.634254  Δ=+0.001005
+  BRK-B+1%  AAPL= 20.4%  MSFT= 17.0%  NVDA= 17.0%  AMZN= 10.2%  GOOGL=  6.8%  META=  6.5%  GOOG=  4.8%  TSLA=  7.6%  AVGO=  4.3%  BRK-B=  5.4%  util=0.629846  Δ=-0.003403
+  ★ WINNER: NVDA  improvement=+0.007445
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.640694  feasible=10]
+  AAPL+1%  AAPL= 21.4%  MSFT= 16.9%  NVDA= 18.0%  AMZN= 10.1%  GOOGL=  6.7%  META=  6.4%  GOOG=  4.7%  TSLA=  7.5%  AVGO=  4.1%  BRK-B=  4.1%  util=0.638839  Δ=-0.001855
+  MSFT+1%  AAPL= 20.3%  MSFT= 18.0%  NVDA= 18.0%  AMZN= 10.1%  GOOGL=  6.7%  META=  6.4%  GOOG=  4.7%  TSLA=  7.5%  AVGO=  4.1%  BRK-B=  4.1%  util=0.638243  Δ=-0.002451
+  NVDA+1%  AAPL= 20.3%  MSFT= 16.9%  NVDA= 19.1%  AMZN= 10.1%  GOOGL=  6.7%  META=  6.4%  GOOG=  4.7%  TSLA=  7.5%  AVGO=  4.1%  BRK-B=  4.1%  util=0.647931  Δ=+0.007237
+  AMZN+1%  AAPL= 20.3%  MSFT= 16.9%  NVDA= 18.0%  AMZN= 11.2%  GOOGL=  6.7%  META=  6.4%  GOOG=  4.7%  TSLA=  7.5%  AVGO=  4.1%  BRK-B=  4.1%  util=0.638252  Δ=-0.002442
+  GOOGL+1%  AAPL= 20.3%  MSFT= 16.9%  NVDA= 18.0%  AMZN= 10.1%  GOOGL=  7.8%  META=  6.4%  GOOG=  4.7%  TSLA=  7.5%  AVGO=  4.1%  BRK-B=  4.1%  util=0.638414  Δ=-0.002280
+  META+1%  AAPL= 20.3%  MSFT= 16.9%  NVDA= 18.0%  AMZN= 10.1%  GOOGL=  6.7%  META=  7.5%  GOOG=  4.7%  TSLA=  7.5%  AVGO=  4.1%  BRK-B=  4.1%  util=0.639183  Δ=-0.001511
+  GOOG+1%  AAPL= 20.3%  MSFT= 16.9%  NVDA= 18.0%  AMZN= 10.1%  GOOGL=  6.7%  META=  6.4%  GOOG=  5.8%  TSLA=  7.5%  AVGO=  4.1%  BRK-B=  4.1%  util=0.638452  Δ=-0.002242
+  TSLA+1%  AAPL= 20.3%  MSFT= 16.9%  NVDA= 18.0%  AMZN= 10.1%  GOOGL=  6.7%  META=  6.4%  GOOG=  4.7%  TSLA=  8.6%  AVGO=  4.1%  BRK-B=  4.1%  util=0.648106  Δ=+0.007412
+  AVGO+1%  AAPL= 20.3%  MSFT= 16.9%  NVDA= 18.0%  AMZN= 10.1%  GOOGL=  6.7%  META=  6.4%  GOOG=  4.7%  TSLA=  7.5%  AVGO=  5.3%  BRK-B=  4.1%  util=0.641638  Δ=+0.000944
+  BRK-B+1%  AAPL= 20.3%  MSFT= 16.9%  NVDA= 18.0%  AMZN= 10.1%  GOOGL=  6.7%  META=  6.4%  GOOG=  4.7%  TSLA=  7.5%  AVGO=  4.1%  BRK-B=  5.3%  util=0.637300  Δ=-0.003394
+  ★ WINNER: TSLA  improvement=+0.007412
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.648106  feasible=10]
+  AAPL+1%  AAPL= 21.3%  MSFT= 16.8%  NVDA= 17.9%  AMZN= 10.0%  GOOGL=  6.6%  META=  6.3%  GOOG=  4.6%  TSLA=  8.5%  AVGO=  4.0%  BRK-B=  4.0%  util=0.646239  Δ=-0.001867
+  MSFT+1%  AAPL= 20.2%  MSFT= 17.9%  NVDA= 17.9%  AMZN= 10.0%  GOOGL=  6.6%  META=  6.3%  GOOG=  4.6%  TSLA=  8.5%  AVGO=  4.0%  BRK-B=  4.0%  util=0.645693  Δ=-0.002413
+  NVDA+1%  AAPL= 20.2%  MSFT= 16.8%  NVDA= 19.0%  AMZN= 10.0%  GOOGL=  6.6%  META=  6.3%  GOOG=  4.6%  TSLA=  8.5%  AVGO=  4.0%  BRK-B=  4.0%  util=0.655588  Δ=+0.007482
+  AMZN+1%  AAPL= 20.2%  MSFT= 16.8%  NVDA= 17.9%  AMZN= 11.1%  GOOGL=  6.6%  META=  6.3%  GOOG=  4.6%  TSLA=  8.5%  AVGO=  4.0%  BRK-B=  4.0%  util=0.645712  Δ=-0.002393
+  GOOGL+1%  AAPL= 20.2%  MSFT= 16.8%  NVDA= 17.9%  AMZN= 10.0%  GOOGL=  7.7%  META=  6.3%  GOOG=  4.6%  TSLA=  8.5%  AVGO=  4.0%  BRK-B=  4.0%  util=0.645863  Δ=-0.002243
+  META+1%  AAPL= 20.2%  MSFT= 16.8%  NVDA= 17.9%  AMZN= 10.0%  GOOGL=  6.6%  META=  7.4%  GOOG=  4.6%  TSLA=  8.5%  AVGO=  4.0%  BRK-B=  4.0%  util=0.646745  Δ=-0.001361
+  GOOG+1%  AAPL= 20.2%  MSFT= 16.8%  NVDA= 17.9%  AMZN= 10.0%  GOOGL=  6.6%  META=  6.3%  GOOG=  5.7%  TSLA=  8.5%  AVGO=  4.0%  BRK-B=  4.0%  util=0.645902  Δ=-0.002203
+  TSLA+1%  AAPL= 20.2%  MSFT= 16.8%  NVDA= 17.9%  AMZN= 10.0%  GOOGL=  6.6%  META=  6.3%  GOOG=  4.6%  TSLA=  9.6%  AVGO=  4.0%  BRK-B=  4.0%  util=0.655023  Δ=+0.006917
+  AVGO+1%  AAPL= 20.2%  MSFT= 16.8%  NVDA= 17.9%  AMZN= 10.0%  GOOGL=  6.6%  META=  6.3%  GOOG=  4.6%  TSLA=  8.5%  AVGO=  5.1%  BRK-B=  4.0%  util=0.649143  Δ=+0.001037
+  BRK-B+1%  AAPL= 20.2%  MSFT= 16.8%  NVDA= 17.9%  AMZN= 10.0%  GOOGL=  6.6%  META=  6.3%  GOOG=  4.6%  TSLA=  8.5%  AVGO=  4.0%  BRK-B=  5.1%  util=0.644727  Δ=-0.003378
+  ★ WINNER: NVDA  improvement=+0.007482
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=0.655588  feasible=10]
+  AAPL+1%  AAPL= 21.2%  MSFT= 16.7%  NVDA= 18.9%  AMZN=  9.9%  GOOGL=  6.5%  META=  6.2%  GOOG=  4.5%  TSLA=  8.4%  AVGO=  3.9%  BRK-B=  3.9%  util=0.653746  Δ=-0.001842
+  MSFT+1%  AAPL= 20.1%  MSFT= 17.8%  NVDA= 18.9%  AMZN=  9.9%  GOOGL=  6.5%  META=  6.2%  GOOG=  4.5%  TSLA=  8.4%  AVGO=  3.9%  BRK-B=  3.9%  util=0.653180  Δ=-0.002408
+  NVDA+1%  AAPL= 20.1%  MSFT= 16.7%  NVDA= 20.0%  AMZN=  9.9%  GOOGL=  6.5%  META=  6.2%  GOOG=  4.5%  TSLA=  8.4%  AVGO=  3.9%  BRK-B=  3.9%  util=0.662916  Δ=+0.007328
+  AMZN+1%  AAPL= 20.1%  MSFT= 16.7%  NVDA= 18.9%  AMZN= 11.0%  GOOGL=  6.5%  META=  6.2%  GOOG=  4.5%  TSLA=  8.4%  AVGO=  3.9%  BRK-B=  3.9%  util=0.653194  Δ=-0.002394
+  GOOGL+1%  AAPL= 20.1%  MSFT= 16.7%  NVDA= 18.9%  AMZN=  9.9%  GOOGL=  7.6%  META=  6.2%  GOOG=  4.5%  TSLA=  8.4%  AVGO=  3.9%  BRK-B=  3.9%  util=0.653332  Δ=-0.002256
+  META+1%  AAPL= 20.1%  MSFT= 16.7%  NVDA= 18.9%  AMZN=  9.9%  GOOGL=  6.5%  META=  7.3%  GOOG=  4.5%  TSLA=  8.4%  AVGO=  3.9%  BRK-B=  3.9%  util=0.654204  Δ=-0.001384
+  GOOG+1%  AAPL= 20.1%  MSFT= 16.7%  NVDA= 18.9%  AMZN=  9.9%  GOOGL=  6.5%  META=  6.2%  GOOG=  5.6%  TSLA=  8.4%  AVGO=  3.9%  BRK-B=  3.9%  util=0.653372  Δ=-0.002216
+  TSLA+1%  AAPL= 20.1%  MSFT= 16.7%  NVDA= 18.9%  AMZN=  9.9%  GOOGL=  6.5%  META=  6.2%  GOOG=  4.5%  TSLA=  9.5%  AVGO=  3.9%  BRK-B=  3.9%  util=0.662651  Δ=+0.007063
+  AVGO+1%  AAPL= 20.1%  MSFT= 16.7%  NVDA= 18.9%  AMZN=  9.9%  GOOGL=  6.5%  META=  6.2%  GOOG=  4.5%  TSLA=  8.4%  AVGO=  5.0%  BRK-B=  3.9%  util=0.656602  Δ=+0.001014
+  BRK-B+1%  AAPL= 20.1%  MSFT= 16.7%  NVDA= 18.9%  AMZN=  9.9%  GOOGL=  6.5%  META=  6.2%  GOOG=  4.5%  TSLA=  8.4%  AVGO=  3.9%  BRK-B=  5.0%  util=0.652226  Δ=-0.003362
+  ★ WINNER: NVDA  improvement=+0.007328
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=0.662916  feasible=10]
+  AAPL+1%  AAPL= 21.1%  MSFT= 16.6%  NVDA= 19.9%  AMZN=  9.8%  GOOGL=  6.4%  META=  6.1%  GOOG=  4.4%  TSLA=  8.3%  AVGO=  3.8%  BRK-B=  3.8%  util=0.661107  Δ=-0.001809
+  MSFT+1%  AAPL= 20.0%  MSFT= 17.7%  NVDA= 19.9%  AMZN=  9.8%  GOOGL=  6.4%  META=  6.1%  GOOG=  4.4%  TSLA=  8.3%  AVGO=  3.8%  BRK-B=  3.8%  util=0.660510  Δ=-0.002406
+  NVDA+1%  AAPL= 20.0%  MSFT= 16.6%  NVDA= 21.0%  AMZN=  9.8%  GOOGL=  6.4%  META=  6.1%  GOOG=  4.4%  TSLA=  8.3%  AVGO=  3.8%  BRK-B=  3.8%  util=0.670032  Δ=+0.007116
+  AMZN+1%  AAPL= 20.0%  MSFT= 16.6%  NVDA= 19.9%  AMZN= 10.9%  GOOGL=  6.4%  META=  6.1%  GOOG=  4.4%  TSLA=  8.3%  AVGO=  3.8%  BRK-B=  3.8%  util=0.660512  Δ=-0.002404
+  GOOGL+1%  AAPL= 20.0%  MSFT= 16.6%  NVDA= 19.9%  AMZN=  9.8%  GOOGL=  7.5%  META=  6.1%  GOOG=  4.4%  TSLA=  8.3%  AVGO=  3.8%  BRK-B=  3.8%  util=0.660651  Δ=-0.002264
+  META+1%  AAPL= 20.0%  MSFT= 16.6%  NVDA= 19.9%  AMZN=  9.8%  GOOGL=  6.4%  META=  7.2%  GOOG=  4.4%  TSLA=  8.3%  AVGO=  3.8%  BRK-B=  3.8%  util=0.661481  Δ=-0.001435
+  GOOG+1%  AAPL= 20.0%  MSFT= 16.6%  NVDA= 19.9%  AMZN=  9.8%  GOOGL=  6.4%  META=  6.1%  GOOG=  5.5%  TSLA=  8.3%  AVGO=  3.8%  BRK-B=  3.8%  util=0.660691  Δ=-0.002225
+  TSLA+1%  AAPL= 20.0%  MSFT= 16.6%  NVDA= 19.9%  AMZN=  9.8%  GOOGL=  6.4%  META=  6.1%  GOOG=  4.4%  TSLA=  9.4%  AVGO=  3.8%  BRK-B=  3.8%  util=0.670139  Δ=+0.007224
+  AVGO+1%  AAPL= 20.0%  MSFT= 16.6%  NVDA= 19.9%  AMZN=  9.8%  GOOGL=  6.4%  META=  6.1%  GOOG=  4.4%  TSLA=  8.3%  AVGO=  4.9%  BRK-B=  3.8%  util=0.663906  Δ=+0.000990
+  BRK-B+1%  AAPL= 20.0%  MSFT= 16.6%  NVDA= 19.9%  AMZN=  9.8%  GOOGL=  6.4%  META=  6.1%  GOOG=  4.4%  TSLA=  8.3%  AVGO=  3.8%  BRK-B=  4.9%  util=0.659564  Δ=-0.003351
+  ★ WINNER: TSLA  improvement=+0.007224
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=0.670139  feasible=10]
+  AAPL+1%  AAPL= 21.0%  MSFT= 16.5%  NVDA= 19.8%  AMZN=  9.7%  GOOGL=  6.3%  META=  6.0%  GOOG=  4.3%  TSLA=  9.3%  AVGO=  3.7%  BRK-B=  3.7%  util=0.668324  Δ=-0.001816
+  MSFT+1%  AAPL= 19.9%  MSFT= 17.6%  NVDA= 19.8%  AMZN=  9.7%  GOOGL=  6.3%  META=  6.0%  GOOG=  4.3%  TSLA=  9.3%  AVGO=  3.7%  BRK-B=  3.7%  util=0.667779  Δ=-0.002360
+  NVDA+1%  AAPL= 19.9%  MSFT= 16.5%  NVDA= 20.9%  AMZN=  9.7%  GOOGL=  6.3%  META=  6.0%  GOOG=  4.3%  TSLA=  9.3%  AVGO=  3.7%  BRK-B=  3.7%  util=0.677530  Δ=+0.007390
+  AMZN+1%  AAPL= 19.9%  MSFT= 16.5%  NVDA= 19.8%  AMZN= 10.8%  GOOGL=  6.3%  META=  6.0%  GOOG=  4.3%  TSLA=  9.3%  AVGO=  3.7%  BRK-B=  3.7%  util=0.667785  Δ=-0.002355
+  GOOGL+1%  AAPL= 19.9%  MSFT= 16.5%  NVDA= 19.8%  AMZN=  9.7%  GOOGL=  7.4%  META=  6.0%  GOOG=  4.3%  TSLA=  9.3%  AVGO=  3.7%  BRK-B=  3.7%  util=0.667935  Δ=-0.002204
+  META+1%  AAPL= 19.9%  MSFT= 16.5%  NVDA= 19.8%  AMZN=  9.7%  GOOGL=  6.3%  META=  7.1%  GOOG=  4.3%  TSLA=  9.3%  AVGO=  3.7%  BRK-B=  3.7%  util=0.668866  Δ=-0.001274
+  GOOG+1%  AAPL= 19.9%  MSFT= 16.5%  NVDA= 19.8%  AMZN=  9.7%  GOOGL=  6.3%  META=  6.0%  GOOG=  5.4%  TSLA=  9.3%  AVGO=  3.7%  BRK-B=  3.7%  util=0.667976  Δ=-0.002164
+  TSLA+1%  AAPL= 19.9%  MSFT= 16.5%  NVDA= 19.8%  AMZN=  9.7%  GOOGL=  6.3%  META=  6.0%  GOOG=  4.3%  TSLA= 10.4%  AVGO=  3.7%  BRK-B=  3.7%  util=0.677027  Δ=+0.006888
+  AVGO+1%  AAPL= 19.9%  MSFT= 16.5%  NVDA= 19.8%  AMZN=  9.7%  GOOGL=  6.3%  META=  6.0%  GOOG=  4.3%  TSLA=  9.3%  AVGO=  4.8%  BRK-B=  3.7%  util=0.671198  Δ=+0.001059
+  BRK-B+1%  AAPL= 19.9%  MSFT= 16.5%  NVDA= 19.8%  AMZN=  9.7%  GOOGL=  6.3%  META=  6.0%  GOOG=  4.3%  TSLA=  9.3%  AVGO=  3.7%  BRK-B=  4.8%  util=0.666776  Δ=-0.003364
+  ★ WINNER: NVDA  improvement=+0.007390
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=0.677530  feasible=10]
+  AAPL+1%  AAPL= 20.9%  MSFT= 16.3%  NVDA= 20.8%  AMZN=  9.5%  GOOGL=  6.1%  META=  5.9%  GOOG=  4.2%  TSLA=  9.1%  AVGO=  3.6%  BRK-B=  3.6%  util=0.675735  Δ=-0.001795
+  MSFT+1%  AAPL= 19.7%  MSFT= 17.5%  NVDA= 20.8%  AMZN=  9.5%  GOOGL=  6.1%  META=  5.9%  GOOG=  4.2%  TSLA=  9.1%  AVGO=  3.6%  BRK-B=  3.6%  util=0.675185  Δ=-0.002345
+  NVDA+1%  AAPL= 19.7%  MSFT= 16.3%  NVDA= 21.9%  AMZN=  9.5%  GOOGL=  6.1%  META=  5.9%  GOOG=  4.2%  TSLA=  9.1%  AVGO=  3.6%  BRK-B=  3.6%  util=0.684744  Δ=+0.007215
+  AMZN+1%  AAPL= 19.7%  MSFT= 16.3%  NVDA= 20.8%  AMZN= 10.7%  GOOGL=  6.1%  META=  5.9%  GOOG=  4.2%  TSLA=  9.1%  AVGO=  3.6%  BRK-B=  3.6%  util=0.675166  Δ=-0.002364
+  GOOGL+1%  AAPL= 19.7%  MSFT= 16.3%  NVDA= 20.8%  AMZN=  9.5%  GOOGL=  7.3%  META=  5.9%  GOOG=  4.2%  TSLA=  9.1%  AVGO=  3.6%  BRK-B=  3.6%  util=0.675323  Δ=-0.002207
+  META+1%  AAPL= 19.7%  MSFT= 16.3%  NVDA= 20.8%  AMZN=  9.5%  GOOGL=  6.1%  META=  7.0%  GOOG=  4.2%  TSLA=  9.1%  AVGO=  3.6%  BRK-B=  3.6%  util=0.676222  Δ=-0.001308
+  GOOG+1%  AAPL= 19.7%  MSFT= 16.3%  NVDA= 20.8%  AMZN=  9.5%  GOOGL=  6.1%  META=  5.9%  GOOG=  5.3%  TSLA=  9.1%  AVGO=  3.6%  BRK-B=  3.6%  util=0.675363  Δ=-0.002167
+  TSLA+1%  AAPL= 19.7%  MSFT= 16.3%  NVDA= 20.8%  AMZN=  9.5%  GOOGL=  6.1%  META=  5.9%  GOOG=  4.2%  TSLA= 10.3%  AVGO=  3.6%  BRK-B=  3.6%  util=0.684500  Δ=+0.006970
+  AVGO+1%  AAPL= 19.7%  MSFT= 16.3%  NVDA= 20.8%  AMZN=  9.5%  GOOGL=  6.1%  META=  5.9%  GOOG=  4.2%  TSLA=  9.1%  AVGO=  4.7%  BRK-B=  3.6%  util=0.678558  Δ=+0.001028
+  BRK-B+1%  AAPL= 19.7%  MSFT= 16.3%  NVDA= 20.8%  AMZN=  9.5%  GOOGL=  6.1%  META=  5.9%  GOOG=  4.2%  TSLA=  9.1%  AVGO=  3.6%  BRK-B=  4.7%  util=0.674162  Δ=-0.003368
+  ★ WINNER: NVDA  improvement=+0.007215
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=0.684744  feasible=10]
+  AAPL+1%  AAPL= 20.7%  MSFT= 16.2%  NVDA= 21.8%  AMZN=  9.4%  GOOGL=  6.0%  META=  5.7%  GOOG=  4.0%  TSLA=  9.0%  AVGO=  3.5%  BRK-B=  3.5%  util=0.682990  Δ=-0.001754
+  MSFT+1%  AAPL= 19.6%  MSFT= 17.3%  NVDA= 21.8%  AMZN=  9.4%  GOOGL=  6.0%  META=  5.7%  GOOG=  4.0%  TSLA=  9.0%  AVGO=  3.5%  BRK-B=  3.5%  util=0.682383  Δ=-0.002361
+  NVDA+1%  AAPL= 19.6%  MSFT= 16.2%  NVDA= 22.9%  AMZN=  9.4%  GOOGL=  6.0%  META=  5.7%  GOOG=  4.0%  TSLA=  9.0%  AVGO=  3.5%  BRK-B=  3.5%  util=0.691770  Δ=+0.007025
+  AMZN+1%  AAPL= 19.6%  MSFT= 16.2%  NVDA= 21.8%  AMZN= 10.5%  GOOGL=  6.0%  META=  5.7%  GOOG=  4.0%  TSLA=  9.0%  AVGO=  3.5%  BRK-B=  3.5%  util=0.682384  Δ=-0.002360
+  GOOGL+1%  AAPL= 19.6%  MSFT= 16.2%  NVDA= 21.8%  AMZN=  9.4%  GOOGL=  7.1%  META=  5.7%  GOOG=  4.0%  TSLA=  9.0%  AVGO=  3.5%  BRK-B=  3.5%  util=0.682526  Δ=-0.002219
+  META+1%  AAPL= 19.6%  MSFT= 16.2%  NVDA= 21.8%  AMZN=  9.4%  GOOGL=  6.0%  META=  6.9%  GOOG=  4.0%  TSLA=  9.0%  AVGO=  3.5%  BRK-B=  3.5%  util=0.683397  Δ=-0.001347
+  GOOG+1%  AAPL= 19.6%  MSFT= 16.2%  NVDA= 21.8%  AMZN=  9.4%  GOOGL=  6.0%  META=  5.7%  GOOG=  5.2%  TSLA=  9.0%  AVGO=  3.5%  BRK-B=  3.5%  util=0.682566  Δ=-0.002178
+  TSLA+1%  AAPL= 19.6%  MSFT= 16.2%  NVDA= 21.8%  AMZN=  9.4%  GOOGL=  6.0%  META=  5.7%  GOOG=  4.0%  TSLA= 10.1%  AVGO=  3.5%  BRK-B=  3.5%  util=0.691887  Δ=+0.007142
+  AVGO+1%  AAPL= 19.6%  MSFT= 16.2%  NVDA= 21.8%  AMZN=  9.4%  GOOGL=  6.0%  META=  5.7%  GOOG=  4.0%  TSLA=  9.0%  AVGO=  4.6%  BRK-B=  3.5%  util=0.685739  Δ=+0.000995
+  BRK-B+1%  AAPL= 19.6%  MSFT= 16.2%  NVDA= 21.8%  AMZN=  9.4%  GOOGL=  6.0%  META=  5.7%  GOOG=  4.0%  TSLA=  9.0%  AVGO=  3.5%  BRK-B=  4.6%  util=0.681380  Δ=-0.003364
+  ★ WINNER: TSLA  improvement=+0.007142
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=0.691887  feasible=10]
+  AAPL+1%  AAPL= 20.6%  MSFT= 16.1%  NVDA= 21.7%  AMZN=  9.3%  GOOGL=  5.9%  META=  5.6%  GOOG=  3.9%  TSLA= 10.0%  AVGO=  3.4%  BRK-B=  3.4%  util=0.690100  Δ=-0.001787
+  MSFT+1%  AAPL= 19.5%  MSFT= 17.2%  NVDA= 21.7%  AMZN=  9.3%  GOOGL=  5.9%  META=  5.6%  GOOG=  3.9%  TSLA= 10.0%  AVGO=  3.4%  BRK-B=  3.4%  util=0.689581  Δ=-0.002305
+  NVDA+1%  AAPL= 19.5%  MSFT= 16.1%  NVDA= 22.8%  AMZN=  9.3%  GOOGL=  5.9%  META=  5.6%  GOOG=  3.9%  TSLA= 10.0%  AVGO=  3.4%  BRK-B=  3.4%  util=0.699145  Δ=+0.007259
+  AMZN+1%  AAPL= 19.5%  MSFT= 16.1%  NVDA= 21.7%  AMZN= 10.4%  GOOGL=  5.9%  META=  5.6%  GOOG=  3.9%  TSLA= 10.0%  AVGO=  3.4%  BRK-B=  3.4%  util=0.689579  Δ=-0.002308
+  GOOGL+1%  AAPL= 19.5%  MSFT= 16.1%  NVDA= 21.7%  AMZN=  9.3%  GOOGL=  7.0%  META=  5.6%  GOOG=  3.9%  TSLA= 10.0%  AVGO=  3.4%  BRK-B=  3.4%  util=0.689701  Δ=-0.002186
+  META+1%  AAPL= 19.5%  MSFT= 16.1%  NVDA= 21.7%  AMZN=  9.3%  GOOGL=  5.9%  META=  6.7%  GOOG=  3.9%  TSLA= 10.0%  AVGO=  3.4%  BRK-B=  3.4%  util=0.690634  Δ=-0.001252
+  GOOG+1%  AAPL= 19.5%  MSFT= 16.1%  NVDA= 21.7%  AMZN=  9.3%  GOOGL=  5.9%  META=  5.6%  GOOG=  5.0%  TSLA= 10.0%  AVGO=  3.4%  BRK-B=  3.4%  util=0.689741  Δ=-0.002145
+  TSLA+1%  AAPL= 19.5%  MSFT= 16.1%  NVDA= 21.7%  AMZN=  9.3%  GOOGL=  5.9%  META=  5.6%  GOOG=  3.9%  TSLA= 11.1%  AVGO=  3.4%  BRK-B=  3.4%  util=0.698746  Δ=+0.006859
+  AVGO+1%  AAPL= 19.5%  MSFT= 16.1%  NVDA= 21.7%  AMZN=  9.3%  GOOGL=  5.9%  META=  5.6%  GOOG=  3.9%  TSLA= 10.0%  AVGO=  4.5%  BRK-B=  3.4%  util=0.692926  Δ=+0.001040
+  BRK-B+1%  AAPL= 19.5%  MSFT= 16.1%  NVDA= 21.7%  AMZN=  9.3%  GOOGL=  5.9%  META=  5.6%  GOOG=  3.9%  TSLA= 10.0%  AVGO=  3.4%  BRK-B=  4.5%  util=0.688521  Δ=-0.003366
+  ★ WINNER: NVDA  improvement=+0.007259
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=0.699145  feasible=10]
+  AAPL+1%  AAPL= 20.5%  MSFT= 16.0%  NVDA= 22.7%  AMZN=  9.2%  GOOGL=  5.8%  META=  5.5%  GOOG=  3.8%  TSLA=  9.9%  AVGO=  3.3%  BRK-B=  3.3%  util=0.697392  Δ=-0.001753
+  MSFT+1%  AAPL= 19.4%  MSFT= 17.1%  NVDA= 22.7%  AMZN=  9.2%  GOOGL=  5.8%  META=  5.5%  GOOG=  3.8%  TSLA=  9.9%  AVGO=  3.3%  BRK-B=  3.3%  util=0.696842  Δ=-0.002303
+  NVDA+1%  AAPL= 19.4%  MSFT= 16.0%  NVDA= 23.8%  AMZN=  9.2%  GOOGL=  5.8%  META=  5.5%  GOOG=  3.8%  TSLA=  9.9%  AVGO=  3.3%  BRK-B=  3.3%  util=0.706258  Δ=+0.007112
+  AMZN+1%  AAPL= 19.4%  MSFT= 16.0%  NVDA= 22.7%  AMZN= 10.3%  GOOGL=  5.8%  META=  5.5%  GOOG=  3.8%  TSLA=  9.9%  AVGO=  3.3%  BRK-B=  3.3%  util=0.696838  Δ=-0.002308
+  GOOGL+1%  AAPL= 19.4%  MSFT= 16.0%  NVDA= 22.7%  AMZN=  9.2%  GOOGL=  6.9%  META=  5.5%  GOOG=  3.8%  TSLA=  9.9%  AVGO=  3.3%  BRK-B=  3.3%  util=0.696962  Δ=-0.002183
+  META+1%  AAPL= 19.4%  MSFT= 16.0%  NVDA= 22.7%  AMZN=  9.2%  GOOGL=  5.8%  META=  6.6%  GOOG=  3.8%  TSLA=  9.9%  AVGO=  3.3%  BRK-B=  3.3%  util=0.697859  Δ=-0.001286
+  GOOG+1%  AAPL= 19.4%  MSFT= 16.0%  NVDA= 22.7%  AMZN=  9.2%  GOOGL=  5.8%  META=  5.5%  GOOG=  4.9%  TSLA=  9.9%  AVGO=  3.3%  BRK-B=  3.3%  util=0.697003  Δ=-0.002143
+  TSLA+1%  AAPL= 19.4%  MSFT= 16.0%  NVDA= 22.7%  AMZN=  9.2%  GOOGL=  5.8%  META=  5.5%  GOOG=  3.8%  TSLA= 11.0%  AVGO=  3.3%  BRK-B=  3.3%  util=0.706123  Δ=+0.006977
+  AVGO+1%  AAPL= 19.4%  MSFT= 16.0%  NVDA= 22.7%  AMZN=  9.2%  GOOGL=  5.8%  META=  5.5%  GOOG=  3.8%  TSLA=  9.9%  AVGO=  4.4%  BRK-B=  3.3%  util=0.700166  Δ=+0.001020
+  BRK-B+1%  AAPL= 19.4%  MSFT= 16.0%  NVDA= 22.7%  AMZN=  9.2%  GOOGL=  5.8%  META=  5.5%  GOOG=  3.8%  TSLA=  9.9%  AVGO=  3.3%  BRK-B=  4.4%  util=0.695781  Δ=-0.003364
+  ★ WINNER: NVDA  improvement=+0.007112
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=0.706258  feasible=10]
+  AAPL+1%  AAPL= 20.4%  MSFT= 15.9%  NVDA= 23.7%  AMZN=  9.1%  GOOGL=  5.7%  META=  5.4%  GOOG=  3.7%  TSLA=  9.8%  AVGO=  3.1%  BRK-B=  3.1%  util=0.704523  Δ=-0.001735
+  MSFT+1%  AAPL= 19.3%  MSFT= 17.0%  NVDA= 23.7%  AMZN=  9.1%  GOOGL=  5.7%  META=  5.4%  GOOG=  3.7%  TSLA=  9.8%  AVGO=  3.1%  BRK-B=  3.1%  util=0.703948  Δ=-0.002310
+  NVDA+1%  AAPL= 19.3%  MSFT= 15.9%  NVDA= 24.8%  AMZN=  9.1%  GOOGL=  5.7%  META=  5.4%  GOOG=  3.7%  TSLA=  9.8%  AVGO=  3.1%  BRK-B=  3.1%  util=0.713258  Δ=+0.007000
+  AMZN+1%  AAPL= 19.3%  MSFT= 15.9%  NVDA= 23.7%  AMZN= 10.2%  GOOGL=  5.7%  META=  5.4%  GOOG=  3.7%  TSLA=  9.8%  AVGO=  3.1%  BRK-B=  3.1%  util=0.703956  Δ=-0.002302
+  GOOGL+1%  AAPL= 19.3%  MSFT= 15.9%  NVDA= 23.7%  AMZN=  9.1%  GOOGL=  6.8%  META=  5.4%  GOOG=  3.7%  TSLA=  9.8%  AVGO=  3.1%  BRK-B=  3.1%  util=0.704065  Δ=-0.002192
+  META+1%  AAPL= 19.3%  MSFT= 15.9%  NVDA= 23.7%  AMZN=  9.1%  GOOGL=  5.7%  META=  6.5%  GOOG=  3.7%  TSLA=  9.8%  AVGO=  3.1%  BRK-B=  3.1%  util=0.704960  Δ=-0.001298
+  GOOG+1%  AAPL= 19.3%  MSFT= 15.9%  NVDA= 23.7%  AMZN=  9.1%  GOOGL=  5.7%  META=  5.4%  GOOG=  4.8%  TSLA=  9.8%  AVGO=  3.1%  BRK-B=  3.1%  util=0.704106  Δ=-0.002152
+  TSLA+1%  AAPL= 19.3%  MSFT= 15.9%  NVDA= 23.7%  AMZN=  9.1%  GOOGL=  5.7%  META=  5.4%  GOOG=  3.7%  TSLA= 10.9%  AVGO=  3.1%  BRK-B=  3.1%  util=0.713332  Δ=+0.007074
+  AVGO+1%  AAPL= 19.3%  MSFT= 15.9%  NVDA= 23.7%  AMZN=  9.1%  GOOGL=  5.7%  META=  5.4%  GOOG=  3.7%  TSLA=  9.8%  AVGO=  4.3%  BRK-B=  3.1%  util=0.707226  Δ=+0.000968
+  BRK-B+1%  AAPL= 19.3%  MSFT= 15.9%  NVDA= 23.7%  AMZN=  9.1%  GOOGL=  5.7%  META=  5.4%  GOOG=  3.7%  TSLA=  9.8%  AVGO=  3.1%  BRK-B=  4.3%  util=0.702872  Δ=-0.003386
+  ★ WINNER: TSLA  improvement=+0.007074
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=0.713332  feasible=10]
+  AAPL+1%  AAPL= 20.3%  MSFT= 15.8%  NVDA= 23.5%  AMZN=  9.0%  GOOGL=  5.6%  META=  5.3%  GOOG=  3.6%  TSLA= 10.8%  AVGO=  3.0%  BRK-B=  3.0%  util=0.711581  Δ=-0.001751
+  MSFT+1%  AAPL= 19.2%  MSFT= 16.9%  NVDA= 23.5%  AMZN=  9.0%  GOOGL=  5.6%  META=  5.3%  GOOG=  3.6%  TSLA= 10.8%  AVGO=  3.0%  BRK-B=  3.0%  util=0.711080  Δ=-0.002252
+  NVDA+1%  AAPL= 19.2%  MSFT= 15.8%  NVDA= 24.7%  AMZN=  9.0%  GOOGL=  5.6%  META=  5.3%  GOOG=  3.6%  TSLA= 10.8%  AVGO=  3.0%  BRK-B=  3.0%  util=0.720426  Δ=+0.007094
+  AMZN+1%  AAPL= 19.2%  MSFT= 15.8%  NVDA= 23.5%  AMZN= 10.1%  GOOGL=  5.6%  META=  5.3%  GOOG=  3.6%  TSLA= 10.8%  AVGO=  3.0%  BRK-B=  3.0%  util=0.711041  Δ=-0.002291
+  GOOGL+1%  AAPL= 19.2%  MSFT= 15.8%  NVDA= 23.5%  AMZN=  9.0%  GOOGL=  6.7%  META=  5.3%  GOOG=  3.6%  TSLA= 10.8%  AVGO=  3.0%  BRK-B=  3.0%  util=0.711165  Δ=-0.002167
+  META+1%  AAPL= 19.2%  MSFT= 15.8%  NVDA= 23.5%  AMZN=  9.0%  GOOGL=  5.6%  META=  6.4%  GOOG=  3.6%  TSLA= 10.8%  AVGO=  3.0%  BRK-B=  3.0%  util=0.712104  Δ=-0.001228
+  GOOG+1%  AAPL= 19.2%  MSFT= 15.8%  NVDA= 23.5%  AMZN=  9.0%  GOOGL=  5.6%  META=  5.3%  GOOG=  4.7%  TSLA= 10.8%  AVGO=  3.0%  BRK-B=  3.0%  util=0.711206  Δ=-0.002126
+  TSLA+1%  AAPL= 19.2%  MSFT= 15.8%  NVDA= 23.5%  AMZN=  9.0%  GOOGL=  5.6%  META=  5.3%  GOOG=  3.6%  TSLA= 11.9%  AVGO=  3.0%  BRK-B=  3.0%  util=0.720138  Δ=+0.006806
+  AVGO+1%  AAPL= 19.2%  MSFT= 15.8%  NVDA= 23.5%  AMZN=  9.0%  GOOGL=  5.6%  META=  5.3%  GOOG=  3.6%  TSLA= 10.8%  AVGO=  4.1%  BRK-B=  3.0%  util=0.714382  Δ=+0.001050
+  BRK-B+1%  AAPL= 19.2%  MSFT= 15.8%  NVDA= 23.5%  AMZN=  9.0%  GOOGL=  5.6%  META=  5.3%  GOOG=  3.6%  TSLA= 10.8%  AVGO=  3.0%  BRK-B=  4.1%  util=0.709950  Δ=-0.003382
+  ★ WINNER: NVDA  improvement=+0.007094
+────────────────────────────────────────────────────────────────────────
+Epoch 16  [startUtility=0.720426  feasible=10]
+  AAPL+1%  AAPL= 20.2%  MSFT= 15.7%  NVDA= 24.5%  AMZN=  8.9%  GOOGL=  5.5%  META=  5.2%  GOOG=  3.5%  TSLA= 10.7%  AVGO=  2.9%  BRK-B=  2.9%  util=0.718697  Δ=-0.001728
+  MSFT+1%  AAPL= 19.1%  MSFT= 16.8%  NVDA= 24.5%  AMZN=  8.9%  GOOGL=  5.5%  META=  5.2%  GOOG=  3.5%  TSLA= 10.7%  AVGO=  2.9%  BRK-B=  2.9%  util=0.718167  Δ=-0.002259
+  NVDA+1%  AAPL= 19.1%  MSFT= 15.7%  NVDA= 25.7%  AMZN=  8.9%  GOOGL=  5.5%  META=  5.2%  GOOG=  3.5%  TSLA= 10.7%  AVGO=  2.9%  BRK-B=  2.9%  util=0.727431  Δ=+0.007005
+  AMZN+1%  AAPL= 19.1%  MSFT= 15.7%  NVDA= 24.5%  AMZN= 10.0%  GOOGL=  5.5%  META=  5.2%  GOOG=  3.5%  TSLA= 10.7%  AVGO=  2.9%  BRK-B=  2.9%  util=0.718132  Δ=-0.002294
+  GOOGL+1%  AAPL= 19.1%  MSFT= 15.7%  NVDA= 24.5%  AMZN=  8.9%  GOOGL=  6.6%  META=  5.2%  GOOG=  3.5%  TSLA= 10.7%  AVGO=  2.9%  BRK-B=  2.9%  util=0.718253  Δ=-0.002172
+  META+1%  AAPL= 19.1%  MSFT= 15.7%  NVDA= 24.5%  AMZN=  8.9%  GOOGL=  5.5%  META=  6.3%  GOOG=  3.5%  TSLA= 10.7%  AVGO=  2.9%  BRK-B=  2.9%  util=0.719186  Δ=-0.001240
+  GOOG+1%  AAPL= 19.1%  MSFT= 15.7%  NVDA= 24.5%  AMZN=  8.9%  GOOGL=  5.5%  META=  5.2%  GOOG=  4.6%  TSLA= 10.7%  AVGO=  2.9%  BRK-B=  2.9%  util=0.718294  Δ=-0.002132
+  TSLA+1%  AAPL= 19.1%  MSFT= 15.7%  NVDA= 24.5%  AMZN=  8.9%  GOOGL=  5.5%  META=  5.2%  GOOG=  3.5%  TSLA= 11.8%  AVGO=  2.9%  BRK-B=  2.9%  util=0.727353  Δ=+0.006927
+  AVGO+1%  AAPL= 19.1%  MSFT= 15.7%  NVDA= 24.5%  AMZN=  8.9%  GOOGL=  5.5%  META=  5.2%  GOOG=  3.5%  TSLA= 10.7%  AVGO=  4.0%  BRK-B=  2.9%  util=0.721484  Δ=+0.001058
+  BRK-B+1%  AAPL= 19.1%  MSFT= 15.7%  NVDA= 24.5%  AMZN=  8.9%  GOOGL=  5.5%  META=  5.2%  GOOG=  3.5%  TSLA= 10.7%  AVGO=  2.9%  BRK-B=  4.0%  util=0.717046  Δ=-0.003380
+  ★ WINNER: NVDA  improvement=+0.007005
+────────────────────────────────────────────────────────────────────────
+Epoch 17  [startUtility=0.727431  feasible=10]
+  AAPL+1%  AAPL= 20.1%  MSFT= 15.6%  NVDA= 25.5%  AMZN=  8.8%  GOOGL=  5.4%  META=  5.1%  GOOG=  3.4%  TSLA= 10.6%  AVGO=  2.8%  BRK-B=  2.8%  util=0.725720  Δ=-0.001711
+  MSFT+1%  AAPL= 19.0%  MSFT= 16.7%  NVDA= 25.5%  AMZN=  8.8%  GOOGL=  5.4%  META=  5.1%  GOOG=  3.4%  TSLA= 10.6%  AVGO=  2.8%  BRK-B=  2.8%  util=0.725173  Δ=-0.002258
+  NVDA+1%  AAPL= 19.0%  MSFT= 15.6%  NVDA= 26.7%  AMZN=  8.8%  GOOGL=  5.4%  META=  5.1%  GOOG=  3.4%  TSLA= 10.6%  AVGO=  2.8%  BRK-B=  2.8%  util=0.734331  Δ=+0.006900
+  AMZN+1%  AAPL= 19.0%  MSFT= 15.6%  NVDA= 25.5%  AMZN=  9.9%  GOOGL=  5.4%  META=  5.1%  GOOG=  3.4%  TSLA= 10.6%  AVGO=  2.8%  BRK-B=  2.8%  util=0.725148  Δ=-0.002283
+  GOOGL+1%  AAPL= 19.0%  MSFT= 15.6%  NVDA= 25.5%  AMZN=  8.8%  GOOGL=  6.5%  META=  5.1%  GOOG=  3.4%  TSLA= 10.6%  AVGO=  2.8%  BRK-B=  2.8%  util=0.725263  Δ=-0.002168
+  META+1%  AAPL= 19.0%  MSFT= 15.6%  NVDA= 25.5%  AMZN=  8.8%  GOOGL=  5.4%  META=  6.2%  GOOG=  3.4%  TSLA= 10.6%  AVGO=  2.8%  BRK-B=  2.8%  util=0.726191  Δ=-0.001240
+  GOOG+1%  AAPL= 19.0%  MSFT= 15.6%  NVDA= 25.5%  AMZN=  8.8%  GOOGL=  5.4%  META=  5.1%  GOOG=  4.5%  TSLA= 10.6%  AVGO=  2.8%  BRK-B=  2.8%  util=0.725304  Δ=-0.002127
+  TSLA+1%  AAPL= 19.0%  MSFT= 15.6%  NVDA= 25.5%  AMZN=  8.8%  GOOGL=  5.4%  META=  5.1%  GOOG=  3.4%  TSLA= 11.7%  AVGO=  2.8%  BRK-B=  2.8%  util=0.734426  Δ=+0.006995
+  AVGO+1%  AAPL= 19.0%  MSFT= 15.6%  NVDA= 25.5%  AMZN=  8.8%  GOOGL=  5.4%  META=  5.1%  GOOG=  3.4%  TSLA= 10.6%  AVGO=  3.9%  BRK-B=  2.8%  util=0.728444  Δ=+0.001013
+  BRK-B+1%  AAPL= 19.0%  MSFT= 15.6%  NVDA= 25.5%  AMZN=  8.8%  GOOGL=  5.4%  META=  5.1%  GOOG=  3.4%  TSLA= 10.6%  AVGO=  2.8%  BRK-B=  3.9%  util=0.724044  Δ=-0.003387
+  ★ WINNER: TSLA  improvement=+0.006995
+────────────────────────────────────────────────────────────────────────
+Epoch 18  [startUtility=0.734426  feasible=10]
+  AAPL+1%  AAPL= 20.0%  MSFT= 15.5%  NVDA= 25.4%  AMZN=  8.7%  GOOGL=  5.3%  META=  5.0%  GOOG=  3.3%  TSLA= 11.6%  AVGO=  2.7%  BRK-B=  2.7%  util=0.732694  Δ=-0.001732
+  MSFT+1%  AAPL= 18.9%  MSFT= 16.6%  NVDA= 25.4%  AMZN=  8.7%  GOOGL=  5.3%  META=  5.0%  GOOG=  3.3%  TSLA= 11.6%  AVGO=  2.7%  BRK-B=  2.7%  util=0.732205  Δ=-0.002220
+  NVDA+1%  AAPL= 18.9%  MSFT= 15.5%  NVDA= 26.5%  AMZN=  8.7%  GOOGL=  5.3%  META=  5.0%  GOOG=  3.3%  TSLA= 11.6%  AVGO=  2.7%  BRK-B=  2.7%  util=0.741413  Δ=+0.006987
+  AMZN+1%  AAPL= 18.9%  MSFT= 15.5%  NVDA= 25.4%  AMZN=  9.8%  GOOGL=  5.3%  META=  5.0%  GOOG=  3.3%  TSLA= 11.6%  AVGO=  2.7%  BRK-B=  2.7%  util=0.732154  Δ=-0.002272
+  GOOGL+1%  AAPL= 18.9%  MSFT= 15.5%  NVDA= 25.4%  AMZN=  8.7%  GOOGL=  6.4%  META=  5.0%  GOOG=  3.3%  TSLA= 11.6%  AVGO=  2.7%  BRK-B=  2.7%  util=0.732257  Δ=-0.002168
+  META+1%  AAPL= 18.9%  MSFT= 15.5%  NVDA= 25.4%  AMZN=  8.7%  GOOGL=  5.3%  META=  6.1%  GOOG=  3.3%  TSLA= 11.6%  AVGO=  2.7%  BRK-B=  2.7%  util=0.733230  Δ=-0.001196
+  GOOG+1%  AAPL= 18.9%  MSFT= 15.5%  NVDA= 25.4%  AMZN=  8.7%  GOOGL=  5.3%  META=  5.0%  GOOG=  4.4%  TSLA= 11.6%  AVGO=  2.7%  BRK-B=  2.7%  util=0.732298  Δ=-0.002127
+  TSLA+1%  AAPL= 18.9%  MSFT= 15.5%  NVDA= 25.4%  AMZN=  8.7%  GOOGL=  5.3%  META=  5.0%  GOOG=  3.3%  TSLA= 12.7%  AVGO=  2.7%  BRK-B=  2.7%  util=0.741205  Δ=+0.006780
+  AVGO+1%  AAPL= 18.9%  MSFT= 15.5%  NVDA= 25.4%  AMZN=  8.7%  GOOGL=  5.3%  META=  5.0%  GOOG=  3.3%  TSLA= 11.6%  AVGO=  3.8%  BRK-B=  2.7%  util=0.735496  Δ=+0.001070
+  BRK-B+1%  AAPL= 18.9%  MSFT= 15.5%  NVDA= 25.4%  AMZN=  8.7%  GOOGL=  5.3%  META=  5.0%  GOOG=  3.3%  TSLA= 11.6%  AVGO=  2.7%  BRK-B=  3.8%  util=0.731044  Δ=-0.003382
+  ★ WINNER: NVDA  improvement=+0.006987
+────────────────────────────────────────────────────────────────────────
+Epoch 19  [startUtility=0.741413  feasible=10]
+  AAPL+1%  AAPL= 19.9%  MSFT= 15.3%  NVDA= 26.4%  AMZN=  8.5%  GOOGL=  5.1%  META=  4.9%  GOOG=  3.2%  TSLA= 11.5%  AVGO=  2.6%  BRK-B=  2.6%  util=0.739690  Δ=-0.001723
+  MSFT+1%  AAPL= 18.7%  MSFT= 16.5%  NVDA= 26.4%  AMZN=  8.5%  GOOGL=  5.1%  META=  4.9%  GOOG=  3.2%  TSLA= 11.5%  AVGO=  2.6%  BRK-B=  2.6%  util=0.739201  Δ=-0.002212
+  NVDA+1%  AAPL= 18.7%  MSFT= 15.3%  NVDA= 27.5%  AMZN=  8.5%  GOOGL=  5.1%  META=  4.9%  GOOG=  3.2%  TSLA= 11.5%  AVGO=  2.6%  BRK-B=  2.6%  util=0.748297  Δ=+0.006884
+  AMZN+1%  AAPL= 18.7%  MSFT= 15.3%  NVDA= 26.4%  AMZN=  9.7%  GOOGL=  5.1%  META=  4.9%  GOOG=  3.2%  TSLA= 11.5%  AVGO=  2.6%  BRK-B=  2.6%  util=0.739135  Δ=-0.002278
+  GOOGL+1%  AAPL= 18.7%  MSFT= 15.3%  NVDA= 26.4%  AMZN=  8.5%  GOOGL=  6.3%  META=  4.9%  GOOG=  3.2%  TSLA= 11.5%  AVGO=  2.6%  BRK-B=  2.6%  util=0.739264  Δ=-0.002149
+  META+1%  AAPL= 18.7%  MSFT= 15.3%  NVDA= 26.4%  AMZN=  8.5%  GOOGL=  5.1%  META=  6.0%  GOOG=  3.2%  TSLA= 11.5%  AVGO=  2.6%  BRK-B=  2.6%  util=0.740216  Δ=-0.001197
+  GOOG+1%  AAPL= 18.7%  MSFT= 15.3%  NVDA= 26.4%  AMZN=  8.5%  GOOGL=  5.1%  META=  4.9%  GOOG=  4.3%  TSLA= 11.5%  AVGO=  2.6%  BRK-B=  2.6%  util=0.739305  Δ=-0.002108
+  TSLA+1%  AAPL= 18.7%  MSFT= 15.3%  NVDA= 26.4%  AMZN=  8.5%  GOOGL=  5.1%  META=  4.9%  GOOG=  3.2%  TSLA= 12.6%  AVGO=  2.6%  BRK-B=  2.6%  util=0.748282  Δ=+0.006869
+  AVGO+1%  AAPL= 18.7%  MSFT= 15.3%  NVDA= 26.4%  AMZN=  8.5%  GOOGL=  5.1%  META=  4.9%  GOOG=  3.2%  TSLA= 11.5%  AVGO=  3.7%  BRK-B=  2.6%  util=0.742464  Δ=+0.001051
+  BRK-B+1%  AAPL= 18.7%  MSFT= 15.3%  NVDA= 26.4%  AMZN=  8.5%  GOOGL=  5.1%  META=  4.9%  GOOG=  3.2%  TSLA= 11.5%  AVGO=  2.6%  BRK-B=  3.7%  util=0.738022  Δ=-0.003391
+  ★ WINNER: NVDA  improvement=+0.006884
+────────────────────────────────────────────────────────────────────────
+Epoch 20  [startUtility=0.748297  feasible=10]
+  AAPL+1%  AAPL= 19.7%  MSFT= 15.2%  NVDA= 27.4%  AMZN=  8.4%  GOOGL=  5.0%  META=  4.7%  GOOG=  3.0%  TSLA= 11.4%  AVGO=  2.5%  BRK-B=  2.5%  util=0.746592  Δ=-0.001705
+  MSFT+1%  AAPL= 18.6%  MSFT= 16.3%  NVDA= 27.4%  AMZN=  8.4%  GOOGL=  5.0%  META=  4.7%  GOOG=  3.0%  TSLA= 11.4%  AVGO=  2.5%  BRK-B=  2.5%  util=0.746089  Δ=-0.002208
+  NVDA+1%  AAPL= 18.6%  MSFT= 15.2%  NVDA= 28.5%  AMZN=  8.4%  GOOGL=  5.0%  META=  4.7%  GOOG=  3.0%  TSLA= 11.4%  AVGO=  2.5%  BRK-B=  2.5%  util=0.755089  Δ=+0.006792
+  AMZN+1%  AAPL= 18.6%  MSFT= 15.2%  NVDA= 27.4%  AMZN=  9.5%  GOOGL=  5.0%  META=  4.7%  GOOG=  3.0%  TSLA= 11.4%  AVGO=  2.5%  BRK-B=  2.5%  util=0.746037  Δ=-0.002261
+  GOOGL+1%  AAPL= 18.6%  MSFT= 15.2%  NVDA= 27.4%  AMZN=  8.4%  GOOGL=  6.1%  META=  4.7%  GOOG=  3.0%  TSLA= 11.4%  AVGO=  2.5%  BRK-B=  2.5%  util=0.746170  Δ=-0.002127
+  META+1%  AAPL= 18.6%  MSFT= 15.2%  NVDA= 27.4%  AMZN=  8.4%  GOOGL=  5.0%  META=  5.9%  GOOG=  3.0%  TSLA= 11.4%  AVGO=  2.5%  BRK-B=  2.5%  util=0.747084  Δ=-0.001213
+  GOOG+1%  AAPL= 18.6%  MSFT= 15.2%  NVDA= 27.4%  AMZN=  8.4%  GOOGL=  5.0%  META=  4.7%  GOOG=  4.2%  TSLA= 11.4%  AVGO=  2.5%  BRK-B=  2.5%  util=0.746212  Δ=-0.002085
+  TSLA+1%  AAPL= 18.6%  MSFT= 15.2%  NVDA= 27.4%  AMZN=  8.4%  GOOGL=  5.0%  META=  4.7%  GOOG=  3.0%  TSLA= 12.5%  AVGO=  2.5%  BRK-B=  2.5%  util=0.755240  Δ=+0.006942
+  AVGO+1%  AAPL= 18.6%  MSFT= 15.2%  NVDA= 27.4%  AMZN=  8.4%  GOOGL=  5.0%  META=  4.7%  GOOG=  3.0%  TSLA= 11.4%  AVGO=  3.6%  BRK-B=  2.5%  util=0.749317  Δ=+0.001020
+  BRK-B+1%  AAPL= 18.6%  MSFT= 15.2%  NVDA= 27.4%  AMZN=  8.4%  GOOGL=  5.0%  META=  4.7%  GOOG=  3.0%  TSLA= 11.4%  AVGO=  2.5%  BRK-B=  3.6%  util=0.744916  Δ=-0.003381
+  ★ WINNER: TSLA  improvement=+0.006942
+────────────────────────────────────────────────────────────────────────
+Epoch 21  [startUtility=0.755240  feasible=10]
+  AAPL+1%  AAPL= 19.6%  MSFT= 15.1%  NVDA= 27.3%  AMZN=  8.3%  GOOGL=  4.9%  META=  4.6%  GOOG=  2.9%  TSLA= 12.4%  AVGO=  2.4%  BRK-B=  2.4%  util=0.753508  Δ=-0.001732
+  MSFT+1%  AAPL= 18.5%  MSFT= 16.2%  NVDA= 27.3%  AMZN=  8.3%  GOOGL=  4.9%  META=  4.6%  GOOG=  2.9%  TSLA= 12.4%  AVGO=  2.4%  BRK-B=  2.4%  util=0.753054  Δ=-0.002186
+  NVDA+1%  AAPL= 18.5%  MSFT= 15.1%  NVDA= 28.4%  AMZN=  8.3%  GOOGL=  4.9%  META=  4.6%  GOOG=  2.9%  TSLA= 12.4%  AVGO=  2.4%  BRK-B=  2.4%  util=0.762120  Δ=+0.006880
+  AMZN+1%  AAPL= 18.5%  MSFT= 15.1%  NVDA= 27.3%  AMZN=  9.4%  GOOGL=  4.9%  META=  4.6%  GOOG=  2.9%  TSLA= 12.4%  AVGO=  2.4%  BRK-B=  2.4%  util=0.752966  Δ=-0.002274
+  GOOGL+1%  AAPL= 18.5%  MSFT= 15.1%  NVDA= 27.3%  AMZN=  8.3%  GOOGL=  6.0%  META=  4.6%  GOOG=  2.9%  TSLA= 12.4%  AVGO=  2.4%  BRK-B=  2.4%  util=0.753126  Δ=-0.002114
+  META+1%  AAPL= 18.5%  MSFT= 15.1%  NVDA= 27.3%  AMZN=  8.3%  GOOGL=  4.9%  META=  5.7%  GOOG=  2.9%  TSLA= 12.4%  AVGO=  2.4%  BRK-B=  2.4%  util=0.754054  Δ=-0.001185
+  GOOG+1%  AAPL= 18.5%  MSFT= 15.1%  NVDA= 27.3%  AMZN=  8.3%  GOOGL=  4.9%  META=  4.6%  GOOG=  4.0%  TSLA= 12.4%  AVGO=  2.4%  BRK-B=  2.4%  util=0.753168  Δ=-0.002072
+  TSLA+1%  AAPL= 18.5%  MSFT= 15.1%  NVDA= 27.3%  AMZN=  8.3%  GOOGL=  4.9%  META=  4.6%  GOOG=  2.9%  TSLA= 13.5%  AVGO=  2.4%  BRK-B=  2.4%  util=0.761964  Δ=+0.006724
+  AVGO+1%  AAPL= 18.5%  MSFT= 15.1%  NVDA= 27.3%  AMZN=  8.3%  GOOGL=  4.9%  META=  4.6%  GOOG=  2.9%  TSLA= 12.4%  AVGO=  3.5%  BRK-B=  2.4%  util=0.756316  Δ=+0.001076
+  BRK-B+1%  AAPL= 18.5%  MSFT= 15.1%  NVDA= 27.3%  AMZN=  8.3%  GOOGL=  4.9%  META=  4.6%  GOOG=  2.9%  TSLA= 12.4%  AVGO=  2.4%  BRK-B=  3.5%  util=0.751865  Δ=-0.003375
+  ★ WINNER: NVDA  improvement=+0.006880
+────────────────────────────────────────────────────────────────────────
+Epoch 22  [startUtility=0.762120  feasible=10]
+  AAPL+1%  AAPL= 19.5%  MSFT= 15.0%  NVDA= 28.3%  AMZN=  8.2%  GOOGL=  4.8%  META=  4.5%  GOOG=  2.8%  TSLA= 12.3%  AVGO=  2.3%  BRK-B=  2.3%  util=0.760412  Δ=-0.001708
+  MSFT+1%  AAPL= 18.4%  MSFT= 16.1%  NVDA= 28.3%  AMZN=  8.2%  GOOGL=  4.8%  META=  4.5%  GOOG=  2.8%  TSLA= 12.3%  AVGO=  2.3%  BRK-B=  2.3%  util=0.759936  Δ=-0.002184
+  NVDA+1%  AAPL= 18.4%  MSFT= 15.0%  NVDA= 29.4%  AMZN=  8.2%  GOOGL=  4.8%  META=  4.5%  GOOG=  2.8%  TSLA= 12.3%  AVGO=  2.3%  BRK-B=  2.3%  util=0.768926  Δ=+0.006806
+  AMZN+1%  AAPL= 18.4%  MSFT= 15.0%  NVDA= 28.3%  AMZN=  9.3%  GOOGL=  4.8%  META=  4.5%  GOOG=  2.8%  TSLA= 12.3%  AVGO=  2.3%  BRK-B=  2.3%  util=0.759870  Δ=-0.002250
+  GOOGL+1%  AAPL= 18.4%  MSFT= 15.0%  NVDA= 28.3%  AMZN=  8.2%  GOOGL=  5.9%  META=  4.5%  GOOG=  2.8%  TSLA= 12.3%  AVGO=  2.3%  BRK-B=  2.3%  util=0.760020  Δ=-0.002101
+  META+1%  AAPL= 18.4%  MSFT= 15.0%  NVDA= 28.3%  AMZN=  8.2%  GOOGL=  4.8%  META=  5.6%  GOOG=  2.8%  TSLA= 12.3%  AVGO=  2.3%  BRK-B=  2.3%  util=0.760930  Δ=-0.001190
+  GOOG+1%  AAPL= 18.4%  MSFT= 15.0%  NVDA= 28.3%  AMZN=  8.2%  GOOGL=  4.8%  META=  4.5%  GOOG=  3.9%  TSLA= 12.3%  AVGO=  2.3%  BRK-B=  2.3%  util=0.760062  Δ=-0.002058
+  TSLA+1%  AAPL= 18.4%  MSFT= 15.0%  NVDA= 28.3%  AMZN=  8.2%  GOOGL=  4.8%  META=  4.5%  GOOG=  2.8%  TSLA= 13.4%  AVGO=  2.3%  BRK-B=  2.3%  util=0.768937  Δ=+0.006817
+  AVGO+1%  AAPL= 18.4%  MSFT= 15.0%  NVDA= 28.3%  AMZN=  8.2%  GOOGL=  4.8%  META=  4.5%  GOOG=  2.8%  TSLA= 12.3%  AVGO=  3.4%  BRK-B=  2.3%  util=0.763180  Δ=+0.001060
+  BRK-B+1%  AAPL= 18.4%  MSFT= 15.0%  NVDA= 28.3%  AMZN=  8.2%  GOOGL=  4.8%  META=  4.5%  GOOG=  2.8%  TSLA= 12.3%  AVGO=  2.3%  BRK-B=  3.4%  util=0.758750  Δ=-0.003370
+  ★ WINNER: TSLA  improvement=+0.006817
+────────────────────────────────────────────────────────────────────────
+Epoch 23  [startUtility=0.768937  feasible=10]
+  AAPL+1%  AAPL= 19.4%  MSFT= 14.9%  NVDA= 28.2%  AMZN=  8.1%  GOOGL=  4.7%  META=  4.4%  GOOG=  2.7%  TSLA= 13.3%  AVGO=  2.1%  BRK-B=  2.1%  util=0.767210  Δ=-0.001727
+  MSFT+1%  AAPL= 18.3%  MSFT= 16.0%  NVDA= 28.2%  AMZN=  8.1%  GOOGL=  4.7%  META=  4.4%  GOOG=  2.7%  TSLA= 13.3%  AVGO=  2.1%  BRK-B=  2.1%  util=0.766801  Δ=-0.002136
+  NVDA+1%  AAPL= 18.3%  MSFT= 14.9%  NVDA= 29.3%  AMZN=  8.1%  GOOGL=  4.7%  META=  4.4%  GOOG=  2.7%  TSLA= 13.3%  AVGO=  2.1%  BRK-B=  2.1%  util=0.775780  Δ=+0.006843
+  AMZN+1%  AAPL= 18.3%  MSFT= 14.9%  NVDA= 28.2%  AMZN=  9.2%  GOOGL=  4.7%  META=  4.4%  GOOG=  2.7%  TSLA= 13.3%  AVGO=  2.1%  BRK-B=  2.1%  util=0.766707  Δ=-0.002230
+  GOOGL+1%  AAPL= 18.3%  MSFT= 14.9%  NVDA= 28.2%  AMZN=  8.1%  GOOGL=  5.8%  META=  4.4%  GOOG=  2.7%  TSLA= 13.3%  AVGO=  2.1%  BRK-B=  2.1%  util=0.766822  Δ=-0.002115
+  META+1%  AAPL= 18.3%  MSFT= 14.9%  NVDA= 28.2%  AMZN=  8.1%  GOOGL=  4.7%  META=  5.5%  GOOG=  2.7%  TSLA= 13.3%  AVGO=  2.1%  BRK-B=  2.1%  util=0.767793  Δ=-0.001144
+  GOOG+1%  AAPL= 18.3%  MSFT= 14.9%  NVDA= 28.2%  AMZN=  8.1%  GOOGL=  4.7%  META=  4.4%  GOOG=  3.8%  TSLA= 13.3%  AVGO=  2.1%  BRK-B=  2.1%  util=0.766866  Δ=-0.002071
+  TSLA+1%  AAPL= 18.3%  MSFT= 14.9%  NVDA= 28.2%  AMZN=  8.1%  GOOGL=  4.7%  META=  4.4%  GOOG=  2.7%  TSLA= 14.4%  AVGO=  2.1%  BRK-B=  2.1%  util=0.775405  Δ=+0.006468
+  AVGO+1%  AAPL= 18.3%  MSFT= 14.9%  NVDA= 28.2%  AMZN=  8.1%  GOOGL=  4.7%  META=  4.4%  GOOG=  2.7%  TSLA= 13.3%  AVGO=  3.3%  BRK-B=  2.1%  util=0.770021  Δ=+0.001084
+  BRK-B+1%  AAPL= 18.3%  MSFT= 14.9%  NVDA= 28.2%  AMZN=  8.1%  GOOGL=  4.7%  META=  4.4%  GOOG=  2.7%  TSLA= 13.3%  AVGO=  2.1%  BRK-B=  3.3%  util=0.765555  Δ=-0.003382
+  ★ WINNER: NVDA  improvement=+0.006843
+────────────────────────────────────────────────────────────────────────
+Epoch 24  [startUtility=0.775780  feasible=10]
+  AAPL+1%  AAPL= 19.3%  MSFT= 14.8%  NVDA= 29.2%  AMZN=  8.0%  GOOGL=  4.6%  META=  4.3%  GOOG=  2.6%  TSLA= 13.1%  AVGO=  2.0%  BRK-B=  2.0%  util=0.774095  Δ=-0.001686
+  MSFT+1%  AAPL= 18.2%  MSFT= 15.9%  NVDA= 29.2%  AMZN=  8.0%  GOOGL=  4.6%  META=  4.3%  GOOG=  2.6%  TSLA= 13.1%  AVGO=  2.0%  BRK-B=  2.0%  util=0.773661  Δ=-0.002119
+  NVDA+1%  AAPL= 18.2%  MSFT= 14.8%  NVDA= 30.3%  AMZN=  8.0%  GOOGL=  4.6%  META=  4.3%  GOOG=  2.6%  TSLA= 13.1%  AVGO=  2.0%  BRK-B=  2.0%  util=0.782574  Δ=+0.006794
+  AMZN+1%  AAPL= 18.2%  MSFT= 14.8%  NVDA= 29.2%  AMZN=  9.1%  GOOGL=  4.6%  META=  4.3%  GOOG=  2.6%  TSLA= 13.1%  AVGO=  2.0%  BRK-B=  2.0%  util=0.773573  Δ=-0.002207
+  GOOGL+1%  AAPL= 18.2%  MSFT= 14.8%  NVDA= 29.2%  AMZN=  8.0%  GOOGL=  5.7%  META=  4.3%  GOOG=  2.6%  TSLA= 13.1%  AVGO=  2.0%  BRK-B=  2.0%  util=0.773672  Δ=-0.002108
+  META+1%  AAPL= 18.2%  MSFT= 14.8%  NVDA= 29.2%  AMZN=  8.0%  GOOGL=  4.6%  META=  5.4%  GOOG=  2.6%  TSLA= 13.1%  AVGO=  2.0%  BRK-B=  2.0%  util=0.774645  Δ=-0.001135
+  GOOG+1%  AAPL= 18.2%  MSFT= 14.8%  NVDA= 29.2%  AMZN=  8.0%  GOOGL=  4.6%  META=  4.3%  GOOG=  3.7%  TSLA= 13.1%  AVGO=  2.0%  BRK-B=  2.0%  util=0.773716  Δ=-0.002065
+  TSLA+1%  AAPL= 18.2%  MSFT= 14.8%  NVDA= 29.2%  AMZN=  8.0%  GOOGL=  4.6%  META=  4.3%  GOOG=  2.6%  TSLA= 14.3%  AVGO=  2.0%  BRK-B=  2.0%  util=0.782400  Δ=+0.006620
+  AVGO+1%  AAPL= 18.2%  MSFT= 14.8%  NVDA= 29.2%  AMZN=  8.0%  GOOGL=  4.6%  META=  4.3%  GOOG=  2.6%  TSLA= 13.1%  AVGO=  3.1%  BRK-B=  2.0%  util=0.776850  Δ=+0.001070
+  BRK-B+1%  AAPL= 18.2%  MSFT= 14.8%  NVDA= 29.2%  AMZN=  8.0%  GOOGL=  4.6%  META=  4.3%  GOOG=  2.6%  TSLA= 13.1%  AVGO=  2.0%  BRK-B=  3.1%  util=0.772408  Δ=-0.003372
+  ★ WINNER: NVDA  improvement=+0.006794
+────────────────────────────────────────────────────────────────────────
+Epoch 25  [startUtility=0.782574  feasible=10]
+  AAPL+1%  AAPL= 19.2%  MSFT= 14.7%  NVDA= 30.2%  AMZN=  7.9%  GOOGL=  4.5%  META=  4.2%  GOOG=  2.5%  TSLA= 13.0%  AVGO=  1.9%  BRK-B=  1.9%  util=0.780896  Δ=-0.001679
+  MSFT+1%  AAPL= 18.1%  MSFT= 15.8%  NVDA= 30.2%  AMZN=  7.9%  GOOGL=  4.5%  META=  4.2%  GOOG=  2.5%  TSLA= 13.0%  AVGO=  1.9%  BRK-B=  1.9%  util=0.780460  Δ=-0.002114
+  NVDA+1%  AAPL= 18.1%  MSFT= 14.7%  NVDA= 31.3%  AMZN=  7.9%  GOOGL=  4.5%  META=  4.2%  GOOG=  2.5%  TSLA= 13.0%  AVGO=  1.9%  BRK-B=  1.9%  util=0.789294  Δ=+0.006720
+  AMZN+1%  AAPL= 18.1%  MSFT= 14.7%  NVDA= 30.2%  AMZN=  9.0%  GOOGL=  4.5%  META=  4.2%  GOOG=  2.5%  TSLA= 13.0%  AVGO=  1.9%  BRK-B=  1.9%  util=0.780371  Δ=-0.002203
+  GOOGL+1%  AAPL= 18.1%  MSFT= 14.7%  NVDA= 30.2%  AMZN=  7.9%  GOOGL=  5.6%  META=  4.2%  GOOG=  2.5%  TSLA= 13.0%  AVGO=  1.9%  BRK-B=  1.9%  util=0.780467  Δ=-0.002108
+  META+1%  AAPL= 18.1%  MSFT= 14.7%  NVDA= 30.2%  AMZN=  7.9%  GOOGL=  4.5%  META=  5.3%  GOOG=  2.5%  TSLA= 13.0%  AVGO=  1.9%  BRK-B=  1.9%  util=0.781426  Δ=-0.001148
+  GOOG+1%  AAPL= 18.1%  MSFT= 14.7%  NVDA= 30.2%  AMZN=  7.9%  GOOGL=  4.5%  META=  4.2%  GOOG=  3.6%  TSLA= 13.0%  AVGO=  1.9%  BRK-B=  1.9%  util=0.780511  Δ=-0.002064
+  TSLA+1%  AAPL= 18.1%  MSFT= 14.7%  NVDA= 30.2%  AMZN=  7.9%  GOOGL=  4.5%  META=  4.2%  GOOG=  2.5%  TSLA= 14.1%  AVGO=  1.9%  BRK-B=  1.9%  util=0.789272  Δ=+0.006697
+  AVGO+1%  AAPL= 18.1%  MSFT= 14.7%  NVDA= 30.2%  AMZN=  7.9%  GOOGL=  4.5%  META=  4.2%  GOOG=  2.5%  TSLA= 13.0%  AVGO=  3.0%  BRK-B=  1.9%  util=0.783622  Δ=+0.001048
+  BRK-B+1%  AAPL= 18.1%  MSFT= 14.7%  NVDA= 30.2%  AMZN=  7.9%  GOOGL=  4.5%  META=  4.2%  GOOG=  2.5%  TSLA= 13.0%  AVGO=  1.9%  BRK-B=  3.0%  util=0.779202  Δ=-0.003372
+  ★ WINNER: NVDA  improvement=+0.006720
+────────────────────────────────────────────────────────────────────────
+Epoch 26  [startUtility=0.789294  feasible=10]
+  AAPL+1%  AAPL= 19.1%  MSFT= 14.6%  NVDA= 31.2%  AMZN=  7.8%  GOOGL=  4.4%  META=  4.1%  GOOG=  2.4%  TSLA= 12.9%  AVGO=  1.8%  BRK-B=  1.8%  util=0.787621  Δ=-0.001673
+  MSFT+1%  AAPL= 18.0%  MSFT= 15.7%  NVDA= 31.2%  AMZN=  7.8%  GOOGL=  4.4%  META=  4.1%  GOOG=  2.4%  TSLA= 12.9%  AVGO=  1.8%  BRK-B=  1.8%  util=0.787180  Δ=-0.002114
+  NVDA+1%  AAPL= 18.0%  MSFT= 14.6%  NVDA= 32.3%  AMZN=  7.8%  GOOGL=  4.4%  META=  4.1%  GOOG=  2.4%  TSLA= 12.9%  AVGO=  1.8%  BRK-B=  1.8%  util=0.795947  Δ=+0.006653
+  AMZN+1%  AAPL= 18.0%  MSFT= 14.6%  NVDA= 31.2%  AMZN=  8.9%  GOOGL=  4.4%  META=  4.1%  GOOG=  2.4%  TSLA= 12.9%  AVGO=  1.8%  BRK-B=  1.8%  util=0.787084  Δ=-0.002210
+  GOOGL+1%  AAPL= 18.0%  MSFT= 14.6%  NVDA= 31.2%  AMZN=  7.8%  GOOGL=  5.5%  META=  4.1%  GOOG=  2.4%  TSLA= 12.9%  AVGO=  1.8%  BRK-B=  1.8%  util=0.787195  Δ=-0.002099
+  META+1%  AAPL= 18.0%  MSFT= 14.6%  NVDA= 31.2%  AMZN=  7.8%  GOOGL=  4.4%  META=  5.2%  GOOG=  2.4%  TSLA= 12.9%  AVGO=  1.8%  BRK-B=  1.8%  util=0.788128  Δ=-0.001166
+  GOOG+1%  AAPL= 18.0%  MSFT= 14.6%  NVDA= 31.2%  AMZN=  7.8%  GOOGL=  4.4%  META=  4.1%  GOOG=  3.5%  TSLA= 12.9%  AVGO=  1.8%  BRK-B=  1.8%  util=0.787238  Δ=-0.002056
+  TSLA+1%  AAPL= 18.0%  MSFT= 14.6%  NVDA= 31.2%  AMZN=  7.8%  GOOGL=  4.4%  META=  4.1%  GOOG=  2.4%  TSLA= 14.0%  AVGO=  1.8%  BRK-B=  1.8%  util=0.796080  Δ=+0.006786
+  AVGO+1%  AAPL= 18.0%  MSFT= 14.6%  NVDA= 31.2%  AMZN=  7.8%  GOOGL=  4.4%  META=  4.1%  GOOG=  2.4%  TSLA= 12.9%  AVGO=  2.9%  BRK-B=  1.8%  util=0.790338  Δ=+0.001044
+  BRK-B+1%  AAPL= 18.0%  MSFT= 14.6%  NVDA= 31.2%  AMZN=  7.8%  GOOGL=  4.4%  META=  4.1%  GOOG=  2.4%  TSLA= 12.9%  AVGO=  1.8%  BRK-B=  2.9%  util=0.785924  Δ=-0.003370
+  ★ WINNER: TSLA  improvement=+0.006786
+────────────────────────────────────────────────────────────────────────
+Epoch 27  [startUtility=0.796080  feasible=10]
+  AAPL+1%  AAPL= 19.0%  MSFT= 14.5%  NVDA= 31.1%  AMZN=  7.7%  GOOGL=  4.3%  META=  4.0%  GOOG=  2.3%  TSLA= 13.9%  AVGO=  1.7%  BRK-B=  1.7%  util=0.794412  Δ=-0.001668
+  MSFT+1%  AAPL= 17.9%  MSFT= 15.6%  NVDA= 31.1%  AMZN=  7.7%  GOOGL=  4.3%  META=  4.0%  GOOG=  2.3%  TSLA= 13.9%  AVGO=  1.7%  BRK-B=  1.7%  util=0.794000  Δ=-0.002080
+  NVDA+1%  AAPL= 17.9%  MSFT= 14.5%  NVDA= 32.2%  AMZN=  7.7%  GOOGL=  4.3%  META=  4.0%  GOOG=  2.3%  TSLA= 13.9%  AVGO=  1.7%  BRK-B=  1.7%  util=0.802815  Δ=+0.006735
+  AMZN+1%  AAPL= 17.9%  MSFT= 14.5%  NVDA= 31.1%  AMZN=  8.8%  GOOGL=  4.3%  META=  4.0%  GOOG=  2.3%  TSLA= 13.9%  AVGO=  1.7%  BRK-B=  1.7%  util=0.793900  Δ=-0.002179
+  GOOGL+1%  AAPL= 17.9%  MSFT= 14.5%  NVDA= 31.1%  AMZN=  7.7%  GOOGL=  5.4%  META=  4.0%  GOOG=  2.3%  TSLA= 13.9%  AVGO=  1.7%  BRK-B=  1.7%  util=0.793990  Δ=-0.002090
+  META+1%  AAPL= 17.9%  MSFT= 14.5%  NVDA= 31.1%  AMZN=  7.7%  GOOGL=  4.3%  META=  5.1%  GOOG=  2.3%  TSLA= 13.9%  AVGO=  1.7%  BRK-B=  1.7%  util=0.794969  Δ=-0.001111
+  GOOG+1%  AAPL= 17.9%  MSFT= 14.5%  NVDA= 31.1%  AMZN=  7.7%  GOOGL=  4.3%  META=  4.0%  GOOG=  3.4%  TSLA= 13.9%  AVGO=  1.7%  BRK-B=  1.7%  util=0.794034  Δ=-0.002046
+  TSLA+1%  AAPL= 17.9%  MSFT= 14.5%  NVDA= 31.1%  AMZN=  7.7%  GOOGL=  4.3%  META=  4.0%  GOOG=  2.3%  TSLA= 15.0%  AVGO=  1.7%  BRK-B=  1.7%  util=0.802642  Δ=+0.006562
+  AVGO+1%  AAPL= 17.9%  MSFT= 14.5%  NVDA= 31.1%  AMZN=  7.7%  GOOGL=  4.3%  META=  4.0%  GOOG=  2.3%  TSLA= 13.9%  AVGO=  2.8%  BRK-B=  1.7%  util=0.797167  Δ=+0.001088
+  BRK-B+1%  AAPL= 17.9%  MSFT= 14.5%  NVDA= 31.1%  AMZN=  7.7%  GOOGL=  4.3%  META=  4.0%  GOOG=  2.3%  TSLA= 13.9%  AVGO=  1.7%  BRK-B=  2.8%  util=0.792728  Δ=-0.003352
+  ★ WINNER: NVDA  improvement=+0.006735
+────────────────────────────────────────────────────────────────────────
+Epoch 28  [startUtility=0.802815  feasible=10]
+  AAPL+1%  AAPL= 18.9%  MSFT= 14.3%  NVDA= 32.1%  AMZN=  7.5%  GOOGL=  4.1%  META=  3.9%  GOOG=  2.2%  TSLA= 13.8%  AVGO=  1.6%  BRK-B=  1.6%  util=0.801165  Δ=-0.001650
+  MSFT+1%  AAPL= 17.7%  MSFT= 15.5%  NVDA= 32.1%  AMZN=  7.5%  GOOGL=  4.1%  META=  3.9%  GOOG=  2.2%  TSLA= 13.8%  AVGO=  1.6%  BRK-B=  1.6%  util=0.800735  Δ=-0.002080
+  NVDA+1%  AAPL= 17.7%  MSFT= 14.3%  NVDA= 33.2%  AMZN=  7.5%  GOOGL=  4.1%  META=  3.9%  GOOG=  2.2%  TSLA= 13.8%  AVGO=  1.6%  BRK-B=  1.6%  util=0.809472  Δ=+0.006657
+  AMZN+1%  AAPL= 17.7%  MSFT= 14.3%  NVDA= 32.1%  AMZN=  8.7%  GOOGL=  4.1%  META=  3.9%  GOOG=  2.2%  TSLA= 13.8%  AVGO=  1.6%  BRK-B=  1.6%  util=0.800638  Δ=-0.002177
+  GOOGL+1%  AAPL= 17.7%  MSFT= 14.3%  NVDA= 32.1%  AMZN=  7.5%  GOOGL=  5.3%  META=  3.9%  GOOG=  2.2%  TSLA= 13.8%  AVGO=  1.6%  BRK-B=  1.6%  util=0.800723  Δ=-0.002092
+  META+1%  AAPL= 17.7%  MSFT= 14.3%  NVDA= 32.1%  AMZN=  7.5%  GOOGL=  4.1%  META=  5.0%  GOOG=  2.2%  TSLA= 13.8%  AVGO=  1.6%  BRK-B=  1.6%  util=0.801681  Δ=-0.001134
+  GOOG+1%  AAPL= 17.7%  MSFT= 14.3%  NVDA= 32.1%  AMZN=  7.5%  GOOGL=  4.1%  META=  3.9%  GOOG=  3.3%  TSLA= 13.8%  AVGO=  1.6%  BRK-B=  1.6%  util=0.800767  Δ=-0.002048
+  TSLA+1%  AAPL= 17.7%  MSFT= 14.3%  NVDA= 32.1%  AMZN=  7.5%  GOOGL=  4.1%  META=  3.9%  GOOG=  2.2%  TSLA= 14.9%  AVGO=  1.6%  BRK-B=  1.6%  util=0.809457  Δ=+0.006642
+  AVGO+1%  AAPL= 17.7%  MSFT= 14.3%  NVDA= 32.1%  AMZN=  7.5%  GOOGL=  4.1%  META=  3.9%  GOOG=  2.2%  TSLA= 13.8%  AVGO=  2.7%  BRK-B=  1.6%  util=0.803869  Δ=+0.001054
+  BRK-B+1%  AAPL= 17.7%  MSFT= 14.3%  NVDA= 32.1%  AMZN=  7.5%  GOOGL=  4.1%  META=  3.9%  GOOG=  2.2%  TSLA= 13.8%  AVGO=  1.6%  BRK-B=  2.7%  util=0.799454  Δ=-0.003361
+  ★ WINNER: NVDA  improvement=+0.006657
+────────────────────────────────────────────────────────────────────────
+Epoch 29  [startUtility=0.809472  feasible=10]
+  AAPL+1%  AAPL= 18.7%  MSFT= 14.2%  NVDA= 33.1%  AMZN=  7.4%  GOOGL=  4.0%  META=  3.7%  GOOG=  2.0%  TSLA= 13.7%  AVGO=  1.5%  BRK-B=  1.5%  util=0.807828  Δ=-0.001644
+  MSFT+1%  AAPL= 17.6%  MSFT= 15.3%  NVDA= 33.1%  AMZN=  7.4%  GOOGL=  4.0%  META=  3.7%  GOOG=  2.0%  TSLA= 13.7%  AVGO=  1.5%  BRK-B=  1.5%  util=0.807386  Δ=-0.002086
+  NVDA+1%  AAPL= 17.6%  MSFT= 14.2%  NVDA= 34.2%  AMZN=  7.4%  GOOGL=  4.0%  META=  3.7%  GOOG=  2.0%  TSLA= 13.7%  AVGO=  1.5%  BRK-B=  1.5%  util=0.816078  Δ=+0.006606
+  AMZN+1%  AAPL= 17.6%  MSFT= 14.2%  NVDA= 33.1%  AMZN=  8.5%  GOOGL=  4.0%  META=  3.7%  GOOG=  2.0%  TSLA= 13.7%  AVGO=  1.5%  BRK-B=  1.5%  util=0.807281  Δ=-0.002190
+  GOOGL+1%  AAPL= 17.6%  MSFT= 14.2%  NVDA= 33.1%  AMZN=  7.4%  GOOGL=  5.1%  META=  3.7%  GOOG=  2.0%  TSLA= 13.7%  AVGO=  1.5%  BRK-B=  1.5%  util=0.807388  Δ=-0.002084
+  META+1%  AAPL= 17.6%  MSFT= 14.2%  NVDA= 33.1%  AMZN=  7.4%  GOOGL=  4.0%  META=  4.9%  GOOG=  2.0%  TSLA= 13.7%  AVGO=  1.5%  BRK-B=  1.5%  util=0.808332  Δ=-0.001140
+  GOOG+1%  AAPL= 17.6%  MSFT= 14.2%  NVDA= 33.1%  AMZN=  7.4%  GOOGL=  4.0%  META=  3.7%  GOOG=  3.2%  TSLA= 13.7%  AVGO=  1.5%  BRK-B=  1.5%  util=0.807432  Δ=-0.002040
+  TSLA+1%  AAPL= 17.6%  MSFT= 14.2%  NVDA= 33.1%  AMZN=  7.4%  GOOGL=  4.0%  META=  3.7%  GOOG=  2.0%  TSLA= 14.8%  AVGO=  1.5%  BRK-B=  1.5%  util=0.816196  Δ=+0.006724
+  AVGO+1%  AAPL= 17.6%  MSFT= 14.2%  NVDA= 33.1%  AMZN=  7.4%  GOOGL=  4.0%  META=  3.7%  GOOG=  2.0%  TSLA= 13.7%  AVGO=  2.6%  BRK-B=  1.5%  util=0.810520  Δ=+0.001048
+  BRK-B+1%  AAPL= 17.6%  MSFT= 14.2%  NVDA= 33.1%  AMZN=  7.4%  GOOGL=  4.0%  META=  3.7%  GOOG=  2.0%  TSLA= 13.7%  AVGO=  1.5%  BRK-B=  2.6%  util=0.806109  Δ=-0.003362
+  ★ WINNER: TSLA  improvement=+0.006724
+────────────────────────────────────────────────────────────────────────
+Epoch 30  [startUtility=0.816196  feasible=10]
+  AAPL+1%  AAPL= 18.6%  MSFT= 14.1%  NVDA= 33.0%  AMZN=  7.3%  GOOGL=  3.9%  META=  3.6%  GOOG=  1.9%  TSLA= 14.7%  AVGO=  1.4%  BRK-B=  1.4%  util=0.814531  Δ=-0.001665
+  MSFT+1%  AAPL= 17.5%  MSFT= 15.2%  NVDA= 33.0%  AMZN=  7.3%  GOOGL=  3.9%  META=  3.6%  GOOG=  1.9%  TSLA= 14.7%  AVGO=  1.4%  BRK-B=  1.4%  util=0.814134  Δ=-0.002062
+  NVDA+1%  AAPL= 17.5%  MSFT= 14.1%  NVDA= 34.1%  AMZN=  7.3%  GOOGL=  3.9%  META=  3.6%  GOOG=  1.9%  TSLA= 14.7%  AVGO=  1.4%  BRK-B=  1.4%  util=0.822849  Δ=+0.006653
+  AMZN+1%  AAPL= 17.5%  MSFT= 14.1%  NVDA= 33.0%  AMZN=  8.4%  GOOGL=  3.9%  META=  3.6%  GOOG=  1.9%  TSLA= 14.7%  AVGO=  1.4%  BRK-B=  1.4%  util=0.814012  Δ=-0.002184
+  GOOGL+1%  AAPL= 17.5%  MSFT= 14.1%  NVDA= 33.0%  AMZN=  7.3%  GOOGL=  5.0%  META=  3.6%  GOOG=  1.9%  TSLA= 14.7%  AVGO=  1.4%  BRK-B=  1.4%  util=0.814128  Δ=-0.002068
+  META+1%  AAPL= 17.5%  MSFT= 14.1%  NVDA= 33.0%  AMZN=  7.3%  GOOGL=  3.9%  META=  4.7%  GOOG=  1.9%  TSLA= 14.7%  AVGO=  1.4%  BRK-B=  1.4%  util=0.815127  Δ=-0.001069
+  GOOG+1%  AAPL= 17.5%  MSFT= 14.1%  NVDA= 33.0%  AMZN=  7.3%  GOOGL=  3.9%  META=  3.6%  GOOG=  3.0%  TSLA= 14.7%  AVGO=  1.4%  BRK-B=  1.4%  util=0.814172  Δ=-0.002024
+  TSLA+1%  AAPL= 17.5%  MSFT= 14.1%  NVDA= 33.0%  AMZN=  7.3%  GOOGL=  3.9%  META=  3.6%  GOOG=  1.9%  TSLA= 15.8%  AVGO=  1.4%  BRK-B=  1.4%  util=0.822667  Δ=+0.006471
+  AVGO+1%  AAPL= 17.5%  MSFT= 14.1%  NVDA= 33.0%  AMZN=  7.3%  GOOGL=  3.9%  META=  3.6%  GOOG=  1.9%  TSLA= 14.7%  AVGO=  2.5%  BRK-B=  1.4%  util=0.817279  Δ=+0.001083
+  BRK-B+1%  AAPL= 17.5%  MSFT= 14.1%  NVDA= 33.0%  AMZN=  7.3%  GOOGL=  3.9%  META=  3.6%  GOOG=  1.9%  TSLA= 14.7%  AVGO=  1.4%  BRK-B=  2.5%  util=0.812839  Δ=-0.003357
+  ★ WINNER: NVDA  improvement=+0.006653
+────────────────────────────────────────────────────────────────────────
+Epoch 31  [startUtility=0.822849  feasible=10]
+  AAPL+1%  AAPL= 18.5%  MSFT= 14.0%  NVDA= 34.0%  AMZN=  7.2%  GOOGL=  3.8%  META=  3.5%  GOOG=  1.8%  TSLA= 14.6%  AVGO=  1.3%  BRK-B=  1.3%  util=0.821207  Δ=-0.001642
+  MSFT+1%  AAPL= 17.4%  MSFT= 15.1%  NVDA= 34.0%  AMZN=  7.2%  GOOGL=  3.8%  META=  3.5%  GOOG=  1.8%  TSLA= 14.6%  AVGO=  1.3%  BRK-B=  1.3%  util=0.820792  Δ=-0.002057
+  NVDA+1%  AAPL= 17.4%  MSFT= 14.0%  NVDA= 35.1%  AMZN=  7.2%  GOOGL=  3.8%  META=  3.5%  GOOG=  1.8%  TSLA= 14.6%  AVGO=  1.3%  BRK-B=  1.3%  util=0.829449  Δ=+0.006600
+  AMZN+1%  AAPL= 17.4%  MSFT= 14.0%  NVDA= 34.0%  AMZN=  8.3%  GOOGL=  3.8%  META=  3.5%  GOOG=  1.8%  TSLA= 14.6%  AVGO=  1.3%  BRK-B=  1.3%  util=0.820668  Δ=-0.002180
+  GOOGL+1%  AAPL= 17.4%  MSFT= 14.0%  NVDA= 34.0%  AMZN=  7.2%  GOOGL=  4.9%  META=  3.5%  GOOG=  1.8%  TSLA= 14.6%  AVGO=  1.3%  BRK-B=  1.3%  util=0.820776  Δ=-0.002073
+  META+1%  AAPL= 17.4%  MSFT= 14.0%  NVDA= 34.0%  AMZN=  7.2%  GOOGL=  3.8%  META=  4.6%  GOOG=  1.8%  TSLA= 14.6%  AVGO=  1.3%  BRK-B=  1.3%  util=0.821777  Δ=-0.001072
+  GOOG+1%  AAPL= 17.4%  MSFT= 14.0%  NVDA= 34.0%  AMZN=  7.2%  GOOGL=  3.8%  META=  3.5%  GOOG=  2.9%  TSLA= 14.6%  AVGO=  1.3%  BRK-B=  1.3%  util=0.820820  Δ=-0.002028
+  TSLA+1%  AAPL= 17.4%  MSFT= 14.0%  NVDA= 34.0%  AMZN=  7.2%  GOOGL=  3.8%  META=  3.5%  GOOG=  1.8%  TSLA= 15.7%  AVGO=  1.3%  BRK-B=  1.3%  util=0.829433  Δ=+0.006584
+  AVGO+1%  AAPL= 17.4%  MSFT= 14.0%  NVDA= 34.0%  AMZN=  7.2%  GOOGL=  3.8%  META=  3.5%  GOOG=  1.8%  TSLA= 14.6%  AVGO=  2.4%  BRK-B=  1.3%  util=0.823918  Δ=+0.001070
+  BRK-B+1%  AAPL= 17.4%  MSFT= 14.0%  NVDA= 34.0%  AMZN=  7.2%  GOOGL=  3.8%  META=  3.5%  GOOG=  1.8%  TSLA= 14.6%  AVGO=  1.3%  BRK-B=  2.4%  util=0.819483  Δ=-0.003366
+  ★ WINNER: NVDA  improvement=+0.006600
+────────────────────────────────────────────────────────────────────────
+Epoch 32  [startUtility=0.829449  feasible=10]
+  AAPL+1%  AAPL= 18.4%  MSFT= 13.9%  NVDA= 35.0%  AMZN=  7.1%  GOOGL=  3.7%  META=  3.4%  GOOG=  1.7%  TSLA= 14.5%  AVGO=  1.1%  BRK-B=  1.1%  util=0.827798  Δ=-0.001650
+  MSFT+1%  AAPL= 17.3%  MSFT= 15.0%  NVDA= 35.0%  AMZN=  7.1%  GOOGL=  3.7%  META=  3.4%  GOOG=  1.7%  TSLA= 14.5%  AVGO=  1.1%  BRK-B=  1.1%  util=0.827389  Δ=-0.002060
+  NVDA+1%  AAPL= 17.3%  MSFT= 13.9%  NVDA= 36.1%  AMZN=  7.1%  GOOGL=  3.7%  META=  3.4%  GOOG=  1.7%  TSLA= 14.5%  AVGO=  1.1%  BRK-B=  1.1%  util=0.835989  Δ=+0.006540
+  AMZN+1%  AAPL= 17.3%  MSFT= 13.9%  NVDA= 35.0%  AMZN=  8.2%  GOOGL=  3.7%  META=  3.4%  GOOG=  1.7%  TSLA= 14.5%  AVGO=  1.1%  BRK-B=  1.1%  util=0.827266  Δ=-0.002182
+  GOOGL+1%  AAPL= 17.3%  MSFT= 13.9%  NVDA= 35.0%  AMZN=  7.1%  GOOGL=  4.8%  META=  3.4%  GOOG=  1.7%  TSLA= 14.5%  AVGO=  1.1%  BRK-B=  1.1%  util=0.827384  Δ=-0.002065
+  META+1%  AAPL= 17.3%  MSFT= 13.9%  NVDA= 35.0%  AMZN=  7.1%  GOOGL=  3.7%  META=  4.5%  GOOG=  1.7%  TSLA= 14.5%  AVGO=  1.1%  BRK-B=  1.1%  util=0.828387  Δ=-0.001062
+  GOOG+1%  AAPL= 17.3%  MSFT= 13.9%  NVDA= 35.0%  AMZN=  7.1%  GOOGL=  3.7%  META=  3.4%  GOOG=  2.8%  TSLA= 14.5%  AVGO=  1.1%  BRK-B=  1.1%  util=0.827429  Δ=-0.002020
+  TSLA+1%  AAPL= 17.3%  MSFT= 13.9%  NVDA= 35.0%  AMZN=  7.1%  GOOGL=  3.7%  META=  3.4%  GOOG=  1.7%  TSLA= 15.6%  AVGO=  1.1%  BRK-B=  1.1%  util=0.836108  Δ=+0.006659
+  AVGO+1%  AAPL= 17.3%  MSFT= 13.9%  NVDA= 35.0%  AMZN=  7.1%  GOOGL=  3.7%  META=  3.4%  GOOG=  1.7%  TSLA= 14.5%  AVGO=  2.3%  BRK-B=  1.1%  util=0.830516  Δ=+0.001068
+  BRK-B+1%  AAPL= 17.3%  MSFT= 13.9%  NVDA= 35.0%  AMZN=  7.1%  GOOGL=  3.7%  META=  3.4%  GOOG=  1.7%  TSLA= 14.5%  AVGO=  1.1%  BRK-B=  2.3%  util=0.826084  Δ=-0.003364
+  ★ WINNER: TSLA  improvement=+0.006659
+────────────────────────────────────────────────────────────────────────
+Epoch 33  [startUtility=0.836108  feasible=10]
+  AAPL+1%  AAPL= 18.3%  MSFT= 13.8%  NVDA= 34.9%  AMZN=  7.0%  GOOGL=  3.6%  META=  3.3%  GOOG=  1.6%  TSLA= 15.5%  AVGO=  1.0%  BRK-B=  1.0%  util=0.834428  Δ=-0.001680
+  MSFT+1%  AAPL= 17.2%  MSFT= 14.9%  NVDA= 34.9%  AMZN=  7.0%  GOOGL=  3.6%  META=  3.3%  GOOG=  1.6%  TSLA= 15.5%  AVGO=  1.0%  BRK-B=  1.0%  util=0.834057  Δ=-0.002051
+  NVDA+1%  AAPL= 17.2%  MSFT= 13.8%  NVDA= 36.0%  AMZN=  7.0%  GOOGL=  3.6%  META=  3.3%  GOOG=  1.6%  TSLA= 15.5%  AVGO=  1.0%  BRK-B=  1.0%  util=0.842682  Δ=+0.006574
+  AMZN+1%  AAPL= 17.2%  MSFT= 13.8%  NVDA= 34.9%  AMZN=  8.1%  GOOGL=  3.6%  META=  3.3%  GOOG=  1.6%  TSLA= 15.5%  AVGO=  1.0%  BRK-B=  1.0%  util=0.833930  Δ=-0.002178
+  GOOGL+1%  AAPL= 17.2%  MSFT= 13.8%  NVDA= 34.9%  AMZN=  7.0%  GOOGL=  4.7%  META=  3.3%  GOOG=  1.6%  TSLA= 15.5%  AVGO=  1.0%  BRK-B=  1.0%  util=0.834055  Δ=-0.002053
+  META+1%  AAPL= 17.2%  MSFT= 13.8%  NVDA= 34.9%  AMZN=  7.0%  GOOGL=  3.6%  META=  4.4%  GOOG=  1.6%  TSLA= 15.5%  AVGO=  1.0%  BRK-B=  1.0%  util=0.835074  Δ=-0.001034
+  GOOG+1%  AAPL= 17.2%  MSFT= 13.8%  NVDA= 34.9%  AMZN=  7.0%  GOOGL=  3.6%  META=  3.3%  GOOG=  2.7%  TSLA= 15.5%  AVGO=  1.0%  BRK-B=  1.0%  util=0.834100  Δ=-0.002008
+  TSLA+1%  AAPL= 17.2%  MSFT= 13.8%  NVDA= 34.9%  AMZN=  7.0%  GOOGL=  3.6%  META=  3.3%  GOOG=  1.6%  TSLA= 16.6%  AVGO=  1.0%  BRK-B=  1.0%  util=0.842546  Δ=+0.006438
+  AVGO+1%  AAPL= 17.2%  MSFT= 13.8%  NVDA= 34.9%  AMZN=  7.0%  GOOGL=  3.6%  META=  3.3%  GOOG=  1.6%  TSLA= 15.5%  AVGO=  2.1%  BRK-B=  1.0%  util=0.837205  Δ=+0.001097
+  BRK-B+1%  AAPL= 17.2%  MSFT= 13.8%  NVDA= 34.9%  AMZN=  7.0%  GOOGL=  3.6%  META=  3.3%  GOOG=  1.6%  TSLA= 15.5%  AVGO=  1.0%  BRK-B=  2.1%  util=0.832725  Δ=-0.003383
+  ★ WINNER: NVDA  improvement=+0.006574
+────────────────────────────────────────────────────────────────────────
+Epoch 34  [startUtility=0.842682  feasible=10]
+  AAPL+1%  AAPL= 18.2%  MSFT= 13.7%  NVDA= 35.9%  AMZN=  6.9%  GOOGL=  3.5%  META=  3.2%  GOOG=  1.5%  TSLA= 15.4%  AVGO=  0.9%  BRK-B=  0.9%  util=0.841004  Δ=-0.001677
+  MSFT+1%  AAPL= 17.1%  MSFT= 14.8%  NVDA= 35.9%  AMZN=  6.9%  GOOGL=  3.5%  META=  3.2%  GOOG=  1.5%  TSLA= 15.4%  AVGO=  0.9%  BRK-B=  0.9%  util=0.840623  Δ=-0.002059
+  NVDA+1%  AAPL= 17.1%  MSFT= 13.7%  NVDA= 37.0%  AMZN=  6.9%  GOOGL=  3.5%  META=  3.2%  GOOG=  1.5%  TSLA= 15.4%  AVGO=  0.9%  BRK-B=  0.9%  util=0.849221  Δ=+0.006539
+  AMZN+1%  AAPL= 17.1%  MSFT= 13.7%  NVDA= 35.9%  AMZN=  8.0%  GOOGL=  3.5%  META=  3.2%  GOOG=  1.5%  TSLA= 15.4%  AVGO=  0.9%  BRK-B=  0.9%  util=0.840516  Δ=-0.002165
+  GOOGL+1%  AAPL= 17.1%  MSFT= 13.7%  NVDA= 35.9%  AMZN=  6.9%  GOOGL=  4.6%  META=  3.2%  GOOG=  1.5%  TSLA= 15.4%  AVGO=  0.9%  BRK-B=  0.9%  util=0.840630  Δ=-0.002052
+  META+1%  AAPL= 17.1%  MSFT= 13.7%  NVDA= 35.9%  AMZN=  6.9%  GOOGL=  3.5%  META=  4.3%  GOOG=  1.5%  TSLA= 15.4%  AVGO=  0.9%  BRK-B=  0.9%  util=0.841668  Δ=-0.001014
+  GOOG+1%  AAPL= 17.1%  MSFT= 13.7%  NVDA= 35.9%  AMZN=  6.9%  GOOGL=  3.5%  META=  3.2%  GOOG=  2.6%  TSLA= 15.4%  AVGO=  0.9%  BRK-B=  0.9%  util=0.840676  Δ=-0.002006
+  TSLA+1%  AAPL= 17.1%  MSFT= 13.7%  NVDA= 35.9%  AMZN=  6.9%  GOOGL=  3.5%  META=  3.2%  GOOG=  1.5%  TSLA= 16.5%  AVGO=  0.9%  BRK-B=  0.9%  util=0.849211  Δ=+0.006530
+  AVGO+1%  AAPL= 17.1%  MSFT= 13.7%  NVDA= 35.9%  AMZN=  6.9%  GOOGL=  3.5%  META=  3.2%  GOOG=  1.5%  TSLA= 15.4%  AVGO=  2.0%  BRK-B=  0.9%  util=0.843787  Δ=+0.001106
+  BRK-B+1%  AAPL= 17.1%  MSFT= 13.7%  NVDA= 35.9%  AMZN=  6.9%  GOOGL=  3.5%  META=  3.2%  GOOG=  1.5%  TSLA= 15.4%  AVGO=  0.9%  BRK-B=  2.0%  util=0.839306  Δ=-0.003376
+  ★ WINNER: NVDA  improvement=+0.006539
+────────────────────────────────────────────────────────────────────────
+Epoch 35  [startUtility=0.849221  feasible=10]
+  AAPL+1%  AAPL= 18.1%  MSFT= 13.6%  NVDA= 36.9%  AMZN=  6.8%  GOOGL=  3.4%  META=  3.1%  GOOG=  1.4%  TSLA= 15.3%  AVGO=  0.8%  BRK-B=  0.8%  util=0.847558  Δ=-0.001662
+  MSFT+1%  AAPL= 17.0%  MSFT= 14.7%  NVDA= 36.9%  AMZN=  6.8%  GOOGL=  3.4%  META=  3.1%  GOOG=  1.4%  TSLA= 15.3%  AVGO=  0.8%  BRK-B=  0.8%  util=0.847166  Δ=-0.002054
+  NVDA+1%  AAPL= 17.0%  MSFT= 13.6%  NVDA= 38.0%  AMZN=  6.8%  GOOGL=  3.4%  META=  3.1%  GOOG=  1.4%  TSLA= 15.3%  AVGO=  0.8%  BRK-B=  0.8%  util=0.855729  Δ=+0.006508
+  AMZN+1%  AAPL= 17.0%  MSFT= 13.6%  NVDA= 36.9%  AMZN=  7.9%  GOOGL=  3.4%  META=  3.1%  GOOG=  1.4%  TSLA= 15.3%  AVGO=  0.8%  BRK-B=  0.8%  util=0.847053  Δ=-0.002167
+  GOOGL+1%  AAPL= 17.0%  MSFT= 13.6%  NVDA= 36.9%  AMZN=  6.8%  GOOGL=  4.5%  META=  3.1%  GOOG=  1.4%  TSLA= 15.3%  AVGO=  0.8%  BRK-B=  0.8%  util=0.847169  Δ=-0.002051
+  META+1%  AAPL= 17.0%  MSFT= 13.6%  NVDA= 36.9%  AMZN=  6.8%  GOOGL=  3.4%  META=  4.2%  GOOG=  1.4%  TSLA= 15.3%  AVGO=  0.8%  BRK-B=  0.8%  util=0.848211  Δ=-0.001010
+  GOOG+1%  AAPL= 17.0%  MSFT= 13.6%  NVDA= 36.9%  AMZN=  6.8%  GOOGL=  3.4%  META=  3.1%  GOOG=  2.5%  TSLA= 15.3%  AVGO=  0.8%  BRK-B=  0.8%  util=0.847216  Δ=-0.002005
+  TSLA+1%  AAPL= 17.0%  MSFT= 13.6%  NVDA= 36.9%  AMZN=  6.8%  GOOGL=  3.4%  META=  3.1%  GOOG=  1.4%  TSLA= 16.4%  AVGO=  0.8%  BRK-B=  0.8%  util=0.855815  Δ=+0.006595
+  AVGO+1%  AAPL= 17.0%  MSFT= 13.6%  NVDA= 36.9%  AMZN=  6.8%  GOOGL=  3.4%  META=  3.1%  GOOG=  1.4%  TSLA= 15.3%  AVGO=  1.9%  BRK-B=  0.8%  util=0.850334  Δ=+0.001114
+  BRK-B+1%  AAPL= 17.0%  MSFT= 13.6%  NVDA= 36.9%  AMZN=  6.8%  GOOGL=  3.4%  META=  3.1%  GOOG=  1.4%  TSLA= 15.3%  AVGO=  0.8%  BRK-B=  1.9%  util=0.845856  Δ=-0.003364
+  ★ WINNER: TSLA  improvement=+0.006595
+────────────────────────────────────────────────────────────────────────
+Epoch 36  [startUtility=0.855815  feasible=10]
+  AAPL+1%  AAPL= 18.0%  MSFT= 13.5%  NVDA= 36.8%  AMZN=  6.7%  GOOGL=  3.3%  META=  3.0%  GOOG=  1.3%  TSLA= 16.3%  AVGO=  0.7%  BRK-B=  0.7%  util=0.854142  Δ=-0.001674
+  MSFT+1%  AAPL= 16.9%  MSFT= 14.6%  NVDA= 36.8%  AMZN=  6.7%  GOOGL=  3.3%  META=  3.0%  GOOG=  1.3%  TSLA= 16.3%  AVGO=  0.7%  BRK-B=  0.7%  util=0.853785  Δ=-0.002030
+  NVDA+1%  AAPL= 16.9%  MSFT= 13.5%  NVDA= 37.9%  AMZN=  6.7%  GOOGL=  3.3%  META=  3.0%  GOOG=  1.3%  TSLA= 16.3%  AVGO=  0.7%  BRK-B=  0.7%  util=0.862370  Δ=+0.006554
+  AMZN+1%  AAPL= 16.9%  MSFT= 13.5%  NVDA= 36.8%  AMZN=  7.8%  GOOGL=  3.3%  META=  3.0%  GOOG=  1.3%  TSLA= 16.3%  AVGO=  0.7%  BRK-B=  0.7%  util=0.853657  Δ=-0.002159
+  GOOGL+1%  AAPL= 16.9%  MSFT= 13.5%  NVDA= 36.8%  AMZN=  6.7%  GOOGL=  4.4%  META=  3.0%  GOOG=  1.3%  TSLA= 16.3%  AVGO=  0.7%  BRK-B=  0.7%  util=0.853775  Δ=-0.002040
+  META+1%  AAPL= 16.9%  MSFT= 13.5%  NVDA= 36.8%  AMZN=  6.7%  GOOGL=  3.3%  META=  4.1%  GOOG=  1.3%  TSLA= 16.3%  AVGO=  0.7%  BRK-B=  0.7%  util=0.854839  Δ=-0.000976
+  GOOG+1%  AAPL= 16.9%  MSFT= 13.5%  NVDA= 36.8%  AMZN=  6.7%  GOOGL=  3.3%  META=  3.0%  GOOG=  2.4%  TSLA= 16.3%  AVGO=  0.7%  BRK-B=  0.7%  util=0.853822  Δ=-0.001994
+  TSLA+1%  AAPL= 16.9%  MSFT= 13.5%  NVDA= 36.8%  AMZN=  6.7%  GOOGL=  3.3%  META=  3.0%  GOOG=  1.3%  TSLA= 17.4%  AVGO=  0.7%  BRK-B=  0.7%  util=0.862209  Δ=+0.006393
+  AVGO+1%  AAPL= 16.9%  MSFT= 13.5%  NVDA= 36.8%  AMZN=  6.7%  GOOGL=  3.3%  META=  3.0%  GOOG=  1.3%  TSLA= 16.3%  AVGO=  1.8%  BRK-B=  0.7%  util=0.856956  Δ=+0.001140
+  BRK-B+1%  AAPL= 16.9%  MSFT= 13.5%  NVDA= 36.8%  AMZN=  6.7%  GOOGL=  3.3%  META=  3.0%  GOOG=  1.3%  TSLA= 16.3%  AVGO=  0.7%  BRK-B=  1.8%  util=0.852446  Δ=-0.003369
+  ★ WINNER: NVDA  improvement=+0.006554
+────────────────────────────────────────────────────────────────────────
+Epoch 37  [startUtility=0.862370  feasible=10]
+  AAPL+1%  AAPL= 17.9%  MSFT= 13.3%  NVDA= 37.8%  AMZN=  6.5%  GOOGL=  3.1%  META=  2.9%  GOOG=  1.2%  TSLA= 16.1%  AVGO=  0.6%  BRK-B=  0.6%  util=0.860696  Δ=-0.001674
+  MSFT+1%  AAPL= 16.7%  MSFT= 14.5%  NVDA= 37.8%  AMZN=  6.5%  GOOGL=  3.1%  META=  2.9%  GOOG=  1.2%  TSLA= 16.1%  AVGO=  0.6%  BRK-B=  0.6%  util=0.860332  Δ=-0.002037
+  NVDA+1%  AAPL= 16.7%  MSFT= 13.3%  NVDA= 38.9%  AMZN=  6.5%  GOOGL=  3.1%  META=  2.9%  GOOG=  1.2%  TSLA= 16.1%  AVGO=  0.6%  BRK-B=  0.6%  util=0.868892  Δ=+0.006522
+  AMZN+1%  AAPL= 16.7%  MSFT= 13.3%  NVDA= 37.8%  AMZN=  7.7%  GOOGL=  3.1%  META=  2.9%  GOOG=  1.2%  TSLA= 16.1%  AVGO=  0.6%  BRK-B=  0.6%  util=0.860200  Δ=-0.002170
+  GOOGL+1%  AAPL= 16.7%  MSFT= 13.3%  NVDA= 37.8%  AMZN=  6.5%  GOOGL=  4.3%  META=  2.9%  GOOG=  1.2%  TSLA= 16.1%  AVGO=  0.6%  BRK-B=  0.6%  util=0.860324  Δ=-0.002045
+  META+1%  AAPL= 16.7%  MSFT= 13.3%  NVDA= 37.8%  AMZN=  6.5%  GOOGL=  3.1%  META=  4.0%  GOOG=  1.2%  TSLA= 16.1%  AVGO=  0.6%  BRK-B=  0.6%  util=0.861376  Δ=-0.000994
+  GOOG+1%  AAPL= 16.7%  MSFT= 13.3%  NVDA= 37.8%  AMZN=  6.5%  GOOGL=  3.1%  META=  2.9%  GOOG=  2.3%  TSLA= 16.1%  AVGO=  0.6%  BRK-B=  0.6%  util=0.860371  Δ=-0.001998
+  TSLA+1%  AAPL= 16.7%  MSFT= 13.3%  NVDA= 37.8%  AMZN=  6.5%  GOOGL=  3.1%  META=  2.9%  GOOG=  1.2%  TSLA= 17.3%  AVGO=  0.6%  BRK-B=  0.6%  util=0.868842  Δ=+0.006472
+  AVGO+1%  AAPL= 16.7%  MSFT= 13.3%  NVDA= 37.8%  AMZN=  6.5%  GOOGL=  3.1%  META=  2.9%  GOOG=  1.2%  TSLA= 16.1%  AVGO=  1.7%  BRK-B=  0.6%  util=0.863497  Δ=+0.001127
+  BRK-B+1%  AAPL= 16.7%  MSFT= 13.3%  NVDA= 37.8%  AMZN=  6.5%  GOOGL=  3.1%  META=  2.9%  GOOG=  1.2%  TSLA= 16.1%  AVGO=  0.6%  BRK-B=  1.7%  util=0.859013  Δ=-0.003357
+  ★ WINNER: NVDA  improvement=+0.006522
+────────────────────────────────────────────────────────────────────────
+Epoch 38  [startUtility=0.868892  feasible=10]
+  AAPL+1%  AAPL= 17.7%  MSFT= 13.2%  NVDA= 38.8%  AMZN=  6.4%  GOOGL=  3.0%  META=  2.7%  GOOG=  1.0%  TSLA= 16.0%  AVGO=  0.5%  BRK-B=  0.5%  util=0.867231  Δ=-0.001660
+  MSFT+1%  AAPL= 16.6%  MSFT= 14.3%  NVDA= 38.8%  AMZN=  6.4%  GOOGL=  3.0%  META=  2.7%  GOOG=  1.0%  TSLA= 16.0%  AVGO=  0.5%  BRK-B=  0.5%  util=0.866849  Δ=-0.002042
+  NVDA+1%  AAPL= 16.6%  MSFT= 13.2%  NVDA= 39.9%  AMZN=  6.4%  GOOGL=  3.0%  META=  2.7%  GOOG=  1.0%  TSLA= 16.0%  AVGO=  0.5%  BRK-B=  0.5%  util=0.875338  Δ=+0.006446
+  AMZN+1%  AAPL= 16.6%  MSFT= 13.2%  NVDA= 38.8%  AMZN=  7.5%  GOOGL=  3.0%  META=  2.7%  GOOG=  1.0%  TSLA= 16.0%  AVGO=  0.5%  BRK-B=  0.5%  util=0.866728  Δ=-0.002164
+  GOOGL+1%  AAPL= 16.6%  MSFT= 13.2%  NVDA= 38.8%  AMZN=  6.4%  GOOGL=  4.1%  META=  2.7%  GOOG=  1.0%  TSLA= 16.0%  AVGO=  0.5%  BRK-B=  0.5%  util=0.866854  Δ=-0.002037
+  META+1%  AAPL= 16.6%  MSFT= 13.2%  NVDA= 38.8%  AMZN=  6.4%  GOOGL=  3.0%  META=  3.9%  GOOG=  1.0%  TSLA= 16.0%  AVGO=  0.5%  BRK-B=  0.5%  util=0.867892  Δ=-0.001000
+  GOOG+1%  AAPL= 16.6%  MSFT= 13.2%  NVDA= 38.8%  AMZN=  6.4%  GOOGL=  3.0%  META=  2.7%  GOOG=  2.2%  TSLA= 16.0%  AVGO=  0.5%  BRK-B=  0.5%  util=0.866901  Δ=-0.001990
+  TSLA+1%  AAPL= 16.6%  MSFT= 13.2%  NVDA= 38.8%  AMZN=  6.4%  GOOGL=  3.0%  META=  2.7%  GOOG=  1.0%  TSLA= 17.1%  AVGO=  0.5%  BRK-B=  0.5%  util=0.875434  Δ=+0.006542
+  AVGO+1%  AAPL= 16.6%  MSFT= 13.2%  NVDA= 38.8%  AMZN=  6.4%  GOOGL=  3.0%  META=  2.7%  GOOG=  1.0%  TSLA= 16.0%  AVGO=  1.6%  BRK-B=  0.5%  util=0.869981  Δ=+0.001089
+  BRK-B+1%  AAPL= 16.6%  MSFT= 13.2%  NVDA= 38.8%  AMZN=  6.4%  GOOGL=  3.0%  META=  2.7%  GOOG=  1.0%  TSLA= 16.0%  AVGO=  0.5%  BRK-B=  1.6%  util=0.865525  Δ=-0.003366
+  ★ WINNER: TSLA  improvement=+0.006542
+────────────────────────────────────────────────────────────────────────
+Epoch 39  [startUtility=0.875434  feasible=10]
+  AAPL+1%  AAPL= 17.6%  MSFT= 13.1%  NVDA= 38.7%  AMZN=  6.3%  GOOGL=  2.9%  META=  2.6%  GOOG=  0.9%  TSLA= 17.0%  AVGO=  0.4%  BRK-B=  0.4%  util=0.873768  Δ=-0.001666
+  MSFT+1%  AAPL= 16.5%  MSFT= 14.2%  NVDA= 38.7%  AMZN=  6.3%  GOOGL=  2.9%  META=  2.6%  GOOG=  0.9%  TSLA= 17.0%  AVGO=  0.4%  BRK-B=  0.4%  util=0.873418  Δ=-0.002016
+  NVDA+1%  AAPL= 16.5%  MSFT= 13.1%  NVDA= 39.8%  AMZN=  6.3%  GOOGL=  2.9%  META=  2.6%  GOOG=  0.9%  TSLA= 17.0%  AVGO=  0.4%  BRK-B=  0.4%  util=0.881951  Δ=+0.006518
+  AMZN+1%  AAPL= 16.5%  MSFT= 13.1%  NVDA= 38.7%  AMZN=  7.4%  GOOGL=  2.9%  META=  2.6%  GOOG=  0.9%  TSLA= 17.0%  AVGO=  0.4%  BRK-B=  0.4%  util=0.873276  Δ=-0.002157
+  GOOGL+1%  AAPL= 16.5%  MSFT= 13.1%  NVDA= 38.7%  AMZN=  6.3%  GOOGL=  4.0%  META=  2.6%  GOOG=  0.9%  TSLA= 17.0%  AVGO=  0.4%  BRK-B=  0.4%  util=0.873407  Δ=-0.002026
+  META+1%  AAPL= 16.5%  MSFT= 13.1%  NVDA= 38.7%  AMZN=  6.3%  GOOGL=  2.9%  META=  3.7%  GOOG=  0.9%  TSLA= 17.0%  AVGO=  0.4%  BRK-B=  0.4%  util=0.874465  Δ=-0.000969
+  GOOG+1%  AAPL= 16.5%  MSFT= 13.1%  NVDA= 38.7%  AMZN=  6.3%  GOOGL=  2.9%  META=  2.6%  GOOG=  2.0%  TSLA= 17.0%  AVGO=  0.4%  BRK-B=  0.4%  util=0.873456  Δ=-0.001978
+  TSLA+1%  AAPL= 16.5%  MSFT= 13.1%  NVDA= 38.7%  AMZN=  6.3%  GOOGL=  2.9%  META=  2.6%  GOOG=  0.9%  TSLA= 18.1%  AVGO=  0.4%  BRK-B=  0.4%  util=0.881800  Δ=+0.006367
+  AVGO+1%  AAPL= 16.5%  MSFT= 13.1%  NVDA= 38.7%  AMZN=  6.3%  GOOGL=  2.9%  META=  2.6%  GOOG=  0.9%  TSLA= 17.0%  AVGO=  1.5%  BRK-B=  0.4%  util=0.876555  Δ=+0.001121
+  BRK-B+1%  AAPL= 16.5%  MSFT= 13.1%  NVDA= 38.7%  AMZN=  6.3%  GOOGL=  2.9%  META=  2.6%  GOOG=  0.9%  TSLA= 17.0%  AVGO=  0.4%  BRK-B=  1.5%  util=0.872086  Δ=-0.003347
+  ★ WINNER: NVDA  improvement=+0.006518
+────────────────────────────────────────────────────────────────────────
+Epoch 40  [startUtility=0.881951  feasible=10]
+  AAPL+1%  AAPL= 17.5%  MSFT= 13.0%  NVDA= 39.7%  AMZN=  6.2%  GOOGL=  2.8%  META=  2.5%  GOOG=  0.8%  TSLA= 16.9%  AVGO=  0.3%  BRK-B=  0.3%  util=0.880288  Δ=-0.001663
+  MSFT+1%  AAPL= 16.4%  MSFT= 14.1%  NVDA= 39.7%  AMZN=  6.2%  GOOGL=  2.8%  META=  2.5%  GOOG=  0.8%  TSLA= 16.9%  AVGO=  0.3%  BRK-B=  0.3%  util=0.879925  Δ=-0.002026
+  NVDA+1%  AAPL= 16.4%  MSFT= 13.0%  NVDA= 40.8%  AMZN=  6.2%  GOOGL=  2.8%  META=  2.5%  GOOG=  0.8%  TSLA= 16.9%  AVGO=  0.3%  BRK-B=  0.3%  util=0.888414  Δ=+0.006462
+  AMZN+1%  AAPL= 16.4%  MSFT= 13.0%  NVDA= 39.7%  AMZN=  7.3%  GOOGL=  2.8%  META=  2.5%  GOOG=  0.8%  TSLA= 16.9%  AVGO=  0.3%  BRK-B=  0.3%  util=0.879805  Δ=-0.002146
+  GOOGL+1%  AAPL= 16.4%  MSFT= 13.0%  NVDA= 39.7%  AMZN=  6.2%  GOOGL=  3.9%  META=  2.5%  GOOG=  0.8%  TSLA= 16.9%  AVGO=  0.3%  BRK-B=  0.3%  util=0.879926  Δ=-0.002026
+  META+1%  AAPL= 16.4%  MSFT= 13.0%  NVDA= 39.7%  AMZN=  6.2%  GOOGL=  2.8%  META=  3.6%  GOOG=  0.8%  TSLA= 16.9%  AVGO=  0.3%  BRK-B=  0.3%  util=0.880986  Δ=-0.000966
+  GOOG+1%  AAPL= 16.4%  MSFT= 13.0%  NVDA= 39.7%  AMZN=  6.2%  GOOGL=  2.8%  META=  2.5%  GOOG=  1.9%  TSLA= 16.9%  AVGO=  0.3%  BRK-B=  0.3%  util=0.879974  Δ=-0.001978
+  TSLA+1%  AAPL= 16.4%  MSFT= 13.0%  NVDA= 39.7%  AMZN=  6.2%  GOOGL=  2.8%  META=  2.5%  GOOG=  0.8%  TSLA= 18.0%  AVGO=  0.3%  BRK-B=  0.3%  util=0.888405  Δ=+0.006453
+  AVGO+1%  AAPL= 16.4%  MSFT= 13.0%  NVDA= 39.7%  AMZN=  6.2%  GOOGL=  2.8%  META=  2.5%  GOOG=  0.8%  TSLA= 16.9%  AVGO=  1.4%  BRK-B=  0.3%  util=0.883051  Δ=+0.001100
+  BRK-B+1%  AAPL= 16.4%  MSFT= 13.0%  NVDA= 39.7%  AMZN=  6.2%  GOOGL=  2.8%  META=  2.5%  GOOG=  0.8%  TSLA= 16.9%  AVGO=  0.3%  BRK-B=  1.4%  util=0.878593  Δ=-0.003358
+  ★ WINNER: NVDA  improvement=+0.006462
+────────────────────────────────────────────────────────────────────────
+Epoch 41  [startUtility=0.888414  feasible=10]
+  AAPL+1%  AAPL= 17.4%  MSFT= 12.9%  NVDA= 40.7%  AMZN=  6.1%  GOOGL=  2.7%  META=  2.4%  GOOG=  0.7%  TSLA= 16.8%  AVGO=  0.1%  BRK-B=  0.1%  util=0.886758  Δ=-0.001655
+  MSFT+1%  AAPL= 16.3%  MSFT= 14.0%  NVDA= 40.7%  AMZN=  6.1%  GOOGL=  2.7%  META=  2.4%  GOOG=  0.7%  TSLA= 16.8%  AVGO=  0.1%  BRK-B=  0.1%  util=0.886382  Δ=-0.002031
+  NVDA+1%  AAPL= 16.3%  MSFT= 12.9%  NVDA= 41.8%  AMZN=  6.1%  GOOGL=  2.7%  META=  2.4%  GOOG=  0.7%  TSLA= 16.8%  AVGO=  0.1%  BRK-B=  0.1%  util=0.894822  Δ=+0.006409
+  AMZN+1%  AAPL= 16.3%  MSFT= 12.9%  NVDA= 40.7%  AMZN=  7.2%  GOOGL=  2.7%  META=  2.4%  GOOG=  0.7%  TSLA= 16.8%  AVGO=  0.1%  BRK-B=  0.1%  util=0.886275  Δ=-0.002139
+  GOOGL+1%  AAPL= 16.3%  MSFT= 12.9%  NVDA= 40.7%  AMZN=  6.1%  GOOGL=  3.8%  META=  2.4%  GOOG=  0.7%  TSLA= 16.8%  AVGO=  0.1%  BRK-B=  0.1%  util=0.886389  Δ=-0.002025
+  META+1%  AAPL= 16.3%  MSFT= 12.9%  NVDA= 40.7%  AMZN=  6.1%  GOOGL=  2.7%  META=  3.5%  GOOG=  0.7%  TSLA= 16.8%  AVGO=  0.1%  BRK-B=  0.1%  util=0.887448  Δ=-0.000965
+  GOOG+1%  AAPL= 16.3%  MSFT= 12.9%  NVDA= 40.7%  AMZN=  6.1%  GOOGL=  2.7%  META=  2.4%  GOOG=  1.8%  TSLA= 16.8%  AVGO=  0.1%  BRK-B=  0.1%  util=0.886437  Δ=-0.001976
+  TSLA+1%  AAPL= 16.3%  MSFT= 12.9%  NVDA= 40.7%  AMZN=  6.1%  GOOGL=  2.7%  META=  2.4%  GOOG=  0.7%  TSLA= 17.9%  AVGO=  0.1%  BRK-B=  0.1%  util=0.894937  Δ=+0.006523
+  AVGO+1%  AAPL= 16.3%  MSFT= 12.9%  NVDA= 40.7%  AMZN=  6.1%  GOOGL=  2.7%  META=  2.4%  GOOG=  0.7%  TSLA= 16.8%  AVGO=  1.3%  BRK-B=  0.1%  util=0.889501  Δ=+0.001088
+  BRK-B+1%  AAPL= 16.3%  MSFT= 12.9%  NVDA= 40.7%  AMZN=  6.1%  GOOGL=  2.7%  META=  2.4%  GOOG=  0.7%  TSLA= 16.8%  AVGO=  0.1%  BRK-B=  1.3%  util=0.885049  Δ=-0.003364
+  ★ WINNER: TSLA  improvement=+0.006523
+────────────────────────────────────────────────────────────────────────
+Epoch 42  [startUtility=0.894937  feasible=10]
+  AAPL+1%  AAPL= 17.3%  MSFT= 12.8%  NVDA= 40.5%  AMZN=  6.0%  GOOGL=  2.6%  META=  2.3%  GOOG=  0.6%  TSLA= 17.8%  AVGO=  0.0%  BRK-B=  0.0%  util=0.893280  Δ=-0.001657
+  MSFT+1%  AAPL= 16.2%  MSFT= 13.9%  NVDA= 40.5%  AMZN=  6.0%  GOOGL=  2.6%  META=  2.3%  GOOG=  0.6%  TSLA= 17.8%  AVGO=  0.0%  BRK-B=  0.0%  util=0.892926  Δ=-0.002011
+  NVDA+1%  AAPL= 16.2%  MSFT= 12.8%  NVDA= 41.7%  AMZN=  6.0%  GOOGL=  2.6%  META=  2.3%  GOOG=  0.6%  TSLA= 17.8%  AVGO=  0.0%  BRK-B=  0.0%  util=0.901417  Δ=+0.006481
+  AMZN+1%  AAPL= 16.2%  MSFT= 12.8%  NVDA= 40.5%  AMZN=  7.1%  GOOGL=  2.6%  META=  2.3%  GOOG=  0.6%  TSLA= 17.8%  AVGO=  0.0%  BRK-B=  0.0%  util=0.892812  Δ=-0.002125
+  GOOGL+1%  AAPL= 16.2%  MSFT= 12.8%  NVDA= 40.5%  AMZN=  6.0%  GOOGL=  3.7%  META=  2.3%  GOOG=  0.6%  TSLA= 17.8%  AVGO=  0.0%  BRK-B=  0.0%  util=0.892920  Δ=-0.002017
+  META+1%  AAPL= 16.2%  MSFT= 12.8%  NVDA= 40.5%  AMZN=  6.0%  GOOGL=  2.6%  META=  3.4%  GOOG=  0.6%  TSLA= 17.8%  AVGO=  0.0%  BRK-B=  0.0%  util=0.894000  Δ=-0.000937
+  GOOG+1%  AAPL= 16.2%  MSFT= 12.8%  NVDA= 40.5%  AMZN=  6.0%  GOOGL=  2.6%  META=  2.3%  GOOG=  1.7%  TSLA= 17.8%  AVGO=  0.0%  BRK-B=  0.0%  util=0.892967  Δ=-0.001969
+  TSLA+1%  AAPL= 16.2%  MSFT= 12.8%  NVDA= 40.5%  AMZN=  6.0%  GOOGL=  2.6%  META=  2.3%  GOOG=  0.6%  TSLA= 18.9%  AVGO=  0.0%  BRK-B=  0.0%  util=0.901305  Δ=+0.006368
+  AVGO+1%  AAPL= 16.2%  MSFT= 12.8%  NVDA= 40.5%  AMZN=  6.0%  GOOGL=  2.6%  META=  2.3%  GOOG=  0.6%  TSLA= 17.8%  AVGO=  1.1%  BRK-B=  0.0%  util=0.896051  Δ=+0.001114
+  BRK-B+1%  AAPL= 16.2%  MSFT= 12.8%  NVDA= 40.5%  AMZN=  6.0%  GOOGL=  2.6%  META=  2.3%  GOOG=  0.6%  TSLA= 17.8%  AVGO=  0.0%  BRK-B=  1.1%  util=0.891559  Δ=-0.003377
+  ★ WINNER: NVDA  improvement=+0.006481
+────────────────────────────────────────────────────────────────────────
+Epoch 43  [startUtility=0.901417  feasible=0]
+  ✗ STOPPED: no_feasible_variants
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.901417  (gain=+0.300572  epochs=44)

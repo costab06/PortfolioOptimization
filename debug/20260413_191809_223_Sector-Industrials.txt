@@ -1,0 +1,192 @@
+=== OPTIMIZATION DEBUG: Sector-Industrials ===
+Time:   Mon Apr 13 19:26:59 EDT 2026
+Start:  CAT= 17.0%  GE= 15.2%  RTX= 12.6%  GEV= 12.1%  BA=  8.0%  DE=  7.2%  ETN=  7.2%  HON=  6.9%  UNP=  6.9%  UBER=  6.9%
+        utility = 12.621945
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=12.621945  feasible=10  step=0.0100  streak=0  T=0.0500]
+  CAT+1%  CAT= 18.0%  GE= 15.1%  RTX= 12.5%  GEV= 12.0%  BA=  7.9%  DE=  7.1%  ETN=  7.1%  HON=  6.8%  UNP=  6.8%  UBER=  6.7%  util=12.477999  Δ=-0.143945
+  GE+1%  CAT= 16.8%  GE= 16.2%  RTX= 12.5%  GEV= 12.0%  BA=  7.9%  DE=  7.1%  ETN=  7.1%  HON=  6.8%  UNP=  6.8%  UBER=  6.7%  util=12.620228  Δ=-0.001716
+  RTX+1%  CAT= 16.8%  GE= 15.1%  RTX= 13.6%  GEV= 12.0%  BA=  7.9%  DE=  7.1%  ETN=  7.1%  HON=  6.8%  UNP=  6.8%  UBER=  6.7%  util=12.779665  Δ=+0.157721
+  GEV+1%  CAT= 16.8%  GE= 15.1%  RTX= 12.5%  GEV= 13.1%  BA=  7.9%  DE=  7.1%  ETN=  7.1%  HON=  6.8%  UNP=  6.8%  UBER=  6.7%  util=13.005797  Δ=+0.383852
+  BA+1%  CAT= 16.8%  GE= 15.1%  RTX= 12.5%  GEV= 12.0%  BA=  9.0%  DE=  7.1%  ETN=  7.1%  HON=  6.8%  UNP=  6.8%  UBER=  6.7%  util=12.576136  Δ=-0.045809
+  DE+1%  CAT= 16.8%  GE= 15.1%  RTX= 12.5%  GEV= 12.0%  BA=  7.9%  DE=  8.2%  ETN=  7.1%  HON=  6.8%  UNP=  6.8%  UBER=  6.7%  util=12.582367  Δ=-0.039578
+  ETN+1%  CAT= 16.8%  GE= 15.1%  RTX= 12.5%  GEV= 12.0%  BA=  7.9%  DE=  7.1%  ETN=  8.2%  HON=  6.8%  UNP=  6.8%  UBER=  6.7%  util=12.415765  Δ=-0.206179
+  HON+1%  CAT= 16.8%  GE= 15.1%  RTX= 12.5%  GEV= 12.0%  BA=  7.9%  DE=  7.1%  ETN=  7.1%  HON=  7.9%  UNP=  6.8%  UBER=  6.7%  util=12.544788  Δ=-0.077157
+  UNP+1%  CAT= 16.8%  GE= 15.1%  RTX= 12.5%  GEV= 12.0%  BA=  7.9%  DE=  7.1%  ETN=  7.1%  HON=  6.8%  UNP=  7.9%  UBER=  6.7%  util=12.457926  Δ=-0.164019
+  UBER+1%  CAT= 16.8%  GE= 15.1%  RTX= 12.5%  GEV= 12.0%  BA=  7.9%  DE=  7.1%  ETN=  7.1%  HON=  6.8%  UNP=  6.8%  UBER=  7.9%  util=12.722021  Δ=+0.100076
+  ★ WINNER: Epoch 0  improvement=+0.383852
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=13.005797  feasible=10  step=0.0200  streak=1  T=0.0475]
+  CAT+2%  CAT= 18.8%  GE= 14.9%  RTX= 12.3%  GEV= 12.9%  BA=  7.7%  DE=  6.9%  ETN=  6.9%  HON=  6.6%  UNP=  6.6%  UBER=  6.5%  util=12.711751  Δ=-0.294046
+  GE+2%  CAT= 16.6%  GE= 17.1%  RTX= 12.3%  GEV= 12.9%  BA=  7.7%  DE=  6.9%  ETN=  6.9%  HON=  6.6%  UNP=  6.6%  UBER=  6.5%  util=13.006216  Δ=+0.000419
+  RTX+2%  CAT= 16.6%  GE= 14.9%  RTX= 14.5%  GEV= 12.9%  BA=  7.7%  DE=  6.9%  ETN=  6.9%  HON=  6.6%  UNP=  6.6%  UBER=  6.5%  util=13.340942  Δ=+0.335145
+  GEV+2%  CAT= 16.6%  GE= 14.9%  RTX= 12.3%  GEV= 15.1%  BA=  7.7%  DE=  6.9%  ETN=  6.9%  HON=  6.6%  UNP=  6.6%  UBER=  6.5%  util=13.724970  Δ=+0.719173
+  BA+2%  CAT= 16.6%  GE= 14.9%  RTX= 12.3%  GEV= 12.9%  BA=  9.9%  DE=  6.9%  ETN=  6.9%  HON=  6.6%  UNP=  6.6%  UBER=  6.5%  util=12.880626  Δ=-0.125171
+  DE+2%  CAT= 16.6%  GE= 14.9%  RTX= 12.3%  GEV= 12.9%  BA=  7.7%  DE=  9.1%  ETN=  6.9%  HON=  6.6%  UNP=  6.6%  UBER=  6.5%  util=12.932303  Δ=-0.073494
+  ETN+2%  CAT= 16.6%  GE= 14.9%  RTX= 12.3%  GEV= 12.9%  BA=  7.7%  DE=  6.9%  ETN=  9.1%  HON=  6.6%  UNP=  6.6%  UBER=  6.5%  util=12.582279  Δ=-0.423518
+  HON+2%  CAT= 16.6%  GE= 14.9%  RTX= 12.3%  GEV= 12.9%  BA=  7.7%  DE=  6.9%  ETN=  6.9%  HON=  8.8%  UNP=  6.6%  UBER=  6.5%  util=12.846455  Δ=-0.159342
+  UNP+2%  CAT= 16.6%  GE= 14.9%  RTX= 12.3%  GEV= 12.9%  BA=  7.7%  DE=  6.9%  ETN=  6.9%  HON=  6.6%  UNP=  8.8%  UBER=  6.5%  util=12.679842  Δ=-0.325955
+  UBER+2%  CAT= 16.6%  GE= 14.9%  RTX= 12.3%  GEV= 12.9%  BA=  7.7%  DE=  6.9%  ETN=  6.9%  HON=  6.6%  UNP=  6.6%  UBER=  8.7%  util=13.204853  Δ=+0.199056
+  ★ WINNER: Epoch 1  improvement=+0.719173
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=13.724970  feasible=10  step=0.0300  streak=2  T=0.0451]
+  CAT+3%  CAT= 19.6%  GE= 14.5%  RTX= 12.0%  GEV= 14.7%  BA=  7.3%  DE=  6.6%  ETN=  6.5%  HON=  6.3%  UNP=  6.2%  UBER=  6.2%  util=13.271460  Δ=-0.453510
+  GE+3%  CAT= 16.3%  GE= 17.9%  RTX= 12.0%  GEV= 14.7%  BA=  7.3%  DE=  6.6%  ETN=  6.5%  HON=  6.3%  UNP=  6.2%  UBER=  6.2%  util=13.741910  Δ=+0.016940
+  RTX+3%  CAT= 16.3%  GE= 14.5%  RTX= 15.3%  GEV= 14.7%  BA=  7.3%  DE=  6.6%  ETN=  6.5%  HON=  6.3%  UNP=  6.2%  UBER=  6.2%  util=14.289780  Δ=+0.564810
+  GEV+3%  CAT= 16.3%  GE= 14.5%  RTX= 12.0%  GEV= 18.1%  BA=  7.3%  DE=  6.6%  ETN=  6.5%  HON=  6.3%  UNP=  6.2%  UBER=  6.2%  util=14.678074  Δ=+0.953103
+  BA+3%  CAT= 16.3%  GE= 14.5%  RTX= 12.0%  GEV= 14.7%  BA= 10.7%  DE=  6.6%  ETN=  6.5%  HON=  6.3%  UNP=  6.2%  UBER=  6.2%  util=13.460207  Δ=-0.264764
+  DE+3%  CAT= 16.3%  GE= 14.5%  RTX= 12.0%  GEV= 14.7%  BA=  7.3%  DE=  9.9%  ETN=  6.5%  HON=  6.3%  UNP=  6.2%  UBER=  6.2%  util=13.640547  Δ=-0.084424
+  ETN+3%  CAT= 16.3%  GE= 14.5%  RTX= 12.0%  GEV= 14.7%  BA=  7.3%  DE=  6.6%  ETN=  9.9%  HON=  6.3%  UNP=  6.2%  UBER=  6.2%  util=13.059107  Δ=-0.665863
+  HON+3%  CAT= 16.3%  GE= 14.5%  RTX= 12.0%  GEV= 14.7%  BA=  7.3%  DE=  6.6%  ETN=  6.5%  HON=  9.6%  UNP=  6.2%  UBER=  6.2%  util=13.479347  Δ=-0.245624
+  UNP+3%  CAT= 16.3%  GE= 14.5%  RTX= 12.0%  GEV= 14.7%  BA=  7.3%  DE=  6.6%  ETN=  6.5%  HON=  6.3%  UNP=  9.6%  UBER=  6.2%  util=13.248756  Δ=-0.476215
+  UBER+3%  CAT= 16.3%  GE= 14.5%  RTX= 12.0%  GEV= 14.7%  BA=  7.3%  DE=  6.6%  ETN=  6.5%  HON=  6.3%  UNP=  6.2%  UBER=  9.5%  util=14.050757  Δ=+0.325786
+  ★ WINNER: Epoch 2  improvement=+0.953103
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=14.678074  feasible=10  step=0.0400  streak=3  T=0.0429]
+  CAT+4%  CAT= 20.3%  GE= 14.1%  RTX= 11.5%  GEV= 17.6%  BA=  6.9%  DE=  6.1%  ETN=  6.1%  HON=  5.8%  UNP=  5.8%  UBER=  5.7%  util=14.061570  Δ=-0.616504
+  GE+4%  CAT= 15.8%  GE= 18.5%  RTX= 11.5%  GEV= 17.6%  BA=  6.9%  DE=  6.1%  ETN=  6.1%  HON=  5.8%  UNP=  5.8%  UBER=  5.7%  util=14.737153  Δ=+0.059079
+  RTX+4%  CAT= 15.8%  GE= 14.1%  RTX= 16.0%  GEV= 17.6%  BA=  6.9%  DE=  6.1%  ETN=  6.1%  HON=  5.8%  UNP=  5.8%  UBER=  5.7%  util=15.540818  Δ=+0.862744
+  GEV+4%  CAT= 15.8%  GE= 14.1%  RTX= 11.5%  GEV= 22.1%  BA=  6.9%  DE=  6.1%  ETN=  6.1%  HON=  5.8%  UNP=  5.8%  UBER=  5.7%  util=15.731792  Δ=+1.053718
+  BA+4%  CAT= 15.8%  GE= 14.1%  RTX= 11.5%  GEV= 17.6%  BA= 11.3%  DE=  6.1%  ETN=  6.1%  HON=  5.8%  UNP=  5.8%  UBER=  5.7%  util=14.212962  Δ=-0.465112
+  DE+4%  CAT= 15.8%  GE= 14.1%  RTX= 11.5%  GEV= 17.6%  BA=  6.9%  DE= 10.6%  ETN=  6.1%  HON=  5.8%  UNP=  5.8%  UBER=  5.7%  util=14.620610  Δ=-0.057464
+  ETN+4%  CAT= 15.8%  GE= 14.1%  RTX= 11.5%  GEV= 17.6%  BA=  6.9%  DE=  6.1%  ETN= 10.5%  HON=  5.8%  UNP=  5.8%  UBER=  5.7%  util=13.739882  Δ=-0.938192
+  HON+4%  CAT= 15.8%  GE= 14.1%  RTX= 11.5%  GEV= 17.6%  BA=  6.9%  DE=  6.1%  ETN=  6.1%  HON= 10.3%  UNP=  5.8%  UBER=  5.7%  util=14.347122  Δ=-0.330952
+  UNP+4%  CAT= 15.8%  GE= 14.1%  RTX= 11.5%  GEV= 17.6%  BA=  6.9%  DE=  6.1%  ETN=  6.1%  HON=  5.8%  UNP= 10.2%  UBER=  5.7%  util=14.077650  Δ=-0.600424
+  UBER+4%  CAT= 15.8%  GE= 14.1%  RTX= 11.5%  GEV= 17.6%  BA=  6.9%  DE=  6.1%  ETN=  6.1%  HON=  5.8%  UNP=  5.8%  UBER= 10.2%  util=15.177674  Δ=+0.499601
+  ★ WINNER: Epoch 3  improvement=+1.053718
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=15.731792  feasible=10  step=0.0500  streak=4  T=0.0407]
+  CAT+5%  CAT= 20.8%  GE= 13.5%  RTX= 11.0%  GEV= 21.5%  BA=  6.3%  DE=  5.6%  ETN=  5.5%  HON=  5.3%  UNP=  5.2%  UBER=  5.2%  util=14.955333  Δ=-0.776459
+  GE+5%  CAT= 15.3%  GE= 19.1%  RTX= 11.0%  GEV= 21.5%  BA=  6.3%  DE=  5.6%  ETN=  5.5%  HON=  5.3%  UNP=  5.2%  UBER=  5.2%  util=15.861484  Δ=+0.129691
+  RTX+5%  CAT= 15.3%  GE= 13.5%  RTX= 16.5%  GEV= 21.5%  BA=  6.3%  DE=  5.6%  ETN=  5.5%  HON=  5.3%  UNP=  5.2%  UBER=  5.2%  util=16.948134  Δ=+1.216342
+  GEV+5%  CAT= 15.3%  GE= 13.5%  RTX= 11.0%  GEV= 27.1%  BA=  6.3%  DE=  5.6%  ETN=  5.5%  HON=  5.3%  UNP=  5.2%  UBER=  5.2%  util=16.736417  Δ=+1.004625
+  BA+5%  CAT= 15.3%  GE= 13.5%  RTX= 11.0%  GEV= 21.5%  BA= 11.9%  DE=  5.6%  ETN=  5.5%  HON=  5.3%  UNP=  5.2%  UBER=  5.2%  util=15.025709  Δ=-0.706084
+  DE+5%  CAT= 15.3%  GE= 13.5%  RTX= 11.0%  GEV= 21.5%  BA=  6.3%  DE= 11.1%  ETN=  5.5%  HON=  5.3%  UNP=  5.2%  UBER=  5.2%  util=15.738193  Δ=+0.006401
+  ETN+5%  CAT= 15.3%  GE= 13.5%  RTX= 11.0%  GEV= 21.5%  BA=  6.3%  DE=  5.6%  ETN= 11.1%  HON=  5.3%  UNP=  5.2%  UBER=  5.2%  util=14.493272  Δ=-1.238520
+  HON+5%  CAT= 15.3%  GE= 13.5%  RTX= 11.0%  GEV= 21.5%  BA=  6.3%  DE=  5.6%  ETN=  5.5%  HON= 10.8%  UNP=  5.2%  UBER=  5.2%  util=15.321152  Δ=-0.410640
+  UNP+5%  CAT= 15.3%  GE= 13.5%  RTX= 11.0%  GEV= 21.5%  BA=  6.3%  DE=  5.6%  ETN=  5.5%  HON=  5.3%  UNP= 10.8%  UBER=  5.2%  util=15.044031  Δ=-0.687761
+  UBER+5%  CAT= 15.3%  GE= 13.5%  RTX= 11.0%  GEV= 21.5%  BA=  6.3%  DE=  5.6%  ETN=  5.5%  HON=  5.3%  UNP=  5.2%  UBER= 10.7%  util=16.443192  Δ=+0.711400
+  ★ WINNER: Epoch 4  improvement=+1.216342
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=16.948134  feasible=10  step=0.0500  streak=5  T=0.0387]
+  CAT+5%  CAT= 20.3%  GE= 13.0%  RTX= 16.0%  GEV= 21.0%  BA=  5.8%  DE=  5.0%  ETN=  5.0%  HON=  4.7%  UNP=  4.7%  UBER=  4.6%  util=15.962694  Δ=-0.985440
+  GE+5%  CAT= 14.7%  GE= 18.5%  RTX= 16.0%  GEV= 21.0%  BA=  5.8%  DE=  5.0%  ETN=  5.0%  HON=  4.7%  UNP=  4.7%  UBER=  4.6%  util=17.046352  Δ=+0.098218
+  RTX+5%  CAT= 14.7%  GE= 13.0%  RTX= 21.5%  GEV= 21.0%  BA=  5.8%  DE=  5.0%  ETN=  5.0%  HON=  4.7%  UNP=  4.7%  UBER=  4.6%  util=18.106600  Δ=+1.158466
+  GEV+5%  CAT= 14.7%  GE= 13.0%  RTX= 16.0%  GEV= 26.5%  BA=  5.8%  DE=  5.0%  ETN=  5.0%  HON=  4.7%  UNP=  4.7%  UBER=  4.6%  util=18.055682  Δ=+1.107548
+  BA+5%  CAT= 14.7%  GE= 13.0%  RTX= 16.0%  GEV= 21.0%  BA= 11.3%  DE=  5.0%  ETN=  5.0%  HON=  4.7%  UNP=  4.7%  UBER=  4.6%  util=16.202387  Δ=-0.745747
+  DE+5%  CAT= 14.7%  GE= 13.0%  RTX= 16.0%  GEV= 21.0%  BA=  5.8%  DE= 10.6%  ETN=  5.0%  HON=  4.7%  UNP=  4.7%  UBER=  4.6%  util=16.980790  Δ=+0.032656
+  ETN+5%  CAT= 14.7%  GE= 13.0%  RTX= 16.0%  GEV= 21.0%  BA=  5.8%  DE=  5.0%  ETN= 10.5%  HON=  4.7%  UNP=  4.7%  UBER=  4.6%  util=15.545138  Δ=-1.402996
+  HON+5%  CAT= 14.7%  GE= 13.0%  RTX= 16.0%  GEV= 21.0%  BA=  5.8%  DE=  5.0%  ETN=  5.0%  HON= 10.3%  UNP=  4.7%  UBER=  4.6%  util=16.518099  Δ=-0.430035
+  UNP+5%  CAT= 14.7%  GE= 13.0%  RTX= 16.0%  GEV= 21.0%  BA=  5.8%  DE=  5.0%  ETN=  5.0%  HON=  4.7%  UNP= 10.2%  UBER=  4.6%  util=16.075687  Δ=-0.872447
+  UBER+5%  CAT= 14.7%  GE= 13.0%  RTX= 16.0%  GEV= 21.0%  BA=  5.8%  DE=  5.0%  ETN=  5.0%  HON=  4.7%  UNP=  4.7%  UBER= 10.2%  util=17.905068  Δ=+0.956933
+  ★ WINNER: Epoch 5  improvement=+1.158466
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=18.106600  feasible=10  step=0.0500  streak=6  T=0.0368]
+  CAT+5%  CAT= 19.7%  GE= 12.4%  RTX= 21.0%  GEV= 20.4%  BA=  5.2%  DE=  4.4%  ETN=  4.4%  HON=  4.2%  UNP=  4.1%  UBER=  4.1%  util=16.891765  Δ=-1.214834
+  GE+5%  CAT= 14.2%  GE= 18.0%  RTX= 21.0%  GEV= 20.4%  BA=  5.2%  DE=  4.4%  ETN=  4.4%  HON=  4.2%  UNP=  4.1%  UBER=  4.1%  util=18.142246  Δ=+0.035647
+  RTX+5%  CAT= 14.2%  GE= 12.4%  RTX= 26.5%  GEV= 20.4%  BA=  5.2%  DE=  4.4%  ETN=  4.4%  HON=  4.2%  UNP=  4.1%  UBER=  4.1%  util=19.273304  Δ=+1.166704
+  GEV+5%  CAT= 14.2%  GE= 12.4%  RTX= 21.0%  GEV= 26.0%  BA=  5.2%  DE=  4.4%  ETN=  4.4%  HON=  4.2%  UNP=  4.1%  UBER=  4.1%  util=19.344955  Δ=+1.238356
+  BA+5%  CAT= 14.2%  GE= 12.4%  RTX= 21.0%  GEV= 20.4%  BA= 10.8%  DE=  4.4%  ETN=  4.4%  HON=  4.2%  UNP=  4.1%  UBER=  4.1%  util=17.368579  Δ=-0.738021
+  DE+5%  CAT= 14.2%  GE= 12.4%  RTX= 21.0%  GEV= 20.4%  BA=  5.2%  DE= 10.0%  ETN=  4.4%  HON=  4.2%  UNP=  4.1%  UBER=  4.1%  util=18.147986  Δ=+0.041387
+  ETN+5%  CAT= 14.2%  GE= 12.4%  RTX= 21.0%  GEV= 20.4%  BA=  5.2%  DE=  4.4%  ETN= 10.0%  HON=  4.2%  UNP=  4.1%  UBER=  4.1%  util=16.524451  Δ=-1.582149
+  HON+5%  CAT= 14.2%  GE= 12.4%  RTX= 21.0%  GEV= 20.4%  BA=  5.2%  DE=  4.4%  ETN=  4.4%  HON=  9.7%  UNP=  4.1%  UBER=  4.1%  util=17.684115  Δ=-0.422485
+  UNP+5%  CAT= 14.2%  GE= 12.4%  RTX= 21.0%  GEV= 20.4%  BA=  5.2%  DE=  4.4%  ETN=  4.4%  HON=  4.2%  UNP=  9.7%  UBER=  4.1%  util=17.051895  Δ=-1.054705
+  UBER+5%  CAT= 14.2%  GE= 12.4%  RTX= 21.0%  GEV= 20.4%  BA=  5.2%  DE=  4.4%  ETN=  4.4%  HON=  4.2%  UNP=  4.1%  UBER=  9.6%  util=19.323832  Δ=+1.217232
+  ★ WINNER: Epoch 6  improvement=+1.238356
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=19.344955  feasible=10  step=0.0500  streak=7  T=0.0349]
+  CAT+5%  CAT= 19.2%  GE= 11.9%  RTX= 20.4%  GEV= 25.4%  BA=  4.7%  DE=  3.9%  ETN=  3.9%  HON=  3.6%  UNP=  3.6%  UBER=  3.5%  util=18.154230  Δ=-1.190725
+  GE+5%  CAT= 13.6%  GE= 17.4%  RTX= 20.4%  GEV= 25.4%  BA=  4.7%  DE=  3.9%  ETN=  3.9%  HON=  3.6%  UNP=  3.6%  UBER=  3.5%  util=19.482437  Δ=+0.137481
+  RTX+5%  CAT= 13.6%  GE= 11.9%  RTX= 26.0%  GEV= 25.4%  BA=  4.7%  DE=  3.9%  ETN=  3.9%  HON=  3.6%  UNP=  3.6%  UBER=  3.5%  util=20.593626  Δ=+1.248670
+  GEV+5%  CAT= 13.6%  GE= 11.9%  RTX= 20.4%  GEV= 31.0%  BA=  4.7%  DE=  3.9%  ETN=  3.9%  HON=  3.6%  UNP=  3.6%  UBER=  3.5%  util=20.174081  Δ=+0.829125
+  BA+5%  CAT= 13.6%  GE= 11.9%  RTX= 20.4%  GEV= 25.4%  BA= 10.2%  DE=  3.9%  ETN=  3.9%  HON=  3.6%  UNP=  3.6%  UBER=  3.5%  util=18.492333  Δ=-0.852622
+  DE+5%  CAT= 13.6%  GE= 11.9%  RTX= 20.4%  GEV= 25.4%  BA=  4.7%  DE=  9.4%  ETN=  3.9%  HON=  3.6%  UNP=  3.6%  UBER=  3.5%  util=19.549830  Δ=+0.204875
+  ETN+5%  CAT= 13.6%  GE= 11.9%  RTX= 20.4%  GEV= 25.4%  BA=  4.7%  DE=  3.9%  ETN=  9.4%  HON=  3.6%  UNP=  3.6%  UBER=  3.5%  util=17.676929  Δ=-1.668027
+  HON+5%  CAT= 13.6%  GE= 11.9%  RTX= 20.4%  GEV= 25.4%  BA=  4.7%  DE=  3.9%  ETN=  3.9%  HON=  9.2%  UNP=  3.6%  UBER=  3.5%  util=18.928284  Δ=-0.416671
+  UNP+5%  CAT= 13.6%  GE= 11.9%  RTX= 20.4%  GEV= 25.4%  BA=  4.7%  DE=  3.9%  ETN=  3.9%  HON=  3.6%  UNP=  9.1%  UBER=  3.5%  util=18.407138  Δ=-0.937817
+  UBER+5%  CAT= 13.6%  GE= 11.9%  RTX= 20.4%  GEV= 25.4%  BA=  4.7%  DE=  3.9%  ETN=  3.9%  HON=  3.6%  UNP=  3.6%  UBER=  9.1%  util=20.791229  Δ=+1.446273
+  ★ WINNER: Epoch 7  improvement=+1.446273
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=20.791229  feasible=10  step=0.0500  streak=8  T=0.0332]
+  CAT+5%  CAT= 18.6%  GE= 11.3%  RTX= 19.9%  GEV= 24.9%  BA=  4.1%  DE=  3.3%  ETN=  3.3%  HON=  3.1%  UNP=  3.0%  UBER=  8.5%  util=19.505848  Δ=-1.285381
+  GE+5%  CAT= 13.1%  GE= 16.9%  RTX= 19.9%  GEV= 24.9%  BA=  4.1%  DE=  3.3%  ETN=  3.3%  HON=  3.1%  UNP=  3.0%  UBER=  8.5%  util=20.741928  Δ=-0.049301
+  RTX+5%  CAT= 13.1%  GE= 11.3%  RTX= 25.4%  GEV= 24.9%  BA=  4.1%  DE=  3.3%  ETN=  3.3%  HON=  3.1%  UNP=  3.0%  UBER=  8.5%  util=22.316145  Δ=+1.524916
+  GEV+5%  CAT= 13.1%  GE= 11.3%  RTX= 19.9%  GEV= 30.4%  BA=  4.1%  DE=  3.3%  ETN=  3.3%  HON=  3.1%  UNP=  3.0%  UBER=  8.5%  util=21.732531  Δ=+0.941303
+  BA+5%  CAT= 13.1%  GE= 11.3%  RTX= 19.9%  GEV= 24.9%  BA=  9.7%  DE=  3.3%  ETN=  3.3%  HON=  3.1%  UNP=  3.0%  UBER=  8.5%  util=20.020456  Δ=-0.770773
+  DE+5%  CAT= 13.1%  GE= 11.3%  RTX= 19.9%  GEV= 24.9%  BA=  4.1%  DE=  8.9%  ETN=  3.3%  HON=  3.1%  UNP=  3.0%  UBER=  8.5%  util=21.204647  Δ=+0.413418
+  ETN+5%  CAT= 13.1%  GE= 11.3%  RTX= 19.9%  GEV= 24.9%  BA=  4.1%  DE=  3.3%  ETN=  8.9%  HON=  3.1%  UNP=  3.0%  UBER=  8.5%  util=18.902285  Δ=-1.888943
+  HON+5%  CAT= 13.1%  GE= 11.3%  RTX= 19.9%  GEV= 24.9%  BA=  4.1%  DE=  3.3%  ETN=  3.3%  HON=  8.6%  UNP=  3.0%  UBER=  8.5%  util=20.418706  Δ=-0.372523
+  UNP+5%  CAT= 13.1%  GE= 11.3%  RTX= 19.9%  GEV= 24.9%  BA=  4.1%  DE=  3.3%  ETN=  3.3%  HON=  3.1%  UNP=  8.6%  UBER=  8.5%  util=19.688054  Δ=-1.103174
+  UBER+5%  CAT= 13.1%  GE= 11.3%  RTX= 19.9%  GEV= 24.9%  BA=  4.1%  DE=  3.3%  ETN=  3.3%  HON=  3.1%  UNP=  3.0%  UBER= 14.1%  util=21.350161  Δ=+0.558932
+  ★ WINNER: Epoch 8  improvement=+1.524916
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=22.316145  feasible=10  step=0.0500  streak=9  T=0.0315]
+  CAT+5%  CAT= 18.1%  GE= 10.8%  RTX= 24.9%  GEV= 24.3%  BA=  3.6%  DE=  2.8%  ETN=  2.8%  HON=  2.5%  UNP=  2.5%  UBER=  8.0%  util=20.682619  Δ=-1.633526
+  GE+5%  CAT= 12.5%  GE= 16.3%  RTX= 24.9%  GEV= 24.3%  BA=  3.6%  DE=  2.8%  ETN=  2.8%  HON=  2.5%  UNP=  2.5%  UBER=  8.0%  util=22.075068  Δ=-0.241077
+  RTX+5%  CAT= 12.5%  GE= 10.8%  RTX= 30.4%  GEV= 24.3%  BA=  3.6%  DE=  2.8%  ETN=  2.8%  HON=  2.5%  UNP=  2.5%  UBER=  8.0%  util=23.801712  Δ=+1.485567
+  GEV+5%  CAT= 12.5%  GE= 10.8%  RTX= 24.9%  GEV= 29.9%  BA=  3.6%  DE=  2.8%  ETN=  2.8%  HON=  2.5%  UNP=  2.5%  UBER=  8.0%  util=23.355573  Δ=+1.039428
+  BA+5%  CAT= 12.5%  GE= 10.8%  RTX= 24.9%  GEV= 24.3%  BA=  9.1%  DE=  2.8%  ETN=  2.8%  HON=  2.5%  UNP=  2.5%  UBER=  8.0%  util=21.741019  Δ=-0.575126
+  DE+5%  CAT= 12.5%  GE= 10.8%  RTX= 24.9%  GEV= 24.3%  BA=  3.6%  DE=  8.3%  ETN=  2.8%  HON=  2.5%  UNP=  2.5%  UBER=  8.0%  util=22.835816  Δ=+0.519671
+  ETN+5%  CAT= 12.5%  GE= 10.8%  RTX= 24.9%  GEV= 24.3%  BA=  3.6%  DE=  2.8%  ETN=  8.3%  HON=  2.5%  UNP=  2.5%  UBER=  8.0%  util=20.109799  Δ=-2.206346
+  HON+5%  CAT= 12.5%  GE= 10.8%  RTX= 24.9%  GEV= 24.3%  BA=  3.6%  DE=  2.8%  ETN=  2.8%  HON=  8.1%  UNP=  2.5%  UBER=  8.0%  util=21.959394  Δ=-0.356751
+  UNP+5%  CAT= 12.5%  GE= 10.8%  RTX= 24.9%  GEV= 24.3%  BA=  3.6%  DE=  2.8%  ETN=  2.8%  HON=  2.5%  UNP=  8.0%  UBER=  8.0%  util=20.952143  Δ=-1.364002
+  UBER+5%  CAT= 12.5%  GE= 10.8%  RTX= 24.9%  GEV= 24.3%  BA=  3.6%  DE=  2.8%  ETN=  2.8%  HON=  2.5%  UNP=  2.5%  UBER= 13.5%  util=22.872648  Δ=+0.556503
+  ★ WINNER: Epoch 9  improvement=+1.485567
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=23.801712  feasible=10  step=0.0500  streak=10  T=0.0299]
+  CAT+5%  CAT= 17.5%  GE= 10.2%  RTX= 29.9%  GEV= 23.7%  BA=  3.0%  DE=  2.2%  ETN=  2.2%  HON=  1.9%  UNP=  1.9%  UBER=  7.4%  util=21.788570  Δ=-2.013142
+  GE+5%  CAT= 12.0%  GE= 15.8%  RTX= 29.9%  GEV= 23.7%  BA=  3.0%  DE=  2.2%  ETN=  2.2%  HON=  1.9%  UNP=  1.9%  UBER=  7.4%  util=23.267894  Δ=-0.533818
+  RTX+5%  CAT= 12.0%  GE= 10.2%  RTX= 35.4%  GEV= 23.7%  BA=  3.0%  DE=  2.2%  ETN=  2.2%  HON=  1.9%  UNP=  1.9%  UBER=  7.4%  util=24.934008  Δ=+1.132296
+  GEV+5%  CAT= 12.0%  GE= 10.2%  RTX= 29.9%  GEV= 29.3%  BA=  3.0%  DE=  2.2%  ETN=  2.2%  HON=  1.9%  UNP=  1.9%  UBER=  7.4%  util=24.867549  Δ=+1.065836
+  BA+5%  CAT= 12.0%  GE= 10.2%  RTX= 29.9%  GEV= 23.7%  BA=  8.6%  DE=  2.2%  ETN=  2.2%  HON=  1.9%  UNP=  1.9%  UBER=  7.4%  util=23.642523  Δ=-0.159189
+  DE+5%  CAT= 12.0%  GE= 10.2%  RTX= 29.9%  GEV= 23.7%  BA=  3.0%  DE=  7.8%  ETN=  2.2%  HON=  1.9%  UNP=  1.9%  UBER=  7.4%  util=24.353998  Δ=+0.552286
+  ETN+5%  CAT= 12.0%  GE= 10.2%  RTX= 29.9%  GEV= 23.7%  BA=  3.0%  DE=  2.2%  ETN=  7.8%  HON=  1.9%  UNP=  1.9%  UBER=  7.4%  util=21.141447  Δ=-2.660266
+  HON+5%  CAT= 12.0%  GE= 10.2%  RTX= 29.9%  GEV= 23.7%  BA=  3.0%  DE=  2.2%  ETN=  2.2%  HON=  7.5%  UNP=  1.9%  UBER=  7.4%  util=23.415173  Δ=-0.386539
+  UNP+5%  CAT= 12.0%  GE= 10.2%  RTX= 29.9%  GEV= 23.7%  BA=  3.0%  DE=  2.2%  ETN=  2.2%  HON=  1.9%  UNP=  7.5%  UBER=  7.4%  util=22.152396  Δ=-1.649316
+  UBER+5%  CAT= 12.0%  GE= 10.2%  RTX= 29.9%  GEV= 23.7%  BA=  3.0%  DE=  2.2%  ETN=  2.2%  HON=  1.9%  UNP=  1.9%  UBER= 13.0%  util=24.130121  Δ=+0.328408
+  ★ WINNER: Epoch 10  improvement=+1.132296
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=24.934008  feasible=10  step=0.0500  streak=11  T=0.0284]
+  CAT+5%  CAT= 17.0%  GE=  9.7%  RTX= 34.9%  GEV= 23.2%  BA=  2.4%  DE=  1.7%  ETN=  1.6%  HON=  1.4%  UNP=  1.3%  UBER=  6.9%  util=22.562580  Δ=-2.371428
+  GE+5%  CAT= 11.4%  GE= 15.2%  RTX= 34.9%  GEV= 23.2%  BA=  2.4%  DE=  1.7%  ETN=  1.6%  HON=  1.4%  UNP=  1.3%  UBER=  6.9%  util=24.006264  Δ=-0.927744
+  RTX+5%  CAT= 11.4%  GE=  9.7%  RTX= 40.4%  GEV= 23.2%  BA=  2.4%  DE=  1.7%  ETN=  1.6%  HON=  1.4%  UNP=  1.3%  UBER=  6.9%  util=25.464520  Δ=+0.530512
+  GEV+5%  CAT= 11.4%  GE=  9.7%  RTX= 34.9%  GEV= 28.7%  BA=  2.4%  DE=  1.7%  ETN=  1.6%  HON=  1.4%  UNP=  1.3%  UBER=  6.9%  util=26.181875  Δ=+1.247867
+  BA+5%  CAT= 11.4%  GE=  9.7%  RTX= 34.9%  GEV= 23.2%  BA=  8.0%  DE=  1.7%  ETN=  1.6%  HON=  1.4%  UNP=  1.3%  UBER=  6.9%  util=25.611390  Δ=+0.677381
+  DE+5%  CAT= 11.4%  GE=  9.7%  RTX= 34.9%  GEV= 23.2%  BA=  2.4%  DE=  7.2%  ETN=  1.6%  HON=  1.4%  UNP=  1.3%  UBER=  6.9%  util=25.577988  Δ=+0.643980
+  ETN+5%  CAT= 11.4%  GE=  9.7%  RTX= 34.9%  GEV= 23.2%  BA=  2.4%  DE=  1.7%  ETN=  7.2%  HON=  1.4%  UNP=  1.3%  UBER=  6.9%  util=21.897188  Δ=-3.036820
+  HON+5%  CAT= 11.4%  GE=  9.7%  RTX= 34.9%  GEV= 23.2%  BA=  2.4%  DE=  1.7%  ETN=  1.6%  HON=  6.9%  UNP=  1.3%  UBER=  6.9%  util=24.465244  Δ=-0.468765
+  UNP+5%  CAT= 11.4%  GE=  9.7%  RTX= 34.9%  GEV= 23.2%  BA=  2.4%  DE=  1.7%  ETN=  1.6%  HON=  1.4%  UNP=  6.9%  UBER=  6.9%  util=22.992690  Δ=-1.941318
+  UBER+5%  CAT= 11.4%  GE=  9.7%  RTX= 34.9%  GEV= 23.2%  BA=  2.4%  DE=  1.7%  ETN=  1.6%  HON=  1.4%  UNP=  1.3%  UBER= 12.4%  util=25.006281  Δ=+0.072273
+  ★ WINNER: Epoch 11  improvement=+1.247867
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=26.181875  feasible=10  step=0.0500  streak=12  T=0.0270]
+  CAT+5%  CAT= 16.4%  GE=  9.1%  RTX= 34.3%  GEV= 28.2%  BA=  1.9%  DE=  1.1%  ETN=  1.1%  HON=  0.8%  UNP=  0.8%  UBER=  6.3%  util=23.896402  Δ=-2.285474
+  GE+5%  CAT= 10.8%  GE= 14.7%  RTX= 34.3%  GEV= 28.2%  BA=  1.9%  DE=  1.1%  ETN=  1.1%  HON=  0.8%  UNP=  0.8%  UBER=  6.3%  util=25.458129  Δ=-0.723746
+  RTX+5%  CAT= 10.8%  GE=  9.1%  RTX= 39.9%  GEV= 28.2%  BA=  1.9%  DE=  1.1%  ETN=  1.1%  HON=  0.8%  UNP=  0.8%  UBER=  6.3%  util=26.937936  Δ=+0.756061
+  GEV+5%  CAT= 10.8%  GE=  9.1%  RTX= 34.3%  GEV= 33.7%  BA=  1.9%  DE=  1.1%  ETN=  1.1%  HON=  0.8%  UNP=  0.8%  UBER=  6.3%  util=26.729406  Δ=+0.547530
+  BA+5%  CAT= 10.8%  GE=  9.1%  RTX= 34.3%  GEV= 28.2%  BA=  7.4%  DE=  1.1%  ETN=  1.1%  HON=  0.8%  UNP=  0.8%  UBER=  6.3%  util=26.599182  Δ=+0.417307
+  DE+5%  CAT= 10.8%  GE=  9.1%  RTX= 34.3%  GEV= 28.2%  BA=  1.9%  DE=  6.7%  ETN=  1.1%  HON=  0.8%  UNP=  0.8%  UBER=  6.3%  util=27.126229  Δ=+0.944353
+  ETN+5%  CAT= 10.8%  GE=  9.1%  RTX= 34.3%  GEV= 28.2%  BA=  1.9%  DE=  1.1%  ETN=  6.6%  HON=  0.8%  UNP=  0.8%  UBER=  6.3%  util=23.041335  Δ=-3.140540
+  HON+5%  CAT= 10.8%  GE=  9.1%  RTX= 34.3%  GEV= 28.2%  BA=  1.9%  DE=  1.1%  ETN=  1.1%  HON=  6.4%  UNP=  0.8%  UBER=  6.3%  util=25.788173  Δ=-0.393703
+  UNP+5%  CAT= 10.8%  GE=  9.1%  RTX= 34.3%  GEV= 28.2%  BA=  1.9%  DE=  1.1%  ETN=  1.1%  HON=  0.8%  UNP=  6.3%  UBER=  6.3%  util=24.483309  Δ=-1.698566
+  UBER+5%  CAT= 10.8%  GE=  9.1%  RTX= 34.3%  GEV= 28.2%  BA=  1.9%  DE=  1.1%  ETN=  1.1%  HON=  0.8%  UNP=  0.8%  UBER= 11.9%  util=26.652206  Δ=+0.470330
+  ★ WINNER: Epoch 12  improvement=+0.944353
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=27.126229  feasible=10  step=0.0500  streak=13  T=0.0257]
+  CAT+5%  CAT= 15.8%  GE=  8.5%  RTX= 33.7%  GEV= 27.6%  BA=  1.3%  DE=  6.1%  ETN=  0.5%  HON=  0.3%  UNP=  0.2%  UBER=  5.7%  util=24.641251  Δ=-2.484978
+  GE+5%  CAT= 10.3%  GE= 14.1%  RTX= 33.7%  GEV= 27.6%  BA=  1.3%  DE=  6.1%  ETN=  0.5%  HON=  0.3%  UNP=  0.2%  UBER=  5.7%  util=26.467424  Δ=-0.658805
+  RTX+5%  CAT= 10.3%  GE=  8.5%  RTX= 39.3%  GEV= 27.6%  BA=  1.3%  DE=  6.1%  ETN=  0.5%  HON=  0.3%  UNP=  0.2%  UBER=  5.7%  util=27.977765  Δ=+0.851536
+  GEV+5%  CAT= 10.3%  GE=  8.5%  RTX= 33.7%  GEV= 33.2%  BA=  1.3%  DE=  6.1%  ETN=  0.5%  HON=  0.3%  UNP=  0.2%  UBER=  5.7%  util=27.788551  Δ=+0.662322
+  BA+5%  CAT= 10.3%  GE=  8.5%  RTX= 33.7%  GEV= 27.6%  BA=  6.9%  DE=  6.1%  ETN=  0.5%  HON=  0.3%  UNP=  0.2%  UBER=  5.7%  util=27.232704  Δ=+0.106475
+  DE+5%  CAT= 10.3%  GE=  8.5%  RTX= 33.7%  GEV= 27.6%  BA=  1.3%  DE= 11.7%  ETN=  0.5%  HON=  0.3%  UNP=  0.2%  UBER=  5.7%  util=27.612153  Δ=+0.485925
+  ETN+5%  CAT= 10.3%  GE=  8.5%  RTX= 33.7%  GEV= 27.6%  BA=  1.3%  DE=  6.1%  ETN=  6.1%  HON=  0.3%  UNP=  0.2%  UBER=  5.7%  util=23.832343  Δ=-3.293886
+  HON+5%  CAT= 10.3%  GE=  8.5%  RTX= 33.7%  GEV= 27.6%  BA=  1.3%  DE=  6.1%  ETN=  0.5%  HON=  5.8%  UNP=  0.2%  UBER=  5.7%  util=26.799394  Δ=-0.326835
+  UNP+5%  CAT= 10.3%  GE=  8.5%  RTX= 33.7%  GEV= 27.6%  BA=  1.3%  DE=  6.1%  ETN=  0.5%  HON=  0.3%  UNP=  5.8%  UBER=  5.7%  util=25.255927  Δ=-1.870302
+  UBER+5%  CAT= 10.3%  GE=  8.5%  RTX= 33.7%  GEV= 27.6%  BA=  1.3%  DE=  6.1%  ETN=  0.5%  HON=  0.3%  UNP=  0.2%  UBER= 11.3%  util=28.007459  Δ=+0.881230
+  ★ WINNER: Epoch 13  improvement=+0.881230
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=28.007459  feasible=0  step=0.0500  streak=14  T=0.0244]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=28.007459  (gain=+15.385514  epochs=15)

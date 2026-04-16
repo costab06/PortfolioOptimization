@@ -1,0 +1,42 @@
+=== OPTIMIZATION DEBUG: test 1 ===
+Time:   Sat Apr 04 19:09:09 EDT 2026
+Start:  VOO= 50.0%  AVUV= 50.0%
+        utility = 0.188563
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.188563  feasible=2]
+  VOO+1%  VOO= 51.0%  AVUV= 49.0%  util=0.188649  Δ=+0.000085
+  AVUV+1%  VOO= 49.0%  AVUV= 51.0%  util=0.188456  Δ=-0.000107
+  ★ WINNER: VOO  improvement=+0.000085
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.188649  feasible=2]
+  VOO+1%  VOO= 52.0%  AVUV= 48.0%  util=0.188698  Δ=+0.000050
+  AVUV+1%  VOO= 50.0%  AVUV= 50.0%  util=0.188563  Δ=-0.000085
+  ★ WINNER: VOO  improvement=+0.000050
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.188698  feasible=2]
+  VOO+1%  VOO= 53.0%  AVUV= 47.0%  util=0.188738  Δ=+0.000039
+  AVUV+1%  VOO= 51.0%  AVUV= 49.0%  util=0.188649  Δ=-0.000050
+  ★ WINNER: VOO  improvement=+0.000039
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.188738  feasible=2]
+  VOO+1%  VOO= 54.0%  AVUV= 46.0%  util=0.188766  Δ=+0.000028
+  AVUV+1%  VOO= 52.0%  AVUV= 48.0%  util=0.188698  Δ=-0.000039
+  ★ WINNER: VOO  improvement=+0.000028
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.188766  feasible=2]
+  VOO+1%  VOO= 55.0%  AVUV= 45.0%  util=0.188785  Δ=+0.000019
+  AVUV+1%  VOO= 53.0%  AVUV= 47.0%  util=0.188738  Δ=-0.000028
+  ★ WINNER: VOO  improvement=+0.000019
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.188785  feasible=2]
+  VOO+1%  VOO= 56.0%  AVUV= 44.0%  util=0.188788  Δ=+0.000004
+  AVUV+1%  VOO= 54.0%  AVUV= 46.0%  util=0.188766  Δ=-0.000019
+  ★ WINNER: VOO  improvement=+0.000004
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.188788  feasible=2]
+  VOO+1%  VOO= 57.0%  AVUV= 43.0%  util=0.188783  Δ=-0.000005
+  AVUV+1%  VOO= 55.0%  AVUV= 45.0%  util=0.188785  Δ=-0.000004
+  ✗ STOPPED: no_improvement
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.188788  (gain=+0.000225  epochs=7)

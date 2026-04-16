@@ -1,0 +1,240 @@
+2026-04-13 16:07:33.390 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-13 16:07:33.403 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-13 16:07:33.518 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-13 16:07:33.519 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-13 16:07:33.530 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-13 16:07:33.961 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-13 16:12:44.673 [virtual-83] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:12:44.674 [virtual-83] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 95 */ 'system|Sector-ConsumerDisc|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:13:32.674 [virtual-176] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:13:32.674 [virtual-176] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 95 */ 'system|Sector-ConsumerDisc|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:15:27.562 [virtual-111] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:15:27.562 [virtual-111] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 100 */ 'system|Sector-Technology|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:16:18.013 [virtual-89] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:16:18.013 [virtual-89] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 105 */ 'system|Sector-Energy|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:16:19.487 [virtual-182] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:16:19.487 [virtual-182] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 106 */ 'system|Sector-Energy|Mon Apr 13 16:08:38 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:16:33.458 [virtual-220] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:16:33.458 [virtual-220] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 109 */ 'system|Sector-Financials|Mon Apr 13 16:08:38 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:16:40.586 [virtual-136] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:16:40.586 [virtual-136] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 112 */ 'system|Sector-Financials|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:16:55.419 [virtual-115] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:16:55.419 [virtual-115] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 116 */ 'system|Sector-Utilities|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:17:07.017 [virtual-141] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:17:07.018 [virtual-141] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 120 */ 'system|Sector-HealthCare|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:17:15.061 [virtual-188] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:17:15.061 [virtual-188] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 121 */ 'system|Sector-HealthCare|Mon Apr 13 16:08:38 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:17:27.665 [virtual-226] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:17:27.665 [virtual-226] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 125 */ 'system|Sector-Industrials|Mon Apr 13 16:08:38 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:17:28.525 [virtual-99] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:17:28.525 [virtual-99] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 126 */ 'system|Sector-Industrials|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:17:39.932 [virtual-173] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:17:39.932 [virtual-173] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 131 */ 'system|Sector-CommServices|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:17:42.618 [virtual-80] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:17:42.618 [virtual-80] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 131 */ 'system|Sector-CommServices|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:17:52.923 [virtual-86] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:17:52.923 [virtual-86] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 130 */ 'system|Sector-ConsumerStap|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:17:58.216 [virtual-159] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:17:58.217 [virtual-159] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 140 */ 'system|Sector-Materials|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:18:00.045 [virtual-162] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:18:00.046 [virtual-162] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 142 */ 'system|Sector-RealEstate|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:18:02.283 [virtual-229] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:18:02.283 [virtual-229] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 138 */ 'system|Sector-Materials|Mon Apr 13 16:08:38 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 16:18:02.699 [virtual-129] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 16:18:02.699 [virtual-129] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 130 */ 'system|Sector-ConsumerStap|Mon Apr 13 16:08:37 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:17:46.315 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-13 19:17:46.326 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-13 19:17:46.460 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-13 19:17:46.460 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-13 19:17:46.471 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-13 19:17:46.903 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-13 19:22:33.706 [virtual-123] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:22:33.707 [virtual-123] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 148 */ 'system|Sector-ConsumerDisc|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:23:03.097 [virtual-169] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:23:03.098 [virtual-169] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 148 */ 'system|Sector-ConsumerDisc|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:24:39.756 [virtual-265] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:24:39.756 [virtual-265] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 152 */ 'system|Sector-Technology|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:24:41.982 [virtual-107] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:24:41.982 [virtual-107] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 152 */ 'system|Sector-Technology|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:24:48.266 [virtual-232] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:24:48.266 [virtual-232] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 152 */ 'system|Sector-Technology|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:24:49.111 [virtual-197] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:24:49.111 [virtual-197] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 152 */ 'system|Sector-Technology|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:25:38.985 [virtual-130] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:25:38.985 [virtual-130] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 157 */ 'system|Sector-Energy|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:25:42.059 [virtual-247] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:25:42.059 [virtual-247] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 157 */ 'system|Sector-Energy|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:25:42.673 [virtual-177] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:25:42.673 [virtual-177] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 157 */ 'system|Sector-Energy|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:25:46.302 [virtual-86] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:25:46.302 [virtual-86] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 157 */ 'system|Sector-Energy|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:25:59.710 [virtual-180] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:25:59.710 [virtual-180] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 162 */ 'system|Sector-Financials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:07.989 [virtual-134] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:07.990 [virtual-134] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 162 */ 'system|Sector-Financials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:08.729 [virtual-250] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:08.729 [virtual-250] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 162 */ 'system|Sector-Financials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:09.269 [virtual-217] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:09.269 [virtual-217] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 162 */ 'system|Sector-Financials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:23.530 [virtual-200] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:23.531 [virtual-200] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 167 */ 'system|Sector-Utilities|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:24.441 [virtual-268] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:24.441 [virtual-268] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 167 */ 'system|Sector-Utilities|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:24.989 [virtual-158] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:24.989 [virtual-158] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 167 */ 'system|Sector-Utilities|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:26.534 [virtual-111] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:26.534 [virtual-111] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 167 */ 'system|Sector-Utilities|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:32.550 [virtual-183] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:32.550 [virtual-183] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 172 */ 'system|Sector-HealthCare|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:35.637 [virtual-137] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:35.638 [virtual-137] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 172 */ 'system|Sector-HealthCare|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:36.042 [virtual-94] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:36.042 [virtual-94] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 172 */ 'system|Sector-HealthCare|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:39.782 [virtual-253] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:39.782 [virtual-253] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 172 */ 'system|Sector-HealthCare|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:57.806 [virtual-97] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:57.806 [virtual-97] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 177 */ 'system|Sector-Industrials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:59.335 [virtual-256] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:59.335 [virtual-256] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 177 */ 'system|Sector-Industrials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:26:59.880 [virtual-141] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:26:59.880 [virtual-141] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 177 */ 'system|Sector-Industrials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:00.531 [virtual-188] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:00.531 [virtual-188] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 177 */ 'system|Sector-Industrials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:15.265 [virtual-205] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:15.265 [virtual-205] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 184 */ 'system|Sector-CommServices|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:17.518 [virtual-120] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:17.518 [virtual-120] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 184 */ 'system|Sector-CommServices|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:25.990 [virtual-238] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:25.990 [virtual-238] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 184 */ 'system|Sector-CommServices|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:26.123 [virtual-229] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:26.123 [virtual-229] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 187 */ 'system|Sector-RealEstate|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:26.941 [virtual-194] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:26.941 [virtual-194] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 187 */ 'system|Sector-RealEstate|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:27.592 [virtual-104] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:27.592 [virtual-104] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 187 */ 'system|Sector-RealEstate|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:29.208 [virtual-262] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:29.208 [virtual-262] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 187 */ 'system|Sector-RealEstate|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:30.447 [virtual-244] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:30.447 [virtual-244] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 182 */ 'system|Sector-ConsumerStap|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:30.802 [virtual-211] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:30.803 [virtual-211] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 182 */ 'system|Sector-ConsumerStap|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:32.475 [virtual-226] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:32.476 [virtual-226] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 196 */ 'system|Sector-Materials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:33.820 [virtual-145] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:33.820 [virtual-145] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 196 */ 'system|Sector-Materials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:34.341 [virtual-100] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:34.341 [virtual-100] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 196 */ 'system|Sector-Materials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:34.690 [virtual-191] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:34.691 [virtual-191] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 196 */ 'system|Sector-Materials|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:35.816 [virtual-126] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:35.817 [virtual-126] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 182 */ 'system|Sector-ConsumerStap|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 19:27:36.863 [virtual-241] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 19:27:36.863 [virtual-241] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 148 */ 'system|Sector-ConsumerDisc|Mon Apr 13 19:18:09 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:10:28.034 [virtual-3500] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:10:28.034 [virtual-3500] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 203 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:10:24 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:10:28.068 [virtual-3503] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:10:28.069 [virtual-3503] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 203 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:10:24 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:10:28.070 [virtual-3481] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:10:28.070 [virtual-3481] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 203 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:10:24 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:10:28.112 [virtual-3487] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:10:28.112 [virtual-3487] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 203 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:10:24 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:14:26.005 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-13 21:14:26.016 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-13 21:14:26.153 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-13 21:14:26.153 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-13 21:14:26.166 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-13 21:14:26.608 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-13 21:15:03.245 [virtual-90] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:15:03.245 [virtual-85] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:15:03.246 [virtual-90] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 206 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:14:43 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:15:03.246 [virtual-85] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 206 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:14:43 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:15:03.268 [virtual-93] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:15:03.268 [virtual-93] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 206 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:14:43 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:15:03.281 [virtual-75] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:15:03.281 [virtual-75] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 206 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:14:43 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:18:34.547 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+2026-04-13 21:18:34.558 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Starting...
+2026-04-13 21:18:34.702 [main] INFO  com.zaxxer.hikari.pool.HikariPool - portfolio-pool - Added connection conn0: url=jdbc:h2:./data/portfoliodb user=SA
+2026-04-13 21:18:34.702 [main] INFO  com.zaxxer.hikari.HikariDataSource - portfolio-pool - Start completed.
+2026-04-13 21:18:34.715 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-13 21:18:35.180 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-13 21:27:44.464 [virtual-95] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:27:44.464 [virtual-95] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 207 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:18:55 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:28:15.178 [virtual-80] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:28:15.178 [virtual-80] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 207 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:18:55 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:28:45.891 [virtual-85] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:28:45.891 [virtual-85] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 207 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:18:55 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]
+2026-04-13 21:29:11.720 [virtual-90] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2026-04-13 21:29:11.720 [virtual-90] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_3 ON PUBLIC.PORTFOLIO_OPTIMIZATIONS(PORTFOLIOOPTIMIZATIONNAME) VALUES ( /* 207 */ 'system|Ensemble-AllSectors|Mon Apr 13 21:18:55 EDT 2026' )"; SQL statement:
+insert into portfolio_optimizations (optimized,original_data,portfolioArray,returnsArray,sp500,state,portfolioOptimizationName) values (?,?,?,?,?,?,?) [23505-224]

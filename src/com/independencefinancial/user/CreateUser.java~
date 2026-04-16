@@ -1,0 +1,47 @@
+package com.bcfinancial.user;
+
+import com.bcfinancial.persistenceManager.*;
+import com.bcfinancial.portfolio.*;
+import java.util.*;
+
+public class CreateUser {
+    
+    public static void main(String[] args) {
+	User u;
+	Portfolio p;
+	System.out.println("creating user");
+	try {
+
+
+	    if (args.length < 3) {
+		System.out.println("usage: CreateUser <userName> <password> <emailAddr>");
+		System.exit(1);
+	    }
+	    
+	    
+	    // create the user
+	    User user = new User (args[0],args[1],args[2],new String[0]);
+	    
+	    // Persistence Manager
+	    PersistenceManagerImpl upm = new PersistenceManagerImpl(User.class);
+	    
+	    // Persist user
+	    
+	    upm.insert("users",user.getUsername(),user);
+	    System.out.println("stored user");
+	    
+	    
+	    // Verify the user
+	    
+	    u = (User)upm.select("users",user.getUsername());
+	    System.out.println("retrieved: "+u);
+	    
+	} catch (Exception e) {
+	    System.out.println("Exception: "+e);
+	    e.printStackTrace();
+	}
+	
+    }
+
+    
+}

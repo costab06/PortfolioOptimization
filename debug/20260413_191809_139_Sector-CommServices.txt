@@ -1,0 +1,192 @@
+=== OPTIMIZATION DEBUG: Sector-CommServices ===
+Time:   Mon Apr 13 19:27:17 EDT 2026
+Start:  META= 23.4%  GOOGL= 13.8%  GOOG= 11.0%  LYV=  7.8%  NFLX=  7.8%  DIS=  7.5%  TTWO=  7.2%  SATS=  7.2%  WBD=  7.2%  CHTR=  7.1%
+        utility = 13.030932
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=13.030932  feasible=10  step=0.0100  streak=0  T=0.0500]
+  META+1%  META= 24.4%  GOOGL= 13.7%  GOOG= 10.9%  LYV=  7.7%  NFLX=  7.6%  DIS=  7.4%  TTWO=  7.1%  SATS=  7.1%  WBD=  7.1%  CHTR=  7.0%  util=12.873730  Δ=-0.157202
+  GOOGL+1%  META= 23.3%  GOOGL= 14.8%  GOOG= 10.9%  LYV=  7.7%  NFLX=  7.6%  DIS=  7.4%  TTWO=  7.1%  SATS=  7.1%  WBD=  7.1%  CHTR=  7.0%  util=12.864014  Δ=-0.166919
+  GOOG+1%  META= 23.3%  GOOGL= 13.7%  GOOG= 12.0%  LYV=  7.7%  NFLX=  7.6%  DIS=  7.4%  TTWO=  7.1%  SATS=  7.1%  WBD=  7.1%  CHTR=  7.0%  util=12.864791  Δ=-0.166141
+  LYV+1%  META= 23.3%  GOOGL= 13.7%  GOOG= 10.9%  LYV=  8.8%  NFLX=  7.6%  DIS=  7.4%  TTWO=  7.1%  SATS=  7.1%  WBD=  7.1%  CHTR=  7.0%  util=12.883522  Δ=-0.147410
+  NFLX+1%  META= 23.3%  GOOGL= 13.7%  GOOG= 10.9%  LYV=  7.7%  NFLX=  8.8%  DIS=  7.4%  TTWO=  7.1%  SATS=  7.1%  WBD=  7.1%  CHTR=  7.0%  util=12.933527  Δ=-0.097406
+  DIS+1%  META= 23.3%  GOOGL= 13.7%  GOOG= 10.9%  LYV=  7.7%  NFLX=  7.6%  DIS=  8.5%  TTWO=  7.1%  SATS=  7.1%  WBD=  7.1%  CHTR=  7.0%  util=12.832216  Δ=-0.198716
+  TTWO+1%  META= 23.3%  GOOGL= 13.7%  GOOG= 10.9%  LYV=  7.7%  NFLX=  7.6%  DIS=  7.4%  TTWO=  8.2%  SATS=  7.1%  WBD=  7.1%  CHTR=  7.0%  util=12.938541  Δ=-0.092392
+  SATS+1%  META= 23.3%  GOOGL= 13.7%  GOOG= 10.9%  LYV=  7.7%  NFLX=  7.6%  DIS=  7.4%  TTWO=  7.1%  SATS=  8.2%  WBD=  7.1%  CHTR=  7.0%  util=14.236246  Δ=+1.205314
+  WBD+1%  META= 23.3%  GOOGL= 13.7%  GOOG= 10.9%  LYV=  7.7%  NFLX=  7.6%  DIS=  7.4%  TTWO=  7.1%  SATS=  7.1%  WBD=  8.2%  CHTR=  7.0%  util=12.971525  Δ=-0.059407
+  CHTR+1%  META= 23.3%  GOOGL= 13.7%  GOOG= 10.9%  LYV=  7.7%  NFLX=  7.6%  DIS=  7.4%  TTWO=  7.1%  SATS=  7.1%  WBD=  7.1%  CHTR=  8.1%  util=12.891218  Δ=-0.139714
+  ★ WINNER: Epoch 0  improvement=+1.205314
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=14.236246  feasible=10  step=0.0200  streak=1  T=0.0475]
+  META+2%  META= 25.3%  GOOGL= 13.5%  GOOG= 10.7%  LYV=  7.4%  NFLX=  7.4%  DIS=  7.1%  TTWO=  6.9%  SATS=  8.0%  WBD=  6.8%  CHTR=  6.8%  util=13.911010  Δ=-0.325237
+  GOOGL+2%  META= 23.1%  GOOGL= 15.7%  GOOG= 10.7%  LYV=  7.4%  NFLX=  7.4%  DIS=  7.1%  TTWO=  6.9%  SATS=  8.0%  WBD=  6.8%  CHTR=  6.8%  util=13.898665  Δ=-0.337581
+  GOOG+2%  META= 23.1%  GOOGL= 13.5%  GOOG= 12.9%  LYV=  7.4%  NFLX=  7.4%  DIS=  7.1%  TTWO=  6.9%  SATS=  8.0%  WBD=  6.8%  CHTR=  6.8%  util=13.900378  Δ=-0.335868
+  LYV+2%  META= 23.1%  GOOGL= 13.5%  GOOG= 10.7%  LYV=  9.7%  NFLX=  7.4%  DIS=  7.1%  TTWO=  6.9%  SATS=  8.0%  WBD=  6.8%  CHTR=  6.8%  util=13.938860  Δ=-0.297386
+  NFLX+2%  META= 23.1%  GOOGL= 13.5%  GOOG= 10.7%  LYV=  7.4%  NFLX=  9.6%  DIS=  7.1%  TTWO=  6.9%  SATS=  8.0%  WBD=  6.8%  CHTR=  6.8%  util=14.035666  Δ=-0.200580
+  DIS+2%  META= 23.1%  GOOGL= 13.5%  GOOG= 10.7%  LYV=  7.4%  NFLX=  7.4%  DIS=  9.4%  TTWO=  6.9%  SATS=  8.0%  WBD=  6.8%  CHTR=  6.8%  util=13.831970  Δ=-0.404276
+  TTWO+2%  META= 23.1%  GOOGL= 13.5%  GOOG= 10.7%  LYV=  7.4%  NFLX=  7.4%  DIS=  7.1%  TTWO=  9.1%  SATS=  8.0%  WBD=  6.8%  CHTR=  6.8%  util=14.060734  Δ=-0.175512
+  SATS+2%  META= 23.1%  GOOGL= 13.5%  GOOG= 10.7%  LYV=  7.4%  NFLX=  7.4%  DIS=  7.1%  TTWO=  6.9%  SATS= 10.2%  WBD=  6.8%  CHTR=  6.8%  util=16.634185  Δ=+2.397938
+  WBD+2%  META= 23.1%  GOOGL= 13.5%  GOOG= 10.7%  LYV=  7.4%  NFLX=  7.4%  DIS=  7.1%  TTWO=  6.9%  SATS=  8.0%  WBD=  9.1%  CHTR=  6.8%  util=14.108393  Δ=-0.127853
+  CHTR+2%  META= 23.1%  GOOGL= 13.5%  GOOG= 10.7%  LYV=  7.4%  NFLX=  7.4%  DIS=  7.1%  TTWO=  6.9%  SATS=  8.0%  WBD=  6.8%  CHTR=  9.0%  util=13.956397  Δ=-0.279849
+  ★ WINNER: Epoch 1  improvement=+2.397938
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=16.634185  feasible=10  step=0.0300  streak=2  T=0.0451]
+  META+3%  META= 26.1%  GOOGL= 13.2%  GOOG= 10.4%  LYV=  7.1%  NFLX=  7.1%  DIS=  6.8%  TTWO=  6.6%  SATS=  9.9%  WBD=  6.5%  CHTR=  6.5%  util=16.116346  Δ=-0.517838
+  GOOGL+3%  META= 22.7%  GOOGL= 16.5%  GOOG= 10.4%  LYV=  7.1%  NFLX=  7.1%  DIS=  6.8%  TTWO=  6.6%  SATS=  9.9%  WBD=  6.5%  CHTR=  6.5%  util=16.117377  Δ=-0.516808
+  GOOG+3%  META= 22.7%  GOOGL= 13.2%  GOOG= 13.7%  LYV=  7.1%  NFLX=  7.1%  DIS=  6.8%  TTWO=  6.6%  SATS=  9.9%  WBD=  6.5%  CHTR=  6.5%  util=16.120500  Δ=-0.513685
+  LYV+3%  META= 22.7%  GOOGL= 13.2%  GOOG= 10.4%  LYV= 10.4%  NFLX=  7.1%  DIS=  6.8%  TTWO=  6.6%  SATS=  9.9%  WBD=  6.5%  CHTR=  6.5%  util=16.184066  Δ=-0.450118
+  NFLX+3%  META= 22.7%  GOOGL= 13.2%  GOOG= 10.4%  LYV=  7.1%  NFLX= 10.4%  DIS=  6.8%  TTWO=  6.6%  SATS=  9.9%  WBD=  6.5%  CHTR=  6.5%  util=16.328104  Δ=-0.306080
+  DIS+3%  META= 22.7%  GOOGL= 13.2%  GOOG= 10.4%  LYV=  7.1%  NFLX=  7.1%  DIS= 10.1%  TTWO=  6.6%  SATS=  9.9%  WBD=  6.5%  CHTR=  6.5%  util=16.007459  Δ=-0.626725
+  TTWO+3%  META= 22.7%  GOOGL= 13.2%  GOOG= 10.4%  LYV=  7.1%  NFLX=  7.1%  DIS=  6.8%  TTWO=  9.9%  SATS=  9.9%  WBD=  6.5%  CHTR=  6.5%  util=16.406550  Δ=-0.227634
+  SATS+3%  META= 22.7%  GOOGL= 13.2%  GOOG= 10.4%  LYV=  7.1%  NFLX=  7.1%  DIS=  6.8%  TTWO=  6.6%  SATS= 13.2%  WBD=  6.5%  CHTR=  6.5%  util=20.191913  Δ=+3.557728
+  WBD+3%  META= 22.7%  GOOGL= 13.2%  GOOG= 10.4%  LYV=  7.1%  NFLX=  7.1%  DIS=  6.8%  TTWO=  6.6%  SATS=  9.9%  WBD=  9.8%  CHTR=  6.5%  util=16.427238  Δ=-0.206946
+  CHTR+3%  META= 22.7%  GOOGL= 13.2%  GOOG= 10.4%  LYV=  7.1%  NFLX=  7.1%  DIS=  6.8%  TTWO=  6.6%  SATS=  9.9%  WBD=  6.5%  CHTR=  9.8%  util=16.221563  Δ=-0.412621
+  ★ WINNER: Epoch 2  improvement=+3.557728
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=20.191913  feasible=10  step=0.0400  streak=3  T=0.0429]
+  META+4%  META= 26.7%  GOOGL= 12.7%  GOOG=  9.9%  LYV=  6.7%  NFLX=  6.6%  DIS=  6.4%  TTWO=  6.1%  SATS= 12.8%  WBD=  6.1%  CHTR=  6.0%  util=19.445142  Δ=-0.746771
+  GOOGL+4%  META= 22.3%  GOOGL= 17.2%  GOOG=  9.9%  LYV=  6.7%  NFLX=  6.6%  DIS=  6.4%  TTWO=  6.1%  SATS= 12.8%  WBD=  6.1%  CHTR=  6.0%  util=19.483043  Δ=-0.708870
+  GOOG+4%  META= 22.3%  GOOGL= 12.7%  GOOG= 14.4%  LYV=  6.7%  NFLX=  6.6%  DIS=  6.4%  TTWO=  6.1%  SATS= 12.8%  WBD=  6.1%  CHTR=  6.0%  util=19.488342  Δ=-0.703571
+  LYV+4%  META= 22.3%  GOOGL= 12.7%  GOOG=  9.9%  LYV= 11.1%  NFLX=  6.6%  DIS=  6.4%  TTWO=  6.1%  SATS= 12.8%  WBD=  6.1%  CHTR=  6.0%  util=19.586201  Δ=-0.605712
+  NFLX+4%  META= 22.3%  GOOGL= 12.7%  GOOG=  9.9%  LYV=  6.7%  NFLX= 11.1%  DIS=  6.4%  TTWO=  6.1%  SATS= 12.8%  WBD=  6.1%  CHTR=  6.0%  util=19.778226  Δ=-0.413687
+  DIS+4%  META= 22.3%  GOOGL= 12.7%  GOOG=  9.9%  LYV=  6.7%  NFLX=  6.6%  DIS= 10.8%  TTWO=  6.1%  SATS= 12.8%  WBD=  6.1%  CHTR=  6.0%  util=19.317551  Δ=-0.874362
+  TTWO+4%  META= 22.3%  GOOGL= 12.7%  GOOG=  9.9%  LYV=  6.7%  NFLX=  6.6%  DIS=  6.4%  TTWO= 10.6%  SATS= 12.8%  WBD=  6.1%  CHTR=  6.0%  util=19.964216  Δ=-0.227697
+  SATS+4%  META= 22.3%  GOOGL= 12.7%  GOOG=  9.9%  LYV=  6.7%  NFLX=  6.6%  DIS=  6.4%  TTWO=  6.1%  SATS= 17.2%  WBD=  6.1%  CHTR=  6.0%  util=24.844515  Δ=+4.652602
+  WBD+4%  META= 22.3%  GOOGL= 12.7%  GOOG=  9.9%  LYV=  6.7%  NFLX=  6.6%  DIS=  6.4%  TTWO=  6.1%  SATS= 12.8%  WBD= 10.5%  CHTR=  6.0%  util=19.887818  Δ=-0.304095
+  CHTR+4%  META= 22.3%  GOOGL= 12.7%  GOOG=  9.9%  LYV=  6.7%  NFLX=  6.6%  DIS=  6.4%  TTWO=  6.1%  SATS= 12.8%  WBD=  6.1%  CHTR= 10.5%  util=19.659937  Δ=-0.531976
+  ★ WINNER: Epoch 3  improvement=+4.652602
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=24.844515  feasible=10  step=0.0500  streak=4  T=0.0407]
+  META+5%  META= 27.3%  GOOGL= 12.2%  GOOG=  9.4%  LYV=  6.1%  NFLX=  6.1%  DIS=  5.8%  TTWO=  5.6%  SATS= 16.7%  WBD=  5.5%  CHTR=  5.5%  util=23.813466  Δ=-1.031048
+  GOOGL+5%  META= 21.7%  GOOGL= 17.7%  GOOG=  9.4%  LYV=  6.1%  NFLX=  6.1%  DIS=  5.8%  TTWO=  5.6%  SATS= 16.7%  WBD=  5.5%  CHTR=  5.5%  util=23.924591  Δ=-0.919924
+  GOOG+5%  META= 21.7%  GOOGL= 12.2%  GOOG= 14.9%  LYV=  6.1%  NFLX=  6.1%  DIS=  5.8%  TTWO=  5.6%  SATS= 16.7%  WBD=  5.5%  CHTR=  5.5%  util=23.933173  Δ=-0.911342
+  LYV+5%  META= 21.7%  GOOGL= 12.2%  GOOG=  9.4%  LYV= 11.7%  NFLX=  6.1%  DIS=  5.8%  TTWO=  5.6%  SATS= 16.7%  WBD=  5.5%  CHTR=  5.5%  util=24.081583  Δ=-0.762931
+  NFLX+5%  META= 21.7%  GOOGL= 12.2%  GOOG=  9.4%  LYV=  6.1%  NFLX= 11.6%  DIS=  5.8%  TTWO=  5.6%  SATS= 16.7%  WBD=  5.5%  CHTR=  5.5%  util=24.319461  Δ=-0.525054
+  DIS+5%  META= 21.7%  GOOGL= 12.2%  GOOG=  9.4%  LYV=  6.1%  NFLX=  6.1%  DIS= 11.4%  TTWO=  5.6%  SATS= 16.7%  WBD=  5.5%  CHTR=  5.5%  util=23.688177  Δ=-1.156338
+  TTWO+5%  META= 21.7%  GOOGL= 12.2%  GOOG=  9.4%  LYV=  6.1%  NFLX=  6.1%  DIS=  5.8%  TTWO= 11.1%  SATS= 16.7%  WBD=  5.5%  CHTR=  5.5%  util=24.687269  Δ=-0.157245
+  SATS+5%  META= 21.7%  GOOGL= 12.2%  GOOG=  9.4%  LYV=  6.1%  NFLX=  6.1%  DIS=  5.8%  TTWO=  5.6%  SATS= 22.2%  WBD=  5.5%  CHTR=  5.5%  util=30.465296  Δ=+5.620781
+  WBD+5%  META= 21.7%  GOOGL= 12.2%  GOOG=  9.4%  LYV=  6.1%  NFLX=  6.1%  DIS=  5.8%  TTWO=  5.6%  SATS= 16.7%  WBD= 11.1%  CHTR=  5.5%  util=24.408885  Δ=-0.435629
+  CHTR+5%  META= 21.7%  GOOGL= 12.2%  GOOG=  9.4%  LYV=  6.1%  NFLX=  6.1%  DIS=  5.8%  TTWO=  5.6%  SATS= 16.7%  WBD=  5.5%  CHTR= 11.0%  util=24.214033  Δ=-0.630481
+  ★ WINNER: Epoch 4  improvement=+5.620781
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=30.465296  feasible=10  step=0.0500  streak=5  T=0.0387]
+  META+5%  META= 26.7%  GOOGL= 11.6%  GOOG=  8.8%  LYV=  5.5%  NFLX=  5.5%  DIS=  5.2%  TTWO=  5.0%  SATS= 21.7%  WBD=  4.9%  CHTR=  4.9%  util=29.318398  Δ=-1.146898
+  GOOGL+5%  META= 21.2%  GOOGL= 17.2%  GOOG=  8.8%  LYV=  5.5%  NFLX=  5.5%  DIS=  5.2%  TTWO=  5.0%  SATS= 21.7%  WBD=  4.9%  CHTR=  4.9%  util=29.506012  Δ=-0.959284
+  GOOG+5%  META= 21.2%  GOOGL= 11.6%  GOOG= 14.4%  LYV=  5.5%  NFLX=  5.5%  DIS=  5.2%  TTWO=  5.0%  SATS= 21.7%  WBD=  4.9%  CHTR=  4.9%  util=29.517406  Δ=-0.947890
+  LYV+5%  META= 21.2%  GOOGL= 11.6%  GOOG=  8.8%  LYV= 11.1%  NFLX=  5.5%  DIS=  5.2%  TTWO=  5.0%  SATS= 21.7%  WBD=  4.9%  CHTR=  4.9%  util=29.719410  Δ=-0.745886
+  NFLX+5%  META= 21.2%  GOOGL= 11.6%  GOOG=  8.8%  LYV=  5.5%  NFLX= 11.1%  DIS=  5.2%  TTWO=  5.0%  SATS= 21.7%  WBD=  4.9%  CHTR=  4.9%  util=29.972844  Δ=-0.492452
+  DIS+5%  META= 21.2%  GOOGL= 11.6%  GOOG=  8.8%  LYV=  5.5%  NFLX=  5.5%  DIS= 10.8%  TTWO=  5.0%  SATS= 21.7%  WBD=  4.9%  CHTR=  4.9%  util=29.233464  Δ=-1.231832
+  TTWO+5%  META= 21.2%  GOOGL= 11.6%  GOOG=  8.8%  LYV=  5.5%  NFLX=  5.5%  DIS=  5.2%  TTWO= 10.6%  SATS= 21.7%  WBD=  4.9%  CHTR=  4.9%  util=30.491565  Δ=+0.026269
+  SATS+5%  META= 21.2%  GOOGL= 11.6%  GOOG=  8.8%  LYV=  5.5%  NFLX=  5.5%  DIS=  5.2%  TTWO=  5.0%  SATS= 27.2%  WBD=  4.9%  CHTR=  4.9%  util=35.820299  Δ=+5.355003
+  WBD+5%  META= 21.2%  GOOGL= 11.6%  GOOG=  8.8%  LYV=  5.5%  NFLX=  5.5%  DIS=  5.2%  TTWO=  5.0%  SATS= 21.7%  WBD= 10.5%  CHTR=  4.9%  util=29.999190  Δ=-0.466106
+  CHTR+5%  META= 21.2%  GOOGL= 11.6%  GOOG=  8.8%  LYV=  5.5%  NFLX=  5.5%  DIS=  5.2%  TTWO=  5.0%  SATS= 21.7%  WBD=  4.9%  CHTR= 10.5%  util=29.909336  Δ=-0.555960
+  ★ WINNER: Epoch 5  improvement=+5.355003
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=35.820299  feasible=10  step=0.0500  streak=6  T=0.0368]
+  META+5%  META= 26.2%  GOOGL= 11.0%  GOOG=  8.3%  LYV=  5.0%  NFLX=  5.0%  DIS=  4.7%  TTWO=  4.5%  SATS= 26.7%  WBD=  4.4%  CHTR=  4.4%  util=34.557648  Δ=-1.262651
+  GOOGL+5%  META= 20.6%  GOOGL= 16.6%  GOOG=  8.3%  LYV=  5.0%  NFLX=  5.0%  DIS=  4.7%  TTWO=  4.5%  SATS= 26.7%  WBD=  4.4%  CHTR=  4.4%  util=34.824312  Δ=-0.995987
+  GOOG+5%  META= 20.6%  GOOGL= 11.0%  GOOG= 13.8%  LYV=  5.0%  NFLX=  5.0%  DIS=  4.7%  TTWO=  4.5%  SATS= 26.7%  WBD=  4.4%  CHTR=  4.4%  util=34.838973  Δ=-0.981326
+  LYV+5%  META= 20.6%  GOOGL= 11.0%  GOOG=  8.3%  LYV= 10.5%  NFLX=  5.0%  DIS=  4.7%  TTWO=  4.5%  SATS= 26.7%  WBD=  4.4%  CHTR=  4.4%  util=35.106391  Δ=-0.713908
+  NFLX+5%  META= 20.6%  GOOGL= 11.0%  GOOG=  8.3%  LYV=  5.0%  NFLX= 10.5%  DIS=  4.7%  TTWO=  4.5%  SATS= 26.7%  WBD=  4.4%  CHTR=  4.4%  util=35.371381  Δ=-0.448917
+  DIS+5%  META= 20.6%  GOOGL= 11.0%  GOOG=  8.3%  LYV=  5.0%  NFLX=  5.0%  DIS= 10.2%  TTWO=  4.5%  SATS= 26.7%  WBD=  4.4%  CHTR=  4.4%  util=34.512114  Δ=-1.308185
+  TTWO+5%  META= 20.6%  GOOGL= 11.0%  GOOG=  8.3%  LYV=  5.0%  NFLX=  5.0%  DIS=  4.7%  TTWO= 10.0%  SATS= 26.7%  WBD=  4.4%  CHTR=  4.4%  util=36.027101  Δ=+0.206802
+  SATS+5%  META= 20.6%  GOOGL= 11.0%  GOOG=  8.3%  LYV=  5.0%  NFLX=  5.0%  DIS=  4.7%  TTWO=  4.5%  SATS= 32.2%  WBD=  4.4%  CHTR=  4.4%  util=40.847751  Δ=+5.027452
+  WBD+5%  META= 20.6%  GOOGL= 11.0%  GOOG=  8.3%  LYV=  5.0%  NFLX=  5.0%  DIS=  4.7%  TTWO=  4.5%  SATS= 26.7%  WBD=  9.9%  CHTR=  4.4%  util=35.312636  Δ=-0.507663
+  CHTR+5%  META= 20.6%  GOOGL= 11.0%  GOOG=  8.3%  LYV=  5.0%  NFLX=  5.0%  DIS=  4.7%  TTWO=  4.5%  SATS= 26.7%  WBD=  4.4%  CHTR=  9.9%  util=35.342343  Δ=-0.477956
+  ★ WINNER: Epoch 6  improvement=+5.027452
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=40.847751  feasible=10  step=0.0500  streak=7  T=0.0349]
+  META+5%  META= 25.6%  GOOGL= 10.5%  GOOG=  7.7%  LYV=  4.4%  NFLX=  4.4%  DIS=  4.1%  TTWO=  3.9%  SATS= 31.7%  WBD=  3.8%  CHTR=  3.8%  util=39.476109  Δ=-1.371642
+  GOOGL+5%  META= 20.1%  GOOGL= 16.0%  GOOG=  7.7%  LYV=  4.4%  NFLX=  4.4%  DIS=  4.1%  TTWO=  3.9%  SATS= 31.7%  WBD=  3.8%  CHTR=  3.8%  util=39.822452  Δ=-1.025299
+  GOOG+5%  META= 20.1%  GOOGL= 10.5%  GOOG= 13.3%  LYV=  4.4%  NFLX=  4.4%  DIS=  4.1%  TTWO=  3.9%  SATS= 31.7%  WBD=  3.8%  CHTR=  3.8%  util=39.841234  Δ=-1.006517
+  LYV+5%  META= 20.1%  GOOGL= 10.5%  GOOG=  7.7%  LYV= 10.0%  NFLX=  4.4%  DIS=  4.1%  TTWO=  3.9%  SATS= 31.7%  WBD=  3.8%  CHTR=  3.8%  util=40.176095  Δ=-0.671656
+  NFLX+5%  META= 20.1%  GOOGL= 10.5%  GOOG=  7.7%  LYV=  4.4%  NFLX= 10.0%  DIS=  4.1%  TTWO=  3.9%  SATS= 31.7%  WBD=  3.8%  CHTR=  3.8%  util=40.476539  Δ=-0.371212
+  DIS+5%  META= 20.1%  GOOGL= 10.5%  GOOG=  7.7%  LYV=  4.4%  NFLX=  4.4%  DIS=  9.7%  TTWO=  3.9%  SATS= 31.7%  WBD=  3.8%  CHTR=  3.8%  util=39.472097  Δ=-1.375654
+  TTWO+5%  META= 20.1%  GOOGL= 10.5%  GOOG=  7.7%  LYV=  4.4%  NFLX=  4.4%  DIS=  4.1%  TTWO=  9.5%  SATS= 31.7%  WBD=  3.8%  CHTR=  3.8%  util=41.231346  Δ=+0.383595
+  SATS+5%  META= 20.1%  GOOGL= 10.5%  GOOG=  7.7%  LYV=  4.4%  NFLX=  4.4%  DIS=  4.1%  TTWO=  3.9%  SATS= 37.2%  WBD=  3.8%  CHTR=  3.8%  util=45.496187  Δ=+4.648436
+  WBD+5%  META= 20.1%  GOOGL= 10.5%  GOOG=  7.7%  LYV=  4.4%  NFLX=  4.4%  DIS=  4.1%  TTWO=  3.9%  SATS= 31.7%  WBD=  9.4%  CHTR=  3.8%  util=40.296102  Δ=-0.551649
+  CHTR+5%  META= 20.1%  GOOGL= 10.5%  GOOG=  7.7%  LYV=  4.4%  NFLX=  4.4%  DIS=  4.1%  TTWO=  3.9%  SATS= 31.7%  WBD=  3.8%  CHTR=  9.4%  util=40.441977  Δ=-0.405774
+  ★ WINNER: Epoch 7  improvement=+4.648436
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=45.496187  feasible=10  step=0.0500  streak=8  T=0.0332]
+  META+5%  META= 25.1%  GOOGL=  9.9%  GOOG=  7.1%  LYV=  3.9%  NFLX=  3.9%  DIS=  3.6%  TTWO=  3.4%  SATS= 36.7%  WBD=  3.3%  CHTR=  3.2%  util=44.024171  Δ=-1.472016
+  GOOGL+5%  META= 19.5%  GOOGL= 15.5%  GOOG=  7.1%  LYV=  3.9%  NFLX=  3.9%  DIS=  3.6%  TTWO=  3.4%  SATS= 36.7%  WBD=  3.3%  CHTR=  3.2%  util=44.449307  Δ=-1.046880
+  GOOG+5%  META= 19.5%  GOOGL=  9.9%  GOOG= 12.7%  LYV=  3.9%  NFLX=  3.9%  DIS=  3.6%  TTWO=  3.4%  SATS= 36.7%  WBD=  3.3%  CHTR=  3.2%  util=44.472720  Δ=-1.023468
+  LYV+5%  META= 19.5%  GOOGL=  9.9%  GOOG=  7.1%  LYV=  9.4%  NFLX=  3.9%  DIS=  3.6%  TTWO=  3.4%  SATS= 36.7%  WBD=  3.3%  CHTR=  3.2%  util=44.864577  Δ=-0.631610
+  NFLX+5%  META= 19.5%  GOOGL=  9.9%  GOOG=  7.1%  LYV=  3.9%  NFLX=  9.4%  DIS=  3.6%  TTWO=  3.4%  SATS= 36.7%  WBD=  3.3%  CHTR=  3.2%  util=45.251697  Δ=-0.244490
+  DIS+5%  META= 19.5%  GOOGL=  9.9%  GOOG=  7.1%  LYV=  3.9%  NFLX=  3.9%  DIS=  9.1%  TTWO=  3.4%  SATS= 36.7%  WBD=  3.3%  CHTR=  3.2%  util=44.061364  Δ=-1.434823
+  TTWO+5%  META= 19.5%  GOOGL=  9.9%  GOOG=  7.1%  LYV=  3.9%  NFLX=  3.9%  DIS=  3.6%  TTWO=  8.9%  SATS= 36.7%  WBD=  3.3%  CHTR=  3.2%  util=46.038801  Δ=+0.542614
+  SATS+5%  META= 19.5%  GOOGL=  9.9%  GOOG=  7.1%  LYV=  3.9%  NFLX=  3.9%  DIS=  3.6%  TTWO=  3.4%  SATS= 42.2%  WBD=  3.3%  CHTR=  3.2%  util=49.718500  Δ=+4.222313
+  WBD+5%  META= 19.5%  GOOGL=  9.9%  GOOG=  7.1%  LYV=  3.9%  NFLX=  3.9%  DIS=  3.6%  TTWO=  3.4%  SATS= 36.7%  WBD=  8.8%  CHTR=  3.2%  util=44.896373  Δ=-0.599814
+  CHTR+5%  META= 19.5%  GOOGL=  9.9%  GOOG=  7.1%  LYV=  3.9%  NFLX=  3.9%  DIS=  3.6%  TTWO=  3.4%  SATS= 36.7%  WBD=  3.3%  CHTR=  8.8%  util=45.150341  Δ=-0.345846
+  ★ WINNER: Epoch 8  improvement=+4.222313
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=49.718500  feasible=10  step=0.0500  streak=9  T=0.0315]
+  META+5%  META= 24.5%  GOOGL=  9.4%  GOOG=  6.6%  LYV=  3.3%  NFLX=  3.3%  DIS=  3.0%  TTWO=  2.8%  SATS= 41.7%  WBD=  2.7%  CHTR=  2.7%  util=48.156040  Δ=-1.562459
+  GOOGL+5%  META= 19.0%  GOOGL= 14.9%  GOOG=  6.6%  LYV=  3.3%  NFLX=  3.3%  DIS=  3.0%  TTWO=  2.8%  SATS= 41.7%  WBD=  2.7%  CHTR=  2.7%  util=48.653505  Δ=-1.064994
+  GOOG+5%  META= 19.0%  GOOGL=  9.4%  GOOG= 12.1%  LYV=  3.3%  NFLX=  3.3%  DIS=  3.0%  TTWO=  2.8%  SATS= 41.7%  WBD=  2.7%  CHTR=  2.7%  util=48.682549  Δ=-1.035951
+  LYV+5%  META= 19.0%  GOOGL=  9.4%  GOOG=  6.6%  LYV=  8.9%  NFLX=  3.3%  DIS=  3.0%  TTWO=  2.8%  SATS= 41.7%  WBD=  2.7%  CHTR=  2.7%  util=49.111716  Δ=-0.606784
+  NFLX+5%  META= 19.0%  GOOGL=  9.4%  GOOG=  6.6%  LYV=  3.3%  NFLX=  8.9%  DIS=  3.0%  TTWO=  2.8%  SATS= 41.7%  WBD=  2.7%  CHTR=  2.7%  util=49.641604  Δ=-0.076896
+  DIS+5%  META= 19.0%  GOOGL=  9.4%  GOOG=  6.6%  LYV=  3.3%  NFLX=  3.3%  DIS=  8.6%  TTWO=  2.8%  SATS= 41.7%  WBD=  2.7%  CHTR=  2.7%  util=48.231195  Δ=-1.487305
+  TTWO+5%  META= 19.0%  GOOGL=  9.4%  GOOG=  6.6%  LYV=  3.3%  NFLX=  3.3%  DIS=  3.0%  TTWO=  8.4%  SATS= 41.7%  WBD=  2.7%  CHTR=  2.7%  util=50.384233  Δ=+0.665733
+  SATS+5%  META= 19.0%  GOOGL=  9.4%  GOOG=  6.6%  LYV=  3.3%  NFLX=  3.3%  DIS=  3.0%  TTWO=  2.8%  SATS= 47.2%  WBD=  2.7%  CHTR=  2.7%  util=53.450124  Δ=+3.731624
+  WBD+5%  META= 19.0%  GOOGL=  9.4%  GOOG=  6.6%  LYV=  3.3%  NFLX=  3.3%  DIS=  3.0%  TTWO=  2.8%  SATS= 41.7%  WBD=  8.3%  CHTR=  2.7%  util=49.058915  Δ=-0.659585
+  CHTR+5%  META= 19.0%  GOOGL=  9.4%  GOOG=  6.6%  LYV=  3.3%  NFLX=  3.3%  DIS=  3.0%  TTWO=  2.8%  SATS= 41.7%  WBD=  2.7%  CHTR=  8.2%  util=49.393213  Δ=-0.325287
+  ★ WINNER: Epoch 9  improvement=+3.731624
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=53.450124  feasible=10  step=0.0500  streak=10  T=0.0299]
+  META+5%  META= 24.0%  GOOGL=  8.8%  GOOG=  6.0%  LYV=  2.8%  NFLX=  2.8%  DIS=  2.5%  TTWO=  2.2%  SATS= 46.7%  WBD=  2.2%  CHTR=  2.1%  util=51.812901  Δ=-1.637223
+  GOOGL+5%  META= 18.4%  GOOGL= 14.4%  GOOG=  6.0%  LYV=  2.8%  NFLX=  2.8%  DIS=  2.5%  TTWO=  2.2%  SATS= 46.7%  WBD=  2.2%  CHTR=  2.1%  util=52.359653  Δ=-1.090471
+  GOOG+5%  META= 18.4%  GOOGL=  8.8%  GOOG= 11.6%  LYV=  2.8%  NFLX=  2.8%  DIS=  2.5%  TTWO=  2.2%  SATS= 46.7%  WBD=  2.2%  CHTR=  2.1%  util=52.391786  Δ=-1.058338
+  LYV+5%  META= 18.4%  GOOGL=  8.8%  GOOG=  6.0%  LYV=  8.3%  NFLX=  2.8%  DIS=  2.5%  TTWO=  2.2%  SATS= 46.7%  WBD=  2.2%  CHTR=  2.1%  util=52.840793  Δ=-0.609332
+  NFLX+5%  META= 18.4%  GOOGL=  8.8%  GOOG=  6.0%  LYV=  2.8%  NFLX=  8.3%  DIS=  2.5%  TTWO=  2.2%  SATS= 46.7%  WBD=  2.2%  CHTR=  2.1%  util=53.607773  Δ=+0.157649
+  DIS+5%  META= 18.4%  GOOGL=  8.8%  GOOG=  6.0%  LYV=  2.8%  NFLX=  2.8%  DIS=  8.0%  TTWO=  2.2%  SATS= 46.7%  WBD=  2.2%  CHTR=  2.1%  util=51.936736  Δ=-1.513388
+  TTWO+5%  META= 18.4%  GOOGL=  8.8%  GOOG=  6.0%  LYV=  2.8%  NFLX=  2.8%  DIS=  2.5%  TTWO=  7.8%  SATS= 46.7%  WBD=  2.2%  CHTR=  2.1%  util=54.198488  Δ=+0.748364
+  SATS+5%  META= 18.4%  GOOGL=  8.8%  GOOG=  6.0%  LYV=  2.8%  NFLX=  2.8%  DIS=  2.5%  TTWO=  2.2%  SATS= 52.2%  WBD=  2.2%  CHTR=  2.1%  util=56.632662  Δ=+3.182538
+  WBD+5%  META= 18.4%  GOOGL=  8.8%  GOOG=  6.0%  LYV=  2.8%  NFLX=  2.8%  DIS=  2.5%  TTWO=  2.2%  SATS= 46.7%  WBD=  7.7%  CHTR=  2.1%  util=52.708138  Δ=-0.741987
+  CHTR+5%  META= 18.4%  GOOGL=  8.8%  GOOG=  6.0%  LYV=  2.8%  NFLX=  2.8%  DIS=  2.5%  TTWO=  2.2%  SATS= 46.7%  WBD=  2.2%  CHTR=  7.7%  util=53.103543  Δ=-0.346581
+  ★ WINNER: Epoch 10  improvement=+3.182538
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=56.632662  feasible=10  step=0.0500  streak=11  T=0.0284]
+  META+5%  META= 23.4%  GOOGL=  8.3%  GOOG=  5.5%  LYV=  2.2%  NFLX=  2.2%  DIS=  1.9%  TTWO=  1.7%  SATS= 51.7%  WBD=  1.6%  CHTR=  1.6%  util=54.950115  Δ=-1.682547
+  GOOGL+5%  META= 17.9%  GOOGL= 13.8%  GOOG=  5.5%  LYV=  2.2%  NFLX=  2.2%  DIS=  1.9%  TTWO=  1.7%  SATS= 51.7%  WBD=  1.6%  CHTR=  1.6%  util=55.524141  Δ=-1.108522
+  GOOG+5%  META= 17.9%  GOOGL=  8.3%  GOOG= 11.0%  LYV=  2.2%  NFLX=  2.2%  DIS=  1.9%  TTWO=  1.7%  SATS= 51.7%  WBD=  1.6%  CHTR=  1.6%  util=55.557338  Δ=-1.075324
+  LYV+5%  META= 17.9%  GOOGL=  8.3%  GOOG=  5.5%  LYV=  7.8%  NFLX=  2.2%  DIS=  1.9%  TTWO=  1.7%  SATS= 51.7%  WBD=  1.6%  CHTR=  1.6%  util=56.014019  Δ=-0.618643
+  NFLX+5%  META= 17.9%  GOOGL=  8.3%  GOOG=  5.5%  LYV=  2.2%  NFLX=  7.8%  DIS=  1.9%  TTWO=  1.7%  SATS= 51.7%  WBD=  1.6%  CHTR=  1.6%  util=57.132957  Δ=+0.500295
+  DIS+5%  META= 17.9%  GOOGL=  8.3%  GOOG=  5.5%  LYV=  2.2%  NFLX=  2.2%  DIS=  7.5%  TTWO=  1.7%  SATS= 51.7%  WBD=  1.6%  CHTR=  1.6%  util=55.132998  Δ=-1.499664
+  TTWO+5%  META= 17.9%  GOOGL=  8.3%  GOOG=  5.5%  LYV=  2.2%  NFLX=  2.2%  DIS=  1.9%  TTWO=  7.2%  SATS= 51.7%  WBD=  1.6%  CHTR=  1.6%  util=57.422203  Δ=+0.789541
+  SATS+5%  META= 17.9%  GOOGL=  8.3%  GOOG=  5.5%  LYV=  2.2%  NFLX=  2.2%  DIS=  1.9%  TTWO=  1.7%  SATS= 57.2%  WBD=  1.6%  CHTR=  1.6%  util=59.246736  Δ=+2.614074
+  WBD+5%  META= 17.9%  GOOGL=  8.3%  GOOG=  5.5%  LYV=  2.2%  NFLX=  2.2%  DIS=  1.9%  TTWO=  1.7%  SATS= 51.7%  WBD=  7.2%  CHTR=  1.6%  util=55.815168  Δ=-0.817494
+  CHTR+5%  META= 17.9%  GOOGL=  8.3%  GOOG=  5.5%  LYV=  2.2%  NFLX=  2.2%  DIS=  1.9%  TTWO=  1.7%  SATS= 51.7%  WBD=  1.6%  CHTR=  7.1%  util=56.235445  Δ=-0.397218
+  ★ WINNER: Epoch 11  improvement=+2.614074
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=59.246736  feasible=10  step=0.0500  streak=12  T=0.0270]
+  META+5%  META= 22.9%  GOOGL=  7.7%  GOOG=  4.9%  LYV=  1.7%  NFLX=  1.6%  DIS=  1.4%  TTWO=  1.1%  SATS= 56.7%  WBD=  1.1%  CHTR=  1.0%  util=57.524971  Δ=-1.721765
+  GOOGL+5%  META= 17.3%  GOOGL= 13.3%  GOOG=  4.9%  LYV=  1.7%  NFLX=  1.6%  DIS=  1.4%  TTWO=  1.1%  SATS= 56.7%  WBD=  1.1%  CHTR=  1.0%  util=58.127368  Δ=-1.119368
+  GOOG+5%  META= 17.3%  GOOGL=  7.7%  GOOG= 10.5%  LYV=  1.7%  NFLX=  1.6%  DIS=  1.4%  TTWO=  1.1%  SATS= 56.7%  WBD=  1.1%  CHTR=  1.0%  util=58.158266  Δ=-1.088470
+  LYV+5%  META= 17.3%  GOOGL=  7.7%  GOOG=  4.9%  LYV=  7.2%  NFLX=  1.6%  DIS=  1.4%  TTWO=  1.1%  SATS= 56.7%  WBD=  1.1%  CHTR=  1.0%  util=58.609626  Δ=-0.637111
+  NFLX+5%  META= 17.3%  GOOGL=  7.7%  GOOG=  4.9%  LYV=  1.7%  NFLX=  7.2%  DIS=  1.4%  TTWO=  1.1%  SATS= 56.7%  WBD=  1.1%  CHTR=  1.0%  util=60.184442  Δ=+0.937706
+  DIS+5%  META= 17.3%  GOOGL=  7.7%  GOOG=  4.9%  LYV=  1.7%  NFLX=  1.6%  DIS=  6.9%  TTWO=  1.1%  SATS= 56.7%  WBD=  1.1%  CHTR=  1.0%  util=57.785551  Δ=-1.461185
+  TTWO+5%  META= 17.3%  GOOGL=  7.7%  GOOG=  4.9%  LYV=  1.7%  NFLX=  1.6%  DIS=  1.4%  TTWO=  6.7%  SATS= 56.7%  WBD=  1.1%  CHTR=  1.0%  util=60.038243  Δ=+0.791506
+  SATS+5%  META= 17.3%  GOOGL=  7.7%  GOOG=  4.9%  LYV=  1.7%  NFLX=  1.6%  DIS=  1.4%  TTWO=  1.1%  SATS= 62.2%  WBD=  1.1%  CHTR=  1.0%  util=61.271730  Δ=+2.024994
+  WBD+5%  META= 17.3%  GOOGL=  7.7%  GOOG=  4.9%  LYV=  1.7%  NFLX=  1.6%  DIS=  1.4%  TTWO=  1.1%  SATS= 56.7%  WBD=  6.6%  CHTR=  1.0%  util=58.350683  Δ=-0.896053
+  CHTR+5%  META= 17.3%  GOOGL=  7.7%  GOOG=  4.9%  LYV=  1.7%  NFLX=  1.6%  DIS=  1.4%  TTWO=  1.1%  SATS= 56.7%  WBD=  1.1%  CHTR=  6.6%  util=58.783260  Δ=-0.463476
+  ★ WINNER: Epoch 12  improvement=+2.024994
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=61.271730  feasible=10  step=0.0500  streak=13  T=0.0257]
+  META+5%  META= 22.3%  GOOGL=  7.2%  GOOG=  4.4%  LYV=  1.1%  NFLX=  1.1%  DIS=  0.8%  TTWO=  0.6%  SATS= 61.7%  WBD=  0.5%  CHTR=  0.5%  util=59.476364  Δ=-1.795366
+  GOOGL+5%  META= 16.7%  GOOGL= 12.7%  GOOG=  4.4%  LYV=  1.1%  NFLX=  1.1%  DIS=  0.8%  TTWO=  0.6%  SATS= 61.7%  WBD=  0.5%  CHTR=  0.5%  util=60.103339  Δ=-1.168391
+  GOOG+5%  META= 16.7%  GOOGL=  7.2%  GOOG=  9.9%  LYV=  1.1%  NFLX=  1.1%  DIS=  0.8%  TTWO=  0.6%  SATS= 61.7%  WBD=  0.5%  CHTR=  0.5%  util=60.131017  Δ=-1.140713
+  LYV+5%  META= 16.7%  GOOGL=  7.2%  GOOG=  4.4%  LYV=  6.7%  NFLX=  1.1%  DIS=  0.8%  TTWO=  0.6%  SATS= 61.7%  WBD=  0.5%  CHTR=  0.5%  util=60.632078  Δ=-0.639652
+  NFLX+5%  META= 16.7%  GOOGL=  7.2%  GOOG=  4.4%  LYV=  1.1%  NFLX=  6.6%  DIS=  0.8%  TTWO=  0.6%  SATS= 61.7%  WBD=  0.5%  CHTR=  0.5%  util=62.719804  Δ=+1.448074
+  DIS+5%  META= 16.7%  GOOGL=  7.2%  GOOG=  4.4%  LYV=  1.1%  NFLX=  1.1%  DIS=  6.4%  TTWO=  0.6%  SATS= 61.7%  WBD=  0.5%  CHTR=  0.5%  util=59.868692  Δ=-1.403038
+  TTWO+5%  META= 16.7%  GOOGL=  7.2%  GOOG=  4.4%  LYV=  1.1%  NFLX=  1.1%  DIS=  0.8%  TTWO=  6.1%  SATS= 61.7%  WBD=  0.5%  CHTR=  0.5%  util=62.043648  Δ=+0.771918
+  SATS+5%  META= 16.7%  GOOGL=  7.2%  GOOG=  4.4%  LYV=  1.1%  NFLX=  1.1%  DIS=  0.8%  TTWO=  0.6%  SATS= 67.2%  WBD=  0.5%  CHTR=  0.5%  util=62.684143  Δ=+1.412413
+  WBD+5%  META= 16.7%  GOOGL=  7.2%  GOOG=  4.4%  LYV=  1.1%  NFLX=  1.1%  DIS=  0.8%  TTWO=  0.6%  SATS= 61.7%  WBD=  6.1%  CHTR=  0.5%  util=60.328485  Δ=-0.943245
+  CHTR+5%  META= 16.7%  GOOGL=  7.2%  GOOG=  4.4%  LYV=  1.1%  NFLX=  1.1%  DIS=  0.8%  TTWO=  0.6%  SATS= 61.7%  WBD=  0.5%  CHTR=  6.0%  util=60.755287  Δ=-0.516443
+  ★ WINNER: Epoch 13  improvement=+1.448074
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=62.719804  feasible=0  step=0.0500  streak=14  T=0.0244]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=62.719804  (gain=+49.688872  epochs=15)

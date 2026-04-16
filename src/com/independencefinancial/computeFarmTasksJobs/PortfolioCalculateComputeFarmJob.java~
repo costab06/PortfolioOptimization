@@ -1,0 +1,79 @@
+package com.bcfinancial.computeFarm;
+
+import java.util.*;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import org.tiling.computefarm.CancelledException;
+import org.tiling.computefarm.CannotTakeResultException;
+import org.tiling.computefarm.CannotWriteTaskException;
+import org.tiling.computefarm.ComputeSpace;
+import org.tiling.computefarm.Job;
+
+import com.bcfinancial.utility.*;
+import com.bcfinancial.portfolio.*;
+
+
+
+public class PortfolioCalculateComputeFarmJob implements Job {
+    
+    private static final Logger logger =
+        Logger.getLogger(PortfolioCalculateComputeFarmJob.class.getName());
+    
+    private String portfolioName;
+    private Portfolio portfolio;
+    private Date startDate;
+    private Date endDate;
+    private int timePeriodDays;
+    private UtilityFunction utilityFunction;
+    
+    public PortfolioCalculateComputeFarmJob(String portfolioName, Portfolio portfolio, Date startDate, Date endDate, int timePeriodDays, UtilityFunction utilityFunction) {
+	this.portfolioName = portfolioName;
+	this.portfolio = portfolio;
+	this.startDate = startDate;
+	this.endDate = endDate;
+	this.timePeriodDays = timePeriodDays;
+	this.utilityFunction = utilityFunction;
+	
+    }
+    
+    public void generateTasks(ComputeSpace space) {
+	PortfolioCalculationRequest pcr = new PortfolioCalculationRequest(portfolioName,portfolio,startDate,endDate,timePeriodDays,utilityFunction);
+	
+	
+	// get the weightedUtility for the portfolio
+	try {
+	    logger.log(Level.INFO, "Writing task for portfolio "+portfolioName);
+	    space.write(new PortfolioComputeFarmTask(pcr));
+	} catch (CannotWriteTaskException e) {
+	    logger.log(Level.INFO, "Problem writing task for "+portfolioName+" portfolio"
+		       + " to space.", e);
+	} catch (CancelledException e) {
+	    logger
+		.info("Cancelled after writing  task for "+portfolioName+" portfolio"
+		      + " to space.");
+	}
+    }
+	
+	
+    
+    
+    PortfolioCalculatedData portfolioCalculatedData;
+    public void collectResults(ComputeSpace space) {
+	
+	try {
+	    portfolioCalculatedData = (PortfolioCalculatedData) space.take();
+	    
+	} catch (CannotTakeResultException e) {
+	    logger.log(Level.INFO, "Problem taking result from space for "+portfolioName+" portfolio.", e);
+	} catch (CancelledException e) {
+	    logger.info("Cancelled after retrieving results from space for "+portfolioName+" portfolio.");
+	}
+    }
+    
+    
+    public PortfolioCalculatedData getPortfolioCalculatedData() {
+	return portfolioCalculatedData;
+    }
+}

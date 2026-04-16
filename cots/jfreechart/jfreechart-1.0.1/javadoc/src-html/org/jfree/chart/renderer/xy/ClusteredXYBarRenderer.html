@@ -1,0 +1,373 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    /* ===========================================================<a name="line.1"></a>
+<FONT color="green">002</FONT>     * JFreeChart : a free chart library for the Java(tm) platform<a name="line.2"></a>
+<FONT color="green">003</FONT>     * ===========================================================<a name="line.3"></a>
+<FONT color="green">004</FONT>     *<a name="line.4"></a>
+<FONT color="green">005</FONT>     * (C) Copyright 2000-2005, by Object Refinery Limited and Contributors.<a name="line.5"></a>
+<FONT color="green">006</FONT>     *<a name="line.6"></a>
+<FONT color="green">007</FONT>     * Project Info:  http://www.jfree.org/jfreechart/index.html<a name="line.7"></a>
+<FONT color="green">008</FONT>     *<a name="line.8"></a>
+<FONT color="green">009</FONT>     * This library is free software; you can redistribute it and/or modify it <a name="line.9"></a>
+<FONT color="green">010</FONT>     * under the terms of the GNU Lesser General Public License as published by <a name="line.10"></a>
+<FONT color="green">011</FONT>     * the Free Software Foundation; either version 2.1 of the License, or <a name="line.11"></a>
+<FONT color="green">012</FONT>     * (at your option) any later version.<a name="line.12"></a>
+<FONT color="green">013</FONT>     *<a name="line.13"></a>
+<FONT color="green">014</FONT>     * This library is distributed in the hope that it will be useful, but <a name="line.14"></a>
+<FONT color="green">015</FONT>     * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY <a name="line.15"></a>
+<FONT color="green">016</FONT>     * or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public <a name="line.16"></a>
+<FONT color="green">017</FONT>     * License for more details.<a name="line.17"></a>
+<FONT color="green">018</FONT>     *<a name="line.18"></a>
+<FONT color="green">019</FONT>     * You should have received a copy of the GNU Lesser General Public<a name="line.19"></a>
+<FONT color="green">020</FONT>     * License along with this library; if not, write to the Free Software<a name="line.20"></a>
+<FONT color="green">021</FONT>     * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, <a name="line.21"></a>
+<FONT color="green">022</FONT>     * USA.  <a name="line.22"></a>
+<FONT color="green">023</FONT>     *<a name="line.23"></a>
+<FONT color="green">024</FONT>     * [Java is a trademark or registered trademark of Sun Microsystems, Inc. <a name="line.24"></a>
+<FONT color="green">025</FONT>     * in the United States and other countries.]<a name="line.25"></a>
+<FONT color="green">026</FONT>     *<a name="line.26"></a>
+<FONT color="green">027</FONT>     * ---------------------------<a name="line.27"></a>
+<FONT color="green">028</FONT>     * ClusteredXYBarRenderer.java<a name="line.28"></a>
+<FONT color="green">029</FONT>     * ---------------------------<a name="line.29"></a>
+<FONT color="green">030</FONT>     * (C) Copyright 2003-2005, by Paolo Cova and Contributors.<a name="line.30"></a>
+<FONT color="green">031</FONT>     *<a name="line.31"></a>
+<FONT color="green">032</FONT>     * Original Author:  Paolo Cova;<a name="line.32"></a>
+<FONT color="green">033</FONT>     * Contributor(s):   David Gilbert (for Object Refinery Limited);<a name="line.33"></a>
+<FONT color="green">034</FONT>     *                   Christian W. Zuckschwerdt;<a name="line.34"></a>
+<FONT color="green">035</FONT>     *                   Matthias Rose;<a name="line.35"></a>
+<FONT color="green">036</FONT>     *<a name="line.36"></a>
+<FONT color="green">037</FONT>     * $Id: ClusteredXYBarRenderer.java,v 1.8.2.1 2005/10/25 20:56:21 mungady Exp $<a name="line.37"></a>
+<FONT color="green">038</FONT>     *<a name="line.38"></a>
+<FONT color="green">039</FONT>     * Changes<a name="line.39"></a>
+<FONT color="green">040</FONT>     * -------<a name="line.40"></a>
+<FONT color="green">041</FONT>     * 24-Jan-2003 : Version 1, contributed by Paolo Cova (DG);<a name="line.41"></a>
+<FONT color="green">042</FONT>     * 25-Mar-2003 : Implemented Serializable (DG);<a name="line.42"></a>
+<FONT color="green">043</FONT>     * 01-May-2003 : Modified drawItem() method signature (DG);<a name="line.43"></a>
+<FONT color="green">044</FONT>     * 30-Jul-2003 : Modified entity constructor (CZ);<a name="line.44"></a>
+<FONT color="green">045</FONT>     * 20-Aug-2003 : Implemented Cloneable and PublicCloneable (DG);<a name="line.45"></a>
+<FONT color="green">046</FONT>     * 16-Sep-2003 : Changed ChartRenderingInfo --> PlotRenderingInfo (DG);<a name="line.46"></a>
+<FONT color="green">047</FONT>     * 07-Oct-2003 : Added renderer state (DG);<a name="line.47"></a>
+<FONT color="green">048</FONT>     * 03-Nov-2003 : In draw method added state parameter and y==null value <a name="line.48"></a>
+<FONT color="green">049</FONT>     *               handling (MR);<a name="line.49"></a>
+<FONT color="green">050</FONT>     * 25-Feb-2004 : Replaced CrosshairInfo with CrosshairState (DG);<a name="line.50"></a>
+<FONT color="green">051</FONT>     * 15-Jul-2004 : Switched getX() with getXValue() and getY() with <a name="line.51"></a>
+<FONT color="green">052</FONT>     *               getYValue() (DG);<a name="line.52"></a>
+<FONT color="green">053</FONT>     * 01-Oct-2004 : Fixed bug where 'drawBarOutline' flag is ignored (DG);<a name="line.53"></a>
+<FONT color="green">054</FONT>     * 16-May-2005 : Fixed to used outline stroke for bar outlines.  Removed some <a name="line.54"></a>
+<FONT color="green">055</FONT>     *               redundant code with the result that the renderer now respects <a name="line.55"></a>
+<FONT color="green">056</FONT>     *               the 'base' setting from the super-class. Added an equals() <a name="line.56"></a>
+<FONT color="green">057</FONT>     *               method (DG);<a name="line.57"></a>
+<FONT color="green">058</FONT>     * 19-May-2005 : Added minimal item label implementation - needs improving (DG);<a name="line.58"></a>
+<FONT color="green">059</FONT>     * <a name="line.59"></a>
+<FONT color="green">060</FONT>     */<a name="line.60"></a>
+<FONT color="green">061</FONT>    <a name="line.61"></a>
+<FONT color="green">062</FONT>    package org.jfree.chart.renderer.xy;<a name="line.62"></a>
+<FONT color="green">063</FONT>    <a name="line.63"></a>
+<FONT color="green">064</FONT>    import java.awt.Graphics2D;<a name="line.64"></a>
+<FONT color="green">065</FONT>    import java.awt.Paint;<a name="line.65"></a>
+<FONT color="green">066</FONT>    import java.awt.geom.Rectangle2D;<a name="line.66"></a>
+<FONT color="green">067</FONT>    import java.io.Serializable;<a name="line.67"></a>
+<FONT color="green">068</FONT>    <a name="line.68"></a>
+<FONT color="green">069</FONT>    import org.jfree.chart.axis.ValueAxis;<a name="line.69"></a>
+<FONT color="green">070</FONT>    import org.jfree.chart.entity.EntityCollection;<a name="line.70"></a>
+<FONT color="green">071</FONT>    import org.jfree.chart.entity.XYItemEntity;<a name="line.71"></a>
+<FONT color="green">072</FONT>    import org.jfree.chart.labels.XYToolTipGenerator;<a name="line.72"></a>
+<FONT color="green">073</FONT>    import org.jfree.chart.plot.CrosshairState;<a name="line.73"></a>
+<FONT color="green">074</FONT>    import org.jfree.chart.plot.PlotOrientation;<a name="line.74"></a>
+<FONT color="green">075</FONT>    import org.jfree.chart.plot.PlotRenderingInfo;<a name="line.75"></a>
+<FONT color="green">076</FONT>    import org.jfree.chart.plot.XYPlot;<a name="line.76"></a>
+<FONT color="green">077</FONT>    import org.jfree.data.xy.IntervalXYDataset;<a name="line.77"></a>
+<FONT color="green">078</FONT>    import org.jfree.data.xy.XYDataset;<a name="line.78"></a>
+<FONT color="green">079</FONT>    import org.jfree.ui.RectangleEdge;<a name="line.79"></a>
+<FONT color="green">080</FONT>    import org.jfree.util.PublicCloneable;<a name="line.80"></a>
+<FONT color="green">081</FONT>    <a name="line.81"></a>
+<FONT color="green">082</FONT>    /**<a name="line.82"></a>
+<FONT color="green">083</FONT>     * An extension of {@link XYBarRenderer} that displays bars for different<a name="line.83"></a>
+<FONT color="green">084</FONT>     * series values at the same x next to each other. The assumption here is<a name="line.84"></a>
+<FONT color="green">085</FONT>     * that for each x (time or else) there is a y value for each series. If<a name="line.85"></a>
+<FONT color="green">086</FONT>     * this is not the case, there will be spaces between bars for a given x.<a name="line.86"></a>
+<FONT color="green">087</FONT>     * &lt;P><a name="line.87"></a>
+<FONT color="green">088</FONT>     * This renderer does not include code to calculate the crosshair point for the<a name="line.88"></a>
+<FONT color="green">089</FONT>     * plot.<a name="line.89"></a>
+<FONT color="green">090</FONT>     *<a name="line.90"></a>
+<FONT color="green">091</FONT>     * @author Paolo Cova<a name="line.91"></a>
+<FONT color="green">092</FONT>     */<a name="line.92"></a>
+<FONT color="green">093</FONT>    public class ClusteredXYBarRenderer extends XYBarRenderer <a name="line.93"></a>
+<FONT color="green">094</FONT>                                        implements Cloneable, PublicCloneable,<a name="line.94"></a>
+<FONT color="green">095</FONT>                                                   Serializable {<a name="line.95"></a>
+<FONT color="green">096</FONT>    <a name="line.96"></a>
+<FONT color="green">097</FONT>        /** For serialization. */<a name="line.97"></a>
+<FONT color="green">098</FONT>        private static final long serialVersionUID = 5864462149177133147L;<a name="line.98"></a>
+<FONT color="green">099</FONT>        <a name="line.99"></a>
+<FONT color="green">100</FONT>        /** Determines whether bar center should be interval start. */<a name="line.100"></a>
+<FONT color="green">101</FONT>        private boolean centerBarAtStartValue;<a name="line.101"></a>
+<FONT color="green">102</FONT>    <a name="line.102"></a>
+<FONT color="green">103</FONT>        /**<a name="line.103"></a>
+<FONT color="green">104</FONT>         * Default constructor. Bar margin is set to 0.0.<a name="line.104"></a>
+<FONT color="green">105</FONT>        */<a name="line.105"></a>
+<FONT color="green">106</FONT>        public ClusteredXYBarRenderer() {<a name="line.106"></a>
+<FONT color="green">107</FONT>            this(0.0, false);<a name="line.107"></a>
+<FONT color="green">108</FONT>        }<a name="line.108"></a>
+<FONT color="green">109</FONT>    <a name="line.109"></a>
+<FONT color="green">110</FONT>        /**<a name="line.110"></a>
+<FONT color="green">111</FONT>        * Constructs a new XY clustered bar renderer.<a name="line.111"></a>
+<FONT color="green">112</FONT>        *<a name="line.112"></a>
+<FONT color="green">113</FONT>        * @param margin  the percentage amount to trim from the width of each bar.<a name="line.113"></a>
+<FONT color="green">114</FONT>        * @param centerBarAtStartValue  if true, bars will be centered on the start <a name="line.114"></a>
+<FONT color="green">115</FONT>        *                               of the time period.<a name="line.115"></a>
+<FONT color="green">116</FONT>        */<a name="line.116"></a>
+<FONT color="green">117</FONT>        public ClusteredXYBarRenderer(double margin, <a name="line.117"></a>
+<FONT color="green">118</FONT>                                      boolean centerBarAtStartValue) {<a name="line.118"></a>
+<FONT color="green">119</FONT>            super(margin);<a name="line.119"></a>
+<FONT color="green">120</FONT>            this.centerBarAtStartValue = centerBarAtStartValue;<a name="line.120"></a>
+<FONT color="green">121</FONT>        }<a name="line.121"></a>
+<FONT color="green">122</FONT>    <a name="line.122"></a>
+<FONT color="green">123</FONT>        /**<a name="line.123"></a>
+<FONT color="green">124</FONT>         * Draws the visual representation of a single data item. This method<a name="line.124"></a>
+<FONT color="green">125</FONT>         * is mostly copied from the superclass, the change is that in the<a name="line.125"></a>
+<FONT color="green">126</FONT>         * calculated space for a singe bar we draw bars for each series next to<a name="line.126"></a>
+<FONT color="green">127</FONT>         * each other. The width of each bar is the available width divided by<a name="line.127"></a>
+<FONT color="green">128</FONT>         * the number of series. Bars for each series are drawn in order left to<a name="line.128"></a>
+<FONT color="green">129</FONT>         * right.<a name="line.129"></a>
+<FONT color="green">130</FONT>         *<a name="line.130"></a>
+<FONT color="green">131</FONT>         * @param g2  the graphics device.<a name="line.131"></a>
+<FONT color="green">132</FONT>         * @param state  the renderer state.<a name="line.132"></a>
+<FONT color="green">133</FONT>         * @param dataArea  the area within which the plot is being drawn.<a name="line.133"></a>
+<FONT color="green">134</FONT>         * @param info  collects information about the drawing.<a name="line.134"></a>
+<FONT color="green">135</FONT>         * @param plot  the plot (can be used to obtain standard color <a name="line.135"></a>
+<FONT color="green">136</FONT>         *              information etc).<a name="line.136"></a>
+<FONT color="green">137</FONT>         * @param domainAxis  the domain axis.<a name="line.137"></a>
+<FONT color="green">138</FONT>         * @param rangeAxis  the range axis.<a name="line.138"></a>
+<FONT color="green">139</FONT>         * @param dataset  the dataset.<a name="line.139"></a>
+<FONT color="green">140</FONT>         * @param series  the series index.<a name="line.140"></a>
+<FONT color="green">141</FONT>         * @param item  the item index.<a name="line.141"></a>
+<FONT color="green">142</FONT>         * @param crosshairState  crosshair information for the plot <a name="line.142"></a>
+<FONT color="green">143</FONT>         *                        (&lt;code>null&lt;/code> permitted).<a name="line.143"></a>
+<FONT color="green">144</FONT>         * @param pass  the pass index.<a name="line.144"></a>
+<FONT color="green">145</FONT>         */<a name="line.145"></a>
+<FONT color="green">146</FONT>        public void drawItem(Graphics2D g2,<a name="line.146"></a>
+<FONT color="green">147</FONT>                             XYItemRendererState state,<a name="line.147"></a>
+<FONT color="green">148</FONT>                             Rectangle2D dataArea,<a name="line.148"></a>
+<FONT color="green">149</FONT>                             PlotRenderingInfo info,<a name="line.149"></a>
+<FONT color="green">150</FONT>                             XYPlot plot, <a name="line.150"></a>
+<FONT color="green">151</FONT>                             ValueAxis domainAxis, <a name="line.151"></a>
+<FONT color="green">152</FONT>                             ValueAxis rangeAxis,<a name="line.152"></a>
+<FONT color="green">153</FONT>                             XYDataset dataset, int series, int item,<a name="line.153"></a>
+<FONT color="green">154</FONT>                             CrosshairState crosshairState,<a name="line.154"></a>
+<FONT color="green">155</FONT>                             int pass) {<a name="line.155"></a>
+<FONT color="green">156</FONT>    <a name="line.156"></a>
+<FONT color="green">157</FONT>            IntervalXYDataset intervalDataset = (IntervalXYDataset) dataset;<a name="line.157"></a>
+<FONT color="green">158</FONT>    <a name="line.158"></a>
+<FONT color="green">159</FONT>            Paint seriesPaint = getItemPaint(series, item);<a name="line.159"></a>
+<FONT color="green">160</FONT>    <a name="line.160"></a>
+<FONT color="green">161</FONT>            double value0;<a name="line.161"></a>
+<FONT color="green">162</FONT>            double value1;<a name="line.162"></a>
+<FONT color="green">163</FONT>            if (getUseYInterval()) {<a name="line.163"></a>
+<FONT color="green">164</FONT>                value0 = intervalDataset.getStartYValue(series, item);<a name="line.164"></a>
+<FONT color="green">165</FONT>                value1 = intervalDataset.getEndYValue(series, item);<a name="line.165"></a>
+<FONT color="green">166</FONT>            }<a name="line.166"></a>
+<FONT color="green">167</FONT>            else {<a name="line.167"></a>
+<FONT color="green">168</FONT>                value0 = getBase();<a name="line.168"></a>
+<FONT color="green">169</FONT>                value1 = intervalDataset.getYValue(series, item);<a name="line.169"></a>
+<FONT color="green">170</FONT>            }<a name="line.170"></a>
+<FONT color="green">171</FONT>            if (Double.isNaN(value0) || Double.isNaN(value1)) {<a name="line.171"></a>
+<FONT color="green">172</FONT>                return;<a name="line.172"></a>
+<FONT color="green">173</FONT>            }<a name="line.173"></a>
+<FONT color="green">174</FONT>    <a name="line.174"></a>
+<FONT color="green">175</FONT>            double translatedValue0 = rangeAxis.valueToJava2D(<a name="line.175"></a>
+<FONT color="green">176</FONT>                value0, dataArea, plot.getRangeAxisEdge()<a name="line.176"></a>
+<FONT color="green">177</FONT>            );<a name="line.177"></a>
+<FONT color="green">178</FONT>            double translatedValue1 = rangeAxis.valueToJava2D(<a name="line.178"></a>
+<FONT color="green">179</FONT>                value1, dataArea, plot.getRangeAxisEdge()<a name="line.179"></a>
+<FONT color="green">180</FONT>            );<a name="line.180"></a>
+<FONT color="green">181</FONT>    <a name="line.181"></a>
+<FONT color="green">182</FONT>            RectangleEdge xAxisLocation = plot.getDomainAxisEdge();<a name="line.182"></a>
+<FONT color="green">183</FONT>            double x1 = intervalDataset.getStartXValue(series, item);<a name="line.183"></a>
+<FONT color="green">184</FONT>            double translatedX1 = domainAxis.valueToJava2D(<a name="line.184"></a>
+<FONT color="green">185</FONT>                x1, dataArea, xAxisLocation<a name="line.185"></a>
+<FONT color="green">186</FONT>            );<a name="line.186"></a>
+<FONT color="green">187</FONT>    <a name="line.187"></a>
+<FONT color="green">188</FONT>            double x2 = intervalDataset.getEndXValue(series, item);<a name="line.188"></a>
+<FONT color="green">189</FONT>            double translatedX2 = domainAxis.valueToJava2D(<a name="line.189"></a>
+<FONT color="green">190</FONT>                x2, dataArea, xAxisLocation<a name="line.190"></a>
+<FONT color="green">191</FONT>            );<a name="line.191"></a>
+<FONT color="green">192</FONT>    <a name="line.192"></a>
+<FONT color="green">193</FONT>            double translatedWidth = Math.max(<a name="line.193"></a>
+<FONT color="green">194</FONT>                1, Math.abs(translatedX2 - translatedX1)<a name="line.194"></a>
+<FONT color="green">195</FONT>            );<a name="line.195"></a>
+<FONT color="green">196</FONT>            double translatedHeight = Math.abs(translatedValue0 - translatedValue1);<a name="line.196"></a>
+<FONT color="green">197</FONT>    <a name="line.197"></a>
+<FONT color="green">198</FONT>            if (this.centerBarAtStartValue) {<a name="line.198"></a>
+<FONT color="green">199</FONT>                translatedX1 -= translatedWidth / 2;<a name="line.199"></a>
+<FONT color="green">200</FONT>            }<a name="line.200"></a>
+<FONT color="green">201</FONT>    <a name="line.201"></a>
+<FONT color="green">202</FONT>            if (getMargin() > 0.0) {<a name="line.202"></a>
+<FONT color="green">203</FONT>                double cut = translatedWidth * getMargin();<a name="line.203"></a>
+<FONT color="green">204</FONT>                translatedWidth = translatedWidth - cut;<a name="line.204"></a>
+<FONT color="green">205</FONT>                translatedX1 = translatedX1 + cut / 2;<a name="line.205"></a>
+<FONT color="green">206</FONT>            }<a name="line.206"></a>
+<FONT color="green">207</FONT>    <a name="line.207"></a>
+<FONT color="green">208</FONT>            int numSeries = dataset.getSeriesCount();<a name="line.208"></a>
+<FONT color="green">209</FONT>            double seriesBarWidth = translatedWidth / numSeries;<a name="line.209"></a>
+<FONT color="green">210</FONT>    <a name="line.210"></a>
+<FONT color="green">211</FONT>            Rectangle2D bar = null;<a name="line.211"></a>
+<FONT color="green">212</FONT>            PlotOrientation orientation = plot.getOrientation();        <a name="line.212"></a>
+<FONT color="green">213</FONT>            if (orientation == PlotOrientation.HORIZONTAL) {<a name="line.213"></a>
+<FONT color="green">214</FONT>                bar = new Rectangle2D.Double(<a name="line.214"></a>
+<FONT color="green">215</FONT>                    Math.min(translatedValue0, translatedValue1),<a name="line.215"></a>
+<FONT color="green">216</FONT>                    translatedX1 - seriesBarWidth * (numSeries - series),<a name="line.216"></a>
+<FONT color="green">217</FONT>                    translatedHeight, seriesBarWidth<a name="line.217"></a>
+<FONT color="green">218</FONT>                );<a name="line.218"></a>
+<FONT color="green">219</FONT>            }<a name="line.219"></a>
+<FONT color="green">220</FONT>            else if (orientation == PlotOrientation.VERTICAL) {<a name="line.220"></a>
+<FONT color="green">221</FONT>            <a name="line.221"></a>
+<FONT color="green">222</FONT>                bar = new Rectangle2D.Double(<a name="line.222"></a>
+<FONT color="green">223</FONT>                    translatedX1 + seriesBarWidth * series,<a name="line.223"></a>
+<FONT color="green">224</FONT>                    Math.min(translatedValue0, translatedValue1),<a name="line.224"></a>
+<FONT color="green">225</FONT>                    seriesBarWidth, translatedHeight<a name="line.225"></a>
+<FONT color="green">226</FONT>                );<a name="line.226"></a>
+<FONT color="green">227</FONT>    <a name="line.227"></a>
+<FONT color="green">228</FONT>            }<a name="line.228"></a>
+<FONT color="green">229</FONT>            g2.setPaint(seriesPaint);<a name="line.229"></a>
+<FONT color="green">230</FONT>            g2.fill(bar);<a name="line.230"></a>
+<FONT color="green">231</FONT>            if (isDrawBarOutline() && Math.abs(translatedX2 - translatedX1) > 3) {<a name="line.231"></a>
+<FONT color="green">232</FONT>                g2.setStroke(getItemOutlineStroke(series, item));<a name="line.232"></a>
+<FONT color="green">233</FONT>                g2.setPaint(getItemOutlinePaint(series, item));<a name="line.233"></a>
+<FONT color="green">234</FONT>                g2.draw(bar);<a name="line.234"></a>
+<FONT color="green">235</FONT>            }<a name="line.235"></a>
+<FONT color="green">236</FONT>    <a name="line.236"></a>
+<FONT color="green">237</FONT>            // TODO: we need something better for the item labels<a name="line.237"></a>
+<FONT color="green">238</FONT>            if (isItemLabelVisible(series, item)) {<a name="line.238"></a>
+<FONT color="green">239</FONT>                drawItemLabel(<a name="line.239"></a>
+<FONT color="green">240</FONT>                    g2, orientation, dataset, series, item, bar.getCenterX(), <a name="line.240"></a>
+<FONT color="green">241</FONT>                    bar.getY(), value1 &lt; 0.0<a name="line.241"></a>
+<FONT color="green">242</FONT>                );<a name="line.242"></a>
+<FONT color="green">243</FONT>            }<a name="line.243"></a>
+<FONT color="green">244</FONT>    <a name="line.244"></a>
+<FONT color="green">245</FONT>            // add an entity for the item...<a name="line.245"></a>
+<FONT color="green">246</FONT>            if (info != null) {<a name="line.246"></a>
+<FONT color="green">247</FONT>                EntityCollection entities = info.getOwner().getEntityCollection();<a name="line.247"></a>
+<FONT color="green">248</FONT>                if (entities != null) {<a name="line.248"></a>
+<FONT color="green">249</FONT>                    String tip = null;<a name="line.249"></a>
+<FONT color="green">250</FONT>                    XYToolTipGenerator generator <a name="line.250"></a>
+<FONT color="green">251</FONT>                        = getToolTipGenerator(series, item);<a name="line.251"></a>
+<FONT color="green">252</FONT>                    if (generator != null) {<a name="line.252"></a>
+<FONT color="green">253</FONT>                        tip = generator.generateToolTip(dataset, series, item);<a name="line.253"></a>
+<FONT color="green">254</FONT>                    }<a name="line.254"></a>
+<FONT color="green">255</FONT>                    String url = null;<a name="line.255"></a>
+<FONT color="green">256</FONT>                    if (getURLGenerator() != null) {<a name="line.256"></a>
+<FONT color="green">257</FONT>                        url = getURLGenerator().generateURL(dataset, series, item);<a name="line.257"></a>
+<FONT color="green">258</FONT>                    }<a name="line.258"></a>
+<FONT color="green">259</FONT>                    XYItemEntity entity = new XYItemEntity(<a name="line.259"></a>
+<FONT color="green">260</FONT>                        bar, dataset, series, item, tip, url<a name="line.260"></a>
+<FONT color="green">261</FONT>                    );<a name="line.261"></a>
+<FONT color="green">262</FONT>                    entities.add(entity);<a name="line.262"></a>
+<FONT color="green">263</FONT>                }<a name="line.263"></a>
+<FONT color="green">264</FONT>            }<a name="line.264"></a>
+<FONT color="green">265</FONT>    <a name="line.265"></a>
+<FONT color="green">266</FONT>        }<a name="line.266"></a>
+<FONT color="green">267</FONT>    <a name="line.267"></a>
+<FONT color="green">268</FONT>        /**<a name="line.268"></a>
+<FONT color="green">269</FONT>         * Tests this renderer for equality with an arbitrary object, returning<a name="line.269"></a>
+<FONT color="green">270</FONT>         * &lt;code>true&lt;/code> if &lt;code>obj&lt;/code> is a <a name="line.270"></a>
+<FONT color="green">271</FONT>         * &lt;code>ClusteredXYBarRenderer&lt;/code> with the same settings as this<a name="line.271"></a>
+<FONT color="green">272</FONT>         * renderer, and &lt;code>false&lt;/code> otherwise.<a name="line.272"></a>
+<FONT color="green">273</FONT>         * <a name="line.273"></a>
+<FONT color="green">274</FONT>         * @param obj  the object (&lt;code>null&lt;/code> permitted).<a name="line.274"></a>
+<FONT color="green">275</FONT>         * <a name="line.275"></a>
+<FONT color="green">276</FONT>         * @return A boolean.<a name="line.276"></a>
+<FONT color="green">277</FONT>         */<a name="line.277"></a>
+<FONT color="green">278</FONT>        public boolean equals(Object obj) {<a name="line.278"></a>
+<FONT color="green">279</FONT>            if (obj == this) {<a name="line.279"></a>
+<FONT color="green">280</FONT>                return true;<a name="line.280"></a>
+<FONT color="green">281</FONT>            }<a name="line.281"></a>
+<FONT color="green">282</FONT>            if (!(obj instanceof ClusteredXYBarRenderer)) {<a name="line.282"></a>
+<FONT color="green">283</FONT>                return false;<a name="line.283"></a>
+<FONT color="green">284</FONT>            }<a name="line.284"></a>
+<FONT color="green">285</FONT>            if (!super.equals(obj)) {<a name="line.285"></a>
+<FONT color="green">286</FONT>                return false;<a name="line.286"></a>
+<FONT color="green">287</FONT>            }<a name="line.287"></a>
+<FONT color="green">288</FONT>            ClusteredXYBarRenderer that = (ClusteredXYBarRenderer) obj;<a name="line.288"></a>
+<FONT color="green">289</FONT>            if (this.centerBarAtStartValue != that.centerBarAtStartValue) {<a name="line.289"></a>
+<FONT color="green">290</FONT>                return false;<a name="line.290"></a>
+<FONT color="green">291</FONT>            }<a name="line.291"></a>
+<FONT color="green">292</FONT>            return true;<a name="line.292"></a>
+<FONT color="green">293</FONT>        }<a name="line.293"></a>
+<FONT color="green">294</FONT>        <a name="line.294"></a>
+<FONT color="green">295</FONT>        /**<a name="line.295"></a>
+<FONT color="green">296</FONT>         * Returns a clone of the renderer.<a name="line.296"></a>
+<FONT color="green">297</FONT>         * <a name="line.297"></a>
+<FONT color="green">298</FONT>         * @return A clone.<a name="line.298"></a>
+<FONT color="green">299</FONT>         * <a name="line.299"></a>
+<FONT color="green">300</FONT>         * @throws CloneNotSupportedException  if the renderer cannot be cloned.<a name="line.300"></a>
+<FONT color="green">301</FONT>         */<a name="line.301"></a>
+<FONT color="green">302</FONT>        public Object clone() throws CloneNotSupportedException {<a name="line.302"></a>
+<FONT color="green">303</FONT>            return super.clone();<a name="line.303"></a>
+<FONT color="green">304</FONT>        }<a name="line.304"></a>
+<FONT color="green">305</FONT>        <a name="line.305"></a>
+<FONT color="green">306</FONT>    }<a name="line.306"></a>
+<FONT color="green">307</FONT>    <a name="line.307"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

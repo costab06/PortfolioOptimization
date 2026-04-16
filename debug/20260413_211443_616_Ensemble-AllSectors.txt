@@ -1,0 +1,10 @@
+=== OPTIMIZATION DEBUG: Ensemble-AllSectors ===
+Time:   Mon Apr 13 21:15:03 EDT 2026
+Start:  META=  1.6%  GOOGL=  0.9%  GOOG=  0.5%  LYV=  0.2%  NFLX=  0.7%  DIS=  0.1%  TTWO=  0.2%  SATS=  4.7%  WBD=  0.1%  CHTR=  0.1%  AMZN=  3.0%  TSLA=  3.3%  HD=  0.5%  TJX=  0.4%  MCD=  0.3%  BKNG=  0.4%  LOW=  0.2%  SBUX=  0.1%  ORLY=  0.7%  MAR=  0.1%  WMT=  2.8%  COST=  2.5%  PG=  0.5%  KO=  0.3%  PM=  1.9%  MDLZ=  0.1%  MO=  0.5%  PEP=  0.1%  CL=  0.0%  TGT=  0.4%  XOM=  2.4%  CVX=  1.6%  COP=  0.5%  SLB=  0.1%  WMB=  1.6%  EOG=  0.1%  VLO=  0.1%  MPC=  2.6%  PSX=  0.0%  KMI=  0.0%  BRK-B=  2.0%  JPM=  1.4%  V=  0.7%  MA=  0.4%  BAC=  0.3%  GS=  3.0%  WFC=  0.1%  C=  0.0%  MS=  0.0%  AXP=  1.1%  LLY=  3.9%  JNJ=  1.2%  ABBV=  0.7%  MRK=  0.5%  UNH=  0.5%  AMGN=  0.0%  TMO=  0.1%  ABT=  0.0%  GILD=  1.3%  ISRG=  1.0%  CAT=  0.9%  GE=  0.8%  RTX=  2.6%  GEV=  3.8%  BA=  0.3%  DE=  0.2%  ETN=  0.0%  HON=  0.0%  UNP=  0.0%  UBER=  0.4%  LIN=  1.5%  NEM=  3.0%  FCX=  0.4%  CRH=  1.6%  VMC=  0.3%  SHW=  0.0%  APD=  0.1%  NUE=  1.9%  CTVA=  0.2%  MLM=  0.0%  WELL=  4.9%  PLD=  0.7%  EQIX=  0.4%  AMT=  0.3%  SPG=  1.3%  DLR=  0.3%  CBRE=  1.1%  VTR=  0.0%  PSA=  0.0%  O=  0.0%  NVDA=  1.9%  AAPL=  1.6%  MSFT=  1.1%  AVGO=  0.7%  MU=  0.9%  AMD=  0.1%  CSCO=  0.1%  LRCX=  0.0%  AMAT=  0.0%  PLTR=  2.7%  NEE=  1.6%  SO=  0.7%  DUK=  0.6%  CEG=  4.7%  AEP=  0.3%  SRE=  0.2%  D=  0.1%  ETR=  0.9%  EXC=  0.0%  XEL=  0.0%
+        utility = 691.587868
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=691.587868  feasible=0  step=0.0300  streak=0  T=0.0500]
+  ✗ STOPPED: noFeasibleMove
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=691.587868  (gain=+0.000000  epochs=1)

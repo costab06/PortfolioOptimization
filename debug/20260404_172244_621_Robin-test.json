@@ -1,0 +1,926 @@
+{
+  "portfolioName" : "Robin-test",
+  "symbols" : [ "VOO", "AVUV" ],
+  "startWeights" : {
+    "VOO" : 0.5,
+    "AVUV" : 0.5
+  },
+  "optimizeBy" : "sharpe",
+  "initialUtility" : 0.5688942735543706,
+  "epochs" : [ {
+    "epoch" : 0,
+    "startWeights" : {
+      "VOO" : 0.5,
+      "AVUV" : 0.5
+    },
+    "startUtility" : 0.5688942735543706,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.51,
+        "AVUV" : 0.49
+      },
+      "utility" : 0.10694846055876575,
+      "sharpe" : 0.5727748289390162,
+      "score" : 0.5727748289390162,
+      "delta" : 0.003880555384645601
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.49,
+        "AVUV" : 0.51
+      },
+      "utility" : 0.10556808532174068,
+      "sharpe" : 0.5649668698253055,
+      "score" : 0.5649668698253055,
+      "delta" : -0.003927403729065082
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.51,
+      "AVUV" : 0.49
+    },
+    "endUtility" : 0.5727748289390162,
+    "improvement" : 0.003880555384645601
+  }, {
+    "epoch" : 1,
+    "startWeights" : {
+      "VOO" : 0.51,
+      "AVUV" : 0.49
+    },
+    "startUtility" : 0.5727748289390162,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.52,
+        "AVUV" : 0.48
+      },
+      "utility" : 0.10759952595892947,
+      "sharpe" : 0.5766075583811632,
+      "score" : 0.5766075583811632,
+      "delta" : 0.003832729442146965
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.5,
+        "AVUV" : 0.5
+      },
+      "utility" : 0.10626653985830675,
+      "sharpe" : 0.5688942735543706,
+      "score" : 0.5688942735543706,
+      "delta" : -0.003880555384645601
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.52,
+      "AVUV" : 0.48
+    },
+    "endUtility" : 0.5766075583811632,
+    "improvement" : 0.003832729442146965
+  }, {
+    "epoch" : 2,
+    "startWeights" : {
+      "VOO" : 0.52,
+      "AVUV" : 0.48
+    },
+    "startUtility" : 0.5766075583811632,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.53,
+        "AVUV" : 0.47
+      },
+      "utility" : 0.10824794797397959,
+      "sharpe" : 0.5803914937671857,
+      "score" : 0.5803914937671857,
+      "delta" : 0.003783935386022508
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.51,
+        "AVUV" : 0.49
+      },
+      "utility" : 0.10694846055876575,
+      "sharpe" : 0.5727748289390162,
+      "score" : 0.5727748289390162,
+      "delta" : -0.003832729442146965
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.53,
+      "AVUV" : 0.47
+    },
+    "endUtility" : 0.5803914937671857,
+    "improvement" : 0.003783935386022508
+  }, {
+    "epoch" : 3,
+    "startWeights" : {
+      "VOO" : 0.53,
+      "AVUV" : 0.47
+    },
+    "startUtility" : 0.5803914937671857,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.54,
+        "AVUV" : 0.46
+      },
+      "utility" : 0.10888745516456039,
+      "sharpe" : 0.5841256774588784,
+      "score" : 0.5841256774588784,
+      "delta" : 0.0037341836916927607
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.52,
+        "AVUV" : 0.48
+      },
+      "utility" : 0.10759952595892947,
+      "sharpe" : 0.5766075583811632,
+      "score" : 0.5766075583811632,
+      "delta" : -0.003783935386022508
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.54,
+      "AVUV" : 0.46
+    },
+    "endUtility" : 0.5841256774588784,
+    "improvement" : 0.0037341836916927607
+  }, {
+    "epoch" : 4,
+    "startWeights" : {
+      "VOO" : 0.54,
+      "AVUV" : 0.46
+    },
+    "startUtility" : 0.5841256774588784,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.55,
+        "AVUV" : 0.45
+      },
+      "utility" : 0.10952850130531507,
+      "sharpe" : 0.5878091632848381,
+      "score" : 0.5878091632848381,
+      "delta" : 0.003683485825959676
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.53,
+        "AVUV" : 0.47
+      },
+      "utility" : 0.10824794797397959,
+      "sharpe" : 0.5803914937671857,
+      "score" : 0.5803914937671857,
+      "delta" : -0.0037341836916927607
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.55,
+      "AVUV" : 0.45
+    },
+    "endUtility" : 0.5878091632848381,
+    "improvement" : 0.003683485825959676
+  }, {
+    "epoch" : 5,
+    "startWeights" : {
+      "VOO" : 0.55,
+      "AVUV" : 0.45
+    },
+    "startUtility" : 0.5878091632848381,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.56,
+        "AVUV" : 0.44
+      },
+      "utility" : 0.1101611659021895,
+      "sharpe" : 0.5914410175303623,
+      "score" : 0.5914410175303623,
+      "delta" : 0.0036318542455241465
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.54,
+        "AVUV" : 0.46
+      },
+      "utility" : 0.10888745516456039,
+      "sharpe" : 0.5841256774588784,
+      "score" : 0.5841256774588784,
+      "delta" : -0.003683485825959676
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.56,
+      "AVUV" : 0.44
+    },
+    "endUtility" : 0.5914410175303623,
+    "improvement" : 0.0036318542455241465
+  }, {
+    "epoch" : 6,
+    "startWeights" : {
+      "VOO" : 0.56,
+      "AVUV" : 0.44
+    },
+    "startUtility" : 0.5914410175303623,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.57,
+        "AVUV" : 0.43
+      },
+      "utility" : 0.11078124027649723,
+      "sharpe" : 0.5950203199237589,
+      "score" : 0.5950203199237589,
+      "delta" : 0.003579302393396655
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.55,
+        "AVUV" : 0.45
+      },
+      "utility" : 0.10952850130531507,
+      "sharpe" : 0.5878091632848381,
+      "score" : 0.5878091632848381,
+      "delta" : -0.0036318542455241465
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.57,
+      "AVUV" : 0.43
+    },
+    "endUtility" : 0.5950203199237589,
+    "improvement" : 0.003579302393396655
+  }, {
+    "epoch" : 7,
+    "startWeights" : {
+      "VOO" : 0.57,
+      "AVUV" : 0.43
+    },
+    "startUtility" : 0.5950203199237589,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.58,
+        "AVUV" : 0.42
+      },
+      "utility" : 0.11136173928651501,
+      "sharpe" : 0.5985461646170056,
+      "score" : 0.5985461646170056,
+      "delta" : 0.0035258446932466825
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.56,
+        "AVUV" : 0.44
+      },
+      "utility" : 0.1101611659021895,
+      "sharpe" : 0.5914410175303623,
+      "score" : 0.5914410175303623,
+      "delta" : -0.003579302393396655
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.58,
+      "AVUV" : 0.42
+    },
+    "endUtility" : 0.5985461646170056,
+    "improvement" : 0.0035258446932466825
+  }, {
+    "epoch" : 8,
+    "startWeights" : {
+      "VOO" : 0.58,
+      "AVUV" : 0.42
+    },
+    "startUtility" : 0.5985461646170056,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.59,
+        "AVUV" : 0.41
+      },
+      "utility" : 0.11191833489214767,
+      "sharpe" : 0.6020176611586762,
+      "score" : 0.6020176611586762,
+      "delta" : 0.00347149654167056
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.57,
+        "AVUV" : 0.43
+      },
+      "utility" : 0.11078124027649723,
+      "sharpe" : 0.5950203199237589,
+      "score" : 0.5950203199237589,
+      "delta" : -0.0035258446932466825
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.59,
+      "AVUV" : 0.41
+    },
+    "endUtility" : 0.6020176611586762,
+    "improvement" : 0.00347149654167056
+  }, {
+    "epoch" : 9,
+    "startWeights" : {
+      "VOO" : 0.59,
+      "AVUV" : 0.41
+    },
+    "startUtility" : 0.6020176611586762,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.6,
+        "AVUV" : 0.4
+      },
+      "utility" : 0.11245010027962297,
+      "sharpe" : 0.605433935457015,
+      "score" : 0.605433935457015,
+      "delta" : 0.003416274298338795
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.58,
+        "AVUV" : 0.42
+      },
+      "utility" : 0.11136173928651501,
+      "sharpe" : 0.5985461646170056,
+      "score" : 0.5985461646170056,
+      "delta" : -0.00347149654167056
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.6,
+      "AVUV" : 0.4
+    },
+    "endUtility" : 0.605433935457015,
+    "improvement" : 0.003416274298338795
+  }, {
+    "epoch" : 10,
+    "startWeights" : {
+      "VOO" : 0.6,
+      "AVUV" : 0.4
+    },
+    "startUtility" : 0.605433935457015,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.61,
+        "AVUV" : 0.39
+      },
+      "utility" : 0.1129705104750283,
+      "sharpe" : 0.6087941307309934,
+      "score" : 0.6087941307309934,
+      "delta" : 0.0033601952739784613
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.59,
+        "AVUV" : 0.41
+      },
+      "utility" : 0.11191833489214767,
+      "sharpe" : 0.6020176611586762,
+      "score" : 0.6020176611586762,
+      "delta" : -0.003416274298338795
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.61,
+      "AVUV" : 0.39
+    },
+    "endUtility" : 0.6087941307309934,
+    "improvement" : 0.0033601952739784613
+  }, {
+    "epoch" : 11,
+    "startWeights" : {
+      "VOO" : 0.61,
+      "AVUV" : 0.39
+    },
+    "startUtility" : 0.6087941307309934,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.62,
+        "AVUV" : 0.38
+      },
+      "utility" : 0.11348842462212408,
+      "sharpe" : 0.6120974084473025,
+      "score" : 0.6120974084473025,
+      "delta" : 0.0033032777163091165
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.6,
+        "AVUV" : 0.4
+      },
+      "utility" : 0.11245010027962297,
+      "sharpe" : 0.605433935457015,
+      "score" : 0.605433935457015,
+      "delta" : -0.0033601952739784613
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.62,
+      "AVUV" : 0.38
+    },
+    "endUtility" : 0.6120974084473025,
+    "improvement" : 0.0033032777163091165
+  }, {
+    "epoch" : 12,
+    "startWeights" : {
+      "VOO" : 0.62,
+      "AVUV" : 0.38
+    },
+    "startUtility" : 0.6120974084473025,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.63,
+        "AVUV" : 0.37
+      },
+      "utility" : 0.11398417385426905,
+      "sharpe" : 0.615342949241063,
+      "score" : 0.615342949241063,
+      "delta" : 0.003245540793760493
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.61,
+        "AVUV" : 0.39
+      },
+      "utility" : 0.1129705104750283,
+      "sharpe" : 0.6087941307309934,
+      "score" : 0.6087941307309934,
+      "delta" : -0.0033032777163091165
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.63,
+      "AVUV" : 0.37
+    },
+    "endUtility" : 0.615342949241063,
+    "improvement" : 0.003245540793760493
+  }, {
+    "epoch" : 13,
+    "startWeights" : {
+      "VOO" : 0.63,
+      "AVUV" : 0.37
+    },
+    "startUtility" : 0.615342949241063,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.64,
+        "AVUV" : 0.36
+      },
+      "utility" : 0.11445525431044437,
+      "sharpe" : 0.6185299538182008,
+      "score" : 0.6185299538182008,
+      "delta" : 0.00318700457713772
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.62,
+        "AVUV" : 0.38
+      },
+      "utility" : 0.11348842462212408,
+      "sharpe" : 0.6120974084473025,
+      "score" : 0.6120974084473025,
+      "delta" : -0.003245540793760493
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.64,
+      "AVUV" : 0.36
+    },
+    "endUtility" : 0.6185299538182008,
+    "improvement" : 0.00318700457713772
+  }, {
+    "epoch" : 14,
+    "startWeights" : {
+      "VOO" : 0.64,
+      "AVUV" : 0.36
+    },
+    "startUtility" : 0.6185299538182008,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.65,
+        "AVUV" : 0.35
+      },
+      "utility" : 0.11491936046403109,
+      "sharpe" : 0.6216576438373954,
+      "score" : 0.6216576438373954,
+      "delta" : 0.003127690019194662
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.63,
+        "AVUV" : 0.37
+      },
+      "utility" : 0.11398417385426905,
+      "sharpe" : 0.615342949241063,
+      "score" : 0.615342949241063,
+      "delta" : -0.00318700457713772
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.65,
+      "AVUV" : 0.35
+    },
+    "endUtility" : 0.6216576438373954,
+    "improvement" : 0.003127690019194662
+  }, {
+    "epoch" : 15,
+    "startWeights" : {
+      "VOO" : 0.65,
+      "AVUV" : 0.35
+    },
+    "startUtility" : 0.6216576438373954,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.66,
+        "AVUV" : 0.34
+      },
+      "utility" : 0.11537365127727829,
+      "sharpe" : 0.6247252627695168,
+      "score" : 0.6247252627695168,
+      "delta" : 0.0030676189321213743
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.64,
+        "AVUV" : 0.36
+      },
+      "utility" : 0.11445525431044437,
+      "sharpe" : 0.6185299538182008,
+      "score" : 0.6185299538182008,
+      "delta" : -0.003127690019194662
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.66,
+      "AVUV" : 0.34
+    },
+    "endUtility" : 0.6247252627695168,
+    "improvement" : 0.0030676189321213743
+  }, {
+    "epoch" : 16,
+    "startWeights" : {
+      "VOO" : 0.66,
+      "AVUV" : 0.34
+    },
+    "startUtility" : 0.6247252627695168,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.67,
+        "AVUV" : 0.33
+      },
+      "utility" : 0.1158216773944097,
+      "sharpe" : 0.6277320767325306,
+      "score" : 0.6277320767325306,
+      "delta" : 0.0030068139630138324
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.65,
+        "AVUV" : 0.35
+      },
+      "utility" : 0.11491936046403109,
+      "sharpe" : 0.6216576438373954,
+      "score" : 0.6216576438373954,
+      "delta" : -0.0030676189321213743
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.67,
+      "AVUV" : 0.33
+    },
+    "endUtility" : 0.6277320767325306,
+    "improvement" : 0.0030068139630138324
+  }, {
+    "epoch" : 17,
+    "startWeights" : {
+      "VOO" : 0.67,
+      "AVUV" : 0.33
+    },
+    "startUtility" : 0.6277320767325306,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.68,
+        "AVUV" : 0.32
+      },
+      "utility" : 0.11626069108193036,
+      "sharpe" : 0.6306773752999418,
+      "score" : 0.6306773752999418,
+      "delta" : 0.002945298567411214
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.66,
+        "AVUV" : 0.34
+      },
+      "utility" : 0.11537365127727829,
+      "sharpe" : 0.6247252627695168,
+      "score" : 0.6247252627695168,
+      "delta" : -0.0030068139630138324
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.68,
+      "AVUV" : 0.32
+    },
+    "endUtility" : 0.6306773752999418,
+    "improvement" : 0.002945298567411214
+  }, {
+    "epoch" : 18,
+    "startWeights" : {
+      "VOO" : 0.68,
+      "AVUV" : 0.32
+    },
+    "startUtility" : 0.6306773752999418,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.69,
+        "AVUV" : 0.31
+      },
+      "utility" : 0.11668492713904485,
+      "sharpe" : 0.6335604722807866,
+      "score" : 0.6335604722807866,
+      "delta" : 0.002883096980844768
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.67,
+        "AVUV" : 0.33
+      },
+      "utility" : 0.1158216773944097,
+      "sharpe" : 0.6277320767325306,
+      "score" : 0.6277320767325306,
+      "delta" : -0.002945298567411214
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.69,
+      "AVUV" : 0.31
+    },
+    "endUtility" : 0.6335604722807866,
+    "improvement" : 0.002883096980844768
+  }, {
+    "epoch" : 19,
+    "startWeights" : {
+      "VOO" : 0.69,
+      "AVUV" : 0.31
+    },
+    "startUtility" : 0.6335604722807866,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.7,
+        "AVUV" : 0.3
+      },
+      "utility" : 0.11708979789618766,
+      "sharpe" : 0.6363807064693594,
+      "score" : 0.6363807064693594,
+      "delta" : 0.002820234188572801
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.68,
+        "AVUV" : 0.32
+      },
+      "utility" : 0.11626069108193036,
+      "sharpe" : 0.6306773752999418,
+      "score" : 0.6306773752999418,
+      "delta" : -0.002883096980844768
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.7,
+      "AVUV" : 0.3
+    },
+    "endUtility" : 0.6363807064693594,
+    "improvement" : 0.002820234188572801
+  }, {
+    "epoch" : 20,
+    "startWeights" : {
+      "VOO" : 0.7,
+      "AVUV" : 0.3
+    },
+    "startUtility" : 0.6363807064693594,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.71,
+        "AVUV" : 0.29
+      },
+      "utility" : 0.11748590955577665,
+      "sharpe" : 0.6391374423628695,
+      "score" : 0.6391374423628695,
+      "delta" : 0.0027567358935101094
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.69,
+        "AVUV" : 0.31
+      },
+      "utility" : 0.11668492713904485,
+      "sharpe" : 0.6335604722807866,
+      "score" : 0.6335604722807866,
+      "delta" : -0.002820234188572801
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.71,
+      "AVUV" : 0.29
+    },
+    "endUtility" : 0.6391374423628695,
+    "improvement" : 0.0027567358935101094
+  }, {
+    "epoch" : 21,
+    "startWeights" : {
+      "VOO" : 0.71,
+      "AVUV" : 0.29
+    },
+    "startUtility" : 0.6391374423628695,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.72,
+        "AVUV" : 0.28
+      },
+      "utility" : 0.11787071279097523,
+      "sharpe" : 0.6418300708453099,
+      "score" : 0.6418300708453099,
+      "delta" : 0.00269262848244034
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.7,
+        "AVUV" : 0.3
+      },
+      "utility" : 0.11708979789618766,
+      "sharpe" : 0.6363807064693594,
+      "score" : 0.6363807064693594,
+      "delta" : -0.0027567358935101094
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.72,
+      "AVUV" : 0.28
+    },
+    "endUtility" : 0.6418300708453099,
+    "improvement" : 0.00269262848244034
+  }, {
+    "epoch" : 22,
+    "startWeights" : {
+      "VOO" : 0.72,
+      "AVUV" : 0.28
+    },
+    "startUtility" : 0.6418300708453099,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.73,
+        "AVUV" : 0.27
+      },
+      "utility" : 0.11825957985313919,
+      "sharpe" : 0.6444580098359071,
+      "score" : 0.6444580098359071,
+      "delta" : 0.0026279389905972117
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.71,
+        "AVUV" : 0.29
+      },
+      "utility" : 0.11748590955577665,
+      "sharpe" : 0.6391374423628695,
+      "score" : 0.6391374423628695,
+      "delta" : -0.00269262848244034
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.73,
+      "AVUV" : 0.27
+    },
+    "endUtility" : 0.6444580098359071,
+    "improvement" : 0.0026279389905972117
+  }, {
+    "epoch" : 23,
+    "startWeights" : {
+      "VOO" : 0.73,
+      "AVUV" : 0.27
+    },
+    "startUtility" : 0.6444580098359071,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 2,
+    "variants" : [ {
+      "symbol" : "VOO",
+      "weights" : {
+        "VOO" : 0.74,
+        "AVUV" : 0.26
+      },
+      "utility" : 0.11864941160458915,
+      "sharpe" : 0.6470207049006478,
+      "score" : 0.6470207049006478,
+      "delta" : 0.0025626950647407165
+    }, {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.72,
+        "AVUV" : 0.28
+      },
+      "utility" : 0.11787071279097523,
+      "sharpe" : 0.6418300708453099,
+      "score" : 0.6418300708453099,
+      "delta" : -0.0026279389905972117
+    } ],
+    "winner" : "VOO",
+    "endWeights" : {
+      "VOO" : 0.74,
+      "AVUV" : 0.26
+    },
+    "endUtility" : 0.6470207049006478,
+    "improvement" : 0.0025626950647407165
+  }, {
+    "epoch" : 24,
+    "startWeights" : {
+      "VOO" : 0.74,
+      "AVUV" : 0.26
+    },
+    "startUtility" : 0.6470207049006478,
+    "optimizeBy" : "sharpe",
+    "feasibleCount" : 1,
+    "variants" : [ {
+      "symbol" : "AVUV",
+      "weights" : {
+        "VOO" : 0.73,
+        "AVUV" : 0.27
+      },
+      "utility" : 0.11825957985313919,
+      "sharpe" : 0.6444580098359071,
+      "score" : 0.6444580098359071,
+      "delta" : -0.0025626950647407165
+    } ],
+    "stopped" : "no_improvement",
+    "bestSymbol" : "AVUV",
+    "bestUtility" : 0.6444580098359071,
+    "improvement" : -0.0025626950647407165
+  } ],
+  "finalUtility" : 0.6470207049006478,
+  "totalGain" : 0.07812643134627717,
+  "epochCount" : 25
+}

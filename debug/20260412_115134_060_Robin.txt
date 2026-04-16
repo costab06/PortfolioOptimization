@@ -1,0 +1,125 @@
+=== OPTIMIZATION DEBUG: Robin ===
+Time:   Sun Apr 12 11:51:40 EDT 2026
+Start:  VT= 25.0%  VOO= 25.0%  VYM= 25.0%  SCHD= 25.0%
+        utility = 0.176579
+
+────────────────────────────────────────────────────────────────────────
+Epoch 0  [startUtility=0.176579  feasible=4  step=0.0100  streak=0  T=0.0500]
+  VT+1%  VT= 26.0%  VOO= 24.7%  VYM= 24.7%  SCHD= 24.7%  util=0.176499  Δ=-0.000080
+  VOO+1%  VT= 24.7%  VOO= 26.0%  VYM= 24.7%  SCHD= 24.7%  util=0.176944  Δ=+0.000365
+  VYM+1%  VT= 24.7%  VOO= 24.7%  VYM= 26.0%  SCHD= 24.7%  util=0.176346  Δ=-0.000233
+  SCHD+1%  VT= 24.7%  VOO= 24.7%  VYM= 24.7%  SCHD= 26.0%  util=0.176518  Δ=-0.000061
+  ★ WINNER: Epoch 0  improvement=+0.000365
+────────────────────────────────────────────────────────────────────────
+Epoch 1  [startUtility=0.176944  feasible=4  step=0.0200  streak=1  T=0.0475]
+  VT+2%  VT= 26.7%  VOO= 25.3%  VYM= 24.0%  SCHD= 24.0%  util=0.176781  Δ=-0.000163
+  VOO+2%  VT= 24.0%  VOO= 28.0%  VYM= 24.0%  SCHD= 24.0%  util=0.177665  Δ=+0.000721
+  VYM+2%  VT= 24.0%  VOO= 25.3%  VYM= 26.7%  SCHD= 24.0%  util=0.176481  Δ=-0.000463
+  SCHD+2%  VT= 24.0%  VOO= 25.3%  VYM= 24.0%  SCHD= 26.7%  util=0.176824  Δ=-0.000120
+  ★ WINNER: Epoch 1  improvement=+0.000721
+────────────────────────────────────────────────────────────────────────
+Epoch 2  [startUtility=0.177665  feasible=4  step=0.0300  streak=2  T=0.0451]
+  VT+3%  VT= 27.0%  VOO= 27.0%  VYM= 23.0%  SCHD= 23.0%  util=0.177413  Δ=-0.000252
+  VOO+3%  VT= 23.0%  VOO= 31.0%  VYM= 23.0%  SCHD= 23.0%  util=0.178725  Δ=+0.001059
+  VYM+3%  VT= 23.0%  VOO= 27.0%  VYM= 27.0%  SCHD= 23.0%  util=0.176983  Δ=-0.000683
+  SCHD+3%  VT= 23.0%  VOO= 27.0%  VYM= 23.0%  SCHD= 27.0%  util=0.177495  Δ=-0.000170
+  ★ WINNER: Epoch 2  improvement=+0.001059
+────────────────────────────────────────────────────────────────────────
+Epoch 3  [startUtility=0.178725  feasible=4  step=0.0400  streak=3  T=0.0429]
+  VT+4%  VT= 27.0%  VOO= 29.7%  VYM= 21.7%  SCHD= 21.7%  util=0.178370  Δ=-0.000355
+  VOO+4%  VT= 21.7%  VOO= 35.0%  VYM= 21.7%  SCHD= 21.7%  util=0.180098  Δ=+0.001373
+  VYM+4%  VT= 21.7%  VOO= 29.7%  VYM= 27.0%  SCHD= 21.7%  util=0.177831  Δ=-0.000894
+  SCHD+4%  VT= 21.7%  VOO= 29.7%  VYM= 21.7%  SCHD= 27.0%  util=0.178521  Δ=-0.000204
+  ★ WINNER: Epoch 3  improvement=+0.001373
+────────────────────────────────────────────────────────────────────────
+Epoch 4  [startUtility=0.180098  feasible=4  step=0.0500  streak=4  T=0.0407]
+  VT+5%  VT= 26.7%  VOO= 33.3%  VYM= 20.0%  SCHD= 20.0%  util=0.179622  Δ=-0.000476
+  VOO+5%  VT= 20.0%  VOO= 40.0%  VYM= 20.0%  SCHD= 20.0%  util=0.181754  Δ=+0.001656
+  VYM+5%  VT= 20.0%  VOO= 33.3%  VYM= 26.7%  SCHD= 20.0%  util=0.179008  Δ=-0.001090
+  SCHD+5%  VT= 20.0%  VOO= 33.3%  VYM= 20.0%  SCHD= 26.7%  util=0.179883  Δ=-0.000215
+  ★ WINNER: Epoch 4  improvement=+0.001656
+────────────────────────────────────────────────────────────────────────
+Epoch 5  [startUtility=0.181754  feasible=4  step=0.0500  streak=5  T=0.0387]
+  VT+5%  VT= 25.0%  VOO= 38.3%  VYM= 18.3%  SCHD= 18.3%  util=0.181230  Δ=-0.000524
+  VOO+5%  VT= 18.3%  VOO= 45.0%  VYM= 18.3%  SCHD= 18.3%  util=0.183332  Δ=+0.001578
+  VYM+5%  VT= 18.3%  VOO= 38.3%  VYM= 25.0%  SCHD= 18.3%  util=0.180702  Δ=-0.001052
+  SCHD+5%  VT= 18.3%  VOO= 38.3%  VYM= 18.3%  SCHD= 25.0%  util=0.181601  Δ=-0.000153
+  ★ WINNER: Epoch 5  improvement=+0.001578
+────────────────────────────────────────────────────────────────────────
+Epoch 6  [startUtility=0.183332  feasible=4  step=0.0500  streak=6  T=0.0368]
+  VT+5%  VT= 23.3%  VOO= 43.3%  VYM= 16.7%  SCHD= 16.7%  util=0.182769  Δ=-0.000563
+  VOO+5%  VT= 16.7%  VOO= 50.0%  VYM= 16.7%  SCHD= 16.7%  util=0.184822  Δ=+0.001490
+  VYM+5%  VT= 16.7%  VOO= 43.3%  VYM= 23.3%  SCHD= 16.7%  util=0.182329  Δ=-0.001003
+  SCHD+5%  VT= 16.7%  VOO= 43.3%  VYM= 16.7%  SCHD= 23.3%  util=0.183251  Δ=-0.000081
+  ★ WINNER: Epoch 6  improvement=+0.001490
+────────────────────────────────────────────────────────────────────────
+Epoch 7  [startUtility=0.184822  feasible=4  step=0.0500  streak=7  T=0.0349]
+  VT+5%  VT= 21.7%  VOO= 48.3%  VYM= 15.0%  SCHD= 15.0%  util=0.184218  Δ=-0.000604
+  VOO+5%  VT= 15.0%  VOO= 55.0%  VYM= 15.0%  SCHD= 15.0%  util=0.186217  Δ=+0.001395
+  VYM+5%  VT= 15.0%  VOO= 48.3%  VYM= 21.7%  SCHD= 15.0%  util=0.183867  Δ=-0.000955
+  SCHD+5%  VT= 15.0%  VOO= 48.3%  VYM= 15.0%  SCHD= 21.7%  util=0.184835  Δ=+0.000013
+  ★ WINNER: Epoch 7  improvement=+0.001395
+────────────────────────────────────────────────────────────────────────
+Epoch 8  [startUtility=0.186217  feasible=4  step=0.0500  streak=8  T=0.0332]
+  VT+5%  VT= 20.0%  VOO= 53.3%  VYM= 13.3%  SCHD= 13.3%  util=0.185582  Δ=-0.000635
+  VOO+5%  VT= 13.3%  VOO= 60.0%  VYM= 13.3%  SCHD= 13.3%  util=0.187541  Δ=+0.001324
+  VYM+5%  VT= 13.3%  VOO= 53.3%  VYM= 20.0%  SCHD= 13.3%  util=0.185303  Δ=-0.000914
+  SCHD+5%  VT= 13.3%  VOO= 53.3%  VYM= 13.3%  SCHD= 20.0%  util=0.186316  Δ=+0.000099
+  ★ WINNER: Epoch 8  improvement=+0.001324
+────────────────────────────────────────────────────────────────────────
+Epoch 9  [startUtility=0.187541  feasible=4  step=0.0500  streak=9  T=0.0315]
+  VT+5%  VT= 18.3%  VOO= 58.3%  VYM= 11.7%  SCHD= 11.7%  util=0.186851  Δ=-0.000690
+  VOO+5%  VT= 11.7%  VOO= 65.0%  VYM= 11.7%  SCHD= 11.7%  util=0.188781  Δ=+0.001240
+  VYM+5%  VT= 11.7%  VOO= 58.3%  VYM= 18.3%  SCHD= 11.7%  util=0.186673  Δ=-0.000868
+  SCHD+5%  VT= 11.7%  VOO= 58.3%  VYM= 11.7%  SCHD= 18.3%  util=0.187708  Δ=+0.000168
+  ★ WINNER: Epoch 9  improvement=+0.001240
+────────────────────────────────────────────────────────────────────────
+Epoch 10  [startUtility=0.188781  feasible=4  step=0.0500  streak=10  T=0.0299]
+  VT+5%  VT= 16.7%  VOO= 63.3%  VYM= 10.0%  SCHD= 10.0%  util=0.188062  Δ=-0.000719
+  VOO+5%  VT= 10.0%  VOO= 70.0%  VYM= 10.0%  SCHD= 10.0%  util=0.189965  Δ=+0.001184
+  VYM+5%  VT= 10.0%  VOO= 63.3%  VYM= 16.7%  SCHD= 10.0%  util=0.187954  Δ=-0.000827
+  SCHD+5%  VT= 10.0%  VOO= 63.3%  VYM= 10.0%  SCHD= 16.7%  util=0.189030  Δ=+0.000249
+  ★ WINNER: Epoch 10  improvement=+0.001184
+────────────────────────────────────────────────────────────────────────
+Epoch 11  [startUtility=0.189965  feasible=3  step=0.0500  streak=11  T=0.0284]
+  VT+5%  VT= 15.0%  VOO= 68.3%  VYM=  8.3%  SCHD=  8.3%  util=0.189211  Δ=-0.000754
+  VYM+5%  VT=  8.3%  VOO= 68.3%  VYM= 15.0%  SCHD=  8.3%  util=0.189167  Δ=-0.000798
+  SCHD+5%  VT=  8.3%  VOO= 68.3%  VYM=  8.3%  SCHD= 15.0%  util=0.190271  Δ=+0.000305
+  ★ WINNER: Epoch 11  improvement=+0.000305
+────────────────────────────────────────────────────────────────────────
+Epoch 12  [startUtility=0.190271  feasible=4  step=0.0500  streak=12  T=0.0270]
+  VT+5%  VT= 13.3%  VOO= 66.7%  VYM=  6.7%  SCHD= 13.3%  util=0.189574  Δ=-0.000697
+  VOO+5%  VT=  6.7%  VOO= 73.3%  VYM=  6.7%  SCHD= 13.3%  util=0.191454  Δ=+0.001183
+  VYM+5%  VT=  6.7%  VOO= 66.7%  VYM= 13.3%  SCHD= 13.3%  util=0.189447  Δ=-0.000824
+  SCHD+5%  VT=  6.7%  VOO= 66.7%  VYM=  6.7%  SCHD= 20.0%  util=0.190494  Δ=+0.000224
+  ★ WINNER: Epoch 12  improvement=+0.001183
+────────────────────────────────────────────────────────────────────────
+Epoch 13  [startUtility=0.191454  feasible=3  step=0.0500  streak=13  T=0.0257]
+  VT+5%  VT= 11.7%  VOO= 71.7%  VYM=  5.0%  SCHD= 11.7%  util=0.190723  Δ=-0.000731
+  VYM+5%  VT=  5.0%  VOO= 71.7%  VYM= 11.7%  SCHD= 11.7%  util=0.190661  Δ=-0.000793
+  SCHD+5%  VT=  5.0%  VOO= 71.7%  VYM=  5.0%  SCHD= 18.3%  util=0.191734  Δ=+0.000280
+  ★ WINNER: Epoch 13  improvement=+0.000280
+────────────────────────────────────────────────────────────────────────
+Epoch 14  [startUtility=0.191734  feasible=3  step=0.0500  streak=14  T=0.0244]
+  VT+5%  VT= 10.0%  VOO= 70.0%  VYM=  3.3%  SCHD= 16.7%  util=0.191059  Δ=-0.000675
+  VYM+5%  VT=  3.3%  VOO= 70.0%  VYM= 10.0%  SCHD= 16.7%  util=0.190912  Δ=-0.000822
+  SCHD+5%  VT=  3.3%  VOO= 70.0%  VYM=  3.3%  SCHD= 23.3%  util=0.191931  Δ=+0.000197
+  ★ WINNER: Epoch 14  improvement=+0.000197
+────────────────────────────────────────────────────────────────────────
+Epoch 15  [startUtility=0.191931  feasible=3  step=0.0500  streak=15  T=0.0232]
+  VT+5%  VT=  8.3%  VOO= 68.3%  VYM=  1.7%  SCHD= 21.7%  util=0.191311  Δ=-0.000621
+  VYM+5%  VT=  1.7%  VOO= 68.3%  VYM=  8.3%  SCHD= 21.7%  util=0.191071  Δ=-0.000861
+  SCHD+5%  VT=  1.7%  VOO= 68.3%  VYM=  1.7%  SCHD= 28.3%  util=0.192019  Δ=+0.000087
+  ★ WINNER: Epoch 15  improvement=+0.000087
+────────────────────────────────────────────────────────────────────────
+Epoch 16  [startUtility=0.192019  feasible=4  step=0.0500  streak=16  T=0.0220]
+  VT+5%  VT=  6.7%  VOO= 66.7%  VYM=  0.0%  SCHD= 26.7%  util=0.191478  Δ=-0.000541
+  VOO+5%  VT=  0.0%  VOO= 73.3%  VYM=  0.0%  SCHD= 26.7%  util=0.193337  Δ=+0.001318
+  VYM+5%  VT=  0.0%  VOO= 66.7%  VYM=  6.7%  SCHD= 26.7%  util=0.191112  Δ=-0.000907
+  SCHD+5%  VT=  0.0%  VOO= 66.7%  VYM=  0.0%  SCHD= 33.3%  util=0.191992  Δ=-0.000026
+  ★ WINNER: Epoch 16  improvement=+0.001318
+────────────────────────────────────────────────────────────────────────
+Epoch 17  [startUtility=0.193337  feasible=0  step=0.0500  streak=17  T=0.0209]
+  ✗ STOPPED: no_feasible_variants
+────────────────────────────────────────────────────────────────────────
+FINAL: utility=0.193337  (gain=+0.016759  epochs=18)

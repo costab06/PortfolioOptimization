@@ -1,0 +1,139 @@
+package com.bcfinancial.computeFarm;
+
+import java.util.*;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import org.tiling.computefarm.CancelledException;
+import org.tiling.computefarm.CannotTakeResultException;
+import org.tiling.computefarm.CannotWriteTaskException;
+import org.tiling.computefarm.ComputeSpace;
+import org.tiling.computefarm.Job;
+
+import com.bcfinancial.utility.UtilityFunction;
+import com.bcfinancial.portfolio.*;
+
+
+public class PortfolioOptimizeComputeFarmJob implements Job {
+
+    private static final Logger logger =
+        Logger.getLogger(PortfolioOptimizeComputeFarmJob.class.getName());
+    
+    private Portfolio portfolio;
+    private Date startDate;
+    private Date endDate;
+    private int timePeriodDays;
+    private UtilityFunction utilityFunction;
+    
+    public PortfolioOptimizeComputeFarmJob(Portfolio portfolio, Date startDate, Date endDate, int timePeriodDays, UtilityFunction utilityFunction) {
+	
+        this.portfolio = portfolio;
+	this.startDate = startDate;
+	this.endDate = endDate;
+	this.timePeriodDays = timePeriodDays;
+	this.utilityFunction = utilityFunction;
+    }
+        
+   
+    public void generateTasks(ComputeSpace space) {
+	
+
+	// create a weights array we can mess with
+	int length = portfolio.getWeights().length;
+	double[] tmpWeights = new double[length];
+	
+	// for each symbol, increase its weight by the calculated learningRate while decreasing the others proportionally
+	for (int i=0;i<length;i++) {
+	    System.arraycopy(portfolio.getWeights(),0,tmpWeights,0,length);
+	    System.out.println("Starting Portfolio: "+portfolio);
+	    
+	    
+	    double orig_weight = tmpWeights[i];
+	    tmpWeights[i]*=(1+learningRate(tmpWeights[i]));
+	    double difference =  (double)tmpWeights[i] - (double)orig_weight;
+	    
+	    System.out.println("difference: "+difference);
+	    
+	    
+	    // the difference needs to be subtracted from the 
+	    // other instruments that are > 0 in amounts proportional 
+	    // to their starting weights.
+
+	    double weightSum = 0.0;
+	    for (int j=0;j<tmpWeights.length;j++) {
+		if (j!=i) {
+		    weightSum+=tmpWeights[j];
+		}
+	    }
+	    
+	    System.out.println("weightSum: "+weightSum);
+
+
+	    /* 
+	       for each weith, take it's percentage of the total remaining weights 
+	       and multiply by the difference
+	    */
+ 
+	    
+	    
+	    for (int j=0;j<tmpWeights.length;j++) {
+		if (j!=i) {
+
+		    tmpWeights[j] -= (tmpWeights[j]/weightSum) * difference;
+		    
+		    System.out.println("tmpWeight["+j+"] after: "+tmpWeights[j]);
+		    
+		}
+	    }
+	    
+	    // create a new portfolioCalculationRequest and send out
+	    Portfolio newPortfolio = new Portfolio(portfolio+"_"+i,portfolio.getSymbols(),tmpWeights);
+	    PortfolioCalculationRequest pcr = new PortfolioCalculationRequest(portfolio.getSymbols()[i],newPortfolio,startDate,endDate,timePeriodDays,utilityFunction);
+	    
+	    try {
+		logger.log(Level.INFO, "Writing task "+i+" that weights " + pcr.getPortfolioName());
+		logger.log(Level.INFO, pcr.getPortfolio().toString());
+		
+		space.write(new PortfolioComputeFarmTask(pcr));
+	    } catch (CannotWriteTaskException e) {
+		logger.log(Level.INFO, "Problem writing task "+i+" that weights "+pcr.getPortfolioName() + " to space.", e);
+	    } catch (CancelledException e) {
+		logger.info("Cancelled after writing task "+i+" that weights " + pcr.getPortfolioName() + " to space.");
+	    }
+	}
+    }
+    
+    
+    private double learningRate(double weight) {
+	// the learing rate is 100% - the current weight
+	// so if the instrument is currently 10%, then increate it by 90% of it's starting 10%
+	return 1.0 - weight;
+    }
+    
+    
+    ArrayList portfolioCalculatedDataList = new ArrayList();    
+    public void collectResults(ComputeSpace space) {
+	
+	
+	// retrieve one for each of the weighted portfolios
+	PortfolioCalculatedData ret = null;
+        for (int i = 0; i < portfolio.getWeights().length; i++) {
+            try {
+		ret = (PortfolioCalculatedData) space.take();
+            } catch (CannotTakeResultException e) {
+                logger.log(Level.INFO, "Problem taking result " + i
+			   + " from space.", e);
+            } catch (CancelledException e) {
+                logger.info("Cancelled after retrieving " + i
+			    +  " results from space.");
+            }
+	    
+	    portfolioCalculatedDataList.add(ret);
+        }
+    }
+    
+    public ArrayList getPortfolioCalculatedData() {
+	return portfolioCalculatedDataList;
+    }
+}

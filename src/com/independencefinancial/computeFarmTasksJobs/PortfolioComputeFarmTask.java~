@@ -1,0 +1,50 @@
+package com.bcfinancial.computeFarm;
+
+import java.util.*;
+import java.io.Serializable;
+import java.util.logging.Logger;
+import com.bcfinancial.portfolio.*;
+import com.bcfinancial.utility.*;
+
+import org.tiling.computefarm.Task;
+
+public class PortfolioComputeFarmTask implements Serializable, Task {
+    
+    private static final Logger logger =
+        Logger.getLogger(PortfolioComputeFarmTask.class.getName());
+    
+    private PortfolioCalculationRequest portfolioCalculationRequest = null;
+    private double[] sortedReturns = null;
+    private double[] sortedUtilities = null;
+    private double weightedUtility;
+    private PortfolioCalculatedData portfolioCalculatedData = null;
+    
+    private boolean useCache = true;
+    
+    
+    public PortfolioComputeFarmTask(PortfolioCalculationRequest portfolioCalculationRequest) {
+	
+	this.portfolioCalculationRequest = portfolioCalculationRequest;
+    }
+    
+    public Object execute() {
+        logger.info("====== Computing Portfolio Data ======\n"+portfolioCalculationRequest);
+	
+	PortfolioCalculator portfolioCalculator = new PortfolioCalculator(useCache);
+	
+	try {
+
+	    sortedReturns = portfolioCalculator.getSortedReturnDistribution(portfolioCalculationRequest);
+
+	    sortedUtilities = portfolioCalculationRequest.getUtilityFunction().getUtilities(sortedReturns);
+	    
+	    weightedUtility = portfolioCalculationRequest.getUtilityFunction().getWeightedUtility(sortedReturns);
+
+	    portfolioCalculatedData = new PortfolioCalculatedData(portfolioCalculationRequest,sortedReturns,sortedUtilities,weightedUtility);
+	} catch (Exception e) {
+	    logger.info("Exception Computing Sorted Return Distribution: "+e);
+	    e.printStackTrace();
+	}
+	return portfolioCalculatedData;
+    }
+}
